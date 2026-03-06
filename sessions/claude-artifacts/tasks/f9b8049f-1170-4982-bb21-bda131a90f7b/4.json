@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Update command file template paths",
+  "description": "Update paths in specify.md, plan.md, and tasks.md command files",
+  "activeForm": "Updating command file paths",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

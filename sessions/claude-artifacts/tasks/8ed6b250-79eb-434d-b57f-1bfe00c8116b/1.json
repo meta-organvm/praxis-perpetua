@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Phase 1: File moves (git mv + deletes + mkdir)",
+  "description": "Delete 4 duplicates, create directory skeleton, git mv all files to new locations per the mapping table",
+  "activeForm": "Moving files to new locations",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

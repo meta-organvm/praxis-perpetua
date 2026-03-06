@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "A.3 — Fix flagship CI workflows (5 repos)",
+  "description": "Fix CI for: recursive-engine--generative-entity (ORGAN-I), agentic-titan (ORGAN-IV), metasystem-master (ORGAN-II), orchestration-start-here (ORGAN-IV), organvm-corpvs-testamentvm (meta-organvm). Read logs, diagnose, fix workflows/deps, deploy via gh api.",
+  "activeForm": "Fixing flagship CI workflows",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

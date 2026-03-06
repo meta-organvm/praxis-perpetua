@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Ask clarifying questions",
+  "description": "Ask one-at-a-time questions to understand: what interaction means (data flow? events? API calls?), what git tracking means (monorepo? submodules? independent repos with coordination?), desired granularity",
+  "activeForm": "Asking clarifying questions",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

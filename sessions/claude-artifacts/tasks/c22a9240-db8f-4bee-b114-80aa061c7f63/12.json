@@ -1,0 +1,9 @@
+{
+  "id": "12",
+  "subject": "Stream 7C: Write integration tests",
+  "description": "Write E2E integration tests for auth flows, payment flows, and main user journeys. Configure CI/CD test pipeline.",
+  "activeForm": "Writing integration tests",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

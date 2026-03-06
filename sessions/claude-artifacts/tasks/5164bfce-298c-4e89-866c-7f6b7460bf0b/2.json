@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Commit 2: GitHub community files & templates",
+  "description": "Create issue templates, CODE_OF_CONDUCT, SECURITY.md in .github/, CODEOWNERS",
+  "activeForm": "Creating GitHub community files",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

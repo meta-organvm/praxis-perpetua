@@ -1,0 +1,14 @@
+{
+  "id": "1",
+  "subject": "Phase 0.5: Update registry-v2.json with actual GitHub state",
+  "description": "Reconcile registry-v2.json with actual GitHub repos. ORGAN-I has 18 repos (vs 10 registered), ORGAN-II has 14 (vs 13). Classify the extra repos, fix remote misalignments, add missing entries.",
+  "activeForm": "Updating registry with actual GitHub state",
+  "status": "in_progress",
+  "blocks": [
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "blockedBy": []
+}

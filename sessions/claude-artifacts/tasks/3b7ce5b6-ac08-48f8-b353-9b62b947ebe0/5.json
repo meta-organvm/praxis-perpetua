@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Write design doc and transition to implementation planning",
+  "description": "Save design to docs/plans/, invoke writing-plans skill",
+  "activeForm": "Writing design doc",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

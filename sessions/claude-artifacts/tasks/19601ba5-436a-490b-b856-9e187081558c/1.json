@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Explore project context",
+  "description": "Examine existing ORGANVM system structure: governance rules, registry, seed.yaml contracts, organ-level CLAUDE.md files, and any existing interaction documentation",
+  "activeForm": "Exploring project context",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Phase F: Role-Based Access Control (RBAC)",
+  "description": "Implement RBAC for role confusion prevention:\n- titan/safety/rbac.py (Role-based access control)\n- titan/safety/permissions.py (Permission definitions)\n- Modify agents/framework/base_agent.py for permission checks\n- Modify tools/executor.py to validate tool calls against roles",
+  "activeForm": "Implementing RBAC",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

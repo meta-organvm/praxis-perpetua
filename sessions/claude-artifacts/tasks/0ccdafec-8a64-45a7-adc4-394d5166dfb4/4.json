@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Extend config.js with media and livingPantheon sections",
+  "description": "Add new configuration sections to js/config.js for media infrastructure (R2 storage URLs, player settings) and Living Pantheon features (glitch frequency, morphing settings, ambient audio).",
+  "activeForm": "Extending configuration file",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

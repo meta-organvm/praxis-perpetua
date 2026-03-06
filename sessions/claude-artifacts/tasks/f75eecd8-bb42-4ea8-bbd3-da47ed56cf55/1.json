@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "subject": "Add CODE_OF_CONDUCT.md",
+  "description": "Create .github/CODE_OF_CONDUCT.md using Contributor Covenant v2.1 adapted for the Styx project.",
+  "activeForm": "Adding CODE_OF_CONDUCT.md",
+  "status": "in_progress",
+  "blocks": [
+    "3"
+  ],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Create drafts production tooling (DIAL-WORKSHEET + TEMPLATE)",
+  "description": "Create drafts/DIAL-WORKSHEET.md (3-dial walkthrough + 5-axis check + format selection) and drafts/TEMPLATE.md (yaml front matter + fragment structure + self-check). Mirrors krypto-velamen's ENCODING-WORKSHEET and fragment template.",
+  "activeForm": "Creating production tooling",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

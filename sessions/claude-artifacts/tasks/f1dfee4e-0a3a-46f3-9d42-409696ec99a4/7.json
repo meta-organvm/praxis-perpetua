@@ -1,0 +1,13 @@
+{
+  "id": "7",
+  "subject": "Phase 5: Infrastructure hardening (CI upgrades, dependabot, topics)",
+  "description": "Upgrade 2 ci-minimal.yml repos, deploy org-wide dependabot.yml to 8 orgs, set GitHub topics on all repos, remove old ci-minimal.yml from 4 repos.",
+  "activeForm": "Hardening infrastructure",
+  "status": "in_progress",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": [
+    "1"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Write 10 PHANTASMATA world research reports",
+  "description": "Create world-01 through world-10 in research/ directory. Each 60-80K bytes. Dispatch in 4 rounds of ~3 reports each due to memory constraints. Topics: found footage, digital paranoia, giallo ecosystem, dream cinema, body transgression, Asian horror, horror sound, philosophy of fear, screen life, ARGs/immersive horror.",
+  "activeForm": "Writing world research reports",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

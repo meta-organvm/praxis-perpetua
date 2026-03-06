@@ -1,0 +1,9 @@
+{
+  "id": "10",
+  "subject": "Implement SHA256 checksums and glob matching",
+  "description": "Replace base64 stub with crypto.createHash('sha256') in local-fs-integration.ts and replace regex hack with minimatch.",
+  "activeForm": "Implementing checksums and glob matching",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

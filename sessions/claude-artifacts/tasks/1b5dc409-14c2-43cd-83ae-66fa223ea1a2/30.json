@@ -1,0 +1,9 @@
+{
+  "id": "30",
+  "subject": "Fix README badges, test counts, and license line",
+  "description": "Update badges (1,107 tests, MIT license), test section counts, CI section count, and license line at bottom. Gaps 1-3, 8-9.",
+  "activeForm": "Updating README.md",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Fix hunter-protocol integration test failures",
+  "description": "hunter-protocol.integration.test.ts already uses buildTestApp but fails with \"Profile creation failed: undefined\". Investigate test fixture setup.",
+  "activeForm": "Fixing hunter-protocol integration tests",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

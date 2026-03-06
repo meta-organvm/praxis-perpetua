@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Create mcp/prompts.py with MCP Prompts API",
+  "description": "Implement MCP prompts for expansive-inquiry, quick-inquiry, creative-inquiry, model-comparison, route-task. Include MCPPrompt, MCPPromptArgument dataclasses, get_inquiry_prompts(), get_prompt_messages().",
+  "activeForm": "Creating MCP prompts module",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "1",
+  "subject": "Phase 0: Fix portfolio site stale numbers",
+  "description": "Fix stale numbers on 4444J99/portfolio (Astro site on GitHub Pages). Update about.astro, resume.astro, and audit other pages for \"78 repos\" → \"81 repos\", \"289K words\" → \"320K words\", essay counts, etc. Deploy via gh api.",
+  "activeForm": "Fixing portfolio site numbers",
+  "status": "completed",
+  "blocks": [
+    "2",
+    "8"
+  ],
+  "blockedBy": []
+}

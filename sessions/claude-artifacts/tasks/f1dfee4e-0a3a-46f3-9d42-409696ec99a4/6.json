@@ -1,0 +1,13 @@
+{
+  "id": "6",
+  "subject": "Phase 4: Jekyll site enhancement",
+  "description": "Fix index.md, create about.md, tags.html, header/footer includes, extract CSS, update layouts with navigation.",
+  "activeForm": "Enhancing Jekyll site",
+  "status": "completed",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": [
+    "1"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "9",
+  "subject": "Update dependencies and CI configuration",
+  "description": "Update pyproject.toml with new dependencies (asyncpg, sqlalchemy, alembic, deepeval) and update CI workflow to make lint/typecheck blocking",
+  "activeForm": "Updating dependencies",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

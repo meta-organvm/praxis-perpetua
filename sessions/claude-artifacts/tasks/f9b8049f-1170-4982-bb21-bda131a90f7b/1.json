@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Move templates to assets/templates/",
+  "description": "Create assets/templates/ directory and git mv the 4 template files from references/",
+  "activeForm": "Moving template files",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

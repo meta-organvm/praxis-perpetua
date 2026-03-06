@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "subject": "Fix Gemini extension install JSONs",
+  "description": "Update source paths in ~/.local/share/gemini/extensions/example-skills/.gemini-extension-install.json and document-skills equivalent from /Users/4jp/.local/share/ai-skills/ to /Users/4jp/Workspace/organvm-iv-taxis/a-i--skills/",
+  "activeForm": "Fixing Gemini extension paths",
+  "status": "completed",
+  "blocks": [
+    "5"
+  ],
+  "blockedBy": []
+}

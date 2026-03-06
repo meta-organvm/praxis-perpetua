@@ -1,0 +1,9 @@
+{
+  "id": "11",
+  "subject": "Create titan/workflows/inquiry_temporal.py",
+  "description": "Implement TemporalTracker with create_chain(), compute_diff(). Add TemporalChain, InquiryDiff, StageDiff dataclasses.",
+  "activeForm": "Creating temporal inquiry tracker",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Add inquiry, knowledge, workflow CLI commands",
+  "description": "Add titan inquiry (start, compare, export, status, list), titan knowledge (search, explore, export, stats), titan workflow (execute, visualize, list, validate) commands to cli.py",
+  "activeForm": "Adding CLI commands",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

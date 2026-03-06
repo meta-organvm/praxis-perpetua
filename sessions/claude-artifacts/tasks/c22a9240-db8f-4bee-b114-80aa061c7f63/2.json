@@ -1,0 +1,12 @@
+{
+  "id": "2",
+  "subject": "Stream 1B: Implement useBattleQueue hook",
+  "description": "Create useBattleQueue hook with Supabase Realtime matchmaking for PvP/Team battles. Add database migration for battle_sessions, battle_participants, battle_results tables.",
+  "activeForm": "Implementing battle queue hook",
+  "status": "completed",
+  "blocks": [
+    "13",
+    "14"
+  ],
+  "blockedBy": []
+}

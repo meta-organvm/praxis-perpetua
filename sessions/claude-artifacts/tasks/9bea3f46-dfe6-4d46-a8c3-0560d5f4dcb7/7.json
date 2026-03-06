@@ -1,0 +1,13 @@
+{
+  "id": "7",
+  "subject": "Phase 1: Write README for all ORGAN-II repos (13 repos)",
+  "description": "Write comprehensive READMEs/populate/archive for ORGAN-II art repos. Includes portfolio infrastructure (showcase-portfolio, archive-past-works, case-studies-methodology). 2500+ words + demos for active repos.",
+  "activeForm": "Writing ORGAN-II READMEs",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": [
+    "1",
+    "3",
+    "5"
+  ]
+}

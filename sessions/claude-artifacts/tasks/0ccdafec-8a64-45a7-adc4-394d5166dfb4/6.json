@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Implement GlobalGlitchSystem.js with text glitch effect",
+  "description": "Create the global glitch system that triggers 2% random visual glitches. Start with text glitch effect type.",
+  "activeForm": "Implementing global glitch system",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

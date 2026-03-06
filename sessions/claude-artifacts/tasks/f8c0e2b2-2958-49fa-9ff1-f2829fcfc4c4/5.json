@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Commit all work and push to origin",
+  "description": "Stage and commit in logical groups (comparative report, world research, production tooling, catalog update), then push to origin main. Verify checklist.",
+  "activeForm": "Committing and pushing",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

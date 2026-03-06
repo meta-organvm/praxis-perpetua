@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Sprint 1: G13 Custom Mask Creation UI",
+  "description": "Wire MaskEditor into admin pages, add MaskSelector integration with API-fetched custom masks, update audit docs. 2 commits.",
+  "activeForm": "Implementing G13 Custom Masks",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

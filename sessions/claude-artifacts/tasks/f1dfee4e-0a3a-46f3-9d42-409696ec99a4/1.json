@@ -1,0 +1,16 @@
+{
+  "id": "1",
+  "subject": "Phase 0: Commit local changes + fix registry accuracy",
+  "description": "Commit registry-v2.json + quarterly-sustainability-checklist.md, then fix 4 ci_workflow fields, remove 2 ORGAN-IV phantoms, and update counts (total_repos 81→79, ORGAN-IV repository_count 9→7, DESIGN_ONLY 15→13)",
+  "activeForm": "Fixing registry accuracy and committing local changes",
+  "status": "completed",
+  "blocks": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "blockedBy": []
+}

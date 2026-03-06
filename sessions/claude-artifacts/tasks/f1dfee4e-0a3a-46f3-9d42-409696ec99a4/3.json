@@ -1,0 +1,13 @@
+{
+  "id": "3",
+  "subject": "Phase 2 Tier 1: Promote 3 CRITICAL repos to PRODUCTION",
+  "description": "Expand auto-revision-epistemic-engine, showcase-portfolio, case-studies-methodology from skeleton PROTOTYPE to real PRODUCTION code with 20-30 tests each, CLI entry points, and green CI.",
+  "activeForm": "Building CRITICAL PRODUCTION repos",
+  "status": "in_progress",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": [
+    "1"
+  ]
+}

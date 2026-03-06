@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Phase 0.5: Classify 4444JPP orphan repos",
+  "description": "Classify ~45 orphan repos from 4444JPP personal account. Most are forks (anthropic-cookbook, p5.js, etc.) that should be archived. Identify any original work that needs organ assignment.",
+  "activeForm": "Classifying personal account repos",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

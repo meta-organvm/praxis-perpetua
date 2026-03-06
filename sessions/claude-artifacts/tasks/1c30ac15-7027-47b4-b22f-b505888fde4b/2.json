@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "A.2 — Downgrade SKELETON repos to minimal CI",
+  "description": "Replace ci-python.yml/ci-typescript.yml with ci-minimal.yml for: a-recursive-root, cognitive-archaelogy-tribunal (ORGAN-I), example-generative-music (ORGAN-II). Investigate cog-init-1-0- and collective-persona-operations failures. Use proven template from repos where Minimal CI passes.",
+  "activeForm": "Downgrading SKELETON repos to minimal CI",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

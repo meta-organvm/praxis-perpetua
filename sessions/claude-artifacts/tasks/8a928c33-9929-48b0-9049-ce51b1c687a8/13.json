@@ -1,0 +1,9 @@
+{
+  "id": "13",
+  "subject": "Explore project context",
+  "description": "Check current project state, recent commits, and identify what the user wants to brainstorm next",
+  "activeForm": "Exploring project context",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

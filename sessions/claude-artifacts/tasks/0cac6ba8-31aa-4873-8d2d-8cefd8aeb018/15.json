@@ -1,0 +1,9 @@
+{
+  "id": "15",
+  "subject": "Write comprehensive tests for Phase 20",
+  "description": "Create test files for mcp (prompts, resources, notifications), cli (inquiry, knowledge, workflow), api (analysis, knowledge), workflows (conversational, narrative, temporal, visualization, personality)",
+  "activeForm": "Writing Phase 20 tests",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

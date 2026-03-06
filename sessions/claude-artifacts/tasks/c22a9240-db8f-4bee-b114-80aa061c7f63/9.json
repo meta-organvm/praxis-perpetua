@@ -1,0 +1,9 @@
+{
+  "id": "9",
+  "subject": "Stream 6B: Implement IndexedDB sync and analytics",
+  "description": "Create syncService.js with IndexedDB sync queue for offline support. Create analyticsService.js for event tracking. Add data export (CSV/JSON).",
+  "activeForm": "Implementing offline sync and analytics",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

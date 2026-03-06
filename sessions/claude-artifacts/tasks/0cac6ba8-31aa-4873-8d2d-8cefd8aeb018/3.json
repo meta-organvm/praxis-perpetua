@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Create mcp/notifications.py for real-time notifications",
+  "description": "Implement NotificationManager class with events for agent/state, topology/changed, inquiry/stage, learning/feedback",
+  "activeForm": "Creating MCP notifications module",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

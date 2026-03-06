@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Create titan/api/knowledge_routes.py",
+  "description": "Implement GET /api/knowledge/search, GET /api/knowledge/graph, GET /api/knowledge/stats",
+  "activeForm": "Creating knowledge routes",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

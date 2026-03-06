@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Create .github-template/minimal-core/ community health files",
+  "description": "Create the minimal-core file set: parameterized CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, SUPPORT.md, GOVERNANCE.md, LICENSE, FUNDING.yml, CODEOWNERS, PULL_REQUEST_TEMPLATE.md, 6 essential issue templates, and per-organ CLAUDE.md template",
+  "activeForm": "Creating minimal-core templates",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

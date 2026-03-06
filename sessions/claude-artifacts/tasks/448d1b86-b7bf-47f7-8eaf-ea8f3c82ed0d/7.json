@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "External service wiring (Phase 3)",
+  "description": "Service status endpoint, settings DB table + API, feature flags service, admin/user settings pages, mock mode indicators, graceful degradation fixes.",
+  "activeForm": "Wiring external service integrations",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

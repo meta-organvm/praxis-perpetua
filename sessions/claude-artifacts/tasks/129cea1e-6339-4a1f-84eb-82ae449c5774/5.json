@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Create webhook routes (server/routes/webhooks.ts)",
+  "description": "Create webhook routes for Twilio SMS/Voice status, SendGrid events, and Plaid webhooks. Follow existing route patterns with Zod validation and asyncHandler.",
+  "activeForm": "Creating webhook routes",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

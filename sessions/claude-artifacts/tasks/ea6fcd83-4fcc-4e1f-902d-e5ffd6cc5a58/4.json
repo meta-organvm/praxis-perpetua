@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Add FUNDING.yml and enable Discussions",
+  "description": "Add .github/FUNDING.yml, enable GitHub Discussions, disable wiki",
+  "activeForm": "Configuring GitHub repo settings",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Migrate 8 test files from buildServer to buildTestApp",
+  "description": "Change cv.test.ts, cv_entities.test.ts, backups.test.ts, versioning.test.ts, artifacts.test.ts, masks.test.ts, performance.test.ts, redaction.test.ts to use buildTestApp from app-builder.ts instead of buildServer. Also fix the one buildServer call in profiles.test.ts line 183.",
+  "activeForm": "Migrating test files to buildTestApp",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

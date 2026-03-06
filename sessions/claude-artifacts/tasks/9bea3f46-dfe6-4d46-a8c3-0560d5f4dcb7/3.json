@@ -1,0 +1,14 @@
+{
+  "id": "3",
+  "subject": "Phase 0.5: Create 4 missing GitHub organizations",
+  "description": "Create: 4444j99-orchestration, 4444j99-organs, 4444j99-community, 4444j99-marketing. These don't exist yet but are needed for ORGAN IV-VII.",
+  "activeForm": "Creating missing GitHub organizations",
+  "status": "pending",
+  "blocks": [
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "blockedBy": []
+}

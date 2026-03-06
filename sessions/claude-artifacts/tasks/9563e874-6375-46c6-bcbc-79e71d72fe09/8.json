@@ -1,0 +1,11 @@
+{
+  "id": "8",
+  "subject": "Create ORGANVM MCP server project skeleton",
+  "description": "New Python MCP server at meta-organvm/organvm-mcp-server/ with pyproject.toml, seed.yaml, CLAUDE.md, and directory structure",
+  "activeForm": "Creating MCP server project skeleton",
+  "status": "completed",
+  "blocks": [
+    "9"
+  ],
+  "blockedBy": []
+}

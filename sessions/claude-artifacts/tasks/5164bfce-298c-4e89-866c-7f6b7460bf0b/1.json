@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Commit 1: Root declutter — move docs & configs",
+  "description": "Move 14+ files out of root, update references, update .gitignore, delete generate-monorepo.py. Target: 57 → ~22 root items.",
+  "activeForm": "Decluttering root directory",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

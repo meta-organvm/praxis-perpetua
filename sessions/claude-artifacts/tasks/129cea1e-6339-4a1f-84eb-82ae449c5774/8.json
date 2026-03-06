@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "Add Swagger UI to server/index.ts",
+  "description": "Update server/index.ts to serve Swagger UI at /api/docs using swagger-ui-express.",
+  "activeForm": "Adding Swagger UI to server",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

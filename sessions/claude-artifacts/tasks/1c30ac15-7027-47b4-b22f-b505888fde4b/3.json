@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "C.2 — Deploy issue templates to 7 orgs",
+  "description": "Deploy issue templates (bug_report.md, feature_request.md, documentation.md, config.yml) and PULL_REQUEST_TEMPLATE.md to .github repos in: organvm-i-theoria, organvm-iii-ergon, organvm-iv-taxis, organvm-v-logos, organvm-vi-koinonia, organvm-vii-kerygma, meta-organvm",
+  "activeForm": "Deploying issue templates to 7 orgs",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

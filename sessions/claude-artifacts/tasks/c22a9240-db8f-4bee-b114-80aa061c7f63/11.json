@@ -1,0 +1,9 @@
+{
+  "id": "11",
+  "subject": "Stream 7B: Write tests for social/health components",
+  "description": "Write component test suites with snapshots for social and health components including GameplayHub, FriendsList, ActivityFeed, HealthDashboard.",
+  "activeForm": "Writing component tests",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

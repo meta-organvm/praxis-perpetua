@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "subject": "Update CHANGELOG.md with Sprints 5-9",
+  "description": "Add Sprint 5 through Sprint 9 entries to CHANGELOG.md. Currently it covers 0.0.1 through 0.4.0. Need entries for the later sprints (0.5.0 through 0.9.0) reflecting the work done in those sprints.",
+  "activeForm": "Updating CHANGELOG.md",
+  "status": "pending",
+  "blocks": [
+    "3"
+  ],
+  "blockedBy": []
+}

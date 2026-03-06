@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Remove auth fallbacks in developer API",
+  "description": "Remove request.user?.id || 'user-id' fallbacks in developer-api.ts now that global auth is enforced.",
+  "activeForm": "Removing developer API auth fallbacks",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

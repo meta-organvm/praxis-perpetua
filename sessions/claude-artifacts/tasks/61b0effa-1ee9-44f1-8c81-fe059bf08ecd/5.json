@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Sprint 5: G10 Blockchain/SBT Integration",
+  "description": "SBT schema, EVM interaction layer with viem, API routes + migration, wallet connection UI, tests + ADR. 5 commits.",
+  "activeForm": "Implementing G10 Blockchain/SBT",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

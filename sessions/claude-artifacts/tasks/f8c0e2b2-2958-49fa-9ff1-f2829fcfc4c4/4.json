@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Update CATALOG.md + Knowledge Graph + Neon DB",
+  "description": "After all files created: update CATALOG.md (25→37 files), add 12 document entities to Knowledge Graph, insert 12 rows into Neon documents table, update repositories totals.",
+  "activeForm": "Updating catalog and databases",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

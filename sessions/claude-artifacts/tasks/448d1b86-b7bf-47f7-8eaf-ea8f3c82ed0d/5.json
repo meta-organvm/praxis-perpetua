@@ -1,0 +1,12 @@
+{
+  "id": "5",
+  "subject": "Complete Phase 2 medium effort (2.7-2.14)",
+  "description": "Wire HunterDashboard filters, BatchApplications API, GraphView responsiveness, Interview download, Hunter job detail, MentorProfiles API, CommunityLeaderboard, Admin Beta dashboard.",
+  "activeForm": "Completing Phase 2 medium effort tasks",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [
+    "1",
+    "3"
+  ]
+}

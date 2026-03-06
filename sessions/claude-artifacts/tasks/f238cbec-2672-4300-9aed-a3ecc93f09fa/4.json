@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Add ownership middleware to profile-scoped routes",
+  "description": "Add createOwnershipMiddleware to cv.ts, curriculum-vitae-multiplex.ts, narratives.ts, exports.ts, backups.ts, artifacts.ts, attestation-blocks.ts",
+  "activeForm": "Adding ownership middleware",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

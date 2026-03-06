@@ -1,0 +1,9 @@
+{
+  "id": "13",
+  "subject": "Create dashboard templates (inquiry, analysis, knowledge)",
+  "description": "Create inquiry.html, inquiry_detail.html, analysis.html, knowledge.html templates with appropriate visualizations",
+  "activeForm": "Creating dashboard templates",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

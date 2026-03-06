@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Create 15 new skills to balance category distribution",
+  "description": "Create 15 new skills across Data (3), Knowledge (3), Creative (3), Integrations (3), Specialized (2), and Tools (1) categories. Each skill needs SKILL.md and references/ directory with supporting documents.",
+  "activeForm": "Creating new skills",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "6",
+  "subject": "Wire resume export and E2E flow (Phase 1.5-1.6)",
+  "description": "Wire Export button to GET /:profileId/export/pdf + browser download. Implement Download All and Share. Verify full E2E flow: Dashboard → Profile → Mask → Timeline → Narrative → Export.",
+  "activeForm": "Wiring resume export and verifying E2E flow",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [
+    "1",
+    "2"
+  ]
+}

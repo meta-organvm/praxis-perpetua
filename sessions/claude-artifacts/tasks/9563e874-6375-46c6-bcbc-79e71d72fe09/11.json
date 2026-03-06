@@ -1,0 +1,11 @@
+{
+  "id": "11",
+  "subject": "Create shared CI action (system-check) in meta-organvm/.github",
+  "description": "Composite GitHub Action at .github/actions/system-check/ with action.yml and check scripts",
+  "activeForm": "Writing shared CI action stubs",
+  "status": "in_progress",
+  "blocks": [
+    "12"
+  ],
+  "blockedBy": []
+}

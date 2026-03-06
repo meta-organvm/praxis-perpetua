@@ -1,0 +1,14 @@
+{
+  "id": "2",
+  "subject": "Phase 1: Write 3 high-impact essays (19, 20, 21)",
+  "description": "Write 3 NEW essays (topics not yet covered): Essay 19 \"The Parallel Launch\", Essay 20 \"Registry-Driven Development\", Essay 21 \"The Promotion Pipeline\". Deploy to organvm-v-logos/public-process/_posts/. Update registry and app materials.",
+  "activeForm": "Writing essays 19-21",
+  "status": "completed",
+  "blocks": [
+    "3",
+    "8"
+  ],
+  "blockedBy": [
+    "1"
+  ]
+}

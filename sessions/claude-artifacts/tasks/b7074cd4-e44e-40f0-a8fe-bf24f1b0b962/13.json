@@ -1,0 +1,9 @@
+{
+  "id": "13",
+  "subject": "Phase 9: Implement audio suite QoL",
+  "description": "4 files: 28_audio_recording.scd (multi-track record), 28_audio_monitoring.scd (meters, FFT, scope), 28_audio_sync.scd (MIDI clock, Link), 28_audio_presets.scd (save/load, preset morph).",
+  "activeForm": "Building audio suite",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "D.1-D.3 — Registry update, validation, commit",
+  "description": "Update registry-v2.json (5 status changes, 2 new repos, recalc distributions). Enhance sustainability checklist (C.3). Re-run all validation scripts. Commit local changes.",
+  "activeForm": "Updating registry and running validation",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

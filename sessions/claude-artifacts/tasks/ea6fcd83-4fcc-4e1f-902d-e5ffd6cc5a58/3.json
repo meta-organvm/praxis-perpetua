@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Remove stale tracked files",
+  "description": "Remove dev_final_v6.log, ngrok_app.yml, ngrok_final_v6.log, and .idea/ from git tracking",
+  "activeForm": "Removing stale files from tracking",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

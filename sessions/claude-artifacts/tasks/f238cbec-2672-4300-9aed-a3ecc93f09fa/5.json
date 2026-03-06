@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Add admin middleware to taxonomy mutations",
+  "description": "Protect POST/PATCH/DELETE on masks, epochs, stages with admin middleware. GETs remain public.",
+  "activeForm": "Adding admin middleware to taxonomy",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

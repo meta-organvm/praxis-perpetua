@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Fix a-i--skills speckit SHA256 mismatch",
+  "description": "Regenerate the skills manifest to update the speckit skill's SHA256 hash so CI validation passes.",
+  "activeForm": "Fixing skills manifest SHA256",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

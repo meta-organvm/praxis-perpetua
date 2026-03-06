@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "subject": "Create comprehensive seed profiles (Phase 1.1-1.2)",
+  "description": "Replace stub \"Seed Demo\" / \"Demo Two/Three/Five\" with rich professional profiles. Profile 1: Senior architect (12+ years), 4-6 experiences, 2-3 educations, 3-5 projects, 8-12 skills, publications, awards, certs, timeline events. Profile 2: Creative researcher/designer contrasting archetype.",
+  "activeForm": "Creating comprehensive seed profiles",
+  "status": "completed",
+  "blocks": [
+    "2",
+    "5",
+    "6"
+  ],
+  "blockedBy": []
+}

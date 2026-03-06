@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "subject": "Add GitHub MCP policy to canonical CLAUDE.md",
+  "description": "Copy the `## GitHub MCP Usage Policy` section from ~/Workspace/a-i--skills/CLAUDE.md to ~/Workspace/organvm-iv-taxis/a-i--skills/CLAUDE.md (before the ORGANVM:AUTO block)",
+  "activeForm": "Adding GitHub MCP policy to canonical CLAUDE.md",
+  "status": "completed",
+  "blocks": [
+    "5"
+  ],
+  "blockedBy": []
+}

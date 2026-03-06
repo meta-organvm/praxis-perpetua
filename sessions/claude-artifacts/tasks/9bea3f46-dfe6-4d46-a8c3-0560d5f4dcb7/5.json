@@ -1,0 +1,14 @@
+{
+  "id": "5",
+  "subject": "Phase 0.5: Generate task manifest YAML for all repos",
+  "description": "Create machine-readable task-manifest.yaml listing every repo with: org, organ, action (REWRITE/REVISE/POPULATE/ARCHIVE/MERGE), template, current_score, target_score, estimated hours",
+  "activeForm": "Generating task manifest",
+  "status": "pending",
+  "blocks": [
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "blockedBy": []
+}

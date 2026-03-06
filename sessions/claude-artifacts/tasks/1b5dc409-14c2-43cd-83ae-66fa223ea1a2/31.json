@@ -1,0 +1,9 @@
+{
+  "id": "31",
+  "subject": "Set repository topics on GitHub",
+  "description": "Use gh repo edit to set topics: typescript, nestjs, react-native, nextjs, behavioral-economics, peer-review, fintech, monorepo. Gap 4.",
+  "activeForm": "Setting repository topics",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

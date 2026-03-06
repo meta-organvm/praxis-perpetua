@@ -1,0 +1,9 @@
+{
+  "id": "12",
+  "subject": "Create titan/workflows/visualization_generator.py",
+  "description": "Implement VisualizationGenerator with parse_visualization_output(). Add VisualizationSpec, VisualizationType, VisualizationLibrary, VisualizationSuite dataclasses/enums.",
+  "activeForm": "Creating visualization generator",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

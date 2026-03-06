@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Create chamber base template",
+  "description": "Create templates/chamber-base.html as the reusable template for all 10 new chambers.",
+  "activeForm": "Creating chamber base template",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

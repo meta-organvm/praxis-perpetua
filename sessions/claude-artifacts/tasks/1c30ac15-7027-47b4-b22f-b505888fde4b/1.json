@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "A.1 — Close stale Dependabot PRs",
+  "description": "Close all open Dependabot/Renovate PRs in mirror-mirror, public-record-data-scrapper, sovereign-ecosystem--real-estate-luxury, the-invisible-ledger (ORGAN-III). Also fix system-governance-framework stale issue bot config (ORGAN-I).",
+  "activeForm": "Closing stale Dependabot PRs",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

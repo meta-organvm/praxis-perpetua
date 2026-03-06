@@ -1,0 +1,9 @@
+{
+  "id": "14",
+  "subject": "Update loader.scd with complete load order",
+  "description": "Update loader.scd to include all new files in correct dependency order as specified in the plan.",
+  "activeForm": "Updating loader",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

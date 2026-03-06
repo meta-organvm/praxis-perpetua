@@ -1,0 +1,9 @@
+{
+  "id": "9",
+  "subject": "Implement conversational interleaving in inquiry_engine.py",
+  "description": "Add UserInterjection dataclass, PAUSED status, pause_session(), inject_user_input(), resume_session() methods. Add API endpoints for pause/inject/resume.",
+  "activeForm": "Implementing conversational interleaving",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

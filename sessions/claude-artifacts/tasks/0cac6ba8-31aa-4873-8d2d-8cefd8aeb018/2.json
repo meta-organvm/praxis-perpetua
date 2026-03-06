@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Create mcp/resources.py with resource handlers",
+  "description": "Implement resources for titan://learning/stats, titan://learning/rlhf/stats, titan://models/signatures, titan://topology/current, titan://hive/events/recent",
+  "activeForm": "Creating MCP resources module",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

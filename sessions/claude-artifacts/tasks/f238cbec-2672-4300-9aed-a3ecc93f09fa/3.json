@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Improve global auth hook with prefix matching",
+  "description": "Fix the global JWT auth hook in index.ts to properly handle parameterized routes. Add public-profiles paths as optional auth, tighten the allowlist.",
+  "activeForm": "Improving global auth hook",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

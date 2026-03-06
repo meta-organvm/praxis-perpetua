@@ -1,0 +1,9 @@
+{
+  "id": "10",
+  "subject": "Stream 7A: Write tests for all hooks",
+  "description": "Write comprehensive test suites for all 11+ hooks with Supabase mocks. Target 80%+ coverage.",
+  "activeForm": "Writing hook tests",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

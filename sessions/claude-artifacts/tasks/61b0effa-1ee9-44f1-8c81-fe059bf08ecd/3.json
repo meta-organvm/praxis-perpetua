@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Sprint 3: G11 WebSocket Live Interview Scoring",
+  "description": "Interview PubSub + GraphQL subscriptions, incremental scoring with DB persistence, keyword-based tone analysis, live dashboard UI. 4 commits.",
+  "activeForm": "Implementing G11 Interview Scoring",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "Stream 6A: Implement Service Worker push notifications",
+  "description": "Implement Service Worker with Web Push API in notificationService.js. Add notification preferences UI. Optionally add SMS integration (Twilio).",
+  "activeForm": "Implementing push notifications",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

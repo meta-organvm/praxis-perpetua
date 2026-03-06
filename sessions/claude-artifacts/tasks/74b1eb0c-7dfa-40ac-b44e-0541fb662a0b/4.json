@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Fix application-pipeline missing verification route",
+  "description": "Add a verification route for the unblock_submissions script in the application-pipeline quality manifest.",
+  "activeForm": "Adding missing verification route",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

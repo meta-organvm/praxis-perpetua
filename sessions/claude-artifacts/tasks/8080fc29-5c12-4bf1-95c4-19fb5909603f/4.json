@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Update ANNOTATED-MANIFEST.md with new files",
+  "description": "Add entries for all new files to manifest and quick reference table",
+  "activeForm": "Updating ANNOTATED-MANIFEST.md",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "8",
+  "subject": "Phase 4: Post-sprint housekeeping",
+  "description": "Run validation scripts, update CLAUDE.md and MEMORY.md with post-IGNITION counts, git commit local changes, deploy registry + CLAUDE.md to remote.",
+  "activeForm": "Running post-sprint housekeeping",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ]
+}

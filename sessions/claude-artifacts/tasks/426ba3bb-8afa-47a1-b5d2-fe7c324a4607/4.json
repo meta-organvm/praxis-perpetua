@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Phase D: CFO Budget Agent",
+  "description": "Implement cost-aware model routing and budget enforcement:\n- agents/archetypes/cfo.py (CFO budget agent)\n- titan/costs/budget.py (Budget tracking)\n- titan/costs/router.py (Cost-aware model selection)\n- Modify adapters/router.py for cost-aware routing\n- Modify hive/orchestrator.py for CFO integration",
+  "activeForm": "Implementing CFO budget agent",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

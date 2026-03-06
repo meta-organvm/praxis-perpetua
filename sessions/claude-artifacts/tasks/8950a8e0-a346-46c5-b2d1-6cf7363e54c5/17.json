@@ -1,0 +1,9 @@
+{
+  "id": "17",
+  "subject": "Design the ingestion/alchemization pipeline architecture",
+  "description": "Based on exploration, design the complete system: pipeline stages, schemas, classification strategy, deployment approach, provenance tracking.",
+  "activeForm": "Designing the ingestion/alchemization pipeline architecture",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

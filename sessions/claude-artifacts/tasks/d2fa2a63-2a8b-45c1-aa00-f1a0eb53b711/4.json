@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "subject": "Update global CLAUDE.md skills path",
+  "description": "Change Location line in ~/.claude/CLAUDE.md from ~/Workspace/a-i--skills/ to ~/Workspace/organvm-iv-taxis/a-i--skills/",
+  "activeForm": "Updating global CLAUDE.md",
+  "status": "completed",
+  "blocks": [
+    "5"
+  ],
+  "blockedBy": []
+}

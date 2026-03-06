@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Create webhook signature verification middleware (server/middleware/webhookAuth.ts)",
+  "description": "Create middleware for verifying webhook signatures from Twilio, SendGrid, and Plaid.",
+  "activeForm": "Creating webhook authentication middleware",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

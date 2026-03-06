@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Create titan/api/analysis_routes.py",
+  "description": "Implement POST /api/analysis/contradictions/detect, POST /api/analysis/dialectic/synthesize, GET /api/analysis/inquiry/{session_id}/contradictions",
+  "activeForm": "Creating analysis routes",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

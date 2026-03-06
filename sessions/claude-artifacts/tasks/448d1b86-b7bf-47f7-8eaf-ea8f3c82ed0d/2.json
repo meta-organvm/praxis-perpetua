@@ -1,0 +1,13 @@
+{
+  "id": "2",
+  "subject": "Wire narrative route to real data (Phase 1.3)",
+  "description": "Replace 100% hardcoded mock in narratives.ts (lines 158-263) with DB lookup for persona from mask taxonomy and real timeline entries via generateNarrativeBlocks(). Update profiles.json (Phase 1.4).",
+  "activeForm": "Wiring narrative route to real data",
+  "status": "completed",
+  "blocks": [
+    "6"
+  ],
+  "blockedBy": [
+    "1"
+  ]
+}

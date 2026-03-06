@@ -1,0 +1,12 @@
+{
+  "id": "3",
+  "subject": "Stream 1C: Implement useCollections hook",
+  "description": "Create useCollections hook with discovery calculations from journal entries and favorites. Track breed collections, location collections, and badge progress.",
+  "activeForm": "Implementing collections hook",
+  "status": "completed",
+  "blocks": [
+    "13",
+    "14"
+  ],
+  "blockedBy": []
+}

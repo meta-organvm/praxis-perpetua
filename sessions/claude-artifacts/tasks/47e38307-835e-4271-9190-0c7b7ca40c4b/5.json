@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Fix hardcoded values in ivviiviivvi/.github repo",
+  "description": "Edit LICENSE, GOVERNANCE.md, CONTRIBUTORS.md in the remote .github repo to replace hardcoded ivi374forivi references with template variables. This requires the repo to be cloned locally or accessed via GitHub API.",
+  "activeForm": "Fixing hardcoded values in .github repo",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

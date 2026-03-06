@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Write design doc and plan",
+  "description": "Write validated design to docs/plans/ and create implementation plan",
+  "activeForm": "Writing design doc",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

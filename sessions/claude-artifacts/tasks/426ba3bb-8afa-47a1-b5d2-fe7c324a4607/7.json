@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Phase G: RLHF Data Capture",
+  "description": "Implement RLHF data collection:\n- titan/learning/rlhf.py (RLHF data collection)\n- titan/learning/feedback.py (Human feedback handlers)\n- titan/learning/reward_signals.py (Reward signal extraction)\n- Modify titan/observability/langfuse.py for RLHF samples\n- Modify dashboard/app.py for feedback UI endpoint",
+  "activeForm": "Implementing RLHF data capture",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

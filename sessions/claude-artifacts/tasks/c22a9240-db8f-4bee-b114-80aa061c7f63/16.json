@@ -1,0 +1,12 @@
+{
+  "id": "16",
+  "subject": "Stream 4B: Implement coach booking and vet telemedicine",
+  "description": "Add coach booking flow with calendar to CoachingHub.jsx. Add Stripe session payments. Implement WebRTC video consultations in VetTelemedicine.jsx. BLOCKED BY: Stream 2.",
+  "activeForm": "Implementing coaching and telemedicine",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [
+    "13",
+    "14"
+  ]
+}

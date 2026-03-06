@@ -1,0 +1,9 @@
+{
+  "id": "10",
+  "subject": "Create titan/workflows/narrative_synthesizer.py",
+  "description": "Implement NarrativeSynthesizer with synthesize() method. Add NarrativeConfig dataclass with style, target_length, preserve_stage_voices, highlight_contradictions.",
+  "activeForm": "Creating narrative synthesizer",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

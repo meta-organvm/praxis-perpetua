@@ -1,0 +1,9 @@
+{
+  "id": "10",
+  "subject": "Phase 6: Implement Elektron feature clones",
+  "description": "2 files: 25_elektron_octatrack.scd (OCTAHEDRON with crossfader scenes, pickup machines, time-stretch, slice machines) and 25_elektron_machines.scd (AUTOMATON MD machines, AZOTH_MINOR Digitone, CHIMERA RYTM).",
+  "activeForm": "Building Elektron clones",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

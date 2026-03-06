@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "subject": "Phase 3D: Elevate nexus--babel-alexandria-",
+  "description": "nexus--babel-alexandria- now has ci-minimal.yml from Phase 3C. Check current state, deploy minimal Python package if applicable, promote from DESIGN_ONLY. Update registry.",
+  "activeForm": "Elevating nexus--babel-alexandria-",
+  "status": "completed",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": []
+}

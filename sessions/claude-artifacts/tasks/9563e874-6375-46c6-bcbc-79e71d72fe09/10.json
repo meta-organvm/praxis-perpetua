@@ -1,0 +1,11 @@
+{
+  "id": "10",
+  "subject": "Create CLAUDE.md auto-generator module in organvm-engine",
+  "description": "New claudemd/ subpackage: generator.py, templates.py, sync.py — generates system context sections from registry + seed data",
+  "activeForm": "Writing CLAUDE.md generator stubs",
+  "status": "completed",
+  "blocks": [
+    "12"
+  ],
+  "blockedBy": []
+}

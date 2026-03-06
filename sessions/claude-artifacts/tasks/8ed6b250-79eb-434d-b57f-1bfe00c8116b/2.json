@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Phase 2: Write DIRECTORY.md and update .gitignore",
+  "description": "Create DIRECTORY.md at root with concise corpus map. Update .gitignore for .config/ path.",
+  "activeForm": "Writing new files",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

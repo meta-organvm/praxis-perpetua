@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Phase A: PostgreSQL Persistence Layer",
+  "description": "Implement PostgreSQL persistence layer for durable audit logging and cold storage:\n- titan/persistence/postgres.py (PostgreSQL client wrapper)\n- titan/persistence/audit.py (Immutable audit log)\n- titan/persistence/models.py (SQLAlchemy models)\n- alembic/ directory with migrations\n- Modify hive/events.py to add PostgreSQL sink\n- Modify agents/framework/base_agent.py for audit logging",
+  "activeForm": "Implementing PostgreSQL persistence layer",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

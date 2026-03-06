@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Sprint 4: G15 LLM Agent Executor",
+  "description": "Tool calling protocol, ReAct loop, wire RoutedAgentExecutor, per-role tool definitions, tests + ADR. 5 commits.",
+  "activeForm": "Implementing G15 LLM Agent",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

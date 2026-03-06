@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Extend organvm.config.json with shared block and per-organ fields",
+  "description": "Add shared block (email_domain, default_branch, license_default, personal_account, owner_display_name, teams) and per-organ fields (display_name, license, profile_tagline, features) to .config/organvm.config.json",
+  "activeForm": "Extending organvm.config.json",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

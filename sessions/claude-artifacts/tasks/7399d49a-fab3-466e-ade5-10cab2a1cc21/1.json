@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Implement dynamic color themes (lolcat, pywal, wezterm)",
+  "description": "Dynamic color themes: lolcat (rainbow output), pywal (image-based colors with Tokyo Night fallback), theme-switch helper script",
+  "activeForm": "Planning color themes implementation",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Re-trigger transient CI failures (3 repos)",
+  "description": "Re-run failed workflows for agent--claude-smith, agentic-titan, and cog-init-1-0- which failed due to transient GitHub runner issues.",
+  "activeForm": "Re-triggering transient CI failures",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

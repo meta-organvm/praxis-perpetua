@@ -1,0 +1,11 @@
+{
+  "id": "6",
+  "subject": "Phase 3C: CI coverage push (67 → 70+)",
+  "description": "Identify non-DESIGN_ONLY, non-ARCHIVED repos without CI. Deploy ci-minimal.yml to eligible ones. Target: CI count from 67 → 70+.",
+  "activeForm": "Pushing CI coverage",
+  "status": "completed",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": []
+}

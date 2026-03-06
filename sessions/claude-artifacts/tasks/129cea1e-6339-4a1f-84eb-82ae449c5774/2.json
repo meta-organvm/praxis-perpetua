@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Wire audit middleware in server/index.ts",
+  "description": "Import and register auditMiddleware in the setupMiddleware() method",
+  "activeForm": "Wiring audit middleware",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

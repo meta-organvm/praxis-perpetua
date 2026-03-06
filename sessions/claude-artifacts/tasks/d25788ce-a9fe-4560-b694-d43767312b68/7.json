@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Verify all deliverables",
+  "description": "Run verification checks: confirm all files exist, grep for key sections, read standards doc for coherence.",
+  "activeForm": "Verifying deliverables",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

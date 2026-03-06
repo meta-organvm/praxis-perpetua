@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Phase 3: Cross-reference updates across all live documents",
+  "description": "Update all internal cross-references in CLAUDE.md, README.md, ANNOTATED-MANIFEST.md, and all 28 moved markdown files. Fix markdown links and backtick references.",
+  "activeForm": "Updating cross-references",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

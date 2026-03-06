@@ -1,0 +1,9 @@
+{
+  "id": "11",
+  "subject": "Wire artifact sync scheduler to API",
+  "description": "Replace stub task in artifact-sync-scheduler.ts with real API queries for profiles and integrations.",
+  "activeForm": "Wiring artifact sync scheduler",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

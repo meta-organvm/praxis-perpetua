@@ -1,0 +1,9 @@
+{
+  "id": "9",
+  "subject": "Create S3 integration stub (server/integrations/aws/s3.ts)",
+  "description": "Create S3 integration with uploadDocument, getPresignedUrl, and deleteDocument functions.",
+  "activeForm": "Creating S3 integration stub",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

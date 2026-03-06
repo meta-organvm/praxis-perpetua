@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Fix stale reference in plan-template.md",
+  "description": "Fix the .specify/templates/commands/plan.md reference to references/commands/plan.md",
+  "activeForm": "Fixing stale reference",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

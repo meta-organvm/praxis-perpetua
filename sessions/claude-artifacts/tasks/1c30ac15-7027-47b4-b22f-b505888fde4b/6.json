@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "B.1-B.5 — SKELETON→PROTOTYPE conversions (5 repos)",
+  "description": "Convert 5 repos from SKELETON to PROTOTYPE with real code, tests, and CI: system-governance-framework (ORGAN-I), showcase-portfolio (ORGAN-II), case-studies-methodology (ORGAN-II), petasum-super-petasum (ORGAN-IV), artist-toolkit-and-templates (ORGAN-II)",
+  "activeForm": "Converting SKELETON repos to PROTOTYPE",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

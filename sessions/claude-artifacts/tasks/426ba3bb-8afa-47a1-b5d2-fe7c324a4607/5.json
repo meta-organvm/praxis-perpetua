@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Phase E: Formal Termination Logic",
+  "description": "Connect circuit breakers to orchestration:\n- titan/orchestration/termination.py (Termination conditions)\n- titan/orchestration/watchdog.py (Execution watchdog)\n- Modify hive/topology.py to add termination conditions\n- Modify agents/framework/resilience.py to connect circuit breaker to watchdog",
+  "activeForm": "Implementing termination logic",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

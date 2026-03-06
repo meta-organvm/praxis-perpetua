@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Create frontend API clients for contacts and deals",
+  "description": "Create apps/web/src/lib/api/contacts.ts and deals.ts with CRUD functions",
+  "activeForm": "Creating frontend API clients",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

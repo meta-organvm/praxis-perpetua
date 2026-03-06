@@ -1,0 +1,9 @@
+{
+  "id": "14",
+  "subject": "Update dashboard/app.py and base.html with new routes",
+  "description": "Add routes for /inquiry, /analysis, /knowledge in app.py. Update base.html navigation to include new pages.",
+  "activeForm": "Updating dashboard app",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

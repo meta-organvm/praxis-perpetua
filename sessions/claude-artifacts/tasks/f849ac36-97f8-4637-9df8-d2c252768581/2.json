@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Generate and execute sub-issue creation script",
+  "description": "Write the shell script that creates all 226 sub-issues and links them to parent epics, then execute it in batches",
+  "activeForm": "Generating sub-issue creation script",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Implement LivingPantheonCore.js singleton",
+  "description": "Create the central orchestrator for Living Pantheon features with initialization, lifecycle management, and accessibility support (prefers-reduced-motion).",
+  "activeForm": "Implementing Living Pantheon core",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

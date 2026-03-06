@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Phase 2: Implement 9 synthesis engine organisms",
+  "description": "16_synthesis_engines.scd with PRIMA_MATERIA (subtractive), AZOTH (FM), QUINTESSENCE (additive), OUROBOROS (wavetable), CHRYSOPOEIA (PD), HOMUNCULUS (physical modeling), BUCHLAEUS (west coast), LOGOS (formant), TETRAMORPH (vector). All 7-stage organisms.",
+  "activeForm": "Building synthesis engines",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "subject": "Phase 3B: Dependabot PR triage and auto-merge",
+  "description": "Enumerate open dependabot PRs across all 8 orgs. Auto-merge passing ones, triage failing ones. Target: merge 80%+ of passing PRs.",
+  "activeForm": "Triaging dependabot PRs",
+  "status": "in_progress",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": []
+}

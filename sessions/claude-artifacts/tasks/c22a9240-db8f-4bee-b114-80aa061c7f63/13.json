@@ -1,0 +1,16 @@
+{
+  "id": "13",
+  "subject": "Stream 2A: Expand achievement system to 50+ achievements",
+  "description": "Expand useQuests.js with 50+ achievement definitions across categories. Add achievement triggers throughout codebase. Add achievement toast/modal notifications. BLOCKED BY: Stream 1 progress.",
+  "activeForm": "Expanding achievement system",
+  "status": "completed",
+  "blocks": [
+    "15",
+    "16"
+  ],
+  "blockedBy": [
+    "1",
+    "2",
+    "3"
+  ]
+}

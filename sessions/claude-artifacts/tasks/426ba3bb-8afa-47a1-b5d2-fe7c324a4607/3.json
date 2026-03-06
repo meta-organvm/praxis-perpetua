@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Phase C: Content Filtering & Guardrails",
+  "description": "Implement content filtering for LLM outputs:\n- titan/safety/filters.py (Content filter implementations)\n- titan/safety/patterns.py (Dangerous pattern definitions)\n- titan/safety/sanitizer.py (Output sanitization)\n- Modify adapters/base.py to filter responses\n- Modify tools/executor.py to filter tool outputs",
+  "activeForm": "Implementing content filtering",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

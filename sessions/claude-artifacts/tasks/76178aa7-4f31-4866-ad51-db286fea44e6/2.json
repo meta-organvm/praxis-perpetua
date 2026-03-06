@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "ORGAN-II Silver Sprint: Document all repos",
+  "description": "Write and deploy Silver Sprint READMEs for all ORGAN-II repos. 20 repos remaining (excluding flagship metasystem-master and .github infrastructure). Priority: ACTIVE repos first (a-mavs-olevm, a-i-council--coliseum, artist-toolkit-and-templates), then SKELETON repos, then EMPTY repos.",
+  "activeForm": "Deploying ORGAN-II Silver Sprint READMEs",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

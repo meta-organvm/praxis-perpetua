@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Stream 3A: Wire FriendsList to useFriends hook",
+  "description": "Complete FriendsList.jsx wiring to useFriends hook. Add View Profile navigation, friend search modal, playdate scheduling system.",
+  "activeForm": "Wiring FriendsList component",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

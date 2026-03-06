@@ -1,0 +1,16 @@
+{
+  "id": "8",
+  "subject": "Phase 6: Registry finalization + org profile updates",
+  "description": "Final registry update (41 PRODUCTION, 22 PROTOTYPE, 81 total repos), update 8 org profile READMEs with new metrics.",
+  "activeForm": "Finalizing registry and org profiles",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ]
+}

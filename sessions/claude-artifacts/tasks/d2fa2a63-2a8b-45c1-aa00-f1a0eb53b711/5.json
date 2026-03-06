@@ -1,0 +1,14 @@
+{
+  "id": "5",
+  "subject": "Remove stale workspace-root clone",
+  "description": "rm -rf ~/Workspace/a-i--skills after all references are migrated",
+  "activeForm": "Removing stale clone",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ]
+}

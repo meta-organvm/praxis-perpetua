@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "subject": "Phase 3A: Stale workflow cleanup across 81 repos",
+  "description": "Check all 81 repos for stale workflow files (e.g., main.yml alongside ci-*.yml). Delete stale ones via gh api --method DELETE.",
+  "activeForm": "Cleaning stale workflows",
+  "status": "completed",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Stream 3B: Enhance ActivityFeed with reactions",
+  "description": "Wire ActivityFeed.jsx with useActivityFeed hook. Add infinite scroll, real reaction/comment handlers, activity creation modal.",
+  "activeForm": "Enhancing ActivityFeed component",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

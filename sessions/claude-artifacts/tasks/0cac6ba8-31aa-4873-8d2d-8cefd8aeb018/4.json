@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Update mcp/server.py with prompts, resources, and notifications",
+  "description": "Add prompts handlers (prompts/list, prompts/get), new tools (route_cognitive_task, compare_models, start_inquiry, inquiry_status), resource handlers, NotificationManager integration",
+  "activeForm": "Updating MCP server",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

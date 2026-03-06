@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Create .github-template/profile/README.md template",
+  "description": "Create parameterized org profile README template with {{ORG_DISPLAY_NAME}}, {{ORGAN_ETYMOLOGY}}, cross-links to other 6 orgs",
+  "activeForm": "Creating profile README template",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

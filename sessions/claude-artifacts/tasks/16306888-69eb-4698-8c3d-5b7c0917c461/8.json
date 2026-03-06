@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "Stream H: New Environment Archetypes",
+  "description": "WaveformEnv, IsoGridEnv, MirrorMazeEnv, RaymarchEnv",
+  "activeForm": "Implementing new environments",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

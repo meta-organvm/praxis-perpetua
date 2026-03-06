@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Complete Phase 2 quick wins (2.1-2.6)",
+  "description": "Fix OnboardingWizard routes, MaskEditor keyboard shortcuts, ScaenaeFilter expansion, RelationshipBuilder save/remove, CommunityBadges progress, artifacts content_edges stub.",
+  "activeForm": "Completing Phase 2 quick wins",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

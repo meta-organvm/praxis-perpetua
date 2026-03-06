@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Write README.md for the planning corpus",
+  "description": "Human-facing entry point with title, badge row, navigation, document architecture, status, seven-organ model table, usage guide, license ref, author.",
+  "activeForm": "Writing README.md",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

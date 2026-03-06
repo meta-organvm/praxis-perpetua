@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Phase 1: Implement CHRONOS master sequencer",
+  "description": "5 files: 09_chronos_core.scd, 09_chronos_clock.scd, 09_chronos_tracks.scd, 09_chronos_automation.scd, 09_chronos_midi.scd. 128 tracks, polymetric/polyrhythmic, Elektron-style p-locks/conditions, song mode, scenes, undo/redo.",
+  "activeForm": "Building CHRONOS sequencer",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

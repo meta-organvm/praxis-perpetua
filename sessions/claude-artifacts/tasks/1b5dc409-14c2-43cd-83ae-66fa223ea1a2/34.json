@@ -1,0 +1,9 @@
+{
+  "id": "34",
+  "subject": "Update CHANGELOG.md with Sprints 1-9",
+  "description": "Add v0.5.0 through v0.8.0 entries covering all sprint deliverables. Gap 7.",
+  "activeForm": "Updating CHANGELOG.md",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

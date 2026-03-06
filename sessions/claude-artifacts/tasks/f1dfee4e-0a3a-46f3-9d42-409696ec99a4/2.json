@@ -1,0 +1,13 @@
+{
+  "id": "2",
+  "subject": "Phase 1: Fix 3 PRODUCTION CI failures",
+  "description": "Fix CI failures on: system-governance-framework (bot PR detection), public-record-data-scrapper (Dependabot npm/test), sovereign-ecosystem--real-estate-luxury (devcontainers). Use gh api to read workflows, logs, and deploy fixes.",
+  "activeForm": "Fixing PRODUCTION CI failures",
+  "status": "in_progress",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": [
+    "1"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Phase 0B: Implement BrahmaMPE.sc and 02_midi_mpe.scd",
+  "description": "Create BrahmaMPE class with MPE zone manager, voice allocator with per-note pitch bend/pressure/slide. Create 02_midi_mpe.scd with MIDIFunc handlers, MIDI learn system, MIDI clock, OSC endpoints.",
+  "activeForm": "Implementing MIDI/MPE infrastructure",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

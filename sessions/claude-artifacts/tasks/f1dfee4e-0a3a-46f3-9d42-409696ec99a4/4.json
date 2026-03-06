@@ -1,0 +1,13 @@
+{
+  "id": "4",
+  "subject": "Phase 2 Tier 2: Promote 5 HIGH repos to PRODUCTION",
+  "description": "Expand agent--claude-smith, petasum-super-petasum, reverse-engine-recursive-run, example-generative-music, salon-archive from PROTOTYPE to PRODUCTION with 20-25 tests each.",
+  "activeForm": "Building HIGH-priority PRODUCTION repos",
+  "status": "in_progress",
+  "blocks": [
+    "8"
+  ],
+  "blockedBy": [
+    "1"
+  ]
+}

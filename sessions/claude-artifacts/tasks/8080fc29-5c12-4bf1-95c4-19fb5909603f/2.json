@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Create .github/ community health files",
+  "description": "Create CONTRIBUTING.md, SECURITY.md, CODE_OF_CONDUCT.md, PULL_REQUEST_TEMPLATE.md",
+  "activeForm": "Creating .github/ community health files",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "3",
+  "subject": "Commit all documentation updates",
+  "description": "Stage and commit README.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, and CHANGELOG.md changes.",
+  "activeForm": "Committing documentation updates",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": [
+    "1",
+    "2"
+  ]
+}

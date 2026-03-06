@@ -1,0 +1,16 @@
+{
+  "id": "14",
+  "subject": "Stream 2B: Implement useSeasonPass and SeasonPass component",
+  "description": "Create useSeasonPass hook with level progression. Create SeasonPass.jsx component with premium vs free reward tracks. BLOCKED BY: Stream 1 progress.",
+  "activeForm": "Implementing season pass",
+  "status": "completed",
+  "blocks": [
+    "15",
+    "16"
+  ],
+  "blockedBy": [
+    "1",
+    "2",
+    "3"
+  ]
+}

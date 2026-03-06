@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Commit 3: README rewrite",
+  "description": "Rewrite README from 782 lines to ~250. Fix badges, update status, modernize structure.",
+  "activeForm": "Rewriting README",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

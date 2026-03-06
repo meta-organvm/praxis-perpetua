@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Verify no stale references remain",
+  "description": "grep for references/*-template to ensure all paths updated; verify file structure is correct",
+  "activeForm": "Verifying changes",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

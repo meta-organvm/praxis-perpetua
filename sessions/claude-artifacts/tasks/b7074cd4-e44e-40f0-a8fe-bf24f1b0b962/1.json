@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Phase 0D: Expand infrastructure bus counts and group helper",
+  "description": "Modify 01_infrastructure.scd: increase numAudioBusChannels 1024→2048, numControlBusChannels 4096→8192, add ~SC_GRP.createOrganismGroups helper, add ~BRAHMA_TUNING global",
+  "activeForm": "Expanding infrastructure",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

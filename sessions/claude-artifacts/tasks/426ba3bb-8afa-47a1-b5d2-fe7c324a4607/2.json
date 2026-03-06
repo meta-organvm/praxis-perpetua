@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Phase B: Human-in-the-Loop (HITL) Gates",
+  "description": "Implement approval workflows for high-risk actions:\n- titan/safety/hitl.py (HITL approval handler)\n- titan/safety/gates.py (Approval gate definitions)\n- titan/safety/policies.py (Action risk classification)\n- dashboard/components/approval.py (Approval UI component)\n- Modify tools/executor.py to check approval gates\n- Modify dashboard/app.py for WebSocket approval endpoints",
+  "activeForm": "Implementing HITL approval gates",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

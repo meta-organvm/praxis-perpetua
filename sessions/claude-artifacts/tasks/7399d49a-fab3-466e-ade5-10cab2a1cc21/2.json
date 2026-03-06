@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Implement panel-like command interface (navi, tealdeer, cheat.sh)",
+  "description": "Panel-like command interface: navi (Ctrl+G interactive cheatsheet), tealdeer (tldr client), cheat.sh function with fzf integration",
+  "activeForm": "Planning command interface implementation",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

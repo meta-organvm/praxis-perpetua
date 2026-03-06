@@ -1,0 +1,12 @@
+{
+  "id": "1",
+  "subject": "Stream 1A: Implement useGymBattles hook",
+  "description": "Create useGymBattles hook with challenge logic, badge awarding, and PostGIS proximity features. Wire to GameplayHub.jsx Gym Battles tab.",
+  "activeForm": "Implementing gym battles hook",
+  "status": "completed",
+  "blocks": [
+    "13",
+    "14"
+  ],
+  "blockedBy": []
+}

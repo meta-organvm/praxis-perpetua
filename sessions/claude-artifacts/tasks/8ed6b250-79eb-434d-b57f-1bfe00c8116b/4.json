@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Phase 4: Verification — grep for old names, validate JSON, spot-check links",
+  "description": "Grep for every old filename across Category A files (must return 0), validate registry-v2.json parses, verify DIRECTORY.md matches filesystem, verify .gitignore, spot-check markdown links.",
+  "activeForm": "Verifying reorganization",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

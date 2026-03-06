@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Stream G: UI/Settings System",
+  "description": "Settings Panel, Stem Mixer UI, Environment Presets, Session Save/Load",
+  "activeForm": "Implementing UI/settings system",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

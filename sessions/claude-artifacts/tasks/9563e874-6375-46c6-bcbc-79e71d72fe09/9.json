@@ -1,0 +1,13 @@
+{
+  "id": "9",
+  "subject": "Create MCP server tool and data module stubs",
+  "description": "server.py, types.py, tools/ (registry, seeds, graph, health, context), data/ (loader, paths) — all with full signatures and docstrings",
+  "activeForm": "Writing MCP server tool stubs",
+  "status": "completed",
+  "blocks": [
+    "12"
+  ],
+  "blockedBy": [
+    "8"
+  ]
+}

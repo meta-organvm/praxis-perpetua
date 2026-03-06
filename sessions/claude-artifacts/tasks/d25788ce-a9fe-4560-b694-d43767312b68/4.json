@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Create .github/ directory with all community health files",
+  "description": "CONTRIBUTING.md, SECURITY.md, CODE_OF_CONDUCT.md, ISSUE_TEMPLATES/document-correction.md, ISSUE_TEMPLATES/planning-suggestion.md, PULL_REQUEST_TEMPLATE.md",
+  "activeForm": "Creating .github/ community health files",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

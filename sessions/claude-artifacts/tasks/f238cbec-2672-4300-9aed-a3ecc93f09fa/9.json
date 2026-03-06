@@ -1,0 +1,9 @@
+{
+  "id": "9",
+  "subject": "Wire narrative generation and snapshot persistence",
+  "description": "Complete narrative route stubs in narratives.ts and graphql-resolvers.ts. Wire to buildWeightedNarrative/buildNarrativeOutput from content-model.",
+  "activeForm": "Wiring narrative generation",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

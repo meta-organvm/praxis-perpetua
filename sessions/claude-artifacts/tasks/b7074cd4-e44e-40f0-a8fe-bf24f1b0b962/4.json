@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Phase 0C: Implement BrahmaModBus.sc and 08_patch_bay.scd",
+  "description": "Create BrahmaModBus class with control bus pool (256), source/dest registry, per-route attenuverter. Create 08_patch_bay.scd with patch_bay_mod SynthDef, Visual Cortex integration, OSC endpoints.",
+  "activeForm": "Implementing universal patch bay",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "subject": "Stream E: Performance Optimization",
+  "description": "LOD System, Geometry Instancing, Frustum Culling, Adaptive Quality",
+  "activeForm": "Implementing performance optimizations",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

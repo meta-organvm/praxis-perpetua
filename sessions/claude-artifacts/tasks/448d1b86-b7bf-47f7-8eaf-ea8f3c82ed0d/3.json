@@ -1,0 +1,12 @@
+{
+  "id": "3",
+  "subject": "Install Tailwind CSS in apps/web (Phase 5.1)",
+  "description": "Install tailwindcss, postcss, autoprefixer as devDeps. Create tailwind.config.ts extending CSS variable palette. Add @tailwind directives to globals.css. Content paths must include design-system package.",
+  "activeForm": "Installing Tailwind CSS",
+  "status": "completed",
+  "blocks": [
+    "5",
+    "9"
+  ],
+  "blockedBy": []
+}

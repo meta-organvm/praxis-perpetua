@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Sprint 2: G18 Accessibility Critical Path",
+  "description": "Design system a11y overhaul (focus-visible, ARIA), skip navigation, contrast fixes, vitest-axe tests. 4 commits.",
+  "activeForm": "Implementing G18 Accessibility",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

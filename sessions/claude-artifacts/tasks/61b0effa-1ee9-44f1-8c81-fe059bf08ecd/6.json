@@ -1,0 +1,9 @@
+{
+  "id": "6",
+  "subject": "Sprint 6: G16 Minimum Viable Marketplace",
+  "description": "Marketplace schema + migration, API routes, browse + detail UI, publish flow from MaskEditor, tests + docs. 5 commits.",
+  "activeForm": "Implementing G16 Marketplace",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

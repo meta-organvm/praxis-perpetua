@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "subject": "Rebuild .build/ artifacts and update Claude skills symlink",
+  "description": "Run refresh_skill_collections.py in canonical copy, then update ~/.claude/skills symlink to point to ~/Workspace/organvm-iv-taxis/a-i--skills/.build/claude/skills",
+  "activeForm": "Rebuilding skills and updating symlink",
+  "status": "completed",
+  "blocks": [
+    "5"
+  ],
+  "blockedBy": []
+}

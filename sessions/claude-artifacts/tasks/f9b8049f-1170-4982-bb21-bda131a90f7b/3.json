@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Update SKILL.md template paths",
+  "description": "Replace all references/*-template.md paths with assets/templates/*-template.md and rewrite Reference Files section",
+  "activeForm": "Updating SKILL.md paths",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Create living pantheon directory structure",
+  "description": "Create js/living-pantheon/ directory with subdirectories for effects/ and config/. This is the foundation for Workstream C.",
+  "activeForm": "Creating living pantheon directories",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

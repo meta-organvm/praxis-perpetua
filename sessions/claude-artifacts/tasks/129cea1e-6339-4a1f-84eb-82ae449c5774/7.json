@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Create OpenAPI specification (server/openapi.yaml)",
+  "description": "Create comprehensive OpenAPI 3.0 spec documenting all API routes with schemas for request/response types.",
+  "activeForm": "Creating OpenAPI specification",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

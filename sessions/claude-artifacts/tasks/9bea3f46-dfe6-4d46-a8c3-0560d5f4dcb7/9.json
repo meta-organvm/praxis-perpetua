@@ -1,0 +1,13 @@
+{
+  "id": "9",
+  "subject": "Phase 1: Write README for ORGAN-IV/V/VI/VII repos (9 repos)",
+  "description": "Write READMEs for operational organs: orchestration-start-here (IV), public-process (V), salon-archive + reading-group-curriculum (VI), announcement-templates + social-automation + distribution-strategy (VII)",
+  "activeForm": "Writing ORGAN IV-VII READMEs",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": [
+    "1",
+    "3",
+    "5"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Create bibliotheke chamber structure",
+  "description": "Create bibliotheke/ directory with index.html using chamber-base template. This is the Library chamber for poetry, prose, and lyrics.",
+  "activeForm": "Creating bibliotheke chamber files",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": []
+}

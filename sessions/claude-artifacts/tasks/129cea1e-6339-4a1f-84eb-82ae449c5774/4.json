@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Create frontend hooks for contact and deal actions",
+  "description": "Create apps/web/src/hooks/useContactActions.ts and useDealActions.ts following existing patterns",
+  "activeForm": "Creating frontend hooks",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

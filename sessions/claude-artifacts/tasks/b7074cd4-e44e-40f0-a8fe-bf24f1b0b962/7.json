@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Phase 3: Implement Make Noise module clones",
+  "description": "6 files covering all 28+ Make Noise modules: function generators (MATHS/etc), filters (QPAS/Optomix/etc), time processors (Mimeophon/Morphagene/etc), oscillators (DPO/STO/etc), sequencers (Rene/etc), utilities (modDemix/Wogglebug/etc).",
+  "activeForm": "Building Make Noise clones",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

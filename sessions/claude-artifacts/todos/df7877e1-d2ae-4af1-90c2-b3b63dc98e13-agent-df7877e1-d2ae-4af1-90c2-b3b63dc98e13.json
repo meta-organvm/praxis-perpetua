@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Fix Corpus Observatory to scan nested corpus structure",
+    "status": "completed",
+    "activeForm": "Fixing corpus scanning"
+  },
+  {
+    "content": "Add modern texts to corpus (copyright considerations)",
+    "status": "pending",
+    "activeForm": "Adding modern texts"
+  }
+]

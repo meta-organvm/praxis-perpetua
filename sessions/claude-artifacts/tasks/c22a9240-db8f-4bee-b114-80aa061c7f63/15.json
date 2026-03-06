@@ -1,0 +1,12 @@
+{
+  "id": "15",
+  "subject": "Stream 4A: Implement AR camera with WebXR",
+  "description": "Implement ARCamera.jsx with WebXR/AR.js integration. Add filters and photo capture to storage. BLOCKED BY: Stream 2 (feature gate validation).",
+  "activeForm": "Implementing AR camera",
+  "status": "in_progress",
+  "blocks": [],
+  "blockedBy": [
+    "13",
+    "14"
+  ]
+}

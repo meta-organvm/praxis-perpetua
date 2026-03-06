@@ -1,0 +1,13 @@
+{
+  "id": "12",
+  "subject": "Wire CLI commands and commit/push all repos",
+  "description": "Add claudemd commands to organvm-engine CLI, git init MCP server, commit and push all modified repos",
+  "activeForm": "Wiring CLI and committing",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": [
+    "9",
+    "10",
+    "11"
+  ]
+}

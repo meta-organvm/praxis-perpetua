@@ -1,0 +1,9 @@
+{
+  "id": "4",
+  "subject": "Commit 4: Documentation polish & metadata",
+  "description": "Create getting-started.md, update package.json metadata, update CLAUDE.md, clean .github/",
+  "activeForm": "Polishing documentation and metadata",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

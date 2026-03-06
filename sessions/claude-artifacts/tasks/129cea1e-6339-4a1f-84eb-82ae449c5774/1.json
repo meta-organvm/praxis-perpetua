@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Register contacts and deals routes in server/index.ts",
+  "description": "Add imports for contactsRouter and dealsRouter, register them with authMiddleware, and update the endpoint registry",
+  "activeForm": "Registering contacts and deals routes",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

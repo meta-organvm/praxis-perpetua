@@ -1,0 +1,9 @@
+{
+  "id": "32",
+  "subject": "Expand CONTRIBUTING.md",
+  "description": "Rewrite .github/CONTRIBUTING.md with real dev setup, testing instructions, code style, commit conventions, branch strategy. Gap 5.",
+  "activeForm": "Expanding CONTRIBUTING.md",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

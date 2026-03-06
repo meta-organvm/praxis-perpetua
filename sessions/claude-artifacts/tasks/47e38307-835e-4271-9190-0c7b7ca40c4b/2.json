@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "subject": "Create generate-github-configs.py script",
+  "description": "Create scripts/generate-github-configs.py that reads organvm.config.json and produces per-organ template-config.yml files compatible with the .github repo's setup_template.py",
+  "activeForm": "Creating generate-github-configs.py",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

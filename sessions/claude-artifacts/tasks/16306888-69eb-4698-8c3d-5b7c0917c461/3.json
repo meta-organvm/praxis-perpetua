@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "subject": "Stream C: Post-Processing Effects",
+  "description": "DOF Pass, Motion Blur Pass, SSAO Pass, Effect Composer Manager",
+  "activeForm": "Implementing post-processing effects",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "Wire timeline GraphQL resolvers from CV data",
+  "description": "Complete timeline resolver stubs in graphql-resolvers.ts by building TimelineEntry[] from CV repos and passing through renderTimeline/renderTimelineForMask.",
+  "activeForm": "Wiring timeline GraphQL resolvers",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

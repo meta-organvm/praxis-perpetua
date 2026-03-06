@@ -1,0 +1,9 @@
+{
+  "id": "15",
+  "subject": "Explore existing corpus structure and conventions",
+  "description": "Read registry-v2.json, seed.yaml examples, existing deployment patterns, MANIFEST_INDEX_TABLE.csv, and key architectural docs to understand constraints.",
+  "activeForm": "Exploring existing corpus structure and conventions",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

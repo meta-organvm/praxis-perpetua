@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "Deployment readiness (Phase 4)",
+  "description": "Dockerfile healthchecks, deploy workflow fixes, production docker-compose, Vercel/Fly.io configs, env var docs, platform deploy guides, migration strategy.",
+  "activeForm": "Setting up deployment infrastructure",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}

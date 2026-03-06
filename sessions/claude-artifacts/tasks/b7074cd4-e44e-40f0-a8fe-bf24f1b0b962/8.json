@@ -1,0 +1,9 @@
+{
+  "id": "8",
+  "subject": "Phase 4: Implement complete FX rack",
+  "description": "7 files: dynamics (CRUCIBLE), EQ (PHILOSOPHERS_PRISM), time-based (AION), modulation (MAELSTROM), distortion (CALCINATION), spectral (SOLVE_ET_COAGULA), spatial (AETHER). All with standard inBus/outBus/mix/bypass interface.",
+  "activeForm": "Building FX rack",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

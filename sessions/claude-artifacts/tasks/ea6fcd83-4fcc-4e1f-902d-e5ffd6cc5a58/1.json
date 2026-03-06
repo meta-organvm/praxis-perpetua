@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "subject": "Fix broken CI badge URL in README.md",
+  "description": "Change labores-profani-crux to organvm-iii-ergon in the CI badge URL",
+  "activeForm": "Fixing CI badge URL",
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": []
+}

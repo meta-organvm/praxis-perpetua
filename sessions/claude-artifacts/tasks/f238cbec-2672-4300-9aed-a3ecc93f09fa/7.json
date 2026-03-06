@@ -1,0 +1,9 @@
+{
+  "id": "7",
+  "subject": "Update tests for auth/ownership changes",
+  "description": "After adding ownership middleware, update test fixtures to include proper x-mock-user-id headers matching profileId.",
+  "activeForm": "Updating tests for auth changes",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": []
+}
