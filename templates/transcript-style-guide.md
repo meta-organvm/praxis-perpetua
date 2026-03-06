@@ -1,21 +1,22 @@
 # Style Guide: Reading & Writing Session Transcripts
 
-**Companion to:** `2026-03-06--praxis-establishment--transcript-unabridged.md`
 **Purpose:** Conventions for producing and auditing unabridged AI-conductor session transcripts
+**Render command:** `organvm session transcript <session-id> --unabridged`
 
 ---
 
 ## Document Hierarchy
 
-Every exported session produces up to three sibling files:
+Every exported session produces two **committed** files and two **on-demand** views:
 
-| File suffix | Purpose | Audience |
-|-------------|---------|----------|
-| `--transcript.md` | Conversation summary (text only, tool calls named) | Quick review, standup |
-| `--transcript-unabridged.md` | Full audit trail (thinking, tool I/O, generated code) | Deep review, post-mortem |
-| `--style-guide.md` | Reading conventions for the unabridged transcript | First-time auditors |
+| Artifact | Committed? | Purpose | Audience |
+|----------|-----------|---------|----------|
+| `<date>--<slug>.md` | Yes | Structured review scaffold with referential wires | Reviewers, future sessions |
+| `<date>--<slug>--prompts.md` | Yes | Extracted prompts for drift detection and pattern analysis | Audit, meta-analysis |
+| `organvm session transcript <id>` | No (on-demand) | Conversation summary (text + tool names) | Quick review, standup |
+| `organvm session transcript <id> --unabridged` | No (on-demand) | Full audit trail (thinking, tool I/O, generated code) | Deep review, post-mortem |
 
-The structured review template (no suffix beyond the slug) is the actionable deliverable — the transcripts are its evidence base.
+The structured review is the committed deliverable. Transcripts are rendered live from the source JSONL — never duplicated into git. The review contains referential wires (render commands, source path) so auditors can access any view on demand.
 
 ---
 
