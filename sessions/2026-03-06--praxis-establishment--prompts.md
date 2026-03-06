@@ -3,7 +3,7 @@
 **Session ID:** `1924e3fc-06f7-49bc-883e-d80103ef6ccb`
 **Duration:** ~161 min
 **Working directory:** `/Users/4jp/Workspace/4444J99/portfolio`
-**Prompts:** 88 human messages
+**Prompts:** 25 human prompts (36 raw user messages incl. tool-loaded, task notifications)
 
 ---
 
@@ -432,15 +432,133 @@ does the transcript leave breadcrumbs for the eyes of an auditor to find all inf
 
 ---
 
+### P16 — 2026-03-06 20:01:00 (+1m)
+
+yes, and the sibling doc as a style-guide to follow your lead
+
+**Actions taken:**
+- Write `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--transcript-unabridged.md` (185KB full transcript with thinking blocks, tool I/O, generated code)
+- Write `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--style-guide.md`
+
+---
+
+### P17 — 2026-03-06 20:10:00 (+9m)
+
+so there are a bunch of sessions living in this cli interface, where is the locals stored?
+
+**Actions taken:**
+- Bash: `ls -lt /Users/4jp/.claude/projects/ | head -20`
+- Bash: `ls /Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/*.jsonl | wc -l`
+
+---
+
+### P18 — 2026-03-06 20:11:00 (+1m)
+
+oh, so this way Newly devised is basically duplication???
+
+---
+
+### P19 — 2026-03-06 20:12:00 (+1m)
+
+I guess I'm just wondering if instead of duplicating we should create contextual referential wires to each project's archived session exports for ease.
+
+---
+
+### P20 — 2026-03-06 20:15:00 (+3m)
+
+> stage all, commit all, origin merge
+
+**Actions taken:**
+- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git status`
+- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git add ... && git commit && git push`
+
+---
+
+### P21 — 2026-03-06 20:20:00 (+5m)
+
+another thread is working on it still; Instead, can we try an experiment in this directory, the current one we're in, the portfolio directory? Find all the Claude, Gemini, and Codex sessions. Just discover all AI session storage across all three tools.
+
+**Actions taken:**
+- Bash: `ls /Users/4jp/.claude/projects/ | head -30`
+- Bash: `find ~/.gemini -name '*.json' 2>/dev/null | head -20`
+- Bash: `find ~/.codex -name '*.jsonl' 2>/dev/null | head -20`
+- Discovered: Claude (64 sessions across 12 project dirs), Gemini (`~/.gemini/tmp/<slug>/chats/`), Codex (`~/.codex/sessions/YYYY/MM/DD/`)
+
+---
+
+### P22 — 2026-03-06 20:22:00 (+2m)
+
+do they perhaps get stored in another non project based directory?
+
+**Actions taken:**
+- Bash: `find ~/.gemini -type f -name '*.json' 2>/dev/null`
+- Bash: `find ~/.codex -type f 2>/dev/null`
+
+---
+
+### P23 — 2026-03-06 20:30:00 (+8m)
+
+Let's do an experiment. In this current directory, take all of the Gemini codex and cloud documents, pull the prompts. Let's get an analysis of prompting cycles and things that are happening/Opportunities missed; create a top-down review of all the plan files and make sure they've been implemented. If not implemented, create a GitHub issue to implement.
+
+**Actions taken:**
+- Agent: "Extract Gemini sessions" — found 30 sessions, 187 prompts
+- Agent: "Extract Codex sessions" — found 9 sessions, 43 prompts
+- Agent: "Extract Claude sessions 1-10" — found 10 sessions, 89 prompts
+- Analyzed 49 sessions across 3 tools → 319 prompts in first pass
+- Reviewed 8 plan files across 3 tools: 3 DONE, 4 PARTIAL, 1 NOT STARTED
+- Created GitHub issues #20-#26 for unimplemented plan items
+
+---
+
+### P24 — 2026-03-06 20:55:00 (+25m)
+
+all claude sessions need to be part of the data set; continue their review
+
+**Actions taken:**
+- Agent: "Extract Claude sessions 11-30" — 20 sessions, ~120 prompts
+- Agent: "Extract Claude sessions 31-50" — 20 sessions, ~100 prompts
+- Agent: "Extract Claude sessions 51-64" — 14 sessions, ~80 prompts
+- Total dataset: 608 prompts across 103 sessions from 3 AI tools
+
+---
+
+### P25 — 2026-03-06 21:10:00 (+15m)
+
+well dude we obviously need to complete the same goddamn process the other sessions went through with this one
+
+**Actions taken:**
+- Bash: `python3 ... analyze JSONL` — attempted to extract prompts from live session JSONL
+- Discovered live session JSONL doesn't flush human prompts until session close (only tool_result entries present)
+- Context window reached limit; conversation compacted
+
+---
+
 ## Prompt Summary
 
-**Total prompts:** 15
-**Session duration:** ~161 min
-**Avg time between prompts:** ~10.7 min
+**Total prompts:** 25
+**Session duration:** ~232 min (~3h 52m)
+**Avg time between prompts:** ~9.3 min
 
 ### Prompt Categories (heuristic)
 
-- **Directives** (implement/build/create/add/write): 1
-- **Questions**: 7
-- **Fixes** (fix/error/bug/broken/fail): 3
-- **Reviews** (check/verify/review/audit): 3
+- **Directives** (implement/build/create/add/write): 5 (P2, P5, P16, P20, P23)
+- **Questions**: 10 (P6, P7, P11, P12, P13, P14, P17, P18, P19, P22)
+- **Reviews** (check/verify/review/audit): 4 (P4, P8, P9, P15)
+- **Continuations** (continue/all/more): 2 (P24, P25)
+- **Meta** (export/session/transcript): 4 (P10, P12, P14, P16)
+
+### Workspace Directories Touched
+
+1. `/Users/4jp/Workspace/4444J99/portfolio/` — primary (route hardening, preflight, coupling manifest)
+2. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/` — SOP creation
+3. `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/` — session export, transcript, style guide
+
+### Key Deliverables
+
+1. Filesystem-derived a11y route walker (`sync-a11y-routes.mjs`) — zero hardcoded routes
+2. `npm run preflight` command — catches ~80% of CI failures locally
+3. `.quality/GOVERNANCE-COUPLING.md` — 9 coupling points documented
+4. `sop--cicd-resilience.md` — cross-organ SOP with 6-phase protocol
+5. Cross-tool prompt extraction: 608 prompts across 103 sessions (Claude/Gemini/Codex)
+6. Plan audit: 8 plans reviewed, 7 GitHub issues (#20-#26) created for gaps
+7. Session transcript + style guide for praxis-perpetua
