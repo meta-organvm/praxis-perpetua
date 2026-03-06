@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check markdown structure
+        run: |
+          set -euo pipefail
+          echo "=== Checking required directories ==="
+          for dir in standards templates sessions lessons; do
+            if [ ! -d "$dir" ]; then
+              echo "FAIL: Missing required directory: $dir"
+              exit 1
+            fi
+          done
+          echo "All required directories present."
+
+          echo "=== Checking required files ==="
+          required_files=(
+            "README.md"
+            "CLAUDE.md"
+            "seed.yaml"
+            "standards/METADOC--research-standards.md"
+            "standards/SOP--session-self-critique.md"
+            "standards/SOP--cross-agent-handoff.md"
+            "standards/SOP--structural-integrity-audit.md"
+            "standards/SOP--market-gap-analysis.md"
+            "standards/SOP--research-to-implementation-pipeline.md"
+          )
+          for f in "${required_files[@]}"; do
+            if [ ! -f "$f" ]; then
+              echo "FAIL: Missing required file: $f"
+              exit 1
+            fi
+          done
+          echo "All required files present."
+
+          echo "=== Checking session log naming ==="
+          for f in sessions/*.md; do
+            [ "$f" = "sessions/*.md" ] && break
+            basename="$(basename "$f")"
+            if ! echo "$basename" | grep -qE '^[0-9]{4}-[0-9]{2}-[0-9]{2}--'; then
+              echo "FAIL: Session log does not follow YYYY-MM-DD--description.md pattern: $f"
+              exit 1
+            fi
+          done
+          echo "All session logs follow naming convention."
+
+      - name: Check for broken internal links
+        run: |
+          set -euo pipefail
+          exit_code=0
+          for f in $(find . -name '*.md' -not -path './.git/*'); do
+            # Extract relative markdown links (not URLs)
+            grep -oP '\[.*?\]\(\K[^)]+' "$f" 2>/dev/null | grep -v '^http' | grep -v '^#' | while read -r link; do
+              target="$(dirname "$f")/$link"
+              if [ ! -e "$target" ]; then
+                echo "WARN: Broken link in $f -> $link"
+              fi
+            done
+          done

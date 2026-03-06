@@ -1,0 +1,23 @@
+schema_version: "1.0"
+organ: META
+organ_name: Meta
+repo: praxis-perpetua
+org: meta-organvm
+
+metadata:
+  implementation_status: ACTIVE
+  tier: standard
+  promotion_status: CANDIDATE
+  last_validated: "2026-03-06"
+  generated: "2026-03-06"
+  sprint: "PRAXIS"
+
+consumes:
+  - type: reference
+    source: meta-organvm/organvm-corpvs-testamentvm
+    description: References registry and governance rules for audit context
+
+subscriptions:
+  - event: session.completed
+    source: ALL
+    action: Trigger session self-critique review
