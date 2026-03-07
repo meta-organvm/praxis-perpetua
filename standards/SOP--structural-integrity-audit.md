@@ -1,3 +1,15 @@
+---
+sop: true
+name: structural-integrity-audit
+scope: system
+phase: hardening
+triggers:
+  - context:promotion
+  - context:code-review
+complements:
+  - verification-loop
+overrides: null
+---
 # SOP: Structural Integrity Audit (The Floor You Eat From)
 
 ## 1. Ontological Purpose
@@ -6,6 +18,8 @@ This SOP defines the process for achieving verified structural integrity in any 
 The standard is gravitational: the system must hold under its own weight without patchwork, bandaids, or swept debris. Every component must be verified against what it *claims* to do, not what its tests *claim* to check.
 
 **Applicable to:** All ORGANVM projects, all codebases, all structured systems. Governed by `METADOC--research-standards.md`.
+
+**Cross-reference:** `SOP--autopoietic-systems-diagnostics.md` Phase IV (antifragility stress test) extends this audit's pathology checklist to the systems level. `SOP--security-and-accessibility-audit.md` covers the security and accessibility dimensions that complement this structural audit.
 
 ---
 

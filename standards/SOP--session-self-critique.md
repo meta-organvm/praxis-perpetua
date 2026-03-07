@@ -1,3 +1,14 @@
+---
+sop: true
+name: session-self-critique
+scope: system
+phase: any
+triggers:
+  - context:session-end
+complements:
+  - evaluation-to-growth
+overrides: null
+---
 # SOP: Session Self-Critique
 
 **Version:** 1.0.0 | **Date:** March 6, 2026 | **Status:** Active
@@ -8,6 +19,8 @@
 ## 1. Ontological Purpose
 
 Self-critique is the system observing itself — meta-cognition operationalized as governance. It is not optional housekeeping or a nice-to-have retrospective. Every session produces artifacts that may contain structural errors, content gaps, or violated standards. Without systematic review, these accumulate as technical and intellectual debt that compounds silently.
+
+**Governed by:** `METADOC--sop-ecosystem.md` (Cluster 4: Operations & Delivery)
 
 The practice is perpetual: every session ends with a review. The review produces a session log. The session log feeds derived principles. The principles improve the next session. The loop does not close — it spirals upward.
 

@@ -9,6 +9,8 @@
 
 Cross-agent handoff is a **governance concern**, not merely a file-management task. When an external agent produces deliverables in an ORGANVM workspace, those artifacts exist outside the system's quality contracts (METADOC standards, seed.yaml declarations, promotion state machine). This SOP ensures that externally-generated work is triaged for structural integrity, audited against content standards, and formally reconciled into the governed corpus before it is treated as system output.
 
+**Governed by:** `METADOC--sop-ecosystem.md` (Cluster 3: Governance & Lifecycle)
+
 The core risk: **an external agent may believe it has completed work that the system does not recognize.** Files may be untracked, standards may be unmet, and the agent's self-reported success may diverge from actual deliverable quality.
 
 ---

@@ -5,6 +5,8 @@ This SOP defines the post-research transformation process. It ensures that raw m
 
 **Mandatory Form & Content:** All documents produced via this SOP must adhere to the standards defined in `METADOC--research-standards.md`.
 
+**Upstream inputs:** `SOP--source-evaluation-and-bibliography.md` (evaluated sources, annotated bibliography), `SOP--typological-hermeneutic-analysis.md` (Covenants, pattern language). **Downstream:** `SOP--strategic-foresight-and-futures.md` (consumes scenarios and backcasted roadmaps at Stage III-IV).
+
 ---
 
 ## 2. Stage I: Annotated Bibliography (Historiography / The Past)

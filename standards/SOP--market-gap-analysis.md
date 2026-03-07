@@ -3,6 +3,8 @@
 ## 1. Ontological Purpose
 The purpose of this SOP is to provide a standardized, rigorous framework for deconstructing competitors, identifying systemic vulnerabilities, and architecting "parry" strategies that transform competitor failures into our primary market advantages. This is a system-wide document applicable across all ORGANVM projects and is governed by `METADOC--research-standards.md`.
 
+**Cross-references:** `SOP--typological-hermeneutic-analysis.md` Phase III (genealogical inquiry) for competitor deconstruction; `SOP--strategic-foresight-and-futures.md` Phase I (STEEP analysis) for environmental scanning.
+
 ---
 
 ## 2. Phase I: Discovery & Deconstruction (Pre-Alpha)
