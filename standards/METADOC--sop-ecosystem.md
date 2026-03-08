@@ -67,7 +67,9 @@ Documents with `SOP--` prefix in the corpus that are reusable methodological pro
 | 24 | `SOP--readme-and-documentation.md` | SOP | Quality | Active |
 | 25 | `SOP--business-organism-design.md` | SOP | Planning | Active |
 | 26 | `SOP--completeness-verification.md` | SOP | Quality | Active |
-| 27 | `APPENDIX--research-standards-bibliography.md` | Appendix | Research | Active |
+| 27 | `SOP--project-board-taxonomy.md` | SOP | Planning | Active |
+| 28 | `SOP--recursive-study-feedback.md` | SOP | Research | Active |
+| 29 | `APPENDIX--research-standards-bibliography.md` | Appendix | Research | Active |
 
 ### 3.2 praxis-perpetua/templates/
 
@@ -139,6 +141,7 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--autopoietic-systems-diagnostics.md
     |   +-- SOP--market-gap-analysis.md
     |   +-- SOP--research-to-implementation-pipeline.md
+    |   +-- SOP--recursive-study-feedback.md
     |
     +-- CLUSTER 2: Quality & Integrity
     |   +-- SOP--structural-integrity-audit.md
@@ -165,6 +168,7 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     +-- CLUSTER 5: Planning & Design
     |   +-- SOP--planning-and-roadmapping.md
     |   +-- SOP--business-organism-design.md
+    |   +-- SOP--project-board-taxonomy.md
     |
     +-- SUPPORTING
         +-- APPENDIX--research-standards-bibliography.md
@@ -172,7 +176,7 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
         +-- lessons/ (3 files)
 ```
 
-**Total governed artifacts:** 2 METADOCs + 24 SOPs + 1 appendix + 6 templates + 3 lessons = **36 artifacts**.
+**Total governed artifacts:** 2 METADOCs + 25 SOPs + 1 appendix + 6 templates + 3 lessons = **37 artifacts**.
 
 ---
 
@@ -200,6 +204,9 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
                          |                   v
                          v        SOP--autopoietic-diagnostics
                    [POSSE/VII]               |
+                                             v
+                                    SOP--recursive-study-feedback
+                                             |
                                              v
                                     [feedback -> source-eval]
 
@@ -232,6 +239,8 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
 | agent-seeding | planning-and-roadmapping | cross-agent-handoff, session-self-critique |
 | readme-and-documentation | repo-onboarding | stranger-test, structural-integrity |
 | business-organism-design | market-gap-analysis, planning-and-roadmapping | product-deployment |
+| project-board-taxonomy | planning-and-roadmapping, business-organism-design, agent-seeding | (board operations) |
+| recursive-study-feedback | autopoietic-diagnostics, all study outputs | source-evaluation, typological-hermeneutic, derived-principles |
 | completeness-verification | (triggered at milestones) | promotion (gate) |
 
 ---
