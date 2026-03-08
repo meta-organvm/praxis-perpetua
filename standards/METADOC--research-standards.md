@@ -72,7 +72,12 @@ METADOC--research-standards.md (this document — hub)
     +-- SOP--strategic-foresight-and-futures.md [Domain 5]
     |
     +-- SOP--autopoietic-systems-diagnostics.md [Domain 6]
-              +-- feedback loop -> Source Evaluation
+    |         +-- triggers Study Suite (Reviewer, Experimenter, Auditor)
+    |
+    +-- SOP--recursive-study-feedback.md [Feedback Loop]
+              +-- Study Suite output -> Triage -> Action
+              +-- Action modifies corpus -> re-triggers studies
+              +-- Return arc -> Source Evaluation, Typological Analysis
 ```
 
 | SOP | Domain | Role in Pipeline |
@@ -83,6 +88,7 @@ METADOC--research-standards.md (this document — hub)
 | `SOP--research-to-implementation-pipeline.md` | Post-Research Transformation | Downstream: transforms research into specifications |
 | `SOP--strategic-foresight-and-futures.md` | Strategic Foresight & Futures | Forward: builds scenarios, backcasts roadmaps |
 | `SOP--autopoietic-systems-diagnostics.md` | Autopoietic Systems & Cybernetics | Meta: diagnoses self-regenerative capacity |
+| `SOP--recursive-study-feedback.md` | Recursive Feedback Loop | Ouroboros: routes study findings back into research pipeline |
 
 **Supporting files:**
 - `APPENDIX--research-standards-bibliography.md` — 81 source citations across 6 domains + canonical works.
