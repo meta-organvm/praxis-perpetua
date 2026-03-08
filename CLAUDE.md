@@ -39,7 +39,7 @@ archive/       Superseded standards
 <!-- ORGANVM:AUTO:START -->
 ## System Context (auto-generated — do not edit)
 
-**Organ:** META-ORGANVM (Meta) | **Tier:** standard | **Status:** CANDIDATE
+**Organ:** META-ORGANVM (Meta) | **Tier:** standard | **Status:** PUBLIC_PROCESS
 **Org:** `meta-organvm` | **Repo:** `praxis-perpetua`
 
 ### Edges
@@ -51,7 +51,7 @@ archive/       Superseded standards
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-03-08T13:07:06Z*
+*Last synced: 2026-03-08T20:11:35Z*
 
 ## Session Review Protocol
 
@@ -59,6 +59,7 @@ At the end of each session that produces or modifies files:
 1. Run `organvm session review --latest` to get a session summary
 2. Check for unimplemented plans: `organvm session plans --project .`
 3. Export significant sessions: `organvm session export <id> --slug <slug>`
+4. Run `organvm prompts distill --dry-run` to detect uncovered operational patterns
 
 Transcripts are on-demand (never committed):
 - `organvm session transcript <id>` — conversation summary
@@ -79,13 +80,11 @@ Transcripts are on-demand (never committed):
 | system | any | sop-ecosystem | METADOC: SOP Ecosystem — Taxonomy, Inventory & Coverage |
 | system | any | autopoietic-systems-diagnostics | SOP: Autopoietic Systems Diagnostics (The Mirror of Eternity) |
 | system | any | cicd-resilience-and-recovery | SOP: CI/CD Pipeline Resilience & Recovery |
-| system | hardening | completeness-verification | completeness-verification |
 | system | any | cross-agent-handoff | SOP: Cross-Agent Session Handoff |
 | system | any | document-audit-feature-extraction | SOP: Document Audit & Feature Extraction |
 | system | any | essay-publishing-and-distribution | SOP: Essay Publishing & Distribution |
 | system | any | market-gap-analysis | SOP: Full-Breath Market-Gap Analysis & Defensive Parrying |
 | system | any | pitch-deck-rollout | SOP: Pitch Deck Generation & Rollout |
-| system | hardening | product-deployment-and-revenue-activation | product-deployment-and-revenue-activation |
 | system | any | promotion-and-state-transitions | SOP: Promotion & State Transitions |
 | system | any | repo-onboarding-and-habitat-creation | SOP: Repo Onboarding & Habitat Creation |
 | system | any | research-to-implementation-pipeline | SOP: Research-to-Implementation Pipeline (The Gold Path) |
@@ -94,14 +93,13 @@ Transcripts are on-demand (never committed):
 | system | any | source-evaluation-and-bibliography | SOP: Source Evaluation & Annotated Bibliography (The Refinery) |
 | system | any | stranger-test-protocol | SOP: Stranger Test Protocol |
 | system | any | strategic-foresight-and-futures | SOP: Strategic Foresight & Futures (The Telescope) |
-| system | hardening | structural-integrity-audit | structural-integrity-audit |
 | system | any | typological-hermeneutic-analysis | SOP: Typological & Hermeneutic Analysis (The Archaeology) |
 | unknown | any | SOP-001-vector-pipeline-activation | SOP-001: Vector Pipeline Activation |
 | unknown | any | cicd-resilience | SOP: CI/CD Pipeline Resilience & Recovery |
 | unknown | any | document-audit-feature-extraction | SOP: Document Audit & Feature Extraction v2.0 |
 | unknown | any | pitch-deck-rollout | SOP: Pitch Deck Generation & Rollout |
 
-Linked skills: cross-agent-handoff, deployment-cicd, evaluation-to-growth, session-self-critique, structural-integrity-audit, verification-loop
+Linked skills: cross-agent-handoff, evaluation-to-growth, session-self-critique
 
 
 **Prompting (Anthropic)**: context 200K tokens, format: XML tags, thinking: extended thinking (budget_tokens)

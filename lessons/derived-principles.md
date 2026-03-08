@@ -108,6 +108,16 @@ The one-person enterprise works because the director holds vision and timing whi
 
 Blocked handoffs, governance gates, and promotion requirements are deliberate speed bumps that prevent premature scaling of half-formed products. Human intervention should be treated as an asynchronous first-class primitive — the system pauses gracefully and resumes when the human actor completes their part.
 
+### Y6: The system is ontologically stratified; decisions must respect their stratum
+**Source:** 2026-03-08 ontological topology analysis
+
+Four strata: implementation detail, architectural pattern, governance rule, philosophical commitment. Each has its own logic, timescale, and reversibility. Applying a lower stratum's logic to a higher-stratum decision causes recklessness (treating philosophical commitments as config flags). Applying a higher stratum's logic to a lower-stratum decision causes paralysis (treating linter choice as a moral commitment). Before any decision, ask: which stratum does this belong to?
+
+### Y7: Every organizational system that describes the architecture can be instantiated as a living agent within it
+**Source:** 2026-03-08 ontological topology analysis + Study Suite founding specification
+
+The academic system becomes a Reviewer agent. The scientific system becomes an Experimenter agent. The governance system becomes an Auditor agent. The map becomes the territory when the map has agency. Constraint: instantiated organizational systems must be observers, not actors — they produce knowledge; the human conductor acts on it. See: [The Ontological Topology of ORGANVM](../research/2026-03-08-ontological-topology-of-organvm.md), Section IV.
+
 ---
 
 ## Economic Principles

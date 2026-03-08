@@ -27,6 +27,7 @@ cross_references:
   - meta-organvm/praxis-perpetua/research/2025-12-ulti-meta-manifesto.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-metaphysics-of-flux.md
   - meta-organvm/praxis-perpetua/research/2025-12-plato-idealism-aristotle-empiricism.md
+  - meta-organvm/praxis-perpetua/research/2026-03-08-ontological-topology-of-organvm.md
 ---
 
 # Meta-Laws of Reality Codex
@@ -203,6 +204,9 @@ Simple rules yield complex outcomes. Mendel's genetics → diversity of life. Ne
 ### 6. Governance and Regulation
 From genes regulating biology to separation of powers in government to game mechanics limiting player action — systems develop regulatory mechanisms. Feedback loops (negative for stability, positive for growth) appear from engineering to ecology to economics.
 
+### 7. Ontological Stratification and Level-Crossing
+Reality is organized in layers where each layer has laws that cannot be reduced to the layer below. Chemistry emerges from physics but is not predictable by physics alone. Biology emerges from chemistry but obeys laws chemistry cannot anticipate. Sociology emerges from biology but follows patterns biology cannot derive. Confusion of levels — applying one stratum's logic to another stratum's problem — is a systematic source of error across all domains. Physics: quantum mechanics vs. classical mechanics as stratum confusion. Philosophy: the is-ought problem as stratum boundary. Computation: confusing implementation detail with architectural pattern. Governance: applying operational policy to constitutional questions. The productive use of stratification is knowing which level's logic to apply and when to deliberately cross levels (meta-cognition, self-reference, recursive self-improvement).
+
 ## ORGANVM Relevance
 
 This codex directly extends the manifesto's ontological framework:
@@ -212,3 +216,4 @@ This codex directly extends the manifesto's ontological framework:
 - **L7 (Conservation)** → the "bounded unpredictability within coherent structures" formula
 - **Meta-pattern 5 (Emergence)** → individual-to-enterprise amplification through simple rules composed into complex institutional behavior
 - **Meta-pattern 6 (Governance)** → ORGAN-IV's entire raison d'etre
+- **Meta-pattern 7 (Ontological Stratification)** → the five-layer ontological stack (Substrate → Tooling → Architecture → Emergent → Environment) and derived principles Y6/Y7. Decisions must respect their stratum; every organizational system that describes the architecture can be instantiated as a living agent within it. See [The Ontological Topology of ORGANVM](2026-03-08-ontological-topology-of-organvm.md).
