@@ -446,4 +446,32 @@ organvm sop init --scope repo|organ [--name <name>]   # Scaffold .sops/ dir + te
 
 ---
 
-*Version: 2.0.0 | System-Wide Directive | ORGANVM*
+## 11. Dual-Level Output Doctrine
+
+Every SOP execution produces two artifacts:
+
+1. **The Direct Output** — what the SOP was designed to create (audit report, deployment, essay, pipeline result)
+2. **The Consulting Clone** — a reproducible, client-facing version of that output (case study, methodology deck, deliverable template, engagement report)
+
+The consulting clone is not an afterthought. It is designed into the action from the start. When executing any SOP, the operator must ask: **"What is the Level 2 output? Who would pay for this?"**
+
+### Mapping
+
+The `consulting-services-manifest.md` (in `organvm-corpvs-testamentvm/docs/strategy/`) maps each SOP to its consulting package, target client profile, and deliverable format. Every new SOP added to the ecosystem must have a corresponding entry in the manifest.
+
+### Examples
+
+| SOP | Direct Output (Level 1) | Consulting Clone (Level 2) |
+|-----|------------------------|---------------------------|
+| structural-integrity-audit | Internal audit report | "Marrow Report" for pre-due-diligence clients |
+| stranger-test-protocol | Navigation audit log | Legibility score + UX recommendations deck |
+| product-deployment-and-revenue-activation | Deployed product | Case study + deployment runbook for "almost finished" products |
+| session-self-critique | Session review scaffold | AI-governance methodology documentation |
+
+### Revenue Pathway
+
+This doctrine operationalizes principle E2 (Dual-Level Production) from `praxis-perpetua/lessons/derived-principles.md`. The revenue pathway for every SOP execution is `consulting-service` — the methodology itself is the product.
+
+---
+
+*Version: 2.1.0 | System-Wide Directive | ORGANVM*

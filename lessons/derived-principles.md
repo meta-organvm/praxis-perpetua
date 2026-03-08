@@ -81,4 +81,60 @@ Some agents use `open(path, "w")` for every edit, losing all previous content. I
 
 ---
 
-*Last updated: 2026-03-06 | Source: founding session + structural audit*
+## Systemic Principles
+
+### Y1. Structural integrity through semantic flexibility
+**Source:** 2026-03-07 four-branch product implementation synthesis (P1)
+
+The acyclic dependency graph (I->II->III) must be maintained in code, but bidirectional reality is maintained through discourse. When Commerce discovers a flaw in upstream Theory, feedback routes through Logos essays and Koinonia discussions — never through code dependencies. The system is structurally unidirectional but semantically bidirectional. See: Logos Bypass protocol.
+
+### Y2. Governance is soil, not bureaucracy
+**Source:** 2026-03-07 four-branch synthesis (P2), 2026-03-06 materia-collider founding document
+
+Governance artifacts are growth conditions, not compliance checklists. A seedling (LOCAL) doesn't need a SECURITY.md. A tree bearing fruit that strangers pay for (GRADUATED) does. The promotion ladder encodes organic maturity. Premature governance kills seedlings.
+
+### Y3. Pre-codification is a first-class phase
+**Source:** 2026-03-07 four-branch synthesis (P3), 2026-03-06 materia-collider founding document
+
+Ideas need a liminal space (materia-collider) before entering the governed organ system. The pipeline is: Fuel (intake/) -> Collision (materia-collider/) -> Specialization (agentic-titan/) -> Habitat (8 organs). Nothing is canonical until it graduates to an organ. Contradictions are allowed in pre-codified space.
+
+### Y4. The director perceives; specialists execute
+**Source:** 2026-03-07 four-branch synthesis (P4), 2026-03-06 materia-collider founding document
+
+The one-person enterprise works because the director holds vision and timing while AI specialists hold domain expertise. Each specialist is a "historically complete corpus contextual expert" of exactly one thing. The director doesn't know how to do their jobs — the director knows that, when, and why they need to be done. The infrastructure (ORGANVM) mediates between them.
+
+### Y5. Human friction is a feature, not a bug
+**Source:** 2026-03-07 four-branch synthesis (P5), session 9affb815 (Styx "Cyborg Architecture")
+
+Blocked handoffs, governance gates, and promotion requirements are deliberate speed bumps that prevent premature scaling of half-formed products. Human intervention should be treated as an asynchronous first-class primitive — the system pauses gracefully and resumes when the human actor completes their part.
+
+---
+
+## Economic Principles
+
+### E1. The Revenue Imperative (Hard Gate)
+**Source:** 2026-03-08 personal-hell session + Essay 36 (construction addiction)
+
+Every energy expenditure must have a traceable line to income generation. This is not advisory — it is a gate. If energy-expense has no traceable line to income-generation, it requires explicit justification. The constraint does not dilute creative work; it challenges the creator to make work that is both true and economically viable. Lucas, Cameron, Eno — they understood that industrial participation unlocks industrial superpowers.
+
+Six valid revenue pathways:
+- `direct-product` — revenue from selling the thing itself
+- `consulting-service` — revenue from teaching or executing the methodology
+- `content-ip` — revenue from essays, courses, books, talks
+- `grant-award` — revenue from institutional funding
+- `employment` — revenue from hired positions
+- `infrastructure` — enabling work with a stated payoff horizon (e.g., "enables Styx deployment in 2 weeks")
+
+Items without a declared pathway are flagged and blocked. Infrastructure pathway requires a concrete payoff horizon — "it'll be useful someday" is not a horizon.
+
+### E2. Dual-Level Production
+**Source:** 2026-03-08 personal-hell session
+
+Every action produces two outputs: the direct result AND the reproducible methodology. SOP execution produces a consulting deliverable. Deployment produces a case study. An essay is both art and sales collateral. The clone is not an afterthought — it is designed into the action from the start.
+
+Level 1: Do the thing (deploy, audit, write).
+Level 2: Clone it for reproduction, study, and sale.
+
+---
+
+*Last updated: 2026-03-08 | Source: founding session + structural audit + four-branch synthesis + personal-hell session*
