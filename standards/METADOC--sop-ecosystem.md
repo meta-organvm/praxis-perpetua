@@ -61,7 +61,13 @@ Documents with `SOP--` prefix in the corpus that are reusable methodological pro
 | 18 | `SOP--pitch-deck-rollout.md` | SOP | Operations | Migrated from corpus |
 | 19 | `SOP--cicd-resilience-and-recovery.md` | SOP | Operations | Migrated from corpus |
 | 20 | `SOP--session-self-critique.md` | SOP | Operations | Active |
-| 21 | `APPENDIX--research-standards-bibliography.md` | Appendix | Research | Active |
+| 21 | `SOP--planning-and-roadmapping.md` | SOP | Planning | Active |
+| 22 | `SOP--ontological-renaming.md` | SOP | Governance | Active |
+| 23 | `SOP--agent-seeding-and-workforce-planning.md` | SOP | Operations | Active |
+| 24 | `SOP--readme-and-documentation.md` | SOP | Quality | Active |
+| 25 | `SOP--business-organism-design.md` | SOP | Planning | Active |
+| 26 | `SOP--completeness-verification.md` | SOP | Quality | Active |
+| 27 | `APPENDIX--research-standards-bibliography.md` | Appendix | Research | Active |
 
 ### 3.2 praxis-perpetua/templates/
 
@@ -139,11 +145,14 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--document-audit-feature-extraction.md
     |   +-- SOP--security-and-accessibility-audit.md
     |   +-- SOP--stranger-test-protocol.md
+    |   +-- SOP--readme-and-documentation.md
+    |   +-- SOP--completeness-verification.md
     |
     +-- CLUSTER 3: Governance & Lifecycle
     |   +-- SOP--promotion-and-state-transitions.md
     |   +-- SOP--repo-onboarding-and-habitat-creation.md
     |   +-- SOP--cross-agent-handoff.md
+    |   +-- SOP--ontological-renaming.md
     |
     +-- CLUSTER 4: Operations & Delivery
     |   +-- SOP--product-deployment-and-revenue-activation.md
@@ -151,6 +160,11 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--pitch-deck-rollout.md
     |   +-- SOP--cicd-resilience-and-recovery.md
     |   +-- SOP--session-self-critique.md
+    |   +-- SOP--agent-seeding-and-workforce-planning.md
+    |
+    +-- CLUSTER 5: Planning & Design
+    |   +-- SOP--planning-and-roadmapping.md
+    |   +-- SOP--business-organism-design.md
     |
     +-- SUPPORTING
         +-- APPENDIX--research-standards-bibliography.md
@@ -158,7 +172,7 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
         +-- lessons/ (3 files)
 ```
 
-**Total governed artifacts:** 2 METADOCs + 18 SOPs + 1 appendix + 6 templates + 3 lessons = **30 artifacts**.
+**Total governed artifacts:** 2 METADOCs + 24 SOPs + 1 appendix + 6 templates + 3 lessons = **36 artifacts**.
 
 ---
 
@@ -213,6 +227,12 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
 | structural-integrity | (triggered at milestones) | promotion (gate) |
 | security-accessibility | (triggered quarterly) | promotion (gate), product-deployment (gate) |
 | stranger-test | promotion (at PUBLIC_PROCESS) | (documentation improvements) |
+| planning-and-roadmapping | (entry point) | repo-onboarding, agent-seeding |
+| ontological-renaming | (entry point) | repo-onboarding |
+| agent-seeding | planning-and-roadmapping | cross-agent-handoff, session-self-critique |
+| readme-and-documentation | repo-onboarding | stranger-test, structural-integrity |
+| business-organism-design | market-gap-analysis, planning-and-roadmapping | product-deployment |
+| completeness-verification | (triggered at milestones) | promotion (gate) |
 
 ---
 
@@ -233,12 +253,21 @@ This matrix maps which SOPs provide coverage for each organ across key operation
 | **CI/CD Recovery** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Agent Handoff** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Session Review** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Planning** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Documentation** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Naming** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Agent Workforce** | PARTIAL | PARTIAL | FULL | FULL | PARTIAL | PARTIAL | — | FULL |
+| **Completeness** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Business Design** | — | — | FULL | — | — | — | — | PARTIAL |
 
 ### Coverage Notes
 
 - **Research** is PARTIAL for IV-VI because these organs rarely need deep typological or foresight research — their research needs are operational, not academic. The research cluster SOPs apply when needed.
 - **Deployment** is organ-specific: ORGAN-III has full coverage via `SOP--product-deployment-and-revenue-activation.md`; other organs deploy via simpler GitHub Pages or static hosting patterns covered by the pitch deck and CI/CD SOPs.
 - **Publishing** covers ORGAN-V (essays) and ORGAN-VII (POSSE distribution) specifically via `SOP--essay-publishing-and-distribution.md`.
+- **Planning** is universally applicable via `SOP--planning-and-roadmapping.md` — any initiative requiring phased execution.
+- **Agent Workforce** is PARTIAL for organs that rarely need multi-agent parallelism (I, II, V, VI) — single-agent sessions suffice for most theoretical and community work.
+- **Business Design** applies primarily to ORGAN-III (commercial products) via `SOP--business-organism-design.md`. META has partial coverage for system-wide business modeling.
 
 ---
 
@@ -258,6 +287,12 @@ Identified gaps with severity and resolution status.
 | G8 | Stranger test protocol not in SOP format | LOW | RESOLVED | Migrated and normalized to praxis-perpetua |
 | G9 | No formal data migration/backup SOP | LOW | OPEN | Future: `SOP--data-migration-and-backup.md` |
 | G10 | No SOP for community event facilitation (VI) | LOW | OPEN | Future: organ-specific when community launches |
+| G11 | No SOP for planning and roadmapping | HIGH | RESOLVED | `SOP--planning-and-roadmapping.md` created (distill pipeline) |
+| G12 | No SOP for ontological naming conventions | MEDIUM | RESOLVED | `SOP--ontological-renaming.md` created (distill pipeline) |
+| G13 | No SOP for agent workforce decomposition | HIGH | RESOLVED | `SOP--agent-seeding-and-workforce-planning.md` created (distill pipeline) |
+| G14 | No SOP for README/documentation standards | MEDIUM | RESOLVED | `SOP--readme-and-documentation.md` created (distill pipeline) |
+| G15 | No SOP for business organism design | MEDIUM | RESOLVED | `SOP--business-organism-design.md` created (distill pipeline) |
+| G16 | No SOP for completeness verification | MEDIUM | RESOLVED | `SOP--completeness-verification.md` created (distill pipeline) |
 
 ---
 
@@ -334,6 +369,11 @@ overrides: null                  # name of higher-scope SOP this replaces
 | `research-synthesis-workflow` | `SOP--research-to-implementation-pipeline` | SOP adds ORGANVM routing |
 | `incident-response-commander` | `SOP--cicd-resilience-and-recovery` | SOP adds soak patterns |
 | `doc-coauthoring` | `SOP--essay-publishing-and-distribution` | SOP adds POSSE pipeline |
+| `ontological-renamer` | `SOP--ontological-renaming` | SOP adds registry/seed.yaml propagation |
+| `multi-agent-workforce-planner` | `SOP--agent-seeding-and-workforce-planning` | SOP adds ORGANVM workstream patterns |
+| `project-orchestration` | `SOP--planning-and-roadmapping` | SOP adds there-and-back-again methodology |
+| `github-repository-standards` | `SOP--readme-and-documentation` | SOP adds portfolio-standard README |
+| `systemic-product-analyst` | `SOP--business-organism-design` | SOP adds phased activation model |
 
 ### Lifecycle Phase Model
 
@@ -341,9 +381,9 @@ Directives can declare a `phase` to indicate when in the repo lifecycle they bec
 
 | Phase | Promotion State | When | Core Directives |
 |-------|----------------|------|-----------------|
-| `genesis` | (pre-LOCAL) | Project creation | github-repository-standards, github-repo-curator, repo-onboarding |
-| `foundation` | LOCAL | Initial development | testing-patterns, tdd-workflow, security-threat-modeler, coding-standards-enforcer |
-| `hardening` | CANDIDATE | Preparing for public | verification-loop, deployment-cicd, accessibility-patterns, security-implementation-guide |
+| `genesis` | (pre-LOCAL) | Project creation | github-repository-standards, github-repo-curator, repo-onboarding, ontological-renaming, planning-and-roadmapping, business-organism-design |
+| `foundation` | LOCAL | Initial development | testing-patterns, tdd-workflow, security-threat-modeler, coding-standards-enforcer, readme-and-documentation, agent-seeding-and-workforce-planning |
+| `hardening` | CANDIDATE | Preparing for public | verification-loop, deployment-cicd, accessibility-patterns, security-implementation-guide, completeness-verification |
 | `graduation` | PUBLIC_PROCESS → GRADUATED | Public maturity | stranger-test-protocol, doc-coauthoring, structural-integrity-audit |
 | `sustaining` | GRADUATED | Ongoing maintenance | incident-response-commander, evaluation-to-growth, cicd-resilience |
 | `any` | (all states) | Always applicable | session-self-critique, cli-module-pattern |
@@ -375,6 +415,8 @@ Files in `.sops/` are self-declaring SOP-skills — any `.md` file in a `.sops/`
 
 Seed examples:
 - `meta-organvm/.sops/submodule-sync-protocol.md` — T3 organ-level directive for all META repos
+- `meta-organvm/.sops/commit-and-release-workflow.md` — T3 commit/push/release protocol
+- `meta-organvm/.sops/session-state-management.md` — T3 session state preservation directive
 - `meta-organvm/organvm-engine/.sops/cli-module-pattern.md` — T4 repo-level directive for adding CLI commands
 - `meta-organvm/organvm-corpvs-testamentvm/.sops/registry-update-protocol.md` — T4 repo-level directive for safe registry editing
 
