@@ -1,0 +1,8 @@
+schema_version: '1.0'
+repo: praxis-perpetua
+organ: META
+display_name: 'Process governance corpus: SOPs, session self-critique logs, derived
+  principles, and continuous improvement templates'
+delivery:
+- platform: web_app
+  status: not_started

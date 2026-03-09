@@ -64,4 +64,16 @@ Recurring structural issues and their fixes. Each pattern is generalized from sp
 
 ---
 
-*Last updated: 2026-03-06 | Updated as patterns recur across sessions*
+## SP6: The Uniform Governance Trap
+
+**Pattern:** All repos in the system go through the same promotion pipeline, same metrics, same context sync regardless of their nature (keystone, infrastructure, creative, stub).
+
+**Symptom:** Infrastructure repos sit at CANDIDATE forever because they can't "graduate" in the product sense. Creative repos are burdened with compliance gates designed for production systems. Stubs persist in low-valence indefinitely, consuming cognitive load without bonding or composting.
+
+**Fix:** Differential governance tracks: different gate profiles by tier (already in gates.py PROFILES), different promotion criteria, different staleness thresholds. Keystones get strictest gates; infrastructure matures but doesn't graduate; creative repos get looser governance; stubs either bond or get composted.
+
+**First observed:** 2026-03-08 universal hierarchy synthesis (Convergence 4). See: Y11 in [derived-principles.md](derived-principles.md), [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md).
+
+---
+
+*Last updated: 2026-03-08 | Updated as patterns recur across sessions*

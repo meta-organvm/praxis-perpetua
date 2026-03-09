@@ -69,7 +69,9 @@ Documents with `SOP--` prefix in the corpus that are reusable methodological pro
 | 26 | `SOP--completeness-verification.md` | SOP | Quality | Active |
 | 27 | `SOP--project-board-taxonomy.md` | SOP | Planning | Active |
 | 28 | `SOP--recursive-study-feedback.md` | SOP | Research | Active |
-| 29 | `APPENDIX--research-standards-bibliography.md` | Appendix | Research | Active |
+| 29 | `SOP--architecture-decision-records.md` | SOP | Planning | Active |
+| 30 | `SOP--legal-compliance-matrix.md` | SOP | Planning | Active |
+| 31 | `APPENDIX--research-standards-bibliography.md` | Appendix | Research | Active |
 
 ### 3.2 praxis-perpetua/templates/
 
@@ -81,6 +83,17 @@ Documents with `SOP--` prefix in the corpus that are reusable methodological pro
 | 4 | `handoff-triage.md` | Cross-agent handoff checklist |
 | 5 | `transcript-style-guide.md` | Session transcript rendering conventions |
 | 6 | `source-evaluation-scorecard.md` | CRAAP + 5 Cs source evaluation |
+| 7 | `dept/README.md` | Department SLP library index |
+| 8 | `dept/eng.md` | ENG department generative templates (E1-E5) |
+| 9 | `dept/leg.md` | LEG department generative templates (L1-L7) |
+| 10 | `dept/prd.md` | PRD department generative templates (P1-P5) |
+| 11 | `dept/ops.md` | OPS department generative templates (O1-O6) |
+| 12 | `dept/gro.md` | GRO department generative templates (G1-G6) |
+| 13 | `dept/fin.md` | FIN department generative templates (F1-F6) |
+| 14 | `dept/cxs.md` | CXS department generative templates (C1-C5) |
+| 15 | `dept/b2b.md` | B2B department generative templates (B1-B6) |
+| 16 | `dept/cross.md` | Cross-cutting generative templates (X1-X8) |
+| 17 | `dept/orchestrator.md` | Master orchestrator prompt for full docs/ generation |
 
 ### 3.3 praxis-perpetua/lessons/
 
@@ -169,14 +182,16 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--planning-and-roadmapping.md
     |   +-- SOP--business-organism-design.md
     |   +-- SOP--project-board-taxonomy.md
+    |   +-- SOP--architecture-decision-records.md
+    |   +-- SOP--legal-compliance-matrix.md
     |
     +-- SUPPORTING
         +-- APPENDIX--research-standards-bibliography.md
-        +-- templates/ (6 files)
+        +-- templates/ (17 files, including dept/ library)
         +-- lessons/ (3 files)
 ```
 
-**Total governed artifacts:** 2 METADOCs + 25 SOPs + 1 appendix + 6 templates + 3 lessons = **37 artifacts**.
+**Total governed artifacts:** 2 METADOCs + 27 SOPs + 1 appendix + 17 templates + 3 lessons = **50 artifacts**.
 
 ---
 
@@ -242,6 +257,8 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
 | project-board-taxonomy | planning-and-roadmapping, business-organism-design, agent-seeding | (board operations) |
 | recursive-study-feedback | autopoietic-diagnostics, all study outputs | source-evaluation, typological-hermeneutic, derived-principles |
 | completeness-verification | (triggered at milestones) | promotion (gate) |
+| architecture-decision-records | repo-onboarding | completeness-verification (gate) |
+| legal-compliance-matrix | business-organism-design, market-gap-analysis | product-deployment (gate) |
 
 ---
 
@@ -268,6 +285,8 @@ This matrix maps which SOPs provide coverage for each organ across key operation
 | **Agent Workforce** | PARTIAL | PARTIAL | FULL | FULL | PARTIAL | PARTIAL | — | FULL |
 | **Completeness** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Business Design** | — | — | FULL | — | — | — | — | PARTIAL |
+| **Architecture Records** | PARTIAL | PARTIAL | FULL | PARTIAL | — | — | — | FULL |
+| **Legal Compliance** | — | — | FULL | — | — | — | — | — |
 
 ### Coverage Notes
 
@@ -483,4 +502,4 @@ This doctrine operationalizes principle E2 (Dual-Level Production) from `praxis-
 
 ---
 
-*Version: 2.1.0 | System-Wide Directive | ORGANVM*
+*Version: 2.2.0 | System-Wide Directive | ORGANVM*

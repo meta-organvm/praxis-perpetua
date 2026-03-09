@@ -118,6 +118,31 @@ Four strata: implementation detail, architectural pattern, governance rule, phil
 
 The academic system becomes a Reviewer agent. The scientific system becomes an Experimenter agent. The governance system becomes an Auditor agent. The map becomes the territory when the map has agency. Constraint: instantiated organizational systems must be observers, not actors — they produce knowledge; the human conductor acts on it. See: [The Ontological Topology of ORGANVM](../research/2026-03-08-ontological-topology-of-organvm.md), Section IV.
 
+### Y8: Active complexity reduction is structural necessity, not optional optimization
+**Source:** 2026-03-08 universal hierarchy synthesis (Convergence 1)
+
+The system's scale exceeds its operator's capacity by every measure — information theory (channel capacity), neuroscience (7±2 chunks), ecology (carrying capacity), economics (scarcity of attention), infrastructure (single points of failure). Active complexity reduction — dimming, suppressing, decomposing inactive units so the conductor's attention is directed to the 7±2 that matter now — is not optional optimization but structural necessity. 5/5 domains confirm: fewer active repos, deeper investment in the ones that remain. See: [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md), §I Convergence 1.
+
+### Y9: Monitoring without automatic response is theater
+**Source:** 2026-03-08 universal hierarchy synthesis (Convergence 2)
+
+Observation without corrective action is a thermometer without a thermostat. Confirmed by organismal biology, infrastructure, thermodynamics, and governance — 4/4 domains. Vital signs need automatic responses: when test coverage drops, a corrective task auto-generates; when a repo goes stale past STALE_CRIT, it dims in context files; when the omega scorecard stalls, operational cadence shifts. The organism (metrics/organism.py) already observes — it must also act. See: [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md), §I Convergence 2.
+
+### Y10: Forgetting is a feature, not a failure
+**Source:** 2026-03-08 universal hierarchy synthesis (Convergence 3)
+
+5/5 domains confirm: neuroscience (retrieval-induced forgetting), ecology (decomposers), academia (emeritus), cellular biology (apoptosis), chemistry (decomposition reactions). ARCHIVED status without active nutrient extraction is not forgetting — it is hoarding. Archival must extract reusable patterns, absorb documentation into the corpus, and then truly go cold: no edges, no context, no cognitive load. See: [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md), §I Convergence 3.
+
+### Y11: Not all units deserve equal governance
+**Source:** 2026-03-08 universal hierarchy synthesis (Convergence 4)
+
+Keystones (registry, engine, schemas) need strictest gates and highest test coverage. Infrastructure repos mature but don't "graduate." Creative/experimental repos need looser governance. Stubs either bond or get composted. The existing gate profiles (gates.py PROFILES) partially implement this — governance-rules.json and promotion criteria should follow. 5/5 domains confirm: ecology, infrastructure, academia, chemistry, mathematics. See: [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md), §I Convergence 4. See also: SP6 in [Structural Patterns](structural-patterns.md).
+
+### Y12: Dynamic lens assembly replaces permanent organizational theory
+**Source:** 2026-03-08 universal hierarchy synthesis (§III)
+
+Summon 2-3 organizational lenses per decision, interrogate through them, resolve conflicts, release. Never carry lens-specific vocabulary into unrelated work. One assembly per task — perpetual FRAME is the anti-pattern. The 28-lens research program demonstrated the method; the catalog formalizes it. See: [SOP--dynamic-lens-assembly.md](../standards/SOP--dynamic-lens-assembly.md), [lens-catalog.md](lens-catalog.md), [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md), §III.
+
 ---
 
 ## Economic Principles
@@ -145,6 +170,11 @@ Every action produces two outputs: the direct result AND the reproducible method
 Level 1: Do the thing (deploy, audit, write).
 Level 2: Clone it for reproduction, study, and sale.
 
+### E3. The Janus Principle — internal and external serve different strata
+**Source:** 2026-03-08 universal hierarchy synthesis (Conflict 3 resolution)
+
+Internal documentation (Layer 0: architectural coherence) and external products (Layer +1: emergent value) are not competing — they serve different strata (Y6). Cap internal documentation at current level; redirect incremental sessions to external-facing outputs. Infrastructure WIP limit: hard-cap infrastructure tasks in the pipeline. The technium's "want" for more tools, aligned with the conductor's cognitive preferences, is the system's most dangerous positive feedback loop. The noosphere demands transmission; the autopoietic cycle demands production. Both are satisfied by shipping products, not by writing more governance documents. See: [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md), §II Conflict 3, §IV Finding 4-5.
+
 ---
 
-*Last updated: 2026-03-08 | Source: founding session + structural audit + four-branch synthesis + personal-hell session*
+*Last updated: 2026-03-08 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis*
