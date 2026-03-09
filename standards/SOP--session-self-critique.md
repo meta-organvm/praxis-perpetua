@@ -137,12 +137,65 @@ Each session review produces:
 
 ---
 
-## 10. Anti-Patterns
+## 10. Phase VI: Concrete Output Gate
+
+**Goal:** Verify that the session produced tangible artifacts, not just analysis.
+
+Per `SOP--theory-to-concrete-gate.md`, every session must produce at least one of:
+- Files changed and committed
+- Plan file created
+- Issues filed
+- Decision log entry written
+- Concrete next actions documented
+
+### Process
+
+1. Check `git status` and `git log --since="<session-start>"` across all touched repos
+2. If no changes were committed and no artifacts were created:
+   - Create a plan file summarizing insights with concrete next steps
+   - OR create GitHub issues for each actionable finding
+   - OR document decisions in the session log with explicit "next action" items
+3. Rate the session on the concreteness spectrum:
+   - **Level 5:** Deployed — running in production
+   - **Level 4:** Committed — code/docs committed to git
+   - **Level 3:** Planned — plan file with tasks and file paths
+   - **Level 2:** Issued — GitHub issues with acceptance criteria
+   - **Level 1:** Logged — decision log entry or session notes
+   - **Level 0:** Nothing — gate failure, must remediate before session close
+
+**Output:** Concreteness level noted in session log. Level 0 requires remediation.
+
+---
+
+## 11. Phase VII: Context Budget Tracking
+
+**Goal:** Assess context consumption and improve future session planning.
+
+Per `SOP--context-window-conservation.md`:
+
+1. Note whether the session required continuation (context exhaustion)
+2. If continuation was needed:
+   - Was the scope too broad? Could it have been split at the start?
+   - Was research delegated to subagents or done in the main thread?
+   - Were large files read in full when line ranges would have sufficed?
+3. Rate context efficiency:
+   - **Efficient:** Completed goal with context to spare
+   - **Tight:** Completed goal but context was nearly exhausted
+   - **Exhausted:** Required continuation — document what caused it
+4. Log context efficiency rating and any lessons for future sessions
+
+**Output:** Context efficiency note in session log.
+
+---
+
+## 12. Anti-Patterns
 
 - **Skipping the review because "nothing went wrong"** — The review is how you discover what went wrong. You cannot skip what you haven't done.
 - **Reviewing your own paraphrases instead of the original prompts** — Prompt drift is real. Go back to the source.
 - **Logging lessons without updating derived-principles.md** — A lesson in a session log is a one-time observation. A lesson in derived-principles.md is a system improvement. Both are required.
 - **Treating the review as a checklist to rush through** — Read your own output as if a hostile reviewer is trying to find reasons to reject it.
+- **Closing a session at Level 0 concreteness without remediation** — Pure analysis sessions must produce at minimum a plan file or issue list.
+- **Ignoring context exhaustion as "just how it is"** — Every exhaustion event is a session planning failure. Log it, learn from it, split earlier next time.
 
 ---
-*Version: 1.0.0 | System-Wide Directive | ORGANVM*
+*Version: 1.1.0 | System-Wide Directive | ORGANVM*

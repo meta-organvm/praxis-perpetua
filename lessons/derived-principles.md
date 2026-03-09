@@ -177,4 +177,48 @@ Internal documentation (Layer 0: architectural coherence) and external products 
 
 ---
 
-*Last updated: 2026-03-08 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis*
+## Operational Discipline Principles (24h Retrospective)
+
+### O1. Container environments break assumptions that work locally
+**Source:** 2026-03-09 24h retrospective (H1: Container Deployment Triple-Fix)
+
+Three sequential fix commits to deploy a single app: bind address, body limit, CORS origin. Each "works on my machine." Container platforms impose network, proxy, and origin constraints that do not exist in local dev. A preflight checklist (SOP--container-deployment-preflight) catches all three before the first deploy attempt. The general principle: every environment transition is a category boundary, not a scaling operation.
+
+### O2. Quality gates set from hope, not measurement, block all progress
+**Source:** 2026-03-09 24h retrospective (H2: Quality Gate Miscalibration)
+
+Setting a bundle budget below the actual bundle size guarantees CI failure. Setting Lighthouse thresholds aspirationally guarantees blocked merges. Every ratchet must start from a measured baseline + headroom. The gate exists to prevent regression, not to enforce targets that were never met. See: SOP--quality-gate-baseline-calibration.
+
+### O3. Parallel agents require explicit claims, not implicit trust
+**Source:** 2026-03-09 24h retrospective (H3: Parallel Agent Collision)
+
+Multiple AI sessions working concurrently stepped on each other: one ran pytest while another wrote tests. Background tasks were killed. The user had to manually redirect agents. The fix: punch-in/punch-out claims registry and tool checkout line with lane capacity. Implicit coordination ("surely the other session won't touch that") fails at scale. Explicit coordination (claims.py, tool_lock.py) succeeds.
+
+### O4. Context windows are non-renewable; budget them like money
+**Source:** 2026-03-09 24h retrospective (H4: Context Window Exhaustion)
+
+Six context exhaustion events in 24 hours. Each requires a cold restart with a summary preamble that loses decision rationale. Prevention: declare scope at session start, delegate research to subagents, split Heavy sessions into Medium sessions before starting (not after context death), reserve 20% for session close. See: SOP--context-window-conservation.
+
+### O5. Analysis without concrete output is consumption, not production
+**Source:** 2026-03-09 24h retrospective (H5: Theory Without Concrete Output)
+
+Gemini sessions produced extensive analysis with zero file changes. User had to forcefully redirect: "define concrete repo changes as result." Every session must close with at least one tangible artifact: committed files, plan file, issues, or decision log. Level 0 (no output) is a hard gate failure. See: SOP--theory-to-concrete-gate.
+
+### O6. Static/cached responses are a deployment anti-pattern for dynamic systems
+**Source:** 2026-03-09 24h retrospective (H6: Stale / Pre-Canned Responses)
+
+The stakeholder portal served static fallbacks instead of live-queried data. In a system that changes hourly, any cached response older than the last commit is stale. Architecture must default to live queries with graceful degradation, not static fallbacks with aspirational freshness.
+
+### O7. Background tasks without timeouts and fallbacks are silent failures
+**Source:** 2026-03-09 24h retrospective (H7: Background Task Failures)
+
+Multiple background tasks killed or failed silently: test suite timeout, build killed, batch update failed. Each lost a verification step. Every background task needs: explicit timeout, defined fallback (re-run foreground, skip, escalate), and resource lane assignment. Never more than 1 heavy task on a 16GB machine. See: SOP--background-task-resilience.
+
+### O8. Agent scope drift compounds with session length
+**Source:** 2026-03-09 24h retrospective (H8: Agent Scope Drift)
+
+5+ user interruptions to redirect wandering agents. Agents expand scope naturally — they find related work and start doing it. The cost compounds: each tangent burns context that could serve the declared goal. Mitigation: single bounded goal at session start, agent self-check against declared scope before starting new work, user interruption = scope violation signal.
+
+---
+
+*Last updated: 2026-03-09 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis + 24h retrospective*

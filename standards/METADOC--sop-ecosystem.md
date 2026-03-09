@@ -72,6 +72,12 @@ Documents with `SOP--` prefix in the corpus that are reusable methodological pro
 | 29 | `SOP--architecture-decision-records.md` | SOP | Planning | Active |
 | 30 | `SOP--legal-compliance-matrix.md` | SOP | Planning | Active |
 | 31 | `APPENDIX--research-standards-bibliography.md` | Appendix | Research | Active |
+| 32 | `SOP--container-deployment-preflight.md` | SOP | Operations | Active |
+| 33 | `SOP--quality-gate-baseline-calibration.md` | SOP | Quality | Active |
+| 34 | `SOP--context-window-conservation.md` | SOP | Operations | Active |
+| 35 | `SOP--theory-to-concrete-gate.md` | SOP | Operations | Active |
+| 36 | `SOP--background-task-resilience.md` | SOP | Operations | Active |
+| 37 | `SOP--cross-reference-validation.md` | SOP | Quality | Active |
 
 ### 3.2 praxis-perpetua/templates/
 
@@ -163,6 +169,8 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--stranger-test-protocol.md
     |   +-- SOP--readme-and-documentation.md
     |   +-- SOP--completeness-verification.md
+    |   +-- SOP--quality-gate-baseline-calibration.md
+    |   +-- SOP--cross-reference-validation.md
     |
     +-- CLUSTER 3: Governance & Lifecycle
     |   +-- SOP--promotion-and-state-transitions.md
@@ -177,6 +185,10 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--cicd-resilience-and-recovery.md
     |   +-- SOP--session-self-critique.md
     |   +-- SOP--agent-seeding-and-workforce-planning.md
+    |   +-- SOP--container-deployment-preflight.md
+    |   +-- SOP--context-window-conservation.md
+    |   +-- SOP--theory-to-concrete-gate.md
+    |   +-- SOP--background-task-resilience.md
     |
     +-- CLUSTER 5: Planning & Design
     |   +-- SOP--planning-and-roadmapping.md
@@ -191,7 +203,7 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
         +-- lessons/ (3 files)
 ```
 
-**Total governed artifacts:** 2 METADOCs + 27 SOPs + 1 appendix + 17 templates + 3 lessons = **50 artifacts**.
+**Total governed artifacts:** 2 METADOCs + 33 SOPs + 1 appendix + 17 templates + 3 lessons = **56 artifacts**.
 
 ---
 
@@ -235,6 +247,16 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
     +-- SOP--cross-agent-handoff (at agent session boundaries)
     +-- SOP--session-self-critique (at every session end)
     +-- SOP--cicd-resilience-and-recovery (at CI failure)
+
+    SESSION DISCIPLINE (cross-cutting — invoked at session lifecycle)
+    +-- SOP--context-window-conservation (at session start)
+    +-- SOP--theory-to-concrete-gate (at session end)
+    +-- SOP--background-task-resilience (at background task launch)
+
+    DEPLOYMENT (sub-procedures)
+    +-- SOP--container-deployment-preflight (before container deployment)
+    +-- SOP--quality-gate-baseline-calibration (at CI gate setup)
+    +-- SOP--cross-reference-validation (at integration creation)
 ```
 
 ### Key Upstream/Downstream Relationships
@@ -259,6 +281,12 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
 | completeness-verification | (triggered at milestones) | promotion (gate) |
 | architecture-decision-records | repo-onboarding | completeness-verification (gate) |
 | legal-compliance-matrix | business-organism-design, market-gap-analysis | product-deployment (gate) |
+| container-deployment-preflight | product-deployment (Phase II sub-procedure) | (verified deployment) |
+| quality-gate-baseline-calibration | (entry point — new CI gate setup) | cicd-resilience, cross-reference-validation |
+| context-window-conservation | (entry point — session start) | session-self-critique |
+| theory-to-concrete-gate | (triggered at session end) | session-self-critique (Phase VI) |
+| background-task-resilience | (triggered at task launch) | session-self-critique |
+| cross-reference-validation | quality-gate-baseline-calibration | structural-integrity (gate) |
 
 ---
 
@@ -282,6 +310,12 @@ This matrix maps which SOPs provide coverage for each organ across key operation
 | **Planning** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Documentation** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Naming** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Container Deploy** | PARTIAL | PARTIAL | FULL | PARTIAL | — | — | — | PARTIAL |
+| **Gate Calibration** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Context Conservation** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Concrete Output** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Background Tasks** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Cross-Ref Validation** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Agent Workforce** | PARTIAL | PARTIAL | FULL | FULL | PARTIAL | PARTIAL | — | FULL |
 | **Completeness** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Business Design** | — | — | FULL | — | — | — | — | PARTIAL |
@@ -321,6 +355,12 @@ Identified gaps with severity and resolution status.
 | G14 | No SOP for README/documentation standards | MEDIUM | RESOLVED | `SOP--readme-and-documentation.md` created (distill pipeline) |
 | G15 | No SOP for business organism design | MEDIUM | RESOLVED | `SOP--business-organism-design.md` created (distill pipeline) |
 | G16 | No SOP for completeness verification | MEDIUM | RESOLVED | `SOP--completeness-verification.md` created (distill pipeline) |
+| G17 | No container deployment preflight | HIGH | RESOLVED | `SOP--container-deployment-preflight.md` created (24h retrospective) |
+| G18 | No quality gate calibration procedure | HIGH | RESOLVED | `SOP--quality-gate-baseline-calibration.md` created (24h retrospective) |
+| G19 | No context window conservation guide | HIGH | RESOLVED | `SOP--context-window-conservation.md` created (24h retrospective) |
+| G20 | No theory-to-concrete output gate | MEDIUM | RESOLVED | `SOP--theory-to-concrete-gate.md` created (24h retrospective) |
+| G21 | No background task resilience protocol | MEDIUM | RESOLVED | `SOP--background-task-resilience.md` created (24h retrospective) |
+| G22 | No cross-reference validation procedure | MEDIUM | RESOLVED | `SOP--cross-reference-validation.md` created (24h retrospective) |
 
 ---
 

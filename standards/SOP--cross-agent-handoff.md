@@ -102,9 +102,54 @@ After triage and content audit:
 
 ---
 
-## 8. Versioning
+## 8. Collision Detection & Prevention
+
+When multiple AI agents (or multiple sessions of the same agent) work concurrently in the ORGANVM workspace, collision risks multiply. This section provides the protocol for detecting and preventing overlapping work.
+
+### 8.1 Pre-Session Collision Check
+
+Before starting work in any repo:
+
+1. **Check the claims registry** for active claims on the target repo:
+   ```bash
+   # View active claims
+   cat ~/.organvm/claims.jsonl | python3 -c "
+   import json, sys
+   for line in sys.stdin:
+       claim = json.loads(line)
+       if claim.get('action') == 'punch_in' and not claim.get('punched_out'):
+           print(f'{claim[\"agent_handle\"]}: {claim[\"repo\"]} ({claim[\"scope\"]})')
+   "
+   ```
+
+2. **Check the tool checkout line** for heavy-lane occupancy:
+   - If another session holds a heavy-lane tool (pytest, build), do NOT launch competing heavy tasks
+   - Wait or work in a different repo
+
+3. **If collision is detected:**
+   - Do NOT proceed with overlapping work
+   - Choose a different repo, different scope, or wait for the other session to complete
+   - Notify the user: "Another session is active in [repo]. I'll work on [alternative] instead."
+
+### 8.2 Claims Protocol
+
+Use the coordination module to declare and release work:
+
+- **Punch in** at session start: declare agent handle, target repo, scope description
+- **Punch out** at session end: release the claim
+- **Deferred test obligations**: declare test commands at punch-in; collected by `prove_sweep()` for sequential execution
+
+### 8.3 Cross-References
+
+- `organvm-engine/src/organvm_engine/coordination/claims.py` — punch-in/out claims registry via append-only JSONL
+- `organvm-engine/src/organvm_engine/coordination/tool_lock.py` — tool checkout line with heavy/medium/light lane capacity
+- `SOP--background-task-resilience.md` — resource constraints for concurrent task execution
+
+---
+
+## 9. Versioning
 
 This SOP follows the same versioning rules as all ORGANVM governance documents. Revisions are never overwritten; new versions are created with incremented version numbers.
 
 ---
-*Version: 1.0.0 | System-Wide Directive | ORGANVM*
+*Version: 1.1.0 | System-Wide Directive | ORGANVM*

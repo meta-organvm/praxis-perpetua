@@ -42,6 +42,7 @@ Revenue activation is a state machine, not a binary switch. A product moves thro
    - [ ] Domain configured (DNS, SSL)
    - [ ] CDN configured (if applicable)
    - [ ] Secrets stored in platform secret manager (never in code or .env committed to git)
+   - [ ] **Container preflight completed** (if deploying to a container platform): execute `SOP--container-deployment-preflight.md` in full before proceeding to Phase II
 
 4. **Verify governance readiness:**
    - [ ] `seed.yaml` current with correct `promotion_status`
