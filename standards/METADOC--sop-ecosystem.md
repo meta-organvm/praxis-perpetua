@@ -87,6 +87,16 @@ Documents with `SOP--` prefix in the corpus that are reusable methodological pro
 | 44 | `SOP--data-migration-and-backup.md` | SOP | Operations | Active |
 | 45 | `SOP--community-event-facilitation.md` | SOP | Operations | Active |
 | 46 | `SOP--multi-agent-swarm-orchestration.md` | SOP | Operations | Active |
+| 47 | `SOP--generative-art-deployment.md` | SOP | Operations | Active |
+| 48 | `SOP--performance-interface-design.md` | SOP | Operations | Active |
+| 49 | `SOP--autonomous-content-syndication.md` | SOP | Operations | Active |
+| 50 | `SOP--cross-channel-publishing-metrics.md` | SOP | Operations | Active |
+| 51 | `SOP--open-source-licensing-and-ip.md` | SOP | Governance | Active |
+| 52 | `SOP--smart-contract-audit-and-legal-wrap.md` | SOP | Quality | Active |
+| 53 | `SOP--mcp-server-fleet-management.md` | SOP | Operations | Active |
+| 54 | `SOP--polymorphic-agent-testing.md` | SOP | Quality | Active |
+| 55 | `SOP--theoretical-concept-versioning.md` | SOP | Governance | Active |
+| 56 | `SOP--system-dashboard-telemetry.md` | SOP | Operations | Active |
 
 ### 3.2 praxis-perpetua/templates/
 
@@ -185,6 +195,8 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--completeness-verification.md
     |   +-- SOP--quality-gate-baseline-calibration.md
     |   +-- SOP--cross-reference-validation.md
+    |   +-- SOP--smart-contract-audit-and-legal-wrap.md
+    |   +-- SOP--polymorphic-agent-testing.md
     |
     +-- CLUSTER 3: Governance & Lifecycle
     |   +-- SOP--promotion-and-state-transitions.md
@@ -192,6 +204,8 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--cross-agent-handoff.md
     |   +-- SOP--ontological-renaming.md
     |   +-- SOP--the-membrane-protocol.md
+    |   +-- SOP--open-source-licensing-and-ip.md
+    |   +-- SOP--theoretical-concept-versioning.md
     |
     +-- CLUSTER 4: Operations & Delivery
     |   +-- SOP--product-deployment-and-revenue-activation.md
@@ -207,6 +221,12 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--data-migration-and-backup.md
     |   +-- SOP--community-event-facilitation.md
     |   +-- SOP--multi-agent-swarm-orchestration.md
+    |   +-- SOP--generative-art-deployment.md
+    |   +-- SOP--performance-interface-design.md
+    |   +-- SOP--autonomous-content-syndication.md
+    |   +-- SOP--cross-channel-publishing-metrics.md
+    |   +-- SOP--mcp-server-fleet-management.md
+    |   +-- SOP--system-dashboard-telemetry.md
     |
     +-- CLUSTER 5: Planning & Design
     |   +-- SOP--planning-and-roadmapping.md
@@ -312,6 +332,16 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
 | data-migration-and-backup | (triggered daily) | alchemia-ingestvm |
 | community-event-facilitation | adaptive-personal-syllabus | salon-archive, logos-essays |
 | multi-agent-swarm-orchestration | agentic-titan | (swarm operations) |
+| generative-art-deployment | (theory output) | performance-interface-design |
+| performance-interface-design | generative-art-deployment | (gallery/stage) |
+| autonomous-content-syndication | essay-publishing | cross-channel-publishing-metrics |
+| cross-channel-publishing-metrics | autonomous-content-syndication | recursive-study-feedback |
+| open-source-licensing-and-ip | (entry point) | smart-contract-audit-and-legal-wrap |
+| smart-contract-audit-and-legal-wrap | open-source-licensing-and-ip | product-deployment |
+| mcp-server-fleet-management | agent-seeding | multi-agent-swarm-orchestration |
+| polymorphic-agent-testing | agent-seeding | multi-agent-swarm-orchestration |
+| theoretical-concept-versioning | typological-hermeneutic-analysis | (theoretical evolution) |
+| system-dashboard-telemetry | (all system operations) | autopoietic-systems-diagnostics |
 
 ---
 
@@ -325,8 +355,8 @@ This matrix maps which SOPs provide coverage for each organ across key operation
 | **Formal Methods** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Repo Onboarding** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Promotion** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
-| **Deployment** | PARTIAL | PARTIAL | FULL | PARTIAL | PARTIAL | — | — | PARTIAL |
-| **Publishing** | — | — | PARTIAL | — | FULL | — | FULL | — |
+| **Deployment** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Publishing** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Quality Audit** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Security Audit** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Pitch Deck** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
@@ -336,17 +366,17 @@ This matrix maps which SOPs provide coverage for each organ across key operation
 | **Planning** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Documentation** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Naming** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
-| **Container Deploy** | PARTIAL | PARTIAL | FULL | PARTIAL | — | — | — | PARTIAL |
+| **Container Deploy** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Gate Calibration** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Context Conservation** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Concrete Output** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Background Tasks** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Cross-Ref Validation** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
-| **Agent Workforce** | PARTIAL | PARTIAL | FULL | FULL | PARTIAL | PARTIAL | — | FULL |
+| **Agent Workforce** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Completeness** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
-| **Business Design** | — | — | FULL | — | — | — | — | PARTIAL |
-| **Architecture Records** | PARTIAL | PARTIAL | FULL | PARTIAL | — | — | — | FULL |
-| **Legal Compliance** | — | — | FULL | — | — | — | — | — |
+| **Business Design** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Architecture Records** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
+| **Legal Compliance** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 
 ### Coverage Notes
 
