@@ -143,6 +143,11 @@ Keystones (registry, engine, schemas) need strictest gates and highest test cove
 
 Summon 2-3 organizational lenses per decision, interrogate through them, resolve conflicts, release. Never carry lens-specific vocabulary into unrelated work. One assembly per task — perpetual FRAME is the anti-pattern. The 28-lens research program demonstrated the method; the catalog formalizes it. See: [SOP--dynamic-lens-assembly.md](../standards/SOP--dynamic-lens-assembly.md), [lens-catalog.md](lens-catalog.md), [Universal Hierarchy Synthesis](../research/2026-03-08-universal-hierarchy-synthesis.md), §III.
 
+### Y13: Rigid structure does not replace play; it protects it
+**Source:** 2026-03-11 Membrane Protocol implementation
+
+Chaotic experimentation ("The Spike") is essential for discovery but dangerous if it touches production pipes. By locking down the Factory (Ergon, Taxis, Kerygma) with strict schemas and contracts, the Lab (Theoria, Poiesis) is liberated to be chaotic. The "Membrane" (SOP--the-membrane-protocol) is the semi-permeable gate that formalizes this boundary. Dual-zone architecture physically separates the artist (Bauhaus) from the engineer (Aerospace).
+
 ---
 
 ## Economic Principles
@@ -219,6 +224,11 @@ Multiple background tasks killed or failed silently: test suite timeout, build k
 
 5+ user interruptions to redirect wandering agents. Agents expand scope naturally — they find related work and start doing it. The cost compounds: each tangent burns context that could serve the declared goal. Mitigation: single bounded goal at session start, agent self-check against declared scope before starting new work, user interruption = scope violation signal.
 
+### O9. Procrastinating iterational masochism is stopped by shipping
+**Source:** 2026-03-11 Membrane Protocol implementation
+
+"Gold-plating" or endless tweaking of experimental projects is a trap. The 14-Day TTL (Time-To-Live) for Incubator projects forces a binary choice: Graduate or Archive. The Utility Invariant (testing against real downstream consumers) and Ockham's Check (deleting features you won't formally support) are the antidotes to iteration masochism. Systemic completion dopamine overrides the false satisfaction of dark polishing.
+
 ---
 
-*Last updated: 2026-03-09 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis + 24h retrospective*
+*Last updated: 2026-03-11 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis + 24h retrospective + Membrane implementation*

@@ -7,7 +7,7 @@ This SOP governs the creation and integration of new repositories into the ORGAN
 A repo created without this procedure is an unregistered organism — invisible to the system, missing from the dependency graph, excluded from pitch generation, and unknown to the dashboard. This SOP prevents that.
 
 **Governed by:** `METADOC--sop-ecosystem.md` (Cluster 3: Governance & Lifecycle)
-**Cross-reference:** `SOP--promotion-and-state-transitions.md` (new repos enter at LOCAL), Standard `12-habitat-governance-lifecycle.md` (governance artifacts per stage), Standard `10-repository-standards.md` (root hygiene)
+**Cross-reference:** `SOP--the-membrane-protocol.md` (experimental Phase 0), `SOP--promotion-and-state-transitions.md` (new repos enter at LOCAL), Standard `12-habitat-governance-lifecycle.md` (governance artifacts per stage), Standard `10-repository-standards.md` (root hygiene)
 
 ---
 
@@ -82,11 +82,11 @@ A repo created without this procedure is an unregistered organism — invisible 
    org: "organvm-ii-poiesis"
    repo: "repo-name"
    tier: "standard"
-   promotion_status: "LOCAL"
+   promotion_status: "INCUBATOR" # Default for experimental projects (Phase 0)
    last_validated: "2026-03-07"
    metadata:
      description: "What this repo does"
-   produces:
+   ```
      - type: "creative-artifact"
        description: "What this repo produces"
    consumes:

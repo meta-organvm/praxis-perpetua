@@ -76,8 +76,10 @@ This generates CLAUDE.md, GEMINI.md, and AGENTS.md with system context.
 
 Genesis is phase 0 — it precedes the promotion state machine entirely. A repo that has completed genesis enters the state machine at `LOCAL` and begins the `foundation` phase.
 
+Experimental "Spike" projects may exist in the `incubation` phase (Phase 0) before genesis, governed by `SOP--the-membrane-protocol`.
+
 ```
-[genesis] → LOCAL (foundation) → CANDIDATE (hardening) → PUBLIC_PROCESS (graduation) → GRADUATED (sustaining)
+[incubation] → [genesis] → LOCAL (foundation) → CANDIDATE (hardening) → PUBLIC_PROCESS (graduation) → GRADUATED (sustaining)
 ```
 
 *Version: 1.0.0 | System-Wide Directive | ORGANVM*

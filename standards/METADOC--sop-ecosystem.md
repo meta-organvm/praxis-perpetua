@@ -78,6 +78,15 @@ Documents with `SOP--` prefix in the corpus that are reusable methodological pro
 | 35 | `SOP--theory-to-concrete-gate.md` | SOP | Operations | Active |
 | 36 | `SOP--background-task-resilience.md` | SOP | Operations | Active |
 | 37 | `SOP--cross-reference-validation.md` | SOP | Quality | Active |
+| 38 | `SOP--the-membrane-protocol.md` | SOP | Governance | Active |
+| 39 | `SOP--formal-methods-master-taxonomy.md` | SOP | Research | Active |
+| 40 | `SOP--formal-methods-applied-protocols.md` | SOP | Research | Active |
+| 41 | `SOP--formal-methods-tla-pluscal.md` | SOP | Research | Active |
+| 42 | `PROMPTS--formal-methods.md` | SOP | Research | Active |
+| 43 | `SOP--styx-pipeline-traversal.md` | SOP | Research | Active |
+| 44 | `SOP--data-migration-and-backup.md` | SOP | Operations | Active |
+| 45 | `SOP--community-event-facilitation.md` | SOP | Operations | Active |
+| 46 | `SOP--multi-agent-swarm-orchestration.md` | SOP | Operations | Active |
 
 ### 3.2 praxis-perpetua/templates/
 
@@ -161,6 +170,11 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--market-gap-analysis.md
     |   +-- SOP--research-to-implementation-pipeline.md
     |   +-- SOP--recursive-study-feedback.md
+    |   +-- SOP--formal-methods-master-taxonomy.md
+    |   +-- SOP--formal-methods-applied-protocols.md
+    |   +-- SOP--formal-methods-tla-pluscal.md
+    |   +-- PROMPTS--formal-methods.md
+    |   +-- SOP--styx-pipeline-traversal.md
     |
     +-- CLUSTER 2: Quality & Integrity
     |   +-- SOP--structural-integrity-audit.md
@@ -177,6 +191,7 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--repo-onboarding-and-habitat-creation.md
     |   +-- SOP--cross-agent-handoff.md
     |   +-- SOP--ontological-renaming.md
+    |   +-- SOP--the-membrane-protocol.md
     |
     +-- CLUSTER 4: Operations & Delivery
     |   +-- SOP--product-deployment-and-revenue-activation.md
@@ -189,6 +204,9 @@ METADOC--sop-ecosystem.md (this document — hub of hubs)
     |   +-- SOP--context-window-conservation.md
     |   +-- SOP--theory-to-concrete-gate.md
     |   +-- SOP--background-task-resilience.md
+    |   +-- SOP--data-migration-and-backup.md
+    |   +-- SOP--community-event-facilitation.md
+    |   +-- SOP--multi-agent-swarm-orchestration.md
     |
     +-- CLUSTER 5: Planning & Design
     |   +-- SOP--planning-and-roadmapping.md
@@ -287,6 +305,13 @@ SOPs are not isolated procedures. They feed into and consume from each other. Th
 | theory-to-concrete-gate | (triggered at session end) | session-self-critique (Phase VI) |
 | background-task-resilience | (triggered at task launch) | session-self-critique |
 | cross-reference-validation | quality-gate-baseline-calibration | structural-integrity (gate) |
+| formal-methods-master-taxonomy | (entry point) | formal-methods-applied-protocols |
+| formal-methods-applied-protocols | formal-methods-master-taxonomy | structural-integrity (gate) |
+| formal-methods-tla-pluscal | formal-methods-master-taxonomy | formal-methods-applied-protocols |
+| styx-pipeline-traversal | formal-methods-applied-protocols | product-deployment |
+| data-migration-and-backup | (triggered daily) | alchemia-ingestvm |
+| community-event-facilitation | adaptive-personal-syllabus | salon-archive, logos-essays |
+| multi-agent-swarm-orchestration | agentic-titan | (swarm operations) |
 
 ---
 
@@ -297,6 +322,7 @@ This matrix maps which SOPs provide coverage for each organ across key operation
 | Domain | I Theoria | II Poiesis | III Ergon | IV Taxis | V Logos | VI Koinonia | VII Kerygma | META |
 |--------|-----------|------------|-----------|----------|---------|-------------|-------------|------|
 | **Research** | FULL | FULL | FULL | PARTIAL | PARTIAL | PARTIAL | — | FULL |
+| **Formal Methods** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Repo Onboarding** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Promotion** | FULL | FULL | FULL | FULL | FULL | FULL | FULL | FULL |
 | **Deployment** | PARTIAL | PARTIAL | FULL | PARTIAL | PARTIAL | — | — | PARTIAL |
@@ -347,8 +373,8 @@ Identified gaps with severity and resolution status.
 | G6 | Pitch deck SOP in corpus, not praxis | LOW | RESOLVED | Migrated to praxis-perpetua |
 | G7 | CI/CD resilience SOP in corpus, not praxis | LOW | RESOLVED | Migrated to praxis-perpetua |
 | G8 | Stranger test protocol not in SOP format | LOW | RESOLVED | Migrated and normalized to praxis-perpetua |
-| G9 | No formal data migration/backup SOP | LOW | OPEN | Future: `SOP--data-migration-and-backup.md` |
-| G10 | No SOP for community event facilitation (VI) | LOW | OPEN | Future: organ-specific when community launches |
+| G9 | No formal data migration/backup SOP | LOW | RESOLVED | `SOP--data-migration-and-backup.md` created |
+| G10 | No SOP for community event facilitation (VI) | LOW | RESOLVED | `SOP--community-event-facilitation.md` created |
 | G11 | No SOP for planning and roadmapping | HIGH | RESOLVED | `SOP--planning-and-roadmapping.md` created (distill pipeline) |
 | G12 | No SOP for ontological naming conventions | MEDIUM | RESOLVED | `SOP--ontological-renaming.md` created (distill pipeline) |
 | G13 | No SOP for agent workforce decomposition | HIGH | RESOLVED | `SOP--agent-seeding-and-workforce-planning.md` created (distill pipeline) |
