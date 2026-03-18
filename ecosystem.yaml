@@ -1,8 +1,18 @@
 schema_version: '1.0'
 repo: praxis-perpetua
 organ: META
-display_name: 'Process governance corpus: SOPs, session self-critique logs, derived
-  principles, and continuous improvement templates'
+display_name: "Process governance corpus — SOPs, session self-critique, derived principles, templates"
+
 delivery:
-- platform: web_app
-  status: not_started
+- platform: governance_docs
+  status: live
+  priority: high
+  notes: "6 standards, 5 templates, session logs, derived principles"
+  next_action: "Maintain standards alignment with operational reality"
+
+content:
+- platform: docs_site
+  status: live
+  priority: critical
+  notes: "SOPs, research standards, session review methodology"
+  next_action: "Keep derived-principles.md current with new session insights"
