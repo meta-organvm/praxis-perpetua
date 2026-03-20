@@ -1,0 +1,19 @@
+# Binary files tracked by manifest, not by git
+*.docx
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.mp4
+*.wav
+*.numbers
+
+# Sensitive
+SENSITIVE/
+
+# Keep these
+!manifest.yaml
+!README.md
+!.gitignore

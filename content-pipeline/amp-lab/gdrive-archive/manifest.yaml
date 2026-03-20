@@ -1,0 +1,1421 @@
+archive:
+  source: "Google Drive export -- AMP Lab Media shared folder"
+  exported: "2026-03-19"
+  gdrive_url: "https://drive.google.com/drive/folders/0BziW38fp8U5DcE5jbFV6NElHS2c"
+  total_files: 152
+  categories:
+    object_lessons: 24
+    essays_completed: 28
+    essays_abandoned: 56
+    originals: 13
+    comedy: 7
+    talk: 1
+    reference: 7
+    strategy: 3
+    sensitive: 1
+  empty_gdrive_dirs:
+    - "AMP Essay/Object Lessons/Doors/"
+    - "AMP Essay/Object Lessons/Hats/"
+    - "AMP Essay/Object Lessons/Musical Artifacts/"
+    - "AMP Essay/(Not Current)/UnReylatable/Video/"
+    - "AMP Reads/"
+
+# =============================================================================
+# OBJECT LESSONS -- PUBLISHED
+# =============================================================================
+
+files:
+
+  # --- 01 Cereal (published, YouTube episode 1) ---
+
+  - path: object-lessons/published/01-cereal/clips-and-sources.docx
+    original_path: "AMP Essay/Object Lessons/1 Cereal/Clips & Sources.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: cereal
+    episode: 1
+    status: published
+    youtube_id: Sk_xTM7TGoQ
+    description: "Film clips list and source URLs for the Cereal episode"
+
+  - path: object-lessons/published/01-cereal/cereal-storyboard.png
+    original_path: "AMP Essay/Object Lessons/1 Cereal/Cereal Storyboard.png"
+    type: production-asset
+    format: png
+    category: object-lesson
+    object: cereal
+    episode: 1
+    status: published
+    description: "Visual storyboard for the Cereal episode"
+
+  - path: object-lessons/published/01-cereal/cereal.wav
+    original_path: "AMP Essay/Object Lessons/1 Cereal/cereal.wav"
+    type: audio
+    format: wav
+    category: object-lesson
+    object: cereal
+    episode: 1
+    status: published
+    description: "Audio narration or music track for the Cereal episode"
+
+  # --- 02 Telephones (published, YouTube episode 2) ---
+
+  - path: object-lessons/published/02-telephones/clips-and-sources.docx
+    original_path: "AMP Essay/Object Lessons/2 Telephones/Clips & Sources.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: telephones
+    episode: 2
+    status: published
+    youtube_id: null
+    description: "Film clips list and source URLs for the Telephones episode"
+
+  # --- 03 Balloons (published, YouTube episode 3; original numbering #4) ---
+
+  - path: object-lessons/published/03-balloons/balloons-in-cinema.docx
+    original_path: "AMP Essay/Object Lessons/4 Balloons/Balloons in Cinema.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: balloons
+    episode: 3
+    status: published
+    youtube_id: null
+    description: "Research doc and clips for the Balloons episode"
+
+  # --- 04 Eggs (published, YouTube episode 4; original numbering #5) ---
+
+  - path: object-lessons/published/04-eggs/eggs.docx
+    original_path: "AMP Essay/Object Lessons/5 Eggs/_Eggs.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: eggs
+    episode: 4
+    status: published
+    youtube_id: null
+    description: "Research doc and clips for the Eggs episode"
+
+  # --- Object Lessons Reference ---
+
+  - path: object-lessons/reference/objects-in-films-gambarato.pdf
+    original_path: "AMP Essay/Object Lessons/Objects in Films_ Analyzing Signs Renira Rampazzo Gambarato.pdf"
+    type: reference
+    format: pdf
+    category: object-lesson
+    status: reference
+    description: "Academic paper on semiotics of objects in film by Renira Rampazzo Gambarato"
+
+  - path: object-lessons/reference/potential-object-lessons.docx
+    original_path: "AMP Essay/Object Lessons/Potential Object Lessons.docx"
+    type: reference
+    format: docx
+    category: object-lesson
+    status: reference
+    description: "Original candidate list of objects considered for the series"
+    cross_reference: "content-pipeline/amp-lab/object-candidates.md (V2 ranked list of 20 objects)"
+
+  - path: object-lessons/reference/opening.docx
+    original_path: "AMP Essay/Object Lessons/Opening.docx"
+    type: reference
+    format: docx
+    category: object-lesson
+    status: reference
+    description: "Series opening template / standard intro format"
+
+# =============================================================================
+# OBJECT LESSONS -- RESEARCHED (never produced)
+# =============================================================================
+
+  # --- Televisions ---
+
+  - path: object-lessons/researched/televisions/televisions-1.docx
+    original_path: "AMP Essay/Object Lessons/3 Televisions/Televisions 1.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: televisions
+    status: researched
+    description: "Research doc for Televisions -- first pass (original numbering #3)"
+
+  # --- Pens ---
+
+  - path: object-lessons/researched/pens/pens.docx
+    original_path: "AMP Essay/Object Lessons/6 Pens/Pens.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: pens
+    status: researched
+    description: "Research doc for Pens in cinema (original numbering #6)"
+
+  # --- Watches ---
+
+  - path: object-lessons/researched/watches/watches-clips-and-sources.docx
+    original_path: "AMP Essay/Object Lessons/7 Watches/_Watches - Clips and Sources.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: watches
+    status: researched
+    description: "Clips and sources for Watches in cinema (original numbering #7)"
+    cross_reference: "content-pipeline/amp-lab/object-candidates.md -- Tier 1 #4: Clocks/Watches (score 4/5). This original research is a head start for V2 Episode 4."
+
+  # --- Flowers ---
+
+  - path: object-lessons/researched/flowers/flowers.docx
+    original_path: "AMP Essay/Object Lessons/8 Flowers/Flowers.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: flowers
+    status: researched
+    description: "Research doc for Flowers in cinema (original numbering #8)"
+    cross_reference: "content-pipeline/amp-lab/object-candidates.md -- Tier 3 #11: Flowers (score 3/5)"
+
+  # --- Coffee ---
+
+  - path: object-lessons/researched/coffee/coffee.docx
+    original_path: "AMP Essay/Object Lessons/9 Coffee/Coffee.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: coffee
+    status: researched
+    description: "Research doc for Coffee in cinema (original numbering #9)"
+    cross_reference: "NOT in V2 candidate list. Should be evaluated -- Coffee has strong cultural weight (Twin Peaks, Pulp Fiction, Jim Jarmusch's Coffee and Cigarettes)."
+
+  # --- Pinball Machines ---
+
+  - path: object-lessons/researched/pinball-machines/pinball-machines.docx
+    original_path: "AMP Essay/Object Lessons/10 Pinball Machines/Pinball Machines.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: pinball-machines
+    status: researched
+    description: "Research doc for Pinball Machines in cinema (original numbering #10)"
+
+  # --- Pencils ---
+
+  - path: object-lessons/researched/pencils/pencils.docx
+    original_path: "AMP Essay/Object Lessons/11 Pencils/Pencils.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: pencils
+    status: researched
+    description: "Research doc for Pencils in cinema (original numbering #11)"
+
+  # --- Televisions (2) ---
+
+  - path: object-lessons/researched/televisions-2/televisions-2.docx
+    original_path: "AMP Essay/Object Lessons/12 Televisions (2)/Televisions 2.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: televisions
+    status: researched
+    description: "Second research pass on Televisions in cinema (original numbering #12)"
+
+  # --- Telephones (2) ---
+
+  - path: object-lessons/researched/telephones-2/telephones-2.docx
+    original_path: "AMP Essay/Object Lessons/13 Telephones (2)/Telephones (2).docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: telephones
+    status: researched
+    description: "Second research pass on Telephones in cinema (original numbering #13)"
+
+  # --- Chewing Gum ---
+
+  - path: object-lessons/researched/chewing-gum/chewing-gum.docx
+    original_path: "AMP Essay/Object Lessons/Chewing Gum/Chewing Gum.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: chewing-gum
+    status: researched
+    description: "Research doc for Chewing Gum in cinema"
+
+  # --- Cones ---
+
+  - path: object-lessons/researched/cones/cones.docx
+    original_path: "AMP Essay/Object Lessons/Cones/Cones.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: cones
+    status: researched
+    description: "Research doc for Cones in cinema"
+
+  # --- Eyeglasses ---
+
+  - path: object-lessons/researched/eyeglasses/eyeglasses.docx
+    original_path: "AMP Essay/Object Lessons/Eyeglasses/Untitled document.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: eyeglasses
+    status: researched
+    description: "Research doc for Eyeglasses in cinema (original filename was 'Untitled document')"
+
+  # --- Gloves ---
+
+  - path: object-lessons/researched/gloves/clips-and-links.docx
+    original_path: "AMP Essay/Object Lessons/Gloves/Clips and Links.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: gloves
+    status: researched
+    description: "Clips and links for Gloves in cinema"
+
+  # --- Lamps ---
+
+  - path: object-lessons/researched/lamps/lamps.docx
+    original_path: "AMP Essay/Object Lessons/Lamps/Lamps.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: lamps
+    status: researched
+    description: "Research doc for Lamps in cinema"
+
+  # --- Lollipops ---
+
+  - path: object-lessons/researched/lollipops/lollipops.docx
+    original_path: "AMP Essay/Object Lessons/Lollipops/Lollipops.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: lollipops
+    status: researched
+    description: "Research doc for Lollipops in cinema"
+
+  # --- Matches ---
+
+  - path: object-lessons/researched/matches/matches.docx
+    original_path: "AMP Essay/Object Lessons/Matches/Matches.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: matches
+    status: researched
+    description: "Research doc for Matches in cinema"
+
+  # --- Mirrors ---
+
+  - path: object-lessons/researched/mirrors/clips-and-sources.docx
+    original_path: "AMP Essay/Object Lessons/Mirrors/Clips & Sources.docx"
+    type: research
+    format: docx
+    category: object-lesson
+    object: mirrors
+    status: researched
+    description: "Original clips and sources for Mirrors in cinema"
+    cross_reference: "content-pipeline/amp-lab/research--mirrors-in-cinema.md (V2 research brief: 85 films, 43K words). This original doc is the foundation that V2 expanded from."
+
+# =============================================================================
+# ESSAYS -- COMPLETED (produced and uploaded)
+# =============================================================================
+
+  # --- Rick & Morty Video Essay ---
+
+  - path: essays/completed/rick-and-morty/script.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/R&M script.docx"
+    type: script
+    format: docx
+    category: essay
+    status: published
+    description: "Final script for the Rick and Morty video essay"
+
+  - path: essays/completed/rick-and-morty/initial-notes-and-draft.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Rick and Morty Initial Noted & Draft.docx"
+    type: research
+    format: docx
+    category: essay
+    status: published
+    description: "Initial research notes and first draft for Rick and Morty essay"
+
+  - path: essays/completed/rick-and-morty/credits-and-urls.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Rick and Morty Video_Image Credits & URLS.docx"
+    type: reference
+    format: docx
+    category: essay
+    status: published
+    description: "Video and image credits with source URLs"
+
+  - path: essays/completed/rick-and-morty/todo-list.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/AmpLab ToDo list.docx"
+    type: reference
+    format: docx
+    category: essay
+    status: published
+    description: "Production to-do list for the Rick and Morty essay"
+
+  - path: essays/completed/rick-and-morty/simpsons-southpark.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Clips/simpsons-southpark.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "Reference image comparing Simpsons and South Park animation styles"
+
+  - path: essays/completed/rick-and-morty/abradolf-lincler.png
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/abradolf_lincler_by_mustachecashdash-d8c59fb.png"
+    type: stills
+    format: png
+    category: essay
+    status: published
+    description: "Abradolf Lincler character still from Rick and Morty"
+
+  - path: essays/completed/rick-and-morty/doc-brown.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/Doc_Brown.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "Doc Brown still (Back to the Future comparison)"
+
+  - path: essays/completed/rick-and-morty/images-1.jpeg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/images (1).jpeg"
+    type: stills
+    format: jpeg
+    category: essay
+    status: published
+    description: "Reference still for Rick and Morty essay"
+
+  - path: essays/completed/rick-and-morty/images.jpeg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/images.jpeg"
+    type: stills
+    format: jpeg
+    category: essay
+    status: published
+    description: "Reference still for Rick and Morty essay"
+
+  - path: essays/completed/rick-and-morty/master-yoda.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/Master_Yoda.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "Yoda still (mentor archetype comparison)"
+
+  - path: essays/completed/rick-and-morty/pan-shot-1.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/Pan shot1.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "Pan shot reference for Rick and Morty essay"
+
+  - path: essays/completed/rick-and-morty/rick-and-morty-icon.png
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/Rick_and_morty_icon.png"
+    type: stills
+    format: png
+    category: essay
+    status: published
+    description: "Rick and Morty show icon"
+
+  - path: essays/completed/rick-and-morty/rick-and-morty-mnight8.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/RickAndMortyMNight8.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "M. Night Shyamalan parody episode still"
+
+  - path: essays/completed/rick-and-morty/screenshot-2017-02-25-352pm.png
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/Screen Shot 2017-02-25 at 3.52.09 PM.png"
+    type: stills
+    format: png
+    category: essay
+    status: published
+    description: "Screen capture from Rick and Morty (Feb 2017)"
+
+  - path: essays/completed/rick-and-morty/screenshot-2017-02-25-410pm.png
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/Screen Shot 2017-02-25 at 4.10.32 PM.png"
+    type: stills
+    format: png
+    category: essay
+    status: published
+    description: "Screen capture from Rick and Morty (Feb 2017)"
+
+  - path: essays/completed/rick-and-morty/superman-clipart.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/Rick & Morty Video Essay/Stills/superman-clipart-superman_subindo copy.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "Superman clipart reference image"
+
+  # --- A Child's Eye View ---
+
+  - path: essays/completed/childs-eye-view/childrens-perspective-in-cinema.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/A Child_s Eye View/Children_s Perspective in Cinema.docx"
+    type: script
+    format: docx
+    category: essay
+    status: published
+    description: "Script/research for the Children's Perspective in Cinema essay"
+
+  - path: essays/completed/childs-eye-view/del-toro-on-spirit-of-the-beehive.mp3
+    original_path: "AMP Essay/(Not Current)/(Completed)/A Child_s Eye View/Guillermo del Toro on THE SPIRIT OF THE BEEHIVE.mp3"
+    type: audio
+    format: mp3
+    category: essay
+    status: published
+    description: "Audio clip of Guillermo del Toro discussing The Spirit of the Beehive"
+
+  # --- The Upside Down ---
+
+  - path: essays/completed/upside-down/script.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/The UpsideDown/Upside Down Script.docx"
+    type: script
+    format: docx
+    category: essay
+    status: published
+    description: "Final script for The Upside Down video essay"
+
+  - path: essays/completed/upside-down/clips-and-links.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/The UpsideDown/Upside Down clips & links.docx"
+    type: research
+    format: docx
+    category: essay
+    status: published
+    description: "Film clips and source links for The Upside Down essay"
+
+  - path: essays/completed/upside-down/other-notes.docx
+    original_path: "AMP Essay/(Not Current)/(Completed)/The UpsideDown/Other_.docx"
+    type: research
+    format: docx
+    category: essay
+    status: published
+    description: "Additional notes and research for The Upside Down essay"
+
+  - path: essays/completed/upside-down/camera-obscura-1.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/The UpsideDown/130s Camera Obscura.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "1830s camera obscura reference image"
+
+  - path: essays/completed/upside-down/camera-obscura-2.jpg
+    original_path: "AMP Essay/(Not Current)/(Completed)/The UpsideDown/130s Camera Obscura2.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: published
+    description: "Second 1830s camera obscura reference image"
+
+  - path: essays/completed/upside-down/yugioh-opening-theme.mp4
+    original_path: "AMP Essay/(Not Current)/(Completed)/The UpsideDown/Yu-Gi-Oh! Duel Monsters Season 1, Version 1 Opening Theme.mp4"
+    type: video
+    format: mp4
+    category: essay
+    status: published
+    description: "Yu-Gi-Oh opening theme video reference for upside-down imagery analysis"
+
+  # --- Black & White & Color ---
+
+  - path: essays/completed/black-and-white-and-color/black-and-white-and-color.docx
+    original_path: "AMP Essay/Black & White & Color/Black & White & Color.docx"
+    type: script
+    format: docx
+    category: essay
+    status: published
+    description: "Script/research for Black and White and Color essay on chromatic choices in cinema"
+
+  - path: essays/completed/black-and-white-and-color/bluets-maggie-nelson.png
+    original_path: "AMP Essay/Black & White & Color/Bluets by Maggie Nelson.png"
+    type: stills
+    format: png
+    category: essay
+    status: published
+    description: "Cover image of Bluets by Maggie Nelson (color theory reference)"
+
+# =============================================================================
+# ESSAYS -- ABANDONED
+# =============================================================================
+
+  # --- Adaptation ---
+
+  - path: essays/abandoned/adaptation/how-to-adaptation.docx
+    original_path: "AMP Essay/(Not Current)/Adaptation/How to Adaptation.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on film adaptation theory"
+
+  # --- Alien Mess Halls ---
+
+  - path: essays/abandoned/alien-mess-halls/draft-notes.docx
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Draft Notes.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft notes for essay on mess hall / dining scenes in the Alien franchise"
+
+  - path: essays/abandoned/alien-mess-halls/dinner-and-a-movie-analyzing.pdf
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Dinner_and_a_movie__analyzing.PDF"
+    type: reference
+    format: pdf
+    category: essay
+    status: abandoned
+    description: "Academic paper on analyzing dinner scenes in film"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-el-octavo-pasajero.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien_el_octavo_pasajero_1979_13.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Still from Alien (1979) -- Spanish poster/publicity"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-covenant-trailer-2.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien--covenant-trailer-2-313432.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Still from Alien Covenant trailer"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-1979-behind-scenes-1.jpeg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien-1979-por-tras-das-cenas.jpeg"
+    type: stills
+    format: jpeg
+    category: essay
+    status: abandoned
+    description: "Behind the scenes photo from Alien (1979)"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-1979-behind-scenes-2.jpeg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien-1979-por-tras-das-cenas(1).jpeg"
+    type: stills
+    format: jpeg
+    category: essay
+    status: abandoned
+    description: "Second behind the scenes photo from Alien (1979)"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-1979-wallpaper.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien-1979-wallpaper-6.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Alien (1979) wallpaper image"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-4.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien-4.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Still from Alien Resurrection"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-covenant-meet-walter.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/Alien-Covenant-Meet-Walter.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Alien Covenant Meet Walter promotional still"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-covenant-trailer-breakdown-1.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/Alien-Covenant-Trailer-Breakdown-1.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Alien Covenant trailer breakdown frame 1"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-covenant-trailer-breakdown-12.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/Alien-Covenant-Trailer-Breakdown-12.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Alien Covenant trailer breakdown frame 12"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-covenant-trailer-breakdown-59.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/Alien-Covenant-Trailer-Breakdown-59.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Alien Covenant trailer breakdown frame 59"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-teaser.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien-teaser.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Alien franchise teaser image"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-xenomorph.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/Alien-xenomorph.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Xenomorph reference still"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alien.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Generic Alien franchise still"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien5.png
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/Alien5.png"
+    type: stills
+    format: png
+    category: essay
+    status: abandoned
+    description: "Alien franchise reference image 5"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien6.png
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/Alien6.png"
+    type: stills
+    format: png
+    category: essay
+    status: abandoned
+    description: "Alien franchise reference image 6"
+
+  - path: essays/abandoned/alien-mess-halls/images/aliens-1280w.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/alienssjpg-996b8d_1280w.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Aliens (1986) wide reference image"
+
+  - path: essays/abandoned/alien-mess-halls/images/nostromo-crew.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/bbf20-nostromocrew.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Nostromo crew mess hall scene -- the key image for this essay concept"
+
+  - path: essays/abandoned/alien-mess-halls/images/alien-misc.jpg
+    original_path: "AMP Essay/(Not Current)/Alien Mess Halls/Images/l5cgyu7dbva6fzldy1d3.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Miscellaneous Alien franchise reference"
+
+  # --- Cold Open ---
+
+  - path: essays/abandoned/cold-open/cold-open.docx
+    original_path: "AMP Essay/(Not Current)/Cold Open/Cold Open.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on cold open technique in TV and film"
+
+  # --- Connecting Artist and Fan ---
+
+  - path: essays/abandoned/connecting-artist-and-fan/connecting-artist-and-fan.docx
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/Connecting Artist and Fan in a Niche Market.docx"
+    type: script
+    format: docx
+    category: essay
+    status: abandoned
+    description: "First draft on artist-fan connections in niche markets (Radiohead pay-what-you-want model)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/2nd-draft.docx
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/2nd Draft.docx"
+    type: script
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Second draft of the connecting artist and fan essay"
+
+  - path: essays/abandoned/connecting-artist-and-fan/notes.docx
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/Notes.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Research notes for connecting artist and fan essay"
+
+  - path: essays/abandoned/connecting-artist-and-fan/para-el-hombre-de-ant.docx
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/Para el hombre de Ant.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Spanish-language notes or reference for the artist-fan connection essay"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/ca5sq0eumaaikq.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/Ca5SQ0eUMAAiAkq.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/cbbqx-0uyaadf0a.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/CbBqx_0UYAAdF0a.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/cbgzn07wcaaejfo.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/CbGzN07WcAAejfo.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/cbl4o-yxeaehb5r.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/CbL4O_YXEAEhB5r.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/cbo7gt8w0aaa-op.jpeg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/CbO7GT8W0AAa-Op.jpg-large.jpeg"
+    type: stills
+    format: jpeg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/cziqzcfwyaaxfvu.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/CZiqZcFWYAAxFVU.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/czszlzrxeaapsh.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/CZsZlZrXEAAPSH_.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/czv0ng5usaa7tjf.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/CZv0nG5UsAA7TjF.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Twitter media reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/in-rainbows-v1.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/in-rainbows-v1.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Radiohead In Rainbows album art (pay-what-you-want case study)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/its-up-to-you-v1.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/its-up-to-you-v1.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "It's Up to You graphic (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/maxresdefault.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/maxresdefault.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "YouTube thumbnail reference (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/no-really-its-up-to-you-v1.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/no-really-its-up-to-you-v1.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "No Really It's Up to You graphic (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/oatepqg.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/oatepqg.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Reference image (artist-fan essay)"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/radiohead-in-rainbows-2.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/radioheadinrainbows2.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Radiohead In Rainbows promotional image"
+
+  - path: essays/abandoned/connecting-artist-and-fan/images/wall8-vn1.jpg
+    original_path: "AMP Essay/(Not Current)/Connecting Artist and Fan in a Niche Market/wall8-vn1.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Reference image (artist-fan essay)"
+
+  # --- Diegetic Music ---
+
+  - path: essays/abandoned/diegetic-music/diegetic-music.docx
+    original_path: "AMP Essay/(Not Current)/Diegetic Music/Diegetic Music.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on diegetic vs. non-diegetic music in film"
+
+  # --- Erik Satie ---
+
+  - path: essays/abandoned/erik-satie/erik-satie.docx
+    original_path: "AMP Essay/(Not Current)/Erik Satie.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on Erik Satie's influence on cinema and ambient sound"
+
+  # --- Female Armor ---
+
+  - path: essays/abandoned/female-armor/female-armor-in-mainstream-cinema.docx
+    original_path: "AMP Essay/(Not Current)/Female Armor/Female Armor in Mainstream Cinema_.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on the depiction of female armor in mainstream cinema"
+
+  # --- Florida as Character ---
+
+  - path: essays/abandoned/florida-as-character/florida-as-character.docx
+    original_path: "AMP Essay/(Not Current)/Florida as Character.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on Florida as a character/setting in film"
+
+  # --- Fourth Wall Breaks ---
+
+  - path: essays/abandoned/fourth-wall-breaks/fourth-wall-breaks.docx
+    original_path: "AMP Essay/(Not Current)/Fourth Wall Breaks/Fourth Wall Breaks.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on fourth wall breaks in cinema"
+
+  # --- Freeze Frame ---
+
+  - path: essays/abandoned/freeze-frame/freeze-frame.docx
+    original_path: "AMP Essay/(Not Current)/Freeze Frame.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on the freeze frame technique in film"
+
+  # --- Literal Death of the Author ---
+
+  - path: essays/abandoned/literal-death-of-author/literal-death-of-the-author.docx
+    original_path: "AMP Essay/(Not Current)/Literal Death of the Author.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on the literal death of the author trope in film/literature"
+
+  # --- No Antagonist ---
+
+  - path: essays/abandoned/no-antagonist/films-with-no-antagonist.docx
+    original_path: "AMP Essay/(Not Current)/No Antagonist/Films with no Antagonist.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on films that function without a traditional antagonist"
+
+  # --- No Protagonist ---
+
+  - path: essays/abandoned/no-protagonist/films-with-no-protagonist.docx
+    original_path: "AMP Essay/(Not Current)/No Protagonist/Films with no Protagonist.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on films with no clear protagonist"
+
+  # --- Paul Schrader ---
+
+  - path: essays/abandoned/paul-schrader/paul-schrader-ritual-preparation.docx
+    original_path: "AMP Essay/(Not Current)/Paul Schrader & ritual preparation.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on Paul Schrader's ritual preparation motifs"
+
+  # --- Pigeon Photography ---
+
+  - path: essays/abandoned/pigeon-photography/pigeon-photography.docx
+    original_path: "AMP Essay/(Not Current)/Pigeon Photography/Pigeon_Photography.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on pigeon photography history and its cinematic connections"
+
+  # --- Spiritual Sequel ---
+
+  - path: essays/abandoned/spiritual-sequel/spiritual-sequel.docx
+    original_path: "AMP Essay/(Not Current)/Spiritual Sequel/spiritual sequel.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on the concept of spiritual sequels in cinema"
+
+  - path: essays/abandoned/spiritual-sequel/screenshot-spiritual-sequel.png
+    original_path: "AMP Essay/(Not Current)/Spiritual Sequel/Screenshot_20180403-142714~2.png"
+    type: stills
+    format: png
+    category: essay
+    status: abandoned
+    description: "Mobile screenshot reference for spiritual sequel essay"
+
+  # --- UnReylatable ---
+
+  - path: essays/abandoned/unreylatable/rey-the-unrelatable-hero.docx
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Rey_ The Unrelatable Hero.docx"
+    type: script
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay arguing Rey (Star Wars) is an unrelatable hero vs. Luke Skywalker"
+
+  - path: essays/abandoned/unreylatable/rey-thumbnail.png
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Rey-Thumbnail.png"
+    type: production-asset
+    format: png
+    category: essay
+    status: abandoned
+    description: "YouTube thumbnail design for UnReylatable video"
+
+  - path: essays/abandoned/unreylatable/stills/falcon.jpg
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/84946-falcon.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Millennium Falcon still for Star Wars comparison"
+
+  - path: essays/abandoned/unreylatable/stills/star-wars-misc.jpg
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/9b7958b317b2190da3e65720871d4379.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Star Wars reference still"
+
+  - path: essays/abandoned/unreylatable/stills/battle-of-yavin.png
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/Battle_of_Yavin.png"
+    type: stills
+    format: png
+    category: essay
+    status: abandoned
+    description: "Battle of Yavin still from A New Hope"
+
+  - path: essays/abandoned/unreylatable/stills/image-517732f0.jpeg
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/image_517732f0.jpeg"
+    type: stills
+    format: jpeg
+    category: essay
+    status: abandoned
+    description: "Star Wars reference still"
+
+  - path: essays/abandoned/unreylatable/stills/star-wars-poster.jpg
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/r0v9dayXd1IH5WPWFBWv52tGHkB.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Star Wars poster reference"
+
+  - path: essays/abandoned/unreylatable/stills/rey-vs-kylo-ren.png
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/Rey_vs_Kylo_Ren.png"
+    type: stills
+    format: png
+    category: essay
+    status: abandoned
+    description: "Rey vs. Kylo Ren lightsaber duel still"
+
+  - path: essays/abandoned/unreylatable/stills/reys-speeder-with-gear.png
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/Reys_speeder_with_gear.png"
+    type: stills
+    format: png
+    category: essay
+    status: abandoned
+    description: "Rey's speeder with scavenging gear on Jakku"
+
+  - path: essays/abandoned/unreylatable/stills/luke-on-tatooine.jpg
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/star-wars-episode-iv-luke-on-tatooine.jpg"
+    type: stills
+    format: jpg
+    category: essay
+    status: abandoned
+    description: "Luke Skywalker on Tatooine -- the relatable hero baseline"
+
+  - path: essays/abandoned/unreylatable/stills/xwings-trenchrun.png
+    original_path: "AMP Essay/(Not Current)/UnReylatable/Stills/Xwings_trenchrun.png"
+    type: stills
+    format: png
+    category: essay
+    status: abandoned
+    description: "X-wings trench run still from A New Hope"
+
+  # --- Vertical Video ---
+
+  - path: essays/abandoned/vertical-video/vertical-video-essay.docx
+    original_path: "AMP Essay/(Not Current)/Vertical Video/Vertical Video Essay.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on vertical video as a cinematic format"
+
+  - path: essays/abandoned/vertical-video/vertical-video.pdf
+    original_path: "AMP Essay/(Not Current)/Vertical Video/Vertical Video.pdf"
+    type: reference
+    format: pdf
+    category: essay
+    status: abandoned
+    description: "PDF reference material on vertical video"
+
+  # --- Voiceover ---
+
+  - path: essays/abandoned/voiceover/voiceover.docx
+    original_path: "AMP Essay/(Not Current)/Voiceover/Voiceover.docx"
+    type: research
+    format: docx
+    category: essay
+    status: abandoned
+    description: "Draft essay on voiceover technique in cinema"
+
+# =============================================================================
+# ORIGINALS
+# =============================================================================
+
+  # --- Deep Probe ---
+
+  - path: originals/deep-probe/s01e01-script.pdf
+    original_path: "AMP Original/Deep Probe/2018-02-19 - season 1 - episode 1.pdf"
+    type: script
+    format: pdf
+    category: original
+    status: reference
+    description: "Deep Probe Season 1 Episode 1 script (Feb 2018)"
+
+  - path: originals/deep-probe/character-bios-s1-compiled.docx
+    original_path: "AMP Original/Deep Probe/CHARACTER Bios - Season 1 - Compiled.docx"
+    type: script
+    format: docx
+    category: original
+    status: reference
+    description: "Compiled character bios for Deep Probe Season 1"
+
+  - path: originals/deep-probe/episode-1-questionnaire.xlsx
+    original_path: "AMP Original/Deep Probe/Episode 1 Questionnaire.xlsx"
+    type: production-asset
+    format: xlsx
+    category: original
+    status: reference
+    description: "Guest questionnaire for Deep Probe Episode 1"
+
+  - path: originals/deep-probe/lie-detector-game.pdf
+    original_path: "AMP Original/Deep Probe/Lie Detector Game.pdf"
+    type: production-asset
+    format: pdf
+    category: original
+    status: reference
+    description: "Lie detector game segment rules/format"
+
+  - path: originals/deep-probe/session-1-world-building.docx
+    original_path: "AMP Original/Deep Probe/Session 1 Notes - World Building.docx"
+    type: research
+    format: docx
+    category: original
+    status: reference
+    description: "Writers room Session 1 notes -- world building for Deep Probe"
+
+  - path: originals/deep-probe/session-2-episode-concepts.docx
+    original_path: "AMP Original/Deep Probe/Session 2 Notes - Episode Concepts.docx"
+    type: research
+    format: docx
+    category: original
+    status: reference
+    description: "Writers room Session 2 notes -- episode concepts"
+
+  - path: originals/deep-probe/character-sketches/characters-season-1.xlsx
+    original_path: "AMP Original/Deep Probe/Character Sketches/Characters - Season 1.xlsx"
+    type: production-asset
+    format: xlsx
+    category: original
+    status: reference
+    description: "Character matrix spreadsheet for Season 1"
+
+  - path: originals/deep-probe/character-sketches/octomom-poet-producer-cop.docx
+    original_path: "AMP Original/Deep Probe/Character Sketches/Octomom_Poet - The Producer - Untalented Cop.docx"
+    type: script
+    format: docx
+    category: original
+    status: reference
+    description: "Character sketches: Octomom Poet, The Producer, Untalented Cop"
+
+  - path: originals/deep-probe/character-sketches/phil-mascot.docx
+    original_path: "AMP Original/Deep Probe/Character Sketches/Phil_ Mascot.docx"
+    type: script
+    format: docx
+    category: original
+    status: reference
+    description: "Character sketch: Phil the Mascot"
+
+  - path: originals/deep-probe/character-sketches/pickup-artist-life-coach-chef.docx
+    original_path: "AMP Original/Deep Probe/Character Sketches/Pick Up Artist, Life Coach, Chef.docx"
+    type: script
+    format: docx
+    category: original
+    status: reference
+    description: "Character sketches: Pick Up Artist, Life Coach, Chef"
+
+  # --- New Password ---
+
+  - path: originals/new-password/change-password-short.docx
+    original_path: "AMP Original/New Password - Short Film/Change Password - short.docx"
+    type: script
+    format: docx
+    category: original
+    status: reference
+    description: "Short film script: Change Password"
+
+  - path: originals/new-password/f-character-sheet.docx
+    original_path: "AMP Original/New Password - Short Film/F characer sheet.docx"
+    type: script
+    format: docx
+    category: original
+    status: reference
+    description: "Character sheet for character F in New Password"
+
+  - path: originals/new-password/j-character-sheet.docx
+    original_path: "AMP Original/New Password - Short Film/J character sheet.docx"
+    type: script
+    format: docx
+    category: original
+    status: reference
+    description: "Character sheet for character J in New Password"
+
+# =============================================================================
+# COMEDY
+# =============================================================================
+
+  # --- Anthony & Mary Get High ---
+
+  - path: comedy/anthony-and-mary/episode-1.docx
+    original_path: "AMP Laugh/Anthony & Mary Get High/Anthony and Mary Get High - Episode 1.docx"
+    type: script
+    format: docx
+    category: comedy
+    status: reference
+    description: "Script for Anthony and Mary Get High Episode 1"
+
+  - path: comedy/anthony-and-mary/bathroom-talk.docx
+    original_path: "AMP Laugh/Anthony & Mary Get High/Anthony and Mary Get High - Bathroom Talk.docx"
+    type: script
+    format: docx
+    category: comedy
+    status: reference
+    description: "Script for Bathroom Talk episode"
+
+  - path: comedy/anthony-and-mary/bathroom-talk-v2.docx
+    original_path: "AMP Laugh/Anthony & Mary Get High/Anthony and Mary Get High - Bathroom Talk(1).docx"
+    type: script
+    format: docx
+    category: comedy
+    status: reference
+    description: "Revised script for Bathroom Talk episode"
+
+  - path: comedy/anthony-and-mary/hot-and-sweaty.docx
+    original_path: "AMP Laugh/Anthony & Mary Get High/Anthony and Mary Get High - Hot & Sweaty.docx"
+    type: script
+    format: docx
+    category: comedy
+    status: reference
+    description: "Script for Hot and Sweaty episode"
+
+  - path: comedy/anthony-and-mary/production-schedule.numbers
+    original_path: "AMP Laugh/Anthony & Mary Get High/2017-12-01 - amp - anthony and mary get high.numbers"
+    type: production-asset
+    format: numbers
+    category: comedy
+    status: reference
+    description: "Production schedule and planning spreadsheet (Apple Numbers)"
+
+  # --- Trebawkward ---
+
+  - path: comedy/trebawkward/trebawkward.png
+    original_path: "AMP Laugh/Trebawkward/Trebawkward.png"
+    type: production-asset
+    format: png
+    category: comedy
+    status: reference
+    description: "Trebawkward logo or title card"
+
+  # --- Podcast Characters ---
+
+  - path: comedy/podcast-characters/podcast-character-ideas.docx
+    original_path: "AMP Laugh/Podcast Character Ideas.docx"
+    type: research
+    format: docx
+    category: comedy
+    status: reference
+    description: "Character concepts for comedy podcast"
+
+# =============================================================================
+# TALK
+# =============================================================================
+
+  - path: talk/podcast-format/podcast-format-ideology.docx
+    original_path: "AMP Talk/Podcast Format_Ideology.docx"
+    type: research
+    format: docx
+    category: talk
+    status: reference
+    description: "Podcast format design and ideological framework"
+
+# =============================================================================
+# REFERENCE
+# =============================================================================
+
+  - path: reference/copyright-infringement/copyright-infringement.docx
+    original_path: "REFERENCE/Copyright Infringement.docx"
+    type: reference
+    format: docx
+    category: reference
+    status: reference
+    description: "Notes on copyright infringement considerations for video essays"
+
+  - path: reference/publishing-visibility/publishing-for-visibility.docx
+    original_path: "REFERENCE/Publishing our videos for high visibility.docx"
+    type: reference
+    format: docx
+    category: reference
+    status: reference
+    description: "YouTube SEO and visibility strategy guide (REFERENCE copy)"
+
+  - path: reference/publishing-visibility/publishing-for-visibility-toplevel.docx
+    original_path: "Publishing our videos for high visibility.docx"
+    type: reference
+    format: docx
+    category: reference
+    status: reference
+    description: "YouTube SEO and visibility strategy guide (top-level copy, likely duplicate)"
+
+  - path: reference/contacts/contacts.xlsx
+    original_path: "REFERENCE/Contacts.xlsx"
+    type: reference
+    format: xlsx
+    category: reference
+    status: reference
+    description: "Contact list from REFERENCE folder"
+
+  - path: reference/contacts/amp-lab-contact-list.xlsx
+    original_path: "amp lab contact list.xlsx"
+    type: reference
+    format: xlsx
+    category: reference
+    status: reference
+    description: "AMP Lab contact list (top-level copy)"
+
+  - path: reference/video-ideas.docx
+    original_path: "Video Ideas.docx"
+    type: reference
+    format: docx
+    category: reference
+    status: reference
+    description: "Brainstorm list of video ideas across all AMP Lab sub-channels"
+
+  - path: reference/sub-channel-ideas-genealogy.docx
+    original_path: "Sub Channel Ideas - Amp Lab Geanology.docx"
+    type: reference
+    format: docx
+    category: reference
+    status: reference
+    description: "Sub-channel concepts including AMP Lab Genealogy"
+
+# =============================================================================
+# STRATEGY
+# =============================================================================
+
+  - path: strategy/1-youtube-channel-revival-strategy.docx
+    original_path: "1_YouTube-Channel_Revival-Strategy.docx"
+    type: reference
+    format: docx
+    category: strategy
+    status: reference
+    description: "Revival strategy document #1 -- YouTube channel relaunch plan"
+    cross_reference: "content-pipeline/amp-lab/archive/2026-01-25-revival-strategy-v1.md (already archived as markdown)"
+
+  - path: strategy/2-review-revival-strategy-hat-on-hat.docx
+    original_path: "2_Review_Revival-Strategy_A-Hat_on_A-Hat.docx"
+    type: reference
+    format: docx
+    category: strategy
+    status: reference
+    description: "Revival strategy review -- 'A Hat on a Hat' critique and refinement"
+    cross_reference: "content-pipeline/amp-lab/archive/2026-01-25-revival-strategy-v1.md"
+
+  - path: strategy/3-revival-strategy-infographic.docx
+    original_path: "3_Revival-Strategy_Infographic.docx"
+    type: reference
+    format: docx
+    category: strategy
+    status: reference
+    description: "Revival strategy visual infographic (likely the companion to docs 1 and 2)"
+    cross_reference: "content-pipeline/amp-lab/archive/2026-01-25-revival-strategy-v1.md"
+
+# =============================================================================
+# SENSITIVE
+# =============================================================================
+
+  - path: SENSITIVE/login-info.docx
+    original_path: "Login Info.docx"
+    type: sensitive
+    format: docx
+    category: sensitive
+    sensitive: true
+    status: reference
+    description: "LOGIN CREDENTIALS -- NEVER COMMIT. Contains account passwords for AMP Lab services."
