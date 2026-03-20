@@ -81,7 +81,9 @@ We synthesize these traditions into a single framework. The theory of object-att
 
 ## The Canon So Far
 
-We have cataloged 444 films across six objects:
+The project began with four published episodes (2017-2020) — **Cereal**, **Telephones**, **Balloons**, **Eggs** — produced intuitively, without theoretical apparatus, in a pure compilation format. They proved the concept: sustained attention to a single humble object reveals unexpected depth. The Eggs episode moved from kitchen slapstick (*Kramer vs. Kramer*) to existential philosophy (*Annie Hall*'s "I need the eggs") through the simple act of watching every egg in cinema history. The Cereal episode pushed the format toward hybrid original-plus-compilation, demonstrating that the object *wanted* more than curation — it wanted creative engagement.
+
+The V2 relaunch formalizes what V1 discovered empirically. Six new objects have been researched at scale — 444 films cataloged across six objects:
 
 | Object | Films | Core Tension | Landmark Scenes |
 |--------|-------|-------------|-----------------|

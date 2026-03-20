@@ -451,9 +451,34 @@ Cinema's relationship to objects is unique among art forms for four reasons:
 
 4. **Montage**: Cinema juxtaposes objects through editing. The Kuleshov Effect demonstrates that meaning is produced not by objects in isolation but by objects in *sequence*: a face followed by a bowl of soup produces hunger; the same face followed by a coffin produces grief. Objects in cinema are always in dialogue — with the characters who handle them, with the spaces that contain them, and with the other shots that surround them.
 
-### B. The Object Lessons Method
+### B. The V1 Foundation: Cereal, Telephones, Balloons, Eggs
 
-The Object Lessons methodology, as practiced across the six researched episodes, involves:
+The Object Lessons project did not begin with theory. It began with practice — four episodes produced and published on YouTube between 2017 and 2020, before any of the theoretical apparatus described in this document existed:
+
+| Episode | Object | Format | Key Insight |
+|---------|--------|--------|-------------|
+| 1 | **Cereal** | Experimental vignettes, original filmed sketches | Shifted the format from compilation to hybrid: interspersed film clips with original surrealist vignettes (a preacher warning about Satan in breakfast food, close-up milk pours). Demonstrated that the object could anchor *original creative work*, not just curation. |
+| 2 | **Telephones** | Compiled clips with thematic organization | Traced the telephone as conduit for the uncanny (phones that ring without power, connect to supernatural voices) and as instrument of social addiction and economic pressure. Demonstrated the object's capacity to carry a cultural narrative — from domestic landline to pervasive mobile. |
+| 3 | **Balloons** | Compiled clips with thematic organization | Explored buoyancy, fragility, celebration, and release across cinema history — objects that are simultaneously joyful and poignant because they are designed to be temporary. |
+| 4 | **Eggs** | Compiled clips with thematic lessons | Organized egg appearances into distinct "lessons" — the egg as domestic struggle (*Kramer vs. Kramer*), as living thing requiring mercy (*Big Night*), as existential necessity (*Annie Hall*'s "I need the eggs"). Demonstrated the method's capacity to extract philosophical depth from the most mundane possible object. |
+
+These four episodes are the empirical proof-of-concept. They demonstrated, before any theoretical framework existed, that:
+
+1. **Sustained attention to a single object reveals unexpected depth.** The Eggs episode moved from kitchen slapstick to existential philosophy through the simple act of compilation. This is estrangement in practice — the egg was forced into visibility by the attention lavished upon it.
+
+2. **The compilation format itself produces knowledge.** Seeing every egg across cinema history, arranged into thematic clusters, reveals patterns that no individual film can show. This is what the theory calls accumulation made visible: the compilation format is the medium through which sedimented layers of meaning become perceptible.
+
+3. **Humble objects are more productive than spectacular ones.** Cereal, telephones, balloons, eggs — these are deliberately un-cinematic objects. Their ordinariness is the point. They demonstrate that object-attention can extract meaning from *any* object, not just the obviously symbolic ones. This is the Tillmans principle applied to cinema: democratic attention, bestowed equally.
+
+4. **The format evolved under its own pressure.** The shift from pure compilation (Telephones, Balloons, Eggs) to hybrid original-plus-compilation (Cereal) was an organic response to the format's demands: the object *wanted* more than curation. It wanted creative engagement. The V2 format (narrated hybrid) is the logical next stage of this evolution.
+
+The V1 episodes were made intuitively — without Appadurai, without Barthes, without Heidegger. They worked because the practitioners were *doing* object-attention before they had a name for it. This document names what they were already doing — and provides the theoretical infrastructure for doing it systematically, at scale, with scholarly rigor.
+
+The six V2 research briefs (Milk, Mirrors, Cigarettes, Clocks, Doors, Guns — 444 films cataloged) represent the formalization of what the V1 episodes discovered empirically. The V1 objects (Cereal, Telephones, Balloons, Eggs) remain available for re-investigation under the V2 methodology — and the fact that Cereal already demonstrated the hybrid format suggests that it was always reaching toward the narrated structure that V2 formalized.
+
+### C. The V2 Object Lessons Method
+
+The Object Lessons methodology, as formalized for the V2 relaunch and informed by the V1 foundation, involves:
 
 1. **Identification**: Select an object that recurs across films, directors, periods, and genres with sufficient frequency to constitute a tradition. (Threshold: 50+ films minimum.)
 
@@ -964,5 +989,5 @@ This is the intellectual bedrock on which Object Lessons stands. Not a fixed fou
 
 *Research compiled 2026-03-20 for AMP Lab Media / Object Lessons.*
 *Theoretical foundation for the Object Lessons video essay series.*
-*Cross-references 6 episode research briefs (444 films cataloged across 6 objects).*
+*Incorporates 4 published V1 episodes (Cereal, Telephones, Balloons, Eggs) and 6 V2 research briefs (444 films cataloged across Milk, Mirrors, Cigarettes, Clocks, Doors, Guns).*
 *87 sources cited across 13 disciplinary fields.*
