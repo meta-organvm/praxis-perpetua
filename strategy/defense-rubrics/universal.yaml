@@ -1,8 +1,12 @@
 # Universal Defense Rubric — All Faculties, All Tiers
 # These dimensions form the shared baseline for every defense.
+# Weights are RELATIVE, not absolute — normalized at evaluation time.
+# Universal + faculty-specific weights are summed then divided by total
+# to produce proportional scores. See defense-protocol.yaml stage 4.
 
 rubric_id: universal
 applies_to: all
+weight_normalization: true
 
 dimensions:
   - name: Methodological Rigor

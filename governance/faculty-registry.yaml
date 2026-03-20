@@ -41,9 +41,10 @@ faculties:
         name: The Product Manager
         evaluates: Market relevance, user impact
     faculty_dimensions:
-      - name: Mathematical Proof Validity
-        type: objective
+      - name: Market Viability
+        type: mixed
         weight: 0.10
+        description: Does the product address a real market need with sustainable differentiation?
       - name: Competitive Differentiation
         type: mixed
         weight: 0.10

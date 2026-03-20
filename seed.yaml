@@ -57,8 +57,8 @@ subscriptions:
     source: ALL
     action: Trigger session self-critique review
   - event: governance.updated
-    from: organvm-iv-taxis
+    source: organvm-iv-taxis
     action: review-defense-protocol
   - event: ira.calibration-complete
-    from: organvm-i-theoria/auto-revision-epistemic-engine
+    source: organvm-i-theoria/auto-revision-epistemic-engine
     action: update-senate-config
