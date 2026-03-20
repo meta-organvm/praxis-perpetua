@@ -43,3 +43,25 @@ commissions:
       - 6+ monthly longitudinal assessments
       - Expanded references to 80+
       - arXiv submission of IRA methodology as Paper (Tier I)
+
+  - id: INQ-2026-003
+    title: >-
+      The Intellectual Genealogy of Immutable Record-Keeping and
+      Cryptographic Witnessing: From Clay Tablets to Hash Chains
+    short_name: The Testament Genealogy
+    tier: research-bibliography
+    faculty: applied-systems
+    advisory_faculty: governance
+    commissioned: 2026-03-20
+    status: complete
+    location: praxis-perpetua/research/2026-03-20-testament-protocol-intellectual-genealogy.md
+    sources: ~200
+    periods: 8
+    size: ~207K chars
+    scope: system-wide (grounds the Testament Protocol)
+    notes:
+      - Primary texts in critical editions + peer-reviewed secondary sources only
+      - Eight historical periods from Classical Antiquity to post-blockchain
+      - Five interdisciplinary bridges (testimony, archives, trust, ledgers, evidence)
+      - Reading order for ORGANVM contributors
+      - Relationship mapping to Testament Protocol implementation
