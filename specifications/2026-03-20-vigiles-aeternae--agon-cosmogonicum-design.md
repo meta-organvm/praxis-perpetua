@@ -1,8 +1,8 @@
 # Vigiles Aeternae — Agon Cosmogonicum: Design Specification
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 **Date:** 2026-03-20
-**Status:** APPROVED — Pending Implementation Plan
+**Status:** APPROVED — Spec Review Passed (v1.1 addresses 3 HIGH findings)
 **Author:** 4JP + Claude (collaborative design session)
 **Scope:** Full-spectrum cross-organ creative property — research corpus, governance simulation engine, RPG multiverse, constitutional generator, franchise system
 
@@ -176,15 +176,19 @@ I ──→ META (agon)                      ↑
 II ──→ META                     META ──┘
 META ──→ IV (ordo taxis)
 META ──→ V (vox) ──→ VII (kerygma)
-II ──→ VI (collegium) ──→ I (feedback loop)
+II ──→ VI (collegium)
 META ──→ VII
 ```
+
+**Dependency Rule Compliance:** The ORGANVM unidirectional flow (I→II→III) is preserved for hard dependency edges. META→ALL edges are governance/orchestration edges consistent with META's orchestrator role (precedent: `praxis-perpetua/seed.yaml` consuming from all-organs). The VI→I "feedback loop" mentioned in earlier discussion is modeled as an **event subscription** (`community.insight.submitted`), not a hard dependency — ORGAN-VI publishes events that ORGAN-I may subscribe to, but I does not import from or depend on VI code or data. This follows the existing `subscriptions` pattern in seed.yaml.
 
 ---
 
 ## 4. The Seven Founding Watcher Orders
 
 These are the factions — simultaneously mythological archetypes, playable RPG factions, and concrete governance functions. Research will reshape, split, merge, and add to these. They are the first instantiation.
+
+**Note on numbering:** The Orders are numbered I-VII for internal identification only. This numbering is **independent** of ORGAN numbering (ORGAN-I through ORGAN-VII). Order I (Architects) does not "belong to" ORGAN-I; it operates across all organs. Similarly, Orders and Regimes are orthogonal: a Regime is a governance philosophy (Tolkien, Malazan, etc.); an Order is a functional archetype (Architect, Oracle, etc.). Every Order audits under every Regime. Every Regime is audited by every Order.
 
 ### Order I: THE ARCHITECTS — *Ordo Architectorum*
 
@@ -362,11 +366,22 @@ regime:
 1. SUMMON  — A regime is invoked (by schedule, community vote, or Cosmogonist decree)
 2. AUDIT   — The regime's audit_rules run against real ORGANVM state
 3. REPORT  — The regime produces findings in its own voice and aesthetic
-4. DIVERGE — Findings compared against what OTHER regimes found
+4. DIVERGE   — Findings compared against what OTHER regimes found
 5. CONSENSUS — Where all regimes agree → Constitutional law candidate
-6. CHRONICLE — The Witnesses record the entire cycle immutably
-7. ROTATE  — The next regime is summoned. The Agon continues.
+6. CONFLICT  — Where regimes disagree → conflict resolution (see below)
+7. CHRONICLE — The Witnesses record the entire cycle immutably
+8. ROTATE    — The next regime is summoned. The Agon continues.
 ```
+
+**Conflict Resolution (Step 6):** When regimes produce contradictory findings:
+
+1. **Record the divergence.** All disagreements are preserved in the Chronicle. Divergence is data, not failure.
+2. **Classify the conflict.** Three types:
+   - **Perspective divergence** — regimes see the same fact differently (e.g., Tolkien: "exceeding mandate"; Malazan: "healthy pressure accumulation"). Both preserved as alternative lenses. No resolution needed.
+   - **Priority conflict** — regimes agree on fact but disagree on severity. Highest severity from any regime is surfaced as the "ceiling."
+   - **Structural contradiction** — regimes make mutually exclusive claims. Escalated to the Cosmogonists.
+3. **Cosmogonist arbitration.** For structural contradictions, the Cosmogonist Order examines both claims against the metaLAWs substrate (Section 7). If a meta-law resolves it, the resolution is recorded. If not, the contradiction becomes an **open question** — a research item fed to the corpus (ORGAN-I).
+4. **No forced consensus.** The Agon does not require agreement. Persistent disagreement is itself valuable data — it reveals genuine philosophical divergence, informing essays (ORGAN-V) and community debates (ORGAN-VI).
 
 ### 5.3 Founding Regimes (to be built)
 
@@ -483,7 +498,53 @@ These cross-domain convergences are what the Cosmogonists use to judge all regim
 - **Emergence** — global order arises from local interactions following simple rules
 - **Feedback and Governance** — regulation via information about current state
 
-### 7.3 Constitutional Generation
+### 7.3 Chronicle Schema
+
+Each Agon cycle is recorded as an append-only Chronicle entry:
+
+```yaml
+chronicle_entry:
+  cycle_id: string          # Unique cycle identifier (e.g., AGON-2026-03-001)
+  timestamp: datetime       # When the cycle completed
+  regime_summoned: string   # Which regime ran this cycle
+  summoned_by: string       # schedule | community_vote | cosmogonist_decree
+  audit_findings:           # Raw findings from the regime's audit
+    - rule: string          # Which audit_rule fired
+      severity: string
+      target: string        # Which repo/organ/component
+      description: string
+  divergence_from_prior:    # How this regime's findings differ from the previous cycle's regime
+    agreements: [string]
+    disagreements: [string]
+    unique_findings: [string]  # Things only THIS regime caught
+  consensus_candidates: [string]  # Findings that now have universal agreement across all regimes that have run
+  phaethon_warnings: [string]     # Any blind-spot triggers detected
+  chronicle_witness: string       # Which Witness entity recorded this (ontologia UID)
+```
+
+### 7.4 Constitutional Law Schema
+
+When consensus is achieved, a Constitutional law record is produced:
+
+```yaml
+constitutional_law:
+  id: string               # e.g., CONST-2026-001
+  title: string
+  enacted: datetime
+  authority: consensus      # How this law was derived
+  consensus_evidence:
+    regimes_agreeing: [string]   # All regimes that agree
+    cycles_confirmed: [string]   # Which Agon cycles confirmed it
+    dissenting_regimes: [string] # Any regimes that initially disagreed but were overridden by supermajority
+  law_text: string         # The actual immutable law statement
+  domain: string           # Which metaLAWs domain this relates to (physics, logic, etc.)
+  enforcement_order: string # Which Watcher Order enforces this (e.g., Seraphim)
+  praxis_perpetua_ref: string # Path to the CONSTITUTION-- document in praxis-perpetua
+```
+
+**Consensus threshold:** A finding becomes a Constitutional candidate when **all active regimes** agree on it across at least **two separate Agon cycles**. The two-cycle requirement prevents transient agreement from becoming permanent law. If a regime is later added that disagrees, the law is flagged for **re-evaluation**, not automatically revoked — the Cosmogonists adjudicate.
+
+### 7.5 Constitutional Generation
 
 The Agon doesn't discover laws from scratch. It determines which laws each regime prioritizes, how they interpret them, and what happens when interpretations collide. Consensus across all regimes on a specific interpretation becomes Constitutional law.
 
