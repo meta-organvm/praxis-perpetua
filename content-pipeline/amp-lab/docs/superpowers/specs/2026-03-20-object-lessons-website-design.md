@@ -1,0 +1,851 @@
+# Object Lessons Website — Design Spec
+
+**Date:** 2026-03-20
+**Status:** DESIGN COMPLETE — pending implementation
+**Brand:** Object Lessons
+**Domain:** objectlessons.film
+**Framework:** Astro + MDX + React islands
+**Hosting:** Cloudflare Pages + D1
+**Repo:** `omni-dromenon-machina/object-lessons` (to scaffold)
+**ORGANVM Organ:** ORGAN-II (Poiesis) — distribution via ORGAN-VII (Kerygma)
+
+---
+
+## 1. Purpose
+
+The public-facing website for the Object Lessons project — a YouTube channel and research practice that traces recurring objects across cinema history. The site publishes companion essays, hosts embedded videos, exposes the research pipeline, accepts viewer contributions, provides a collaborator dashboard, and serves as a replicable template for future research units in the ORGANVM system.
+
+---
+
+## 2. Visual Identity
+
+**Aesthetic:** Editorial Clean — light background, restrained palette, generous whitespace, serif headings, sans-serif body. The writing is the star. Scholarly without being sterile. Reference points: Criterion Collection essays, Sight & Sound online, university press book pages.
+
+**Typography:**
+- Headings: Serif (e.g., `Lora`, `Source Serif 4`, or `Crimson Pro`) — literary authority
+- Body: System sans-serif stack (`system-ui, -apple-system, 'Segoe UI', sans-serif`) — clean reading
+- Monospace: For metadata, timestamps, film data (`JetBrains Mono` or system mono)
+
+**Color palette:**
+- Background: `#faf8f5` (warm white)
+- Text: `#1a1a1a` (near-black)
+- Secondary text: `#666`
+- Accent: `#8a7e6e` (warm stone — used sparingly for dividers, labels, metadata)
+- Links: `#2a4a7a` (muted blue — scholarly, not startup)
+- Borders/dividers: `#e0dcd6`
+- Code/data backgrounds: `#f0ede8`
+
+**Tailwind theme mapping:** All color and spacing values above are encoded as design tokens in `tailwind.config.mjs` under `theme.extend`. Component styling uses Tailwind utility classes referencing these tokens (e.g., `text-primary`, `bg-surface`, `border-divider`). The `theme.css` file provides the CSS custom property layer that Tailwind consumes, making the theme swappable per template instance.
+
+**Spacing:** Generous. Line-height 1.7-1.8 for body text. 48-64px section margins. Maximum content width 680px for essays (optimal reading measure), 1100px for data-heavy pages.
+
+**Accessibility:** WCAG 2.1 AA minimum. All color combinations must meet 4.5:1 contrast ratio for body text and 3:1 for large text. Film stills require descriptive alt text. All React islands must be keyboard-navigable with visible focus indicators. The submission form must have proper label associations and ARIA attributes. The filmography table must be accessible to screen readers (proper `<th>` scoping, sort indicators announced). Lighthouse accessibility score target: > 95.
+
+---
+
+## 3. Site Map
+
+### 3.1 Public Routes
+
+| Route | Purpose | Content Source |
+|-------|---------|---------------|
+| `/` | Home | Latest episode embed, latest essay, featured objects grid, manifesto excerpt |
+| `/episodes` | Episode archive | Grid of all Object Lessons with thumbnails, status badges |
+| `/episodes/[slug]` | Single episode | YouTube embed, companion essay, filmography, symbolic categories, related episodes |
+| `/essays` | Essay archive | Chronological listing, filterable by object |
+| `/essays/[slug]` | Single essay | Full MDX body, citations, footnotes, related episodes |
+| `/objects` | Object catalog | All tracked objects with status badges (published / in-production / researching / candidate) |
+| `/objects/[slug]` | Single object | Film list, symbolic categories, density connections, episodes, essays, research status |
+| `/research` | Academic layer | Dissertation overview, five mechanisms, methodology, theory manifesto |
+| `/pipeline` | Production status | Timeline of upcoming episodes, research queue, content calendar |
+| `/submit` | Viewer submissions | Three-type form: suggest object, flag film, submit clip |
+| `/about` | About | Who we are, manifesto, methodology, YouTube/Patreon/social links, contact |
+| `/404` | Not found | Custom 404 maintaining editorial aesthetic with navigation links |
+
+### 3.2 Authenticated Routes
+
+| Route | Purpose | Auth |
+|-------|---------|------|
+| `/collaborator` | Chris's dashboard | Password-protected (simple shared secret or Cloudflare Access) |
+
+### 3.3 API Routes (SSR via Astro + Cloudflare adapter)
+
+| Route | Method | Purpose |
+|-------|--------|---------|
+| `/api/submit` | POST | Write viewer submission to D1 |
+| `/api/submissions` | GET | Read submissions (collaborator dashboard) |
+| `/api/submissions/[id]` | PATCH | Approve/reject submission (collaborator dashboard) |
+| `/api/collaborator/auth` | POST | Validate collaborator password, set session cookie |
+
+### 3.4 Generated Assets
+
+| Asset | Purpose | Mechanism |
+|-------|---------|-----------|
+| `/rss.xml` | RSS feed for essays | `src/pages/rss.xml.ts` via `@astrojs/rss` |
+| `/sitemap-index.xml` | Sitemap | Auto-generated by `@astrojs/sitemap` integration (no page file) |
+| `/images/og/*.png` | OG images | Pre-rendered at build time via Satori + resvg into `public/images/og/` |
+
+---
+
+## 4. Content Model
+
+### 4.1 Episodes (`src/content/episodes/*.mdx`)
+
+```yaml
+# frontmatter
+title: "Why Does Milk Keep Appearing in Film?"
+slug: milk
+object: milk                    # reference → Objects
+date: 2026-05-01
+youtube_id: "dQw4w9WgXcQ"
+status: published               # published | in-production | scripted | planned
+version: v2                     # v1 (original compilations) | v2 (narrated hybrid)
+duration: "11:42"
+films:                          # reference[] → Films (by id in films.yaml)
+  - suspicion-1941
+  - clockwork-orange-1971
+  - get-out-2017
+  # ... (full list)
+symbolic_categories:            # string keys matching Object.symbolic_categories[].name
+  - corrupted-innocence
+  - maternal-threat
+  - racial-coding
+  - bodily-horror
+  - villain-signature
+companion_essay: milk-in-cinema  # reference → Essays (by slug)
+thumbnail: /images/episodes/milk-thumb.jpg
+seo:
+  description: "From Hitchcock's poisoned glass to Jordan Peele's stirring scene, milk is never innocent in cinema."
+  keywords: ["milk in film", "objects in cinema", "video essay", "film analysis"]
+```
+
+MDX body: narration transcript, production notes, behind-the-scenes.
+
+**Note on symbolic categories:** Episode frontmatter uses kebab-case string keys (e.g., `corrupted-innocence`) that correspond to the `name` field in the parent Object's `symbolic_categories` array (e.g., `name: "Corrupted Innocence"`). This is an intentional loose coupling — the Object collection is the canonical source of category definitions with descriptions, and Episodes reference them by convention. A build-time validation script (`scripts/validate-categories.ts`) checks that every category string in an Episode matches a defined category in its parent Object.
+
+### 4.2 Essays (`src/content/essays/*.mdx`)
+
+```yaml
+# frontmatter
+title: "Milk — The Bifurcation of Innocence"
+slug: milk-in-cinema
+object: milk
+date: 2026-05-01
+type: companion                 # companion | standalone | research-note
+related_episodes:
+  - milk
+excerpt: "71 films cataloged, 10 symbolic categories, 12 Tier 1 scenes. The Hitchcock-to-Kubrick transition as the definitive bifurcation event."
+citations:
+  - key: barthes-mythologies-1957
+    text: "Barthes, Roland. *Mythologies*. Paris: Seuil, 1957."
+  - key: dupuis-natures-perfect-food-2002
+    text: "DuPuis, E. Melanie. *Nature's Perfect Food*. New York: NYU Press, 2002."
+  # ...
+```
+
+MDX body: the full essay with inline citation markers (`[@barthes-mythologies-1957]`), film stills (referenced from `/public/images/stills/`), and embedded components (`<FilmographyTable>`, `<DensityChart>`).
+
+### 4.3 Objects (`src/content/objects/*.mdx`)
+
+```yaml
+# frontmatter
+name: Milk
+slug: milk
+status: published               # published | in-production | researching | candidate
+film_count: 71
+priority_score: 5
+symbolic_categories:
+  - name: Corrupted Innocence
+    kebab: corrupted-innocence   # key used by Episodes to reference this category
+    description: "Milk as purity performed — and subverted"
+  - name: Maternal Threat
+    kebab: maternal-threat
+    description: "The mother's nourishment weaponized"
+  - name: Racial Coding
+    kebab: racial-coding
+    description: "Whiteness literalized"
+  - name: Villain Signature
+    kebab: villain-signature
+    description: "The antagonist who drinks milk"
+  - name: Bodily Horror
+    kebab: bodily-horror
+    description: "Milk as bodily fluid, alien substance"
+  # ... (8-10 categories per object)
+episodes:
+  - milk
+essays:
+  - milk-in-cinema
+co_occurrences:
+  - object: mirror
+    count: 5
+    films: ["psycho-1960", "clockwork-orange-1971", "get-out-2017"]
+  - object: cigarette
+    count: 3
+    films: ["clockwork-orange-1971", "no-country-2007"]
+landmark_scenes:
+  - film: suspicion-1941
+    description: "Hitchcock's glowing milk glass — the bifurcation begins"
+    tier: 1
+  - film: clockwork-orange-1971
+    description: "Korova Milk Bar — corrupted innocence made architectural"
+    tier: 1
+  - film: get-out-2017
+    description: "Rose's midnight milk — all five mechanisms in a single scene"
+    tier: 1
+```
+
+MDX body: the object's "biography" — a narrative overview of its career across cinema.
+
+### 4.4 Films (`src/data/films.yaml`)
+
+A flat YAML database of all films referenced across the project. Not a Content Collection — imported directly at build time via `import { parse } from 'yaml'` and `fs.readFileSync()` in Astro page frontmatter or a shared `src/lib/films.ts` loader.
+
+```yaml
+- id: suspicion-1941
+  title: Suspicion
+  year: 1941
+  director: Alfred Hitchcock
+  objects:
+    - object: milk
+      scenes:
+        - description: "Cary Grant carries a glowing glass of milk upstairs to Joan Fontaine"
+          symbolic_category: maternal-threat
+          tier: 1
+  density_score: 1              # count of tracked objects present / total tracked
+  letterboxd_url: https://letterboxd.com/film/suspicion/
+  imdb_id: tt0034248
+
+- id: clockwork-orange-1971
+  title: A Clockwork Orange
+  year: 1971
+  director: Stanley Kubrick
+  objects:
+    - object: milk
+      scenes:
+        - description: "Korova Milk Bar — milk-plus before ultraviolence"
+          symbolic_category: corrupted-innocence
+          tier: 1
+    - object: cigarette
+      scenes:
+        - description: "Alex's cigarette as ultraviolent aesthetic"
+          symbolic_category: rebellion
+          tier: 2
+    - object: clock
+      scenes:
+        - description: "The title IS the thesis — clockwork mechanism imposed on organic"
+          symbolic_category: mechanism-vs-organism
+          tier: 1
+    - object: mirror
+      scenes:
+        - description: "Alex's relationship with his own reflection"
+          symbolic_category: vanity-violence
+          tier: 2
+  density_score: 4
+  letterboxd_url: https://letterboxd.com/film/a-clockwork-orange/
+  imdb_id: tt0066921
+# ... (302+ films)
+```
+
+### 4.5 Pipeline Status (`src/data/pipeline-status.yaml`)
+
+Drives the `/pipeline` page and the collaborator dashboard. The monthly calendar view on the Pipeline page is derived from the `target_release` dates of individual objects — there is no separate calendar structure. The `PipelineTimeline` React component groups objects by month for display.
+
+```yaml
+current_sprint: AMP-LAB-V2
+last_updated: 2026-03-20
+
+objects:
+  - name: Milk
+    status: narration-complete
+    research_films: 71
+    outline: complete
+    narration: needs-recording
+    edit: not-started
+    target_release: 2026-05-01
+    notes: "First V2 episode. Strongest opener."
+
+  - name: Mirrors
+    status: narration-complete
+    research_films: 85
+    outline: complete
+    narration: needs-recording
+    edit: not-started
+    target_release: 2026-05-15
+    notes: "Most philosophically loaded. Visual showpiece."
+
+  # ... (all objects in pipeline)
+
+submissions_pending:
+  objects: 0
+  films: 0
+  clips: 0
+```
+
+---
+
+## 5. Page Designs
+
+### 5.1 Home (`/`)
+
+**Layout:** Single column, 680px max-width centered.
+
+1. **Header:** "Object Lessons" in serif, tagline "The Recurring Objects of Cinema" in small caps below. Navigation: Episodes, Essays, Objects, Research, Pipeline, Submit, About.
+2. **Hero section:** Manifesto excerpt (2-3 paragraphs from `manifesto.md`), ending with "We look at the things that no one looks at. That is the lesson."
+3. **Latest episode:** YouTube embed (responsive 16:9), episode title, companion essay link.
+4. **Object grid:** 2x3 grid of tracked objects with status badges. Each card shows object name, film count, status, and a representative still. Links to `/objects/[slug]`.
+5. **Latest essay:** Title, excerpt, date, read link.
+6. **Call to action:** "Seen an object we missed?" → link to `/submit`.
+7. **Footer:** YouTube, Patreon, social links. RSS link. "Built with Object Lessons Template" (for replicable credit).
+
+### 5.2 Episodes Archive (`/episodes`)
+
+**Layout:** 1100px max-width.
+
+1. **Page title:** "Episodes" with subtitle "Every Object Lesson — compilations and narrated essays."
+2. **Filter bar:** All / V1 (Compilations) / V2 (Narrated Hybrid). Static links, no JS.
+3. **Episode grid:** 2-column grid (3-column on wide screens). Each card:
+   - Thumbnail image (or YouTube poster frame)
+   - Episode title
+   - Object name
+   - Version badge (V1 / V2)
+   - Status badge (published / coming soon)
+   - Duration
+   - Date
+4. **Sort:** Newest first by default. Published episodes before upcoming.
+
+### 5.3 Episode Detail (`/episodes/[slug]`)
+
+**Layout:** Wide content (1100px) for the video, then 680px for text.
+
+1. YouTube embed (responsive, lazy-loaded via lite-youtube facade pattern).
+2. Episode metadata: object, date, duration, version badge (V1/V2).
+3. Companion essay (inline or linked, depending on length).
+4. **Filmography table** (React island): sortable by year, director, symbolic category, tier. Each row links to the film's Letterboxd/IMDB page. Filterable by symbolic category.
+5. Symbolic categories with descriptions.
+6. Related episodes (other objects).
+7. "Suggest a film we missed" → `/submit` with object pre-filled.
+
+### 5.4 Essays Archive (`/essays`)
+
+**Layout:** 680px max-width, single column.
+
+1. **Page title:** "Essays" with subtitle "Written companions to the video essays, plus standalone research."
+2. **Filter:** All / Companion / Standalone / Research Notes. By object: dropdown or tag links.
+3. **Essay list:** Chronological, each entry shows:
+   - Title
+   - Object tag
+   - Type badge (companion / standalone / research-note)
+   - Date
+   - Excerpt (2-3 lines)
+   - Related episode link (if companion type)
+4. **Sort:** Newest first.
+
+### 5.5 Object Detail (`/objects/[slug]`)
+
+**Layout:** 680px content column with a data sidebar on wider screens.
+
+1. Object name, status badge, film count.
+2. Object biography (MDX body — narrative overview of the object's career).
+3. **Symbolic categories** — expandable sections, each with description and representative films.
+4. **Landmark scenes** — the Tier 1 moments, with film stills and descriptions.
+5. **Co-occurrence map** — which other objects appear in the same films (links to those objects).
+6. **Full filmography** (React island): every film featuring this object, sortable/filterable.
+7. Related episodes and essays.
+8. "Know a film with [object]?" → `/submit` with object pre-filled.
+
+### 5.6 Research (`/research`)
+
+**Layout:** 680px single column, long-form reading.
+
+1. Introduction to the academic dimension of Object Lessons.
+2. **The Five Mechanisms** — estrangement, accumulation, bifurcation, condensation, recursion. Each with a concise definition and a cinematic example. Drawn from `manifesto.md`.
+3. **The Dissertation** — overview of SGO-2026-D-003 (Object-Attention in Art). Three-paper structure explained for a general audience: what cinema reveals (Paper I), what other art forms reveal (Paper II), why both are right (Paper III). No ORGANVM jargon.
+4. **Methodology** — how Object Lessons works: identification → cataloguing → taxonomy → deep analysis → narrative arc → theoretical grounding → cross-object analysis.
+5. **Cross-Object Density** — the density report findings: 13 films at 3+ objects, A Clockwork Orange and Blade Runner at 4/5. `ObjectDensityGraph` React island for interactive co-occurrence visualization.
+6. **Bibliography** — key sources, organized by tradition (material culture, semiotics, phenomenology, film theory, art history).
+
+### 5.7 Pipeline (`/pipeline`)
+
+**Layout:** Full width (1100px).
+
+1. **Timeline visualization** (React island): horizontal timeline grouping objects by their `target_release` month. Color-coded status: research → outline → narration → edit → published.
+2. **Object queue:** All candidate objects with priority scores, current status, and estimated timeline.
+3. **Content calendar:** Monthly view derived from individual object `target_release` dates in `pipeline-status.yaml`.
+4. **Shorts pipeline:** Status of extracted Shorts from existing and new episodes.
+5. **Research queue:** Objects in the "researching" or "candidate" state with film counts so far.
+
+### 5.8 Submit (`/submit`)
+
+**Layout:** 680px centered form.
+
+Three-tab form (React island):
+
+**Tab 1 — Suggest an Object:**
+- Object name (required)
+- Why it matters (textarea, required)
+- 3+ film examples (repeatable field group: film title, year, brief note)
+- Your name/handle (optional — for credit)
+- Email (optional — for follow-up)
+
+**Tab 2 — Flag a Film:**
+- Film title (required)
+- Year (required)
+- Director (optional)
+- Object spotted (required, dropdown of tracked objects + "Other")
+- Scene description (textarea, required)
+- Timestamp if known (optional)
+- Your name/handle (optional)
+
+**Tab 3 — Submit a Clip:**
+- Film title (required)
+- Object (required)
+- URL (required — YouTube, Vimeo, or Letterboxd)
+- Timestamp (required)
+- Context note (textarea, optional)
+- Your name/handle (optional)
+
+**Backend:** Form submissions POST to `/api/submit` (Astro SSR endpoint via Cloudflare adapter) which writes to D1. Each submission gets a UUID, timestamp, type, and `status: pending`. The collaborator dashboard reads from D1 via `GET /api/submissions`.
+
+### 5.9 About (`/about`)
+
+**Layout:** 680px single column.
+
+1. **Who we are:** Brief intro — Anthony and Chris, the history of the channel (2017-2020, the gap, V2).
+2. **The manifesto:** Core excerpt from `theory/manifesto.md` — the five acts of object-attention, the methodology, why it matters. Abridged for a general audience; full manifesto linked separately.
+3. **The intellectual tradition:** One-paragraph summary of the scholarly lineage (material culture → semiotics → phenomenology → film theory → art history), with key names. Not a bibliography — a narrative placing Object Lessons in context.
+4. **Links:** YouTube channel, Patreon, social accounts (Letterboxd, Bluesky, Reddit), RSS feed, contact email.
+5. **For researchers:** Link to `/research` for the academic layer. Note that the full dissertation and methodology documentation are available there.
+6. **Credits:** ETCETER4 for original music. Any recurring collaborators or contributors.
+
+### 5.10 Collaborator (`/collaborator`)
+
+**Auth:** Password gate via `POST /api/collaborator/auth`. Chris enters a shared password; the endpoint validates and sets an HTTP-only session cookie. Subsequent requests to `/api/submissions` and `/api/submissions/[id]` check for this cookie. Not a full auth system — just a gate for one collaborator.
+
+**Layout:** Dashboard, full width (1100px).
+
+1. **Production status:** Each object in pipeline with visual status indicators (research → outline → narration → edit → published). Expandable to show details, notes, and target dates.
+2. **Content calendar:** Monthly view with scheduled releases derived from `pipeline-status.yaml`.
+3. **Pending submissions:** Table loaded from `GET /api/submissions?status=pending`. Each row shows submission type, summary, date, submitter. Approve/reject buttons trigger `PATCH /api/submissions/[id]` with `{ status: 'approved' }` or `{ status: 'rejected' }`. Approved submissions are flagged in D1 for manual incorporation into `films.yaml` during the next content update cycle — there is no automatic commit-to-repo pipeline.
+4. **Film lists:** Links to the current research docs (hosted in the repo or embedded summaries).
+5. **Narration queue:** Which outlines need Chris's voice recording, with direct links to the outline documents.
+
+### 5.11 404 Page
+
+**Layout:** 680px centered, matching editorial aesthetic.
+
+1. "Page not found" in serif heading.
+2. Brief text: "The object you're looking for has withdrawn from view."
+3. Navigation links: Home, Episodes, Objects, Essays.
+4. Search suggestion: "Looking for a specific object or film?"
+
+---
+
+## 6. Technical Architecture
+
+### 6.1 Framework: Astro 5.x
+
+**Why Astro:**
+- Zero JS by default — editorial pages render as pure HTML + CSS.
+- Content Collections with Zod schemas — type-safe frontmatter validation at build time.
+- Islands architecture — React components hydrate only where interactivity is needed (5 islands total).
+- Built-in RSS, sitemap, and image optimization.
+- MDX integration for rich essay content with embedded components.
+- Static site generation (SSG) by default, server-side rendering (SSR) via Cloudflare adapter for API routes and the collaborator page.
+
+### 6.2 Interactive Islands (React)
+
+Five React components that hydrate on the client:
+
+| Component | Page(s) | Hydration | Purpose |
+|-----------|---------|-----------|---------|
+| `FilmographyTable` | Episode detail, Object detail | `client:visible` | Sortable, filterable table of films |
+| `PipelineTimeline` | Pipeline, Home | `client:visible` | Horizontal timeline with status indicators |
+| `SubmissionForm` | Submit | `client:load` | Three-tab form with validation |
+| `ObjectDensityGraph` | Object detail, Research | `client:visible` | Co-occurrence visualization |
+| `CollaboratorDashboard` | Collaborator | `client:load` | Full dashboard with submission review, calls `/api/submissions` and `/api/submissions/[id]` |
+
+### 6.3 Content Collections Schema
+
+```typescript
+// src/content/config.ts
+import { defineCollection, z } from 'astro:content';
+
+const episodes = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    object: z.string(),
+    date: z.date(),
+    youtube_id: z.string(),
+    status: z.enum(['published', 'in-production', 'scripted', 'planned']),
+    version: z.enum(['v1', 'v2']),
+    duration: z.string(),
+    films: z.array(z.string()),
+    symbolic_categories: z.array(z.string()),
+    companion_essay: z.string().optional(),
+    thumbnail: z.string().optional(),
+    seo: z.object({
+      description: z.string(),
+      keywords: z.array(z.string()),
+    }),
+  }),
+});
+
+const essays = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    object: z.string(),
+    date: z.date(),
+    type: z.enum(['companion', 'standalone', 'research-note']),
+    related_episodes: z.array(z.string()).default([]),
+    excerpt: z.string(),
+    citations: z.array(z.object({
+      key: z.string(),
+      text: z.string(),
+    })).default([]),
+  }),
+});
+
+const objects = defineCollection({
+  type: 'content',
+  schema: z.object({
+    name: z.string(),
+    status: z.enum(['published', 'in-production', 'researching', 'candidate']),
+    film_count: z.number(),
+    priority_score: z.number().min(1).max(5),
+    symbolic_categories: z.array(z.object({
+      name: z.string(),
+      kebab: z.string(),
+      description: z.string(),
+    })),
+    episodes: z.array(z.string()).default([]),
+    essays: z.array(z.string()).default([]),
+    co_occurrences: z.array(z.object({
+      object: z.string(),
+      count: z.number(),
+      films: z.array(z.string()),
+    })).default([]),
+    landmark_scenes: z.array(z.object({
+      film: z.string(),
+      description: z.string(),
+      tier: z.number().min(1).max(3),
+    })).default([]),
+  }),
+});
+
+export const collections = { episodes, essays, objects };
+```
+
+### 6.4 Project Structure
+
+```
+object-lessons/
+├── astro.config.mjs
+├── site.config.ts              # Brand: name, tagline, domain, social links
+├── package.json
+├── tsconfig.json
+├── tailwind.config.mjs         # Design tokens from Section 2 encoded here
+├── scripts/
+│   ├── validate-categories.ts  # Build-time check: episode categories match object definitions
+│   └── generate-og-images.ts   # Pre-render OG images via Satori + resvg
+│
+├── src/
+│   ├── content/
+│   │   ├── config.ts           # Collection schemas (Zod)
+│   │   ├── episodes/
+│   │   │   ├── milk.mdx
+│   │   │   ├── mirrors.mdx
+│   │   │   ├── cigarettes.mdx
+│   │   │   ├── clocks.mdx
+│   │   │   ├── doors.mdx
+│   │   │   ├── guns.mdx
+│   │   │   ├── cereal.mdx      # V1 episodes
+│   │   │   ├── telephones.mdx
+│   │   │   ├── balloons.mdx
+│   │   │   └── eggs.mdx
+│   │   ├── essays/
+│   │   │   ├── milk-in-cinema.mdx
+│   │   │   ├── mirrors-in-cinema.mdx
+│   │   │   ├── cigarettes-in-cinema.mdx
+│   │   │   ├── clocks-in-cinema.mdx
+│   │   │   ├── doors-in-cinema.mdx
+│   │   │   ├── guns-in-cinema.mdx
+│   │   │   └── ...
+│   │   └── objects/
+│   │       ├── milk.mdx
+│   │       ├── mirrors.mdx
+│   │       ├── cigarettes.mdx
+│   │       ├── clocks.mdx
+│   │       ├── doors.mdx
+│   │       ├── guns.mdx
+│   │       ├── cereal.mdx
+│   │       ├── telephones.mdx
+│   │       ├── balloons.mdx
+│   │       └── eggs.mdx
+│   │
+│   ├── data/
+│   │   ├── films.yaml          # 302+ film database (loaded via yaml parser, not Content Collection)
+│   │   └── pipeline-status.yaml
+│   │
+│   ├── lib/
+│   │   ├── films.ts            # Load and type films.yaml: parse(readFileSync('src/data/films.yaml'))
+│   │   └── config.ts           # Re-export site.config.ts for use in components
+│   │
+│   ├── layouts/
+│   │   ├── BaseLayout.astro    # HTML shell, head, nav, footer
+│   │   ├── EssayLayout.astro   # 680px reading column
+│   │   └── DataLayout.astro    # 1100px wide for tables/grids
+│   │
+│   ├── pages/
+│   │   ├── index.astro
+│   │   ├── episodes/
+│   │   │   ├── index.astro
+│   │   │   └── [slug].astro
+│   │   ├── essays/
+│   │   │   ├── index.astro
+│   │   │   └── [slug].astro
+│   │   ├── objects/
+│   │   │   ├── index.astro
+│   │   │   └── [slug].astro
+│   │   ├── research.astro
+│   │   ├── pipeline.astro
+│   │   ├── submit.astro
+│   │   ├── about.astro
+│   │   ├── collaborator.astro
+│   │   ├── 404.astro
+│   │   ├── rss.xml.ts
+│   │   └── api/
+│   │       ├── submit.ts              # POST: write submission to D1
+│   │       ├── submissions.ts         # GET: read submissions (auth required)
+│   │       ├── submissions/
+│   │       │   └── [id].ts            # PATCH: approve/reject (auth required)
+│   │       └── collaborator/
+│   │           └── auth.ts            # POST: validate password, set session cookie
+│   │
+│   ├── components/
+│   │   ├── astro/              # Static Astro components
+│   │   │   ├── Header.astro
+│   │   │   ├── Footer.astro
+│   │   │   ├── Nav.astro
+│   │   │   ├── EpisodeCard.astro
+│   │   │   ├── EssayCard.astro
+│   │   │   ├── ObjectCard.astro
+│   │   │   ├── StatusBadge.astro
+│   │   │   ├── YouTubeEmbed.astro  # Lazy-loaded, lite-youtube facade pattern
+│   │   │   ├── Citation.astro
+│   │   │   ├── Footnote.astro
+│   │   │   ├── FilmStill.astro
+│   │   │   ├── SEO.astro
+│   │   │   └── OGImage.astro
+│   │   └── react/              # Interactive islands
+│   │       ├── FilmographyTable.tsx
+│   │       ├── PipelineTimeline.tsx
+│   │       ├── SubmissionForm.tsx
+│   │       ├── ObjectDensityGraph.tsx
+│   │       └── CollaboratorDashboard.tsx
+│   │
+│   └── styles/
+│       ├── global.css          # Base typography, colors, spacing
+│       └── theme.css           # CSS custom properties consumed by Tailwind (swappable per template)
+│
+├── public/
+│   ├── images/
+│   │   ├── episodes/           # Thumbnails
+│   │   ├── stills/             # Film stills for essays
+│   │   └── og/                 # Pre-rendered OG images (generated by scripts/generate-og-images.ts)
+│   ├── fonts/                  # Self-hosted serif font
+│   └── favicon.svg
+│
+└── wrangler.toml               # Cloudflare Pages + D1 binding configuration
+```
+
+### 6.5 Deployment
+
+**Platform:** Cloudflare Pages with SSR (hybrid mode)
+
+- **Build:** `astro build` → static HTML + JS islands + SSR endpoints (API routes)
+- **Deploy:** `git push` → Cloudflare Pages auto-builds from `main`
+- **SSR endpoints:** API routes run as Cloudflare Workers via `@astrojs/cloudflare` adapter
+- **Database:** Cloudflare D1 for viewer submissions, bound in `wrangler.toml`
+- **Domain:** `objectlessons.film` → Cloudflare DNS
+- **Preview:** Every PR gets a preview deployment URL
+
+**D1 Schema:**
+
+```sql
+CREATE TABLE submissions (
+  id TEXT PRIMARY KEY,          -- UUID
+  type TEXT NOT NULL,           -- 'object' | 'film' | 'clip'
+  status TEXT DEFAULT 'pending', -- 'pending' | 'approved' | 'rejected'
+  data TEXT NOT NULL,           -- JSON payload
+  submitter_name TEXT,
+  submitter_email TEXT,
+  created_at TEXT NOT NULL,     -- ISO 8601
+  reviewed_at TEXT,
+  reviewed_by TEXT
+);
+
+CREATE INDEX idx_submissions_status ON submissions(status);
+CREATE INDEX idx_submissions_type ON submissions(type);
+```
+
+### 6.6 SEO Infrastructure
+
+- **Structured data:** JSON-LD on every page (VideoObject for episodes, Article for essays, ItemList for archives).
+- **OG images:** Pre-rendered at build time via `scripts/generate-og-images.ts` using Satori (JSX → SVG) + `@resvg/resvg-js` (SVG → PNG). Output to `public/images/og/`. Referenced by slug in `<meta property="og:image">` tags.
+- **Sitemap:** Auto-generated via `@astrojs/sitemap` integration configured in `astro.config.mjs`. No page file needed.
+- **RSS:** Essays feed at `/rss.xml` via `@astrojs/rss` in `src/pages/rss.xml.ts`.
+- **Canonical URLs:** Every page declares its canonical at `objectlessons.film`.
+- **Meta tags:** Title, description, keywords per page. Default fallbacks in `site.config.ts`.
+
+---
+
+## 7. Data Migration
+
+### 7.1 Existing Content → Collections
+
+| Source File | Target Collection | Transform |
+|-------------|-------------------|-----------|
+| `research--milk-in-cinema.md` | `src/content/essays/milk-in-cinema.mdx` | Add frontmatter, convert to MDX, extract citations |
+| `research--mirrors-in-cinema.md` | `src/content/essays/mirrors-in-cinema.mdx` | Same |
+| `research--cigarettes-in-cinema.md` | `src/content/essays/cigarettes-in-cinema.mdx` | Same |
+| `research--clocks-in-cinema.md` | `src/content/essays/clocks-in-cinema.mdx` | Same |
+| `research--doors-in-cinema.md` | `src/content/essays/doors-in-cinema.mdx` | Same |
+| `research--guns-in-cinema.md` | `src/content/essays/guns-in-cinema.mdx` | Same |
+| `episode-outlines/001-milk-narration-outline.md` | `src/content/episodes/milk.mdx` | Extract frontmatter, structure as episode |
+| `episode-outlines/002-mirrors-narration-outline.md` | `src/content/episodes/mirrors.mdx` | Same |
+| `episode-outlines/003-cigarettes-narration-outline.md` | `src/content/episodes/cigarettes.mdx` | Same |
+| `episode-outlines/004-clocks-narration-outline.md` | `src/content/episodes/clocks.mdx` | Same |
+| `episode-outlines/005-doors-narration-outline.md` | `src/content/episodes/doors.mdx` | Same |
+| `episode-outlines/006-guns-narration-outline.md` | `src/content/episodes/guns.mdx` | Same |
+| `gdrive-archive/object-lessons/published/01-cereal/` | `src/content/episodes/cereal.mdx` | Reconstruct from published assets + YouTube metadata |
+| `gdrive-archive/object-lessons/published/` (others) | `src/content/episodes/{telephones,balloons,eggs}.mdx` | Same — V1 episodes reconstructed from archive |
+| `cross-object-density-report.md` | Data for `/research` page + `ObjectDensityGraph` component | Extract structured data |
+| `object-candidates.md` | `src/content/objects/*.mdx` (one per object) | Split into individual object files |
+| `content-calendar.md` | `src/data/pipeline-status.yaml` | Convert to structured YAML |
+| `theory/manifesto.md` | `/about` page + `/research` page content | Split into page sections |
+| `theory/object-attention-in-art.md` | `/research` page (summarized for public) | Condense for non-academic audience |
+
+### 7.2 Film Database Construction
+
+The 302+ films in the Materia Collider database (referenced in `cross-object-density-report.md`) plus the films cataloged in each research brief need to be compiled into `src/data/films.yaml`. Each research brief contains structured filmography data that can be extracted and normalized. The V1 episodes (Cereal, Telephones, Balloons, Eggs) have film lists in the gdrive archive that should also be incorporated where available.
+
+---
+
+## 8. Replicable Template
+
+### 8.1 What Changes Per Instance
+
+| File | Purpose |
+|------|---------|
+| `site.config.ts` | Brand name, tagline, domain, social links, analytics ID |
+| `src/styles/theme.css` | CSS custom properties: colors, typography overrides |
+| `tailwind.config.mjs` | Token adjustments if the theme.css changes warrant it |
+| `src/content/` | All content collections — episodes, essays, objects |
+| `src/data/` | Film/work databases, pipeline status |
+| `public/images/` | Thumbnails, stills, favicons, OG assets |
+| `public/fonts/` | Brand-specific fonts if different |
+
+### 8.2 What Stays the Same
+
+- All page layouts and component architecture
+- Content collection schemas (parameterized: "episodes" could become "analyses", "objects" could become "gestures")
+- Submission system (form types may differ but structure is identical)
+- Collaborator dashboard
+- Pipeline visualization
+- SEO infrastructure
+- Deployment pipeline
+- D1 schema
+- API routes
+
+### 8.3 Template Usage
+
+```bash
+# Create a new research unit site
+gh repo create omni-dromenon-machina/gesture-lessons \
+  --template omni-dromenon-machina/object-lessons
+
+cd gesture-lessons
+
+# Swap brand
+# Edit site.config.ts: name, tagline, domain
+# Edit src/styles/theme.css: palette adjustments
+# Replace src/content/ with new collections
+# Replace src/data/ with new databases
+# Replace public/images/ with new assets
+
+# Deploy
+npx wrangler pages deploy dist/
+```
+
+---
+
+## 9. Existing V1 Episodes
+
+The 4 original Object Lessons episodes (Cereal, Telephones, Balloons, Eggs) are included as V1 content. They get episode pages with YouTube embeds and whatever metadata can be reconstructed from the gdrive archive (`gdrive-archive/object-lessons/published/`). Film lists and symbolic categories are reconstructed where the archive provides storyboards, scripts, or notes. They are marked `version: v1` to distinguish from the V2 narrated hybrid format. They do not need companion essays immediately — the V1 format was pure compilation without written analysis.
+
+**V1 content sources:**
+- `gdrive-archive/object-lessons/published/01-cereal/` — storyboard, audio
+- YouTube video metadata (titles, descriptions, timestamps) — extracted via YouTube API or manually
+- Archive reference material in `gdrive-archive/object-lessons/reference/`
+
+---
+
+## 10. Dependencies
+
+| Package | Purpose |
+|---------|---------|
+| `astro` | Framework |
+| `@astrojs/mdx` | MDX content |
+| `@astrojs/react` | React islands |
+| `@astrojs/tailwind` | Utility CSS |
+| `@astrojs/sitemap` | Sitemap generation |
+| `@astrojs/cloudflare` | Cloudflare Pages adapter (SSR + Workers) |
+| `@astrojs/rss` | RSS feed |
+| `react`, `react-dom` | Island components |
+| `@tanstack/react-table` | FilmographyTable sorting/filtering |
+| `zod` | Schema validation (built into Astro content collections) |
+| `yaml` | Parse films.yaml at build time |
+| `satori`, `@resvg/resvg-js` | OG image generation (build-time script) |
+
+---
+
+## 11. Decisions and Rationale
+
+| Decision | Rationale |
+|----------|-----------|
+| Astro over Next.js | Content-first site; zero JS by default matches editorial aesthetic; faster builds; purpose-built content collections |
+| MDX over plain Markdown | Embedded React components (film tables, density charts) within essay prose |
+| Cloudflare Pages over Vercel | Free tier is more generous; D1 for submissions is co-located; Cloudflare MCP already in ORGANVM toolkit |
+| D1 over Neon for submissions | Simpler for this use case (single table, low write volume); co-located with Pages; no connection string management |
+| YAML for film database | Human-readable, diffable, no database server needed; films are reference data that changes at build time, not runtime |
+| Password gate over full auth | Chris is the only collaborator; a shared secret is sufficient; avoids auth infrastructure overhead |
+| Self-hosted serif font | Editorial aesthetic requires consistent typography across platforms; system serif stacks vary too much |
+| Tailwind for utility CSS | Rapid styling iteration; consistent spacing/color tokens; complements Astro's component model |
+| Satori over @vercel/og | Satori is the underlying library; @vercel/og is a Vercel-specific wrapper inappropriate for Cloudflare deployment |
+| SSR hybrid mode | Most pages are static (SSG) for performance; API routes and collaborator page use SSR via Cloudflare Workers |
+| Manual submission approval | Approved submissions are flagged in D1 and manually incorporated into films.yaml during content updates; no automatic git-commit pipeline, avoiding GitHub API token complexity |
+
+---
+
+## 12. Success Criteria
+
+- All 12 public routes + 1 authenticated route + 404 render correctly with real content
+- All 10 objects (4 V1 + 6 V2) have object pages with filmography data
+- All 10 episodes (4 V1 + 6 V2) have episode pages with YouTube embeds
+- All 6 V2 research briefs are published as essays with citations
+- Submission form writes to D1 and submissions appear in collaborator dashboard
+- Collaborator dashboard reads/updates submissions via API endpoints
+- Pipeline page shows current production status from `pipeline-status.yaml`
+- Research page presents the five mechanisms and dissertation overview for a general audience
+- About page presents the manifesto, team, and links
+- RSS feed serves essay content
+- Sitemap generates correctly
+- OG images pre-render for all episodes, essays, and objects
+- Lighthouse performance score > 95 on editorial pages
+- Lighthouse accessibility score > 95
+- All React islands are keyboard-navigable with visible focus indicators
+- Site builds and deploys to Cloudflare Pages from `git push`
+- Build-time category validation passes (all episode categories match parent object definitions)
+- Template can be forked and rebranded by changing only `site.config.ts`, `theme.css`, `src/content/`, `src/data/`, and `public/`

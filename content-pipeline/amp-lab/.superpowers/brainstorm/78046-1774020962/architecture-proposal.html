@@ -1,0 +1,307 @@
+<h2>Object Lessons — Full Site Architecture</h2>
+<p class="subtitle">Two approaches. Click your preference, then review the full design below.</p>
+
+<div class="options">
+  <div class="option" data-choice="nextjs" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Next.js + MDX</h3>
+      <p><strong>Ecosystem consistent.</strong> Matches stakeholder-portal, uses App Router + server components. React where you need interactivity (submission form, pipeline visualization, collaborator view). Heavier runtime but reuses ORGANVM's existing stack. Deploys to Vercel or Cloudflare Pages.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Strengths</h4><ul>
+          <li>Same stack as stakeholder-portal — shared knowledge</li>
+          <li>React components for interactive elements (pipeline viz, film tables, submission form)</li>
+          <li>API routes for form submission backend</li>
+          <li>Strong TypeScript support</li>
+          <li>ISR (Incremental Static Regeneration) for dynamic + static hybrid</li>
+        </ul></div>
+        <div class="cons"><h4>Trade-offs</h4><ul>
+          <li>Ships more JS to the browser than a content site needs</li>
+          <li>MDX setup more complex than Astro's content collections</li>
+          <li>Heavier build toolchain</li>
+        </ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="astro" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Astro + MDX (Recommended)</h3>
+      <p><strong>Purpose-built for content.</strong> Ships zero JS by default — only hydrates interactive islands (form, pipeline viz). Content collections with type-safe frontmatter. Fastest possible load for an editorial site. Uses React components only where needed via islands architecture.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Strengths</h4><ul>
+          <li>Zero JS by default — editorial pages are pure HTML + CSS</li>
+          <li>Content Collections: type-safe schemas for episodes, essays, objects, films</li>
+          <li>Islands architecture: React/Svelte only for interactive elements</li>
+          <li>Built-in RSS, sitemap, SEO support</li>
+          <li>Fastest editorial site possible — perfect for Sight & Sound aesthetic</li>
+          <li>Still uses React components where interactivity is needed</li>
+        </ul></div>
+        <div class="cons"><h4>Trade-offs</h4><ul>
+          <li>Different framework from stakeholder-portal</li>
+          <li>Team learning curve (though Astro is simpler than Next.js)</li>
+          <li>API routes less mature than Next.js (use Cloudflare Functions or external)</li>
+        </ul></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 48px; border-top: 1px solid #ddd; padding-top: 32px;">
+  <h2>The Full Design (applies to either framework)</h2>
+</div>
+
+<div class="section">
+  <h3>Site Map — 12 Routes</h3>
+  <div class="mockup">
+    <div class="mockup-header">objectlessons.film</div>
+    <div class="mockup-body" style="font-family: monospace; font-size: 13px; line-height: 2; color: #444; padding: 24px;">
+      <div><strong style="color: #111;">/</strong> &mdash; Home: manifesto hook, latest episode embed, latest essay, featured object grid</div>
+      <div><strong style="color: #111;">/episodes</strong> &mdash; All episodes: grid with thumbnails, video embeds, companion essay links</div>
+      <div><strong style="color: #111;">/episodes/[slug]</strong> &mdash; Single episode: video embed, companion essay, filmography, symbolic categories, related</div>
+      <div><strong style="color: #111;">/essays</strong> &mdash; Essay archive: chronological + filterable by object</div>
+      <div><strong style="color: #111;">/essays/[slug]</strong> &mdash; Single essay: full text, citations, footnotes, related episodes</div>
+      <div><strong style="color: #111;">/objects</strong> &mdash; The Object Catalog: every object tracked, status badges (published / in-production / researching / candidate)</div>
+      <div><strong style="color: #111;">/objects/[slug]</strong> &mdash; Single object: all films, symbolic categories, density connections, episodes, essays, research status</div>
+      <div><strong style="color: #111;">/research</strong> &mdash; Academic layer: dissertation overview, theory manifesto, methodology, five mechanisms explained</div>
+      <div><strong style="color: #111;">/pipeline</strong> &mdash; What we're building: production timeline, upcoming episodes, research queue, content calendar</div>
+      <div><strong style="color: #111;">/submit</strong> &mdash; Viewer submissions: suggest objects, flag films with objects, submit clips with timestamps</div>
+      <div><strong style="color: #111;">/about</strong> &mdash; Who we are, the manifesto, links to YouTube/Patreon/socials, contact</div>
+      <div><strong style="color: #111;">/collaborator</strong> &mdash; Chris's view (auth-gated): production status, film lists, editorial calendar, narration queue</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Content Model — 4 Collections</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+    <div class="mockup">
+      <div class="mockup-header">Episodes</div>
+      <div class="mockup-body" style="font-size: 13px; line-height: 1.8; padding: 16px;">
+        <code>title</code>: string<br>
+        <code>object</code>: reference → Objects<br>
+        <code>date</code>: date<br>
+        <code>youtube_id</code>: string<br>
+        <code>status</code>: published | in-production | scripted<br>
+        <code>version</code>: v1 | v2<br>
+        <code>films</code>: reference[] → Films<br>
+        <code>symbolic_categories</code>: string[]<br>
+        <code>companion_essay</code>: reference → Essays<br>
+        <code>duration</code>: string<br>
+        <code>narration_outline</code>: mdx (full script)<br>
+      </div>
+    </div>
+    <div class="mockup">
+      <div class="mockup-header">Essays</div>
+      <div class="mockup-body" style="font-size: 13px; line-height: 1.8; padding: 16px;">
+        <code>title</code>: string<br>
+        <code>object</code>: reference → Objects<br>
+        <code>date</code>: date<br>
+        <code>type</code>: companion | standalone | research-note<br>
+        <code>related_episodes</code>: reference[] → Episodes<br>
+        <code>citations</code>: citation[]<br>
+        <code>body</code>: mdx<br>
+        <code>excerpt</code>: string<br>
+      </div>
+    </div>
+    <div class="mockup">
+      <div class="mockup-header">Objects</div>
+      <div class="mockup-body" style="font-size: 13px; line-height: 1.8; padding: 16px;">
+        <code>name</code>: string<br>
+        <code>slug</code>: string<br>
+        <code>status</code>: published | in-production | researching | candidate<br>
+        <code>film_count</code>: number<br>
+        <code>symbolic_categories</code>: category[]<br>
+        <code>priority_score</code>: 1-5<br>
+        <code>episodes</code>: reference[] → Episodes<br>
+        <code>essays</code>: reference[] → Essays<br>
+        <code>co_occurrences</code>: { object, count }[]<br>
+        <code>description</code>: mdx (the object's "biography")<br>
+      </div>
+    </div>
+    <div class="mockup">
+      <div class="mockup-header">Films</div>
+      <div class="mockup-body" style="font-size: 13px; line-height: 1.8; padding: 16px;">
+        <code>title</code>: string<br>
+        <code>year</code>: number<br>
+        <code>director</code>: string<br>
+        <code>objects</code>: reference[] → Objects<br>
+        <code>scenes</code>: { object, description, symbolic_category, tier }[]<br>
+        <code>density_score</code>: number (objects present / total tracked)<br>
+        <code>letterboxd_url</code>: string<br>
+        <code>imdb_url</code>: string<br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Data Architecture</h3>
+  <div class="mockup">
+    <div class="mockup-header">Content Sources → Site</div>
+    <div class="mockup-body" style="padding: 24px; font-size: 13px; line-height: 1.6;">
+      <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 16px; align-items: start;">
+        <div>
+          <div style="font-weight: 700; margin-bottom: 12px; color: #111;">Sources (already exist)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">research--milk-in-cinema.md (41K)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">research--mirrors-in-cinema.md (60K)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">research--cigarettes-in-cinema.md (66K)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">research--clocks-in-cinema.md (44K)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">research--doors-in-cinema.md (66K)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">research--guns-in-cinema.md (77K)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">6 narration outlines (224K total)</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">cross-object-density-report.md</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">object-candidates.md</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">content-calendar.md</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">manifesto.md</div>
+          <div style="background: #f5f3f0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">theory/object-attention-in-art.md (156K)</div>
+          <div style="background: #e8f0e8; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">Chris's Google Drive film lists</div>
+          <div style="background: #e8f0e8; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">YouTube API (existing videos)</div>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; padding-top: 100px;">
+          <div style="font-size: 24px; color: #999;">→</div>
+          <div style="font-size: 10px; color: #999; text-transform: uppercase; letter-spacing: 1px;">build</div>
+          <div style="font-size: 24px; color: #999;">→</div>
+        </div>
+        <div>
+          <div style="font-weight: 700; margin-bottom: 12px; color: #111;">Site Collections</div>
+          <div style="background: #111; color: #e8e0d0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">content/episodes/*.mdx</div>
+          <div style="background: #111; color: #e8e0d0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">content/essays/*.mdx</div>
+          <div style="background: #111; color: #e8e0d0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">content/objects/*.mdx</div>
+          <div style="background: #111; color: #e8e0d0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">data/films.yaml</div>
+          <div style="background: #111; color: #e8e0d0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">data/submissions.json</div>
+          <div style="background: #111; color: #e8e0d0; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">data/pipeline-status.yaml</div>
+          <div style="font-weight: 700; margin-top: 20px; margin-bottom: 12px; color: #111;">Interactive Islands</div>
+          <div style="background: #2a5a2a; color: #cde8cd; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">SubmissionForm (React)</div>
+          <div style="background: #2a5a2a; color: #cde8cd; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">PipelineTimeline (React)</div>
+          <div style="background: #2a5a2a; color: #cde8cd; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">FilmographyTable (React — sortable, filterable)</div>
+          <div style="background: #2a5a2a; color: #cde8cd; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">ObjectDensityGraph (React — co-occurrence viz)</div>
+          <div style="background: #2a5a2a; color: #cde8cd; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px;">CollaboratorDashboard (React — auth-gated)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Submission System</h3>
+  <div class="mockup">
+    <div class="mockup-header">/submit — Viewer Contributions</div>
+    <div class="mockup-body" style="padding: 24px; font-size: 13px; line-height: 1.8;">
+      <div style="margin-bottom: 16px;"><strong>Three submission types:</strong></div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+        <div style="background: #f9f7f4; padding: 16px; border-radius: 4px;">
+          <div style="font-weight: 700; margin-bottom: 8px;">🎯 Suggest an Object</div>
+          <div style="color: #666;">"You should cover <strong>umbrellas</strong> — they appear in Singin' in the Rain, Oldboy, Cherbourg..."</div>
+          <div style="margin-top: 8px; font-size: 11px; color: #999;">Fields: object name, why it matters, 3+ film examples</div>
+        </div>
+        <div style="background: #f9f7f4; padding: 16px; border-radius: 4px;">
+          <div style="font-weight: 700; margin-bottom: 8px;">🎬 Flag a Film</div>
+          <div style="color: #666;">"In <strong>Stalker</strong> (1979), there's a glass of milk on the table in the final scene..."</div>
+          <div style="margin-top: 8px; font-size: 11px; color: #999;">Fields: film, year, object, scene description, timestamp if known</div>
+        </div>
+        <div style="background: #f9f7f4; padding: 16px; border-radius: 4px;">
+          <div style="font-weight: 700; margin-bottom: 8px;">📎 Submit a Clip</div>
+          <div style="color: #666;">"Here's a timestamped YouTube link to the mirror scene in <strong>Black Swan</strong>..."</div>
+          <div style="margin-top: 8px; font-size: 11px; color: #999;">Fields: film, object, URL, timestamp, context note</div>
+        </div>
+      </div>
+      <div style="margin-top: 16px; padding: 12px; background: #eee; border-radius: 4px; font-size: 12px;">
+        <strong>Backend:</strong> Submissions → Cloudflare D1 (SQLite) or Neon Postgres. Reviewed in /collaborator dashboard. Approved submissions feed into the film database and credit the contributor.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Collaborator View (/collaborator)</h3>
+  <div class="mockup">
+    <div class="mockup-header">Chris's Dashboard — password-protected</div>
+    <div class="mockup-body" style="padding: 24px; font-size: 13px; line-height: 1.8;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <div>
+          <div style="font-weight: 700; margin-bottom: 8px;">Production Status</div>
+          <div style="background: #f0f8f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">✅ Milk — narration outline complete</div>
+          <div style="background: #f0f8f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">✅ Mirrors — narration outline complete</div>
+          <div style="background: #fff8e0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">🔶 Cigarettes — narration outline complete, needs Chris review</div>
+          <div style="background: #fff8e0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">🔶 Clocks — narration outline complete, needs voice recording</div>
+          <div style="background: #f0f0f8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">📝 Doors — research complete, outline in progress</div>
+          <div style="background: #f0f0f8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">📝 Guns — research complete, outline in progress</div>
+        </div>
+        <div>
+          <div style="font-weight: 700; margin-bottom: 8px;">Content Calendar</div>
+          <div style="font-size: 12px; color: #666; margin-bottom: 8px;">Pulled from content-calendar.md</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Week 2: Episode 1 release (Milk)</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Week 4: Episode 2 release (Mirrors)</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Week 6: Episode 3 release (Cigarettes)</div>
+          <div style="font-weight: 700; margin-top: 16px; margin-bottom: 8px;">Viewer Submissions (pending review)</div>
+          <div style="background: #faf0f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">3 new object suggestions</div>
+          <div style="background: #faf0f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">7 film sightings flagged</div>
+          <div style="background: #faf0f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;">1 clip submission</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Replicable Template Architecture</h3>
+  <div class="mockup">
+    <div class="mockup-header">The Pattern — Fork for Future Research Units</div>
+    <div class="mockup-body" style="padding: 24px; font-size: 13px; line-height: 1.8;">
+      <div style="margin-bottom: 16px;">The site is structured so a future research unit (e.g., "Gesture Lessons: Recurring Gestures in Theatre" or "Sound Objects: Recurring Sounds in Music") can fork the repo and swap in:</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <div>
+          <div style="font-weight: 700; margin-bottom: 8px;">What Changes Per Unit</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;"><code>site.config.ts</code> — name, tagline, domain, social links</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;"><code>theme.css</code> — colors, typography adjustments</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;"><code>content/</code> — all content collections (episodes, essays, objects, films)</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;"><code>data/</code> — film/work databases, pipeline status</div>
+          <div style="background: #f5f3f0; padding: 8px; border-radius: 4px; margin-bottom: 4px;"><code>public/</code> — images, favicons, OG assets</div>
+        </div>
+        <div>
+          <div style="font-weight: 700; margin-bottom: 8px;">What Stays the Same</div>
+          <div style="background: #e8f0e8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Page layouts and components</div>
+          <div style="background: #e8f0e8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Content collection schemas</div>
+          <div style="background: #e8f0e8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Submission system</div>
+          <div style="background: #e8f0e8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Collaborator dashboard</div>
+          <div style="background: #e8f0e8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Pipeline visualization</div>
+          <div style="background: #e8f0e8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">Editorial design system (typography, spacing, components)</div>
+          <div style="background: #e8f0e8; padding: 8px; border-radius: 4px; margin-bottom: 4px;">SEO infrastructure (sitemap, RSS, structured data, OG generation)</div>
+        </div>
+      </div>
+      <div style="margin-top: 16px; padding: 12px; background: #111; color: #ccc; border-radius: 4px; font-family: monospace; font-size: 12px;">
+        # Fork for a new research unit<br>
+        gh repo create omni-dromenon-machina/gesture-lessons --template omni-dromenon-machina/object-lessons<br>
+        # Edit site.config.ts, swap content/, deploy
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Hosting & Infrastructure</h3>
+  <div class="mockup">
+    <div class="mockup-header">Deployment Stack</div>
+    <div class="mockup-body" style="padding: 24px; font-size: 13px; line-height: 1.8;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+        <div style="background: #f5f3f0; padding: 16px; border-radius: 4px; text-align: center;">
+          <div style="font-weight: 700; margin-bottom: 8px;">Static Site</div>
+          <div>Cloudflare Pages</div>
+          <div style="font-size: 11px; color: #999; margin-top: 4px;">Free tier, global CDN, fast builds</div>
+        </div>
+        <div style="background: #f5f3f0; padding: 16px; border-radius: 4px; text-align: center;">
+          <div style="font-weight: 700; margin-bottom: 8px;">Submissions DB</div>
+          <div>Cloudflare D1 or Neon</div>
+          <div style="font-size: 11px; color: #999; margin-top: 4px;">SQLite at edge or Postgres</div>
+        </div>
+        <div style="background: #f5f3f0; padding: 16px; border-radius: 4px; text-align: center;">
+          <div style="font-weight: 700; margin-bottom: 8px;">Domain</div>
+          <div>objectlessons.film</div>
+          <div style="font-size: 11px; color: #999; margin-top: 4px;">.film TLD — perfect for this project</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

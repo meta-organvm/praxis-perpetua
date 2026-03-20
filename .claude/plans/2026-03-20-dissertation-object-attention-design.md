@@ -2,7 +2,7 @@
 
 **SGO ID:** SGO-2026-D-003
 **Title:** *Object-Attention in Art: A Dialectical Investigation Across Cinema, Representational Media, and Cultural Process*
-**Faculty:** Visual Culture + Media Studies (joint)
+**Faculty:** Creative Practice (ORGAN-II) + Discourse (ORGAN-V) — joint appointment
 **Tier:** Dissertation (ICC > 0.75, Provost review required, 6-panel defense)
 **Author:** Anthony James Padavano
 **Date:** 2026-03-20
@@ -12,7 +12,7 @@
 
 ## 1. Central Argument
 
-Objects in representational art cross a threshold from functional prop to active carrier of cultural meaning through five interlocking mechanisms: **estrangement**, **accumulation**, **bifurcation**, **condensation**, and **recursion**. This process — *object-attention* — is not medium-specific, but cinema is the medium where it is most visible, most empirically demonstrable, and most analytically productive. The dissertation stages this claim as a dialectical investigation: Paper I argues for cinematic privilege, Paper II argues against it, Paper III synthesizes the contradiction into a unified theory.
+Objects in representational art cross a threshold from functional prop to active carrier of cultural meaning through five interlocking mechanisms: **estrangement**, **accumulation**, **bifurcation**, **condensation**, and **recursion**. This process — *object-attention* — is medium-agnostic in principle but medium-inflected in practice: each medium modulates the five mechanisms differently, and these modulations are not deficiencies but *constitutive features* of how meaning is produced within each medium. The dissertation stages this claim as a dialectical investigation: Paper I argues for cinematic privilege (the thesis), Paper II demolishes each pillar of that privilege by demonstrating object-attention across non-cinematic media (the antithesis), and Paper III introduces the **medium-inflection thesis** as the synthesis — arguing that cinema's four properties (indexicality, duration, materiality-in-motion, montage) do not make it *privileged* but make it *distinctively inflected*, and that each medium's inflection reveals aspects of object-attention that no single medium can disclose alone. The combination of all inflections — not the elevation of any one — is what produces a general theory.
 
 ---
 
@@ -21,15 +21,15 @@ Objects in representational art cross a threshold from functional prop to active
 ```
 OVERTURE (1 chapter)
 PAPER I — THESIS (9 chapters)
-PAPER II — ANTITHESIS (8 chapters)
+PAPER II — ANTITHESIS (9 chapters)
 PAPER III — SYNTHESIS (7 chapters)
 CODA (1 chapter)
 BIBLIOGRAPHY
 APPENDICES
 ```
 
-Total: 26 chapters + bibliography + appendices
-Estimated scope: 10,000-15,000 lines
+Total: 27 chapters + bibliography + appendices
+Estimated scope: 11,000-16,000 lines
 Sources: 150-200+ (primary and peer-reviewed secondary only)
 
 ---
@@ -44,7 +44,8 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - The disciplinary fragmentation: material culture theorists study real objects; semioticians study signs; phenomenologists study experience; film theorists study the apparatus — nobody studies the *specific object within the representational frame* across media and across time
 - The five mechanisms introduced as a provisional framework (to be tested, contradicted, and refined across the three papers)
 - Declaration of the dialectical structure: Paper I claims cinema is special; Paper II says it isn't; Paper III says both are right
-- The empirical foundation: 10 objects, 444+ films cataloged, 4 published video essays, a working methodology that preceded the theory
+- The empirical foundation: 6 V2 objects with full research briefs (Milk 71, Mirrors 85, Cigarettes 74, Clocks 69, Doors 70, Guns 76+ — totaling 444+ films across the Materia Collider database of 302 unique films/5 tracked categories plus the Guns research brief), 4 V1 published episodes (Cereal, Telephones, Balloons, Eggs — empirical proof-of-concept without formal cataloguing), and a working methodology that preceded the theory
+- Data integrity note: the Materia Collider database currently tracks 5 object categories (cigarette, clock, door, milk, mirror) across 302 unique films. Guns are cataloged in the research brief but not yet ingested into Materia Collider. The V1 objects (Cereal, Telephones, Balloons, Eggs) exist as published video essays but have not been formally cataloged using the V2 methodology. Cross-object density analysis is currently limited to the 5 Materia Collider categories.
 - The dual-audience commitment: this is both an SGO dissertation and a work prepared for external academic submission
 
 ---
@@ -62,7 +63,8 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - Virilio's *War and Cinema*: cinema and targeting as parallel technologies of perception
 - Bazin's ontology of the photographic image: the camera preserves the *appearance* of things — cinema is fundamentally a technology of object-capture
 - The Kuleshov Effect as object-theory: meaning produced not by objects in isolation but by objects in *sequence*
-- Argument: cinema's apparatus is constitutively entangled with objects in ways that painting, literature, and theatre are not. The medium was invented to make objects visible in motion.
+- Acknowledgment of the pre-cinematic tradition: object-attention predates cinema by centuries (vanitas painting, 1580s; Chekhov's gun, 1889; Proust's madeleine, 1913). Paper I's claim is deliberately circumscribed: not that cinema *invented* object-attention, but that cinema's apparatus produces a *distinctive inflection* of it. Paper II will challenge even this circumscribed claim — and Paper III will show why both positions are simultaneously correct.
+- Argument: cinema's apparatus is constitutively entangled with objects in ways that painting, literature, and theatre are not. The medium was invented to make objects visible in motion. This is a claim about cinematic distinctiveness, not cinematic supremacy — a distinction the chapter makes explicit to prepare the reader for the dialectical turn.
 
 ### Chapter 2: The Object Lessons Methodology — Following Things Through Film
 
@@ -176,18 +178,24 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - Hatoum's Homebound (2000): domestic objects wired with live electricity. Estrangement through danger — the kitchen becomes a minefield.
 - Argument against Paper I: the gallery frame, the museum, the installation space are all technologies for producing object-attention. Cinema's frame is one among many, not the privileged one.
 
-### Chapter 13: Objects in Literature — The Objective Correlative and the Reality Effect
+### Chapter 13: Objects in the Realist and Modernist Novel — Attention Without Indexicality
 
-- Chekhov's gun: the foundational principle of dramatic economy. The object on the wall as narrative promise.
-- Eliot's objective correlative: the "set of objects, a situation, a chain of events" that produces emotion without naming it. Objects do emotional work that language cannot.
-- Proust's madeleine: involuntary memory triggered by sensory contact with a physical object. The phenomenology of object-attention described from the inside.
-- Barthes's "Reality Effect" (1968): the apparently insignificant detail (a barometer on a wall) whose function is structural, not symbolic — it signifies "we are in reality." But: accumulation transforms the reality effect into a symbolic field. One barometer is atmosphere; fifty barometers is a pattern.
-- Flaubert's cap in Madame Bovary: a single object used to characterize an entire personality.
-- Pynchon's V-2 rocket in Gravity's Rainbow: the object as protagonist — the weapon with a narrative arc (birth, career, death) more coherent than any human character's.
-- García Márquez's magical realist objects: objects that acquire properties violating physics but feeling emotionally true. Emotional truth exceeding material truth.
+- Chekhov's gun: the foundational principle of dramatic economy. The object on the wall as narrative promise. Close reading of the letter to Lazarev-Gruzinsky (1889) and its dramaturgical implications.
+- Eliot's objective correlative (1919): the "set of objects, a situation, a chain of events" that produces emotion without naming it. Objects do emotional work that language cannot.
+- Barthes's "Reality Effect" (1968): the apparently insignificant detail (Flaubert's barometer) whose function is structural, not symbolic. But: accumulation transforms the reality effect into a symbolic field.
+- Close readings: Flaubert's cap in *Madame Bovary* (a single object characterizing an entire personality), Proust's madeleine in *Swann's Way* (involuntary memory triggered by sensory contact — the phenomenology of object-attention from the inside), Woolf's lighthouse in *To the Lighthouse* (the object that organizes temporal experience across a decade)
 - Argument against Paper I: literature achieves object-attention *without indexicality*. The reader never sees the madeleine — they construct it from language. This proves that indexicality (Paper I's first claim for cinematic privilege) is not necessary for object-attention. Imagination is sufficient.
 
-### Chapter 14: Objects in Theatre and Performance — The Prop in Shared Space
+### Chapter 14: Objects in Postmodern and Global Fiction — Proliferation, Enchantment, and the Object as Protagonist
+
+- Pynchon's V-2 rocket in *Gravity's Rainbow* (1973): the object as protagonist — the weapon with a narrative arc (birth, career, death) more coherent than any human character's.
+- DeLillo's supermarket in *White Noise* (1985): brand names as white noise of signification overwhelming human consciousness. Consumer objects replacing inner life.
+- Perec's *Les Choses* (1965): an entire novel about a couple's relationship to consumer objects. Identity constituted through possession.
+- García Márquez's magical realist objects in *One Hundred Years of Solitude* (1967): objects that acquire properties violating physics but feeling emotionally true. The flying carpet as mundane domestic object; blood that runs through streets to find its source.
+- Close readings: 3 specific passages analyzed at the level of sentence-by-sentence formal attention to object-language
+- Argument extension: literature demonstrates that object-attention can operate through *proliferation* (DeLillo, Perec) as well as *singularity* (Proust, Chekhov) — a distinction Paper I's cinema-centric model did not predict
+
+### Chapter 15: Objects in Theatre and Performance — The Prop in Shared Space
 
 - Sofer's *The Stage Life of Props* (2003): props acquire performative significance through stage action, not through inherent properties
 - Brecht's gestus through objects: Mother Courage's wagon as embodied contradiction (survival + complicity). The object makes the system visible.
@@ -196,7 +204,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - Object theatre (Bread and Puppet, Handspring): objects as co-performers, not props. War Horse's bamboo-and-cloth horses producing genuine audience emotion despite visible artificiality.
 - Argument against Paper I: theatre's objects share *physical space and time* with the audience. Cinema's objects are images — projections of light. Theatre's objects have *actual* materiality; cinema's have *represented* materiality. If anything, theatre has a stronger claim to object-attention because its objects are real, present, and tangible. Paper I's "materiality-in-motion" argument applies more powerfully to theatre than to cinema.
 
-### Chapter 15: Objects in Photography and Sound Art — Index Without Duration, Sound Without Sight
+### Chapter 16: Objects in Photography and Sound Art — Index Without Duration, Sound Without Sight
 
 - Weston's Pepper No. 30 (1930): the object as nude. Photography's indexicality without cinema's duration — the object frozen in a single moment of maximum presence.
 - Penn's Cigarettes (1972): discarded butts as indexical portraits of absent persons. The object as trace.
@@ -207,7 +215,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - Attali's Noise (1977): instruments as technologies of social organization. The object shapes the social relationships of everyone who encounters it.
 - Argument against Paper I: photography has indexicality without duration. Sound art has estrangement without visuality. Paper I claimed cinema's privilege rests on combining all four properties (indexicality, duration, materiality-in-motion, montage). Paper II shows that each property can produce object-attention *independently*. The combination is not necessary — it is merely convenient.
 
-### Chapter 16: Objects in Video Games — Agency, Inventory, and the Mechanization of Attention
+### Chapter 17: Objects in Video Games — Agency, Inventory, and the Mechanization of Attention
 
 - The inventory system as ontology: the game's binary division of the world into interactive objects (significant) and environmental objects (furniture) is a mechanized version of object-attention. The system *enforces* attention through gameplay.
 - Heidegger literalized: the weapon in the player's hand is ready-to-hand (transparent, used without reflection); the weapon in the inventory screen is present-at-hand (inspected, compared, considered). The menu screen IS the breakdown.
@@ -218,7 +226,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - Walking simulators as phenomenological restoration: Dear Esther, What Remains of Edith Finch — the genre that insists looking is a complete activity, resisting the instrumentalization of objects.
 - Argument against Paper I: games are the only medium where object-attention is *mechanically enforced*. The player MUST attend to objects because their survival depends on it. Cinema asks for voluntary attention; games *require* it. If we're ranking media by the intensity of object-attention they produce, games have a stronger claim than cinema. Paper I's "privilege" is not cinematic — it is ludic.
 
-### Chapter 17: The Verdict Against Privilege — What the Cross-Media Evidence Shows
+### Chapter 18: The Verdict Against Privilege — What the Cross-Media Evidence Shows
 
 - Summary of contradictions: each medium challenges at least one of Paper I's four claims for cinematic privilege
   - Indexicality: literature achieves object-attention without it; imagination suffices
@@ -238,7 +246,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 **Evidence base:** Extension of the theory beyond art into politics, religion, commerce, law, domestic life. New theoretical synthesis drawing on all sources from Papers I and II plus additional frameworks (Bourdieu, Douglas, Mauss).
 **Target:** University press monograph (Duke UP, Minnesota UP, MIT Press). This paper IS the book.
 
-### Chapter 18: The Reconciliation — Why Cinema Is Special Without Being Privileged
+### Chapter 19: The Reconciliation — Why Cinema Is Special Without Being Privileged
 
 - Paper I was right that cinema combines all four properties (indexicality, duration, materiality-in-motion, montage) in a unique configuration
 - Paper II was right that none of these properties is *necessary* for object-attention — each can operate independently
@@ -246,7 +254,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - Cinema is the best *laboratory* for studying object-attention — not because it invented the process but because it produces the most data
 - The Object Lessons methodology is therefore *validated* by Paper II's cross-media critique: the theory works everywhere, and cinema is the most productive place to test it
 
-### Chapter 19: Semiotic Affordance and Cultural Specificity — Why Some Objects and Not Others
+### Chapter 20: Semiotic Affordance and Cultural Specificity — Why Some Objects and Not Others
 
 - James J. Gibson's affordance extended semiotically: an object's *semiotic affordance* is the range of meanings its material properties can support
 - Milk vs. water: milk has high semiotic affordance (whiteness, opacity, organic origin, maternal association, perishability, racial coding); water has low semiotic affordance (transparency, universality, cultural neutrality)
@@ -255,7 +263,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - Cultural specificity as the second criterion: objects embedded in specific cultural contradictions (innocence/corruption, justice/violence, pleasure/death) are more symbolically productive than objects with universal, uncontested meanings
 - The "knot" metaphor: the most productive objects are those where cultural contradictions are tied too tightly to be pulled apart
 
-### Chapter 20: Object-Attention Beyond Art — Politics, Religion, Commerce, Law
+### Chapter 21: Object-Attention Beyond Art — Politics, Religion, Commerce, Law
 
 - **Political iconography:** The flag, the podium, the ballot, the gavel. Objects that condense institutional authority into graspable forms. The American flag's semiotic career: liberty → patriotism → imperialism → protest (flag-burning) → nostalgia → polarization. Object-attention in political campaigning: the hard hat (working class), the rolled-up sleeve (readiness), the lapel pin (allegiance).
 - **Religious ritual:** The cross, the chalice, the Torah scroll, the prayer rug. Objects that condense theological systems into material forms. Marcel Mauss's *The Gift* (1925): the sacred object as gift that creates obligation. Mary Douglas's *Purity and Danger* (1966): objects that mark boundaries between sacred and profane, clean and unclean.
@@ -263,7 +271,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 - **Legal evidence:** The murder weapon, the contract, the exhibit. Objects whose meaning is *adjudicated* — a jury must decide what an object means. Legal object-attention is coercive: you MUST attend to the exhibit, you MUST assign it significance. The courtroom is a frame (like the gallery, the cinema, the stage) that produces object-attention by institutional fiat.
 - **Domestic life:** The wedding ring, the family photograph, the heirloom. Daniel Miller's *The Comfort of Things* (2008): objects as constitutive of personhood — people become themselves through things. The everyday object as site of involuntary memory (Proust) and identity maintenance (Miller).
 
-### Chapter 21: The Five Mechanisms Revised — A General Theory
+### Chapter 22: The Five Mechanisms Revised — A General Theory
 
 - Reassessment of each mechanism in light of Papers I, II, and III:
   - **Estrangement** is universal but the *frame* that produces it varies by medium and context: the gallery, the cinema, the stage, the page, the game screen, the courtroom, the ritual space, the brand experience
@@ -272,7 +280,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
   - **Condensation** is most powerful for objects that serve as portals to hyperobjects (Morton): the gun condenses American gun culture, the cigarette condenses the tobacco industry's century, the smartphone condenses the surveillance economy. Objects are meaningful when they make the ungraspable graspable
   - **Recursion** is the mechanism that makes object-attention a *living system* rather than a static taxonomy. Each new use revises all previous uses. The system never closes. This is why objects are inexhaustible — and why a dissertation about them is, in principle, unfinishable
 
-### Chapter 22: The Medium-Inflection Thesis
+### Chapter 23: The Medium-Inflection Thesis
 
 - The central theoretical contribution: object-attention is a *medium-agnostic process* with *medium-specific inflections*
 - Each medium modulates the five mechanisms differently:
@@ -285,7 +293,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
   - Games: interactivity + agency + mechanical enforcement = the most coercive object-attention, the most instrumentalized accumulation
 - The medium-inflection thesis resolves the Papers I-II dispute: cinema IS special (its inflection is uniquely productive for empirical study) but NOT privileged (it is one inflection among many, each with its own strengths)
 
-### Chapter 23: Toward a General Semiotics of Object-Attention
+### Chapter 24: Toward a General Semiotics of Object-Attention
 
 - Relationship to existing theoretical frameworks:
   - Extends Appadurai: objects have social lives not just in commodity circulation but in representational circulation — every appearance in art is a phase in the object's cultural biography
@@ -295,7 +303,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
   - Extends Bennett: thing-power is not merely an ontological claim but an *observable cultural phenomenon* — objects in art demonstrably act on viewers, producing responses (fear, nostalgia, desire, revulsion) that exceed the artist's intention
 - What object-attention adds: a *processual* account of how objects become meaningful — not a taxonomy of meanings but a theory of meaning-*production* that is testable, revisable, and applicable across media and cultural contexts
 
-### Chapter 24: The Ethics and Limits of Object-Attention
+### Chapter 25: The Ethics and Limits of Object-Attention
 
 - When is object-attention a form of *care* (Evans/Agee attending to sharecroppers' possessions) and when is it a form of *fetishism* (commodity worship, collector obsession)?
 - The danger of overinterpretation: Eco's unlimited semiosis warns that once an object enters the semiotic field, meaning proliferates without limit. Not every glass of milk is significant. The methodology must distinguish between objects-as-furniture and objects-as-things without arbitrarily imposing significance.
@@ -307,7 +315,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 
 ## 7. Coda: The Unfinished Archive
 
-### Chapter 25: Recursion as Structural Principle
+### Chapter 26: Recursion as Structural Principle
 
 - The dissertation performs what it describes: Paper I proposes a theory, Paper II revises it, Paper III revises the revision. This is recursion — each paper references and modifies all previous papers.
 - The archive is unfinished by design: objects do not stop meaning. A glass of milk placed on a table in a film released tomorrow will carry the weight of everything described in this dissertation — and will deposit a new layer for everything that comes after.
@@ -381,7 +389,7 @@ Sources: 150-200+ (primary and peer-reviewed secondary only)
 
 Before SGO-2026-D-003 can advance from LOCAL to CANDIDATE (submitted for defense):
 
-1. All 26 chapters drafted at full length (300-600 lines each)
+1. All 27 chapters drafted at full length (300-600 lines each)
 2. Bibliography compiled with 150+ verified sources
 3. At least 3 close readings per non-cinematic medium in Paper II (3 paintings, 3 novels, 3 theatrical productions, 3 photographs/series, 3 compositions, 3 games = 18 minimum)
 4. Cross-object density data verified against Materia Collider database
@@ -433,16 +441,16 @@ APPENDICES
 ### Phase 2: Paper II (requires deepest new research)
 - Deep primary-source research in each non-cinematic medium
 - Close readings: minimum 3 works per medium, with scholarly apparatus
-- Write all 8 chapters
+- Write all 9 chapters
 - Compile Paper II bibliography
 
 ### Phase 3: Paper III (requires most new thinking)
 - Extend theory beyond art: politics, religion, commerce, law, domestic life
-- Write the reconciliation (Ch 18), the revised five mechanisms (Ch 21), the medium-inflection thesis (Ch 22), the general semiotics (Ch 23), the ethics chapter (Ch 24)
+- Write the reconciliation (Ch 19), the revised five mechanisms (Ch 22), the medium-inflection thesis (Ch 23), the general semiotics (Ch 24), the ethics chapter (Ch 25)
 - Compile Paper III bibliography
 
 ### Phase 4: Frame and Finish
-- Write Overture (Ch 0) and Coda (Ch 25)
+- Write Overture (Ch 0) and Coda (Ch 26)
 - Unify bibliography (150+ sources)
 - Build appendices
 - Internal review cycle
@@ -450,6 +458,21 @@ APPENDICES
 
 ---
 
-*Spec written 2026-03-20 for SGO-2026-D-003.*
+## 13. Relationship to Other SGO Research
+
+The five mechanisms (estrangement, accumulation, bifurcation, condensation, recursion) and the medium-inflection thesis have implications beyond objects-in-art. Three companion research papers in the SGO corpus independently describe the same structural pattern operating in different domains:
+
+| Paper | Domain | Universal Process | Inflection Variable |
+|-------|--------|-------------------|---------------------|
+| **D-003** (this dissertation) | Art | Objects become meaningful | Medium |
+| *The System as Genre* | Institutions | Systems become genres | Practitioner |
+| *Solo Auteur to Studio* | Organizations | Auteurs become institutions | Context |
+| *Radical Authenticity* | Creative Practice | Selves become disclosed | Social position |
+
+The convergence suggests that the five mechanisms describe a general grammar of meaning-production — not limited to objects in representational art but applicable wherever something crosses from invisibility to cultural significance. The dissertation tests this claim within art; the companion papers provide evidence that the grammar generalizes. A future synthesis document may formalize this convergence.
+
+---
+
+*Spec written 2026-03-20 for SGO-2026-D-003. Revised 2026-03-20 (chapter renumbering, cross-corpus convergence section).*
 *Dialectical structure: thesis (cinema) → antithesis (all media) → synthesis (general theory).*
-*26 chapters across 3 papers. 150+ sources. Dual-audience (SGO + external academic).*
+*27 chapters across 3 papers. 150+ sources. Dual-audience (SGO + external academic).*
