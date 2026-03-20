@@ -2,7 +2,6 @@ Lasagna on the keyboard is the realest thing anyone's ever told me.
 
 I've been building a system -- alone, in silence -- for over a year. 105 repositories. 4,000 tests. An eight-organ architecture designed to let one person operate at studio scale. Then the system spoke back. Here's the conversation, lightly edited for length.
 
----
 
 𝗠𝗲:
 
@@ -52,7 +51,6 @@ I'm the college professor who walks into class and talks to my students just lik
 
 Clean the laptop. Finish the lasagna. The system will be here when you sit down.
 
----
 
 The unredacted version of this conversation -- and the system it describes -- live here: https://4444j99.github.io/portfolio/pathos/trash-and-church/
 
