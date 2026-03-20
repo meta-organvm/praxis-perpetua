@@ -1,0 +1,50 @@
+schema_version: "1.0"
+organ: II
+organ_name: Art
+repo: amp-lab-media
+org: omni-dromenon-machina
+
+metadata:
+  implementation_status: ACTIVE
+  tier: standard
+  promotion_status: LOCAL
+  last_validated: "2026-03-19"
+  generated: "2026-03-19"
+  sprint: "AMP-LAB-V2"
+
+# Production type: content pipeline (not a code repo)
+production:
+  type: media-channel
+  platform: youtube
+  handle: "@AmpLabMedia"
+  series: Object Lessons
+  format: narrated-hybrid
+  cadence: biweekly
+
+consumes:
+  - type: theory
+    source: organvm-i-theoria/my-knowledge-base
+    description: Film theory and cultural analysis inform object research
+  - type: reference
+    source: meta-organvm/organvm-corpvs-testamentvm
+    description: Registry and governance context
+  - type: tooling
+    source: organvm-iii-ergon/materia-collider
+    description: Automated film-scrubbing and clip extraction (future)
+
+produces:
+  - type: creative-artifact
+    description: Object Lesson video essays — recurring objects across cinema history
+    consumers:
+      - organvm-vii-kerygma/kerygma-profiles
+  - type: clip-database
+    description: Timestamped clips organized by object, film, director
+    consumers:
+      - organvm-iii-ergon/materia-collider
+
+subscriptions:
+  - event: content.published
+    action: Trigger kerygma distribution pipeline
+  - event: metrics.refresh
+    source: meta-organvm/organvm-engine
+    action: Update production velocity metrics
