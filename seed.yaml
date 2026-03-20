@@ -7,17 +7,58 @@ org: meta-organvm
 metadata:
   implementation_status: ACTIVE
   tier: standard
-  promotion_status: CANDIDATE
-  last_validated: "2026-03-06"
+  promotion_status: GRADUATED
+  last_validated: "2026-03-19"
   generated: "2026-03-06"
   sprint: "PRAXIS"
+  description: >-
+    Studium Generale ORGANVM (SGO) — Internal university, research engine,
+    process governance corpus, and publication house. Cross-organ intake
+    authority for commissioning, evaluating, and certifying original
+    contributions to knowledge via multi-model evaluative consensus (IRA).
+    Evolved from process governance corpus into the SGO on 2026-03-19.
+  tags:
+    - research-engine
+    - academic-governance
+    - process-governance
+    - publication-pipeline
+    - multi-model-evaluation
+    - cross-organ
+    - sgo
 
+# Cross-organ intake: any organ can commission research
 consumes:
   - type: reference
     source: meta-organvm/organvm-corpvs-testamentvm
     description: References registry and governance rules for audit context
+  - type: ira-evaluation-machinery
+    source: organvm-i-theoria/auto-revision-epistemic-engine
+    description: IRA panel, ICC computation, persona architecture for defenses
+  - type: symbolic-computing-framework
+    source: organvm-i-theoria/recursive-engine--generative-entity
+    description: Recursive 4-phase loops, organ subsystem patterns
+  - type: research-commissions
+    source: all-organs
+    description: Any organ may submit research commissions to the SGO
+
+produces:
+  - target: organvm-v-logos
+    type: publications
+    description: Defended works flow to Logos for distribution
+  - target: 4444j99/application-pipeline
+    type: portfolio-evidence
+    description: Certification records as portfolio/grant evidence
+  - target: external
+    type: arxiv-preprints
+    description: arXiv-formatted preprints for external validation
 
 subscriptions:
   - event: session.completed
     source: ALL
     action: Trigger session self-critique review
+  - event: governance.updated
+    from: organvm-iv-taxis
+    action: review-defense-protocol
+  - event: ira.calibration-complete
+    from: organvm-i-theoria/auto-revision-epistemic-engine
+    action: update-senate-config

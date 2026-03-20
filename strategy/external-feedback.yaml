@@ -1,0 +1,21 @@
+# External Validation Feedback Tracker
+# Records external academic responses that calibrate internal rubrics.
+
+description: >-
+  External responses — citations, peer review feedback, acceptance/rejection
+  from journals and conferences — flow back as calibration data. The external
+  academic world is the SGO's ultimate ground truth.
+
+feedback_entries: []
+# Template:
+# - work_id: SGO-2026-D-001
+#   channel: journal
+#   target: "Nature Computational Science"
+#   date_submitted: 2026-MM-DD
+#   date_response: 2026-MM-DD
+#   outcome: accepted | rejected | revise-resubmit
+#   reviewer_comments_summary: >-
+#     ...
+#   calibration_notes: >-
+#     Internal dimension X rated at Y; external reviewers found Z.
+#     Rubric adjustment: ...

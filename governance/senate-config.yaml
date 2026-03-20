@@ -1,0 +1,66 @@
+# SGO Faculty Senate Configuration
+# Panel composition rules for the Standing Senate and Guest Examiners.
+
+standing_senate:
+  description: >-
+    Present at every defense. Provides the evaluation baseline across all
+    faculties and tiers.
+  members:
+    - id: architect-opus
+      name: The Architect
+      model: claude-opus-4-6
+      evaluates:
+        - Structural rigor
+        - Theoretical coherence
+      persona_path: strategy/personas/architect-opus.yaml
+
+    - id: qa-sonnet
+      name: The QA Lead
+      model: claude-sonnet-4-6
+      evaluates:
+        - Methodological soundness
+        - Evidence quality
+      persona_path: strategy/personas/qa-sonnet.yaml
+
+    - id: pragmatist-haiku
+      name: The Operator
+      model: claude-haiku-4-5
+      evaluates:
+        - Practical applicability
+        - Accessibility
+      persona_path: strategy/personas/pragmatist-haiku.yaml
+
+    - id: auditor-gemini
+      name: The Auditor
+      model: gemini-flash
+      evaluates:
+        - Claim provenance
+        - Source quality
+      persona_path: strategy/personas/auditor-gemini.yaml
+
+convocation_rules:
+  paper:
+    standing_senate: all
+    guest_examiners: 0
+    total_raters: 4
+  thesis:
+    standing_senate: all
+    guest_examiners: 1
+    total_raters: 5
+    guest_selection: faculty-primary
+  dissertation:
+    standing_senate: all
+    guest_examiners: 2
+    total_raters: 6
+    guest_selection: faculty-primary-plus-adjacent
+    provost_review: required
+
+provost:
+  role: Human Operator (System 5)
+  responsibilities:
+    - Commission research
+    - Design rubrics
+    - Author personas
+    - Conduct epistemic audits
+    - Final accept/revise/reject when ICC below threshold
+  constraint: Does not grade. Governs the grading institution.

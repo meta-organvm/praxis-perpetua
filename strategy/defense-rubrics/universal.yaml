@@ -1,0 +1,104 @@
+# Universal Defense Rubric — All Faculties, All Tiers
+# These dimensions form the shared baseline for every defense.
+
+rubric_id: universal
+applies_to: all
+
+dimensions:
+  - name: Methodological Rigor
+    id: methodological-rigor
+    type: subjective
+    weight: 0.20
+    present_in: [paper, thesis, dissertation]
+    scale: 1-10
+    anchors:
+      1: No discernible methodology; claims unsupported by process
+      4: Methodology present but poorly justified or inconsistently applied
+      7: Sound methodology, well-justified, consistently applied
+      10: Exemplary methodological design; could serve as a reference
+
+  - name: Evidence Quality
+    id: evidence-quality
+    type: mixed
+    weight: 0.15
+    present_in: [paper, thesis, dissertation]
+    scale: 1-10
+    anchors:
+      1: No evidence provided; claims are purely speculative
+      4: Some evidence but gaps, weak sourcing, or insufficient scope
+      7: Strong evidence base with appropriate sourcing and scope
+      10: Comprehensive evidence with triangulation across multiple sources
+
+  - name: Writing Clarity
+    id: writing-clarity
+    type: subjective
+    weight: 0.10
+    present_in: [paper, thesis, dissertation]
+    scale: 1-10
+    anchors:
+      1: Incoherent; cannot follow the argument
+      4: Understandable but unclear structure, jargon-heavy, or verbose
+      7: Clear, well-structured, appropriate register for audience
+      10: Exceptional clarity; complex ideas made accessible without loss of precision
+
+  - name: Claim Provenance
+    id: claim-provenance
+    type: objective
+    weight: 0.10
+    present_in: [paper, thesis, dissertation]
+    scale: 1-10
+    anchors:
+      1: Claims made without attribution; sources fabricated or missing
+      4: Some claims sourced but significant gaps in provenance chain
+      7: All major claims properly attributed with verifiable sources
+      10: Complete provenance chain; every claim traceable to primary source
+
+  - name: Internal Consistency
+    id: internal-consistency
+    type: mixed
+    weight: 0.10
+    present_in: [paper, thesis, dissertation]
+    scale: 1-10
+    anchors:
+      1: Contradictions throughout; conclusions do not follow from premises
+      4: Some inconsistencies or logical gaps that weaken the argument
+      7: Internally consistent; conclusions follow from premises
+      10: Rigorous logical chain; no contradictions; self-reinforcing structure
+
+  # Tier-specific dimensions (Thesis and above)
+  - name: Literature Engagement
+    id: literature-engagement
+    type: subjective
+    weight: 0.10
+    present_in: [thesis, dissertation]
+    scale: 1-10
+    anchors:
+      1: No engagement with existing work; appears written in isolation
+      4: Superficial literature review; key works missing
+      7: Thorough engagement with relevant literature; positions work clearly
+      10: Comprehensive, critical engagement that advances the field's discourse
+
+  # Dissertation-only dimensions
+  - name: Theoretical Contribution
+    id: theoretical-contribution
+    type: subjective
+    weight: 0.15
+    present_in: [dissertation]
+    scale: 1-10
+    anchors:
+      1: No original contribution; restates known results
+      4: Incremental contribution; extends existing work modestly
+      7: Significant contribution; introduces new concepts or frameworks
+      10: Paradigm-level contribution; redefines the field's foundations
+
+  - name: Generalizability
+    id: generalizability
+    type: subjective
+    weight: 0.10
+    present_in: [dissertation]
+    scale: 1-10
+    anchors:
+      1: Findings apply only to the specific case studied
+      4: Some generalizability but significant constraints
+      7: Findings generalize to a meaningful class of systems/problems
+      10: Broadly generalizable with clear conditions for application

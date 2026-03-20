@@ -1,0 +1,102 @@
+# SGO Defense Protocol
+# Formal rules governing the evaluation and certification of academic work.
+
+protocol_version: "1.0"
+
+stages:
+  - name: submission
+    order: 1
+    description: >-
+      Work submitted to SGO archive with metadata: title, faculty, tier,
+      abstract, methodology, claimed contributions.
+    required_fields:
+      - work_id
+      - title
+      - faculty
+      - tier
+      - abstract
+      - methodology
+      - claimed_contributions
+
+  - name: evidence_assembly
+    order: 2
+    description: >-
+      Adapter collects evidence for each rubric dimension: the work's text,
+      citations, methodology section, data/proofs, claimed contributions.
+
+  - name: panel_convocation
+    order: 3
+    description: >-
+      Appropriate raters convened based on tier and faculty.
+    panel_sizes:
+      paper: 4       # Standing Senate only
+      thesis: 5      # Standing Senate + 1 Guest
+      dissertation: 6  # Standing Senate + 2 Guests
+
+  - name: independent_evaluation
+    order: 4
+    description: >-
+      Each rater receives evidence + persona system prompt + faculty-specific
+      defense rubric. Raters evaluate independently — no deliberation.
+
+  - name: agreement_computation
+    order: 5
+    description: >-
+      ICC, Fleiss' kappa, and consensus computed. Per-dimension scores and
+      disagreement patterns extracted.
+
+  - name: verdict
+    order: 6
+    description: Verdict issued based on ICC against tier threshold.
+
+  - name: provost_review
+    order: 7
+    description: >-
+      Dissertation tier only. Provost reads work and panel evaluations.
+      May override pass (rare) or accept marginal ICC with justification.
+    applies_to: [dissertation]
+
+  - name: certification
+    order: 8
+    description: >-
+      Passing works receive a machine-readable certification record with
+      ICC scores, panel composition, dimension scores, and verdict.
+
+verdicts:
+  pass:
+    condition: "icc >= tier_threshold"
+    action: "Certified, archived, queued for publication"
+  revise:
+    condition: "0.61 <= icc < tier_threshold"
+    action: "Dimension-specific feedback; author revises and resubmits"
+  governance_crisis:
+    condition: "icc < 0.61"
+    action: "Provost investigates rubric/persona issues before re-evaluation"
+
+thresholds:
+  paper:
+    icc_minimum: 0.61
+    interpretation: "substantial"
+  thesis:
+    icc_minimum: 0.70
+    interpretation: "substantial_to_almost_perfect"
+  dissertation:
+    icc_minimum: 0.75
+    interpretation: "almost_perfect"
+    provost_review: required
+
+certification_schema:
+  fields:
+    - work_id
+    - title
+    - tier
+    - faculty
+    - defense_date
+    - panel.standing
+    - panel.guests
+    - agreement.icc
+    - agreement.fleiss_kappa
+    - agreement.interpretation
+    - dimension_scores
+    - verdict
+    - provost_review  # dissertation only

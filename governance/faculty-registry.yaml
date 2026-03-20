@@ -1,0 +1,122 @@
+# SGO Faculty Registry
+# Faculty definitions, rubric mappings, and methodological traditions.
+
+faculties:
+  - id: foundations
+    name: Faculty of Foundations
+    parent_organ: I
+    parent_name: Theoria
+    research_domain: Recursive systems, symbolic computing, ontology
+    methodological_tradition:
+      - Formal logic
+      - Mathematical proof
+      - Category theory
+    guest_examiners: []  # Uses standing senate only by default
+
+  - id: creative-practice
+    name: Faculty of Creative Practice
+    parent_organ: II
+    parent_name: Poiesis
+    research_domain: Generative art, performance, creative coding
+    methodological_tradition:
+      - Practice-based research
+      - Aesthetic analysis
+      - Computational art theory
+    guest_examiners:
+      - id: curator
+        name: The Curator
+        evaluates: Aesthetic contribution, artistic merit
+
+  - id: applied-systems
+    name: Faculty of Applied Systems
+    parent_organ: III
+    parent_name: Ergon
+    research_domain: Product design, SaaS, developer tools
+    methodological_tradition:
+      - Design science (Hevner et al., 2004)
+      - User research
+      - Market analysis
+    guest_examiners:
+      - id: product-manager
+        name: The Product Manager
+        evaluates: Market relevance, user impact
+    faculty_dimensions:
+      - name: Mathematical Proof Validity
+        type: objective
+        weight: 0.10
+      - name: Competitive Differentiation
+        type: mixed
+        weight: 0.10
+
+  - id: governance
+    name: Faculty of Governance
+    parent_organ: IV
+    parent_name: Taxis
+    research_domain: Orchestration, AI agents, institutional design
+    methodological_tradition:
+      - Cybernetics (Beer)
+      - Organizational theory
+      - Governance studies (Ostrom)
+    guest_examiners:
+      - id: constitutional-scholar
+        name: The Constitutional Scholar
+        evaluates: Governance design soundness
+    faculty_dimensions:
+      - name: Governance Design Quality
+        type: subjective
+        weight: 0.10
+        description: Does the governance structure satisfy Beer's viability criteria?
+      - name: Self-Referential Coherence
+        type: subjective
+        weight: 0.10
+        description: Does the system avoid the autopoietic trap?
+
+  - id: discourse
+    name: Faculty of Discourse
+    parent_organ: V
+    parent_name: Logos
+    research_domain: Essay, editorial, rhetoric, analytics
+    methodological_tradition:
+      - Rhetorical analysis
+      - Media studies
+      - Argumentation theory
+    guest_examiners:
+      - id: literary-critic
+        name: The Literary Critic
+        evaluates: Rhetorical craft, argumentative structure
+
+  - id: community
+    name: Faculty of Community
+    parent_organ: VI
+    parent_name: Koinonia
+    research_domain: Learning design, salons, reading groups
+    methodological_tradition:
+      - Pedagogy
+      - Community of practice theory
+      - Participatory design
+    guest_examiners: []
+
+  - id: distribution
+    name: Faculty of Distribution
+    parent_organ: VII
+    parent_name: Kerygma
+    research_domain: Social automation, POSSE, audience systems
+    methodological_tradition:
+      - Communication theory
+      - Network analysis
+      - Platform studies
+    guest_examiners: []
+
+  - id: meta-cognition
+    name: Faculty of Meta-Cognition
+    parent_organ: META
+    parent_name: Meta-ORGANVM
+    research_domain: Self-reference, governance of governance, system-wide health
+    methodological_tradition:
+      - Systems theory
+      - Autopoiesis
+      - Institutional meta-analysis
+    guest_examiners:
+      - id: philosopher
+        name: The Philosopher
+        evaluates: Self-referential coherence, meta-systematic validity

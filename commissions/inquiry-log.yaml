@@ -1,0 +1,44 @@
+# SGO Research Commission Inquiry Log
+# Tracks all research commissions from inception through defense.
+
+commissions:
+  - id: INQ-2026-001
+    title: >-
+      Precision Over Volume: A Multi-Criteria Decision Analysis Framework
+      for Optimal Career Application Pipeline Management
+    short_name: The Precision Pipeline
+    work_id: SGO-2026-D-001
+    tier: dissertation
+    faculty: applied-systems
+    commissioned: 2026-03-17
+    status: drafting
+    location: ~/Workspace/4444J99/application-pipeline/docs/thesis/
+    chapters: 10
+    lines: ~5400
+    needs:
+      - 3+ months v2 outcome data
+      - Retrospective v1 vs v2 comparison
+      - Statistical MPI test (inter-dimension correlation matrix)
+      - SGO framing replacement (remove prior university framing)
+      - arXiv submission of core MCDA contribution as Paper (Tier I)
+
+  - id: INQ-2026-002
+    title: >-
+      Recursive Institutional Governance Through Multi-Model
+      Evaluative Consensus
+    short_name: The Evaluative Authority
+    work_id: SGO-2026-D-002
+    tier: dissertation
+    faculty: governance-and-meta-cognition
+    commissioned: 2026-03-17
+    status: drafting
+    location: praxis-perpetua/research/dissertation-institutional-authority/
+    chapters: 11
+    lines: ~2046
+    needs:
+      - Second instantiation (deploy against ORGAN-IV Taxis)
+      - Human baseline (3 expert engineers rate pipeline; compare ICC)
+      - Expanded panel (7 raters across 3 providers)
+      - 6+ monthly longitudinal assessments
+      - Expanded references to 80+
+      - arXiv submission of IRA methodology as Paper (Tier I)

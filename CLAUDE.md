@@ -4,9 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 
 ## What This Is
 
-A **docs-only process governance corpus**. No code, no build system, no runtime. Contains SOPs, research standards, session review logs, derived principles, and continuous improvement templates.
+The **Studium Generale ORGANVM (SGO)** — ORGANVM's internal university, research engine, process governance corpus, and publication house. Named after the medieval *studium generale*: not a building but a right — the authority to teach, examine, and confer recognition anywhere.
 
-**Organ:** META-ORGANVM | **Tier:** standard | **Status:** CANDIDATE
+Contains 47+ research documents, 64 SOPs/standards, an 11-chapter dissertation (SGO-2026-D-002), session review logs, derived principles, governance YAMLs, and defense rubrics. No code, no build system, no runtime — CI validates markdown structure only.
+
+**Organ:** META-ORGANVM | **Tier:** standard | **Status:** GRADUATED
+
+### SGO Identity
+
+- **Cross-organ authority:** Any organ can commission research; the SGO evaluates and certifies
+- **Evaluation machinery:** Shares IRA (multi-model evaluative consensus) with `auto-revision-epistemic-engine`
+- **Publication channel:** Defended works flow through ORGAN-V (Logos)
+- **Dual organism:** The SGO produces knowledge; the IRA certifies it. Immune system + nervous system.
+- **Academic tiers:** Paper (ICC > 0.61), Thesis (ICC > 0.70), Dissertation (ICC > 0.75 + Provost)
 
 ## Key Rules
 
@@ -18,7 +28,11 @@ A **docs-only process governance corpus**. No code, no build system, no runtime.
 ## Directory Layout
 
 ```
-standards/     Governing METADOCs and SOPs
+governance/    SGO constitutional documents (charter, defense protocol, senate, faculty registry)
+strategy/      Defense rubrics (universal + per-faculty), external feedback tracker
+research/      Research corpus (47+ docs) + dissertation-institutional-authority/ (11 chapters)
+standards/     Governing METADOCs and SOPs (64 documents)
+commissions/   Research commission inquiry log
 templates/     Reusable review scaffolds
 sessions/      Dated session logs (YYYY-MM-DD--description.md)
 lessons/       Extracted principles and risk profiles
@@ -33,8 +47,15 @@ archive/       Superseded standards
 
 ## Relationship to Other Subprojects
 
-- **organvm-corpvs-testamentvm**: System-state governance (registry, metrics, planning). This repo: process governance (how we work).
+- **organvm-corpvs-testamentvm**: System-state governance (registry, metrics, planning). This repo: process + academic governance (how we work + how we evaluate knowledge).
 - **organvm-engine**: Provides CLI and automation. This repo: provides the human-readable standards that the engine enforces.
+- **auto-revision-epistemic-engine** (ORGAN-I): The IRA evaluation machinery — shared infrastructure for SGO defenses.
+- **organvm-v-logos**: Publication channel — defended works flow through Logos for distribution.
+- **application-pipeline** (4444J99): SGO-2026-D-001 (Pipeline dissertation) lives there; certification records feed portfolio evidence.
+
+### Provenance
+
+Originally created 2026-03-06 as a process governance corpus. Evolved into the Studium Generale ORGANVM on 2026-03-19 when governance YAMLs were migrated from `organvm-i-theoria/studium-generale/` (now archived). The research corpus, dissertations, and standards were already here — the SGO formalized what was already happening.
 
 <!-- ORGANVM:AUTO:START -->
 ## System Context (auto-generated — do not edit)

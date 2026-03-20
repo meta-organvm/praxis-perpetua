@@ -1,0 +1,61 @@
+# Studium Generale ORGANVM — Charter
+# Constitutional document establishing the SGO's authority, structure, and principles.
+
+identity:
+  name: Studium Generale ORGANVM
+  abbreviation: SGO
+  latin_root: >-
+    After the medieval studium generale — not a building but a right:
+    the authority to teach, examine, and confer recognition anywhere.
+  organ_placement: META-ORGANVM (Meta)
+  original_placement: ORGAN-I (Theoria)
+  migration_note: >-
+    Migrated from organvm-i-theoria/studium-generale to meta-organvm/praxis-perpetua
+    on 2026-03-19. Cross-organ authority requires META placement, not single-organ.
+  scope: cross-organ
+  established: 2026-03-17
+
+authority:
+  description: >-
+    The SGO exercises the organism's right to evaluate its own intellectual
+    output with academic rigor. Any organ may commission research. The SGO's
+    publications flow through ORGAN-V (Logos) for distribution.
+  intake: all-organs
+  output: ORGAN-V
+  evaluation_machinery: auto-revision-epistemic-engine (IRA)
+
+principles:
+  - name: Rigorous Independence
+    description: >-
+      Raters evaluate independently — no deliberation during scoring.
+      Agreement is computed, not negotiated.
+  - name: Statistical Certification
+    description: >-
+      Works are certified by ICC scores and disagreement patterns,
+      not by a single evaluator's judgment.
+  - name: External Calibration
+    description: >-
+      The external academic world is the ultimate ground truth. Journal
+      rejections and peer review feedback recalibrate internal rubrics.
+  - name: Faculty Sovereignty
+    description: >-
+      Each faculty defines its own rubric dimensions, methodological
+      traditions, and guest examiner roles. Universal dimensions provide
+      a shared baseline.
+  - name: Provost Governance
+    description: >-
+      The human operator governs the institution — commissions research,
+      designs rubrics, authors personas — but does not grade.
+
+dual_organism:
+  description: >-
+    The SGO and the Self-Checking Authority (IRA) are two expressions of
+    the same institutional function: the capacity to evaluate rigorously.
+  university_produces: knowledge
+  authority_certifies: knowledge
+  feedback_loop: >-
+    Certification data feeds back into methodology, which produces better
+    knowledge, which requires more rigorous certification.
+  metaphor: >-
+    Immune system (authority) ensures health; nervous system (SGO) ensures
+    intelligence. Neither is viable alone. Together, they constitute an institution.
