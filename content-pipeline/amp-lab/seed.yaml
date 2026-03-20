@@ -1,4 +1,4 @@
-schema_version: "1.0"
+schema_version: "1.1"
 organ: II
 organ_name: Art
 repo: amp-lab-media
@@ -8,7 +8,7 @@ metadata:
   implementation_status: ACTIVE
   tier: standard
   promotion_status: LOCAL
-  last_validated: "2026-03-19"
+  last_validated: "2026-03-20"
   generated: "2026-03-19"
   sprint: "AMP-LAB-V2"
 
@@ -20,6 +20,25 @@ production:
   series: Object Lessons
   format: narrated-hybrid
   cadence: biweekly
+
+ownership:
+  lead: "4jp"
+  collaborators:
+    - handle: "chris"
+      role: contributor
+      access: [read, edit, pr]
+      organs: [ORGAN-II]
+      since: "2017-03-01"
+  ai_agents:
+    - type: claude
+      access: [read, edit, commit]
+      scope: "content-pipeline"
+
+review:
+  promote_to_candidate:
+    requires: [lead_review]
+  promote_to_public_process:
+    requires: [lead_review, contributor_review]
 
 consumes:
   - type: theory
@@ -44,6 +63,7 @@ produces:
 
 subscriptions:
   - event: content.published
+    source: omni-dromenon-machina/amp-lab-media
     action: Trigger kerygma distribution pipeline
   - event: metrics.refresh
     source: meta-organvm/organvm-engine
