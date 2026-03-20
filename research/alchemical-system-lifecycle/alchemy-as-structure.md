@@ -480,7 +480,7 @@ Kiefer's *Nigredo* paintings (1984) — massive canvases covered in blackened pa
 
 ### 9.3 Rebecca Horn: Kinetic Alchemical Machines
 
-Rebecca Horn (1944–2024) created kinetic installations that function as alchemical apparatuses: machines that perform transformation operations on material in real time. *Concert for Anarchy* (1990) — an inverted piano that periodically drops its keys in a chaotic cascade before mechanically gathering them back — enacts the *solve et coagula* cycle as spectacle: structure dissolves into chaos, then reconstitutes.
+Rebecca Horn (1944–2022) created kinetic installations that function as alchemical apparatuses: machines that perform transformation operations on material in real time. *Concert for Anarchy* (1990) — an inverted piano that periodically drops its keys in a chaotic cascade before mechanically gathering them back — enacts the *solve et coagula* cycle as spectacle: structure dissolves into chaos, then reconstitutes.
 
 Horn's mercury installations — *River of the Moon* (Munster, 1997) and *Spiriti di Madreperla* (Venice, 1997) — use actual mercury (Mercurius, the alchemical agent of transformation) flowing through architectural spaces, pooling, reflecting, and redistributing. The mercury is not symbolic of Mercurius; it *is* Mercurius in its literal manifestation: the volatile, shape-shifting substance that is simultaneously the agent and the material of transformation.
 
