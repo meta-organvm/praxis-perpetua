@@ -65,3 +65,25 @@ commissions:
       - Five interdisciplinary bridges (testimony, archives, trust, ledgers, evidence)
       - Reading order for ORGANVM contributors
       - Relationship mapping to Testament Protocol implementation
+
+  - id: INQ-2026-004
+    title: >-
+      Infrastructure as Art: When Systems Engineering Becomes Conceptual
+      Practice — From Sol LeWitt's Instructions to Living Data Organisms
+    short_name: The Infrastructure-as-Art Thesis
+    tier: research
+    faculty: applied-systems
+    advisory_faculty: governance
+    commissioned: 2026-03-20
+    status: complete
+    location: praxis-perpetua/research/infrastructure-as-art/infrastructure-as-art.md
+    sources: ~90
+    sections: 14
+    size: ~804 lines
+    scope: system-wide (grounds the claim that ORGANVM infrastructure constitutes conceptual artwork)
+    notes:
+      - Eleven genealogical streams from Sol LeWitt through Cybersyn to software art
+      - Three necessary conditions: self-referential closure, aesthetic intentionality, generative openness
+      - Counter-arguments addressed (intentionality, scale, audience)
+      - Full bibliography of 90 primary and secondary sources
+      - Application of diagnostic framework to ORGANVM system
