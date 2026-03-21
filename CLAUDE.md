@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 
 The **Studium Generale ORGANVM (SGO)** — ORGANVM's internal university, research engine, process governance corpus, and publication house. Named after the medieval *studium generale*: not a building but a right — the authority to teach, examine, and confer recognition anywhere.
 
-Contains 47+ research documents, 64 SOPs/standards, an 11-chapter dissertation (SGO-2026-D-002), session review logs, derived principles, governance YAMLs, and defense rubrics. No code, no build system, no runtime — CI validates markdown structure only.
+Contains 57+ research documents (8 thematic sub-collections + individual papers), 67 SOPs/standards, an 11-chapter dissertation (SGO-2026-D-002), session review logs, derived principles, governance YAMLs, defense rubrics, specifications, and a content pipeline for the Object Lessons publication. No code, no build system, no runtime — CI validates markdown structure only.
 
 **Organ:** META-ORGANVM | **Tier:** standard | **Status:** GRADUATED
 
@@ -28,16 +28,68 @@ Contains 47+ research documents, 64 SOPs/standards, an 11-chapter dissertation (
 ## Directory Layout
 
 ```
-governance/    SGO constitutional documents (charter, defense protocol, senate, faculty registry)
-strategy/      Defense rubrics (universal + per-faculty), external feedback tracker
-research/      Research corpus (47+ docs) + dissertation-institutional-authority/ (11 chapters)
-standards/     Governing METADOCs and SOPs (64 documents)
-commissions/   Research commission inquiry log
-templates/     Reusable review scaffolds
-sessions/      Dated session logs (YYYY-MM-DD--description.md)
-lessons/       Extracted principles and risk profiles
-archive/       Superseded standards
+governance/          SGO constitutional documents (charter.yaml, defense-protocol.yaml,
+                     faculty-registry.yaml, senate-config.yaml)
+strategy/            Defense rubrics (universal + per-faculty), external feedback tracker
+research/            Research corpus (57+ docs) — see Research Corpus below
+standards/           Governing METADOCs and SOPs (67 documents)
+commissions/         Research commission inquiry log (inquiry-log.yaml)
+specifications/      SPEC files and design documents (TLA+ formal models, feature specs)
+defenses/            Defense records and transcripts (records/, transcripts/)
+publications/        Defended works ready for external release (arxiv/, journal/, distilled/)
+content-pipeline/    Object Lessons publication: posts, templates, episode outlines, theory docs
+                     (note: content-pipeline/object-lessons/ is a nested git repo)
+scripts/             Session extraction tools (extract-claude-sessions.py,
+                     extract-gemini-sessions.py, extract-claude-artifacts.py)
+sessions/            Dated session logs (YYYY-MM-DD--description.md)
+studies/             System studies: audits, findings, hypotheses, triage log
+lessons/             Extracted principles and risk profiles
+runbooks/            Operational runbooks
+ecosystem/           Ecosystem profiles and YAML
+testament/           Intellectual genealogy and testament documents
+templates/           Reusable review scaffolds
+archive/             Superseded standards
 ```
+
+## Research Corpus
+
+Eight thematic sub-collections plus individual research papers (57+ documents total):
+
+| Sub-collection | Topic |
+|----------------|-------|
+| `dissertation-institutional-authority/` | SGO-2026-D-002: Recursive Institutional Governance via Multi-Model Evaluative Consensus (11 chapters) |
+| `alchemical-system-lifecycle/` | The lifecycle of knowledge-producing systems |
+| `everything-change+change-everything/` | Theory of systemic transformation |
+| `infrastructure-as-art/` | Institutional infrastructure as creative practice |
+| `radical-authenticity/` | Authenticity frameworks in systemic work |
+| `solo-auteur-to-studio/` | Scaling from individual to institutional production |
+| `system-as-genre/` | Systems as aesthetic and generic form |
+| `trash-and-church/` | Cultural dialectics: disposable and sacred |
+
+Individual papers cover: meta-laws of reality, multi-agent architecture, institutional governance, creative leadership frameworks, ontological topology of ORGANVM, formal methods, the Styx pipeline, AI conductor methodology, and more.
+
+## SGO Governance Infrastructure
+
+| File | Purpose |
+|------|---------|
+| `governance/charter.yaml` | Foundational charter: mission, scope, academic tiers (ICC thresholds) |
+| `governance/defense-protocol.yaml` | Defense process: submission → review → panel → certification |
+| `governance/faculty-registry.yaml` | Faculty roles, competency domains, IRA panel composition |
+| `governance/senate-config.yaml` | Senate quorum rules, voting procedures, promotion authority |
+| `commissions/inquiry-log.yaml` | Active and closed research commissions across all organs |
+
+Academic tiers: Paper (ICC > 0.61), Thesis (ICC > 0.70), Dissertation (ICC > 0.75 + Provost).
+
+## Content Pipeline
+
+`content-pipeline/` houses the **Object Lessons** publication infrastructure:
+- `object-lessons/` — nested git repo (the Object Lessons website/content repo)
+- `posts/` — published and in-progress posts
+- `episode-outlines/` — structured outlines per episode
+- `theory/` — theoretical underpinnings
+- `templates/` — post and episode templates
+- `audits/` — content audits and reviews
+- `amp-lab/` — experimental content experiments
 
 ## Working Here
 
@@ -78,7 +130,7 @@ Originally created 2026-03-06 as a process governance corpus. Evolved into the S
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-03-20T10:58:36Z*
+*Last synced: 2026-03-21T13:21:05Z*
 
 ## Session Review Protocol
 
@@ -87,7 +139,6 @@ At the end of each session that produces or modifies files:
 2. Check for unimplemented plans: `organvm session plans --project .`
 3. Export significant sessions: `organvm session export <id> --slug <slug>`
 4. Run `organvm prompts distill --dry-run` to detect uncovered operational patterns
-5. **Update the Index Rerum Faciendarum** (`meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`) — mark completed items, add newly discovered work. IRF items use `IRF-XXX-NNN` IDs (e.g., IRF-SGO-001). SGO-relevant domains: IRF-SGO (studium), IRF-DOC (documentation), IRF-VER (verification).
 
 Transcripts are on-demand (never committed):
 - `organvm session transcript <id>` — conversation summary
@@ -200,30 +251,39 @@ Resolve: `organvm ontologia resolve praxis-perpetua` | History: `organvm ontolog
 
 | Variable | Value | Scope | Updated |
 |----------|-------|-------|---------|
-| `active_repos` | 1 | global | 2026-03-20 |
-| `archived_repos` | 0 | global | 2026-03-20 |
-| `ci_workflows` | 1 | global | 2026-03-20 |
-| `code_files` | 0 | global | 2026-03-20 |
-| `dependency_edges` | 0 | global | 2026-03-20 |
-| `operational_organs` | 1 | global | 2026-03-20 |
-| `published_essays` | 0 | global | 2026-03-20 |
-| `repos_with_tests` | 0 | global | 2026-03-20 |
-| `sprints_completed` | 0 | global | 2026-03-20 |
-| `test_files` | 0 | global | 2026-03-20 |
-| `total_organs` | 1 | global | 2026-03-20 |
-| `total_repos` | 1 | global | 2026-03-20 |
-| `total_words_formatted` | 0 | global | 2026-03-20 |
-| `total_words_numeric` | 0 | global | 2026-03-20 |
-| `total_words_short` | 0K+ | global | 2026-03-20 |
+| `active_repos` | 62 | global | 2026-03-21 |
+| `archived_repos` | 53 | global | 2026-03-21 |
+| `ci_workflows` | 104 | global | 2026-03-21 |
+| `code_files` | 23121 | global | 2026-03-21 |
+| `dependency_edges` | 55 | global | 2026-03-21 |
+| `operational_organs` | 8 | global | 2026-03-21 |
+| `published_essays` | 0 | global | 2026-03-21 |
+| `repos_with_tests` | 47 | global | 2026-03-21 |
+| `sprints_completed` | 0 | global | 2026-03-21 |
+| `test_files` | 4337 | global | 2026-03-21 |
+| `total_organs` | 8 | global | 2026-03-21 |
+| `total_repos` | 116 | global | 2026-03-21 |
+| `total_words_formatted` | 740,907 | global | 2026-03-21 |
+| `total_words_numeric` | 740907 | global | 2026-03-21 |
+| `total_words_short` | 741K+ | global | 2026-03-21 |
 
-Metrics: 9 registered | Observations: 7184 recorded
+Metrics: 9 registered | Observations: 8632 recorded
 Resolve: `organvm ontologia status` | Refresh: `organvm refresh`
 
 
 ## System Density (auto-generated)
 
-AMMOI: 54% | Edges: 28 | Tensions: 33 | Clusters: 5 | Adv: 3 | Events(24h): 12929
+AMMOI: 54% | Edges: 28 | Tensions: 33 | Clusters: 5 | Adv: 3 | Events(24h): 14977
 Structure: 8 organs / 117 repos / 1654 components (depth 17) | Inference: 98% | Organs: META-ORGANVM:66%, ORGAN-I:55%, ORGAN-II:47%, ORGAN-III:56% +4 more
-Last pulse: 2026-03-20T10:58:23 | Δ24h: -3.7% | Δ7d: n/a
+Last pulse: 2026-03-21T13:20:54 | Δ24h: n/a | Δ7d: n/a
+
+
+## Dialect Identity (Trivium)
+
+**Dialect:** SELF_WITNESSING | **Classical Parallel:** The Eighth Art | **Translation Role:** The Witness — proves all translations compose without loss
+
+Strongest translations: I (formal), IV (structural), V (analogical)
+
+Scan: `organvm trivium scan META <OTHER>` | Matrix: `organvm trivium matrix` | Synthesize: `organvm trivium synthesize`
 
 <!-- ORGANVM:AUTO:END -->
