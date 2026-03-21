@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -58,13 +61,32 @@ jobs:
       - name: Check for broken internal links
         run: |
           set -euo pipefail
-          exit_code=0
-          for f in $(find . -name '*.md' -not -path './.git/*'); do
-            # Extract relative markdown links (not URLs)
+          broken=0
+          # Auto-generated context files contain workspace-relative cross-repo
+          # links (../../organvm-i-theoria/...) that only resolve locally.
+          # Exclude them — they are validated by organvm context sync, not CI.
+          skip_pattern='^\./\(AGENTS\.md\|GEMINI\.md\|CLAUDE\.md\)$'
+
+          while IFS= read -r f; do
+            if echo "$f" | grep -q "$skip_pattern"; then
+              continue
+            fi
+            # Extract relative markdown links (not URLs, not anchors)
             grep -oP '\[.*?\]\(\K[^)]+' "$f" 2>/dev/null | grep -v '^http' | grep -v '^#' | while read -r link; do
-              target="$(dirname "$f")/$link"
+              # Strip any anchor fragment from the link target
+              target_path="${link%%#*}"
+              [ -z "$target_path" ] && continue
+              target="$(dirname "$f")/$target_path"
               if [ ! -e "$target" ]; then
-                echo "WARN: Broken link in $f -> $link"
+                echo "BROKEN: $f -> $link"
+                # Signal to parent via temp file (subshell can't set parent vars)
+                touch /tmp/ci-broken-links
               fi
             done
-          done
+          done < <(find . -name '*.md' -not -path './.git/*' -not -path './content-pipeline/object-lessons/*')
+
+          if [ -f /tmp/ci-broken-links ]; then
+            echo "FAIL: Broken internal links detected (see above)"
+            exit 1
+          fi
+          echo "No broken internal links found."
