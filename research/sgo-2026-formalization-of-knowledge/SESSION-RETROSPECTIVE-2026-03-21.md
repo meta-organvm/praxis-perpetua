@@ -59,7 +59,7 @@
 
 - **Total words produced this session:** ~560,000+ (papers + reviews + infrastructure docs)
 - **Distinct intellectual domains traversed:** 7 (formal semantics, computability, organizational theory, naming theory, ANT/STS, formal language theory, psychometrics)
-- **Academic tiers achieved:** 5 Dissertations, 5 Theses, 3 Papers, 1 Capstone
+- **Academic tiers achieved:** 13 works classified as 5 Dissertations (including 1 Capstone), 5 Theses, 3 Papers
 - **Papers ready for arXiv:** 3 (RP-06, SYN-01, SYN-02)
 - **Governance documents enacted:** 4
 
