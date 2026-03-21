@@ -17,12 +17,11 @@ tags:
 content_hash: 80c920e4bdf92173353321357a6d4dc9c3bf754e1aef7e1a3377bee4924b357c
 ingested_via: claude-code-manual
 original_file: "debiasing-evaluation-process-recommendations.docx"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-creative-leadership-framework.md
 ---
-
 # Architecting Choice: A Framework for Mitigating Cognitive Bias in Strategic Evaluation
 
 ## Part I: The Cognitive Landscape of the Evaluation Process

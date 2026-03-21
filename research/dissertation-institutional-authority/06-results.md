@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 6 | EMPIRICAL RESULTS: AGREEMENT, DISAGREEMENT, AND DIAGNOSTIC POWER
 
 ## 6.1 Introduction

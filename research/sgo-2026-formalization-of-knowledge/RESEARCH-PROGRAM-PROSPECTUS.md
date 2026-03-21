@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Studium Generale ORGANVM -- Research Program Prospectus
 
 > **Program Title:** The Formalization of Knowledge: From Social Origins to Logical Foundations

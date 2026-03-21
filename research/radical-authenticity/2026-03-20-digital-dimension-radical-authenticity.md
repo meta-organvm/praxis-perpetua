@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # The Digital Dimension of Radical Authenticity
 
 **Research Document: INQ-2026-004**

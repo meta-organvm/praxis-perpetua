@@ -18,14 +18,13 @@ tags:
 content_hash: 63888600a2f39c76b9989f472399aa62e3fc6ec599c74485b86a27ac1cf267a2
 ingested_via: claude-code-manual
 original_file: "AI-to-AI Collaboration and Handoff Protocols.docx"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2025-12-ulti-meta-manifesto.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-creative-leadership-framework.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-era-of-the-orchestrator.md
 ---
-
 ## Relationship to ORGANVM North Star
 
 This document is the **agent-communication infrastructure** for the vision declared in [`VISION.md`](../VISION.md). Where the [Era of the Orchestrator](./2026-03-07-era-of-the-orchestrator.md) argues that orchestration is the scarce skill, and the [Creative Leadership Framework](./2026-03-07-creative-leadership-framework.md) defines lifecycle/RACI for human-team equivalents, this document specifies *how AI agents actually talk to each other* — the protocols, prompting syntax, failure modes, and human oversight patterns that make multi-agent orchestration reliable.

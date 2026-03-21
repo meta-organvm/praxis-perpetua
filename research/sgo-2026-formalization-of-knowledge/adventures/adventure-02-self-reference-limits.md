@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Adventure 2: Self-Reference & Limits
 
 > *Research compiled 2026-03-20. Sources: Wikipedia article summaries, cross-referenced links, and synthesis.*

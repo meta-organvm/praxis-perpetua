@@ -21,7 +21,7 @@ tags:
 content_hash: d8157e68dd7d5caf6902ded7782e3555f9b88015b14e0a0242f7fc69680f6ba1
 ingested_via: claude-code-manual
 original_file: "🧵 Meta-Laws of Reality.md"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2025-12-ulti-meta-manifesto.md
@@ -29,7 +29,6 @@ cross_references:
   - meta-organvm/praxis-perpetua/research/2025-12-plato-idealism-aristotle-empiricism.md
   - meta-organvm/praxis-perpetua/research/2026-03-08-ontological-topology-of-organvm.md
 ---
-
 # Meta-Laws of Reality Codex
 
 A comprehensive catalog of universal laws, rules, principles, and axioms across 9 domains, with 7 core meta-laws, 50+ domain-specific laws, and 6 cross-domain meta-patterns.

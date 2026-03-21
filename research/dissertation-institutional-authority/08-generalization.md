@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 8 | GENERALIZATION: THE AUTHORITY AS PORTABLE META-ENTITY
 
 ## 8.1 Introduction

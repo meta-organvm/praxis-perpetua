@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Adventure 4: The Naming Problem
 
 ## Central Question

@@ -17,13 +17,12 @@ tags:
 content_hash: d18c7c820a7c3ed21fd7294ed87835248ea6e784db1a9452ea8b0bfe31414ab5
 ingested_via: claude-code-manual
 original_file: "the-lifecycle-of-knowledge_-unified-framework-for-documentation,-versioning,-and-preservation.docx"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-meta-system-documentation-portfolio.md
   - meta-organvm/praxis-perpetua/research/2026-03-08-intelligent-file-organization.md
 ---
-
 ## 
 
 ### Precis

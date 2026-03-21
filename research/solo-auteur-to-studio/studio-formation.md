@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Solo Auteur to Studio
 
 ## The Organizational, Technical, and Psychological Trajectory from Individual Vision to Creative Institution

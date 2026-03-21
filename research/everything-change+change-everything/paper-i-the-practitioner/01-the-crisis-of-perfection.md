@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Chapter 1: The Crisis of Perfection
 
 ## When Technical Mastery Produces Death

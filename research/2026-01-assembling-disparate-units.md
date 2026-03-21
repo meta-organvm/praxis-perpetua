@@ -16,14 +16,13 @@ tags:
 content_hash: 5986638f5125a65fe410bb437c41c145f89ec3c1d329d0fa13efed4fde2795a3
 ingested_via: claude-code-manual
 original_file: "Assembling Disparate Units_ Universal Patterns.docx"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-metaphysics-of-flux.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-vertical-integration-design.md
   - meta-organvm/praxis-perpetua/research/2026-03-08-ontological-topology-of-organvm.md
 ---
-
 # The Morphodynamics of Assembly: A Unified Theory of Organizational Bodies
 
 ## Introduction

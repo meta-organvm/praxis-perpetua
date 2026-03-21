@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # The Institutional Immune System: Self-Evaluation in AI-Augmented One-Person Institutions
 
 **Document B** — Organizational self-portrait for ORGANVM internal architecture

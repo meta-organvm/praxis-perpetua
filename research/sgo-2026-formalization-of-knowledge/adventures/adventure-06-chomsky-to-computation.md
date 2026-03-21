@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Adventure 6: Chomsky -> Computation
 
 ## Central Question

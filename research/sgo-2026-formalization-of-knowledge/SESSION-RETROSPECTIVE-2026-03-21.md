@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Session Retrospective: SGO-2026 Research Programme
 
 **Date:** 2026-03-21

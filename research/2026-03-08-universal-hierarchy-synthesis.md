@@ -14,7 +14,7 @@ tags:
   - meta-research
 content_hash: null
 ingested_via: claude-code-session
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/praxis-perpetua/research/2026-03-08-substrate-systems-instantiation.md
   - meta-organvm/praxis-perpetua/research/2026-03-08-living-systems-instantiation.md
@@ -23,7 +23,6 @@ cross_references:
   - meta-organvm/praxis-perpetua/research/2025-05-meta-laws-of-reality-codex.md
   - meta-organvm/praxis-perpetua/lessons/derived-principles.md
 ---
-
 # Universal Hierarchy Synthesis
 
 ## Convergences, Conflicts, and the Dynamic Assembly Model

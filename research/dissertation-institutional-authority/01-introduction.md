@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 1 | INTRODUCTION: THE GOVERNANCE GAP IN AI-AUGMENTED INSTITUTIONS
 
 ## 1.1 The Problem

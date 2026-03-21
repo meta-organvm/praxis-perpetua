@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # The System as Genre
 
 ## One-Person Visions Expressed as Architectures: From the Memex to ORGANVM

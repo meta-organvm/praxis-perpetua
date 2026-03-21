@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 3 | THE AUTHORITY: SYSTEM ARCHITECTURE INDEPENDENT OF HOST
 
 ## 3.1 Introduction

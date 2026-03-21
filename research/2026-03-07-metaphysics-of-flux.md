@@ -19,14 +19,13 @@ tags:
 content_hash: 01ef33d0c84e2a58425b2ec13bfb8e48e17d5f5dc313f928318670aa51803112
 ingested_via: claude-code-manual
 original_file: compass_artifact_wf-4c59c474-e0c7-4050-800b-b163ac7e667a_text_markdown.md
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-creative-leadership-framework.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-vertical-integration-design.md
   - meta-organvm/praxis-perpetua/research/2026-03-08-ontological-topology-of-organvm.md
 ---
-
 # The Metaphysics of Flux — Unified Framework for Perpetual Transformation
 
 > Ingested from ChatGPT Compass artifact. A five-domain theoretical synthesis (physics, philosophy, Buddhist/Indigenous cosmology, systems theory, performance practice) establishing that transformation and relationality are the fundamental nature of reality. Provides conceptual vocabulary, design principles, and academic/funder/collaborator framings for the Omni-Performative Engine (ORGAN-II). Key sources: Whitehead, Rovelli, Prigogine, Kauffman, Bergson, Deleuze, Nāgārjuna, Cage, Kaprow, Boal, Maturana/Varela.

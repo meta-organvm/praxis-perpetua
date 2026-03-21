@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 10 | DISCUSSION: IMPLICATIONS FOR INSTITUTIONAL THEORY
 
 ## 10.1 Introduction

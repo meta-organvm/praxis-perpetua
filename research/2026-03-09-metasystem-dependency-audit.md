@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Dependency Audit: Metasystem-Master Backplane (ORGAN-II)
 
 **Date:** March 9, 2026

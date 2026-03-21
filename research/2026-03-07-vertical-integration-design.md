@@ -17,14 +17,13 @@ tags:
 content_hash: 29fc71029f9d2c0dc076189fce47f07e406a61873b7cd47dca7544365fd2f917
 ingested_via: claude-code-manual
 original_file: organ-logic-Vertical-Integration-Design.md
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-creative-leadership-framework.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-era-of-the-orchestrator.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-systemic-project-analysis.md
 ---
-
 # Vertical Integration as Constraint-Engine — Nintendo/Apple Design Philosophy
 
 > Ingested from ChatGPT Q/A transcript. Analyzes how Nintendo and Apple use vertical integration (hardware + software control) as a constraint-engine that converts restriction into coherence, iteration depth, and distinctive feel. Maps Nintendo franchises as "interaction operating systems" defined by primary verb-sets rather than genres, with characters functioning as stable interface identities. Draws structural parallels to Apple's product-line strategy and curation philosophy.

@@ -17,12 +17,11 @@ tags:
 content_hash: 70ce1adb9faee6c7d4782d45f6dbf29310e3ffc2176ea70419011ee728386454
 ingested_via: claude-code-manual
 original_file: "Affective-AI-Design-for-iOS-Relationships.md"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2025-05-meta-laws-of-reality-codex.md
 ---
-
 # Affective AI Design for iOS Relationships — Project Evolve
 
 ## I. Vision: Blending Heart and Technology

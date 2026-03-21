@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # SGO-2026: Program Status Tracker
 
 > **Last updated:** 2026-03-21

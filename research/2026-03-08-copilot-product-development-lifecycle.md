@@ -15,13 +15,12 @@ tags:
 content_hash: 1d27245de9d9e7b35decc56b2a5f5649eb7b7928352ff400307d7c1405067ed0
 ingested_via: claude-code-manual
 original_file: "Microsoft Copilot： Your AI companion (3_8_2026 1：47：56 AM).html"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-08-copilot-prd-document-templates.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-technical-spec-best-practices.md
 ---
-
 # AI Prompt Engineering for Product Development Lifecycle Documentation: Comprehensive Prompts, Contextual Guidance, and Markdown Table Showcase
 
 ## Summary Table: AI Prompts for Each Product Development Lifecycle Document

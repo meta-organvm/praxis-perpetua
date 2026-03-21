@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 7 | SELF-GOVERNANCE: THE META-EVALUATIVE PROBLEM
 
 ## 7.1 Introduction

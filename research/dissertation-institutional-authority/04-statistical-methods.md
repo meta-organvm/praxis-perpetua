@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 4 | THE METHOD: PSYCHOMETRIC GOVERNANCE MECHANISMS
 
 ## 4.1 Introduction

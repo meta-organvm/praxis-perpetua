@@ -16,7 +16,7 @@ tags:
   - immutable-reference
   - epistemology
   - north-star
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2025-12-ulti-meta-manifesto.md
@@ -24,7 +24,6 @@ cross_references:
   - meta-organvm/praxis-perpetua/research/2026-03-07-ai-to-ai-handoff-protocols.md
 content_hash: 2fa9ac711b42e676ba56c8d1974401ca009e406ce9b1d75c76c044e079934a92
 ---
-
 ## Relationship to ORGANVM North Star
 
 > *"Guiding the automated world's businesses and workforce away from collapse or stagnation — towards ethical and meaningful solutions that facilitate the rapid evolution of advanced empowerment."*

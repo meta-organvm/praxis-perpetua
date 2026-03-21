@@ -15,12 +15,11 @@ tags:
 content_hash: 30f15b74f34cc65bf3bc0388fe633f360cbec4bcf6dc94824c463213910afbc5
 ingested_via: claude-code-manual
 original_file: "Microsoft Copilot： Your AI companion (3_8_2026 1：49：01 AM).html"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-08-intelligent-file-organization.md
 ---
-
 # Comprehensive Solutions for Automating File Management on Windows Using YAML Metadata: Best Practices, Tools, and Workflows
 
 ## Introduction

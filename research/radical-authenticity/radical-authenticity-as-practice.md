@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Radical Authenticity as Creative Practice
 
 ## The Refusal to Perform, the Insistence on Being Seen: History, Theory, Risks, and Products of the Unmasked Life

@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Adventure 1: The Semantics Bridge
 
 ## Central Question

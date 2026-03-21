@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Praxis Perpetua — Research Corpus
 
 Research documents produced by or foundational to the ORGANVM system. This directory contains origin documents (vision, manifestos, frameworks), operational research (methodology, workflows, infrastructure), and academic works produced by the Studium Generale ORGANVM.

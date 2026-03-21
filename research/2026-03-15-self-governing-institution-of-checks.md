@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # The Self-Governing Institution of Checks: Architecture of a Recursive Evaluative System
 
 **Document D** — The grading facility as its own institutional subject

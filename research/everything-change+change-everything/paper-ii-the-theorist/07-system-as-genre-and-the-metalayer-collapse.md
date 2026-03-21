@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Chapter 7: System-as-Genre and the Meta-Layer Collapse
 
 ## When the Documentation Metabolizes Itself

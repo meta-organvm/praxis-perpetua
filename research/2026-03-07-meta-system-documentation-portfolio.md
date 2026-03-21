@@ -13,7 +13,7 @@ tags:
   - creative-technologist
   - institutional-recognition
   - north-star
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-bootstrap-to-scale-bloom.md
@@ -21,7 +21,6 @@ cross_references:
   - meta-organvm/praxis-perpetua/research/2026-03-07-ai-conductor-shipping-guide.md
 content_hash: 292e6facedd541b32e7218e9f62fec986ad1dbd8571cf5a80de3fc4580c8f7fd
 ---
-
 ## Relationship to ORGANVM North Star
 
 > *"Guiding the automated world's businesses and workforce away from collapse or stagnation — towards ethical and meaningful solutions that facilitate the rapid evolution of advanced empowerment."*

@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # SGO-2026-D-004: Everything Change && Change Everything
 
 ## The Metabolic Principle as Prime Directive for Creative-Institutional Systems

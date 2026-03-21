@@ -19,7 +19,7 @@ tags:
 content_hash: a460e986e0bdaba29d58533050539bca94f427f387b79572289958d6436c4008
 ingested_via: claude-code-manual
 original_file: Transforming-content-into-growth-opportunities.md
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2025-12-ulti-meta-manifesto.md
@@ -27,7 +27,6 @@ cross_references:
   - meta-organvm/praxis-perpetua/research/2026-03-07-systemic-project-analysis.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-vertical-integration-design.md
 ---
-
 # Bootstrap-to-Scale Infrastructure — How Artists Build Institutions Without Selling Out (Bloom Analysis)
 
 > Ingested from ChatGPT Q/A transcript. A "Bloom" (emergent insights/growth opportunities) analysis applied to the Omni-Dromenon-Engine project and broader ORGANVM system. Researches 15+ case studies (Radiohead, NIN, Cirque du Soleil, Burning Man, Wooster Group, Blast Theory, Fugazi, Linux, Kubernetes, Apache Foundation) to extract bootstrap-to-scale patterns for artists building institutional-scale infrastructure from zero dollars. Includes financial inflection data, timeline patterns (7-15 years), governance-before-scale thesis, community models, revenue stack analysis, and documentation-as-artifact practices.

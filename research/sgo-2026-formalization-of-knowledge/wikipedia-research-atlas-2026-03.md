@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Wikipedia Research Atlas — The March Project
 
 > **Day Zero: March 2, 2026**

@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Adventure 5: Latour's Network Ontology
 
 **Date:** 2026-03-20

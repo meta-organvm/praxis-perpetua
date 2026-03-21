@@ -15,14 +15,13 @@ tags:
   - universal-hierarchy
 content_hash: null
 ingested_via: claude-code-session
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/praxis-perpetua/research/2026-03-08-ontological-topology-of-organvm.md
   - meta-organvm/praxis-perpetua/research/2025-05-meta-laws-of-reality-codex.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-metaphysics-of-flux.md
   - meta-organvm/praxis-perpetua/research/2026-01-assembling-disparate-units.md
 ---
-
 # Substrate Systems Instantiation
 
 ## Mathematics, Physics, Chemistry, and Chaos as Organizational Layers

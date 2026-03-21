@@ -18,7 +18,7 @@ tags:
   - organ-meta
 content_hash: null
 ingested_via: claude-code-session
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2025-05-meta-laws-of-reality-codex.md
@@ -35,7 +35,6 @@ cross_references:
   - meta-organvm/praxis-perpetua/standards/SOP--cross-agent-handoff.md
   - meta-organvm/praxis-perpetua/standards/SOP--structural-integrity-audit.md
 ---
-
 # The Ontological Topology of ORGANVM
 
 ## Layered Emergence, Framework Synthesis, and the Study Suite

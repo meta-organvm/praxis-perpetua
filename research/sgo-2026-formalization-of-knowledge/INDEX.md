@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # SGO-2026: The Formalization of Knowledge
 
 ## Master Index

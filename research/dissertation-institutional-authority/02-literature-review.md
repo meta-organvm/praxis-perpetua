@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 2 | LITERATURE REVIEW: SIX CONVERGING TRADITIONS
 
 ## 2.1 Introduction

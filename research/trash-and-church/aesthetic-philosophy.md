@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Trash and Church Exist in the Same Space
 
 ## An Aesthetic Philosophy of the Sublime-Mundane Coexistence

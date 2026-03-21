@@ -17,12 +17,11 @@ tags:
 content_hash: 114070430d2caaeaa9c75ae42049620d63ccbcb2cf4a2646687411419073e199
 ingested_via: claude-code-manual
 original_file: "Compiling and Analyzing Chat Threads_.docx"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-ai-interaction-documentation-guide.md
 ---
-
 # A Comprehensive Guide to Compiling and Analyzing Conversational Data
 
 ## Part I: Establishing a Unified Data Corpus from Disparate Chat Sources

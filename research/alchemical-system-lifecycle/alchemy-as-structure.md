@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Alchemy as Structure: The Alchemical System Lifecycle
 
 ## Theoretical Grounding for ORGANVM's Transmutative Architecture

@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Chapter 12: The Metabolic Proof
 
 ## The Dissertation Proves Its Own Thesis by Existing

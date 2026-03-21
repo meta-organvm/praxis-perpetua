@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Complete Survey of Aesthetic Movements, Art Historical Periods, and Critical Lenses
 
 ## A Comprehensive Reference for the ORGANVM Generative Testament

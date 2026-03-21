@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # The Intellectual Genealogy of Self-Producing, Self-Describing, and Self-Rendering Systems
 
 ## From Classical Antiquity to Computational Autopoiesis: A Comprehensive Literature Review

@@ -16,12 +16,11 @@ tags:
 content_hash: 02a26c43ddf588408b79072418f8d3ab7966432b351f14f62d08933c8068b2ba
 ingested_via: claude-code-manual
 original_file: "Microsoft Copilot： Your AI companion (3_8_2026 1：48：29 AM).html"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-ai-tools-research-automation.md
 ---
-
 # Integrating ChatGPT, Gemini, Perplexity, GitHub Copilot, and Grok for Automated Research, Writing, and Project Management Workflows
 
 ## Introduction

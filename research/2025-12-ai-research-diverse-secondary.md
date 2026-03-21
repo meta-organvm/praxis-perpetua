@@ -15,12 +15,11 @@ tags:
 content_hash: a46612946e4dc6fcd8f9de9e1ac77f76ffd4019f2a0b6b62eff79a5934609dad
 ingested_via: claude-code-manual
 original_file: "ai-research-prompt_-diverse-secondary-research.docx"
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-era-of-the-orchestrator.md
 ---
-
 # The Insight Engine: A Strategic Framework for Generative AI-Driven Secondary Research and Novel Synthesis
 
 **Executive Summary: Escaping the \"Consensus Trap\"**

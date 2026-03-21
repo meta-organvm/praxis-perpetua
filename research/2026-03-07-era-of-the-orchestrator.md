@@ -15,12 +15,11 @@ tags:
 content_hash: f5873b89fcb19fb1758143fab96cca445e1ef9c8b0948d2c21d0dac645657649
 ingested_via: claude-code-manual
 original_file: resume-me-Era-of-the-Orchestrator.md
-status: reference
+status: reference-activated
 cross_references:
   - meta-organvm/VISION.md
   - meta-organvm/praxis-perpetua/research/2026-03-07-creative-leadership-framework.md
 ---
-
 # Era of the Orchestrator — Liberal Arts Resurgence, Specification Scarcity, and Logos-Orchestration
 
 > Ingested from ChatGPT Q/A transcript. Argues that AI commoditizes execution, shifting value upstream to specification, orchestration, and evaluation — capabilities historically cultivated by liberal arts training. Introduces term set: Logos-Orchestration, Noēsis-Orchestration, Ontic-Speccraft, Constraint-Alchemy, Epistemic-Tuning. References MET4MORFOSES MFA thesis (2018) as early proof of "mythic governance layer" thinking.

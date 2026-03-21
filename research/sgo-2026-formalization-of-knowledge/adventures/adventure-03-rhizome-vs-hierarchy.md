@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Adventure 3: Rhizome vs. Hierarchy
 
 > *Research compiled 2026-03-20. Sources: Wikipedia via MCP, cross-referenced with link-graph frontier discovery.*

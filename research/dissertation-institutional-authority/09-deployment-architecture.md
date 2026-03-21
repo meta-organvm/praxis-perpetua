@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # CHAPTER 9 | DEPLOYMENT ARCHITECTURE: ORGANVM AND BEYOND
 
 ## 9.1 Introduction

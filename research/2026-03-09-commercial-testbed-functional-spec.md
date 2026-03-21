@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Functional Specification: Commercial Validation Testbed (ORGAN-III/test)
 
 **Date:** March 9, 2026
