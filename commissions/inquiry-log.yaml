@@ -110,3 +110,30 @@ commissions:
       - Structure enacts the argument — feedback / feedsides / feedforward
       - Constitutional directives issued in Paper III bind ORGANVM operations
       - Full bibliography of 120-180 primary and peer-reviewed secondary sources
+
+  - id: INQ-2026-006
+    title: >-
+      The Formalization of Knowledge: From Semantics to Governance
+      in Self-Describing Systems
+    short_name: The Formalization Programme
+    tier: research-programme
+    faculty: meta-cognition
+    advisory_faculty: governance
+    commissioned: 2026-03-21
+    status: drafting
+    location: praxis-perpetua/research/sgo-2026-formalization-of-knowledge/
+    papers: 13
+    adventures: 7
+    phases: 4
+    scope: >-
+      Multi-phase research programme investigating the deep structure of
+      formalization across seven domains (formal semantics, computability,
+      organizational theory, naming, ANT/STS, formal language theory,
+      psychometrics). 7 adventures → 7 research papers → 5 synthesis papers
+      → 1 capstone. Governed by Triadic Review Protocol (TRP).
+    notes:
+      - Programme prospectus registered with Wikipedia research atlas
+      - Triadic Review Protocol SOP enacted for all papers
+      - Research registry (YAML) tracks status of all 13 works
+      - 66 research files updated to reference-activated status
+      - 3 papers ready for arXiv (RP-06, SYN-01, SYN-02)
