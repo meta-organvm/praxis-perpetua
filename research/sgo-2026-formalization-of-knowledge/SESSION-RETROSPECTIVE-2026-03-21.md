@@ -217,7 +217,7 @@ The research programme is theoretical. All 13 papers argue from existing literat
 | Domains traversed | 7 |
 | Academic tiers: Capstone | 1 |
 | Academic tiers: Dissertation | 5 |
-| Academic tiers: Thesis | 5 |
+| Academic tiers: Thesis | 4 |
 | Academic tiers: Paper | 3 |
 
 ---
