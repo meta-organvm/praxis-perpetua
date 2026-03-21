@@ -49,7 +49,7 @@
 | 2. EXPANSION (adventures) | Complete -- 7 adventures |
 | 3. FORMALIZATION (prospectus) | Complete -- programme registered |
 | 4. COMPOSITION (paper drafting) | Complete -- 13 works across 4 phases |
-| 5. REVIEW (TRP) | Complete -- 7 review documents, all works reviewed |
+| 5. REVIEW (TRP) | Complete -- 7 review documents (including batch reviews covering multiple works), all works reviewed |
 | 6. REVISION (v2 drafts) | Complete -- all 13 works revised; SYN-01 re-reviewed |
 | 7. PUBLICATION (arXiv prep) | Partial -- 3 of 13 papers have submission packages |
 | 8. IMPLEMENTATION (manifest + governance) | In progress -- 4 of 14 P0 tasks complete |
@@ -59,7 +59,7 @@
 
 - **Total words produced this session:** ~560,000+ (papers + reviews + infrastructure docs)
 - **Distinct intellectual domains traversed:** 7 (formal semantics, computability, organizational theory, naming theory, ANT/STS, formal language theory, psychometrics)
-- **Academic tiers achieved:** 5 Dissertations, 5 Theses, 3 Papers, 1 Capstone
+- **Academic tiers achieved:** 13 works classified as 5 Dissertations (including 1 Capstone), 5 Theses, 3 Papers
 - **Papers ready for arXiv:** 3 (RP-06, SYN-01, SYN-02)
 - **Governance documents enacted:** 4
 
@@ -131,7 +131,7 @@ The first two TRP batches (4 and 5 papers respectively) were too large for deep 
 
 ### 4. Version Control Friction
 
-Papers in `intake/research-adventures-2026-03/` and copies in `praxis-perpetua/research/sgo-2026-formalization-of-knowledge/` create a two-location problem. The canonical versions live in the intake directory (where they were produced), but the research programme lives in praxis-perpetua (where they are governed).
+Papers in `praxis-perpetua/intake/research-adventures-2026-03/` and copies in `praxis-perpetua/research/sgo-2026-formalization-of-knowledge/` create a two-location problem. The canonical versions live in the intake directory (where they were produced), but the research programme lives in praxis-perpetua (where they are governed).
 
 **Lesson:** Establish a single canonical location for research artefacts at programme start. The intake directory should be for raw inbound material; once a paper enters the research programme, it should live in the programme directory. File moves should happen at programme registration (Stage 3), not retroactively.
 
@@ -217,7 +217,7 @@ The research programme is theoretical. All 13 papers argue from existing literat
 | Domains traversed | 7 |
 | Academic tiers: Capstone | 1 |
 | Academic tiers: Dissertation | 5 |
-| Academic tiers: Thesis | 5 |
+| Academic tiers: Thesis | 4 |
 | Academic tiers: Paper | 3 |
 
 ---
