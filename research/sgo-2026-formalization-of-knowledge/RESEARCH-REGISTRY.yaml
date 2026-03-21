@@ -1,0 +1,549 @@
+# SGO Research Registry
+# Single source of truth for all SGO-2026 research programme works
+# Generated: 2026-03-21
+# Maintained by: praxis-perpetua governance process
+
+program:
+  id: SGO-2026-RP-001
+  title: "The Formalization of Knowledge: From Social Origins to Logical Foundations"
+  principal_investigator: "Sole Practitioner, ORGANVM System"
+  institution: "Studium Generale ORGANVM"
+  start_date: 2026-03-20
+  status: CANDIDATE
+  central_thesis: >
+    Knowledge becomes formal through a four-phase process -- naming, structuring,
+    computing, and reflecting -- that recurs at every level of abstraction.
+    This process is subject to fundamental impossibility results (Godel, Tarski,
+    Rice, Arrow, Goodhart) that constrain but do not prevent self-governance.
+
+  statistics:
+    total_works: 13
+    dissertations: 5
+    theses: 5
+    papers: 3
+    total_words: 165948
+    adventure_words: 39602
+    prospectus_words: 7788
+    trp_review_words: ~394000
+    implementation_tasks: 74
+    governance_docs_enacted: 4
+
+  works:
+
+    # ============================================================
+    # PHASE 1 -- Foundation Papers (no dependencies)
+    # ============================================================
+
+    - id: SGO-2026-RP-002
+      title: "The Impossibility Landscape: Self-Reference, Undecidability, and the Limits of Self-Governing Systems"
+      short_title: "The Impossibility Landscape"
+      tier: Thesis
+      phase: 1
+      adventure: adventure-02-self-reference-limits
+      version: v2
+      word_count: ~12100
+      file_v1: phase-1/RP-02-self-reference-limits-DRAFT-v1.md
+      file_v2: phase-1/RP-02-self-reference-limits-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase1-and-RP01.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      dependencies: []
+      implementation_tasks:
+        - P0-02   # Classify governance rules as syntactic/semantic
+        - P0-07   # Make incompleteness visible in governance verdicts
+        - P0-08   # Formalize IRA panel protocol
+        - P0-09   # Seed.yaml semantic accuracy tracking
+        - P0-10   # Separate self-maintenance from self-improvement
+        - P0-13   # Temporal staging for governance validation
+        - P1-18   # Governance-as-type-system framework
+        - P1-19   # Over/under-approximation strategy per rule
+        - P2-08   # Willard strategy for restricted self-verification
+        - P2-09   # Abstract interpretation for semantic governance
+        - P2-10   # Strange loop stability analysis
+
+    - id: SGO-2026-RP-004
+      title: "The Deep Structure of Naming: Ontological Commitment, Language Games, and Governance in Software Nomenclature"
+      short_title: "The Deep Structure of Naming"
+      tier: Paper
+      phase: 1
+      adventure: adventure-04-naming-problem
+      version: v2
+      word_count: ~8400
+      file_v1: phase-1/RP-04-naming-problem-DRAFT-v1.md
+      file_v2: phase-1/RP-04-naming-problem-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase1-and-RP01.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      dependencies: []
+      implementation_tasks:
+        - P0-05   # Naming convention validator (double-hyphen linter)
+        - P0-06   # Controlled vocabulary registry
+        - P1-08   # Namespace governance proportional to scale
+        - P1-09   # Naming debt and naming health metrics
+        - P1-20   # Language-game specification for naming contexts
+        - P2-04   # Sense-preservation checks for aliases
+        - P2-05   # Type-token naming discipline
+        - P2-13   # Ontological commitment registry
+        - P2-14   # Names-as-infrastructure breakdown detection
+        - P2-26   # Names-stable-under-change principle
+
+    - id: SGO-2026-RP-007
+      title: "Measuring the Unmeasurable: Psychometric Foundations for Software Quality Assessment"
+      short_title: "Measuring the Unmeasurable"
+      tier: Thesis
+      phase: 1
+      adventure: adventure-07-measurement-theory
+      version: v2
+      word_count: ~12400
+      file_v1: phase-1/RP-07-measurement-theory-DRAFT-v1.md
+      file_v2: phase-1/RP-07-measurement-theory-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase1-and-RP01.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      dependencies: []
+      implementation_tasks:
+        - P0-03   # Define "readiness" construct independently
+        - P0-04   # Factor analysis on omega scorecard
+        - P0-14   # Context-specific governance norms
+        - P1-01   # IRT-based scoring
+        - P1-02   # Goodhart monitoring system
+        - P1-03   # Confidence intervals for governance scores
+        - P1-11   # Relational quality metrics
+        - P1-13   # Guttman scale validation
+        - P1-14   # Criterion validation
+        - P1-23   # Item analysis for governance checks
+        - P1-24   # Constitutive value assessment design
+        - P1-28   # Small-N problem for psychometric calibration
+        - P2-01   # Adaptive governance assessment
+        - P2-02   # Measurement invariance testing
+        - P2-15   # Ontological pluralism in quality assessment
+        - P2-19   # Test information function
+        - P2-21   # SEM-based relational quality model
+        - P2-25   # Constitutive vs. detection value in assessment
+
+    # ============================================================
+    # PHASE 2 -- Bridge Papers (depend on Phase 1)
+    # ============================================================
+
+    - id: SGO-2026-RP-001
+      title: "Toward a Grand Unified Semantics: Compositional, Model-Theoretic, and Proof-Theoretic Traditions"
+      short_title: "Toward a Grand Unified Semantics"
+      tier: Dissertation
+      phase: 2
+      adventure: adventure-01-semantics-bridge
+      version: v2
+      word_count: ~14700
+      file_v1: phase-2/RP-01-semantics-bridge-DRAFT-v1.md
+      file_v2: phase-2/RP-01-semantics-bridge-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase1-and-RP01.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      dependencies:
+        - SGO-2026-RP-006
+      implementation_tasks: []
+
+    - id: SGO-2026-RP-003
+      title: "The Topology of Organization: Hierarchy, Rhizome, and the Compression-Search Tradeoff"
+      short_title: "The Topology of Organization"
+      tier: Thesis
+      phase: 2
+      adventure: adventure-03-rhizome-vs-hierarchy
+      version: v2
+      word_count: ~11100
+      file_v1: phase-2/RP-03-rhizome-vs-hierarchy-DRAFT-v1.md
+      file_v2: phase-2/RP-03-rhizome-vs-hierarchy-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase1-and-RP01.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      dependencies:
+        - SGO-2026-RP-002
+      implementation_tasks:
+        - P0-11   # Hybrid topology principle as architectural law
+        - P1-07   # Stigmergic infrastructure layer
+        - P1-10   # Designed vs. emergent hierarchy
+        - P1-29   # Panarchy-aware phase transitions
+        - P2-03   # Rhizomaticity index
+        - P2-20   # Dunbar-aware team sizing
+        - P2-27   # Compression/search ratio monitoring
+
+    - id: SGO-2026-RP-005
+      title: "Actants in the Loop: Actor-Network Theory as a Framework for Human-AI Collaboration"
+      short_title: "Actants in the Loop"
+      tier: Thesis
+      phase: 2
+      adventure: adventure-05-latour-network-ontology
+      version: v2
+      word_count: ~11700
+      file_v1: phase-2/RP-05-latour-network-ontology-DRAFT-v1.md
+      file_v2: phase-2/RP-05-latour-network-ontology-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase2-synths-SYN05.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      dependencies:
+        - SGO-2026-RP-002
+        - SGO-2026-RP-007
+      implementation_tasks:
+        - P0-12   # Design governance artifacts as boundary objects
+        - P1-06   # OPP-based governance architecture
+        - P1-16   # System prompts as enrollment contracts
+        - P1-17   # Mediator visibility in AI outputs
+        - P1-21   # Translation drift in governance rules
+        - P2-18   # Alignment-as-translation framework
+
+    - id: SGO-2026-SYN-003
+      title: "Names That Hold: The Infrastructure of Naming in Governed Software Systems"
+      short_title: "Names That Hold"
+      tier: Paper
+      phase: 2
+      adventure: null
+      version: v2
+      word_count: ~8200
+      file_v1: phase-2/SYN-03-naming-as-infrastructure-DRAFT-v1.md
+      file_v2: phase-2/SYN-03-naming-as-infrastructure-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase2-synths-SYN05.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      synthesis_of:
+        - SGO-2026-RP-004
+        - SGO-2026-RP-005
+      dependencies:
+        - SGO-2026-RP-004
+        - SGO-2026-RP-005
+      implementation_tasks:
+        - P0-05   # Naming convention validator (shared with RP-04)
+        - P2-12   # Multi-level interpretation naming
+        - P2-14   # Names-as-infrastructure breakdown detection (shared with RP-04)
+        - P2-26   # Names-stable-under-change principle (shared with RP-04)
+
+    # ============================================================
+    # PHASE 3 -- Convergence Papers (synthesis begins)
+    # ============================================================
+
+    - id: SGO-2026-RP-006
+      title: "The Fourfold Correspondence: Grammar, Automaton, Type, and Proof from Chomsky to Curry-Howard-Lambek"
+      short_title: "The Fourfold Correspondence"
+      tier: Dissertation
+      phase: 3
+      adventure: adventure-06-chomsky-to-computation
+      version: v2
+      word_count: ~15900
+      file_v1: phase-3/RP-06-chomsky-to-computation-DRAFT-v1.md
+      file_v2: phase-3/RP-06-chomsky-to-computation-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-RP-06-chomsky-to-computation.md
+      publication_status: ARXIV_READY
+      arxiv_category: cs.FL
+      arxiv_crosslist:
+        - cs.LO
+        - cs.CL
+        - math.CT
+      journal_target: "Journal of Logic, Language and Information"
+      dependencies: []
+      implementation_tasks:
+        - P1-18   # Governance-as-type-system framework (shared with RP-02)
+        - P2-17   # Governance rule classification by Chomsky level
+        - P2-23   # Address Type 1 correspondence weakness
+        - P2-24   # Propose MCS type-theoretic conjecture
+        - P2-28   # Explicit typological coverage
+
+    - id: SGO-2026-SYN-001
+      title: "The Architecture of Compositional Formal Meaning: A Categorical Unification of Montague, Heyting, and DisCoCat"
+      short_title: "The Architecture of Formal Meaning"
+      tier: Dissertation
+      phase: 3
+      adventure: null
+      version: v2
+      word_count: ~14200
+      file_v1: phase-3/SYN-01-grand-unified-semantics-DRAFT-v1.md
+      file_v2: phase-3/SYN-01-grand-unified-semantics-DRAFT-v2.md
+      trp_status: RE-REVIEWED
+      trp_reviews:
+        - TRP-SYN-01-grand-unified-semantics.md
+        - TRP-SYN-01-v2-re-review.md
+      publication_status: ARXIV_READY
+      arxiv_category: cs.LO
+      arxiv_crosslist:
+        - cs.CL
+        - math.CT
+      journal_target: null
+      synthesis_of:
+        - SGO-2026-RP-001
+        - SGO-2026-RP-006
+      dependencies:
+        - SGO-2026-RP-001
+        - SGO-2026-RP-006
+      implementation_tasks:
+        - P1-25   # Schema contracts as syntactic categories
+        - P2-22   # Scope-narrow SYN-01 claims per TRP
+
+    - id: SGO-2026-SYN-002
+      title: "The Governance Impossibility Thesis: Formal Limits of Self-Describing, Self-Measuring, Self-Organizing Systems"
+      short_title: "The Governance Impossibility Thesis"
+      tier: Thesis
+      phase: 3
+      adventure: null
+      version: v2
+      word_count: ~13300
+      file_v1: phase-3/SYN-02-governance-impossibility-DRAFT-v1.md
+      file_v2: phase-3/SYN-02-governance-impossibility-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-SYN-02-governance-impossibility.md
+      publication_status: ARXIV_READY
+      arxiv_category: cs.AI
+      arxiv_crosslist:
+        - cs.CY
+        - cs.LO
+        - econ.TH
+      journal_target: "Philosophy and Technology"
+      synthesis_of:
+        - SGO-2026-RP-002
+        - SGO-2026-RP-003
+        - SGO-2026-RP-005
+        - SGO-2026-RP-007
+      dependencies:
+        - SGO-2026-RP-002
+        - SGO-2026-RP-003
+        - SGO-2026-RP-005
+        - SGO-2026-RP-007
+      implementation_tasks:
+        - P0-01   # Governance Trilemma declaration
+        - P0-02   # Classify governance rules (shared with RP-02)
+        - P0-07   # Incompleteness visibility (shared with RP-02)
+        - P0-14   # Context-specific governance norms (shared with RP-07)
+        - P1-04   # Governance Trilemma Audit instrument
+        - P1-05   # Practitioner's Decision Matrix
+        - P1-15   # VSM recursive structure
+        - P1-22   # Four-phase design audit
+        - P1-26   # External case study
+        - P1-27   # Calibrate formality claims
+        - P2-06   # Dynamic trilemma navigation model
+        - P2-07   # Inter-organ trilemma coordination
+        - P2-16   # Formalization roadmap for Governance Trilemma
+
+    - id: SGO-2026-SYN-004
+      title: "Measuring Actants: A Flat-Ontology Critique of Software Quality Metrics"
+      short_title: "Measuring Actants"
+      tier: Paper
+      phase: 3
+      adventure: null
+      version: v2
+      word_count: ~9900
+      file_v1: phase-3/SYN-04-flat-ontology-measurement-DRAFT-v1.md
+      file_v2: phase-3/SYN-04-flat-ontology-measurement-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase2-synths-SYN05.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      synthesis_of:
+        - SGO-2026-RP-005
+        - SGO-2026-RP-007
+      dependencies:
+        - SGO-2026-RP-005
+        - SGO-2026-RP-007
+      implementation_tasks:
+        - P0-14   # Context-specific governance norms (shared)
+        - P1-11   # Relational quality metrics (shared with RP-07)
+        - P1-12   # Record network configuration with scores
+        - P1-24   # Constitutive value assessment (shared with RP-07)
+        - P2-02   # Measurement invariance testing (shared with RP-07)
+        - P2-11   # Consequential validity monitoring
+        - P2-15   # Ontological pluralism in quality assessment
+        - P2-25   # Constitutive vs. detection value
+
+    # ============================================================
+    # PHASE 4 -- Capstone (final integration)
+    # ============================================================
+
+    - id: SGO-2026-SYN-005
+      title: "The Architecture of Meaning: Naming, Structuring, Computing, and Reflecting as Universal Phases of Formalization"
+      short_title: "The Architecture of Meaning"
+      tier: Dissertation
+      phase: 4
+      adventure: null
+      version: v2
+      word_count: ~13800
+      file_v1: phase-4/SYN-05-architecture-of-meaning-DRAFT-v1.md
+      file_v2: phase-4/SYN-05-architecture-of-meaning-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-BATCH-phase2-synths-SYN05.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      synthesis_of:
+        - SGO-2026-SYN-001
+        - SGO-2026-SYN-002
+        - SGO-2026-SYN-003
+        - SGO-2026-SYN-004
+      dependencies:
+        - SGO-2026-SYN-001
+        - SGO-2026-SYN-002
+        - SGO-2026-SYN-003
+        - SGO-2026-SYN-004
+      implementation_tasks:
+        - P1-22   # Four-phase design audit (shared with SYN-02)
+
+    - id: SGO-2026-CAP-001
+      title: "The Formalization of Knowledge: From Social Origins to Logical Foundations"
+      short_title: "The Formalization of Knowledge"
+      tier: Capstone Dissertation
+      phase: 4
+      adventure: null
+      version: v2
+      word_count: ~20000
+      file_v1: phase-4/CAPSTONE-formalization-of-knowledge-DRAFT-v1.md
+      file_v2: phase-4/CAPSTONE-formalization-of-knowledge-DRAFT-v2.md
+      trp_status: REVIEWED
+      trp_reviews:
+        - TRP-CAPSTONE-formalization-of-knowledge.md
+      publication_status: DRAFT
+      arxiv_category: null
+      journal_target: null
+      integrates: all
+      dependencies:
+        - SGO-2026-SYN-005
+      implementation_tasks:
+        - P1-22   # Four-phase design audit (shared)
+
+  # ============================================================
+  # SUPPORTING INFRASTRUCTURE
+  # ============================================================
+
+  infrastructure:
+    adventures:
+      count: 7
+      total_words: 39602
+      location: adventures/
+      files:
+        - adventure-01-semantics-bridge.md
+        - adventure-02-self-reference-limits.md
+        - adventure-03-rhizome-vs-hierarchy.md
+        - adventure-04-naming-problem.md
+        - adventure-05-latour-network-ontology.md
+        - adventure-06-chomsky-to-computation.md
+        - adventure-07-measurement-theory.md
+
+    prospectus:
+      file: RESEARCH-PROGRAM-PROSPECTUS.md
+      words: 7788
+
+    triadic_review_protocol:
+      sop_id: SGO-2026-SOP-001
+      file: SOP-TRIADIC-REVIEW-PROTOCOL.md
+      status: CANDIDATE
+
+    trp_reviews:
+      count: 7
+      location: reviews/  # in intake/research-adventures-2026-03/reviews/
+      files:
+        - TRP-BATCH-phase1-and-RP01.md
+        - TRP-BATCH-phase2-synths-SYN05.md
+        - TRP-CAPSTONE-formalization-of-knowledge.md
+        - TRP-RP-06-chomsky-to-computation.md
+        - TRP-SYN-01-grand-unified-semantics.md
+        - TRP-SYN-01-v2-re-review.md
+        - TRP-SYN-02-governance-impossibility.md
+
+    implementation_manifest:
+      file: IMPLEMENTATION-MANIFEST.md
+      total_tasks: 74
+      p0_tasks: 14
+      p1_tasks: 32
+      p2_tasks: 28
+
+    arxiv_submission_packages:
+      file: ARXIV-SUBMISSION-PACKAGES.md
+      papers_targeted: 3
+      sequence:
+        - week_1: SGO-2026-RP-006   # cs.FL
+        - week_2: SGO-2026-SYN-002  # cs.AI
+        - week_3: SGO-2026-SYN-001  # cs.LO
+
+    governance_documents_enacted:
+      - file: governance/2026-03-21-governance-trilemma-declaration.md
+        task: P0-01
+        status: ENACTED
+      - file: governance/2026-03-21-syntactic-semantic-boundary.md
+        task: P0-02
+        status: ENACTED
+      - file: governance/2026-03-21-naming-convention-spec.md
+        task: P0-05
+        status: ENACTED
+      - file: governance/2026-03-21-research-pipeline-sop.md
+        task: pipeline-formalization
+        status: ENACTED
+
+    research_atlas:
+      file: wikipedia-research-atlas-2026-03.md
+
+  # ============================================================
+  # PUBLICATION PIPELINE
+  # ============================================================
+
+  publication_pipeline:
+    arxiv_ready:
+      - SGO-2026-RP-006   # The Fourfold Correspondence
+      - SGO-2026-SYN-002  # The Governance Impossibility Thesis
+      - SGO-2026-SYN-001  # The Architecture of Formal Meaning
+    draft:
+      - SGO-2026-RP-001
+      - SGO-2026-RP-002
+      - SGO-2026-RP-003
+      - SGO-2026-RP-004
+      - SGO-2026-RP-005
+      - SGO-2026-RP-007
+      - SGO-2026-SYN-003
+      - SGO-2026-SYN-004
+      - SGO-2026-SYN-005
+      - SGO-2026-CAP-001
+    journal_targets:
+      - paper: SGO-2026-RP-006
+        journal: "Journal of Logic, Language and Information"
+      - paper: SGO-2026-SYN-002
+        journal: "Philosophy and Technology"
+
+  # ============================================================
+  # TIMELINE
+  # ============================================================
+
+  timeline:
+    2026-03-20:
+      - Research atlas constructed (Wikipedia MCP exploration)
+      - Adventures 1-7 extracted and refined
+      - Prospectus drafted
+      - Phase 1-4 papers composed (v1 drafts, 13 works)
+      - TRP reviews executed (7 review documents)
+      - Revisions produced (v2 drafts, 13 works)
+      - SYN-01 re-reviewed after v2
+      - Implementation manifest extracted (74 tasks)
+      - arXiv submission packages prepared (3 papers)
+    2026-03-21:
+      - Governance documents enacted (P0-01, P0-02, P0-05)
+      - Research pipeline SOP formalized
+      - Research registry created (this file)
+      - Session retrospective written
