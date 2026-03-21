@@ -49,7 +49,7 @@
 | 2. EXPANSION (adventures) | Complete -- 7 adventures |
 | 3. FORMALIZATION (prospectus) | Complete -- programme registered |
 | 4. COMPOSITION (paper drafting) | Complete -- 13 works across 4 phases |
-| 5. REVIEW (TRP) | Complete -- 7 review documents, all works reviewed |
+| 5. REVIEW (TRP) | Complete -- 7 review documents (including batch reviews covering multiple works), all works reviewed |
 | 6. REVISION (v2 drafts) | Complete -- all 13 works revised; SYN-01 re-reviewed |
 | 7. PUBLICATION (arXiv prep) | Partial -- 3 of 13 papers have submission packages |
 | 8. IMPLEMENTATION (manifest + governance) | In progress -- 4 of 14 P0 tasks complete |
