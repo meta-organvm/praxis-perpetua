@@ -61,31 +61,32 @@ jobs:
       - name: Check for broken internal links
         run: |
           set -euo pipefail
-          broken=0
-          # Auto-generated context files contain workspace-relative cross-repo
-          # links (../../organvm-i-theoria/...) that only resolve locally.
-          # Exclude them — they are validated by organvm context sync, not CI.
-          skip_pattern='^\./\(AGENTS\.md\|GEMINI\.md\|CLAUDE\.md\)$'
 
-          while IFS= read -r f; do
-            if echo "$f" | grep -q "$skip_pattern"; then
-              continue
-            fi
+          # Collect files first to avoid SIGPIPE from find under pipefail
+          mapfile -t md_files < <(find . -name '*.md' \
+            -not -path './.git/*' \
+            -not -path './content-pipeline/object-lessons/*' \
+            -not -name 'AGENTS.md' \
+            -not -name 'GEMINI.md' \
+            -not -name 'CLAUDE.md')
+
+          broken=false
+          for f in "${md_files[@]}"; do
             # Extract relative markdown links (not URLs, not anchors)
-            grep -oP '\[.*?\]\(\K[^)]+' "$f" 2>/dev/null | grep -v '^http' | grep -v '^#' | while read -r link; do
-              # Strip any anchor fragment from the link target
+            links=$(grep -oP '\[.*?\]\(\K[^)]+' "$f" 2>/dev/null | grep -v '^http' | grep -v '^#' || true)
+            [ -z "$links" ] && continue
+            while IFS= read -r link; do
               target_path="${link%%#*}"
               [ -z "$target_path" ] && continue
               target="$(dirname "$f")/$target_path"
               if [ ! -e "$target" ]; then
                 echo "BROKEN: $f -> $link"
-                # Signal to parent via temp file (subshell can't set parent vars)
-                touch /tmp/ci-broken-links
+                broken=true
               fi
-            done
-          done < <(find . -name '*.md' -not -path './.git/*' -not -path './content-pipeline/object-lessons/*')
+            done <<< "$links"
+          done
 
-          if [ -f /tmp/ci-broken-links ]; then
+          if [ "$broken" = true ]; then
             echo "FAIL: Broken internal links detected (see above)"
             exit 1
           fi
