@@ -131,7 +131,7 @@ The first two TRP batches (4 and 5 papers respectively) were too large for deep 
 
 ### 4. Version Control Friction
 
-Papers in `intake/research-adventures-2026-03/` and copies in `praxis-perpetua/research/sgo-2026-formalization-of-knowledge/` create a two-location problem. The canonical versions live in the intake directory (where they were produced), but the research programme lives in praxis-perpetua (where they are governed).
+Papers in `praxis-perpetua/intake/research-adventures-2026-03/` and copies in `praxis-perpetua/research/sgo-2026-formalization-of-knowledge/` create a two-location problem. The canonical versions live in the intake directory (where they were produced), but the research programme lives in praxis-perpetua (where they are governed).
 
 **Lesson:** Establish a single canonical location for research artefacts at programme start. The intake directory should be for raw inbound material; once a paper enters the research programme, it should live in the programme directory. File moves should happen at programme registration (Stage 3), not retroactively.
 
