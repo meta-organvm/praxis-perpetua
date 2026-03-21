@@ -87,6 +87,7 @@ At the end of each session that produces or modifies files:
 2. Check for unimplemented plans: `organvm session plans --project .`
 3. Export significant sessions: `organvm session export <id> --slug <slug>`
 4. Run `organvm prompts distill --dry-run` to detect uncovered operational patterns
+5. **Update the Index Rerum Faciendarum** (`meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`) — mark completed items, add newly discovered work. IRF items use `IRF-XXX-NNN` IDs (e.g., IRF-SGO-001). SGO-relevant domains: IRF-SGO (studium), IRF-DOC (documentation), IRF-VER (verification).
 
 Transcripts are on-demand (never committed):
 - `organvm session transcript <id>` — conversation summary
