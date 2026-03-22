@@ -37,12 +37,30 @@ commissions:
     chapters: 11
     lines: ~2046
     needs:
-      - Second instantiation (deploy against ORGAN-IV Taxis)
+      - Second instantiation (deploy against ORGAN-IV Taxis) — PARTIALLY MET via Hermeneus (see evidence)
       - Human baseline (3 expert engineers rate pipeline; compare ICC)
       - Expanded panel (7 raters across 3 providers)
       - 6+ monthly longitudinal assessments
       - Expanded references to 80+
       - arXiv submission of IRA methodology as Paper (Tier I)
+    evidence:
+      - date: 2026-03-21
+        session: S28
+        type: instantiation
+        site: META-ORGANVM/stakeholder-portal (Hermeneus)
+        description: >-
+          Provider cascade deployed as second instantiation of multi-model
+          governance. Groq primary → OSS fallback with per-provider error
+          isolation. Quality governance on model output via ad-injection
+          stripping. Institutional health monitoring via /api/health/llm
+          (probes all providers, reports latency and status). Self-aware
+          evidence quality via stale-context warnings when retrieval sources
+          are aged. Not ORGAN-IV Taxis as originally specified, but proves
+          the governance pattern operates in a different organ context.
+        artifacts:
+          - src/app/api/chat/route.ts (provider cascade, ad stripping)
+          - src/app/api/health/llm/route.ts (institutional health monitoring)
+          - seed.yaml (6 declared capabilities)
 
   - id: INQ-2026-003
     title: >-
