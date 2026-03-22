@@ -61,6 +61,12 @@ commissions:
           - src/app/api/chat/route.ts (provider cascade, ad stripping)
           - src/app/api/health/llm/route.ts (institutional health monitoring)
           - seed.yaml (6 declared capabilities)
+      - date: 2026-03-21
+        session: S28
+        type: structural-encoding
+        description: >-
+          AX-003 structurally encoded in governance/individual_primacy.py —
+          PrimacyReport dataclass, 3-check HITL validation
 
   - id: INQ-2026-003
     title: >-
@@ -128,6 +134,7 @@ commissions:
       - Structure enacts the argument — feedback / feedsides / feedforward
       - Constitutional directives issued in Paper III bind ORGANVM operations
       - Full bibliography of 120-180 primary and peer-reviewed secondary sources
+      - "S28: AX-008 encoded via FlowType enum and MultiplexGraph in governance/dependency_graph.py"
 
   - id: INQ-2026-006
     title: >-
@@ -163,3 +170,4 @@ commissions:
       - Wikipedia article drafts — 3 concepts drafted
       - Naming convention validator built (meta-organvm/tools/naming-validator/, 67 tests)
       - Session retrospective written (SESSION-RETROSPECTIVE-2026-03-21.md)
+      - "S28: Both AX-003 and AX-008 now formally enforceable — primacy checks and multiplex typed edges"
