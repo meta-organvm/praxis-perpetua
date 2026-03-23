@@ -50,6 +50,13 @@
 - [Shell config philosophy](user_shell_philosophy.md) — invisible, fast, silent, zero-maintenance
 - [No approval gates](feedback_no_approval_gates.md) — when given autonomy, execute end-to-end, don't pause for sign-off
 
+## Supreme Operating Principles (non-negotiable)
+- [The Conductor Principle](feedback_conductor_principle.md) — human dreams, system executes. Never defer grunt work.
+- [Nothing Local Only](feedback_nothing_local_only.md) — every artifact pushed to remote. "ON DISK" = vacuum.
+- [N/A Is A Vacuum](feedback_na_is_vacuum.md) — every N/A is an imperative. Research, plan, log.
+- [Triadic Review Protocol](feedback_triadic_review.md) — 3 POVs minimum, amorphous constitution, no bare approval.
+- [Session Close-Out Protocol](feedback_session_closeout.md) — IRF → 10-index propagation → N/A audit → nothing local only → git clean.
+
 ## SGO Research Program (2026-03-21)
 - [Full program details](project_sgo_research_program.md) — 13 works, 500K+ words, all TRP-cleared
 - [Research workflow preferences](feedback_research_workflow.md) — momentum over caution, parallel execution
