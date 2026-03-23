@@ -111,6 +111,7 @@ commissions:
       - Counter-arguments addressed (intentionality, scale, audience)
       - Full bibliography of 90 primary and secondary sources
       - Application of diagnostic framework to ORGANVM system
+      - "S27+S29: Self-referential closure demonstrated — conversation-corpus-engine processes the AI conversations that designed it. The autopoietic cycle: system built from chats → engine extracts knowledge from chats → engine remembers its own creation. First breath pending: ingest session transcripts."
 
   - id: INQ-2026-005
     title: >-
@@ -135,6 +136,7 @@ commissions:
       - Constitutional directives issued in Paper III bind ORGANVM operations
       - Full bibliography of 120-180 primary and peer-reviewed secondary sources
       - "S28: AX-008 encoded via FlowType enum and MultiplexGraph in governance/dependency_graph.py"
+      - "S29: Mneme (memory) introduced as 8th physiological function. SPEC-019 proposes liquid model where formations declare function participation. The metabolic principle enacted: the system's memory IS its metabolism of past conversations into future knowledge."
 
   - id: INQ-2026-006
     title: >-
@@ -171,3 +173,7 @@ commissions:
       - Naming convention validator built (meta-organvm/tools/naming-validator/, 67 tests)
       - Session retrospective written (SESSION-RETROSPECTIVE-2026-03-21.md)
       - "S28: Both AX-003 and AX-008 now formally enforceable — primacy checks and multiplex typed edges"
+      - "S27+S29: conversation-corpus-engine published — the research instrument for formalizing knowledge from AI conversations. 6 providers, federation, evaluation with regression gates, surface exports. Directly implements the programme's subject matter: knowledge formalization through corpus accumulation, federation, and governance."
+      - "S29: PROOF-reservoir-placement v2 — formal proof (5 lemmas) that cross-organ RESERVOIR formations belong in Theoria. Derived from Formation Protocol §7.2. Advances architectural self-description research."
+      - "S29: SPEC-019 System Manifestation — liquid model specification. Named functions replacing numbered organs. Signal algebra with Greek letter variables. Formation composability via set intersection. Advances formalization programme's architectural domain."
+      - "S29: Signal algebra implemented — 14 post-flood signal classes as typed behavioral contracts per SYN-04 (behavioral-contracts-signal-typing). Composability checking and Reservoir Law validation. Directly instantiates the programme's signal typing research."
