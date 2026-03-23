@@ -1,0 +1,993 @@
+% arXiv submission: RP-06
+% Title: The Fourfold Correspondence: Grammar, Automaton, Type, and Proof
+%        from Chomsky to Curry-Howard-Lambek
+% Author: A. Padavano (Independent researcher)
+% Primary category: cs.FL (Formal Languages and Automata Theory)
+% Cross-list: cs.LO, cs.CL, math.CT
+% MSC 2020: 68Q45, 03B40, 03F03, 18C50
+% License: CC BY 4.0
+% Date: 2026
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{alltt}
+\usepackage{microtype}
+\usepackage[margin=1in]{geometry}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{proposition}{Proposition}
+
+\title{The Fourfold Correspondence:\\Grammar, Automaton, Type, and Proof\\from Chomsky to Curry-Howard-Lambek}
+
+\author{A.~Padavano\\
+  \textit{Independent researcher, Studium Generale ORGANVM}}
+
+\date{2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper establishes a fourfold structural correspondence linking formal
+grammars, abstract automata, type systems, and proof calculi. The classical
+result in formal language theory pairs each level of the Chomsky hierarchy with
+a class of abstract machines. We extend this twofold correspondence to a
+fourfold one by demonstrating that each level admits a canonical
+type-theoretic characterisation and a corresponding proof-theoretic regime.
+The extension is mediated by categorial grammar (Ajdukiewicz, Bar-Hillel,
+Lambek) and the Curry-Howard-Lambek correspondence. We argue that these are
+not four independent correspondences but four projections of a single
+mathematical structure, while carefully stratifying evidence strength at each
+level: the correspondence ranges from constructive isomorphism at the
+context-free level, through structural embedding at the context-sensitive
+level, to analogy at the unrestricted level. We ground linguistic claims in
+typologically diverse evidence spanning agglutinative (Turkish),
+isolating/tonal (Mandarin), sign (ASL), non-configurational (Warlpiri), and
+polysynthetic (Mohawk) languages, addressing limitations posed by gradient
+grammaticality, multiword expressions, and contested empirical arguments. We
+survey the historical development from Chomsky's 1956 hierarchy through
+Lambek's 1958 syntactic calculus to the DisCoCat framework of Coecke,
+Sadrzadeh, and Clark, examining where the fourfold correspondence holds
+precisely and where it breaks down. We identify three open problems: the
+type-theoretic characterisation of mildly context-sensitive languages (for
+which we propose a conjecture), whether neural language models learn
+type-theoretic structure, and the formal relationship between Chomsky's Merge
+operation and typed function application.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Chomsky hierarchy, type theory, Curry-Howard
+correspondence, categorial grammar, Lambek calculus, formal language theory,
+mildly context-sensitive languages, compositional semantics
+
+\bigskip
+
+\section{Introduction}
+
+In 1956, Noam Chomsky proposed a classification of formal grammars into four
+types, arranged by increasing generative power, that has since become one of
+the most consequential taxonomies in the mathematical sciences~\cite{Chomsky1956}.
+The \emph{Chomsky hierarchy}, as it came to be known, stratifies formal
+grammars into regular grammars (Type~3), context-free grammars (Type~2),
+context-sensitive grammars (Type~1), and unrestricted grammars (Type~0). Each
+class generates a strictly larger family of formal languages than its
+predecessor, and each admits recognition by a correspondingly more powerful
+class of abstract machines: finite automata, pushdown automata, linear bounded
+automata, and Turing machines, respectively. This grammar-automaton
+correspondence, established through the combined efforts of
+Chomsky~\cite{Chomsky1959}, Rabin and Scott~\cite{RabinScott1959},
+Myhill~\cite{Myhill1957}, and others, constitutes one of the foundational
+results of theoretical computer science.
+
+The significance of the hierarchy extends well beyond its original domain.
+Chomsky formulated it to characterise the structural properties of natural
+language; within a decade, the same formal apparatus had been adopted by
+computer scientists as the basis for programming language definition. Backus
+and Naur's notation for the syntax of ALGOL~60~\cite{Backus1959,Naur1960} is
+a context-free grammar in Chomsky's precise sense, and the phrase-structure
+rules that Chomsky proposed for English in \emph{Syntactic
+Structures}~\cite{Chomsky1957} are formally identical to the production rules
+that define programming language parsers. The hierarchy thus serves as a shared
+substrate linking linguistics and computer science---a mathematical Rosetta
+Stone.
+
+Yet the grammar-automaton correspondence, for all its elegance, captures only
+two of the relevant dimensions. There exists a third dimension---type-theoretic---that is less widely recognised but arguably runs at least as deep. In
+this dimension, each level of the Chomsky hierarchy corresponds to a regime of
+type-system expressiveness: regular grammars to finite (enumeration) types,
+context-free grammars to recursive algebraic types, context-sensitive grammars
+to parametrically polymorphic types, and unrestricted grammars to fully
+dependent types. This correspondence can be made precise through the framework
+of \emph{categorial grammar}, in which syntactic categories are function
+types, grammatical derivations are proofs, and sentence formation is typed
+function application~\cite{Ajdukiewicz1935,BarHillel1953,Lambek1958}.
+
+The bridge from types to proofs is provided by the \emph{Curry-Howard
+correspondence}~\cite{Howard1980}, which demonstrates that propositions are
+types and proofs are programs. Lambek~\cite{Lambek1972,Lambek1980} extended
+this to a three-way equivalence by showing that typed lambda calculi
+correspond to Cartesian closed categories. When combined with the observation
+that Lambek's own 1958 syntactic calculus is simultaneously a grammar
+formalism, a logical system, and a typed calculus, the three-way
+correspondence becomes fourfold: grammatical derivations are proofs are typed
+terms are morphisms in a category.
+
+\subsection{Stratification of Correspondence Strength}
+
+A critical methodological point must be established at the outset. The nature
+of the fourfold correspondence varies significantly across the levels of the
+Chomsky hierarchy, and conflating these different degrees of strength would
+undermine the contribution's formal credibility. We distinguish three tiers:
+
+\textbf{Isomorphism.} A constructive bijection exists between the structures
+on both sides, with inverse maps that preserve all relevant structure.
+
+\textbf{Structural embedding (homomorphism).} A structure-preserving map
+exists from one side to the other, but the map is not necessarily surjective or
+invertible.
+
+\textbf{Analogy.} The two sides share structural features---similar closure
+properties, similar decidability boundaries, similar compositional
+principles---but no single formal map has been established.
+
+\begin{table}[ht]
+\centering
+\caption{Stratification of correspondence strength across hierarchy levels}
+\label{tab:stratification}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Chomsky Level & Grammar-Automaton & Grammar-Type & Grammar-Proof & Overall \\
+\midrule
+Type 3 (Regular) & Isomorphism & Embedding & Embedding & Embedding \\
+Type 2 (Context-free) & Isomorphism & \textbf{Isomorphism} & Isomorphism & \textbf{Isomorphism} \\
+MCS & Isomorphism & \textbf{Open} & Partial & Partial \\
+Type 1 (Context-sensitive) & Isomorphism & Embedding (conj.) & Analogy & Embedding \\
+Type 0 (Unrestricted) & Isomorphism & Analogy & Analogy & Analogy \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This stratification has a crucial consequence: the paper's strongest
+contribution is at the context-free level, where the fourfold correspondence
+is a genuine isomorphism. Claims about the other levels must be qualified
+accordingly, and we do so throughout.
+
+\subsection{Scope and Framing}
+
+This paper is framed within the generativist tradition of formal grammar, for
+the reason that the Chomsky hierarchy \emph{is} a generativist construct. We
+acknowledge at the outset that substantial traditions in linguistics---including
+Construction Grammar~\cite{Goldberg1995,Goldberg2006}, Cognitive
+Grammar~\cite{Langacker1987,Langacker2008}, and usage-based
+approaches~\cite{Bybee2006,Bybee2010}---reject the premise that natural
+language structure is best described by formal grammars in the Chomsky sense.
+Section~\ref{sec:limitations} addresses this debate directly. The fourfold
+correspondence applies most cleanly to \emph{formal} and \emph{computational}
+languages, where compositionality is exact and grammaticality is binary. Its
+extension to natural language is conjectural and approximate, and we are
+explicit about where the fit degrades.
+
+Three research questions guide the inquiry:
+
+\textbf{RQ1.} What is the precise type-theoretic characterisation of each
+level of the Chomsky hierarchy, and can this characterisation be extended to
+the class of \emph{mildly context-sensitive} languages---the conjectured
+complexity class of natural language~\cite{Joshi1985}?
+
+\textbf{RQ2.} Do neural language models (transformer architectures) implicitly
+learn type-theoretic structure, and if so, at what level of the Chomsky
+hierarchy does their implicit grammar reside?
+
+\textbf{RQ3.} Is the Merge operation of Chomsky's Minimalist
+Program~\cite{Chomsky1995} formally equivalent to function application in the
+typed lambda calculus?
+
+\section{The Chomsky Hierarchy}
+
+The hierarchy classifies formal grammars into four nested types, each defined
+by progressively weaker constraints on the form of production rules. A formal
+grammar is a quadruple $G = (V, \Sigma, R, S)$, where $V$ is a finite set of
+nonterminal symbols, $\Sigma$ is a finite set of terminal symbols disjoint
+from $V$, $R$ is a finite set of production rules, and $S \in V$ is a
+distinguished start symbol.
+
+\subsection{Type 3: Regular Languages}
+
+\textbf{Grammar restriction.} A regular grammar restricts production rules to
+the forms $A \to aB$ or $A \to a$, where $A, B \in V$ and $a \in \Sigma$.
+
+\textbf{Formal languages generated.} Regular grammars generate exactly the
+class of \emph{regular languages}. Kleene's theorem~\cite{Kleene1956}
+established the equivalence of regular expressions and finite automata. Regular
+languages are closed under union, intersection, complementation, concatenation,
+and Kleene star.
+
+\textbf{Linguistic examples.} Turkish vowel harmony provides a well-studied
+example from a typologically distinct, agglutinative language. Vowel
+harmony---the requirement that vowels in suffixes agree in backness and
+rounding with the stem vowel---can be modelled by a finite-state
+transducer~\cite{KaplanKay1994}. Mandarin Chinese tone sandhi offers an
+example from an isolating, tonal language: third-tone sandhi is a local,
+context-dependent phonological process capturable by finite-state rules.
+
+\textbf{Type-theoretic analogue.} The type-theoretic counterpart of a regular
+language is a \emph{finite type} or \emph{enumeration type}. The states of a
+finite automaton correspond to the variants of an enumeration type, and the
+transition function corresponds to a case-analysis (pattern match). The
+correspondence at this level is a \emph{structural embedding} rather than an
+isomorphism.
+
+\subsection{Type 2: Context-Free Languages}
+
+\textbf{Grammar restriction.} A context-free grammar restricts production
+rules to the form $A \to \alpha$, where $A$ is a single nonterminal and
+$\alpha$ is any string of terminals and nonterminals.
+
+\textbf{The recognition machine: pushdown automata.} A language is
+context-free if and only if it is accepted by some nondeterministic pushdown
+automaton~\cite{Chomsky1962,Evey1963}.
+
+\textbf{Linguistic examples.} Warlpiri, a non-configurational Australian
+language~\cite{Hale1983}, challenges the context-free model: its free word
+order with discontinuous constituents cannot be directly generated by standard
+CFGs. This demonstrates that while CFGs capture the \emph{hierarchical
+dependency} structure, they do not capture \emph{linear realisation} in free
+word-order languages.
+
+\textbf{Type-theoretic analogue: recursive algebraic types.} This
+correspondence is exact. A context-free grammar is a system of equations
+defining nonterminals in terms of terminals and other nonterminals, possibly
+recursively. A recursive algebraic data type is a system of equations defining
+types in terms of base types and other type constructors, possibly recursively.
+The BNF rule:
+
+\begin{verbatim}
+Expr ::= Expr '+' Term | Term
+Term ::= Term '*' Factor | Factor
+Factor ::= '(' Expr ')' | Number
+\end{verbatim}
+
+\noindent is isomorphic to the Haskell type definition:
+
+\begin{verbatim}
+data Expr   = Add Expr Term | ETerm Term
+data Term   = Mul Term Factor | TFactor Factor
+data Factor = Parens Expr | Num Int
+\end{verbatim}
+
+The nonterminals of the grammar correspond to the type names; alternatives
+separated by \texttt{|} correspond to sum types; sequencing corresponds to
+product types. Parsing a string is exactly constructing a value of the
+corresponding algebraic type. \emph{Strength: isomorphism.}
+
+\subsection{Type 1: Context-Sensitive Languages}
+
+\textbf{Grammar restriction.} A context-sensitive grammar permits production
+rules of the form $\alpha A \beta \to \alpha \gamma \beta$, where $A$ is a
+nonterminal and $\gamma$ is non-empty.
+
+\textbf{Linguistic examples.} Swiss German cross-serial
+dependencies~\cite{Shieber1985} generate patterns of the form
+$\{a^n b^n c^n\}$. We note that Shieber's argument, while widely accepted, is
+not uncontested~\cite{PullumGazdar1982,MichaelisKracht1997}. Mohawk noun
+incorporation~\cite{Baker1988,Baker1996} presents a polysynthetic challenge.
+
+\textbf{A worked example: encoding $\{a^n b^n c^n\}$ in System F.} The
+string $a^i b^j c^k$ can be represented by a triple of Church numerals
+$(\underline{i}, \underline{j}, \underline{k})$. The predicate $i = j = k$
+can be verified in System~F using the standard encoding of Church numeral
+equality. However, this encoding operates at the level of \emph{refinement
+types} rather than pure System~F, and is not \emph{structural} in the way
+that the BNF-to-algebraic-type correspondence is. We therefore classify the
+Type~1 correspondence as a \emph{structural embedding}: context-sensitive
+phenomena can be faithfully represented but the representation is an encoding
+rather than an isomorphism.
+
+\subsection{Type 0: Recursively Enumerable Languages}
+
+Unrestricted grammars generate exactly the \emph{recursively enumerable}
+languages. The type-theoretic counterpart is \emph{full dependent type
+theory}: the Calculus of Constructions~\cite{CoquandHuet1988} and
+Martin-L\"{o}f's Intuitionistic Type Theory~\cite{MartinLof1975,MartinLof1984}.
+In their full generality, dependent type systems are Turing-complete:
+type-checking is equivalent to theorem-proving, which is undecidable.
+\emph{Strength: analogy.}
+
+\subsection{Beyond the Hierarchy: Mildly Context-Sensitive Languages}
+
+Between the context-free and context-sensitive levels lies a family of language
+classes termed \emph{mildly context-sensitive}, introduced by
+Joshi~\cite{Joshi1985}. Several independently developed grammar formalisms
+satisfy Joshi's criteria: tree-adjoining grammars (TAGs;
+\cite{JoshiLevyTakahashi1975}), combinatory categorial grammars
+(CCGs; \cite{Steedman2000}), head grammars~\cite{Pollard1984}, and linear
+indexed grammars~\cite{Gazdar1988}. These were shown to be weakly
+equivalent~\cite{VijayShankerWeir1994}.
+
+American Sign Language (ASL) challenges the string-based foundation of the
+hierarchy: ASL uses \emph{simultaneous} articulation across multiple channels
+(two hands, facial expression, eye gaze, body
+posture)~\cite{SandlerLilloMartin2006}.
+
+\subsection{Summary Table}
+
+\begin{table}[ht]
+\centering
+\caption{Grammar-automaton-type correspondence across all levels}
+\label{tab:hierarchy}
+\small
+\begin{tabular}{@{}llllll@{}}
+\toprule
+Type & Grammar & Automaton & Type Analogue & Decidability & Strength \\
+\midrule
+3 & Regular & Finite automaton & Finite types & $O(n)$ & Embedding \\
+2 & Context-free & Pushdown automaton & Recursive algebraic & $O(n^3)$ & \textbf{Isomorphism} \\
+MCS & TAG/CCG & Embedded PDA & Bounded 2nd-order (conj.) & $O(n^6)$ & Partial \\
+1 & Context-sensitive & Linear bounded & Parametric polymorphism & PSPACE & Embedding \\
+0 & Unrestricted & Turing machine & Full dependent types & Undecidable & Analogy \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{From Grammars to Machines}
+
+The grammar-automaton correspondence is established by constructive
+translations between grammar types and automaton types at each
+level~\cite{Kleene1956,Chomsky1962,Kuroda1964}. The computational complexity
+of the membership problem varies dramatically:
+
+\begin{itemize}
+  \item \textbf{Regular:} $O(n)$ for deterministic finite automata.
+  \item \textbf{Context-free:} $O(n^3)$ for CYK; $O(n)$ for LR($k$) grammars.
+  \item \textbf{Context-sensitive:} PSPACE-complete.
+  \item \textbf{Recursively enumerable:} Undecidable.
+\end{itemize}
+
+The sharp jump from polynomial to PSPACE-complete explains why programming
+languages are designed to have context-free syntax.
+
+Natural languages cluster at the mildly context-sensitive level, for reasons
+potentially involving learnability~\cite{Joshi1985}, processing
+constraints~\cite{Stabler2013}, and the syntax-semantics
+interface~\cite{Steedman2000}.
+
+\section{From Grammars to Types}
+
+\subsection{The Lambek Calculus: Grammar as Logic}
+
+Lambek's \emph{syntactic calculus}~\cite{Lambek1958} reformulates categorial
+grammar as a logical system. It operates over basic types ($S$, $N$, $NP$) and
+two type-forming connectives: right division $A/B$ and left division
+$B \backslash A$. The calculus includes introduction and elimination rules for
+both connectives, precisely analogous to natural deduction rules for
+implication. The Lambek calculus is a \emph{non-commutative substructural
+logic}, and Pentus~\cite{Pentus1997} proved that its product-free fragment
+generates exactly the context-free languages.
+
+\subsection{Categorial Grammar: Ajdukiewicz, Bar-Hillel, Lambek}
+
+In categorial grammar, every word is assigned syntactic types, and sentences
+are derived by functional application alone. The critical observation is that
+categorial types \emph{are} function types in a typed lambda calculus.
+The category $NP/N$ is the function type $N \to NP$. Sentence formation
+\emph{is} function application. Parsing \emph{is} type-checking.
+
+\subsection{Combinatory Categorial Grammar (Steedman)}
+
+CCG~\cite{Steedman2000} extends classical categorial grammar with composition
+($B$), type-raising ($T$), and other combinators corresponding to combinatory
+logic~\cite{CurryFeys1958}. CCG generates exactly the mildly context-sensitive
+languages~\cite{VijayShankerWeir1994}, making it arguably the most successful
+realisation of the grammar-type-proof correspondence in computational practice.
+
+\subsection{Montague Grammar and the Lambda Calculus Connection}
+
+Montague's programme~\cite{Montague1970a,Montague1970b,Montague1973} forged
+the definitive link between natural language grammar and the typed lambda
+calculus. In category-theoretic terms, Montague grammar defines a
+\emph{functor} from the syntactic category to the semantic category.
+
+\subsection{The Grammar-Type Hierarchy}
+
+\begin{itemize}
+  \item \textbf{Regular $\leftrightarrow$ finite types.} Strength: embedding.
+  \item \textbf{Context-free $\leftrightarrow$ recursive algebraic types.}
+    Strength: \textbf{isomorphism}.
+  \item \textbf{Context-sensitive $\leftrightarrow$ parametric polymorphism
+    (System~F).} Strength: embedding (conjectured).
+  \item \textbf{Unrestricted $\leftrightarrow$ full dependent types.}
+    Strength: analogy.
+\end{itemize}
+
+\begin{conjecture}[MCS Gap Conjecture]
+The type system corresponding to mildly context-sensitive languages is a
+\emph{bounded linear polymorphic calculus}: a fragment of the linear lambda
+calculus with second-order quantification restricted to bounded polymorphism
+(System $F_{<:}$ restricted to linear types) or to a finite rank.
+\end{conjecture}
+
+This conjecture is falsifiable: it predicts that the languages typable in such
+a system coincide with the MCS class.
+
+\subsection{Pregroup Grammars}
+
+Lambek's pregroup grammars~\cite{Lambek1999,Lambek2008} are a radical
+algebraic simplification, where syntactic types are elements of a pregroup
+with left and right adjoints satisfying $a^l \cdot a \leq 1 \leq a \cdot a^l$
+and $a \cdot a^r \leq 1 \leq a^r \cdot a$.
+
+\section{The Curry-Howard-Lambek Triangle and the Fourfold Correspondence}
+
+\subsection{Proofs = Programs (Curry-Howard)}
+
+The Curry-Howard correspondence establishes an isomorphism between formal
+logic and typed lambda calculi:
+
+\begin{table}[ht]
+\centering
+\caption{The Curry-Howard dictionary}
+\label{tab:curryhoward}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Logic & Computation \\
+\midrule
+Proposition & Type \\
+Proof & Program (term) \\
+Implication $A \Rightarrow B$ & Function type $A \to B$ \\
+Conjunction $A \wedge B$ & Product type $A \times B$ \\
+Disjunction $A \vee B$ & Sum type $A + B$ \\
+Universal $\forall x.\, P(x)$ & Dependent function $\Pi(x{:}A).\, P(x)$ \\
+Existential $\exists x.\, P(x)$ & Dependent pair $\Sigma(x{:}A).\, P(x)$ \\
+Modus ponens & Function application \\
+Proof normalisation & $\beta$-reduction \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Programs = Morphisms (Lambek)}
+
+Lambek~\cite{Lambek1972,Lambek1980} demonstrated that typed lambda calculi
+correspond to Cartesian closed categories, yielding:
+\[
+\text{Intuitionistic propositional logic}
+  \cong \text{Simply typed }\lambda\text{-calculus}
+  \cong \text{Cartesian closed categories}
+\]
+
+\subsection{The Linguistic Extension}
+
+In categorial grammar, \emph{parsing a sentence is constructing a proof is
+type-checking a term is composing morphisms in a category}. These are the same
+activity described in four mathematical languages.
+
+\begin{table}[ht]
+\centering
+\caption{The fourfold correspondence}
+\label{tab:fourfold}
+\begin{tabular}{@{}llll@{}}
+\toprule
+Grammar & Logic & Computation & Category \\
+\midrule
+Syntactic category & Proposition & Type & Object \\
+Derivation & Proof & Program & Morphism \\
+$A/B$ & Implication & Function type & Exponential \\
+Application & Modus ponens & $\beta$-reduction & Evaluation \\
+Lexicon & Axioms & Constants & Generators \\
+Grammaticality & Provability & Type inhabitedness & Morphism existence \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{The Consolidated Fourfold Table}
+
+\begin{table}[ht]
+\centering
+\caption{Full four-column, five-row correspondence}
+\label{tab:consolidated}
+\small
+\begin{tabular}{@{}llllll@{}}
+\toprule
+Level & Grammar & Automaton & Type System & Proof Calculus & Strength \\
+\midrule
+Type 3 & Regular & Finite aut. & Finite types & Propositional & Embedding \\
+Type 2 & CFG / Lambek & PDA & Recursive alg. types & Intuit. prop. logic & \textbf{Iso.} \\
+MCS & TAG / CCG & Embedded PDA & Bounded lin. poly. (conj.) & Restricted 2nd-order & Partial \\
+Type 1 & CSG & LBA & System F / Refinement & 2nd-order intuit. & Embedding \\
+Type 0 & Unrestricted & TM & Full dep. types (CoC) & Higher-order logic & Analogy \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Where It Breaks Down}
+\label{sec:limitations}
+
+\textbf{Gradient grammaticality.} The Chomsky hierarchy assumes binary
+grammaticality, but natural language judgments are
+gradient~\cite{LauClarkLappin2017,SprouseSchutzeAlmeida2013}. Graded monads
+and quantitative type theories~\cite{Atkey2018,McBride2016} provide possible
+extensions.
+
+\textbf{The multiword expression problem.} A substantial proportion of natural
+language (30--80\% of running text~\cite{ErmanWarren2000,Wray2002}) consists
+of prefabricated chunks that resist compositional analysis. The fourfold
+correspondence applies to the \emph{compositional} portion and must be
+supplemented for the non-compositional portion.
+
+\textbf{The generativist vs.\ usage-based debate.} Usage-based
+approaches~\cite{Goldberg1995,Langacker1987,Bybee2006} reject the premise
+that abstract formal grammars are the right description of linguistic
+knowledge. A moderate usage-based position can potentially be accommodated by
+extending the correspondence to weighted grammars and graded type systems.
+
+\subsection{The DisCoCat Framework}
+
+The DisCoCat framework~\cite{CoeckeSadrzadehClark2010} resolves the tension
+between distributional and compositional semantics using category theory. A
+DisCoCat model is a strong monoidal functor $F \colon \mathbf{Preg} \to
+\mathbf{FdVect}$. The connection to quantum computing has led to
+implementations on quantum hardware via the \texttt{lambeq}
+framework~\cite{Kartsaklis2021}.
+
+\section{Modern Developments}
+
+\subsection{Programming Language Theory}
+
+Bidirectional type-checking~\cite{DunfieldKrishnaswami2021} mirrors the
+bidirectionality of parsing. Algebraic effects extend type classification from
+values to computations. Homotopy Type Theory (HoTT) adds a geometric
+interpretation: types are spaces, proofs are paths.
+
+\subsection{NLP: CCG Parsing and Neural Approaches}
+
+CCG parsers~\cite{ClarkCurran2007,LewisSteedman2014} achieve broad-coverage
+parsing producing typed semantic representations. Probing studies of
+transformers~\cite{HewittManning2019,Clark2019,Jawahar2019} provide
+suggestive evidence that neural models encode at least context-free and some
+context-sensitive structure, though the probing methodology has been
+challenged~\cite{HewittLiang2019}.
+
+\subsection{The Minimalist Program and Merge}
+
+Chomsky's Merge operation~\cite{Chomsky1995,Chomsky2000} takes two syntactic
+objects and combines them into a set. The parallel with function application
+has been noted~\cite{Collins2002,Stabler2011}, and Minimalist Grammars
+generate exactly the mildly context-sensitive
+languages~\cite{Stabler1997,Stabler2011}. The key obstacle to full
+equivalence is the symmetry of Merge vs.\ the asymmetry of application.
+
+\section{Implications}
+
+\subsection{For Programming Language Design}
+
+The grammar hierarchy provides a decision framework for type system design:
+finite types (trivial checking), recursive algebraic types (decidable),
+parametric polymorphism (decidable checking, undecidable inference), dependent
+types (decidable only with termination enforcement).
+
+\subsection{For NLP}
+
+The type-theoretic perspective suggests that parsing should be understood as
+\emph{type inference}: producing typed lambda terms rather than untyped parse
+trees. Type-driven parsing~\cite{BaldridgeKruijff2003} reduces ambiguity by
+filtering type-inconsistent derivations.
+
+\subsection{For Governance System Design}
+
+The Chomsky hierarchy classifies the decidability of governance rule systems:
+regular rules ($O(n)$, guaranteed termination), context-free rules
+(polynomial, decidable), context-sensitive rules (PSPACE-complete),
+unrestricted rules (potentially non-terminating). Governance designers should
+choose the weakest level that suffices for their requirements.
+
+\section{Discussion}
+
+The fourfold correspondence admits three interpretations of varying strength:
+the \emph{weak} (structural analogies), the \emph{moderate} (precise
+mathematical maps at certain levels, conjectural at others), and the
+\emph{strong} (four descriptions of a single mathematical structure). We have
+presented evidence for the moderate interpretation while arguing that the
+strong interpretation is a productive research programme. The primary gap is
+at the mildly context-sensitive level.
+
+The limitations of gradient grammaticality, multiword expressions, and the
+generativist-vs.-usage-based debate are not peripheral but characterise the
+majority of natural language use. The fourfold correspondence is exact for
+formal and computational languages and approximate for natural language.
+
+\section{Conclusion}
+
+This paper has traced a fourfold structural correspondence linking formal
+grammars, abstract automata, type systems, and proof calculi. The principal
+contributions are: (1)~systematic extension of the grammar-automaton
+correspondence with stratified precision claims; (2)~identification of the MCS
+gap and a concrete conjecture (bounded linear polymorphic calculus);
+(3)~cross-linguistic grounding in five typologically diverse languages;
+(4)~explicit treatment of gradient grammaticality, multiword expressions, and
+the contested status of key empirical arguments; (5)~analysis of the
+Merge-application connection; (6)~survey of the neural grammar question; and
+(7)~practical implications for programming language design, NLP, and governance
+systems.
+
+The convergence of Chomsky's grammars, Turing's machines, Church's types, and
+Lambek's categories is one of the deepest structural results of the twentieth
+century, and its full articulation remains one of the most compelling open
+problems of the twenty-first.
+
+\section*{Acknowledgments}
+
+This work was conducted as part of the Studium Generale ORGANVM research
+program. The author acknowledges the use of AI language models (Claude,
+Anthropic) as research assistants for literature synthesis, structural
+drafting, and adversarial review via the Triadic Review Protocol. All
+intellectual claims, arguments, and editorial decisions are the author's own.
+
+\medskip
+\noindent\textcopyright~2026 A.~Padavano. This work is licensed under a
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+\begin{thebibliography}{99}
+
+\bibitem{Ajdukiewicz1935}
+K.~Ajdukiewicz.
+\newblock Die syntaktische Konnexitat.
+\newblock \emph{Studia Philosophica}, 1:1--27, 1935.
+
+\bibitem{Atkey2018}
+R.~Atkey.
+\newblock Syntax and semantics of quantitative type theory.
+\newblock In \emph{Proc.\ 33rd Annual ACM/IEEE Symp.\ Logic in Computer Science}, pp.~56--65, 2018.
+
+\bibitem{Backus1959}
+J.~Backus.
+\newblock The syntax and semantics of the proposed international algebraic language of the Zurich ACM-GAMM conference.
+\newblock In \emph{Proc.\ Int.\ Conf.\ Information Processing}, UNESCO, pp.~125--131, 1959.
+
+\bibitem{Baker1988}
+M.~C.~Baker.
+\newblock \emph{Incorporation: A Theory of Grammatical Function Changing}.
+\newblock Univ.\ Chicago Press, 1988.
+
+\bibitem{Baker1996}
+M.~C.~Baker.
+\newblock \emph{The Polysynthesis Parameter}.
+\newblock Oxford Univ.\ Press, 1996.
+
+\bibitem{BaldridgeKruijff2003}
+J.~Baldridge and G.-J.~M.~Kruijff.
+\newblock Multi-modal combinatory categorial grammar.
+\newblock In \emph{Proc.\ 10th EACL}, pp.~211--218, 2003.
+
+\bibitem{BarHillel1953}
+Y.~Bar-Hillel.
+\newblock A quasi-arithmetical notation for syntactic description.
+\newblock \emph{Language}, 29(1):47--58, 1953.
+
+\bibitem{Bybee2006}
+J.~Bybee.
+\newblock From usage to grammar: The mind's response to repetition.
+\newblock \emph{Language}, 82(4):711--733, 2006.
+
+\bibitem{Bybee2010}
+J.~Bybee.
+\newblock \emph{Language, Usage and Cognition}.
+\newblock Cambridge Univ.\ Press, 2010.
+
+\bibitem{Chomsky1956}
+N.~Chomsky.
+\newblock Three models for the description of language.
+\newblock \emph{IRE Trans.\ Information Theory}, 2(3):113--124, 1956.
+
+\bibitem{Chomsky1957}
+N.~Chomsky.
+\newblock \emph{Syntactic Structures}.
+\newblock Mouton, 1957.
+
+\bibitem{Chomsky1959}
+N.~Chomsky.
+\newblock On certain formal properties of grammars.
+\newblock \emph{Information and Control}, 2(2):137--167, 1959.
+
+\bibitem{Chomsky1962}
+N.~Chomsky.
+\newblock Context-free grammars and pushdown storage.
+\newblock \emph{MIT Res.\ Lab.\ Electronics Quarterly Progress Report}, 65:187--194, 1962.
+
+\bibitem{Chomsky1995}
+N.~Chomsky.
+\newblock \emph{The Minimalist Program}.
+\newblock MIT Press, 1995.
+
+\bibitem{Chomsky2000}
+N.~Chomsky.
+\newblock Minimalist inquiries: The framework.
+\newblock In R.~Martin et al., eds., \emph{Step by Step}, pp.~89--155. MIT Press, 2000.
+
+\bibitem{Clark2019}
+K.~Clark, U.~Khandelwal, O.~Levy, and C.~D.~Manning.
+\newblock What does BERT look at? An analysis of BERT's attention.
+\newblock In \emph{Proc.\ 2019 ACL Workshop BlackboxNLP}, pp.~276--286, 2019.
+
+\bibitem{ClarkCurran2007}
+S.~Clark and J.~R.~Curran.
+\newblock Wide-coverage efficient statistical parsing with CCG and log-linear models.
+\newblock \emph{Computational Linguistics}, 33(4):493--552, 2007.
+
+\bibitem{CoeckeSadrzadehClark2010}
+B.~Coecke, M.~Sadrzadeh, and S.~Clark.
+\newblock Mathematical foundations for a compositional distributional model of meaning.
+\newblock \emph{Linguistic Analysis}, 36(1--4):345--384, 2010.
+
+\bibitem{Collins2002}
+C.~Collins.
+\newblock Eliminating labels.
+\newblock In S.~D.~Epstein and T.~D.~Seely, eds., \emph{Derivation and Explanation in the Minimalist Program}, pp.~42--64. Blackwell, 2002.
+
+\bibitem{CoquandHuet1988}
+T.~Coquand and G.~Huet.
+\newblock The Calculus of Constructions.
+\newblock \emph{Information and Computation}, 76(2--3):95--120, 1988.
+
+\bibitem{CurryFeys1958}
+H.~B.~Curry and R.~Feys.
+\newblock \emph{Combinatory Logic}, Vol.~I.
+\newblock North-Holland, 1958.
+
+\bibitem{DunfieldKrishnaswami2021}
+J.~Dunfield and N.~R.~Krishnaswami.
+\newblock Bidirectional typing.
+\newblock \emph{ACM Computing Surveys}, 54(5):1--38, 2021.
+
+\bibitem{ErmanWarren2000}
+B.~Erman and B.~Warren.
+\newblock The idiom principle and the open choice principle.
+\newblock \emph{Text}, 20(1):29--62, 2000.
+
+\bibitem{Evey1963}
+R.~J.~Evey.
+\newblock Application of pushdown store machines.
+\newblock \emph{Proc.\ Fall Joint Computer Conference}, pp.~215--227, 1963.
+
+\bibitem{Gazdar1988}
+G.~Gazdar.
+\newblock Applicability of indexed grammars to natural languages.
+\newblock In U.~Reyle and C.~Rohrer, eds., \emph{Natural Language Parsing and Linguistic Theories}, pp.~69--94. Reidel, 1988.
+
+\bibitem{Goldberg1995}
+A.~E.~Goldberg.
+\newblock \emph{Constructions: A Construction Grammar Approach to Argument Structure}.
+\newblock Univ.\ Chicago Press, 1995.
+
+\bibitem{Goldberg2006}
+A.~E.~Goldberg.
+\newblock \emph{Constructions at Work}.
+\newblock Oxford Univ.\ Press, 2006.
+
+\bibitem{Hale1983}
+K.~Hale.
+\newblock Warlpiri and the grammar of non-configurational languages.
+\newblock \emph{Natural Language and Linguistic Theory}, 1(1):5--47, 1983.
+
+\bibitem{HewittLiang2019}
+J.~Hewitt and P.~Liang.
+\newblock Designing and interpreting probes with control tasks.
+\newblock In \emph{Proc.\ EMNLP 2019}, pp.~2733--2743, 2019.
+
+\bibitem{HewittManning2019}
+J.~Hewitt and C.~D.~Manning.
+\newblock A structural probe for finding syntax in word representations.
+\newblock In \emph{Proc.\ NAACL-HLT 2019}, pp.~4129--4138, 2019.
+
+\bibitem{Howard1980}
+W.~A.~Howard.
+\newblock The formulae-as-types notion of construction.
+\newblock In J.~P.~Seldin and J.~R.~Hindley, eds., \emph{To H.~B.~Curry}, pp.~479--490. Academic Press, 1980. (Manuscript 1969.)
+
+\bibitem{Jawahar2019}
+G.~Jawahar, B.~Sagot, and D.~Seddah.
+\newblock What does BERT learn about the structure of language?
+\newblock In \emph{Proc.\ 57th ACL}, pp.~3651--3657, 2019.
+
+\bibitem{Joshi1985}
+A.~K.~Joshi.
+\newblock Tree adjoining grammars: How much context-sensitivity is required to provide reasonable structural descriptions?
+\newblock In D.~R.~Dowty et al., eds., \emph{Natural Language Parsing}, pp.~206--250. Cambridge Univ.\ Press, 1985.
+
+\bibitem{JoshiLevyTakahashi1975}
+A.~K.~Joshi, L.~S.~Levy, and M.~Takahashi.
+\newblock Tree adjunct grammars.
+\newblock \emph{J.\ Computer and System Sciences}, 10(1):136--163, 1975.
+
+\bibitem{KaplanKay1994}
+R.~Kaplan and M.~Kay.
+\newblock Regular models of phonological rule systems.
+\newblock \emph{Computational Linguistics}, 20(3):331--378, 1994.
+
+\bibitem{Kartsaklis2021}
+D.~Kartsaklis, I.~Fan, R.~Yeung, A.~Pearson, R.~Lorenz, A.~Toumi, G.~de~Felice, K.~Meichanetzidis, S.~Clark, and B.~Coecke.
+\newblock lambeq: An efficient high-level Python library for quantum NLP.
+\newblock arXiv:2110.04236, 2021.
+
+\bibitem{Kleene1956}
+S.~C.~Kleene.
+\newblock Representation of events in nerve nets and finite automata.
+\newblock In C.~E.~Shannon and J.~McCarthy, eds., \emph{Automata Studies}, pp.~3--42. Princeton Univ.\ Press, 1956.
+
+\bibitem{Kuroda1964}
+S.-Y.~Kuroda.
+\newblock Classes of languages and linear-bounded automata.
+\newblock \emph{Information and Control}, 7(2):207--223, 1964.
+
+\bibitem{Lambek1958}
+J.~Lambek.
+\newblock The mathematics of sentence structure.
+\newblock \emph{American Mathematical Monthly}, 65(3):154--170, 1958.
+
+\bibitem{Lambek1972}
+J.~Lambek.
+\newblock Deductive systems and categories III.
+\newblock In F.~W.~Lawvere, ed., \emph{Toposes, Algebraic Geometry and Logic}, LNCS~274, pp.~57--82. Springer, 1972.
+
+\bibitem{Lambek1980}
+J.~Lambek.
+\newblock From lambda calculus to Cartesian closed categories.
+\newblock In J.~P.~Seldin and J.~R.~Hindley, eds., \emph{To H.~B.~Curry}, pp.~375--402. Academic Press, 1980.
+
+\bibitem{Lambek1999}
+J.~Lambek.
+\newblock Type grammar revisited.
+\newblock In A.~Lecomte et al., eds., \emph{Logical Aspects of Computational Linguistics}, LNCS~1582, pp.~1--27. Springer, 1999.
+
+\bibitem{Lambek2008}
+J.~Lambek.
+\newblock \emph{From Word to Sentence}.
+\newblock Polimetrica, 2008.
+
+\bibitem{Langacker1987}
+R.~W.~Langacker.
+\newblock \emph{Foundations of Cognitive Grammar}, Vol.~I.
+\newblock Stanford Univ.\ Press, 1987.
+
+\bibitem{Langacker2008}
+R.~W.~Langacker.
+\newblock \emph{Cognitive Grammar: A Basic Introduction}.
+\newblock Oxford Univ.\ Press, 2008.
+
+\bibitem{LauClarkLappin2017}
+J.~H.~Lau, A.~Clark, and S.~Lappin.
+\newblock Grammaticality, acceptability, and probability.
+\newblock \emph{Cognitive Science}, 41(5):1202--1241, 2017.
+
+\bibitem{LewisSteedman2014}
+M.~Lewis and M.~Steedman.
+\newblock A* CCG parsing with a supertag-factored model.
+\newblock In \emph{Proc.\ EMNLP 2014}, pp.~990--1000, 2014.
+
+\bibitem{MartinLof1975}
+P.~Martin-L\"{o}f.
+\newblock An intuitionistic theory of types: Predicative part.
+\newblock In H.~E.~Rose and J.~C.~Shepherdson, eds., \emph{Logic Colloquium '73}, pp.~73--118. North-Holland, 1975.
+
+\bibitem{MartinLof1984}
+P.~Martin-L\"{o}f.
+\newblock \emph{Intuitionistic Type Theory}.
+\newblock Bibliopolis, 1984.
+
+\bibitem{McBride2016}
+C.~McBride.
+\newblock I got plenty o' nuttin'.
+\newblock In S.~Lindley et al., eds., \emph{A List of Successes That Can Change the World}, LNCS~9600, pp.~207--233. Springer, 2016.
+
+\bibitem{MichaelisKracht1997}
+J.~Michaelis and M.~Kracht.
+\newblock Semilinearity as a syntactic invariant.
+\newblock In C.~Retor\'{e}, ed., \emph{Logical Aspects of Computational Linguistics}, LNCS~1328, pp.~329--345. Springer, 1997.
+
+\bibitem{Montague1970a}
+R.~Montague.
+\newblock Universal grammar.
+\newblock \emph{Theoria}, 36(3):373--398, 1970.
+
+\bibitem{Montague1970b}
+R.~Montague.
+\newblock English as a formal language.
+\newblock In B.~Visentini et al., eds., \emph{Linguaggi nella Societa e nella Tecnica}, pp.~189--224. Edizioni di Comunita, 1970.
+
+\bibitem{Montague1973}
+R.~Montague.
+\newblock The proper treatment of quantification in ordinary English.
+\newblock In K.~J.~J.~Hintikka et al., eds., \emph{Approaches to Natural Language}, pp.~221--242. Reidel, 1973.
+
+\bibitem{Myhill1957}
+J.~Myhill.
+\newblock Finite automata and the representation of events.
+\newblock WADD Technical Report 57--624, 1957.
+
+\bibitem{Naur1960}
+P.~Naur, ed.
+\newblock Report on the algorithmic language ALGOL 60.
+\newblock \emph{Communications of the ACM}, 3(5):299--314, 1960.
+
+\bibitem{Pentus1997}
+M.~Pentus.
+\newblock Product-free Lambek calculus and context-free grammars.
+\newblock \emph{J.\ Symbolic Logic}, 62(2):648--660, 1997.
+
+\bibitem{Pollard1984}
+C.~Pollard.
+\newblock \emph{Generalized Phrase Structure Grammars, Head Grammars, and Natural Language}.
+\newblock PhD thesis, Stanford University, 1984.
+
+\bibitem{PullumGazdar1982}
+G.~K.~Pullum and G.~Gazdar.
+\newblock Natural languages and context free languages.
+\newblock \emph{Linguistics and Philosophy}, 4(4):471--504, 1982.
+
+\bibitem{RabinScott1959}
+M.~O.~Rabin and D.~Scott.
+\newblock Finite automata and their decision problems.
+\newblock \emph{IBM J.\ Research and Development}, 3(2):114--125, 1959.
+
+\bibitem{SandlerLilloMartin2006}
+W.~Sandler and D.~Lillo-Martin.
+\newblock \emph{Sign Language and Linguistic Universals}.
+\newblock Cambridge Univ.\ Press, 2006.
+
+\bibitem{Shieber1985}
+S.~M.~Shieber.
+\newblock Evidence against the context-freeness of natural language.
+\newblock \emph{Linguistics and Philosophy}, 8(3):333--343, 1985.
+
+\bibitem{SprouseSchutzeAlmeida2013}
+J.~Sprouse, C.~T.~Sch\"{u}tze, and D.~Almeida.
+\newblock A comparison of informal and formal acceptability judgments.
+\newblock \emph{Lingua}, 134:34--44, 2013.
+
+\bibitem{Stabler1997}
+E.~P.~Stabler.
+\newblock Derivational minimalism.
+\newblock In C.~Retor\'{e}, ed., \emph{Logical Aspects of Computational Linguistics}, LNCS~1328, pp.~68--95. Springer, 1997.
+
+\bibitem{Stabler2011}
+E.~P.~Stabler.
+\newblock Computational perspectives on minimalism.
+\newblock In C.~Boeckx, ed., \emph{The Oxford Handbook of Linguistic Minimalism}, pp.~617--641. Oxford Univ.\ Press, 2011.
+
+\bibitem{Stabler2013}
+E.~P.~Stabler.
+\newblock Two models of minimalist, incremental syntactic analysis.
+\newblock \emph{Topics in Cognitive Science}, 5(3):611--633, 2013.
+
+\bibitem{Steedman2000}
+M.~Steedman.
+\newblock \emph{The Syntactic Process}.
+\newblock MIT Press, 2000.
+
+\bibitem{VijayShankerWeir1994}
+K.~Vijay-Shanker and D.~J.~Weir.
+\newblock The equivalence of four extensions of context-free grammars.
+\newblock \emph{Mathematical Systems Theory}, 27(6):511--546, 1994.
+
+\bibitem{Wray2002}
+A.~Wray.
+\newblock \emph{Formulaic Language and the Lexicon}.
+\newblock Cambridge Univ.\ Press, 2002.
+
+\end{thebibliography}
+
+\end{document}

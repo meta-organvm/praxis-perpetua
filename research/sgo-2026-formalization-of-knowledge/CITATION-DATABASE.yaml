@@ -1,0 +1,2412 @@
+# SGO Research Programme -- Citation Database
+# Generated: 2026-03-20
+# Scope: All 13 papers (7 RP, 5 SYN, 1 CAPSTONE), v2 drafts
+# Total unique citations: 188
+# Paper key: RP-01 through RP-07, SYN-01 through SYN-05, CAPSTONE
+
+citations:
+
+  # =========================================================================
+  # MATHEMATICAL LOGIC & COMPUTABILITY THEORY
+  # =========================================================================
+
+  - id: godel1931
+    author: "Godel, K."
+    year: 1931
+    title: "Uber formal unentscheidbare Satze der Principia Mathematica und verwandter Systeme I"
+    cited_by: [RP-02, SYN-02, CAPSTONE]
+    domain: mathematical_logic
+
+  - id: tarski1933
+    author: "Tarski, A."
+    year: 1933
+    title: "Pojecie prawdy w jezykach nauk dedukcyjnych (The concept of truth in the languages of deductive sciences)"
+    cited_by: [RP-02, SYN-02, CAPSTONE]
+    domain: mathematical_logic
+
+  - id: tarski1936
+    author: "Tarski, A."
+    year: 1936
+    title: "Der Wahrheitsbegriff in den formalisierten Sprachen / The Concept of Truth in Formalized Languages"
+    cited_by: [RP-01, RP-02, SYN-01, CAPSTONE]
+    domain: mathematical_logic
+
+  - id: turing1936
+    author: "Turing, A.M."
+    year: 1936
+    title: "On computable numbers, with an application to the Entscheidungsproblem"
+    cited_by: [RP-02, RP-06, SYN-02, CAPSTONE]
+    domain: mathematical_logic
+
+  - id: rice1953
+    author: "Rice, H.G."
+    year: 1953
+    title: "Classes of recursively enumerable sets and their decision problems"
+    cited_by: [RP-02, SYN-02, CAPSTONE]
+    domain: mathematical_logic
+
+  - id: kleene1938
+    author: "Kleene, S.C."
+    year: 1938
+    title: "On notation for ordinal numbers"
+    cited_by: [RP-02, SYN-02]
+    domain: mathematical_logic
+
+  - id: lob1955
+    author: "Lob, M.H."
+    year: 1955
+    title: "Solution of a problem of Leon Henkin"
+    cited_by: [RP-02, SYN-02]
+    domain: mathematical_logic
+
+  - id: cantor1891
+    author: "Cantor, G."
+    year: 1891
+    title: "Ueber eine elementare Frage der Mannigfaltigkeitslehre"
+    cited_by: [RP-02]
+    domain: mathematical_logic
+
+  - id: chaitin1966
+    author: "Chaitin, G.J."
+    year: 1966
+    title: "On the length of programs for computing finite binary sequences"
+    cited_by: [RP-02]
+    domain: mathematical_logic
+
+  - id: willard2001
+    author: "Willard, D.E."
+    year: 2001
+    title: "Self-verifying axiom systems, the incompleteness theorem and related reflection principles"
+    cited_by: [RP-02]
+    domain: mathematical_logic
+
+  # =========================================================================
+  # LAMBDA CALCULUS, TYPE THEORY & CATEGORY THEORY
+  # =========================================================================
+
+  - id: church1936
+    author: "Church, A."
+    year: 1936
+    title: "An Unsolvable Problem of Elementary Number Theory"
+    cited_by: [RP-01, SYN-01]
+    domain: logic_and_computation
+
+  - id: church1940
+    author: "Church, A."
+    year: 1940
+    title: "A formulation of the simple theory of types"
+    cited_by: [SYN-01]
+    domain: logic_and_computation
+
+  - id: curry1934
+    author: "Curry, H.B."
+    year: 1934
+    title: "Functionality in combinatory logic"
+    cited_by: [RP-02]
+    domain: logic_and_computation
+
+  - id: curry1958
+    author: "Curry, H.B. and Feys, R."
+    year: 1958
+    title: "Combinatory Logic, Vol. I"
+    cited_by: [RP-01, RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: howard1980
+    author: "Howard, W.A."
+    year: 1980
+    title: "The formulae-as-types notion of construction"
+    cited_by: [RP-01, RP-02, RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: lambek1958
+    author: "Lambek, J."
+    year: 1958
+    title: "The mathematics of sentence structure"
+    cited_by: [RP-01, RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: lambek1968
+    author: "Lambek, J."
+    year: 1968
+    title: "Deductive systems and categories I"
+    cited_by: [SYN-01]
+    domain: logic_and_computation
+
+  - id: lambek1972
+    author: "Lambek, J."
+    year: 1972
+    title: "Deductive systems and categories III: Cartesian closed categories"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: lambek1980
+    author: "Lambek, J."
+    year: 1980
+    title: "From lambda calculus to Cartesian closed categories"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: lambek1999
+    author: "Lambek, J."
+    year: 1999
+    title: "Type grammar revisited"
+    cited_by: [RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: lambek2001
+    author: "Lambek, J."
+    year: 2001
+    title: "Type grammars as pregroups"
+    cited_by: [SYN-01]
+    domain: logic_and_computation
+
+  - id: lambek2008
+    author: "Lambek, J."
+    year: 2008
+    title: "From Word to Sentence: A Computational Algebraic Approach to Grammar"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: coquand1988
+    author: "Coquand, T. and Huet, G."
+    year: 1988
+    title: "The Calculus of Constructions"
+    cited_by: [RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: martinlof1975
+    author: "Martin-Lof, P."
+    year: 1975
+    title: "An intuitionistic theory of types: Predicative part"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: martinlof1984
+    author: "Martin-Lof, P."
+    year: 1984
+    title: "Intuitionistic Type Theory"
+    cited_by: [RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: girard1972
+    author: "Girard, J.-Y."
+    year: 1972
+    title: "Interpretation fonctionnelle et elimination des coupures de l'arithmetique d'ordre superieur"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: girard1987
+    author: "Girard, J.-Y."
+    year: 1987
+    title: "Linear logic"
+    cited_by: [RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: eilenberg1945
+    author: "Eilenberg, S. and Mac Lane, S."
+    year: 1945
+    title: "General theory of natural equivalences"
+    cited_by: [SYN-01]
+    domain: category_theory
+
+  - id: grothendieck1971
+    author: "Grothendieck, A."
+    year: 1971
+    title: "Revetements etales et groupe fondamental (SGA 1)"
+    cited_by: [SYN-01]
+    domain: category_theory
+
+  - id: jacobs1999
+    author: "Jacobs, B."
+    year: 1999
+    title: "Categorical Logic and Type Theory"
+    cited_by: [SYN-01]
+    domain: category_theory
+
+  - id: moggi1991
+    author: "Moggi, E."
+    year: 1991
+    title: "Notions of computation and monads"
+    cited_by: [SYN-01]
+    domain: logic_and_computation
+
+  - id: reynolds1974
+    author: "Reynolds, J.C."
+    year: 1974
+    title: "Towards a theory of type structure"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: cardelli1985
+    author: "Cardelli, L. and Wegner, P."
+    year: 1985
+    title: "On understanding types, data abstraction, and polymorphism"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: univalent2013
+    author: "Univalent Foundations Program"
+    year: 2013
+    title: "Homotopy Type Theory: Univalent Foundations of Mathematics"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: klein1872
+    author: "Klein, F."
+    year: 1872
+    title: "Vergleichende Betrachtungen uber neuere geometrische Forschungen (Erlangen Programme)"
+    cited_by: [SYN-01]
+    domain: mathematics
+
+  # =========================================================================
+  # PROGRAMMING LANGUAGE SEMANTICS & FORMAL METHODS
+  # =========================================================================
+
+  - id: scott1971
+    author: "Scott, D.S. and Strachey, C."
+    year: 1971
+    title: "Toward a Mathematical Semantics for Computer Languages"
+    cited_by: [RP-01, SYN-01]
+    domain: programming_language_semantics
+
+  - id: scott1970
+    author: "Scott, D.S."
+    year: 1970
+    title: "Outline of a mathematical theory of computation"
+    cited_by: [SYN-01]
+    domain: programming_language_semantics
+
+  - id: plotkin1981
+    author: "Plotkin, G.D."
+    year: 1981
+    title: "A Structural Approach to Operational Semantics"
+    cited_by: [RP-01, SYN-01]
+    domain: programming_language_semantics
+
+  - id: hoare1969
+    author: "Hoare, C.A.R."
+    year: 1969
+    title: "An Axiomatic Basis for Computer Programming"
+    cited_by: [RP-01, SYN-01]
+    domain: programming_language_semantics
+
+  - id: floyd1967
+    author: "Floyd, R.W."
+    year: 1967
+    title: "Assigning meanings to programs"
+    cited_by: [SYN-01]
+    domain: programming_language_semantics
+
+  - id: cousot1977
+    author: "Cousot, P. and Cousot, R."
+    year: 1977
+    title: "Abstract interpretation: A unified lattice model for static analysis of programs"
+    cited_by: [RP-02, SYN-02]
+    domain: programming_language_semantics
+
+  - id: smith1984
+    author: "Smith, B.C."
+    year: 1984
+    title: "Reflection and semantics in Lisp"
+    cited_by: [RP-02, SYN-02]
+    domain: programming_language_semantics
+
+  - id: maes1987
+    author: "Maes, P."
+    year: 1987
+    title: "Concepts and experiments in computational reflection"
+    cited_by: [RP-02]
+    domain: programming_language_semantics
+
+  - id: wirth1971
+    author: "Wirth, N."
+    year: 1971
+    title: "The design of a Pascal compiler"
+    cited_by: [RP-02]
+    domain: computer_science
+
+  - id: schmidhuber2003
+    author: "Schmidhuber, J."
+    year: 2003
+    title: "Godel machines: Self-referential universal problem solvers making provably optimal self-improvements"
+    cited_by: [RP-02, SYN-02]
+    domain: artificial_intelligence
+
+  - id: brady2013
+    author: "Brady, E."
+    year: 2013
+    title: "Type-Driven Development with Idris"
+    cited_by: [RP-06]
+    domain: programming_language_semantics
+
+  - id: atkey2018
+    author: "Atkey, R."
+    year: 2018
+    title: "Syntax and semantics of quantitative type theory"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: dunfield2021
+    author: "Dunfield, J. and Krishnaswami, N.R."
+    year: 2021
+    title: "Bidirectional typing"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: wells1999
+    author: "Wells, J.B."
+    year: 1999
+    title: "Typability and type checking in System F are equivalent and undecidable"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: veldhuizen2003
+    author: "Veldhuizen, T.L."
+    year: 2003
+    title: "C++ templates are Turing complete"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: parnin2013
+    author: "Parnin, C., Bird, C., and Murphy-Hill, E."
+    year: 2013
+    title: "Adoption and use of Java generics"
+    cited_by: [RP-06]
+    domain: software_engineering
+
+  - id: freeman1991
+    author: "Freeman, T. and Pfenning, F."
+    year: 1991
+    title: "Refinement types for ML"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: mcbride2016
+    author: "McBride, C."
+    year: 2016
+    title: "I got plenty o' nuttin'"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: plotkin2003
+    author: "Plotkin, G.D. and Power, J."
+    year: 2003
+    title: "Algebraic operations and generic effects"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: plotkin2013
+    author: "Plotkin, G.D. and Pretnar, M."
+    year: 2013
+    title: "Handling algebraic effects"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: katsumata2014
+    author: "Katsumata, S."
+    year: 2014
+    title: "Parametric effect monads and semantics of effect systems"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: hodas1994
+    author: "Hodas, J.S. and Miller, D."
+    year: 1994
+    title: "Logic programming in a fragment of intuitionistic linear logic"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: mellies2006
+    author: "Mellies, P.-A."
+    year: 2006
+    title: "Functorial boxes in string diagrams"
+    cited_by: [RP-06]
+    domain: category_theory
+
+  - id: burroni1993
+    author: "Burroni, A."
+    year: 1993
+    title: "Higher-dimensional word problems with applications to equational logic"
+    cited_by: [RP-06]
+    domain: category_theory
+
+  # =========================================================================
+  # FORMAL & COMPUTATIONAL LINGUISTICS
+  # =========================================================================
+
+  - id: chomsky1956
+    author: "Chomsky, N."
+    year: 1956
+    title: "Three models for the description of language"
+    cited_by: [RP-06, SYN-01]
+    domain: linguistics
+
+  - id: chomsky1957
+    author: "Chomsky, N."
+    year: 1957
+    title: "Syntactic Structures"
+    cited_by: [RP-06, SYN-01]
+    domain: linguistics
+
+  - id: chomsky1959
+    author: "Chomsky, N."
+    year: 1959
+    title: "On certain formal properties of grammars"
+    cited_by: [RP-06, SYN-01]
+    domain: linguistics
+
+  - id: chomsky1962
+    author: "Chomsky, N."
+    year: 1962
+    title: "Context-free grammars and pushdown storage"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: chomsky1965
+    author: "Chomsky, N."
+    year: 1965
+    title: "Aspects of the Theory of Syntax"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: chomsky1995
+    author: "Chomsky, N."
+    year: 1995
+    title: "The Minimalist Program"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: chomsky2000
+    author: "Chomsky, N."
+    year: 2000
+    title: "Minimalist inquiries: The framework"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: chomsky2008
+    author: "Chomsky, N."
+    year: 2008
+    title: "On phases"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: montague1970a
+    author: "Montague, R."
+    year: 1970
+    title: "Universal grammar"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: montague1970b
+    author: "Montague, R."
+    year: 1970
+    title: "English as a formal language"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: montague1973
+    author: "Montague, R."
+    year: 1973
+    title: "The proper treatment of quantification in ordinary English"
+    cited_by: [RP-01, RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: steedman2000
+    author: "Steedman, M."
+    year: 2000
+    title: "The Syntactic Process"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: steedman1987
+    author: "Steedman, M."
+    year: 1987
+    title: "Combinatory grammars and parasitic gaps"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: heim1998
+    author: "Heim, I. and Kratzer, A."
+    year: 1998
+    title: "Semantics in Generative Grammar"
+    cited_by: [RP-01, SYN-01]
+    domain: formal_semantics
+
+  - id: heim1982
+    author: "Heim, I."
+    year: 1982
+    title: "The Semantics of Definite and Indefinite Noun Phrases"
+    cited_by: [SYN-01]
+    domain: formal_semantics
+
+  - id: groenendijk1991
+    author: "Groenendijk, J. and Stokhof, M."
+    year: 1991
+    title: "Dynamic predicate logic"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: kamp1981
+    author: "Kamp, H."
+    year: 1981
+    title: "A theory of truth and semantic representation"
+    cited_by: [SYN-01]
+    domain: formal_semantics
+
+  - id: davidson1967
+    author: "Davidson, D."
+    year: 1967
+    title: "Truth and meaning"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: moortgat1997
+    author: "Moortgat, M."
+    year: 1997
+    title: "Categorial type logics"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: moortgat2011
+    author: "Moortgat, M."
+    year: 2011
+    title: "Typelogical grammar"
+    cited_by: [RP-06]
+    domain: formal_semantics
+
+  - id: morrill2011
+    author: "Morrill, G."
+    year: 2011
+    title: "Categorial Grammar: Logical Syntax, Semantics, and Processing"
+    cited_by: [SYN-01]
+    domain: formal_semantics
+
+  - id: morrill2011b
+    author: "Morrill, G., Valentin, O., and Fadda, M."
+    year: 2011
+    title: "The Displacement calculus"
+    cited_by: [RP-06]
+    domain: formal_semantics
+
+  - id: carpenter1997
+    author: "Carpenter, B."
+    year: 1997
+    title: "Type-Logical Semantics"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: ranta1994
+    author: "Ranta, A."
+    year: 1994
+    title: "Type-Theoretical Grammar"
+    cited_by: [RP-06]
+    domain: formal_semantics
+
+  - id: ajdukiewicz1935
+    author: "Ajdukiewicz, K."
+    year: 1935
+    title: "Die syntaktische Konnexitat"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: barhillel1953
+    author: "Bar-Hillel, Y."
+    year: 1953
+    title: "A quasi-arithmetical notation for syntactic description"
+    cited_by: [RP-06, SYN-01]
+    domain: formal_semantics
+
+  - id: joshi1985
+    author: "Joshi, A.K."
+    year: 1985
+    title: "Tree adjoining grammars"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: joshi1975
+    author: "Joshi, A.K., Levy, L.S., and Takahashi, M."
+    year: 1975
+    title: "Tree adjunct grammars"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: joshi1991
+    author: "Joshi, A.K., Vijay-Shanker, K., and Weir, D."
+    year: 1991
+    title: "The convergence of mildly context-sensitive grammar formalisms"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: shieber1985
+    author: "Shieber, S.M."
+    year: 1985
+    title: "Evidence against the context-freeness of natural language"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: culy1985
+    author: "Culy, C."
+    year: 1985
+    title: "The complexity of the vocabulary of Bambara"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: pentus1993
+    author: "Pentus, M."
+    year: 1993
+    title: "Lambek grammars are context-free"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: pentus1997
+    author: "Pentus, M."
+    year: 1997
+    title: "Product-free Lambek calculus and context-free grammars"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: hopcroft1979
+    author: "Hopcroft, J.E. and Ullman, J.D."
+    year: 1979
+    title: "Introduction to Automata Theory, Languages, and Computation"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: kleene1956
+    author: "Kleene, S.C."
+    year: 1956
+    title: "Representation of events in nerve nets and finite automata"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: rabin1959
+    author: "Rabin, M.O. and Scott, D."
+    year: 1959
+    title: "Finite automata and their decision problems"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: backus1959
+    author: "Backus, J."
+    year: 1959
+    title: "The syntax and semantics of the proposed international algebraic language"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: naur1960
+    author: "Naur, P. (ed.)"
+    year: 1960
+    title: "Report on the algorithmic language ALGOL 60"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: evey1963
+    author: "Evey, R.J."
+    year: 1963
+    title: "Application of pushdown store machines"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: myhill1957
+    author: "Myhill, J."
+    year: 1957
+    title: "Finite automata and the representation of events"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: kuroda1964
+    author: "Kuroda, S.-Y."
+    year: 1964
+    title: "Classes of languages and linear-bounded automata"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  # =========================================================================
+  # COGNITIVE LINGUISTICS & USAGE-BASED LINGUISTICS
+  # =========================================================================
+
+  - id: goldberg1995
+    author: "Goldberg, A.E."
+    year: 1995
+    title: "Constructions: A Construction Grammar Approach to Argument Structure"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: goldberg2006
+    author: "Goldberg, A.E."
+    year: 2006
+    title: "Constructions at Work: The Nature of Generalization in Language"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: langacker1987
+    author: "Langacker, R.W."
+    year: 1987
+    title: "Foundations of Cognitive Grammar, Vol. I"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: langacker2008
+    author: "Langacker, R.W."
+    year: 2008
+    title: "Cognitive Grammar: A Basic Introduction"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: bybee2006
+    author: "Bybee, J."
+    year: 2006
+    title: "From usage to grammar: The mind's response to repetition"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: bybee2010
+    author: "Bybee, J."
+    year: 2010
+    title: "Language, Usage and Cognition"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: tomasello2003
+    author: "Tomasello, M."
+    year: 2003
+    title: "Constructing a Language: A Usage-Based Theory of Language Acquisition"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: wray2002
+    author: "Wray, A."
+    year: 2002
+    title: "Formulaic Language and the Lexicon"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: erman2000
+    author: "Erman, B. and Warren, B."
+    year: 2000
+    title: "The idiom principle and the open choice principle"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: becker1975
+    author: "Becker, J.D."
+    year: 1975
+    title: "The phrasal lexicon"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: baldwin2010
+    author: "Baldwin, T. and Kim, S.N."
+    year: 2010
+    title: "Multiword expressions"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: baker1988
+    author: "Baker, M.C."
+    year: 1988
+    title: "Incorporation: A Theory of Grammatical Function Changing"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: baker1996
+    author: "Baker, M.C."
+    year: 1996
+    title: "The Polysynthesis Parameter"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: hale1983
+    author: "Hale, K."
+    year: 1983
+    title: "Warlpiri and the grammar of non-configurational languages"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: lillomartin2006
+    author: "Lillo-Martin, D. and Sandler, W."
+    year: 2006
+    title: "Sign Language and Linguistic Universals"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: bresnan2001
+    author: "Bresnan, J."
+    year: 2001
+    title: "Lexical-Functional Syntax"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: bresnan2007
+    author: "Bresnan, J."
+    year: 2007
+    title: "Is syntactic knowledge probabilistic?"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: prince1993
+    author: "Prince, A. and Smolensky, P."
+    year: 1993
+    title: "Optimality Theory: Constraint Interaction in Generative Grammar"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: koskenniemi1983
+    author: "Koskenniemi, K."
+    year: 1983
+    title: "Two-Level Morphology"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: kaplan1994
+    author: "Kaplan, R. and Kay, M."
+    year: 1994
+    title: "Regular models of phonological rule systems"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  # =========================================================================
+  # PHILOSOPHY OF LANGUAGE & NAMING
+  # =========================================================================
+
+  - id: frege1879
+    author: "Frege, G."
+    year: 1879
+    title: "Begriffsschrift"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: frege1892
+    author: "Frege, G."
+    year: 1892
+    title: "Uber Sinn und Bedeutung"
+    cited_by: [RP-04, SYN-01, SYN-03, SYN-05, CAPSTONE]
+    domain: philosophy_of_language
+
+  - id: russell1905
+    author: "Russell, B."
+    year: 1905
+    title: "On Denoting"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: kripke1980
+    author: "Kripke, S."
+    year: 1980
+    title: "Naming and Necessity"
+    cited_by: [RP-04, SYN-03, SYN-05, CAPSTONE]
+    domain: philosophy_of_language
+
+  - id: kripke1963
+    author: "Kripke, S."
+    year: 1963
+    title: "Semantical Considerations on Modal Logic"
+    cited_by: [RP-01, SYN-01]
+    domain: logic
+
+  - id: kripke1959
+    author: "Kripke, S."
+    year: 1959
+    title: "A completeness theorem in modal logic"
+    cited_by: [SYN-01]
+    domain: logic
+
+  - id: kripke1979
+    author: "Kripke, S."
+    year: 1979
+    title: "A Puzzle about Belief"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: wittgenstein1953
+    author: "Wittgenstein, L."
+    year: 1953
+    title: "Philosophical Investigations"
+    cited_by: [RP-04, SYN-03]
+    domain: philosophy_of_language
+
+  - id: saussure1916
+    author: "Saussure, F. de"
+    year: 1916
+    title: "Cours de linguistique generale"
+    cited_by: [RP-04, SYN-03, CAPSTONE]
+    domain: linguistics
+
+  - id: peirce1931
+    author: "Peirce, C.S."
+    year: 1931
+    title: "Collected Papers of Charles Sanders Peirce"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: putnam1975
+    author: "Putnam, H."
+    year: 1975
+    title: "The Meaning of 'Meaning'"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: quine1948
+    author: "Quine, W.V.O."
+    year: 1948
+    title: "On What There Is"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: searle1958
+    author: "Searle, J."
+    year: 1958
+    title: "Proper Names"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: searle1969
+    author: "Searle, J.R."
+    year: 1969
+    title: "Speech Acts: An Essay in the Philosophy of Language"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: mill1843
+    author: "Mill, J.S."
+    year: 1843
+    title: "A System of Logic"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: donnellan1970
+    author: "Donnellan, K."
+    year: 1970
+    title: "Proper Names and Identifying Descriptions"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: evans1973
+    author: "Evans, G."
+    year: 1973
+    title: "The Causal Theory of Names"
+    cited_by: [RP-04]
+    domain: philosophy_of_language
+
+  - id: linnaeus1753
+    author: "Linnaeus, C."
+    year: 1753
+    title: "Species Plantarum"
+    cited_by: [RP-04]
+    domain: taxonomy
+
+  - id: austin1962
+    author: "Austin, J.L."
+    year: 1962
+    title: "How to Do Things with Words"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: grice1975
+    author: "Grice, H.P."
+    year: 1975
+    title: "Logic and conversation"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: brandom1994
+    author: "Brandom, R."
+    year: 1994
+    title: "Making It Explicit"
+    cited_by: [RP-01, SYN-01, SYN-05]
+    domain: philosophy_of_language
+
+  - id: dummett1991
+    author: "Dummett, M."
+    year: 1991
+    title: "The Logical Basis of Metaphysics"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: hodges2001
+    author: "Hodges, W."
+    year: 2001
+    title: "Formal features of compositionality"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: janssen1997
+    author: "Janssen, T.M.V."
+    year: 1997
+    title: "Compositionality"
+    cited_by: [SYN-01]
+    domain: philosophy_of_language
+
+  - id: firth1957
+    author: "Firth, J.R."
+    year: 1957
+    title: "A synopsis of linguistic theory, 1930-1955"
+    cited_by: [SYN-01]
+    domain: linguistics
+
+  - id: harris1954
+    author: "Harris, Z.S."
+    year: 1954
+    title: "Distributional structure"
+    cited_by: [SYN-01]
+    domain: linguistics
+
+  # =========================================================================
+  # PROOF-THEORETIC SEMANTICS & GAME SEMANTICS
+  # =========================================================================
+
+  - id: prawitz1965
+    author: "Prawitz, D."
+    year: 1965
+    title: "Natural Deduction: A Proof-Theoretical Study"
+    cited_by: [SYN-01]
+    domain: logic
+
+  - id: prawitz2006
+    author: "Prawitz, D."
+    year: 2006
+    title: "Meaning approached via proofs"
+    cited_by: [SYN-01]
+    domain: logic
+
+  - id: abramsky1997
+    author: "Abramsky, S."
+    year: 1997
+    title: "Semantics of Interaction: An Introduction to Game Semantics"
+    cited_by: [RP-01, SYN-01]
+    domain: game_semantics
+
+  - id: abramsky2004
+    author: "Abramsky, S. and Coecke, B."
+    year: 2004
+    title: "A categorical semantics of quantum protocols"
+    cited_by: [RP-06, SYN-01]
+    domain: logic_and_computation
+
+  - id: abramsky2000
+    author: "Abramsky, S., Jagadeesan, R., and Malacaria, P."
+    year: 2000
+    title: "Full abstraction for PCF"
+    cited_by: [SYN-01]
+    domain: game_semantics
+
+  - id: hyland2000
+    author: "Hyland, J.M.E. and Ong, C.-H.L."
+    year: 2000
+    title: "On full abstraction for PCF"
+    cited_by: [SYN-01]
+    domain: game_semantics
+
+  - id: hintikka1996
+    author: "Hintikka, J."
+    year: 1996
+    title: "The Principles of Mathematics Revisited"
+    cited_by: [SYN-01]
+    domain: logic
+
+  - id: lecomte2011
+    author: "Lecomte, A."
+    year: 2011
+    title: "Meaning, Logic and Ludics"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  # =========================================================================
+  # DISTRIBUTIONAL & NEURAL NLP
+  # =========================================================================
+
+  - id: coecke2010
+    author: "Coecke, B., Sadrzadeh, M., and Clark, S."
+    year: 2010
+    title: "Mathematical foundations for a compositional distributional model of meaning (DisCoCat)"
+    cited_by: [RP-01, RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: grefenstette2011
+    author: "Grefenstette, E. and Sadrzadeh, M."
+    year: 2011
+    title: "Experimental support for a categorical compositional distributional model of meaning"
+    cited_by: [RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: kartsaklis2012
+    author: "Kartsaklis, D., Sadrzadeh, M., and Pulman, S."
+    year: 2012
+    title: "A unified sentence space for categorical distributional-compositional semantics"
+    cited_by: [RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: kartsaklis2021
+    author: "Kartsaklis, D., Fan, I., Yeung, R. et al."
+    year: 2021
+    title: "lambeq: An efficient high-level Python library for quantum NLP"
+    cited_by: [RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: lorenz2023
+    author: "Lorenz, R., Pearson, A., Meichanetzidis, K. et al."
+    year: 2023
+    title: "QNLP in practice: Running compositional models of meaning on a quantum computer"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: meichanetzidis2021
+    author: "Meichanetzidis, K., Toumi, A., de Felice, G., and Coecke, B."
+    year: 2021
+    title: "Grammar-aware question-answering on quantum computers"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: vaswani2017
+    author: "Vaswani, A. et al."
+    year: 2017
+    title: "Attention is all you need"
+    cited_by: [RP-06, SYN-01]
+    domain: machine_learning
+
+  - id: devlin2019
+    author: "Devlin, J. et al."
+    year: 2019
+    title: "BERT: Pre-training of deep bidirectional transformers for language understanding"
+    cited_by: [RP-06, SYN-01]
+    domain: machine_learning
+
+  - id: radford2018
+    author: "Radford, A. et al."
+    year: 2018
+    title: "Improving language understanding by generative pre-training (GPT)"
+    cited_by: [RP-06, SYN-01]
+    domain: machine_learning
+
+  - id: radford2019
+    author: "Radford, A. et al."
+    year: 2019
+    title: "Language models are unsupervised multitask learners (GPT-2)"
+    cited_by: [RP-06]
+    domain: machine_learning
+
+  - id: hewitt2019
+    author: "Hewitt, J. and Manning, C.D."
+    year: 2019
+    title: "A structural probe for finding syntax in word representations"
+    cited_by: [RP-01, RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: tenney2019
+    author: "Tenney, I., Das, D., and Pavlick, E."
+    year: 2019
+    title: "BERT rediscovers the classical NLP pipeline"
+    cited_by: [RP-01, RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: jawahar2019
+    author: "Jawahar, G., Sagot, B., and Seddah, D."
+    year: 2019
+    title: "What does BERT learn about the structure of language?"
+    cited_by: [RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: clark2019
+    author: "Clark, K. et al."
+    year: 2019
+    title: "What does BERT look at? An analysis of BERT's attention"
+    cited_by: [RP-06, SYN-01]
+    domain: computational_linguistics
+
+  - id: manning2020
+    author: "Manning, C.D. et al."
+    year: 2020
+    title: "Emergent linguistic structure in artificial neural networks trained by self-supervision"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: mikolov2013
+    author: "Mikolov, T. et al."
+    year: 2013
+    title: "Efficient estimation of word representations in vector space (Word2Vec)"
+    cited_by: [SYN-01]
+    domain: machine_learning
+
+  - id: pennington2014
+    author: "Pennington, J., Socher, R., and Manning, C.D."
+    year: 2014
+    title: "GloVe: Global vectors for word representation"
+    cited_by: [SYN-01]
+    domain: machine_learning
+
+  - id: baroni2014
+    author: "Baroni, M., Bernardi, R., and Zamparelli, R."
+    year: 2014
+    title: "Frege in space: A program for compositional distributional semantics"
+    cited_by: [SYN-01]
+    domain: computational_linguistics
+
+  - id: gavranovic2024
+    author: "Gavranovic, B. et al."
+    year: 2024
+    title: "Categorical deep learning: An algebraic theory of architectures"
+    cited_by: [SYN-01]
+    domain: machine_learning
+
+  - id: harnad1990
+    author: "Harnad, S."
+    year: 1990
+    title: "The symbol grounding problem"
+    cited_by: [SYN-01]
+    domain: artificial_intelligence
+
+  - id: elhage2021
+    author: "Elhage, N. et al."
+    year: 2021
+    title: "A mathematical framework for transformer circuits"
+    cited_by: [RP-06]
+    domain: machine_learning
+
+  - id: olah2020
+    author: "Olah, C. et al."
+    year: 2020
+    title: "Zoom in: An introduction to circuits"
+    cited_by: [RP-06]
+    domain: machine_learning
+
+  - id: nanda2023
+    author: "Nanda, N. et al."
+    year: 2023
+    title: "Progress measures for grokking via mechanistic interpretability"
+    cited_by: [RP-06]
+    domain: machine_learning
+
+  - id: belinkov2019
+    author: "Belinkov, Y. and Glass, J."
+    year: 2019
+    title: "Analysis methods in neural language processing: A survey"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: goldberg2019
+    author: "Goldberg, Y."
+    year: 2019
+    title: "Assessing BERT's syntactic abilities"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: pimentel2020
+    author: "Pimentel, T. et al."
+    year: 2020
+    title: "Information-theoretic probing for linguistic structure"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: hewitt2019b
+    author: "Hewitt, J. and Liang, P."
+    year: 2019
+    title: "Designing and interpreting probes with control tasks"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: lau2017
+    author: "Lau, J.H., Clark, A., and Lappin, S."
+    year: 2017
+    title: "Grammaticality, acceptability, and probability"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  # Compositional generalization benchmarks
+  - id: keysers2020
+    author: "Keysers, D. et al."
+    year: 2020
+    title: "Measuring compositional generalization: A comprehensive method on realistic data"
+    cited_by: [SYN-01]
+    domain: machine_learning
+
+  - id: kim2020
+    author: "Kim, N. and Linzen, T."
+    year: 2020
+    title: "COGS: A compositional generalization challenge based on semantic interpretation"
+    cited_by: [SYN-01]
+    domain: machine_learning
+
+  - id: lake2018
+    author: "Lake, B.M. and Baroni, M."
+    year: 2018
+    title: "Generalization without systematicity"
+    cited_by: [SYN-01]
+    domain: machine_learning
+
+  - id: ruis2020
+    author: "Ruis, L. et al."
+    year: 2020
+    title: "A benchmark for systematic generalization in grounded language understanding"
+    cited_by: [SYN-01]
+    domain: machine_learning
+
+  - id: frank2012
+    author: "Frank, M.C. and Goodman, N.D."
+    year: 2012
+    title: "Predicting pragmatic reasoning in language games"
+    cited_by: [SYN-01]
+    domain: computational_linguistics
+
+  # =========================================================================
+  # EMBODIED COGNITION & PHENOMENOLOGY
+  # =========================================================================
+
+  - id: lakoff1980
+    author: "Lakoff, G. and Johnson, M."
+    year: 1980
+    title: "Metaphors We Live By"
+    cited_by: [RP-01, SYN-01, SYN-05, CAPSTONE]
+    domain: cognitive_science
+
+  - id: varela1991
+    author: "Varela, F.J., Thompson, E., and Rosch, E."
+    year: 1991
+    title: "The Embodied Mind"
+    cited_by: [RP-01, RP-02, SYN-01, SYN-05, CAPSTONE]
+    domain: cognitive_science
+
+  - id: barsalou2008
+    author: "Barsalou, L.W."
+    year: 2008
+    title: "Grounded Cognition"
+    cited_by: [RP-01, SYN-05, CAPSTONE]
+    domain: cognitive_science
+
+  - id: barsalou1999
+    author: "Barsalou, L.W."
+    year: 1999
+    title: "Perceptual symbol systems"
+    cited_by: [SYN-01]
+    domain: cognitive_science
+
+  - id: clark1997
+    author: "Clark, A."
+    year: 1997
+    title: "Being There: Putting Brain, Body, and World Together Again"
+    cited_by: [RP-01]
+    domain: cognitive_science
+
+  - id: gendlin1962
+    author: "Gendlin, E.T."
+    year: 1962
+    title: "Experiencing and the Creation of Meaning"
+    cited_by: [SYN-05]
+    domain: phenomenology
+
+  - id: gendlin1997
+    author: "Gendlin, E.T."
+    year: 1997
+    title: "A Process Model"
+    cited_by: [SYN-05]
+    domain: phenomenology
+
+  - id: merleauponty1945
+    author: "Merleau-Ponty, M."
+    year: 1945
+    title: "Phenomenologie de la perception"
+    cited_by: [SYN-05]
+    domain: phenomenology
+
+  # =========================================================================
+  # CYBERNETICS & AUTOPOIESIS
+  # =========================================================================
+
+  - id: maturana1972
+    author: "Maturana, H.R. and Varela, F.J."
+    year: 1972
+    title: "Autopoiesis and Cognition: The Realization of the Living"
+    cited_by: [RP-02, SYN-02]
+    domain: cybernetics
+
+  - id: maturana1980
+    author: "Maturana, H.R. and Varela, F.J."
+    year: 1980
+    title: "Autopoiesis and Cognition (Boston Studies in Philosophy of Science)"
+    cited_by: [RP-02]
+    domain: cybernetics
+
+  - id: beer1972
+    author: "Beer, S."
+    year: 1972
+    title: "Brain of the Firm: The Managerial Cybernetics of Organization"
+    cited_by: [RP-02, SYN-02]
+    domain: cybernetics
+
+  - id: beer1979
+    author: "Beer, S."
+    year: 1979
+    title: "The Heart of Enterprise"
+    cited_by: [RP-02, SYN-02]
+    domain: cybernetics
+
+  - id: beer1984
+    author: "Beer, S."
+    year: 1984
+    title: "The viable system model: Its provenance, development, methodology and pathology"
+    cited_by: [RP-02]
+    domain: cybernetics
+
+  - id: beer1985
+    author: "Beer, S."
+    year: 1985
+    title: "Diagnosing the System for Organizations"
+    cited_by: [SYN-02]
+    domain: cybernetics
+
+  - id: wiener1948
+    author: "Wiener, N."
+    year: 1948
+    title: "Cybernetics: Or Control and Communication in the Animal and the Machine"
+    cited_by: [SYN-02]
+    domain: cybernetics
+
+  - id: hofstadter1979
+    author: "Hofstadter, D.R."
+    year: 1979
+    title: "Godel, Escher, Bach: An Eternal Golden Braid"
+    cited_by: [RP-02, SYN-02]
+    domain: cognitive_science
+
+  - id: hofstadter2007
+    author: "Hofstadter, D.R."
+    year: 2007
+    title: "I Am a Strange Loop"
+    cited_by: [RP-02]
+    domain: cognitive_science
+
+  # =========================================================================
+  # SCIENCE AND TECHNOLOGY STUDIES (STS)
+  # =========================================================================
+
+  - id: latour1987
+    author: "Latour, B."
+    year: 1987
+    title: "Science in Action"
+    cited_by: [RP-05, SYN-02, SYN-04]
+    domain: STS
+
+  - id: latour1993
+    author: "Latour, B."
+    year: 1993
+    title: "We Have Never Been Modern"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: latour1996
+    author: "Latour, B."
+    year: 1996
+    title: "Aramis, or the Love of Technology"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: latour1999
+    author: "Latour, B."
+    year: 1999
+    title: "Pandora's Hope"
+    cited_by: [RP-05, SYN-04]
+    domain: STS
+
+  - id: latour2004
+    author: "Latour, B."
+    year: 2004
+    title: "Politics of Nature"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: latour2005
+    author: "Latour, B."
+    year: 2005
+    title: "Reassembling the Social: An Introduction to Actor-Network-Theory"
+    cited_by: [RP-05, SYN-02, SYN-04]
+    domain: STS
+
+  - id: latour2017
+    author: "Latour, B."
+    year: 2017
+    title: "Facing Gaia"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: latour1979
+    author: "Latour, B. and Woolgar, S."
+    year: 1979
+    title: "Laboratory Life"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: latour1988
+    author: "Latour, B."
+    year: 1988
+    title: "The Pasteurization of France"
+    cited_by: [SYN-04]
+    domain: STS
+
+  - id: callon1986
+    author: "Callon, M."
+    year: 1986
+    title: "Some elements of a sociology of translation"
+    cited_by: [RP-05, SYN-02, SYN-04]
+    domain: STS
+
+  - id: callon1998
+    author: "Callon, M."
+    year: 1998
+    title: "An essay on framing and overflowing"
+    cited_by: [RP-05, SYN-04]
+    domain: STS
+
+  - id: callon1981
+    author: "Callon, M. and Latour, B."
+    year: 1981
+    title: "Unscrewing the big Leviathan"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: star1989
+    author: "Star, S.L. and Griesemer, J.R."
+    year: 1989
+    title: "Institutional Ecology, 'Translations' and Boundary Objects"
+    cited_by: [RP-04, RP-05, SYN-02, SYN-03, SYN-04]
+    domain: STS
+
+  - id: star1996
+    author: "Star, S.L. and Ruhleder, K."
+    year: 1996
+    title: "Steps toward an ecology of infrastructure"
+    cited_by: [SYN-03]
+    domain: STS
+
+  - id: law1992
+    author: "Law, J."
+    year: 1992
+    title: "Notes on the theory of the actor-network"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: law2004
+    author: "Law, J."
+    year: 2004
+    title: "After Method: Mess in Social Science Research"
+    cited_by: [RP-05, SYN-04]
+    domain: STS
+
+  - id: akrich1992
+    author: "Akrich, M."
+    year: 1992
+    title: "The de-scription of technical objects"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: mol2002
+    author: "Mol, A."
+    year: 2002
+    title: "The Body Multiple"
+    cited_by: [RP-05, SYN-04]
+    domain: STS
+
+  - id: pickering1995
+    author: "Pickering, A."
+    year: 1995
+    title: "The Mangle of Practice"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: sismondo2010
+    author: "Sismondo, S."
+    year: 2010
+    title: "An Introduction to Science and Technology Studies"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: bijker1984
+    author: "Bijker, W.E. and Pinch, T.J."
+    year: 1984
+    title: "The social construction of facts and artefacts"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: bloor1976
+    author: "Bloor, D."
+    year: 1976
+    title: "Knowledge and Social Imagery"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: collins1992
+    author: "Collins, H.M. and Yearley, S."
+    year: 1992
+    title: "Epistemological chicken"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: winner1993
+    author: "Winner, L."
+    year: 1993
+    title: "Upon opening the black box and finding it empty"
+    cited_by: [RP-05, SYN-02]
+    domain: STS
+
+  - id: whittle2008
+    author: "Whittle, A. and Spicer, A."
+    year: 2008
+    title: "Is actor network theory critique?"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: orlikowski2008
+    author: "Orlikowski, W.J. and Scott, S.V."
+    year: 2008
+    title: "Sociomateriality: Challenging the separation of technology, work and organization"
+    cited_by: [RP-05, SYN-04]
+    domain: STS
+
+  - id: suchman1987
+    author: "Suchman, L."
+    year: 1987
+    title: "Plans and Situated Actions"
+    cited_by: [RP-05]
+    domain: STS
+
+  - id: suchman2007
+    author: "Suchman, L."
+    year: 2007
+    title: "Human-Machine Reconfigurations"
+    cited_by: [RP-05, SYN-04]
+    domain: STS
+
+  - id: mackenzie2006
+    author: "MacKenzie, D."
+    year: 2006
+    title: "An engine, not a camera: How financial models shape markets"
+    cited_by: [SYN-04]
+    domain: STS
+
+  # =========================================================================
+  # FEMINIST STS & OOO
+  # =========================================================================
+
+  - id: haraway1988
+    author: "Haraway, D."
+    year: 1988
+    title: "Situated knowledges"
+    cited_by: [RP-05, SYN-02, SYN-04]
+    domain: feminist_STS
+
+  - id: haraway1991
+    author: "Haraway, D."
+    year: 1991
+    title: "A Cyborg Manifesto"
+    cited_by: [RP-05]
+    domain: feminist_STS
+
+  - id: haraway2016
+    author: "Haraway, D."
+    year: 2016
+    title: "Staying with the Trouble"
+    cited_by: [RP-05]
+    domain: feminist_STS
+
+  - id: barad2003
+    author: "Barad, K."
+    year: 2003
+    title: "Posthumanist performativity"
+    cited_by: [RP-05, SYN-04]
+    domain: feminist_STS
+
+  - id: barad2007
+    author: "Barad, K."
+    year: 2007
+    title: "Meeting the Universe Halfway"
+    cited_by: [RP-05, SYN-02, SYN-04]
+    domain: feminist_STS
+
+  - id: harman2002
+    author: "Harman, G."
+    year: 2002
+    title: "Tool-Being: Heidegger and the Metaphysics of Objects"
+    cited_by: [RP-05]
+    domain: philosophy
+
+  - id: harman2009
+    author: "Harman, G."
+    year: 2009
+    title: "Prince of Networks: Bruno Latour and Metaphysics"
+    cited_by: [RP-05, SYN-04]
+    domain: philosophy
+
+  - id: delanda2006
+    author: "DeLanda, M."
+    year: 2006
+    title: "A New Philosophy of Society: Assemblage Theory and Social Complexity"
+    cited_by: [RP-05]
+    domain: philosophy
+
+  # =========================================================================
+  # ORGANIZATIONAL THEORY & SOCIAL SCIENCE
+  # =========================================================================
+
+  - id: deleuze1987
+    author: "Deleuze, G. and Guattari, F."
+    year: 1987
+    title: "A Thousand Plateaus: Capitalism and Schizophrenia"
+    cited_by: [RP-03, SYN-02]
+    domain: philosophy
+
+  - id: simon1962
+    author: "Simon, H.A."
+    year: 1962
+    title: "The architecture of complexity"
+    cited_by: [RP-03, SYN-02]
+    domain: organizational_theory
+
+  - id: scott1998
+    author: "Scott, J.C."
+    year: 1998
+    title: "Seeing Like a State"
+    cited_by: [RP-03, SYN-02]
+    domain: political_science
+
+  - id: freeman1972
+    author: "Freeman, J."
+    year: 1972
+    title: "The Tyranny of Structurelessness"
+    cited_by: [RP-03, SYN-02]
+    domain: political_science
+
+  - id: olson1965
+    author: "Olson, M."
+    year: 1965
+    title: "The Logic of Collective Action"
+    cited_by: [RP-03]
+    domain: political_science
+
+  - id: gunderson2002
+    author: "Gunderson, L.H. and Holling, C.S."
+    year: 2002
+    title: "Panarchy: Understanding Transformations in Human and Natural Systems"
+    cited_by: [RP-03, SYN-02]
+    domain: ecology
+
+  - id: mcculloch1945
+    author: "McCulloch, W.S."
+    year: 1945
+    title: "A heterarchy of values determined by the topology of nervous nets"
+    cited_by: [SYN-02]
+    domain: cybernetics
+
+  - id: barabasi1999
+    author: "Barabasi, A.-L. and Albert, R."
+    year: 1999
+    title: "Emergence of scaling in random networks"
+    cited_by: [RP-03, SYN-02]
+    domain: network_science
+
+  - id: dunbar1992
+    author: "Dunbar, R.I.M."
+    year: 1992
+    title: "Neocortex size as a constraint on group size in primates"
+    cited_by: [RP-03, SYN-02]
+    domain: anthropology
+
+  - id: buchanan1962
+    author: "Buchanan, J.M. and Tullock, G."
+    year: 1962
+    title: "The Calculus of Consent"
+    cited_by: [RP-03]
+    domain: political_science
+
+  - id: woolley2010
+    author: "Woolley, A.W. et al."
+    year: 2010
+    title: "Evidence for a Collective Intelligence Factor in the Performance of Human Groups"
+    cited_by: [RP-03]
+    domain: organizational_theory
+
+  - id: bernstein2016
+    author: "Bernstein, E., Shore, J., and Lazer, D."
+    year: 2016
+    title: "How Intermittent Breaks in Interaction Improve Collective Intelligence"
+    cited_by: [RP-03]
+    domain: organizational_theory
+
+  - id: comfort2007
+    author: "Comfort, L.K."
+    year: 2007
+    title: "Crisis Management in Hindsight"
+    cited_by: [RP-03]
+    domain: organizational_theory
+
+  - id: foss2019
+    author: "Foss, N.J. and Linder, S."
+    year: 2019
+    title: "Microfoundations of Organizational Decision-Making"
+    cited_by: [RP-03]
+    domain: organizational_theory
+
+  # =========================================================================
+  # SOCIAL CHOICE & MECHANISM DESIGN
+  # =========================================================================
+
+  - id: arrow1950
+    author: "Arrow, K.J."
+    year: 1950
+    title: "A difficulty in the concept of social welfare"
+    cited_by: [SYN-02, CAPSTONE]
+    domain: social_choice_theory
+
+  - id: arrow1951
+    author: "Arrow, K.J."
+    year: 1951
+    title: "Social Choice and Individual Values"
+    cited_by: [SYN-02, CAPSTONE]
+    domain: social_choice_theory
+
+  - id: gibbard1973
+    author: "Gibbard, A."
+    year: 1973
+    title: "Manipulation of voting schemes: A general result"
+    cited_by: [SYN-02]
+    domain: social_choice_theory
+
+  - id: satterthwaite1975
+    author: "Satterthwaite, M.A."
+    year: 1975
+    title: "Strategy-proofness and Arrow's conditions"
+    cited_by: [SYN-02]
+    domain: social_choice_theory
+
+  - id: hurwicz1960
+    author: "Hurwicz, L."
+    year: 1960
+    title: "Optimality and informational efficiency in resource allocation processes"
+    cited_by: [SYN-02]
+    domain: mechanism_design
+
+  - id: maskin1999
+    author: "Maskin, E."
+    year: 1999
+    title: "Nash equilibrium and welfare optimality"
+    cited_by: [SYN-02]
+    domain: mechanism_design
+
+  - id: myerson1981
+    author: "Myerson, R.B."
+    year: 1981
+    title: "Optimal auction design"
+    cited_by: [SYN-02]
+    domain: mechanism_design
+
+  - id: vickrey1961
+    author: "Vickrey, W."
+    year: 1961
+    title: "Counterspeculation, auctions, and competitive sealed tenders"
+    cited_by: [SYN-02]
+    domain: mechanism_design
+
+  - id: clarke1971
+    author: "Clarke, E.H."
+    year: 1971
+    title: "Multipart pricing of public goods"
+    cited_by: [SYN-02]
+    domain: mechanism_design
+
+  - id: groves1973
+    author: "Groves, T."
+    year: 1973
+    title: "Incentives in teams"
+    cited_by: [SYN-02]
+    domain: mechanism_design
+
+  - id: nisan2001
+    author: "Nisan, N. and Ronen, A."
+    year: 2001
+    title: "Algorithmic mechanism design"
+    cited_by: [SYN-02]
+    domain: mechanism_design
+
+  # =========================================================================
+  # PSYCHOMETRICS & MEASUREMENT THEORY
+  # =========================================================================
+
+  - id: cronbach1951
+    author: "Cronbach, L.J."
+    year: 1951
+    title: "Coefficient alpha and the internal structure of tests"
+    cited_by: [RP-07, SYN-02]
+    domain: psychometrics
+
+  - id: cronbach1955
+    author: "Cronbach, L.J. and Meehl, P.E."
+    year: 1955
+    title: "Construct validity in psychological tests"
+    cited_by: [RP-07, SYN-02, SYN-04]
+    domain: psychometrics
+
+  - id: messick1989
+    author: "Messick, S."
+    year: 1989
+    title: "Validity"
+    cited_by: [RP-07, SYN-02, SYN-04]
+    domain: psychometrics
+
+  - id: messick1995
+    author: "Messick, S."
+    year: 1995
+    title: "Validity of psychological assessment"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: rasch1960
+    author: "Rasch, G."
+    year: 1960
+    title: "Probabilistic models for some intelligence and attainment tests"
+    cited_by: [RP-07, SYN-04]
+    domain: psychometrics
+
+  - id: lord1968
+    author: "Lord, F.M. and Novick, M.R."
+    year: 1968
+    title: "Statistical theories of mental test scores"
+    cited_by: [RP-07, SYN-04]
+    domain: psychometrics
+
+  - id: spearman1904
+    author: "Spearman, C."
+    year: 1904
+    title: "The proof and measurement of association between two things"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: stevens1946
+    author: "Stevens, S.S."
+    year: 1946
+    title: "On the theory of scales of measurement"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: stevens1935
+    author: "Stevens, S.S."
+    year: 1935
+    title: "The operational definition of psychological concepts"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: novick1966
+    author: "Novick, M.R."
+    year: 1966
+    title: "The axioms and principal results of classical test theory"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: meredith1993
+    author: "Meredith, W."
+    year: 1993
+    title: "Measurement invariance, factor analysis and factorial invariance"
+    cited_by: [RP-07, SYN-02, SYN-04]
+    domain: psychometrics
+
+  - id: vandenberg2000
+    author: "Vandenberg, R.J. and Lance, C.E."
+    year: 2000
+    title: "A review and synthesis of the measurement invariance literature"
+    cited_by: [RP-07, SYN-04]
+    domain: psychometrics
+
+  - id: borsboom2004
+    author: "Borsboom, D., Mellenbergh, G.J., and van Heerden, J."
+    year: 2004
+    title: "The concept of validity"
+    cited_by: [RP-07, SYN-04]
+    domain: psychometrics
+
+  - id: embretson2000
+    author: "Embretson, S.E. and Reise, S.P."
+    year: 2000
+    title: "Item response theory for psychologists"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: deayala2009
+    author: "de Ayala, R.J."
+    year: 2009
+    title: "The theory and practice of item response theory"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: guttman1944
+    author: "Guttman, L."
+    year: 1944
+    title: "A basis for scaling qualitative data"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: guttman1950
+    author: "Guttman, L."
+    year: 1950
+    title: "The basis for scalogram analysis"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: thurstone1928
+    author: "Thurstone, L.L."
+    year: 1928
+    title: "Attitudes can be measured"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: likert1932
+    author: "Likert, R."
+    year: 1932
+    title: "A technique for the measurement of attitudes"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: allen2002
+    author: "Allen, M.J. and Yen, W.M."
+    year: 2002
+    title: "Introduction to measurement theory"
+    cited_by: [RP-07, SYN-04]
+    domain: psychometrics
+
+  - id: wright1979
+    author: "Wright, B.D. and Stone, M.H."
+    year: 1979
+    title: "Best test design: Rasch measurement"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: hu1999
+    author: "Hu, L. and Bentler, P.M."
+    year: 1999
+    title: "Cutoff criteria for fit indexes in covariance structure analysis"
+    cited_by: [RP-07]
+    domain: psychometrics
+
+  - id: campbell1959
+    author: "Campbell, D.T. and Fiske, D.W."
+    year: 1959
+    title: "Convergent and discriminant validation by the multitrait-multimethod matrix"
+    cited_by: [RP-07, SYN-04]
+    domain: psychometrics
+
+  - id: muthen2012
+    author: "Muthen, L.K. and Muthen, B.O."
+    year: 2012
+    title: "Mplus User's Guide"
+    cited_by: [SYN-02]
+    domain: psychometrics
+
+  - id: gneiting2007
+    author: "Gneiting, T. and Raftery, A.E."
+    year: 2007
+    title: "Strictly proper scoring rules, prediction, and estimation"
+    cited_by: [SYN-02]
+    domain: statistics
+
+  - id: savage1971
+    author: "Savage, L.J."
+    year: 1971
+    title: "Elicitation of personal probabilities and expectations"
+    cited_by: [SYN-02]
+    domain: statistics
+
+  # =========================================================================
+  # SOCIOLOGY OF QUANTIFICATION & AUDIT
+  # =========================================================================
+
+  - id: goodhart1975
+    author: "Goodhart, C.A.E."
+    year: 1975
+    title: "Problems of monetary management: The UK experience"
+    cited_by: [RP-07, SYN-02, SYN-04, CAPSTONE]
+    domain: economics
+
+  - id: campbell1979
+    author: "Campbell, D.T."
+    year: 1979
+    title: "Assessing the impact of planned social change"
+    cited_by: [RP-07, SYN-02, SYN-04, CAPSTONE]
+    domain: social_science
+
+  - id: strathern1997
+    author: "Strathern, M."
+    year: 1997
+    title: "'Improving ratings': Audit in the British university system"
+    cited_by: [RP-07, SYN-02, SYN-04, CAPSTONE]
+    domain: anthropology
+
+  - id: strathern2000
+    author: "Strathern, M. (Ed.)"
+    year: 2000
+    title: "Audit Cultures"
+    cited_by: [RP-07]
+    domain: anthropology
+
+  - id: porter1995
+    author: "Porter, T.M."
+    year: 1995
+    title: "Trust in Numbers: The Pursuit of Objectivity in Science and Public Life"
+    cited_by: [RP-07, SYN-04]
+    domain: sociology_of_science
+
+  - id: espeland2008
+    author: "Espeland, W.N. and Stevens, M.L."
+    year: 2008
+    title: "A sociology of quantification"
+    cited_by: [RP-07]
+    domain: sociology
+
+  - id: espeland2007
+    author: "Espeland, W.N. and Sauder, M."
+    year: 2007
+    title: "Rankings and reactivity: How public measures recreate social worlds"
+    cited_by: [SYN-04]
+    domain: sociology
+
+  - id: desrosieres1998
+    author: "Desrosieres, A."
+    year: 1998
+    title: "The Politics of Large Numbers: A History of Statistical Reasoning"
+    cited_by: [RP-07]
+    domain: sociology_of_science
+
+  - id: hacking1983
+    author: "Hacking, I."
+    year: 1983
+    title: "Representing and Intervening"
+    cited_by: [SYN-04]
+    domain: philosophy_of_science
+
+  - id: hacking1999
+    author: "Hacking, I."
+    year: 1999
+    title: "The Social Construction of What?"
+    cited_by: [SYN-04]
+    domain: philosophy_of_science
+
+  # =========================================================================
+  # SOFTWARE ENGINEERING METRICS & QUALITY
+  # =========================================================================
+
+  - id: butler2010
+    author: "Butler, S. et al."
+    year: 2010
+    title: "Exploring the Influence of Identifier Names on Code Quality"
+    cited_by: [RP-04, SYN-03, CAPSTONE]
+    domain: software_engineering
+
+  - id: lawrie2006
+    author: "Lawrie, D. et al."
+    year: 2006
+    title: "What's in a Name? A Study of Identifiers"
+    cited_by: [RP-04, SYN-03]
+    domain: software_engineering
+
+  - id: hofmeister2017
+    author: "Hofmeister, J. et al."
+    year: 2017
+    title: "Shorter Identifier Names Take Longer to Comprehend"
+    cited_by: [RP-04, SYN-03]
+    domain: software_engineering
+
+  - id: arnaoudova2016
+    author: "Arnaoudova, V., Di Penta, M., and Antoniol, G."
+    year: 2016
+    title: "Linguistic Antipatterns: What They Are and How Developers Perceive Them"
+    cited_by: [SYN-03]
+    domain: software_engineering
+
+  - id: mccabe1976
+    author: "McCabe, T.J."
+    year: 1976
+    title: "A complexity measure"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  - id: fenton2014
+    author: "Fenton, N.E. and Bieman, J."
+    year: 2014
+    title: "Software metrics: A rigorous and practical approach"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  - id: kan2003
+    author: "Kan, S.H."
+    year: 2003
+    title: "Metrics and models in software quality engineering"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  - id: bansiya2002
+    author: "Bansiya, J. and Davis, C.G."
+    year: 2002
+    title: "A hierarchical model for object-oriented design quality assessment"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  - id: oman1992
+    author: "Oman, P.W. and Hagemeister, J."
+    year: 1992
+    title: "Metrics for assessing a software system's maintainability"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  - id: beck2000
+    author: "Beck, K."
+    year: 2000
+    title: "Extreme programming explained"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  - id: fowler1999
+    author: "Fowler, M."
+    year: 1999
+    title: "Refactoring: Improving the design of existing code"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  - id: iso25010
+    author: "ISO/IEC"
+    year: 2011
+    title: "ISO/IEC 25010:2011 Systems and software Quality Requirements and Evaluation (SQuaRE)"
+    cited_by: [RP-07]
+    domain: software_engineering
+
+  # =========================================================================
+  # PHILOSOPHY OF SCIENCE & INFORMATION
+  # =========================================================================
+
+  - id: kitcher1981
+    author: "Kitcher, P."
+    year: 1981
+    title: "Explanatory unification"
+    cited_by: [SYN-01]
+    domain: philosophy_of_science
+
+  - id: morrison2000
+    author: "Morrison, M."
+    year: 2000
+    title: "Unifying Scientific Theories: Physical Concepts and Mathematical Structures"
+    cited_by: [SYN-01]
+    domain: philosophy_of_science
+
+  - id: floridi2011
+    author: "Floridi, L."
+    year: 2011
+    title: "The Philosophy of Information"
+    cited_by: [CAPSTONE]
+    domain: philosophy_of_information
+
+  - id: piaget1970
+    author: "Piaget, J."
+    year: 1970
+    title: "Genetic Epistemology"
+    cited_by: [CAPSTONE]
+    domain: developmental_psychology
+
+  - id: carnap1928
+    author: "Carnap, R."
+    year: 1928
+    title: "Der logische Aufbau der Welt"
+    cited_by: [CAPSTONE]
+    domain: philosophy_of_science
+
+  # =========================================================================
+  # ANTHROPOLOGY & CULTURAL STUDIES
+  # =========================================================================
+
+  - id: evanspritchard1940
+    author: "Evans-Pritchard, E.E."
+    year: 1940
+    title: "The Nuer"
+    cited_by: [RP-04]
+    domain: anthropology
+
+  - id: confucius1979
+    author: "Confucius"
+    year: 1979
+    title: "The Analects (D.C. Lau trans.)"
+    cited_by: [RP-04]
+    domain: philosophy
+
+  - id: xunzi2003
+    author: "Xunzi"
+    year: 2003
+    title: "Rectifying Names (Zhengming)"
+    cited_by: [RP-04]
+    domain: philosophy
+
+  # =========================================================================
+  # MISCELLANEOUS REFERENCES
+  # =========================================================================
+
+  - id: sprouse2013
+    author: "Sprouse, J., Schutze, C.T., and Almeida, D."
+    year: 2013
+    title: "A comparison of informal and formal acceptability judgments"
+    cited_by: [RP-06]
+    domain: linguistics
+
+  - id: novak2005
+    author: "Novak, V."
+    year: 2005
+    title: "On fuzzy type theory"
+    cited_by: [RP-06]
+    domain: logic_and_computation
+
+  - id: kahney1983
+    author: "Kahney, H."
+    year: 1983
+    title: "What do novice programmers know about recursion?"
+    cited_by: [RP-06]
+    domain: computer_science
+
+  - id: artzi2013
+    author: "Artzi, Y. and Zettlemoyer, L."
+    year: 2013
+    title: "Weakly supervised learning of semantic parsers"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: matuszek2012
+    author: "Matuszek, C. et al."
+    year: 2012
+    title: "Learning to parse natural language commands to a robot control system"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: liang2013
+    author: "Liang, P."
+    year: 2013
+    title: "Lambda dependency-based compositional semantics"
+    cited_by: [RP-06]
+    domain: computational_linguistics
+
+  - id: bos1996
+    author: "Bos, J."
+    year: 1996
+    title: "Predicate logic unplugged"
+    cited_by: [RP-06]
+    domain: formal_semantics
+
+  - id: cooper2005
+    author: "Cooper, R."
+    year: 2005
+    title: "Records and record types in semantic theory"
+    cited_by: [RP-06]
+    domain: formal_semantics
+
+  - id: copestake2002
+    author: "Copestake, A."
+    year: 2002
+    title: "Implementing Typed Feature Structure Grammars"
+    cited_by: [RP-06]
+    domain: formal_semantics
+
+  - id: simard2012
+    author: "Simard, S.W. et al."
+    year: 2012
+    title: "Mother trees and forest networks (mycorrhizal networks research)"
+    cited_by: [RP-03]
+    domain: ecology

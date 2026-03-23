@@ -1,0 +1,765 @@
+% arXiv submission: SYN-01
+% Title: The Architecture of Compositional Formal Meaning: A Categorical
+%        Framework for Structural Unification of Grammar, Semantics,
+%        and Computation
+% Author: A. Padavano (Independent researcher)
+% Primary category: cs.LO (Logic in Computer Science)
+% Cross-list: cs.CL, cs.PL, math.CT
+% MSC 2020: 18C50, 03B65, 68Q55, 03G30
+% License: CC BY 4.0
+% Date: 2026
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{alltt}
+\usepackage{microtype}
+\usepackage[margin=1in]{geometry}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{proposition}{Proposition}
+
+\title{The Architecture of Compositional Formal Meaning:\\
+A Categorical Framework for Structural Unification\\
+of Grammar, Semantics, and Computation}
+
+\author{A.~Padavano\\
+  \textit{Independent researcher, Studium Generale ORGANVM}}
+
+\date{2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper synthesises two prior investigations: one identifying eight
+structural bridges connecting three traditions of formal semantics (logical,
+computational, and natural language), and another establishing a fourfold
+correspondence among grammars, types, proofs, and categories across the
+Chomsky hierarchy. We ask whether these results unify into a single
+categorical architecture of compositional formal meaning. The central claim
+is that meaning, in its compositional and type-driven core, is the functorial
+passage from a syntactic category to a semantic category, exhibiting the same
+categorical structure whether the syntax is linguistic, logical, or
+computational. This is structural unification in Klein's Erlangen Programme
+sense---identifying a common mathematical schema across independent
+traditions---not scientific unification requiring novel empirical predictions.
+We develop the architecture through seven components: meaning as functor via
+fibred categories, compositionality as functoriality, the Lambek calculus as
+syntactic category, Montague's rule-to-rule hypothesis as natural
+transformation, the DisCoCat framework assessed with honest empirical
+limitations, compact closed categories with attention to the
+symmetric/non-symmetric distinction, and a topos-theoretic perspective with a
+worked example of anaphora resolution via presheaves. The unification claim is
+stated as a five-way correspondence among derivation, proof, programme,
+morphism, and meaning-composition, supported by a commutative diagram. We
+address the distributional challenge: DisCoCat is reframed as categorical
+proof of concept, transformer success is confronted without dismissal, and
+testable predictions from the categorical architecture are identified. We
+conclude that the compositional typed core of all three semantic traditions
+admits genuine structural unification under a single functorial architecture.
+\end{abstract}
+
+\noindent\textbf{Keywords:} category theory, formal semantics,
+compositionality, functoriality, Curry-Howard-Lambek correspondence, Lambek
+calculus, Montague grammar, DisCoCat, compact closed categories, topos theory,
+structural unification, Erlangen Programme
+
+\bigskip
+
+\section{Introduction}
+
+\subsection{Two Convergent Investigations}
+
+The Studium Generale ORGANVM research programme has produced two
+investigations that approach the formal structure of meaning from
+complementary directions. RP-01, \emph{Toward a Grand Unified Semantics},
+surveyed three traditions of formal semantics---logical (Tarski~\cite{Tarski1936};
+Kripke~\cite{Kripke1959,Kripke1963}), programming language
+(Scott and Strachey~\cite{ScottStrachey1971}; Hoare~\cite{Hoare1969}), and
+natural language (Montague~\cite{Montague1973};
+Heim and Kratzer~\cite{HeimKratzer1998})---and identified eight structural
+bridges: compositionality, lambda calculus, the Curry-Howard-Lambek
+correspondence, type theory, model theory, game semantics, dynamic semantics,
+and proof-theoretic semantics.
+
+RP-06, \emph{Grammars, Types, Proofs, and Categories}~\cite{Padavano2026RP06},
+established a fourfold correspondence: at each level of the Chomsky hierarchy,
+grammars correspond to automata (the classical result), but they also
+correspond to regimes of type-theoretic expressiveness, and the convergence
+reveals that grammars, types, proofs, and categories are structurally
+isomorphic.
+
+\subsection{The Question of Unification}
+
+If meaning is a map from syntax to semantics, and if syntax has a unified
+categorical structure, then meaning itself must have a unified categorical
+structure---the structure of a functor from the syntactic category to the
+semantic category.
+
+\subsection{What Kind of Unification?}
+
+\textbf{Kitcher's account}~\cite{Kitcher1981}: unification reduces the number
+of independent explanatory patterns. The functorial pattern replaces multiple
+independent descriptions of compositionality with a single argument pattern.
+This is genuine but incremental.
+
+\textbf{Morrison's taxonomy}~\cite{Morrison2000}: distinguishes theoretical
+unification (Maxwell), reductive unification (Weinberg-Salam), and structural
+unification. The present work achieves \emph{structural} unification: shared
+mathematical architecture, not shared cause or substrate.
+
+\textbf{The Erlangen Programme}~\cite{Klein1872}: Klein ``unified'' the
+geometries of the nineteenth century by characterising each as the study of
+invariants under a specific transformation group. As
+Eilenberg and Mac Lane~\cite{EilenbergMacLane1945} noted, the categorical
+perspective ``may be regarded as a continuation of the Klein Erlanger
+Programm.''
+
+\begin{itemize}
+  \item \textbf{Claimed:} The three traditions share a common categorical
+    architecture---the functorial passage from a syntactic category to a
+    semantic category.
+  \item \textbf{Not claimed:} Scientific unification in the Maxwell sense;
+    novel empirical predictions; capture of pragmatics, embodied meaning, or
+    non-compositional phenomena.
+\end{itemize}
+
+\subsection{The Central Claim}
+
+\emph{The compositional, type-driven core of formal meaning---across the
+logical, computational, and linguistic traditions---admits structural
+unification under a single categorical architecture: the functorial passage
+from a syntactic category to a semantic category.}
+
+More precisely: there exists a family of categories $\mathbf{Syn}$ (syntactic
+categories) and a \emph{fibred family} of categories $\mathbf{Sem}$ (semantic
+categories, parametrised by interpretive tradition) such that meaning
+assignment is a functor $F \colon \mathbf{Syn} \to \mathbf{Sem}$.
+
+\subsection{Scope and Limitations}
+
+The following fall outside the architecture's scope: pragmatics
+(Grice~\cite{Grice1975}; Searle~\cite{Searle1969}); embodied meaning
+(Lakoff and Johnson~\cite{LakoffJohnson1980};
+Varela et al.~\cite{VarelaThompsonRosch1991}); non-compositional phenomena
+(idioms, metaphor); dynamic semantics in its full generality
+(Kamp~\cite{Kamp1981}; Heim~\cite{Heim1982};
+Groenendijk and Stokhof~\cite{GroenendijkStokhof1991});
+game-theoretic semantics; and probabilistic meaning.
+
+\section{Recapitulation: The Eight Bridges and the Fourfold}
+
+\subsection{The Bridge Taxonomy (RP-01)}
+
+\begin{enumerate}
+  \item \textbf{Compositionality} (Frege's Principle). Structural strength:
+    \emph{isomorphism}.
+  \item \textbf{Lambda calculus}. Strength: \emph{isomorphism}.
+  \item \textbf{Curry-Howard-Lambek correspondence}. Strength:
+    \emph{isomorphism} (three-way); \emph{homomorphism} (extension to natural
+    language).
+  \item \textbf{Type theory}. Strength: \emph{homomorphism}.
+  \item \textbf{Model theory}. Strength: \emph{isomorphism} (classical
+    fragments).
+  \item \textbf{Game semantics}. Strength: \emph{homomorphism}.
+  \item \textbf{Dynamic semantics}. Strength: \emph{analogy} tending toward
+    homomorphism.
+  \item \textbf{Proof-theoretic semantics}. Strength: \emph{homomorphism}.
+\end{enumerate}
+
+\subsection{The Fourfold Correspondence (RP-06)}
+
+\begin{table}[ht]
+\centering
+\caption{The fourfold correspondence from RP-06}
+\label{tab:fourfold}
+\begin{tabular}{@{}llll@{}}
+\toprule
+Grammar & Logic & Computation & Category \\
+\midrule
+Syntactic category & Proposition & Type & Object \\
+Derivation & Proof & Programme & Morphism \\
+$A/B$ & Implication & Function type & Exponential \\
+Application & Modus ponens & $\beta$-reduction & Evaluation \\
+Lexicon & Axioms & Constants & Generators \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Overlap and Divergence}
+
+RP-01 and RP-06 converge on the Curry-Howard-Lambek correspondence, categorial
+grammar, lambda calculus, and compositionality. They diverge on dynamic/game
+semantics (RP-01 only), automata theory (RP-06 only), and the treatment of
+distributional semantics.
+
+\section{The Categorical Architecture}
+
+\subsection{Meaning as Functor: The Fibred Perspective}
+
+A functor $F \colon \mathbf{C} \to \mathbf{D}$ sends objects and morphisms of
+$\mathbf{C}$ to $\mathbf{D}$, preserving composition ($F(g \circ f) =
+F(g) \circ F(f)$) and identity ($F(\mathrm{id}_A) = \mathrm{id}_{F(A)}$).
+
+The multiplicity of semantic categories---$\mathbf{Set}$ (classical logic),
+$\mathbf{Dom}$ (Scott domains), $\mathbf{FdVect}$ (distributional
+semantics), Kripke presheaves (modal logic)---means that the ``unified
+functorial passage'' is a \emph{family} of functors parametrised by the
+choice of semantic category.
+
+\textbf{The fibred formulation.} Let $\mathbf{T}$ be the category of
+\emph{interpretive traditions}. The semantic categories form a fibration
+$p \colon \mathbf{Sem} \to \mathbf{T}$, where the fibre over each tradition
+$t \in \mathbf{T}$ is the semantic category $\mathbf{Sem}_t$. The meaning
+functor is a \emph{section} of this fibration: a family of functors
+$F_t \colon \mathbf{Syn} \to \mathbf{Sem}_t$, coherent with respect to the
+morphisms in $\mathbf{T}$~\cite{Grothendieck1971,Jacobs1999}.
+
+\textbf{Why ``almost tautological'' is a feature.} That the functorial
+perspective arises independently in logical semantics, programming language
+semantics, and natural language semantics is evidence that the concept of
+structure-preserving meaning assignment was already latent in all three
+traditions. The Erlangen Programme was similarly ``tautological''---Klein's
+contribution was to make the schema explicit.
+
+\subsection{Compositionality as Functoriality}
+
+The identification of compositionality with functoriality has been observed
+by Janssen~\cite{Janssen1997}, Hodges~\cite{Hodges2001}, and others.
+Montague's principle of compositionality asserts that there exists a
+homomorphism $h \colon \mathbf{A}_{\mathrm{syn}} \to
+\mathbf{A}_{\mathrm{sem}}$. This is precisely the assertion that meaning
+assignment is a functor.
+
+A failure of compositionality is a failure of the meaning map to be a
+functor: a case in which $F(g \circ f) \neq F(g) \circ F(f)$. Idioms
+provide the canonical example. Moggi's monadic
+framework~\cite{Moggi1991} restores compositionality for effects by enriching
+the semantic category.
+
+\subsection{The Lambek Calculus as the Syntactic Category}
+
+The Lambek calculus~\cite{Lambek1958} provides the canonical syntactic
+category. As a category, it forms the \emph{free residuated monoid} generated
+by the basic syntactic types. The residuation laws encode the adjunction:
+\[
+A \cdot B \to C \quad\text{iff}\quad A \to C / B \quad\text{iff}\quad B \to A \backslash C
+\]
+
+Its non-commutativity reflects word order. Its substructural character
+connects it to linear logic~\cite{Girard1987}.
+
+\subsection{Montague's Rule-to-Rule Correspondence as Natural Transformation}
+
+Montague's rule-to-rule hypothesis can be formulated as a natural
+transformation $\eta \colon S \Rightarrow M$ between syntactic and semantic
+interpretation functors. The commutativity of the naturality square:
+
+\begin{verbatim}
+S(A) --eta_A--> M(A)
+ |                |
+S(f)             M(f)
+ |                |
+ v                v
+S(B) --eta_B--> M(B)
+\end{verbatim}
+
+\noindent is precisely the rule-to-rule hypothesis: meaning assignment is
+uniform and systematic. The intensional dimension adds further structure via
+functors $\mathbf{Syn} \to [\mathbf{W}, \mathbf{Sem}]$, where $\mathbf{W}$ is
+the category of possible worlds.
+
+\subsection{The DisCoCat Framework: Promise, Proof of Concept, and Empirical Limits}
+
+DisCoCat~\cite{CoeckeSadrzadehClark2010} defines meaning as a strong monoidal
+functor $F \colon \mathbf{G} \to \mathbf{FdVect}$, where $\mathbf{G}$ is the
+free rigid category generated by a pregroup grammar. This assigns vector
+spaces to basic types and tensors to words.
+
+\textbf{The empirical record: an honest assessment.} DisCoCat has been tested
+on small-scale sentence similarity tasks. It has \emph{not} been demonstrated
+on machine translation, open-domain QA, summarisation, dialogue, or any task
+requiring reasoning over paragraphs. DisCoCat demonstrates that
+reconciliation is feasible \emph{in principle}, for sentences of two or three
+words. It is a proof of \emph{categorical concept}, not a practical bridge.
+
+\textbf{Limitations.} (1)~$\mathbf{FdVect}$ cannot directly represent logical
+operations (negation, quantification). (2)~Pregroup grammars are weakly
+equivalent to context-free grammars. (3)~Tensor representations grow
+exponentially with type arity.
+
+\subsection{Compact Closed Categories and the Symmetric/Non-Symmetric Distinction}
+
+Pregroup grammars form \emph{rigid} categories (non-symmetric compact closed),
+while $\mathbf{FdVect}$ is \emph{symmetric} compact closed. The DisCoCat
+functor maps from a non-symmetric structure to a symmetric one and therefore
+\emph{cannot be fully faithful}: it collapses the distinction between left and
+right adjoints. The structural preservation is weaker than a naive reading
+would suggest, compensated by richer structure at the morphism level.
+
+The compact closed structure provides a diagrammatic calculus (string
+diagrams), imported from categorical quantum
+mechanics~\cite{AbramskyCoecke2004}, which has led to quantum natural language
+processing (QNLP) via the \texttt{lambeq} framework~\cite{Kartsaklis2021}.
+
+\subsection{The Topos-Theoretic Perspective: Presheaf Semantics}
+
+A presheaf over a category of contexts $\mathbf{C}$ is a functor
+$F \colon \mathbf{C}^{\mathrm{op}} \to \mathbf{Set}$ that assigns to each
+context a set of ``elements in context'' with coherent translations.
+
+\textbf{Worked example: anaphora resolution as a sheaf condition.} Let the
+category of contexts $\mathbf{C}$ be the category of discourse states (sets
+of available discourse referents, ordered by inclusion). Define a presheaf
+$R \colon \mathbf{C}^{\mathrm{op}} \to \mathbf{Set}$ assigning to each
+discourse state the set of possible referent assignments.
+
+For the discourse:
+\begin{quote}
+(1) ``A farmer owns a donkey.'' \\
+(2) ``He beats it.''
+\end{quote}
+
+After sentence~(1), the discourse state is $D_1 = \{\text{farmer},
+\text{donkey}\}$. The \emph{sheaf condition} says: if partial assignments
+(resolving ``he'' and ``it'' separately) are compatible, there is a unique
+total assignment extending both. When the sheaf condition \emph{fails}, we
+get the formal diagnosis of an anaphoric failure. The ``donkey sentences'' of
+dynamic semantics~\cite{Kamp1981,Heim1982} can be analysed in this framework.
+
+\textbf{Connections to the architecture.} A topos is a cartesian closed
+category (compositional semantics available within); the subobject classifier
+provides non-classical truth values (vagueness, graded truth); the internal
+logic is intuitionistic (connecting to Curry-Howard-Lambek).
+
+\section{The Unification Claim}
+
+\subsection{What Is Unified (and What Is Not)}
+
+The architecture structurally unifies the compositional, type-driven core of
+grammar, logic, computation, and natural language semantics. It does
+\emph{not} unify pragmatic meaning, distributional meaning with
+truth-conditional meaning (though DisCoCat shows the bridge is categorically
+possible), formal structure with neural mechanisms, or compositional with
+embodied approaches.
+
+\subsection{The Five-Way Correspondence}
+
+\begin{table}[ht]
+\centering
+\caption{The five-way correspondence}
+\label{tab:fiveway}
+\small
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Grammar & Logic & Computation & Category & Semantics \\
+\midrule
+Syntactic type & Proposition & Type & Object & Semantic type \\
+Derivation & Proof & Programme & Morphism & Meaning-comp. \\
+Concatenation & Conjunction & Product type & Product & Conjunction \\
+Slash $A/B$ & $A \Rightarrow B$ & $A \to B$ & Exponential & Functional meaning \\
+Sentence deriv. & Theorem proof & Well-typed term & Composed morph. & Sentence meaning \\
+Lexicon & Axioms & Constants & Generators & Lexical meanings \\
+Grammaticality & Provability & Well-typedness & Morph.\ existence & Meaningfulness \\
+Ambiguity & Multiple proofs & Multiple terms & Multiple morph. & Multiple readings \\
+Compositionality & Cut elimination & $\beta$-reduction & Composition law & Frege's principle \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{The correspondence as a commutative diagram.}
+
+\begin{verbatim}
+                          Syn
+                        / | \ \
+                       /  |  \ \
+                      v   v   v  v
+                   F_L  F_D  F_V  F_P
+                    |    |    |    |
+                    v    v    v    v
+                 Sem_L Sem_D Sem_V Sem_P
+                    \    |    |   /
+                     \   |    |  /
+                  U_LD \ U_DV | / U_VP
+                       v v   v v
+                 (natural transformations
+                  witnessing coherence)
+\end{verbatim}
+
+\noindent where $\mathbf{Syn}$ is the syntactic category;
+$F_L$, $F_D$, $F_V$, $F_P$ are the logical, domain-theoretic, distributional,
+and proof-theoretic meaning functors; and the natural transformations $U$ at
+the base are the formal expression of the bridges identified by RP-01.
+
+\subsection{Evidence For}
+
+\textbf{Formal:} Curry-Howard, Lambek's theorem, Pentus's equivalence,
+Montague's rule-to-rule, adequacy/full abstraction results.
+\textbf{Structural:} The same mathematical concepts appear with the same
+structural character across traditions. \textbf{Historical:} The pattern of
+convergent discovery (Chomsky/Backus on CFGs; Curry/Howard on
+proofs-as-programmes; game semantics independently in three fields).
+
+\subsection{Evidence Against}
+
+Pragmatics and non-compositionality; neural representations and opacity;
+concurrency and interaction (Curry-Howard for concurrency remains open);
+the gap between formal adequacy and empirical coverage.
+
+\section{The Distributional Challenge}
+
+\subsection{Transformers: Confronting Success Without Categorical Structure}
+
+Transformers demonstrate that meaning can be computed (or closely approximated)
+without implementing the categorical architecture. This is not a minor
+observation. The architecture offers structural transparency, guaranteed
+compositionality, and a framework for comparison. Transformers offer empirical
+performance, scalability, and learning from data.
+
+Probing studies~\cite{HewittManning2019,Clark2019,Jawahar2019} show that
+transformers encode syntactic dependency relations. ``Partially compatible'' is
+a weak claim: the representations are distributed and continuous, not the
+discrete algebraic structures of the Lambek calculus.
+
+\textbf{The honest framing:} the architecture and transformers may describe the
+same phenomena at different levels of abstraction, or different phenomena that
+co-occur in language. The question is empirical and not yet decisive.
+
+\subsection{Testable Predictions}
+
+\textbf{Prediction 1:} Transformers should show more systematic,
+structure-sensitive behaviour on compositional than non-compositional
+constructions.
+
+\textbf{Prediction 2:} Architectures encoding categorical structure should
+outperform standard transformers on compositional generalisation tasks
+(COGS~\cite{KimLinzen2020}, SCAN~\cite{LakeBaroni2018}).
+
+\textbf{Prediction 3:} Compositional patterns in one tradition should have
+precise analogues in others, predictable via the five-way correspondence.
+
+\textbf{Prediction 4:} Words with more complex grammatical types should
+require higher-rank tensors in DisCoCat, reflected in learning difficulty.
+
+\section{Discussion}
+
+\subsection{What the Architecture Achieves}
+
+Structural transparency (a single framework connecting RP-01 and RP-06);
+precision (informal ``analogies'' replaced by functors, natural
+transformations, adjunctions); a framework for systematic comparison of
+semantic traditions via the fibration.
+
+\subsection{What the Architecture Does Not Achieve}
+
+It is not scientific unification. It does not compete with transformers. It
+does not capture pragmatics, embodied meaning, non-compositional phenomena,
+or game-theoretic meaning.
+
+\subsection{The Value of Structural Unification}
+
+The Erlangen Programme is universally regarded as a major intellectual
+achievement, despite being ``merely'' structural. The analogous claim: the
+functorial architecture organises the study of formal meaning, clarifies
+relationships between traditions, and enables systematic transfer
+(e.g., monadic techniques from PL semantics for non-compositionality in NL).
+The evidence of DisCoCat, of the \texttt{lambeq} framework, and of the
+testable predictions suggests the architecture is productive.
+
+\section{Conclusion}
+
+This paper has synthesised two prior investigations into a single categorical
+architecture of compositional formal meaning. The architecture has seven
+components: meaning as functor (fibred), compositionality as functoriality,
+the Lambek calculus as syntactic category, Montague's rule-to-rule as natural
+transformation, DisCoCat (honestly assessed), compact closed categories (with
+the symmetric/non-symmetric distinction), and presheaf semantics (with a
+worked example of anaphora resolution).
+
+The central claim---the five-way correspondence among derivation, proof,
+programme, morphism, and meaning-composition---has been stated precisely and
+evaluated against supporting and countervailing evidence. The evidence
+supports the claim for the classical, compositional, typed core.
+
+This is structural unification in the tradition of Klein's Erlangen Programme.
+The three traditions of compositional formal semantics are three perspectives
+on a single mathematical structure. The functorial architecture makes this
+structure explicit. Whether making structure explicit constitutes
+``unification'' depends on one's philosophy of unification. That it
+constitutes a productive intellectual achievement---in the tradition of the
+Erlangen Programme---the present author submits with confidence.
+
+\section*{Acknowledgments}
+
+This work was conducted as part of the Studium Generale ORGANVM research
+program. The author acknowledges the use of AI language models (Claude,
+Anthropic) as research assistants for literature synthesis, structural
+drafting, and adversarial review via the Triadic Review Protocol. All
+intellectual claims, arguments, and editorial decisions are the author's own.
+
+\medskip
+\noindent\textcopyright~2026 A.~Padavano. This work is licensed under a
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+\begin{thebibliography}{99}
+
+\bibitem{AbramskyCoecke2004}
+S.~Abramsky and B.~Coecke.
+\newblock A categorical semantics of quantum protocols.
+\newblock In \emph{Proc.\ 19th IEEE Symp.\ Logic in Computer Science}, pp.~415--425, 2004.
+
+\bibitem{Ajdukiewicz1935}
+K.~Ajdukiewicz.
+\newblock Die syntaktische Konnexitat.
+\newblock \emph{Studia Philosophica}, 1:1--27, 1935.
+
+\bibitem{BarHillel1953}
+Y.~Bar-Hillel.
+\newblock A quasi-arithmetical notation for syntactic description.
+\newblock \emph{Language}, 29(1):47--58, 1953.
+
+\bibitem{Carpenter1997}
+B.~Carpenter.
+\newblock \emph{Type-Logical Semantics}.
+\newblock MIT Press, 1997.
+
+\bibitem{Chomsky1956}
+N.~Chomsky.
+\newblock Three models for the description of language.
+\newblock \emph{IRE Trans.\ Information Theory}, 2(3):113--124, 1956.
+
+\bibitem{Church1940}
+A.~Church.
+\newblock A formulation of the simple theory of types.
+\newblock \emph{J.\ Symbolic Logic}, 5(2):56--68, 1940.
+
+\bibitem{Clark2019}
+K.~Clark, U.~Khandelwal, O.~Levy, and C.~D.~Manning.
+\newblock What does BERT look at?
+\newblock In \emph{Proc.\ 2019 ACL Workshop BlackboxNLP}, pp.~276--286, 2019.
+
+\bibitem{CoeckeSadrzadehClark2010}
+B.~Coecke, M.~Sadrzadeh, and S.~Clark.
+\newblock Mathematical foundations for a compositional distributional model of meaning.
+\newblock \emph{Linguistic Analysis}, 36(1--4):345--384, 2010.
+
+\bibitem{CoquandHuet1988}
+T.~Coquand and G.~Huet.
+\newblock The Calculus of Constructions.
+\newblock \emph{Information and Computation}, 76(2--3):95--120, 1988.
+
+\bibitem{CurryFeys1958}
+H.~B.~Curry and R.~Feys.
+\newblock \emph{Combinatory Logic}, Vol.~I.
+\newblock North-Holland, 1958.
+
+\bibitem{Davidson1967}
+D.~Davidson.
+\newblock Truth and meaning.
+\newblock \emph{Synthese}, 17(1):304--323, 1967.
+
+\bibitem{EilenbergMacLane1945}
+S.~Eilenberg and S.~Mac Lane.
+\newblock General theory of natural equivalences.
+\newblock \emph{Trans.\ Amer.\ Math.\ Soc.}, 58(2):231--294, 1945.
+
+\bibitem{Girard1987}
+J.-Y.~Girard.
+\newblock Linear logic.
+\newblock \emph{Theoretical Computer Science}, 50(1):1--101, 1987.
+
+\bibitem{Grice1975}
+H.~P.~Grice.
+\newblock Logic and conversation.
+\newblock In P.~Cole and J.~L.~Morgan, eds., \emph{Syntax and Semantics}, Vol.~3, pp.~41--58. Academic Press, 1975.
+
+\bibitem{GroenendijkStokhof1991}
+J.~Groenendijk and M.~Stokhof.
+\newblock Dynamic predicate logic.
+\newblock \emph{Linguistics and Philosophy}, 14(1):39--100, 1991.
+
+\bibitem{Grothendieck1971}
+A.~Grothendieck.
+\newblock \emph{Rev\^{e}tements \'{e}tales et groupe fondamental} (SGA 1).
+\newblock LNMS~224, Springer, 1971.
+
+\bibitem{Heim1982}
+I.~Heim.
+\newblock \emph{The Semantics of Definite and Indefinite Noun Phrases}.
+\newblock PhD dissertation, University of Massachusetts, 1982.
+
+\bibitem{HeimKratzer1998}
+I.~Heim and A.~Kratzer.
+\newblock \emph{Semantics in Generative Grammar}.
+\newblock Blackwell, 1998.
+
+\bibitem{HewittManning2019}
+J.~Hewitt and C.~D.~Manning.
+\newblock A structural probe for finding syntax in word representations.
+\newblock In \emph{Proc.\ NAACL-HLT 2019}, pp.~4129--4138, 2019.
+
+\bibitem{Hoare1969}
+C.~A.~R.~Hoare.
+\newblock An axiomatic basis for computer programming.
+\newblock \emph{Communications of the ACM}, 12(10):576--580, 1969.
+
+\bibitem{Hodges2001}
+W.~Hodges.
+\newblock Formal features of compositionality.
+\newblock \emph{J.\ Logic, Language and Information}, 10(1):7--28, 2001.
+
+\bibitem{Howard1980}
+W.~A.~Howard.
+\newblock The formulae-as-types notion of construction.
+\newblock In J.~P.~Seldin and J.~R.~Hindley, eds., \emph{To H.~B.~Curry}, pp.~479--490. Academic Press, 1980. (Manuscript 1969.)
+
+\bibitem{Jacobs1999}
+B.~Jacobs.
+\newblock \emph{Categorical Logic and Type Theory}.
+\newblock Elsevier, 1999.
+
+\bibitem{Janssen1997}
+T.~M.~V.~Janssen.
+\newblock Compositionality.
+\newblock In J.~van Benthem and A.~ter Meulen, eds., \emph{Handbook of Logic and Language}, pp.~417--473. Elsevier, 1997.
+
+\bibitem{Jawahar2019}
+G.~Jawahar, B.~Sagot, and D.~Seddah.
+\newblock What does BERT learn about the structure of language?
+\newblock In \emph{Proc.\ 57th ACL}, pp.~3651--3657, 2019.
+
+\bibitem{Kamp1981}
+H.~Kamp.
+\newblock A theory of truth and semantic representation.
+\newblock In J.~Groenendijk et al., eds., \emph{Formal Methods in the Study of Language}, pp.~277--322. Mathematisch Centrum, 1981.
+
+\bibitem{Kartsaklis2021}
+D.~Kartsaklis, I.~Fan, R.~Yeung, A.~Pearson, R.~Lorenz, A.~Toumi, G.~de~Felice, K.~Meichanetzidis, S.~Clark, and B.~Coecke.
+\newblock lambeq: An efficient high-level Python library for quantum NLP.
+\newblock arXiv:2110.04236, 2021.
+
+\bibitem{KimLinzen2020}
+N.~Kim and T.~Linzen.
+\newblock COGS: A compositional generalization challenge based on semantic interpretation.
+\newblock In \emph{Proc.\ EMNLP 2020}, pp.~9087--9105, 2020.
+
+\bibitem{Kitcher1981}
+P.~Kitcher.
+\newblock Explanatory unification.
+\newblock \emph{Philosophy of Science}, 48(4):507--531, 1981.
+
+\bibitem{Klein1872}
+F.~Klein.
+\newblock Vergleichende Betrachtungen \"{u}ber neuere geometrische Forschungen.
+\newblock \emph{Mathematische Annalen}, 43:63--100, 1893. (Original 1872.)
+
+\bibitem{Kripke1959}
+S.~Kripke.
+\newblock A completeness theorem in modal logic.
+\newblock \emph{J.\ Symbolic Logic}, 24(1):1--14, 1959.
+
+\bibitem{Kripke1963}
+S.~Kripke.
+\newblock Semantical considerations on modal logic.
+\newblock \emph{Acta Philosophica Fennica}, 16:83--94, 1963.
+
+\bibitem{LakeBaroni2018}
+B.~M.~Lake and M.~Baroni.
+\newblock Generalization without systematicity.
+\newblock In \emph{Proc.\ ICML 2018}, pp.~2873--2882, 2018.
+
+\bibitem{LakoffJohnson1980}
+G.~Lakoff and M.~Johnson.
+\newblock \emph{Metaphors We Live By}.
+\newblock Univ.\ Chicago Press, 1980.
+
+\bibitem{Lambek1958}
+J.~Lambek.
+\newblock The mathematics of sentence structure.
+\newblock \emph{American Mathematical Monthly}, 65(3):154--170, 1958.
+
+\bibitem{Lambek1968}
+J.~Lambek.
+\newblock Deductive systems and categories I.
+\newblock \emph{Mathematical Systems Theory}, 2:287--318, 1968.
+
+\bibitem{Lambek1999}
+J.~Lambek.
+\newblock Type grammar revisited.
+\newblock In A.~Lecomte et al., eds., \emph{Logical Aspects of Computational Linguistics}, LNCS~1582, pp.~1--27. Springer, 1999.
+
+\bibitem{MartinLof1984}
+P.~Martin-L\"{o}f.
+\newblock \emph{Intuitionistic Type Theory}.
+\newblock Bibliopolis, 1984.
+
+\bibitem{Moggi1991}
+E.~Moggi.
+\newblock Notions of computation and monads.
+\newblock \emph{Information and Computation}, 93(1):55--92, 1991.
+
+\bibitem{Montague1973}
+R.~Montague.
+\newblock The proper treatment of quantification in ordinary English.
+\newblock In K.~J.~J.~Hintikka et al., eds., \emph{Approaches to Natural Language}, pp.~221--242. Reidel, 1973.
+
+\bibitem{Moortgat1997}
+M.~Moortgat.
+\newblock Categorial type logics.
+\newblock In J.~van Benthem and A.~ter Meulen, eds., \emph{Handbook of Logic and Language}, pp.~93--177. Elsevier, 1997.
+
+\bibitem{Morrison2000}
+M.~Morrison.
+\newblock \emph{Unifying Scientific Theories}.
+\newblock Cambridge Univ.\ Press, 2000.
+
+\bibitem{Padavano2026RP06}
+A.~Padavano.
+\newblock The fourfold correspondence: Grammar, automaton, type, and proof from Chomsky to Curry-Howard-Lambek.
+\newblock arXiv preprint, 2026. (Forthcoming.)
+
+\bibitem{ScottStrachey1971}
+D.~S.~Scott and C.~Strachey.
+\newblock Toward a mathematical semantics for computer languages.
+\newblock In J.~Fox, ed., \emph{Proc.\ Symp.\ Computers and Automata}, pp.~19--46. Polytechnic Inst.\ Brooklyn Press, 1971.
+
+\bibitem{Searle1969}
+J.~R.~Searle.
+\newblock \emph{Speech Acts}.
+\newblock Cambridge Univ.\ Press, 1969.
+
+\bibitem{Steedman2000}
+M.~Steedman.
+\newblock \emph{The Syntactic Process}.
+\newblock MIT Press, 2000.
+
+\bibitem{Tarski1936}
+A.~Tarski.
+\newblock The concept of truth in formalized languages.
+\newblock In A.~Tarski, \emph{Logic, Semantics, Metamathematics}, 2nd ed.\ (1983), pp.~152--278. Hackett.
+
+\bibitem{VarelaThompsonRosch1991}
+F.~J.~Varela, E.~Thompson, and E.~Rosch.
+\newblock \emph{The Embodied Mind}.
+\newblock MIT Press, 1991.
+
+\end{thebibliography}
+
+\end{document}
