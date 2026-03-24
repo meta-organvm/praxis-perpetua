@@ -84,6 +84,18 @@ commissions:
           - organvm-i-theoria/sema-metra--alchemica-mundi/ecosystem/intelligence/content/agent-design-lifecycle-algebra.md
           - contrib--adenhq-hive/repo/core/framework/schemas/design_version.py
           - contrib--adenhq-hive/repo/core/framework/storage/design_version_store.py
+      - date: 2026-03-23
+        session: Vercel-triage
+        type: operational-continuity
+        site: META-ORGANVM/stakeholder-portal (Hermeneus)
+        description: >-
+          CI/CD infrastructure restored — Release Drafter false failures
+          removed (invalid targetCommitish on PRs), branch protection
+          unblocked (CI job name mismatch), Next.js 16.1.7→16.2.1 merged.
+          The provider cascade deployment (S28 evidence) remains operational
+          and deployable — all Vercel builds READY, PR merge pipeline
+          functional. This is maintenance of the evidentiary site, not
+          new evidence.
 
   - id: INQ-2026-003
     title: >-
