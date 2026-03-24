@@ -234,3 +234,34 @@ commissions:
       - "S29: PROOF-reservoir-placement v2 — formal proof (5 lemmas) that cross-organ RESERVOIR formations belong in Theoria. Derived from Formation Protocol §7.2. Advances architectural self-description research."
       - "S29: SPEC-019 System Manifestation — liquid model specification. Named functions replacing numbered organs. Signal algebra with Greek letter variables. Formation composability via set intersection. Advances formalization programme's architectural domain."
       - "S29: Signal algebra implemented — 14 post-flood signal classes as typed behavioral contracts per SYN-04 (behavioral-contracts-signal-typing). Composability checking and Reservoir Law validation. Directly instantiates the programme's signal typing research."
+
+  - id: INQ-2026-007
+    title: >-
+      A Murder of Agents: Biological Collective Intelligence as Architectural
+      Pattern Language for Multi-Agent Systems
+    short_name: The Venery Topology
+    work_id: SGO-2026-D-005
+    tier: dissertation
+    faculty: formal-systems
+    advisory_faculty: creative-practice
+    commissioned: 2026-03-24
+    status: commissioned
+    location: organvm-iv-taxis/orchestration-start-here/.claude/plans/2026-03-24-dissertation-d005-topology-venery.md
+    papers: 3
+    scope: >-
+      Three-paper dissertation arguing that biological collective nouns (terms
+      of venery) provide a superior architectural pattern language for multi-agent
+      topology compared to graph-theoretic abstractions. Paper I: practitioner's
+      survey of framework topologies + venery naming. Paper II: formal metric space
+      with attractor basins, phase transitions, continuous morphing (Prey, Matrix,
+      Lem, claytronics). Paper III: the Absorption Protocol as self-describing
+      system — external questions generate internal theory through a strange loop.
+    notes:
+      - "Origin: m13v conversation on agentic-titan #20 (12+ comments, 6 days)"
+      - "Evidence: 12 PRs across 11 repos, 13 backflow deposits, 4 auto-formalized theory notes"
+      - "Fiction catalog: 9 works (Crichton, Lem, Bear, Matrix, Big Hero 6, Stargate, Kilobots, CoCoRo, Transformers)"
+      - "Venery mapping: 12 topologies + 5 additional concepts"
+      - "7 issues on agentic-titan (#57-63) form the research programme"
+      - "Cross-references: RP-03 (organ topology), RP-06 (type theory), SYN-02 (autonomous governance)"
+      - "Reader-side resolution pattern formalized as backflow item #9"
+      - "Plan: .claude/plans/2026-03-24-dissertation-d005-topology-venery.md"
