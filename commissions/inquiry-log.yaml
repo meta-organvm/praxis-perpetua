@@ -97,6 +97,34 @@ commissions:
           functional. This is maintenance of the evidentiary site, not
           new evidence.
 
+      - date: 2026-03-23
+        session: Pipeline-S33
+        type: external-validation
+        site: application-pipeline + ORGAN-III/public-record-data-scrapper
+        description: >-
+          First inbound commercial engagement via GitHub public repos. Tony Carbone
+          (Managing Partner, Alternative Funding Group) independently discovered
+          public-record-data-scrapper, "hunted down" and "studied" the user, initiated
+          contact across LinkedIn + email, and completed a 40-minute discovery call
+          covering 5 workstreams (MCA underwriting automation, lead gen, bank statement
+          scraping, Flyland.com healthcare SaaS, sales team automation). His business
+          partner (Alexis C., Managing Director/Owner) subsequently viewed the LinkedIn
+          profile — vetting in progress. This validates D-001's thesis that the pipeline
+          functions as production infrastructure generating commercial opportunity, not
+          a portfolio exercise. The MCDA framework scored the opportunity (8.5), assigned
+          identity position (founder-operator), and advanced it through the state machine.
+          Separately, a build-sell partnership with Scott Lefler (Lefler.Design, 10yr
+          friend) was established for a new ORGAN-III product (content-engine--asset-amplifier),
+          scoring 9.2 — highest in the pipeline. Both tracks validate the consulting
+          pivot away from cold job applications (6 rejections received same session).
+        artifacts:
+          - pipeline/active/alternative-funding-group-technical-partner.yaml
+          - pipeline/active/lefler-padavano-automation-partnership.yaml
+          - strategy/consulting-tony-carbone-altfunding.md
+          - strategy/partnership-lefler-padavano-content-engine.md
+          - organvm-iii-ergon/content-engine--asset-amplifier/ (skeleton)
+          - organvm-iii-ergon/public-record-data-scrapper/.claude/plans/2026-03-23-mca-intelligence-evolution.md
+
   - id: INQ-2026-003
     title: >-
       The Intellectual Genealogy of Immutable Record-Keeping and
