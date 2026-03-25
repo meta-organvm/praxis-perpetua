@@ -125,6 +125,25 @@ commissions:
           - organvm-iii-ergon/content-engine--asset-amplifier/ (skeleton)
           - organvm-iii-ergon/public-record-data-scrapper/.claude/plans/2026-03-23-mca-intelligence-evolution.md
 
+      - date: 2026-03-24
+        session: S33
+        type: governance-mechanism
+        site: ORGAN-I/conversation-corpus-engine
+        description: >-
+          Policy-driven auto-triage demonstrates governance-by-rule at scale.
+          5 named triage policies (exact-cross-corpus, slug-match, prefix-entity-alias,
+          noise-entity, contradiction-defer) reduced a 3,854-item federated review queue
+          to 1,649 (57% automated). The policies encode governance judgment as executable
+          rules — each policy documents its decision rationale, is testable (13 unit tests),
+          and produces auditable history. The contradiction-defer policy is particularly
+          relevant: it encodes the boundary between automated and human governance,
+          deferring items that require semantic judgment while resolving those that are
+          structurally decidable. This is a working instantiation of the "review-governed"
+          promotion mode described in D-002's governance framework.
+        artifacts:
+          - organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py
+          - organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py
+
   - id: INQ-2026-003
     title: >-
       The Intellectual Genealogy of Immutable Record-Keeping and
