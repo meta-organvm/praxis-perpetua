@@ -284,3 +284,34 @@ commissions:
       - "Cross-references: RP-03 (organ topology), RP-06 (type theory), SYN-02 (autonomous governance)"
       - "Reader-side resolution pattern formalized as backflow item #9"
       - "Plan: .claude/plans/2026-03-24-dissertation-d005-topology-venery.md"
+
+  - id: INQ-2026-008
+    title: >-
+      Declarative Governance as Portable Open Standard: Extracting
+      Formal Lifecycle Coordination from the ORGANVM Ecosystem
+    short_name: The Cvrsvs Honorvm Inquiry
+    work_id: null
+    tier: paper
+    faculty: governance
+    advisory_faculty: applied-systems
+    commissioned: 2026-03-25
+    status: commissioned
+    location: aerarium--res-publica/applications/nlnet-ngi0-commons-2026/draft.md
+    scope: >-
+      Central R&D question from the NLnet NGI0 Commons Fund application:
+      "Can formal governance be declaratively specified as a portable open
+      standard that works across heterogeneous open-source ecosystems?"
+      The inquiry encompasses three sub-questions: (1) Can a promotion state
+      machine be decoupled from its host ecosystem while preserving expressiveness?
+      (2) Can the seed.yaml contract format serve as an interoperable standard
+      alongside publiccode.yml and Backstage catalog-info.yaml? (3) Can
+      dependency flow validation generalize beyond the ORGANVM organ hierarchy?
+      The answer will be demonstrated through extraction of cvrsvs-honorvm
+      as a standalone package and application to a non-ORGANVM ecosystem.
+    notes:
+      - "Origin: NLnet application drafting sprint S38"
+      - "Funding: NLnet NGI0 Commons Fund application, EUR 37,080 (pending)"
+      - "Package: cvrsvs-honorvm (PyPI, Apache 2.0)"
+      - "IRF tracking: IRF-INST-001 (application), IRF-INST-018 (extraction)"
+      - "Concordance: Institutional IDs section added S38"
+      - "Cross-references: INQ-2026-002 (institutional governance), RP-06 (type theory)"
