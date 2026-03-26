@@ -21,8 +21,8 @@ triad:
     stance: orthogonal
 date: 2026-03-20
 stage: "COMPOSITION (Stage 2 TRP Gate)"
+status: reference-activated
 ---
-
 # Triadic Review Protocol: RP-06 -- The Fourfold Correspondence
 
 ---

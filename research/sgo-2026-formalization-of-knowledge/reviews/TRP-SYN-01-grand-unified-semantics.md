@@ -22,8 +22,8 @@ triad:
     role: Critic
     discipline: Philosophy of science / epistemology
     stance: orthogonal
+status: reference-activated
 ---
-
 # Triadic Review Protocol: SYN-01 -- The Architecture of Formal Meaning
 
 **Venture:** SGO-2026-SYN-001 -- *The Architecture of Formal Meaning: A Categorical Framework for Unifying Grammar, Semantics, and Computation*

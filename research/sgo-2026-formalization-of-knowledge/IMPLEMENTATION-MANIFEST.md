@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # SGO Research Programme -- ORGANVM Implementation Manifest
 
 **Generated:** 2026-03-20

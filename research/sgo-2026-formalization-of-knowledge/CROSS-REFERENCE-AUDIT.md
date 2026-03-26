@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Cross-Reference Audit Report
 
 **SGO Research Programme -- 13 Papers (v2 drafts)**

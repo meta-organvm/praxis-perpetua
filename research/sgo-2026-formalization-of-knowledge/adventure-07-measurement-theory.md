@@ -1,3 +1,6 @@
+---
+status: reference-activated
+---
 # Adventure 7: Measurement Theory
 
 ## Central Question
