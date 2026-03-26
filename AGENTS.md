@@ -12,6 +12,7 @@ This repo participates in the **META-ORGANVM (Meta)** swarm.
 - **Produce** `publications` for organvm-v-logos
 - **Produce** `portfolio-evidence` for 4444j99/application-pipeline
 - **Produce** `arxiv-preprints` for external
+- **Produce** `governance-declarations` for META-ORGANVM
 
 ### External Dependencies
 - **Consume** `reference` from [`meta-organvm/organvm-corpvs-testamentvm`](../../meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md)
@@ -23,5 +24,5 @@ This repo participates in the **META-ORGANVM (Meta)** swarm.
 - Adhere to unidirectional flow: I→II→III
 - Never commit secrets or credentials
 
-*Last synced: 2026-03-21T13:21:05Z*
+*Last synced: 2026-03-25T22:27:21Z*
 <!-- ORGANVM:AUTO:END -->
