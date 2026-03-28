@@ -44,7 +44,13 @@ consumes:
 produces:
   - target: organvm-v-logos
     type: publications
-    description: Defended works flow to Logos for distribution
+    description: Defended works flow to Logos for public discourse
+  - target: organvm-vii-kerygma
+    type: research-distribution
+    description: "Research publications and arXiv submissions for POSSE distribution"
+  - target: organvm-vi-koinonia
+    type: educational-material
+    description: "Research outputs feeding reading groups, curricula, and community salons"
   - target: 4444j99/application-pipeline
     type: portfolio-evidence
     description: Certification records as portfolio/grant evidence
