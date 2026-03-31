@@ -1,0 +1,93 @@
+---
+name: session-protocol
+description: 8-phase session steering grammar — how the human drives AI conversations
+timescale: minutes to hours
+mechanism: nervous--orchestrate
+source: project_prompt_sequence_protocol.md (S46, 2026-03-31)
+---
+
+steps:
+  - id: SEED
+    description: Single intent-laden sentence before context arrives. Declares what the session IS, not what to do.
+    recognition:
+      - bare intent sentence with no context
+      - "providing info for"
+      - "review:"
+      - path to a directory or file as entire message
+    behavior: Absorb, don't act. The user is declaring intent, not requesting output.
+    checkpoint: false
+    sop: SOP-PROMPT-001 (unwritten)
+
+  - id: REDIRECT
+    description: Calibration correction after first output. Tightens scope, rejects wrong framing.
+    recognition:
+      - "the report should stop at"
+      - "that's your translation or"
+      - "based on your questions, I believe you have a fundamental misunderstanding"
+      - correction of approach, not content
+    behavior: Tighten, don't defend. Accept the correction and reshape output.
+    checkpoint: false
+    sop: SOP-PROMPT-002 (unwritten)
+
+  - id: SPECIFY
+    description: Shape declaration after redirect lands. Defines the structural form of the output.
+    recognition:
+      - "we need to open a portal"
+      - "define how to nest"
+      - "devise"
+      - explicit structural demand
+    behavior: Build exactly that shape. Not an approximation — the named form.
+    checkpoint: false
+    sop: SOP-PROMPT-003 (unwritten)
+
+  - id: CONNECT
+    description: Bridge command linking disparate sessions/repos into one surface.
+    recognition:
+      - "draw lines between"
+      - "find more connections"
+      - "what sequences via my prompting are patterns"
+      - request to synthesize across surfaces
+    behavior: Synthesize across all available context. Show the unseen connections.
+    checkpoint: false
+    sop: SOP-PROMPT-004 (unwritten)
+
+  - id: PORTAL
+    description: Creates a named passage between two or more repos/contexts. Always results in a shared document.
+    recognition:
+      - naming a document that should exist in multiple locations
+      - "open a portal between"
+      - TRIPTYCH.md pattern
+    behavior: Create the shared document. Place it in all referenced locations.
+    checkpoint: true
+    sop: SOP-PROMPT-005 (partially formalized — TRIPTYCH.md)
+
+  - id: NEST
+    description: Defines hierarchical context scoping (directory-level knowledge layering).
+    recognition:
+      - "define how to nest agent / claude Markdown files"
+      - discussion of what knowledge belongs at which directory level
+    behavior: Define the scoping rules. Each level owns its scope.
+    checkpoint: false
+    sop: SOP-PROMPT-006 (partially formalized — CONTEXT-ARCHITECTURE.md)
+
+  - id: AUDIT
+    description: Close-out verification pass. Checks all indices, remotes, open items.
+    recognition:
+      - "session close safe?"
+      - "Sisyphus"
+      - "all has been added to universal context?"
+      - 10-index checklist invocation
+    behavior: Execute the close protocol (close-protocol.yaml). Every step. In order.
+    checkpoint: true
+    chains_to: close-protocol
+    sop: SOP-PROMPT-007 (partially formalized — 10-index checklist)
+
+  - id: HANDOFF
+    description: Produces relay document for next session/agent. What was done, what is next, read order.
+    recognition:
+      - end of session after audit completes
+      - "onnwards+upwards"
+      - explicit handoff request
+    behavior: Write RELAY.md or equivalent. Past/present/future. Read order for next agent.
+    checkpoint: true
+    sop: SOP-PROMPT-008 (partially formalized — RELAY.md)

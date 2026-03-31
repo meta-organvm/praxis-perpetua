@@ -1,0 +1,111 @@
+---
+name: operational-vocabulary
+description: "12 categories of keyword phrases with fixed meaning — the atoms of the prompting language"
+source: project_operational_vocabulary.md (S46, 2026-03-31)
+---
+
+categories:
+  - name: INGEST
+    behavior: "Read EVERYTHING before acting. No skimming. No assumptions. Prove total absorption before output."
+    trigger_phrases:
+      - "full 100% ingest"
+      - "100% contextual awareness of every word"
+      - "ingest+digest"
+      - "full dissection of linked directories into atomic units"
+      - "project manifest (annotated bibliography)"
+    pairs_with: EXECUTE
+
+  - name: EXECUTE
+    behavior: "Do ALL of it. Not a subset. Not the easy parts. Logic determines order. 'Glorious gloriosity' = maximum effort."
+    trigger_phrases:
+      - "proceed with all suggested implementations exhaustively"
+      - "complete all suggested implementations exhaustively & completely"
+      - "expand features+functions extensively+exhaustively"
+      - "proceed w all suggestions, logic dictates order"
+      - "in perfect perfectitude & glorious gloriosity"
+      - "ad nauseous exhaustive+infinitum exponentials"
+      - "proceed in logical glorious exhaustive completionist certainty"
+    pairs_with: AUDIT
+
+  - name: AUDIT
+    behavior: "Adversarial self-review. Fixes must be structural, not cosmetic. Hunt for flaws."
+    trigger_phrases:
+      - "comb over your work like it wasn't you"
+      - "is it so clean we are able to eat off the floor?"
+      - "no patchwork, no bandaids, no quick under rug sweeps"
+      - "fundamental, gravitational, biological, chemical, and physics based fixes"
+      - "operate with integrity of elevated ideal-form vision"
+    pairs_with: CLOSE
+
+  - name: CLOSE
+    behavior: "Execute close-protocol.yaml. Every step. In order. Liturgical."
+    trigger_phrases:
+      - "session close safe?"
+      - "no dangling adrift? all live in gh issue"
+      - "are you certain!? ensure this rolls through, Sisyphus?"
+      - "has all work completed and all work to do been logged"
+      - "onnwards+upwards"
+    chains_to: close-protocol
+
+  - name: SCOPE
+    behavior: "Aware of parallel sessions. Each piece of work grips its correct context."
+    trigger_phrases:
+      - "be aware that other sessions are opened in this location"
+      - "ensure all has found its proper claws for full contextual awareness"
+      - "is this new feature injected into the pipeline in totality?"
+      - "provide current session ID and local transcript location"
+
+  - name: RESUME
+    behavior: "Resume exactly where stopped. Anything unfinished becomes a tracked issue."
+    trigger_phrases:
+      - "the following workload was interrupted, review and pickup"
+      - "check previous work sprint for errors/gaps, improve + expand"
+      - "continue rolling forward, tracking whatever hangs as a gh issue"
+      - "I'm going to provide the work completed from another"
+
+  - name: ORACLE
+    behavior: "Invoke the tribunal pattern. Multiple perspectives. Adversarial synthesis."
+    trigger_phrases:
+      - "multiversal paths diverge in a forest"
+      - "all comes in three -- assume three hardening/fortifying personas"
+      - "If you were outside of time and space"
+      - "being-all-seeing advisor, you tell me"
+    chains_to: tribunal pattern (3+ personas, round-robin question/critique/expand/build)
+
+  - name: RESEARCH
+    behavior: "Scholarly depth. Primary texts + peer-reviewed secondary sources. Historical sweep."
+    trigger_phrases:
+      - "exhaustive and expansive academic research"
+      - "Classical Antiquity, to Medieval, to Reason, to Modernity"
+      - "primary text and secondary sources must be peer-reviewed"
+      - "anything that isn't done requires full research expeditions"
+
+  - name: WRITING
+    behavior: "Compositional architecture. Subheadings = thesis spine. No filler. Words earn place through density."
+    trigger_phrases:
+      - "Title, Subtitle, Precis"
+      - "paragraphs contain one idea"
+      - "subheadings read like poetry when removed"
+      - "no none-words -- words have charge, density + heaviness"
+      - "use enjambments, end on power words"
+
+  - name: TIMELINE
+    behavior: "Fractal progress measurement. Same structure at every scale. Meter recontextualizes, not just filters."
+    trigger_phrases:
+      - "timeline system that takes the shape of the context"
+      - "zoom into an org for a contextually relevant timeline-to-finishline"
+      - "nesting doll the timeline-to-finishline will recontextualize"
+
+  - name: PUBLIC
+    behavior: "Work must be visible. Collaboration is symbiotic. Non-technical actors can query the system."
+    trigger_phrases:
+      - "public facing process to journal the work"
+      - "symbiotic relationship"
+      - "the public process should most certainly be done in public"
+      - "devise a system that is contextually aware ... interfaced with by non-tech actors"
+
+  - name: RESOURCE
+    behavior: "Monitor resource budgets. When capacity exists, maximize it. Meta/actual split."
+    trigger_phrases:
+      - "we have over 20% of our weekly allotment"
+      - "meta-note: ... actual-note:"

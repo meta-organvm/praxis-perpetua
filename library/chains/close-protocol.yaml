@@ -1,0 +1,94 @@
+---
+name: close-protocol
+description: "12-step session close-out — liturgical, non-negotiable, universally applied"
+timescale: end of every session
+mechanism: immune--verify + immune--watch
+source: feedback_close_protocol.md (S46, 2026-03-31)
+note: "The user repeats this verbatim, twice. The repetition is emphasis, not error."
+---
+
+steps:
+  - id: OVERVIEW
+    description: "All that was and all that is and all that needs to be"
+    scope: past/present/future
+    checkpoint: false
+    optional: false
+
+  - id: VERIFICATION
+    description: "Has everything been GitHub issued, saved in the directory context?"
+    checkpoint: true
+    optional: false
+
+  - id: SISYPHUS_CHECK
+    description: "Is this session safe to close? Are we certain, Sisyphus?"
+    checkpoint: true
+    optional: false
+
+  - id: HALL_MONITOR
+    description: Adversarial self-check — hunt for violations, don't confirm compliance
+    behavior: "Comb over your work like it wasn't you who did it"
+    checkpoint: true
+    optional: false
+
+  - id: IRF_UPDATE
+    description: "10-index checklist: check-all-skip-inapplicable, not check-none"
+    indices:
+      - name: IRF
+        action: "move completed → ## Completed, add new items, update stats"
+      - name: GH Issues
+        action: "close completed, create for new work"
+      - name: Omega scorecard
+        action: check impact
+      - name: inquiry-log.yaml
+        action: update if SGO work
+      - name: seed.yaml
+        action: update if capabilities changed
+      - name: CLAUDE.md
+        action: update if architecture changed
+      - name: Concordance
+        action: update if new IDs introduced
+      - name: Memory
+        action: "sync local → repo backup"
+      - name: Testament
+        action: record if applicable
+      - name: Plan archive
+        action: persist with dated name
+    checkpoint: true
+    optional: false
+
+  - id: NA_VACUUM_RULE
+    description: "Every N/A must resolve to verified-current OR a named IRF item"
+    invariant: "'N/A' is never a resting state"
+    checkpoint: true
+    optional: false
+
+  - id: ADDITIVE_ONLY
+    description: "We only add, never overwrite. The audit sorts it after."
+    checkpoint: false
+    optional: false
+
+  - id: PARITY_AXIOM
+    description: "local:remote = 1:1"
+    invariant: "Memory, commits, plans — everything exists in both places"
+    checkpoint: true
+    optional: false
+
+  - id: DEATH_TEST
+    description: "if:dead[manifestation(physical)] > then:live[soul(persists)]"
+    checkpoint: true
+    optional: false
+
+  - id: RECOVERY_RULE
+    description: "if lost, recover immediately — universally, contextually, no exceptions"
+    checkpoint: false
+    optional: false
+
+  - id: COMMIT_COMMAND
+    description: "commit[all] push[origin]. Source returned improved."
+    checkpoint: true
+    optional: false
+
+  - id: FINAL_VERIFICATION
+    description: "All has been added to universal context? Nothing will be lost?"
+    checkpoint: true
+    optional: false

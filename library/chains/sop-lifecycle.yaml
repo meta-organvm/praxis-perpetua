@@ -1,0 +1,42 @@
+---
+name: sop-lifecycle
+description: "SOP discovery lifecycle — SOPs are discovered, not written"
+timescale: across sessions (days to weeks)
+mechanism: digestive--parse → immune--verify → nervous--govern
+source: project_frameworks_and_principles.md principle 0d (S46, 2026-03-31)
+proof: Superproject Topology Audit SOP — ran on ORGAN-IV (68% gap), ran on META (14% gap), invariants extracted, formalized
+---
+
+steps:
+  - id: REP
+    description: Do the thing. Perform the action once. Record what you did.
+    cli: "organvm prompts distill --dry-run"
+    output: Uncovered operational patterns identified
+    checkpoint: false
+
+  - id: ABSORB
+    description: Do it again on different input. Compare the two runs. Extract invariant structure.
+    cli: "organvm sop audit --lifecycle observed"
+    output: Structural comparison showing what held invariant
+    checkpoint: true
+    key_question: "What produced meaningful output on BOTH targets?"
+
+  - id: FORTIFY
+    description: Harden against edge cases. Test with adversarial inputs.
+    checkpoint: true
+    requires_human: true
+    key_question: "What breaks this? What's the degenerate case?"
+
+  - id: PLACE
+    description: Assign correct scope — project/organ/system.
+    cli: "organvm sop resolve --check-scope"
+    output: Scope classification (project-local vs organ-wide vs system-wide)
+    checkpoint: true
+    key_question: "Where does this SOP live? Who needs it?"
+
+  - id: CHAIN
+    description: Wire to upstream triggers and downstream consumers. The SOP becomes a link in a chain.
+    cli: "organvm sop audit --lifecycle placed"
+    output: Triggers and complements verified
+    checkpoint: true
+    key_question: "What invokes this SOP? What does it feed?"

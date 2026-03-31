@@ -1,0 +1,59 @@
+---
+name: directory-canon
+description: Universal/common/situational directory and file specification for all ORGANVM projects
+version: "1.0"
+source: project_frameworks_and_principles.md principle 0f
+---
+
+universal:
+  description: Stamp on every project immediately at inception
+  files:
+    - name: CLAUDE.md
+      purpose: Agent context (Claude Code)
+      generator: organvm context sync
+    - name: AGENTS.md
+      purpose: Agent context (generic)
+      generator: organvm context sync
+    - name: GEMINI.md
+      purpose: Agent context (Gemini)
+      generator: organvm context sync
+    - name: seed.yaml
+      purpose: Automation contract — organ, tier, produces/consumes
+      schema: seed/v1.0
+    - name: README.md
+      purpose: "Hero section: problem, approach, outcome"
+  directories:
+    - name: .claude/plans/
+      purpose: Dated plan archive (never overwrite, revision suffix)
+    - name: .claude/memory/
+      purpose: Persistent session memory (1:1 local:remote)
+
+common:
+  description: Most projects need these — create when first needed
+  directories:
+    - name: docs/
+      purpose: Architecture, specs, reports
+    - name: docs/superpowers/specs/
+      purpose: Design specification documents
+    - name: tests/
+      purpose: Test suite
+    - name: scripts/
+      purpose: Operational tooling
+    - name: .github/workflows/
+      purpose: CI/CD pipelines
+
+situational:
+  description: Discovered through the Domain Map Impulse — create when the project reveals the need
+  directories:
+    - name: research/
+      when: Project involves academic or market research
+    - name: intake/
+      when: Project receives unsorted inbound material
+    - name: tools/
+      when: Project has audit/build scripts beyond scripts/
+    - name: playbooks/
+      when: Project has operational runbooks or agent handoffs
+    - name: templates/
+      when: Project has reusable scaffolds
+    - name: strategy/
+      when: Project has scoring rubrics, rules, market intel

@@ -1,0 +1,42 @@
+---
+name: paired-patterns
+description: "7 co-occurring pattern pairs — the natural sequences of the prompting language"
+source: project_operational_vocabulary.md (S46, 2026-03-31)
+---
+
+pairs:
+  - pattern_a: INGEST
+    pattern_b: EXECUTE
+    sequence: "Absorb everything THEN implement everything"
+    invariant: true
+
+  - pattern_a: EXECUTE
+    pattern_b: AUDIT
+    sequence: "Build THEN adversarially review"
+    invariant: true
+
+  - pattern_a: AUDIT
+    pattern_b: CLOSE
+    sequence: "Verify quality THEN verify persistence"
+    invariant: true
+
+  - pattern_a: ORACLE
+    pattern_b: EXECUTE
+    sequence: "Explore ALL options THEN build the synthesis"
+    invariant: true
+
+  - pattern_a: RESUME
+    pattern_b: SCOPE
+    sequence: "Resume THIS thread while aware of PARALLEL threads"
+    invariant: true
+
+  - pattern_a: RESEARCH
+    pattern_b: WRITING
+    sequence: "Academic rigor IN compositional architecture"
+    invariant: true
+
+  - pattern_a: INGEST
+    pattern_b: CLOSE
+    sequence: "Every input catalogued AT START, every output catalogued AT END"
+    invariant: true
+    note: "Bookend pattern — the session is bounded by cataloguing"

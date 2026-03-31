@@ -1,0 +1,32 @@
+---
+name: auditor-pair
+description: "Bidirectional topology check — Above (fleet scan) + Below (reverse lookup)"
+timescale: per audit session
+mechanism: immune--watch (Above) + immune--verify (Below)
+source: project_frameworks_and_principles.md principles 23-24 (S46, 2026-03-31)
+proof: Superproject Topology Audit SOP (7 steps, 3 strata, gap ratio diagnostic)
+---
+
+steps:
+  - id: ABOVE
+    description: "Fleet-level gap scan, cross-boundary violation detection, triage table"
+    behavior: "Run once, read the gap%, drill into outliers"
+    procedure:
+      - Boundary declaration (what does the system DECLARE it contains?)
+      - Actual inventory (what does it ACTUALLY contain?)
+      - Gap analysis (set difference → gap ratio)
+      - Org census (how many external systems cohabit?)
+      - Triage table (rank outliers by severity)
+    output: Gap ratio + triage table with disposition recommendations
+    checkpoint: true
+
+  - id: BELOW
+    description: "Reverse lookup from each component's perspective"
+    behavior: "For each gap entry: who claims me? what stratum am I? what's my disposition?"
+    procedure:
+      - Reverse lookup (who depends on this component?)
+      - Stratum assessment (declared / undeclared / infrastructure?)
+      - Disposition check (absorb / dissolve / product / archive)
+    output: Per-component disposition with rationale
+    checkpoint: true
+    depends_on: ABOVE

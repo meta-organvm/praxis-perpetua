@@ -1,0 +1,98 @@
+---
+name: design-grammar
+description: 9-phase creation grammar — how the human drives AI from concept to structural artifact
+timescale: hours to days
+mechanism_chain: digestive → skeletal → nervous → circulatory → integumentary
+source: project_design_grammar.md (S46, 2026-03-31)
+---
+
+steps:
+  - id: DEFINE
+    description: Imperative verb on specific algorithm/object.
+    recognition:
+      - "define exact algorithms for"
+      - "formalize X as a computable object"
+      - imperative verb targeting a specific technical object
+    behavior: Produce precise definitions. Not summaries — exact specifications.
+    mechanism: digestive (metabolize raw intent)
+
+  - id: EXPAND
+    description: Scope out from core to system.
+    recognition:
+      - "expand into"
+      - "multi-tenant"
+      - "orchestration layer"
+      - scope widening from single to system
+    behavior: Map the full system boundary. Show all components the core touches.
+    mechanism: digestive (continue metabolizing)
+
+  - id: VARIABLE
+    description: Name with $ENV notation — makes it computable.
+    recognition:
+      - "$PROC_"
+      - "$REPO_"
+      - "$PILLAR_"
+      - any $UPPERCASE_SNAKE_CASE token
+    behavior: "Phase transition: the named thing crosses from conceptual to computable. Treat $VARIABLEs as addressable, instantiable objects."
+    mechanism: skeletal (structural definition begins)
+    key_feature: "$VARIABLE notation = naming makes things governable"
+
+  - id: RIGOR
+    description: Inject scholarly/theoretical foundations.
+    recognition:
+      - "peer-reviewed"
+      - "canonical"
+      - "reading ladder"
+      - "primary text and secondary sources"
+      - "Classical Antiquity to Modernity"
+    behavior: Switch to academic mode. Primary texts + peer-reviewed secondary sources only. No blog posts.
+    mechanism: skeletal (building structural foundation)
+
+  - id: PILLAR
+    description: Decompose into numbered constraint domains.
+    recognition:
+      - numbered list of $PILLAR_ variables
+      - "constraint-domain pillars"
+      - "methodological rigor pillars"
+    behavior: Each pillar gets its own analysis. Pillars are independent constraint axes.
+    mechanism: skeletal (defining constraint surfaces)
+
+  - id: SOURCE
+    description: Demand exact peer-reviewed evidence per pillar.
+    recognition:
+      - "exact canonical papers per pillar"
+      - "30-80 sources"
+      - "dissertation-grade"
+    behavior: Produce actual citations. Not summaries of the field — specific papers with authors, dates, journals.
+    mechanism: skeletal (evidence backbone)
+
+  - id: PARAMETER
+    description: Set depth/mode switches.
+    recognition:
+      - "$DEPTH ="
+      - "$MODE ="
+      - "lean MVP" vs "full-stack"
+      - "operator-grade" vs "dissertation-grade"
+    behavior: "Don't pick one. Prepare BOTH parameter settings. Same patch, different color."
+    mechanism: nervous (governance constraints)
+    key_feature: "PARAMETER = patch modulation"
+
+  - id: NEXT
+    description: Declare next artifact by name.
+    recognition:
+      - "$NEXT_ARTIFACT ="
+      - "$NEXT ="
+      - explicit artifact name in ALL_CAPS
+    behavior: The named artifact becomes the immediate deliverable. Build exactly that.
+    mechanism: circulatory (routing output)
+
+  - id: TRANSFORM
+    description: Convert between output formats.
+    recognition:
+      - "tighten into a pitch deck"
+      - "produce a sales one-pager"
+      - "landing page version"
+      - "translate into a full repository architecture"
+    behavior: Format transformation, not new content. Same substance through a different surface.
+    mechanism: integumentary (presenting through different skins)
+    key_feature: "'or' = parallel path, not choice — pre-load all leaves"
