@@ -59,7 +59,7 @@ produces:
     description: arXiv-formatted preprints for external validation
   - target: META-ORGANVM
     type: governance-declarations
-    description: System governance declarations (trilemma, naming spec, research pipeline SOP, syntactic-semantic boundary)
+    description: System governance declarations (trilemma, naming spec, research pipeline SOP, syntactic-semantic boundary, process sequence governance SPEC-023)
 
 subscriptions:
   - event: session.completed
