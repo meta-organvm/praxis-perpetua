@@ -6,6 +6,8 @@
 
 ### Edges
 - **Produces** → `organvm-v-logos`: publications
+- **Produces** → `organvm-vii-kerygma`: research-distribution
+- **Produces** → `organvm-vi-koinonia`: educational-material
 - **Produces** → `4444j99/application-pipeline`: portfolio-evidence
 - **Produces** → `external`: arxiv-preprints
 - **Produces** → `META-ORGANVM`: governance-declarations
@@ -20,7 +22,7 @@
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-03-26T19:39:28Z*
+*Last synced: 2026-04-02T17:06:50Z*
 
 ## Session Review Protocol
 
@@ -43,6 +45,11 @@ Transcripts are on-demand (never committed):
 | organ | any | commit-and-release-workflow | Commit & Release Workflow |
 | organ | any | session-state-management | session-state-management |
 | organ | any | submodule-sync-protocol | submodule-sync-protocol |
+| system | any | atomic-clock | The Atomic Clock |
+| system | any | execution-sequence | Execution Sequence |
+| system | any | multi-agent-dispatch | Multi-Agent Dispatch |
+| system | any | session-handoff-avalanche | Session Handoff Avalanche |
+| system | any | system-loops | System Loops |
 | system | any | prompting-standards | Prompting Standards |
 | system | any | research-standards-bibliography | APPENDIX: Research Standards Bibliography |
 | system | any | phase-closing-and-forward-plan | METADOC: Phase-Closing Commemoration & Forward Attack Plan |
@@ -133,9 +140,9 @@ Run: `organvm atoms pipeline --write && organvm atoms fanout --write`
 
 ## System Density (auto-generated)
 
-AMMOI: 56% | Edges: 41 | Tensions: 0 | Clusters: 0 | Adv: 8 | Events(24h): 24029
-Structure: 8 organs / 127 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:64%, ORGAN-I:55%, ORGAN-II:47%, ORGAN-III:55% +4 more
-Last pulse: 2026-03-26T19:39:26 | Δ24h: +3.6% | Δ7d: n/a
+AMMOI: 56% | Edges: 41 | Tensions: 0 | Clusters: 0 | Adv: 11 | Events(24h): 26946
+Structure: 8 organs / 128 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:64%, ORGAN-I:55%, ORGAN-II:47%, ORGAN-III:55% +4 more
+Last pulse: 2026-04-02T17:06:50 | Δ24h: -0.0% | Δ7d: n/a
 
 
 ## Dialect Identity (Trivium)
@@ -146,4 +153,33 @@ Strongest translations: I (formal), IV (structural), V (analogical)
 
 Scan: `organvm trivium scan META <OTHER>` | Matrix: `organvm trivium matrix` | Synthesize: `organvm trivium synthesize`
 
+
+## Logos Documentation Layer
+
+**Status:** MISSING | **Symmetry:** 0.0 (VACUUM)
+
+Nature demands a documentation counterpart. This formation maintains its narrative record in `docs/logos/`.
+
+### The Tetradic Counterpart
+- **[Telos (Idealized Form)](../docs/logos/telos.md)** — The dream and theoretical grounding.
+- **[Pragma (Concrete State)](../docs/logos/pragma.md)** — The honest account of what exists.
+- **[Praxis (Remediation Plan)](../docs/logos/praxis.md)** — The attack vectors for evolution.
+- **[Receptio (Reception)](../docs/logos/receptio.md)** — The account of the constructed polis.
+
+### Alchemical I/O
+- **[Source & Transmutation](../docs/logos/alchemical-io.md)** — Narrative of inputs, process, and returns.
+
+
+
+*Compliance: Formation is currently void.*
+
 <!-- ORGANVM:AUTO:END -->
+
+## Active Handoff Protocol
+
+If `.conductor/active-handoff.md` exists, **READ IT FIRST** before doing any work.
+It contains constraints, locked files, conventions, and completed work from the
+originating agent. You MUST honor all constraints listed there.
+
+If the handoff says "CROSS-VERIFICATION REQUIRED", your self-assessment will
+NOT be trusted. A different agent will verify your output against these constraints.

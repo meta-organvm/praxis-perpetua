@@ -369,3 +369,29 @@ commissions:
       - "IRF tracking: DONE-285 through DONE-290"
       - "Cross-references: INQ-2026-009 (brand metabolism uses similar multi-agent pattern)"
       - "Propagation: domus template, context sync templates, global MCP config"
+
+  - id: INQ-2026-011
+    title: >-
+      The Symmetry of Record: Implementing the Logos Documentation Layer
+    short_name: The Logos Layer Symmetry
+    tier: protocol
+    faculty: logic
+    advisory_faculty: governance
+    commissioned: 2026-04-02
+    status: complete
+    location: organvm-corpvs-testamentvm/docs/standards/14-logos-documentation-layer.md
+    scope: >-
+      Investigates how the system can enforce the "Required Relationship"
+      between implementation (Nature) and record (Counterpart). Mandates a
+      Logos Layer (docs/logos/) for every formation at maturity, ensuring
+      that the system's mass (code) and memory (narrative) grow in proportion.
+      Formalizes the prohibition of "Ghosts" (nature without record) and
+      "Dreams" (record without nature).
+    notes:
+      - "Origin: User prompt identifying the required relationship between nature and counterpart."
+      - "Constitutional Amendment K (Lex Umbrae Naturae) ratified 2026-04-02."
+      - "Codified as LEX-XI (Symmetry) and RR-8 (Logos Layer Mandate)."
+      - "Implementation: LOGOS_SECTION injection in organvm-engine context generator."
+      - "Validation: validate_logos_layer dictum implemented in governance audit."
+      - "Artifacts: docs/standards/14-logos-documentation-layer.md, organvm-engine Logos layer scaffolded."
+      - "IRF tracking: DONE-328, IRF-SYS-052 through IRF-SYS-055."
