@@ -10,10 +10,40 @@
 | Bucket | Count | Description |
 |--------|-------|-------------|
 | **Managed (has System Library)** | 28 | Already synced via `organvm context sync` |
-| **Unmanaged — should be managed** | TBD | True misses — should enter context sync |
-| **Unmanaged — intentionally local** | TBD | Personal configs, not organ repos |
-| **Unmanaged — vendor/external** | TBD | Vendor clones, external contributions |
-| **Unmanaged — nested docs** | TBD | Documentation artifacts, not repo roots |
+| **Unmanaged — should be managed** | ~5 | True misses in ORGANS that should enter sync |
+| **Unmanaged — intentionally local** | ~8 | Personal configs, non-organ repos |
+| **Unmanaged — vendor/external** | ~4 | Vendor clones, external contributions |
+| **Unmanaged — nested docs** | ~4 | Documentation artifacts, not repo roots |
+
+### Detailed Bucket Counts
+
+**Should be managed (in ORGANS, missing System Library):**
+- `organvm-i-theoria/.github/.ai/CLAUDE.md` — nested in .github, should sync
+- `organvm-i-theoria/.github/docs/CLAUDE.md` — nested docs
+- `organvm-i-theoria/.github/docs/guides/CLAUDE.md` — nested docs
+- `organvm-iv-taxis/research/CLAUDE.md` — research folder, not repo root
+- `organvm-iv-taxis/contrib--*` folders — vendor clones, should NOT sync
+
+**Intentionally local (not ORGANS):**
+- `~/Workspace/CLAUDE.md` — personal workspace root
+- `~/Workspace/4444J99/CLAUDE.md` — personal application pipeline
+- `~/Workspace/dwv/*/CLAUDE.md` — dwv (different org) repos
+- `~/Workspace/intake/*/CLAUDE.md` — intake staging
+- `~/Workspace/k6-contrib/` — external k6 contrib
+- `~/Workspace/python-sdk/` — external Python SDK
+- `~/Workspace/fastmcp/` — external FastMCP
+
+**Vendor/external (should NOT sync):**
+- `organvm-iv-taxis/contrib--temporal-sdk-python/CLAUDE.md`
+- `organvm-iv-taxis/contrib--jairus-dagster-sdlc/CLAUDE.md`
+- `organvm-iv-taxis/contrib--indeedeng-iwf/CLAUDE.md`
+- `organvm-iv-taxis/reverse-engine-recursive-run/CLAUDE.md`
+
+**Nested docs (not repo roots):**
+- `organvm-i-theoria/.github/docs/CLAUDE.md`
+- `organvm-i-theoria/.github/docs/guides/CLAUDE.md`
+- `organvm-i-theoria/.github/.ai/CLAUDE.md`
+- `organvm-iv-taxis/.github/CLAUDE.md` (this IS synced, just nested)
 
 ---
 
