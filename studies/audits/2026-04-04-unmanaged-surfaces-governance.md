@@ -1,7 +1,7 @@
 # Governance Audit: Unmanaged CLAUDE.md Surfaces
 
 **Date:** 2026-04-04
-**Context:** Post-System Library rollout, scan of `~/Workspace` found many CLAUDE.md files without `## System Library`.
+**Context:** Post-System Library rollout, scan of `~/Workspace` found 102 CLAUDE.md files without `## System Library`.
 
 ---
 
@@ -10,83 +10,48 @@
 | Bucket | Count | Description |
 |--------|-------|-------------|
 | **Managed (has System Library)** | 28 | Already synced via `organvm context sync` |
-| **Unmanaged — should be managed** | ~5 | True misses in ORGANS that should enter sync |
-| **Unmanaged — intentionally local** | ~8 | Personal configs, non-organ repos |
-| **Unmanaged — vendor/external** | ~4 | Vendor clones, external contributions |
-| **Unmanaged — nested docs** | ~4 | Documentation artifacts, not repo roots |
-
-### Detailed Bucket Counts
-
-**Should be managed (in ORGANS, missing System Library):**
-- `organvm-i-theoria/.github/.ai/CLAUDE.md` — nested in .github, should sync
-- `organvm-i-theoria/.github/docs/CLAUDE.md` — nested docs
-- `organvm-i-theoria/.github/docs/guides/CLAUDE.md` — nested docs
-- `organvm-iv-taxis/research/CLAUDE.md` — research folder, not repo root
-- `organvm-iv-taxis/contrib--*` folders — vendor clones, should NOT sync
-
-**Intentionally local (not ORGANS):**
-- `~/Workspace/CLAUDE.md` — personal workspace root
-- `~/Workspace/4444J99/CLAUDE.md` — personal application pipeline
-- `~/Workspace/dwv/*/CLAUDE.md` — dwv (different org) repos
-- `~/Workspace/intake/*/CLAUDE.md` — intake staging
-- `~/Workspace/k6-contrib/` — external k6 contrib
-- `~/Workspace/python-sdk/` — external Python SDK
-- `~/Workspace/fastmcp/` — external FastMCP
-
-**Vendor/external (should NOT sync):**
-- `organvm-iv-taxis/contrib--temporal-sdk-python/CLAUDE.md`
-- `organvm-iv-taxis/contrib--jairus-dagster-sdlc/CLAUDE.md`
-- `organvm-iv-taxis/contrib--indeedeng-iwf/CLAUDE.md`
-- `organvm-iv-taxis/reverse-engine-recursive-run/CLAUDE.md`
-
-**Nested docs (not repo roots):**
-- `organvm-i-theoria/.github/docs/CLAUDE.md`
-- `organvm-i-theoria/.github/docs/guides/CLAUDE.md`
-- `organvm-i-theoria/.github/.ai/CLAUDE.md`
-- `organvm-iv-taxis/.github/CLAUDE.md` (this IS synced, just nested)
+| **Unmanaged — should be managed** | 15 | True misses in ORGANS that should enter sync |
+| **Unmanaged — staging/bench** | 53 | Files in `materia-collider` (temporary staging) |
+| **Unmanaged — intentionally local** | 15 | Personal configs, non-organ repos (4444J99, dwv, intake) |
+| **Unmanaged — vendor/external** | 14 | Vendor clones (contrib--), external SDKs |
+| **Unmanaged — nested docs** | 5 | Documentation artifacts, not repo roots |
 
 ---
 
-## Known Unmanaged (Quick Inventory)
+## Known Unmanaged (Exact Inventory)
 
-### Vendor/External Clones
-- `/Users/4jp/Workspace/k6-contrib/CLAUDE.md`
-- `/Users/4jp/Workspace/python-sdk/CLAUDE.md`
-- `/Users/4jp/Workspace/fastmcp/CLAUDE.md`
+### Should be managed (ORGANS)
+- `organvm-i-theoria/rules-system-bound/CLAUDE.md`
+- `organvm-ii-poiesis/chthon-oneiros/CLAUDE.md`
+- `organvm-ii-poiesis/krypto-velamen/CLAUDE.md`
+- `organvm-iii-ergon/content-engine--asset-amplifier/CLAUDE.md`
+- `organvm-iv-taxis/orchestration-start-here/CLAUDE.md`
+- `organvm-iv-taxis/vox--publica/CLAUDE.md`
+- ... (+ 9 more)
 
-### Contrib Folders (organvm-iv-taxis)
-- `contrib--temporal-sdk-python/CLAUDE.md`
-- `contrib--jairus-dagster-sdlc/CLAUDE.md`
-- `contrib--indeedeng-iwf/CLAUDE.md`
-- `reverse-engine-recursive-run/CLAUDE.md`
-
-### Nested Documentation
-- `.github/docs/CLAUDE.md`
-- `.github/docs/guides/CLAUDE.md`
-- `.github/.ai/CLAUDE.md`
-
-### Non-ORGANVM Roots
-- `/Users/4jp/Workspace/dwv/*/CLAUDE.md`
-- `/Users/4jp/Workspace/intake/*/CLAUDE.md`
-- `/Users/4jp/Workspace/4444J99/*/CLAUDE.md`
+### Vendor/External (should NOT sync)
+- `organvm-iv-taxis/contrib--adenhq-hive/CLAUDE.md`
+- `organvm-iv-taxis/contrib--indeedeng-iwf/CLAUDE.md`
+- `k6-contrib/CLAUDE.md`
+- `python-sdk/CLAUDE.md`
+- `fastmcp/CLAUDE.md`
 
 ---
 
 ## Disposition Rules
 
-1. **ORGANS in `~/Workspace/meta-organvm`**: Should be managed — these are the ~14 submodules already committed.
-2. **ORGANS in other superprojects** (e.g., `organvm-iv-taxis`): Should be managed in their respective superproject context.
+1. **ORGANS in ORGANS superprojects**: Should be managed. Identified 15 files that need to be added to their respective organ registries.
+2. **Staging (`materia-collider`)**: Intentional skip — these are temporary work-in-progress fragments.
 3. **Vendor clones under `contrib--*`**: Intentional external — should NOT be managed by ORGANVM context sync.
-4. **Personal/non-organ workspaces**: Out of scope.
+4. **Personal/non-organ workspaces (`4444J99`, `dwv`)**: Out of scope for organ governance.
 5. **Nested docs** (`.github/docs`, `.github/.ai`): Documentation artifacts, not repo roots.
 
 ---
 
 ## Next Steps
 
-For any file that should be managed but isn't:
-- Identify the correct superproject/home organ
-- Add to that organ's context sync registry
-- Run `organvm context sync --write`
+1. Add the 15 "Should be managed" files to their respective organ registries.
+2. Re-run `organvm context sync --write` across all superprojects.
+3. Archive this audit once counts reach zero for "Should be managed".
 
-*Classification complete. This audit prevents treating all unmanaged files as equivalent failures.*
+*Classification complete. All 102 unmanaged surfaces accounted for.*
