@@ -109,3 +109,13 @@ categories:
     trigger_phrases:
       - "we have over 20% of our weekly allotment"
       - "meta-note: ... actual-note:"
+
+  - name: PORTABILITY
+    behavior: "Separate the PROCESS from the INSTANCE. Scripts are portable; config is instance-specific. The work must exist outside the context of creation."
+    trigger_phrases:
+      - "the work must exist outside the instance of creation"
+      - "swap the config, same process"
+      - "scripts are the portable process; config is the instance"
+      - "separate process from instance"
+      - "config-driven portability"
+    pairs_with: EXECUTE

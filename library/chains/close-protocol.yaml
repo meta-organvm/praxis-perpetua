@@ -53,6 +53,14 @@ steps:
         action: record if applicable
       - name: Plan archive
         action: persist with dated name
+    amendments:
+      - date: 2026-04-05
+        source: "Nothing Lost Protocol (Sovereign Systems engagement)"
+        additions:
+          - "IRF index: also set GH# pointers for completed items"
+          - "GH Issues index: no deferral without a record — all deferrals logged as issues"
+          - "New index: Client decisions — log with dates (YYYY-MM-DD stamp)"
+          - "New step: BUILD_VERIFIED — CI green? Tests pass? Lint clean? No session closes on a broken build."
     checkpoint: true
     optional: false
 
