@@ -1,28 +1,28 @@
 # Prompt Narrative Analysis
 **Generated**: 2026-04-04
-**Sessions**: 755 | **Prompts**: 5088 | **Threads**: 141
+**Sessions**: 757 | **Prompts**: 5112 | **Threads**: 141
 
 ## Prompt Type Distribution
 
 | Type | Count | % |
 |------|-------|---|
-| command | 2640 | 51% |
-| question | 879 | 17% |
-| context_setting | 552 | 10% |
-| continuation | 423 | 8% |
-| git_ops | 236 | 4% |
+| command | 2654 | 51% |
+| question | 884 | 17% |
+| context_setting | 553 | 10% |
+| continuation | 425 | 8% |
+| git_ops | 237 | 4% |
 | plan_invocation | 172 | 3% |
-| exploration | 135 | 2% |
-| correction | 51 | 1% |
+| exploration | 136 | 2% |
+| correction | 51 | 0% |
 
 ## Size Distribution
 
 | Class | Count | % |
 |-------|-------|---|
-| short | 2093 | 41% |
-| medium | 1179 | 23% |
-| long | 965 | 18% |
-| terse | 851 | 16% |
+| short | 2102 | 41% |
+| medium | 1189 | 23% |
+| long | 968 | 18% |
+| terse | 853 | 16% |
 
 ## Top Narrative Threads (by prompt count)
 
@@ -32,7 +32,7 @@
 | meta-organvm/implement-2026-03-06..2026-03-11 | 98 | 394 | 2026-03-06..2026-03-11 | command |
 | 4jp/Workspace/proceed-2026-03-20..2026-03-26 | 12 | 292 | 2026-03-20..2026-03-26 | command |
 | meta-organvm/proceed-2026-03-19..2026-03-20 | 13 | 291 | 2026-03-19..2026-03-20 | command |
-| 4jp/system-system--system/explore-2026-04-04 | 23 | 190 | 2026-04-04 | command |
+| 4jp/system-system--system/explore-2026-04-04..2026 | 23 | 191 | 2026-04-04..2026-04-05 | command |
 | meta-organvm/implement-2026-03-12..2026-03-15 | 22 | 190 | 2026-03-12..2026-03-15 | command |
 | 4444J99/application-pipeline/proceed-2026-03-13..2 | 9 | 172 | 2026-03-13..2026-03-15 | command |
 | organvm-iv-taxis/orchestration-start-here/contrib_ | 4 | 141 | 2026-03-22..2026-03-26 | command |
@@ -42,17 +42,17 @@
 | 4444J99/application-pipeline/review-2026-03-30..20 | 10 | 87 | 2026-03-30..2026-04-03 | command |
 | meta-organvm/post-flood/continue-2026-03-17..2026- | 2 | 86 | 2026-03-17..2026-03-20 | command |
 | 4444J99/application-pipeline/strategy/add-2026-03- | 4 | 84 | 2026-03-17..2026-03-20 | command |
+| organvm-iii-ergon/sovereign-systems--elevate-align | 7 | 81 | 2026-04-03..2026-04-05 | command |
 | 4jp/Workspace/update-2026-03-30..2026-04-01 | 6 | 71 | 2026-03-30..2026-04-01 | command |
 | 4jp/Workspace/list-2026-04-02..2026-04-04 | 8 | 70 | 2026-04-02..2026-04-04 | command |
-| organvm-iii-ergon/sovereign-systems--elevate-align | 7 | 69 | 2026-04-03..2026-04-04 | command |
 | organvm-iv-taxis/remove-2026-03-30..2026-03-31 | 8 | 69 | 2026-03-30..2026-03-31 | command |
 | 4444J99/application-pipeline/proceed-2026-03-27..2 | 4 | 67 | 2026-03-27..2026-03-28 | command |
+| meta-organvm/continue-2026-04-03..2026-04-05 | 7 | 65 | 2026-04-03..2026-04-05 | command |
 | Users/4jp/verify-2026-03-25 | 4 | 65 | 2026-03-25 | command |
 | organvm-i-theoria/conversation-corpus-engine/analy | 3 | 64 | 2026-03-23..2026-03-26 | command |
 | 4444J99/portfolio/review-2026-03-17..2026-03-21 | 4 | 60 | 2026-03-17..2026-03-21 | command |
 | dwv/analyze-2026-03-21..2026-03-23 | 2 | 59 | 2026-03-21..2026-03-23 | command |
 | meta-organvm/stakeholder-portal/implement-2026-03- | 5 | 55 | 2026-03-08..2026-03-09 | command |
-| meta-organvm/continue-2026-04-03..2026-04-04 | 6 | 54 | 2026-04-03..2026-04-04 | command |
 
 ## Temporal Activity
 
@@ -62,7 +62,7 @@
 | 2025-12 | 23 | 23 | 13 | Users/4jp |
 | 2026-01 | 13 | 15 | 9 | 4jp/Legal/padavano-v-mdc--empl |
 | 2026-03 | 397 | 4464 | 106 | meta-organvm |
-| 2026-04 | 73 | 580 | 14 | 4jp/system-system--system |
+| 2026-04 | 74 | 604 | 14 | 4jp/system-system--system |
 
 ## Top Imperative Verbs
 
@@ -80,14 +80,14 @@
 | build | 7 | 0% |
 | make | 6 | 0% |
 | add | 5 | 0% |
+| merge | 4 | 0% |
+| find | 4 | 0% |
 | commit | 4 | 0% |
 | open | 4 | 0% |
-| find | 3 | 0% |
 | log | 3 | 0% |
 | stop | 3 | 0% |
 | run | 3 | 0% |
-| merge | 3 | 0% |
-| explore | 2 | 0% |
+| test | 2 | 0% |
 
 ## Narrative Arc Patterns
 
@@ -102,8 +102,8 @@
 | Tag | Count |
 |-----|-------|
 | python | 363 |
-| go | 291 |
-| mcp | 268 |
+| go | 292 |
+| mcp | 269 |
 | bash | 255 |
 | pytest | 236 |
 | node | 114 |

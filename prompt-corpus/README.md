@@ -4,27 +4,27 @@ The primary source material for the ORGANVM system. Every user prompt across eve
 
 **The code is derivative. The prompts are the seeds.**
 
-## First Extraction: 2026-04-04
+## Latest Extraction: 2026-04-04 (re-run)
 
 | Metric | Value |
 |--------|-------|
-| Sessions processed | 755 (Claude: 470, Codex: 231, Gemini: 54) |
-| Supplementary sources | 60 files (ChatGPT: 213 exports, /export: 5, SpecStory: 19) |
-| Raw prompts extracted | 5,552 |
-| After deduplication | 3,593 |
-| Seeds identified | 487 (13%) |
-| Agents | claude, codex, gemini, chatgpt, specstory, claude-export |
-| Date range | Nov 2025 – Apr 2026 |
+| Sessions processed | 757 (Claude: ~713, Codex: 44) |
+| Supplementary sources | 22 files (Clipboard/Paste.app: 833, ChatGPT-MD: 39, Claude-export: 29) |
+| Raw prompts extracted | 6,013 |
+| After deduplication | 5,703 |
+| Seeds identified | 487 (prior extraction — see Phase 4 note) |
+| Agents | 35 unique (claude, codex, chatgpt, claude-export, clipboard/[30+ apps]) |
+| Date range | Nov 22 2025 – Apr 5 2026 (133 days) |
 
 ## Files
 
 | File | Lines | Size | Purpose |
 |------|-------|------|---------|
-| `annotated-prompts.jsonl` | 5,088 | 55MB | Full engine extraction (Claude/Codex/Gemini) |
-| `supplementary-prompts.jsonl` | 464 | 626KB | ChatGPT exports + /export TXT + SpecStory |
-| `sequenced-prompts.jsonl` | 3,593 | 48MB | Unified timeline, deduped, organ-tagged |
-| `seeds.jsonl` | 487 | 11MB | Prompts carrying durable design intent |
-| `NARRATIVE-SUMMARY.md` | 133 | 4.7KB | Engine-generated narrative summary |
+| `annotated-prompts.jsonl` | 5,112 | 55MB | Full engine extraction (Claude/Codex) |
+| `supplementary-prompts.jsonl` | 901 | 1.7MB | Clipboard + ChatGPT-MD + Claude-export |
+| `sequenced-prompts.jsonl` | 5,703 | 58MB | Unified timeline, deduped |
+| `seeds.jsonl` | 487 | 11MB | Prompts carrying durable design intent (prior run) |
+| `NARRATIVE-SUMMARY.md` | — | 4.7KB | Engine-generated narrative summary |
 | `SEED-CATALOGUE.md` | — | 25KB | Human-readable seed catalogue by type |
 
 ## Seed Types
@@ -68,8 +68,8 @@ python3 extract-seeds.py
 
 | Script | Purpose |
 |--------|---------|
-| `ingest-supplementary.py` | Extract prompts from ChatGPT, /export TXT, SpecStory |
-| `sequence-and-merge.py` | Merge all sources, sort chronologically, deduplicate |
+| `ingest-supplementary.py` | Extract prompts from Clipboard/Paste.app, ChatGPT-MD, Claude-export, SpecStory |
+| `sequence-corpus.py` | Merge all sources, sort chronologically, deduplicate |
 | `extract-seeds.py` | Classify prompts into 7 seed types |
 
 ## Theoretical Grounding

@@ -2,19 +2,20 @@
 """Ingest supplementary prompt sources not covered by organvm-engine.
 
 Handles:
-- ChatGPT JSON exports (role: "Prompt", key: "say")
+- Paste.app clipboard export (ai-prompts-clipboard-export.json)
+- ChatGPT markdown exports (## User delimited)
+- ChatGPT JSON exports (role: "Prompt" / "user")
 - Claude /export TXT files (❯ prefix marks user prompts)
 - SpecStory markdown history (_**User ...**_ blocks)
 
 Outputs JSONL in the same schema as organvm prompts narrate, with
-agent field set to chatgpt/claude-export/specstory.
+agent field set to clipboard/<app>, chatgpt, claude-export, or specstory.
 """
 
 import json
 import re
 import hashlib
 import sys
-from datetime import datetime
 from pathlib import Path
 
 
@@ -80,6 +81,39 @@ def make_entry(
     }
 
 
+# --- Clipboard export (Paste.app) ---
+
+def ingest_clipboard(file_path: Path) -> list[dict]:
+    """Ingest Paste.app clipboard export JSON."""
+    entries = []
+    with open(file_path) as f:
+        data = json.load(f)
+
+    prompts = data.get("prompts", [])
+    for p in prompts:
+        text = p.get("text", "").strip()
+        if not text:
+            continue
+
+        source_app = p.get("source_app", "unknown").lower()
+        session_id = p.get("session_id", f"clipboard-{p.get('id', 0)}")
+
+        entry = make_entry(
+            text=text,
+            agent=f"clipboard/{source_app}",
+            source_file=str(file_path),
+            timestamp=p.get("timestamp", ""),
+            prompt_index=p.get("position_in_session", 0),
+            prompt_count=p.get("session_size", 1),
+        )
+        if entry:
+            # Override session_id to use the clipboard session grouping
+            entry["source"]["session_id"] = str(session_id)
+            entries.append(entry)
+
+    return entries
+
+
 # --- ChatGPT JSON exports ---
 
 def ingest_chatgpt(file_path: Path) -> list[dict]:
@@ -117,6 +151,46 @@ def ingest_chatgpt(file_path: Path) -> list[dict]:
         )
         if entry:
             entries.append(entry)
+    return entries
+
+
+# --- ChatGPT markdown exports ---
+
+def ingest_chatgpt_markdown(file_path: Path, project_slug: str = "") -> list[dict]:
+    """Ingest ChatGPT markdown exports (## User delimited)."""
+    entries = []
+    content = file_path.read_text(encoding="utf-8", errors="replace")
+
+    # Extract conversation ID from header
+    conv_match = re.search(r"conversation_id:\s*(\S+)", content)
+    conv_id = conv_match.group(1) if conv_match else file_path.stem
+
+    # Split on ## User markers
+    user_blocks = re.split(r"^## User\s*$", content, flags=re.MULTILINE)
+    user_blocks = user_blocks[1:]  # First block is header
+
+    for i, block in enumerate(user_blocks):
+        # Extract text up to the next ## Assistant / ## ChatGPT marker
+        assistant_split = re.split(
+            r"^## (?:Assistant|ChatGPT)\s*$", block, flags=re.MULTILINE
+        )
+        text = assistant_split[0].strip()
+        if not text or len(text) < 5:
+            continue
+
+        slug = project_slug or file_path.stem
+        entry = make_entry(
+            text=text,
+            agent="chatgpt",
+            source_file=str(file_path),
+            timestamp="",
+            prompt_index=i,
+            prompt_count=len(user_blocks),
+            project_slug=slug,
+        )
+        if entry:
+            entries.append(entry)
+
     return entries
 
 
@@ -196,53 +270,89 @@ def ingest_specstory(file_path: Path) -> list[dict]:
 # --- Main ---
 
 def main():
-    workspace = Path.home() / "Workspace"
+    intake = Path.home() / "Workspace" / "intake"
     output_path = Path(__file__).parent / "supplementary-prompts.jsonl"
 
     all_entries = []
-    stats = {"chatgpt": 0, "claude-export": 0, "specstory": 0, "files": 0, "errors": 0}
+    stats = {
+        "clipboard": 0, "chatgpt-json": 0, "chatgpt-md": 0,
+        "claude-export": 0, "specstory": 0, "files": 0, "errors": 0,
+    }
 
-    # ChatGPT exports
-    print("Scanning ChatGPT exports...")
-    for p in sorted(workspace.rglob("ChatGPT-*.json")):
+    # 1. Clipboard export (Paste.app) — the biggest supplementary source
+    clipboard_path = intake / "ai-prompts-clipboard-export.json"
+    if clipboard_path.exists():
+        print(f"Clipboard: {clipboard_path}")
+        try:
+            entries = ingest_clipboard(clipboard_path)
+            all_entries.extend(entries)
+            stats["clipboard"] += len(entries)
+            stats["files"] += 1
+        except Exception as e:
+            print(f"  ERROR: {e}", file=sys.stderr)
+            stats["errors"] += 1
+    else:
+        print(f"Clipboard export not found: {clipboard_path}")
+
+    # 2. ChatGPT markdown exports (known locations)
+    chatgpt_md_dirs = [
+        (intake / "machina-mundi-canonici" / "conversations", "machina-mundi-canonici"),
+        (intake / "dsp-alternative" / "conversations", "dsp-alternative"),
+    ]
+    for conv_dir, slug in chatgpt_md_dirs:
+        if conv_dir.exists():
+            print(f"ChatGPT markdown: {conv_dir}")
+            for p in sorted(conv_dir.glob("*.md")):
+                try:
+                    entries = ingest_chatgpt_markdown(p, slug)
+                    all_entries.extend(entries)
+                    stats["chatgpt-md"] += len(entries)
+                    stats["files"] += 1
+                except Exception as e:
+                    print(f"  ERROR {p.name}: {e}", file=sys.stderr)
+                    stats["errors"] += 1
+
+    # 3. ChatGPT JSON exports (scan intake for ChatGPT-*.json)
+    print("Scanning ChatGPT JSON exports...")
+    for p in sorted(intake.rglob("ChatGPT-*.json")):
         try:
             entries = ingest_chatgpt(p)
             all_entries.extend(entries)
-            stats["chatgpt"] += len(entries)
+            stats["chatgpt-json"] += len(entries)
             stats["files"] += 1
         except Exception as e:
             print(f"  ERROR {p.name}: {e}", file=sys.stderr)
             stats["errors"] += 1
 
-    # ChatGPT markdown exports
-    for p in sorted(workspace.rglob("ChatGPT-*.md")):
-        # These are rendered markdown, not parseable for prompts in the same way
-        # Skip for now — the JSON exports are the primary source
-        pass
-
-    # Claude /export TXT
+    # 4. Claude /export TXT (scan home for export files)
     print("Scanning Claude /export files...")
-    for p in sorted(workspace.rglob("2026-*-local-command-*.txt")):
-        try:
-            entries = ingest_claude_export(p)
-            all_entries.extend(entries)
-            stats["claude-export"] += len(entries)
-            stats["files"] += 1
-        except Exception as e:
-            print(f"  ERROR {p.name}: {e}", file=sys.stderr)
-            stats["errors"] += 1
+    home = Path.home()
+    for pattern in ["Workspace/*/2026-*-local-command-*.txt", "Downloads/2026-*.txt"]:
+        for p in sorted(home.glob(pattern)):
+            try:
+                entries = ingest_claude_export(p)
+                all_entries.extend(entries)
+                stats["claude-export"] += len(entries)
+                stats["files"] += 1
+            except Exception as e:
+                print(f"  ERROR {p.name}: {e}", file=sys.stderr)
+                stats["errors"] += 1
 
-    # SpecStory history
-    print("Scanning SpecStory history...")
-    for p in sorted(workspace.rglob(".specstory/history/*.md")):
-        try:
-            entries = ingest_specstory(p)
-            all_entries.extend(entries)
-            stats["specstory"] += len(entries)
-            stats["files"] += 1
-        except Exception as e:
-            print(f"  ERROR {p.name}: {e}", file=sys.stderr)
-            stats["errors"] += 1
+    # 5. SpecStory history
+    specstory_dir = home / ".specstory" / "history"
+    if specstory_dir.exists():
+        print(f"SpecStory: {specstory_dir}")
+        for p in sorted(specstory_dir.glob("*.md")):
+            try:
+                entries = ingest_specstory(p)
+                all_entries.extend(entries)
+                stats["specstory"] += len(entries)
+                stats["files"] += 1
+            except Exception as e:
+                print(f"  ERROR {p.name}: {e}", file=sys.stderr)
+                stats["errors"] += 1
+    else:
+        print(f"SpecStory history empty or not found: {specstory_dir}")
 
     # Write output
     with open(output_path, "w") as f:
@@ -250,13 +360,15 @@ def main():
             f.write(json.dumps(entry) + "\n")
 
     print(f"\nSupplementary extraction complete:")
-    print(f"  ChatGPT prompts: {stats['chatgpt']}")
-    print(f"  Claude /export prompts: {stats['claude-export']}")
-    print(f"  SpecStory prompts: {stats['specstory']}")
-    print(f"  Total prompts: {len(all_entries)}")
-    print(f"  Files processed: {stats['files']}")
-    print(f"  Errors: {stats['errors']}")
-    print(f"  Written to: {output_path}")
+    print(f"  Clipboard prompts:    {stats['clipboard']}")
+    print(f"  ChatGPT JSON prompts: {stats['chatgpt-json']}")
+    print(f"  ChatGPT MD prompts:   {stats['chatgpt-md']}")
+    print(f"  Claude export prompts:{stats['claude-export']}")
+    print(f"  SpecStory prompts:    {stats['specstory']}")
+    print(f"  Total prompts:        {len(all_entries)}")
+    print(f"  Files processed:      {stats['files']}")
+    print(f"  Errors:               {stats['errors']}")
+    print(f"  Written to:           {output_path}")
 
 
 if __name__ == "__main__":
