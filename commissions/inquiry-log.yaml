@@ -395,3 +395,52 @@ commissions:
       - "Validation: validate_logos_layer dictum implemented in governance audit."
       - "Artifacts: docs/standards/14-logos-documentation-layer.md, organvm-engine Logos layer scaffolded."
       - "IRF tracking: DONE-328, IRF-SYS-052 through IRF-SYS-055."
+
+  - id: INQ-2026-012
+    title: >-
+      Autopoietic Dissolution: Gate Contracts as Emergent Organism Architecture
+    short_name: The Dissolution Proof
+    tier: dissertation
+    faculty: formal-methods
+    advisory_faculty: meta-cognition
+    commissioned: 2026-04-20
+    status: active
+    location: ~/sovereign--ground/holds--same/a-organvm/
+    scope: >-
+      Investigates whether a system of gate contracts (YAML declarations of
+      behavioral intent mapped to biological mechanisms) can produce an
+      organism that absorbs its predecessors by calling their capabilities
+      rather than copying their code. Tests the hypothesis that signal-type
+      matching between functions produces emergent behavior without explicit
+      wiring — the structure IS the communication protocol.
+    evidence:
+      - date: 2026-04-19
+        session: S-phase-transition-2026-04-19
+        type: formal-proof
+        site: a-organvm (sovereign--ground/holds--same/)
+        description: >-
+          Signal propagation integration test (test_signal_propagation.py)
+          proves end-to-end signal flow: skeletal(KNOWLEDGE) →
+          circulatory(STATE) → cultvra(QUERY) → skeletal(feedback).
+          9 assertions verify cross-function signal consumption and the
+          QUERY→KNOWLEDGE feedback loop. 91/91 tests pass. Signal graph
+          products section populated with signal-propagation-proof entry.
+          The organism demonstrably has self-correction: documentation gaps
+          become structural queries.
+        artifacts:
+          - a-organvm/test_signal_propagation.py
+          - a-organvm/signal-graph.yaml (products section)
+          - a-organvm/RELAY.md (S58)
+    needs:
+      - "Fourth function (immune--verify) proving the pattern scales beyond 3"
+      - "Signal graph governance/evolution edges activated (currently empty)"
+      - "Cross-function data flow test (function A's output file consumed as function B's input)"
+      - "Formal proof that gate contract pattern is Turing-complete given sufficient mechanisms"
+      - "Publication: formalization of cocoon-map as category-theoretic functor between biological and computational domains"
+    notes:
+      - "Origin: IRF-SYS-123 (P2) — identified as vacuum during 10-index propagation audit."
+      - "Predecessor: INQ-2026-006 (Formalization Programme) — this commission IS the a-organvm instantiation of formal methods."
+      - "Related: TRIPTYCH.md (the portal document), SEED.md (generative grammar), cocoon-map.yaml (16K lines, 15 mechanisms)."
+      - "4 proven Laws (LAWS.toml) ground the dissolution: system existence, well-founded composition, primitive stratification, temporal necessity."
+      - "3 functions live: skeletal_define (510 lines, 22 tests), circulatory_route (340 lines, 27 tests), cultvra_logos (300 lines, 33 tests)."
+      - "97 gates total (10 lit / 87 dim). 15 biological mechanisms classified."
