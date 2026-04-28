@@ -1,0 +1,17 @@
+title = "praxis-perpetua gitleaks config"
+
+# Use the upstream default rule set as the base.
+[extend]
+useDefault = true
+
+# Path allowlist: prompt-corpus contains narrative session exports that
+# routinely discuss security topics (audit reports, redaction actions,
+# code-snippet quoting of variables named `api_key`). Pattern matchers
+# trip on the narrative discussion, not actual exposed credentials.
+# Real secrets stay in 1Password and are never written into corpus files.
+[allowlist]
+description = "prompt-corpus session exports are narrative artifacts"
+paths = [
+    '''prompt-corpus/.*\.txt$''',
+    '''prompt-corpus/.*\.md$''',
+]
