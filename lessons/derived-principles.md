@@ -229,6 +229,11 @@ Multiple background tasks killed or failed silently: test suite timeout, build k
 
 "Gold-plating" or endless tweaking of experimental projects is a trap. The 14-Day TTL (Time-To-Live) for Incubator projects forces a binary choice: Graduate or Archive. The Utility Invariant (testing against real downstream consumers) and Ockham's Check (deleting features you won't formally support) are the antidotes to iteration masochism. Systemic completion dopamine overrides the false satisfaction of dark polishing.
 
+### O10. Review questions require three-pass answers
+**Source:** 2026-04-29 review-post protocol correction
+
+When creating a review post, every question raised by the review must be answered in three passes: strawman, steelman, and post-man. The strawman gives the deliberately simplified answer quickly enough to expose assumptions. The steelman gives the strongest defensible version of the answer. The post-man turns the review into operational closure: decision, owner, artifact, and next action. Review posts that ask questions without these three passes leave ambiguity in the system.
+
 ---
 
-*Last updated: 2026-03-11 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis + 24h retrospective + Membrane implementation*
+*Last updated: 2026-04-29 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis + 24h retrospective + Membrane implementation + review-post protocol correction*

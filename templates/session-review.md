@@ -60,7 +60,17 @@
 
 ---
 
-## Phase V: Reconciliation
+## Phase V: Review Questions
+
+For every unresolved question raised by the review, answer in three passes:
+
+| Question | Strawman | Steelman | Post-man |
+|----------|----------|----------|----------|
+| [question] | [fast, deliberately simplified answer] | [strongest defensible answer] | [operational answer after review: decision, owner, artifact, next action] |
+
+---
+
+## Phase VI: Reconciliation
 
 - [ ] Structural issues fixed
 - [ ] Content gaps expanded
