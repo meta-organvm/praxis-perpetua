@@ -236,4 +236,33 @@ When creating a review post, every question raised by the review must be answere
 
 ---
 
-*Last updated: 2026-04-29 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis + 24h retrospective + Membrane implementation + review-post protocol correction*
+## Meta-Architectural Principles
+
+### M1. Substrate vocabulary precedes coining
+**Source:** 2026-05-02 recursive-substrate-ops-plan session
+
+Before coining any new term for a concept, search whether the substrate already has a name for it. The substrate has a deep formal vocabulary that predates most conversation reframes — SVSE (cubist principle), AMMOI (epistemological pipeline), mesh primitives, Tetradic Counterpart, Ontologia, piece/v2 schema, σ-axis, structural_interrogation, Compilatio Cognitionis. Coining around them creates vocabulary fragmentation and wastes energy that could amortize through existing terminology. The discipline applies to all naming: dimensions, faces, methods, action-categories.
+
+### M2. Protocols dictate actions
+**Source:** 2026-05-02 recursive-substrate-ops-plan session (user correction, twice)
+
+Before enumerating any action sequence — especially in `ExitPlanMode` allowedPrompts, but at every scale of action — survey the substrate's SOP library (`organvm sop lifecycle` or filesystem at `praxis-perpetua/standards/SOP--*.md`). Identify which existing protocol(s) dictate the actions for this situation. Defer to the protocol's prescribed sequence; only deviate when the protocol genuinely doesn't cover the case. **Reuse + reinvent**: reuse where the protocol exists, reinvent only outside the library. The discipline is *minimal* enumeration — let protocols specify; don't substitute.
+
+### M3. Rules composed in absence of capability deserve re-examination on capability arrival
+**Source:** 2026-05-02 recursive-substrate-ops-plan session
+
+When new tools/capabilities come into view (new skill, MCP, model, language, dimension), candidate rules that were composed *in their absence* deserve **re-examination, not retraction**. The rule corpus is additive (rule #3) but living. Flag rules whose framing assumes the absence of a now-present capability and surface them for the user to confirm or update — never silently relax them, never silently inherit their constraints past warranted scope. Every capability arrival triggers a sweep.
+
+### M4. Recursive operations require explicit safeguards
+**Source:** 2026-05-02 recursive-substrate-ops-plan session
+
+Every new recursive operation in the substrate must be designed with three explicit safeguards from recursive-systems-architect: (1) **Termination guarantee** — depth limit, change detection, energy bound, or cycle detection; (2) **Coherence maintenance** — invariant preservation, gradual change, rollback, sandboxing; (3) **Observability** — level tagging, trace logging, state snapshots. Without these, infinite recursion / incoherence / opacity become default failure modes. The substrate's existing safeguards (rule #3 additive, jupytext-paired `.py`, triple-reference rule #23, on-demand-only CLI, no LaunchAgents) coincidentally serve recursive coherence; naming the recursion explicitly turns coincidence into deliberate design.
+
+### M5. Substantial plans require their tetradic counterpart
+**Source:** 2026-05-02 recursive-substrate-ops-plan session
+
+Plans of substantial scope (multi-stage architectural plans, ≥5k bytes, ≥5 substantive sections) should produce their own Logos Documentation Layer counterpart files — telos.md, pragma.md, praxis.md, receptio.md, plus alchemical-io.md — at `<plan-location>--logos/` or analogous nested location. The substrate's Tetradic Counterpart requirement applies to every implementation, and substantial plans are themselves implementations of synthesis-work. Without counterparts, plans are GHOST under the Symmetry metric. Tactical bug-fix plans don't require counterparts; the plan itself at theory-to-concrete-gate Level 3 is sufficient.
+
+---
+
+*Last updated: 2026-05-02 | Source: founding session + structural audit + four-branch synthesis + personal-hell session + universal hierarchy synthesis + 24h retrospective + Membrane implementation + review-post protocol correction + recursive-substrate-ops-plan session*
