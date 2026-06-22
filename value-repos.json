@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "description": "Ranked tier of repositories with discovered latent value. Build-out follows this list.",
+  "ranked": [
+    {
+      "repo": "organvm/praxis-perpetua",
+      "discovered": "2026-06-22",
+      "thesis": "Estate methodology and certification authority: 74 standards + 121 SOPs + the IRA multi-model evaluative-consensus protocol — a reusable internal quality gate (consumed by all organs) and an outward IP/publication path (dissertations, arXiv preprints, Object Lessons).",
+      "first_task": "Distill the IRA defense protocol + canonical standards into one citable 'SGO Method' white paper, defended through the SGO's own pipeline and shipped to the Logos/arXiv channel.",
+      "value_class": ["reusable-capability", "ip-publication", "estate-infrastructure"]
+    }
+  ]
+}
