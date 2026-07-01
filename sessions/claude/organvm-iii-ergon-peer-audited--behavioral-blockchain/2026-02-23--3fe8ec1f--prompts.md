@@ -31,21 +31,21 @@ Phase Eta is complete: **229 tests, 36 suites, 4/4 workspaces build, 4/5 validat
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/schema.sql`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/dispute.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/b2b/webhook.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/PitchDeck/services/gemini.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/OnboardingWizard.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/anomaly/anomaly.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/GeminiClient.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/schema.sql`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/dispute.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/b2b/webhook.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/PitchDeck/services/gemini.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/OnboardingWizard.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/anomaly/anomaly.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/GeminiClient.ts`
 - Grep `APPEAL_INITIATED`
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/app.module.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/health/health.module.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/health/health.controller.ts`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/app.module.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/health/health.module.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/health/health.controller.ts`
 - *...and 44 more*
 
 ---
@@ -71,11 +71,11 @@ run the validation gates with docker up
 
 **Actions taken:**
 - Bash: `make docker-up 2>&1`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docker-compose.yml`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/Dockerfile`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
-- Bash: `mkdir -p /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockch`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/Dockerfile`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docker-compose.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/Dockerfile`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `mkdir -p ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockch`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/Dockerfile`
 - Glob `src/api/database/seed.sql`
 - Bash: `docker-compose up -d styx-postgres styx-redis styx-api 2>&1`
 - Bash: `sleep 3 && curl -s http://localhost:3000/health 2>&1`
@@ -84,12 +84,12 @@ run the validation gates with docker up
 - Bash: `sleep 3 && curl -s http://localhost:3000/health`
 - Bash: `docker exec peer-audited--behavioral-blockchain-styx-postgres-1 psql -U styx_adm`
 - Bash: `npx tsx scripts/validation/01-phantom-money-check.ts 2>&1`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/scripts/validation/01-phantom-money-check.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/scripts/validation/01-phantom-money-check.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
 - Bash: `docker-compose logs --tail=30 styx-api 2>&1 | tail -30`
 - Bash: `docker exec peer-audited--behavioral-blockchain-styx-postgres-1 psql -U styx_adm`
 - Bash: `docker exec peer-audited--behavioral-blockchain-styx-postgres-1 psql -U styx_adm`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
 - *...and 25 more*
 
 ---
@@ -105,8 +105,8 @@ commit and push that fix too
 what do we have to do with stripe?
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/stripe.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/seed.sql`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/stripe.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/seed.sql`
 
 ---
 
@@ -121,8 +121,8 @@ i am not currently able to login to Stripe, waiting on ID verification
 what else is left before omega?
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
 
 ---
 
@@ -131,7 +131,7 @@ what else is left before omega?
 fix the CI pipeline to use npm instead of yarn
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/workflows/ci.yml`
 - Grep `yarn`
 
 ---
@@ -144,8 +144,8 @@ ok so what's the docker web service smoke test
 - Bash: `docker-compose up -d --build styx-web 2>&1`
 - Bash: `sleep 3 && echo "=== API (port 3000) ===" && curl -s http://localhost:3000/healt`
 - Bash: `docker-compose logs --tail=20 styx-web 2>&1`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/Dockerfile`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/Dockerfile`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/Dockerfile`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/Dockerfile`
 - Bash: `docker-compose up -d --build styx-web 2>&1 | tail -8`
 - Bash: `sleep 3 && echo "=== API ===" && curl -s http://localhost:3000/health && echo ""`
 - Bash: `docker-compose logs --tail=10 styx-web 2>&1`
@@ -155,7 +155,7 @@ ok so what's the docker web service smoke test
 - Bash: `echo "=== Docker services ===" && docker-compose ps --format "table {{.Name}}\t{`
 - Bash: `git add src/web/Dockerfile && git commit -m "$(cat <<'EOF'
 fix: bind Next.js sta`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
 
 ---
 
@@ -166,16 +166,16 @@ what's that dependabot vulnerability
 **Actions taken:**
 - Bash: `gh api repos/organvm-iii-ergon/peer-audited--behavioral-blockchain/dependabot/al`
 - Bash: `npm ls minimatch 2>&1 | head -20`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
 - Bash: `npm ls minimatch 2>&1 | grep "3\."`
 - Bash: `rm -rf node_modules/geoip-lite/node_modules 2>/dev/null; npm install 2>&1 | tail`
 - Bash: `npm ls minimatch 2>&1 | grep "3\\.1\\.3"`
 - Bash: `npm audit 2>&1 | head -30`
 - Bash: `rm -rf node_modules/geoip-lite/node_modules/minimatch node_modules/geoip-lite/no`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
 - Bash: `npm install 2>&1 | tail -8`
 - Bash: `npm ls minimatch 2>&1 | grep "3\\.1"`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
 - Bash: `npm view geoip-lite versions --json 2>&1 | tail -5`
 - Bash: `npm view geoip-lite@1.4.10 dependencies --json 2>&1`
 
@@ -186,9 +186,9 @@ what's that dependabot vulnerability
 swap out geoip-lite
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/security/geofence.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/security/geofence.service.ts`
 - Grep `geoip-lite|geoip`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
 
 ---
 
@@ -209,15 +209,15 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
 - Grep `from.*geofencing`
 - Grep `from.*geofence`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
 - Bash: `npm install 2>&1 | tail -20`
 - Bash: `npx turbo run build 2>&1 | tail -30`
 - Bash: `npx turbo run test 2>&1 | tail -20`
@@ -242,26 +242,26 @@ stage all, commit all, origin push;
 devise a plan to complete the whole entire project;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/rustling-wondering-pancake.md`
+- Read `~/.claude/plans/rustling-wondering-pancake.md`
 - Task
 - Task
 - Task
 - Grep `TODO|FIXME|HACK|STUB|not implemented|Tasks for AI Engineer|placeholder`
 - Grep `TODO|FIXME|HACK|STUB|not implemented|placeholder`
 - Grep `TODO|FIXME|HACK|STUB|not implemented|placeholder`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/api/spec.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/seed.yaml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/api/spec.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/seed.yaml`
 - Glob `src/api/src/modules/**/**.ts`
 - Glob `src/api/services/**/**.ts`
 - Glob `scripts/validation/*`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/guards/auth.guard.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/CameraScreen.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/components/AuthScreen.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docker-compose.yml`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/Makefile`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/guards/auth.guard.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/CameraScreen.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/components/AuthScreen.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docker-compose.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/Makefile`
 - *...and 31 more*
 
 ---

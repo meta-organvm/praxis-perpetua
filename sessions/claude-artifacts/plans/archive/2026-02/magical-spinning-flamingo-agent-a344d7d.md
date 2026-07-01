@@ -4,11 +4,11 @@
 
 | Template Variable | Files Using | Config Field | Resolution | Status |
 |---|---|---|---|---|
-| `{{CONDUCT_EMAIL}}` | CODE_OF_CONDUCT.md:39, CONTRIBUTING.md:42 | `emails.conduct` | organvum-i-theoria: `conduct@organvum.org` | ✓ RESOLVED |
+| `{{CONDUCT_EMAIL}}` | CODE_OF_CONDUCT.md:39, CONTRIBUTING.md:42 | `emails.conduct` | organvum-i-theoria: `[email redacted]` | ✓ RESOLVED |
 | `{{ORG_DISPLAY_NAME}}` | CONTRIBUTING.md:1, FUNDING.yml:1, SECURITY.md:12, profile/README.md:3 | `org.display_name` | organvum-i-theoria: `ORGAN I: Theoria` | ✓ RESOLVED |
 | `{{ORG_NAME}}` | CONTRIBUTING.md:7, SECURITY.md:36, ISSUE_TEMPLATE/config.yml:4, profile/README.md:24 | `org.name` | organvum-i-theoria: `organvum-i-theoria` | ✓ RESOLVED |
-| `{{SUPPORT_EMAIL}}` | CONTRIBUTING.md:46 | `emails.support` | organvum-i-theoria: `support@organvum.org` | ✓ RESOLVED |
-| `{{SECURITY_EMAIL}}` | SECURITY.md:19 | `emails.security` | organvum-i-theoria: `security@organvum.org` | ✓ RESOLVED |
+| `{{SUPPORT_EMAIL}}` | CONTRIBUTING.md:46 | `emails.support` | organvum-i-theoria: `[email redacted]` | ✓ RESOLVED |
+| `{{SECURITY_EMAIL}}` | SECURITY.md:19 | `emails.security` | organvum-i-theoria: `[email redacted]` | ✓ RESOLVED |
 | `{{ORGAN_ETYMOLOGY}}` | profile/README.md:5 | `organ.etymology` | organvum-i-theoria: `θεωρία — contemplation, theory` | ✓ RESOLVED |
 | `{{ORGAN_TAGLINE}}` | profile/README.md:7 | `organ.tagline` | organvum-i-theoria: `Epistemological frameworks and recursive systems` | ✓ RESOLVED |
 | `{{ORGAN_DESCRIPTION}}` | profile/README.md:13 | `organ.*` (no direct match) | ✗ UNDEFINED | ⚠ UNDEFINED |

@@ -709,7 +709,7 @@ Feature: User Login
 
 Scenario: Successful login with valid credentials
   Given a registered user on the login page
-  When the user enters valid email "user@example.com"
+  When the user enters valid email "[email redacted]"
   And the user enters valid password "SecurePass123"
   And the user clicks the "Login" button
   Then the system authenticates the user within 500ms
@@ -718,7 +718,7 @@ Scenario: Successful login with valid credentials
 
 Scenario: Failed login with invalid credentials
   Given a user on the login page
-  When the user enters email "user@example.com"
+  When the user enters email "[email redacted]"
   And the user enters incorrect password "wrongpass"
   And the user clicks the "Login" button
   Then the system displays "Invalid credentials" error

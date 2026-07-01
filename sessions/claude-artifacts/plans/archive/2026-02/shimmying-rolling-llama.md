@@ -53,13 +53,13 @@ These are pre-organ content dirs that should be triaged later:
 
 ### Step 1: Delete pure cruft
 ```
-rm /Users/4jp/Workspace/.DS_Store
-rm "/Users/4jp/Workspace/.github alias"
-rm /Users/4jp/Workspace/portfolio  # symlink
-rm -rf /Users/4jp/Workspace/4444JPP/
-rm -rf /Users/4jp/Workspace/ivviiviivvi/
-rm -rf /Users/4jp/Workspace/labores-profani-crux/
-rm -rf /Users/4jp/Workspace/Projects/
+rm ~/Workspace/.DS_Store
+rm "~/Workspace/.github alias"
+rm ~/Workspace/portfolio  # symlink
+rm -rf ~/Workspace/4444JPP/
+rm -rf ~/Workspace/ivviiviivvi/
+rm -rf ~/Workspace/labores-profani-crux/
+rm -rf ~/Workspace/Projects/
 ```
 
 ### Step 2: Move content dirs to intake/

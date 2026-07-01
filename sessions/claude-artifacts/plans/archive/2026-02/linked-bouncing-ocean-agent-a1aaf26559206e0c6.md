@@ -1,7 +1,7 @@
 # Exploration Plan: ORGANVM Applications Directory
 
 ## Objective
-Thoroughly explore `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications` to understand:
+Thoroughly explore `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications` to understand:
 1. Files and directory structure
 2. Tracking systems, templates, schemas, and data files
 3. How this directory relates to the parent project
@@ -27,15 +27,15 @@ The applications directory is a **grant/foundation submission tracking system** 
 - **shared/** - Metrics and system overview files
 
 ### Remaining Tasks (Sequential Reading Plan)
-1. Read `/Users/4jp/Workspace/meta-organvm/CLAUDE.md`
+1. Read `~/Workspace/meta-organvm/CLAUDE.md`
    - Purpose: Understand organ-level context and META organ role
    - Expected content: Instructions, conventions, system overview
 
-2. Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
+2. Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
    - Purpose: Understand project-level instructions and structure
    - Expected content: Project-specific guidance, templates
 
-3. Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/seed.yaml`
+3. Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/seed.yaml`
    - Purpose: Understand project contract, organ membership, tier, status
    - Expected content: Project metadata, dependencies, implementation status
 

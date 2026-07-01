@@ -41,8 +41,8 @@ User requested a project-wide review using the Evaluation-to-Growth framework (C
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/.github/workflows/quality.yml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/run.py`
+- Read `~/Workspace/4444J99/application-pipeline/.github/workflows/quality.yml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/run.py`
 - Bash: `source .venv/bin/activate && ruff check scripts/ tests/ --statistics 2>&1 | head`
 - TaskUpdate
 - Bash: `source .venv/bin/activate && ruff check scripts/ tests/ --fix 2>&1`
@@ -52,9 +52,9 @@ User requested a project-wide review using the Evaluation-to-Growth framework (C
 - Grep `CRITICAL|URGENT|UPCOMING`
 - TaskUpdate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/alchemize.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/build_resumes.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/campaign.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/alchemize.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/build_resumes.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/campaign.py`
 - *...and 73 more*
 
 ---
@@ -65,26 +65,26 @@ User requested a project-wide review using the Evaluation-to-Growth framework (C
   require full implementation;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/binary-discovering-canyon.md`
+- Read `~/.claude/plans/binary-discovering-canyon.md`
 - Agent: "I need you to thoroughly audit the application-pipeline code"
-- Agent: "I need a thorough audit of the test suite at `/Users/4jp/Wor"
-- Agent: "Audit `/Users/4jp/Workspace/4444J99/application-pipeline/scr"
-- Agent: "Audit the test suite at `/Users/4jp/Workspace/4444J99/applic"
+- Agent: "I need a thorough audit of the test suite at `~/Wor"
+- Agent: "Audit `~/Workspace/4444J99/application-pipeline/scr"
+- Agent: "Audit the test suite at `~/Workspace/4444J99/applic"
 - Glob `scripts/*.py`
 - Glob `tests/test_*.py`
 - Grep `TODO|FIXME|NotImplementedError|not implemented|stub|placeholder`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/velocity.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/build_block_index.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/sync_metrics.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/migrate_batch_folders.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/ingest_top_roles.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_velocity.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_research_contacts.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_funnel_report.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_alchemize.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_ashby_submit.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/feedback_capture.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/market_intel.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/velocity.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/build_block_index.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/sync_metrics.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/migrate_batch_folders.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/ingest_top_roles.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_velocity.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_research_contacts.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_funnel_report.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_alchemize.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_ashby_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/feedback_capture.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/market_intel.py`
 - *...and 13 more*
 
 ---

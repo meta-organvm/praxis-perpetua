@@ -23,20 +23,20 @@ A promotion reviewer would immediately see: **a user literally cannot create a b
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/App.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/ApiClient.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/behavioral-logic.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/DashboardScreen.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/ContractListScreen.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/ProfileScreen.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/contracts/new/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/wallet/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/settings/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/ContractDetailScreen.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/seed.yaml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/App.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/ApiClient.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/behavioral-logic.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/DashboardScreen.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/ContractListScreen.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/ProfileScreen.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/contracts/new/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/wallet/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/settings/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/ContractDetailScreen.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/seed.yaml`
 - Grep `changePassword|updateSettings|deleteAccount`
 - Glob `src/mobile/screens/*.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/services/api-client.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/services/api-client.ts`
 - TaskCreate
 - TaskCreate
 - TaskCreate
@@ -53,25 +53,25 @@ have we completed work on this repo? and i dont mean just this task or scope? i
   mean the entire project from alpha to omega?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/rustling-wondering-pancake.md`
+- Read `~/.claude/plans/rustling-wondering-pancake.md`
 - Task
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/roadmap--ai-workstreams.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/roadmap--ai-workstreams.md`
 - Glob `docs/architecture/**/*`
 - Glob `scripts/validation/*`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/workflows/ci.yml`
 - Grep `Test Suites:|Tests:`
 - Glob `**/*.spec.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/MANIFEST.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/MANIFEST.md`
 - Glob `src/api/src/modules/b2b/**/*`
 - Glob `src/desktop/src/**/*`
 - Grep `Salesforce|HubSpot|CRM|Consumption Billing|consumption_billing|data.lake|Data Lake`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/b2b/billing.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/b2b/connectors/crm-connector.interface.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/b2b/billing.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/b2b/connectors/crm-connector.interface.ts`
 - Grep `enterprise|SSO|sso|offline|cache.*structural`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/EnterpriseSSO.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/EnterpriseSSO.ts`
 - Grep `anonymiz|AnonymizationService|strip.*PII`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/B2BOrchestration.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/B2BOrchestration.tsx`
 - Grep `Plaid|react-plaid|plaid-link`
 - *...and 33 more*
 

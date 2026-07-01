@@ -25,7 +25,7 @@ done
 
 ## Step 2: Strengthen System-Wide SOP
 
-**File:** `/Users/4jp/Workspace/meta-organvm/SOP--market-gap-analysis.md`
+**File:** `~/Workspace/meta-organvm/SOP--market-gap-analysis.md`
 
 Add two missing sections between the existing Phase III and Output Requirements:
 

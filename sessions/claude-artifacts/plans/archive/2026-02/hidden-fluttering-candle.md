@@ -2,7 +2,7 @@
 
 ## Context
 
-Full review of all 18 documents in `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/` to identify and fix classification drift between documented intent and current registry state (142 repos across 9 org dirs).
+Full review of all 18 documents in `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/` to identify and fix classification drift between documented intent and current registry state (142 repos across 9 org dirs).
 
 ---
 

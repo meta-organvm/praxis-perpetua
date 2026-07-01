@@ -35,18 +35,18 @@ All 7 development phases and the API hardening plan are complete (12 commits ahe
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/developer-api.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/.gitignore`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/developer-api.ts`
+- Read `~/Workspace/life-my--midst--in/.gitignore`
 - Bash: `pnpm --filter @in-midst-my-life/api typecheck 2>&1 | tail -30`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/developer-api.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/developer-api.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/.gitignore`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/developer-api.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/developer-api.ts`
+- Edit `~/Workspace/life-my--midst--in/.gitignore`
 - Bash: `pnpm --filter @in-midst-my-life/api typecheck 2>&1`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/billing.ts`
 - Bash: `pnpm --filter @in-midst-my-life/api typecheck 2>&1`
 - Bash: `pnpm build 2>&1 | tail -20`
 - *...and 121 more*
@@ -61,7 +61,7 @@ commit all and push
 - Bash: `git status`
 - Bash: `git log --oneline origin/master..HEAD`
 - Bash: `git push origin master`
-- Edit `/Users/4jp/.claude/projects/-Users-4jp-Workspace-life-my--midst--in/memory/MEMORY.md`
+- Edit `~/.claude/projects/-Users-[user]-Workspace-life-my--midst--in/memory/MEMORY.md`
 
 ---
 
@@ -74,8 +74,8 @@ branch still appears dirty
 - Bash: `git rm --cached packages/content-model/tsconfig.tsbuildinfo packages/core/tsconf`
 - Bash: `git ls-files '*.tsbuildinfo' 'next-env.d.ts' '**/next-env.d.ts'`
 - Bash: `git rm --cached apps/orchestrator/tsconfig.tsbuildinfo apps/web/tsconfig.tsbuild`
-- Read `/Users/4jp/Workspace/life-my--midst--in/.gitignore`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/.gitignore`
+- Read `~/Workspace/life-my--midst--in/.gitignore`
+- Edit `~/Workspace/life-my--midst--in/.gitignore`
 - Bash: `git add .gitignore && git status`
 - Bash: `git commit -m "$(cat <<'EOF'
 chore: remove tracked build artifacts from git inde`
@@ -94,13 +94,13 @@ were they worth comitting?
 have we reached perfection? are we wrapped with a beautifuly red bow?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/steady-humming-twilight.md`
+- Read `~/.claude/plans/steady-humming-twilight.md`
 - Task
 - Task
 - Task
 - Task
-- Bash: `grep -n "max-warnings\|lint" /Users/4jp/Workspace/life-my--midst--in/.github/wor`
-- Write `/Users/4jp/.claude/plans/steady-humming-twilight.md`
+- Bash: `grep -n "max-warnings\|lint" ~/Workspace/life-my--midst--in/.github/wor`
+- Write `~/.claude/plans/steady-humming-twilight.md`
 - ExitPlanMode
 
 ---

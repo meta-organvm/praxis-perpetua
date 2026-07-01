@@ -68,7 +68,7 @@ what is next?
 ### P10 — 2025-12-16 13:11:27
 
 i still have a mess of a mailbox:
-/Users/4jp/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.03 AM.png /Users/4jp/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.06 AM.png /Users/4jp/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.11 AM.png /Users/4jp/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.13 AM.png
+~/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.03 AM.png ~/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.06 AM.png ~/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.11 AM.png ~/Desktop/Screenshot\ 2025-12-16\ at\ 8.09.13 AM.png
 
 i still have a mess of a mailbox
 

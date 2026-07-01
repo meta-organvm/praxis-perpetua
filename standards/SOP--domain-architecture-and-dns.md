@@ -10,7 +10,7 @@
 - **evidence_required**: `dig` output for each domain; email delivery test; `curl -I` redirect verification; Cloudflare dashboard screenshots (quarterly)
 - **metrics_captured**: Domain count, annual cost, email routing success rate, DNS propagation time
 - **revision_triggers**: Domain expiration within 60 days; new organ added to ORGANVM; Cloudflare pricing change > 20%; TLD regulatory change (e.g., .io sovereignty); new service requiring a subdomain
-- **owner**: Anthony James Padavano / `4444J99`
+- **owner**: [name redacted] / `4444J99`
 - **last_validated**: 2026-04-16
 
 **Governed by:** `METADOC--sop-ecosystem.md`
@@ -64,7 +64,7 @@ The architecture uses three concentric circles — each with distinct function, 
 
 | Domain | Expected Cost | Fallback if taken |
 |--------|--------------|-------------------|
-| `4jp.dev` | $10.18/yr | `4jpdev.com` ($10.46) |
+| `[user].dev` | $10.18/yr | `4jpdev.com` ($10.46) |
 | `anthonypadavano.com` | $10.46/yr | `apadavano.com` or `anthonyjpadavano.com` |
 | `anthonypadavano.dev` | $10.18/yr | Skip if .com acquired |
 | `organvm.dev` | $10.18/yr | `organvm.systems` ($27.20) |
@@ -162,13 +162,13 @@ Configure Cloudflare Redirect Rules (not Page Rules — those are deprecated):
 
 | Variable | Example Value | Source |
 |----------|---------------|--------|
-| `DOMAIN_HANDLE` | `4jp.dev` | `chezmoi.toml: domain_handle` |
+| `DOMAIN_HANDLE` | `[user].dev` | `chezmoi.toml: domain_handle` |
 | `DOMAIN_NAME` | `anthonypadavano.com` | `chezmoi.toml: domain_name` |
 | `DOMAIN_NAME_DEF` | `anthonypadavano.dev` | `chezmoi.toml: domain_name_defensive` |
 | `DOMAIN_SYSTEM` | `organvm.dev` | `chezmoi.toml: domain_system` |
 | `DOMAIN_SYSTEM_ORG` | `organvm.org` | `chezmoi.toml: domain_system_org` |
 | `DOMAIN_SYSTEM_DEF` | `organvm.io` | `chezmoi.toml: domain_system_defensive` |
-| `DOMAIN_EMAIL` | `anthony@anthonypadavano.com` | `chezmoi.toml: domain_email` |
+| `DOMAIN_EMAIL` | `[email redacted]` | `chezmoi.toml: domain_email` |
 | `DOMAIN_REGISTRAR` | `cloudflare` | `chezmoi.toml: domain_registrar` |
 
 ### Derived Layer (15-env.zsh, computed from identity vars)
@@ -185,7 +185,7 @@ Configure Cloudflare Redirect Rules (not Page Rules — those are deprecated):
 | `DOMAIN_ORGAN_META` | `meta.organvm.dev` | META organ subdomain |
 | `DOMAIN_API` | `api.organvm.dev` | API gateway |
 | `DOMAIN_STATUS` | `status.organvm.dev` | Health monitoring |
-| `DOMAIN_SHORTENER` | `go.4jp.dev` | Vanity link shortener |
+| `DOMAIN_SHORTENER` | `go.[user].dev` | Vanity link shortener |
 | `DOMAIN_PORTFOLIO` | `https://anthonypadavano.com` | Portfolio canonical URL |
 | `DOMAIN_RESUME` | `https://resume.anthonypadavano.com` | Resume direct link |
 
@@ -221,7 +221,7 @@ Configure Cloudflare Redirect Rules (not Page Rules — those are deprecated):
 
 | Domain | TLD | Registrar | Annual | Circle |
 |--------|-----|-----------|--------|--------|
-| `4jp.dev` | .dev | Cloudflare | $10.18 | Handle |
+| `[user].dev` | .dev | Cloudflare | $10.18 | Handle |
 | `anthonypadavano.com` | .com | Cloudflare | $10.46 | Name |
 | `anthonypadavano.dev` | .dev | Cloudflare | $10.18 | Name (defensive) |
 | `organvm.dev` | .dev | Cloudflare | $10.18 | System |

@@ -25,7 +25,7 @@ OUTPUT_BASE = Path(__file__).resolve().parent.parent / "sessions" / "claude-arti
 
 
 def project_slug(name):
-    slug = re.sub(r"^-Users-4jp-?", "", name)
+    slug = re.sub(r"^-Users-[user]-?", "", name)
     slug = re.sub(r"^Workspace-?", "", slug) or "home"
     return slug.lower()
 

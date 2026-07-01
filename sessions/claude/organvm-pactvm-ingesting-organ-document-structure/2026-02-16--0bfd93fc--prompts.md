@@ -37,19 +37,19 @@ Two problems prompted this plan:
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/organvm-iv-taxis-architecture.md`
-- Read `/Users/4jp/session-transcript-2026-02-15.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/DIRECTORY.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/ANNOTATED-MANIFEST.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/ANNOTATED-MANIFEST.md`
+- Read `~/organvm-iv-taxis-architecture.md`
+- Read `~/session-transcript-2026-02-15.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/DIRECTORY.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/ANNOTATED-MANIFEST.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/ANNOTATED-MANIFEST.md`
 - Grep `^#### |^### Layer`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/ANNOTATED-MANIFEST.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/ANNOTATED-MANIFEST.md`
 - Bash: `ls -la ~/Workspace/organvm-pactvm/ | head -20`
 - Bash: `ls -la ~/Workspace/ORG-IV-orchestration-staging/ 2>/dev/null && echo "---EXISTS-`
 - Bash: `ls -d ~/Workspace/ORG-V-public-process-staging ~/Workspace/ORG-VI-community-stag`
 - Bash: `find ~/Workspace/ORG-IV-orchestration-staging -type f -not -name '.DS_Store' | w`
-- Bash: `ls /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/g`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/CLAUDE.md`
+- Bash: `ls ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/g`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/CLAUDE.md`
 - Grep `^## `
 - *...and 43 more*
 
@@ -66,7 +66,7 @@ so when i want work on any repo in my workspace in total, what directory should 
 let's devise plan b
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/frolicking-sleeping-axolotl.md`
+- Read `~/.claude/plans/frolicking-sleeping-axolotl.md`
 - Task
 - Bash: `ls -la ~/Workspace/ | grep '^l' | head -40`
 - Bash: `echo "=== ~/world/ tree (depth 4) ===" && find ~/world -maxdepth 4 -type d 2>/de`

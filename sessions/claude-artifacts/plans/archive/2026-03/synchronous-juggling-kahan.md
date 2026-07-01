@@ -61,8 +61,8 @@ Write the essays directly (not via `essay_drafter` CLI, which would need API key
 
 ## Key Files
 
-- Posts: `/Users/4jp/Workspace/organvm-v-logos/public-process/_posts/`
-- Schema: `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/frontmatter-schema.yaml`
-- Validator: `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/validator.py`
-- Indexer: `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py`
-- Style ref: `/Users/4jp/Workspace/organvm-v-logos/public-process/_posts/2026-02-18-the-solo-auteur-method.md`
+- Posts: `~/Workspace/organvm-v-logos/public-process/_posts/`
+- Schema: `~/Workspace/organvm-v-logos/editorial-standards/schemas/frontmatter-schema.yaml`
+- Validator: `~/Workspace/organvm-v-logos/essay-pipeline/src/validator.py`
+- Indexer: `~/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py`
+- Style ref: `~/Workspace/organvm-v-logos/public-process/_posts/2026-02-18-the-solo-auteur-method.md`

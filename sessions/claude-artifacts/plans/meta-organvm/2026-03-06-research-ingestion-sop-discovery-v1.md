@@ -8,7 +8,7 @@
 ## 1. Primary Request and Intent
 
 **Original Explicit User Request (5 Parts):**
-1. Search `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm` for SOP files related to research ingestion, synthesis, or digestion
+1. Search `~/Workspace/meta-organvm/organvm-corpvs-testamentvm` for SOP files related to research ingestion, synthesis, or digestion
 2. Perform glob searches for keywords: "sop", "ingest", "synth", "digest", "research", "process"
 3. Identify any docs/, sop/, procedures/, or processes/ directories
 4. Read all matching files **in complete entirety**
@@ -62,7 +62,7 @@ LOCAL → CANDIDATE → PUBLIC_PROCESS → GRADUATED → ARCHIVED
 **No state skipping allowed.** Every repository follows this path with explicit approval gates.
 
 ### Single Source of Truth
-**`registry-v2.json`** in `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/`
+**`registry-v2.json`** in `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/`
 - Contains all ~100 repositories across 8 organs
 - 2,200+ lines of structured repo metadata
 - Schema includes: organ membership, tier (flagship/standard/infrastructure), promotion_status, produces/consumes edges, event subscriptions
@@ -122,7 +122,7 @@ From `sop--document-audit-feature-extraction.md`:
 ## 3. Files and Code Sections
 
 ### Primary SOP: `sop--document-audit-feature-extraction.md`
-**Path**: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`  
+**Path**: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`  
 **Size**: ~18KB  
 **Status**: ACTIVE (Living document, continuously updated)  
 **Version**: Stable implementation of 5-phase governance audit workflow
@@ -146,7 +146,7 @@ From `sop--document-audit-feature-extraction.md`:
 - Outputs feed into ORGAN-IV orchestration and ORGAN-V documentation
 
 ### Secondary SOP: `sop--pitch-deck-rollout.md`
-**Path**: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`  
+**Path**: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`  
 **Size**: ~32.5KB  
 **Status**: ACTIVE (Living document)  
 **Relevance**: Conditional — applies if research synthesis outputs require external organizational communication
@@ -166,7 +166,7 @@ From `sop--document-audit-feature-extraction.md`:
 **Use Case**: If research synthesis identifies organizational communication improvements or external messaging needs, this SOP defines the publication pipeline.
 
 ### Project CLAUDE.md: `organvm-corpvs-testamentvm/CLAUDE.md`
-**Path**: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`  
+**Path**: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`  
 **Size**: ~1,500+ lines  
 **Status**: ACTIVE (Project-level guidance document, canonical)
 
@@ -201,7 +201,7 @@ From `sop--document-audit-feature-extraction.md`:
 **Importance**: Essential context for understanding where SOPs fit within governance framework and how research synthesis integrates with ORGAN-IV orchestration.
 
 ### Repository Overview: `organvm-corpvs-testamentvm/README.md`
-**Path**: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`  
+**Path**: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`  
 **Size**: ~32.2KB  
 **Status**: LAUNCHED (Entry point for governance corpus)
 
@@ -383,7 +383,7 @@ For cross-document references in governance work:
 
 ### Previous Session Message
 ```
-"Search /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm for an 
+"Search ~/Workspace/meta-organvm/organvm-corpvs-testamentvm for an 
 SOP (Standard Operating Procedure) related to research ingestion, synthesis, 
 or digestion. It may be called SOP, ingestion-sop, synthesis-sop, research-process, 
 or similar. Search broadly: 
@@ -420,14 +420,14 @@ work without losing context."
 ### Current Status
 Research ingestion/synthesis/digestion SOP has been identified and documented:
 - **Primary SOP**: `sop--document-audit-feature-extraction.md`
-  - Location: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
+  - Location: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
   - Status: ACTIVE (Living document)
   - Relevance: **Exact match** for research synthesis workflow
   - Size: ~18KB
   - Workflow: 5-phase (Inventory → Exhaustive Read & Extraction → Deduplication → Issue Creation → Post-Audit Artifacts)
 
 - **Secondary SOP**: `sop--pitch-deck-rollout.md`
-  - Location: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
+  - Location: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
   - Status: ACTIVE (Living document)
   - Relevance: **Conditional** — applies if outputs need external organizational communication
   - Size: ~32.5KB
@@ -463,7 +463,7 @@ The user's most recent explicit request has been completed: a detailed conversat
 
 ### If User Wants to Proceed with Implementation
 User should:
-1. Review `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md` to confirm it meets requirements
+1. Review `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md` to confirm it meets requirements
 2. Specify how research synthesis should integrate with ORGAN-IV orchestration
 3. Decide on implementation tool (agentic-titan vs. agent--claude-smith vs. manual)
 4. Request creation of implementation plan or automation workflow

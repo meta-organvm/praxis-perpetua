@@ -22,7 +22,7 @@ Implement the following plan:
 
 ## Context
 
-The dotfiles repo was renamed from `~/dotfiles` to `~/domus-semper-palingenesis` and the GitHub remote was updated to `git@github.com:4444J99/domus-semper-palingenesis.git`. Chezmoi is broken because its config still points to the old path. Additionally, 34 files in the repo contain references to `~/dotfiles` that need selective updating.
+The dotfiles repo was renamed from `~/dotfiles` to `~/domus-semper-palingenesis` and the GitHub remote was updated to `[email redacted]:4444J99/domus-semper-palingenesis.git`. Chezmoi is broken because its config still points to the old path. Additionally, 34 files in the repo contain references to `~/dotfiles` that need selective updating.
 
 ## Step 1: Fix chezmoi config (critical fix)
 
@@ -36,21 +36,21 @@ The dotfiles repo was renamed from `~/dotfiles` to `~/domus-semper-palingenesis`
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/.config/chezmoi/chezmoi.toml`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_config/zsh/30-aliases.zsh`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_config/fish/config.fish.tmpl`
-- Read `/Users/4jp/domus-semper-palingenesis/justfile`
-- Read `/Users/4jp/domus-semper-palingenesis/BACKUP_STRATEGY.md`
-- Read `/Users/4jp/domus-semper-palingenesis/BOOTSTRAP.md`
-- Read `/Users/4jp/domus-semper-palingenesis/BOOTSTRAP.md`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_config/ai-context/system-info.md.tmpl`
-- Read `/Users/4jp/domus-semper-palingenesis/private_Documents/Notes/System/AGENTS.md`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_system-notes.yaml`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_system-notes.yaml`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_system-notes.yaml`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_projects.yaml`
-- Read `/Users/4jp/domus-semper-palingenesis/docs/ORGANIZATION_STRATEGY.md`
-- Read `/Users/4jp/domus-semper-palingenesis/docs/ORGANIZATION_STRATEGY.md`
+- Read `~/.config/chezmoi/chezmoi.toml`
+- Read `~/domus-semper-palingenesis/dot_config/zsh/30-aliases.zsh`
+- Read `~/domus-semper-palingenesis/dot_config/fish/config.fish.tmpl`
+- Read `~/domus-semper-palingenesis/justfile`
+- Read `~/domus-semper-palingenesis/BACKUP_STRATEGY.md`
+- Read `~/domus-semper-palingenesis/BOOTSTRAP.md`
+- Read `~/domus-semper-palingenesis/BOOTSTRAP.md`
+- Read `~/domus-semper-palingenesis/dot_config/ai-context/system-info.md.tmpl`
+- Read `~/domus-semper-palingenesis/private_Documents/Notes/System/AGENTS.md`
+- Read `~/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_system-notes.yaml`
+- Read `~/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_system-notes.yaml`
+- Read `~/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_system-notes.yaml`
+- Read `~/domus-semper-palingenesis/dot_local/share/file-context/manifests/private_projects.yaml`
+- Read `~/domus-semper-palingenesis/docs/ORGANIZATION_STRATEGY.md`
+- Read `~/domus-semper-palingenesis/docs/ORGANIZATION_STRATEGY.md`
 - *...and 27 more*
 
 ---
@@ -63,10 +63,10 @@ commit this and push to origin
 - Bash: `git status`
 - Bash: `git diff`
 - Bash: `git log --oneline -5`
-- Bash: `git -C /Users/4jp/domus-semper-palingenesis add BACKUP_STRATEGY.md BOOTSTRAP.md `
-- Bash: `git -C /Users/4jp/domus-semper-palingenesis commit -m "$(cat <<'EOF'
+- Bash: `git -C ~/domus-semper-palingenesis add BACKUP_STRATEGY.md BOOTSTRAP.md `
+- Bash: `git -C ~/domus-semper-palingenesis commit -m "$(cat <<'EOF'
 Update path`
-- Bash: `git -C /Users/4jp/domus-semper-palingenesis push origin master`
+- Bash: `git -C ~/domus-semper-palingenesis push origin master`
 
 ---
 
@@ -89,8 +89,8 @@ add markdownify
 - Glob `**/docker/mcp/config.yaml*`
 - Glob `**/*docker*mcp*config*`
 - Bash: `chezmoi source-path ~/.local/share/docker/mcp/config.yaml 2>&1`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/share/private_docker/mcp/config.yaml`
-- Edit `/Users/4jp/domus-semper-palingenesis/dot_local/share/private_docker/mcp/config.yaml`
+- Read `~/domus-semper-palingenesis/dot_local/share/private_docker/mcp/config.yaml`
+- Edit `~/domus-semper-palingenesis/dot_local/share/private_docker/mcp/config.yaml`
 - Bash: `chezmoi apply 2>&1`
 - Bash: `chezmoi diff -- ~/.local/share/gemini/settings.json 2>&1`
 
@@ -103,8 +103,8 @@ add markdownify
 
 **Actions taken:**
 - Bash: `chezmoi source-path ~/.local/share/gemini/settings.json 2>&1`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/share/private_gemini/settings.json`
-- Edit `/Users/4jp/domus-semper-palingenesis/dot_local/share/private_gemini/settings.json`
+- Read `~/domus-semper-palingenesis/dot_local/share/private_gemini/settings.json`
+- Edit `~/domus-semper-palingenesis/dot_local/share/private_gemini/settings.json`
 - Bash: `chezmoi apply 2>&1`
 - Bash: `chezmoi apply --force 2>&1`
 - Bash: `chezmoi diff 2>&1 | head -20`
@@ -116,10 +116,10 @@ add markdownify
 commit and push
 
 **Actions taken:**
-- Bash: `git -C /Users/4jp/domus-semper-palingenesis status`
-- Bash: `git -C /Users/4jp/domus-semper-palingenesis diff`
-- Bash: `git -C /Users/4jp/domus-semper-palingenesis log --oneline -3`
-- Bash: `git -C /Users/4jp/domus-semper-palingenesis add dot_local/share/private_docker/m`
+- Bash: `git -C ~/domus-semper-palingenesis status`
+- Bash: `git -C ~/domus-semper-palingenesis diff`
+- Bash: `git -C ~/domus-semper-palingenesis log --oneline -3`
+- Bash: `git -C ~/domus-semper-palingenesis add dot_local/share/private_docker/m`
 
 ---
 

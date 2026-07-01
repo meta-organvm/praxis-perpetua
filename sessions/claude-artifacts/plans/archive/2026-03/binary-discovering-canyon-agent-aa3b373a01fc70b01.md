@@ -1,7 +1,7 @@
 # Application Pipeline Codebase Evaluation Plan
 
 **Date**: 2026-03-01  
-**Task**: Comprehensive project-wide evaluation of `/Users/4jp/Workspace/4444J99/application-pipeline`  
+**Task**: Comprehensive project-wide evaluation of `~/Workspace/4444J99/application-pipeline`  
 **Mode**: READ-ONLY (analysis only, no modifications)
 
 ## Objectives

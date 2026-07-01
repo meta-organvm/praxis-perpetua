@@ -32,11 +32,11 @@ The corpus still measures effort in human hours (70h Phase 1, 52h Phase 2, 30h P
 - Task
 - Task
 - Grep `\d+ hours?`
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-pactvm-ingesting-organ-document-structure/ade9fd8d-00ae-4630-8192-c1750245a57e/tool-results/toolu_01F6MSnp1GceExs6iSHTSqB7.txt`
+- Read `~/.claude/projects/-Users-[user]-Workspace-organvm-pactvm-ingesting-organ-document-structure/ade9fd8d-00ae-4630-8192-c1750245a57e/tool-results/toolu_01F6MSnp1GceExs6iSHTSqB7.txt`
 - Grep `\d+ hours?`
 - Grep `\d+ hours?`
 - Grep `\d+ hours?`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/05-RISK-MAP-AND-SEQUENCING.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/05-RISK-MAP-AND-SEQUENCING.md`
 - Grep `\d+h\b`
 - Grep `TE`
 - Grep `Week [1-4]`
@@ -45,7 +45,7 @@ The corpus still measures effort in human hours (70h Phase 1, 52h Phase 2, 30h P
 - Grep `TE Budget Model`
 - Grep `TE.*Budget|Tokens.Expended`
 - Grep `C2.*TE|TE.*Require.*Validation`
-- Bash: `python3 -c "import json; json.load(open('/Users/4jp/Workspace/organvm-pactvm/ing`
+- Bash: `python3 -c "import json; json.load(open('~/Workspace/organvm-pactvm/ing`
 
 ---
 
@@ -59,17 +59,17 @@ description: Systematic content evaluation framework progressing through Critiqu
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dazzling-moseying-corbato.md`
+- Read `~/.claude/plans/dazzling-moseying-corbato.md`
 - Task
 - Task
 - Grep `TE Budget:`
 - Grep `ORGAN-I.*TE|ORGAN-I.*660`
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/06-EVALUATION-TO-GROWTH-ANALYSIS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/06-EVALUATION-TO-GROWTH-ANALYSIS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/06-EVALUATION-TO-GROWTH-ANALYSIS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/there+back-again.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/06-EVALUATION-TO-GROWTH-ANALYSIS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/06-EVALUATION-TO-GROWTH-ANALYSIS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/06-EVALUATION-TO-GROWTH-ANALYSIS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/there+back-again.md`
 - Glob `*.md`
 - Grep `ORGAN-I.*TE|~660K|~850K`
 - Grep `ORGAN.*TE total|~660K|~850K|~1\.1M`
@@ -77,7 +77,7 @@ description: Systematic content evaluation framework progressing through Critiqu
 - Grep `\d+ hours?`
 - Grep `\d+ hours?`
 - Grep `\d+ hours?`
-- Write `/Users/4jp/.claude/plans/dazzling-moseying-corbato.md`
+- Write `~/.claude/plans/dazzling-moseying-corbato.md`
 - AskUserQuestion
 - *...and 2 more*
 

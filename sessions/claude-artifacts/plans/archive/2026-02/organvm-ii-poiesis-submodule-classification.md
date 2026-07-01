@@ -1,6 +1,6 @@
 # ORGAN-II Submodule Dirty State Classification
 
-**Superproject**: `/Users/4jp/Workspace/organvm-ii-poiesis`  
+**Superproject**: `~/Workspace/organvm-ii-poiesis`  
 **Analysis Date**: 2026-02-24  
 **Total Submodules**: 31  
 **Purpose**: Classify dirty state patterns to enable bulk cleanup planning

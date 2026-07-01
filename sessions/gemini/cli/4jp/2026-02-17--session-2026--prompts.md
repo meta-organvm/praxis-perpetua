@@ -1,7 +1,7 @@
 # Gemini Session: 2026-02-17
 
 **Session ID:** `session-2026-02-17T11-39-5d8d472e`
-**Project:** `4jp`
+**Project:** `[user]`
 **Source:** gemini-cli
 **Duration:** ~25h 17m
 **Prompts:** 2

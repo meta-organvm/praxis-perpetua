@@ -53,7 +53,7 @@ already exists at `.config/gitattributes` but has no root symlink, so its rules
 are currently **not being applied**.
 
 ```bash
-cd /Users/4jp/Workspace/ivviiviivvi/.github
+cd ~/Workspace/ivviiviivvi/.github
 ln -s .config/gitattributes .gitattributes
 ```
 

@@ -34,11 +34,11 @@ Add to **both*
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/dotfiles/dot_config/zsh/15-env.zsh`
-- Read `/Users/4jp/dotfiles/dot_config/fish/config.fish.tmpl`
-- Read `/Users/4jp/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
-- Read `/Users/4jp/dotfiles/.chezmoiscripts/run_once_after_setup-directories.sh.tmpl`
-- Read `/Users/4jp/dotfiles/.chezmoiremove`
+- Read `~/dotfiles/dot_config/zsh/15-env.zsh`
+- Read `~/dotfiles/dot_config/fish/config.fish.tmpl`
+- Read `~/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
+- Read `~/dotfiles/.chezmoiscripts/run_once_after_setup-directories.sh.tmpl`
+- Read `~/dotfiles/.chezmoiremove`
 - TaskCreate
 - TaskCreate
 - TaskCreate
@@ -46,11 +46,11 @@ Add to **both*
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Edit `/Users/4jp/dotfiles/dot_config/zsh/15-env.zsh`
-- Edit `/Users/4jp/dotfiles/dot_config/fish/config.fish.tmpl`
+- Edit `~/dotfiles/dot_config/zsh/15-env.zsh`
+- Edit `~/dotfiles/dot_config/fish/config.fish.tmpl`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
+- Edit `~/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
 - TaskUpdate
 - TaskUpdate
 - TaskUpdate
@@ -77,8 +77,8 @@ chezmoi apply --force
 
 **Actions taken:**
 - Bash: `chezmoi apply --force 2>&1`
-- Read `/Users/4jp/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
-- Edit `/Users/4jp/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
+- Read `~/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
+- Edit `~/dotfiles/.chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl`
 - Bash: `chezmoi apply --force 2>&1`
 - Bash: `git add .chezmoiscripts/run_after_ensure-xdg-symlinks.sh.tmpl && git commit -m "`
 
@@ -103,10 +103,10 @@ it is absolutley crazy to me to have deleted files:  Bash(chezmoi apply --force 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/snazzy-brewing-lake.md`
+- Read `~/.claude/plans/snazzy-brewing-lake.md`
 - AskUserQuestion
 - Task
-- Edit `/Users/4jp/.claude/plans/snazzy-brewing-lake.md`
+- Edit `~/.claude/plans/snazzy-brewing-lake.md`
 - ExitPlanMode
 
 ---

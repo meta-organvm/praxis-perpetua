@@ -34,32 +34,32 @@ Contents: The full 4-phase evaluation (Critique, Logic Check, Logos/Pathos/Ethos
 
 **Actions taken:**
 - Task
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-c-MASTER-SUMMARY.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/IMPLEMENTATION-PACKAGE-v2.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-c-MASTER-SUMMARY.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/IMPLEMENTATION-PACKAGE-v2.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 - Glob `*.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/orchestration-system-v2.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/github-actions-spec.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/there+back-again.md`
-- Read `/private/tmp/claude-501/-Users-4jp-Workspace-organvm-pactvm-ingesting-organ-document-structure/tasks/a3aa20a.output`
-- Bash: `wc -l /Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-pactvm-ingesting-`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/orchestration-system-v2.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/github-actions-spec.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/there+back-again.md`
+- Read `/private/tmp/claude-501/-Users-[user]-Workspace-organvm-pactvm-ingesting-organ-document-structure/tasks/a3aa20a.output`
+- Bash: `wc -l ~/.claude/projects/-Users-[user]-Workspace-organvm-pactvm-ingesting-`
 - Bash: `python3 -c "
 import json
 
-with open('/Users/4jp/.claude/projects/-Users-4jp-Work`
+with open('~/.claude/projects/-Users-[user]-Work`
 - Bash: `python3 -c "
 import json
 
-with open('/Users/4jp/.claude/projects/-Users-4jp-Work`
+with open('~/.claude/projects/-Users-[user]-Work`
 - Bash: `python3 -c "
 import json
 
-with open('/Users/4jp/.claude/projects/-Users-4jp-Work`
+with open('~/.claude/projects/-Users-[user]-Work`
 - TaskStop
 - Read `/tmp/evaluation-content.md`
-- Write `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/EVALUATION-TO-GROWTH-ANALYSIS.md`
-- Write `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/EV`
+- Write `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/EVALUATION-TO-GROWTH-ANALYSIS.md`
+- Write `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Bash: `ls -la ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/EV`
 
 ---
 
@@ -69,21 +69,21 @@ rename files (where applicable), and present in an order so each ai understands 
 
 **Actions taken:**
 - Bash: `mv EVALUATION-TO-GROWTH-ANALYSIS.md 06-EVALUATION-TO-GROWTH-ANALYSIS.md && mv CR`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/06`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Bash: `ls -la ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/06`
 - Grep `EVALUATION-TO-GROWTH-ANALYSIS\.md`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/07-CROSS-AI-LOGIC-CHECK-PROMPTS.md`
 - Grep `06-06-`
 
 ---
@@ -93,26 +93,26 @@ rename files (where applicable), and present in an order so each ai understands 
 ensure me, show percentages that you've ingested each and every document in the directory
 
 **Actions taken:**
-- Bash: `ls -la /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/ |`
-- Bash: `wc -l /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/*.m`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-00-ORGAN_SYSTEM_AUDIT.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/01-README-AUDIT-FRAMEWORK.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/02-REPO-INVENTORY-AUDIT.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/03-PER-ORGAN-README-TEMPLATES.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/04-PER-ORGAN-VALIDATION-CHECKLISTS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/05-RISK-MAP-AND-SEQUENCING.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/PARALLEL-LAUNCH-STRATEGY.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/PHASE-1-EXECUTION-INDEX.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/public-process-map-v2.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/ANNOTATED-MANIFEST.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/organvm.env`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/organvm.env.local`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/organvm.config.json`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/.gitignore`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-c-MASTER-SUMMARY.md`
+- Bash: `ls -la ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/ |`
+- Bash: `wc -l ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/*.m`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-00-ORGAN_SYSTEM_AUDIT.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/01-README-AUDIT-FRAMEWORK.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/02-REPO-INVENTORY-AUDIT.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/03-PER-ORGAN-README-TEMPLATES.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/04-PER-ORGAN-VALIDATION-CHECKLISTS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/05-RISK-MAP-AND-SEQUENCING.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/PARALLEL-LAUNCH-STRATEGY.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/PHASE-1-EXECUTION-INDEX.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/public-process-map-v2.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/ANNOTATED-MANIFEST.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/organvm.env`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/organvm.env.local`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/organvm.config.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/.gitignore`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-c-MASTER-SUMMARY.md`
 - *...and 4 more*
 
 ---
@@ -139,18 +139,18 @@ Let me chronologically analyze the conversation:
 ok now read the genesis transcripts fully
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-and-0rganize-all-of-these-into-a-6-part-plan.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-and-0rganize-all-of-these-into-a-6-part-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
 - Glob `00-a-*`
 - Glob `00-b-*`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
 
 ---
 
@@ -169,9 +169,9 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-a-let-s-ingest-digest-the-document-in-the-project-files-ORGAN-i-vii-sub-ORGANS.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/00-b-Organizing-Local-Remote-Structure.md`
 
 ---
 
@@ -180,16 +180,16 @@ Let me chronologically analyze the conversation:
 so now that we have full contextual awareness, let's do a full logic check against what we've created to ensure nothing has been overlooked BEFORE i go to codex, gemini, and copilot and get their opinions;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dazzling-moseying-corbato.md`
+- Read `~/.claude/plans/dazzling-moseying-corbato.md`
 - Task
 - Task
 - Task
-- Write `/Users/4jp/.claude/plans/dazzling-moseying-corbato.md`
+- Write `~/.claude/plans/dazzling-moseying-corbato.md`
 - AskUserQuestion
-- Edit `/Users/4jp/.claude/plans/dazzling-moseying-corbato.md`
+- Edit `~/.claude/plans/dazzling-moseying-corbato.md`
 - AskUserQuestion
-- Edit `/Users/4jp/.claude/plans/dazzling-moseying-corbato.md`
-- Edit `/Users/4jp/.claude/plans/dazzling-moseying-corbato.md`
+- Edit `~/.claude/plans/dazzling-moseying-corbato.md`
+- Edit `~/.claude/plans/dazzling-moseying-corbato.md`
 - ExitPlanMode
 
 ---

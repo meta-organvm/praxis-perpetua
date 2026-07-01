@@ -119,7 +119,7 @@ continue
 
 ### P18 — 2025-12-27 15:59:14
 
-codex started working on that in this location: /Users/4jp/Workspace/life-my--midst--in is that in line with your ideas?
+codex started working on that in this location: ~/Workspace/life-my--midst--in is that in line with your ideas?
 
 ---
 

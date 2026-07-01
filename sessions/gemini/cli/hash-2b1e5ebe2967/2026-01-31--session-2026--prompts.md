@@ -66,7 +66,7 @@ option b
 
 ### P5 — 2026-01-31 22:39:31
 
-review this skill set and then begin a full expansion in this project: /Users/4jp/.local/share/ai-skills/skills/tools/speckit
+review this skill set and then begin a full expansion in this project: ~/.local/share/ai-skills/skills/tools/speckit
 
 ---
 

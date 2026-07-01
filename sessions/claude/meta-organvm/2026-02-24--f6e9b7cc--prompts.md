@@ -22,25 +22,25 @@ Statistics are stale across every public-facing surface: the portfolio homepage 
 
 **Actions taken:**
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/propagate-metrics.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/calculate-metrics.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/.github/workflows/metrics-refresh.yml`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/metrics-targets.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/propagator.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_metrics.py`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/vitals.json`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/landing.json`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/system-metrics.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.json`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/propagate-metrics.py`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/calculate-metrics.py`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/.github/workflows/metrics-refresh.yml`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/metrics-targets.yaml`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/propagator.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/test_metrics.py`
+- Read `~/Workspace/4444J99/portfolio/src/data/vitals.json`
+- Read `~/Workspace/4444J99/portfolio/src/data/landing.json`
+- Read `~/Workspace/4444J99/portfolio/src/data/system-metrics.json`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.json`
 - Glob `**/*.yml`
 - Glob `scripts/*`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/conftest.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/fixtures/registry-minimal.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/calculator.py`
-- Write `/Users/4jp/Workspace/4444J99/portfolio/scripts/generate-system-data.py`
-- Write `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/refresh-data.yml`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/.github/workflows/metrics-refresh.yml`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/conftest.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/fixtures/registry-minimal.json`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/calculator.py`
+- Write `~/Workspace/4444J99/portfolio/scripts/generate-system-data.py`
+- Write `~/Workspace/4444J99/portfolio/.github/workflows/refresh-data.yml`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/.github/workflows/metrics-refresh.yml`
 - *...and 23 more*
 
 ---
@@ -50,21 +50,21 @@ Statistics are stale across every public-facing surface: the portfolio homepage 
 stage all, commit all, origin push;
 
 **Actions taken:**
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-engine status`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm status`
-- Bash: `git -C /Users/4jp/Workspace/4444J99/portfolio status`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm status`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-engine diff --stat`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-engine log --oneline -5`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm log --onelin`
-- Bash: `git -C /Users/4jp/Workspace/4444J99/portfolio log --oneline -5`
-- Bash: `git -C /Users/4jp/Workspace/4444J99/portfolio diff src/data/omega.json | head -2`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add -A &&`
-- Bash: `cd /Users/4jp/Workspace/4444J99/portfolio && git add scripts/generate-system-dat`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-engine push origin main 2>&1`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm push origin `
-- Bash: `git -C /Users/4jp/Workspace/4444J99/portfolio push origin main 2>&1`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-engine status`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm status`
+- Bash: `git -C ~/Workspace/4444J99/portfolio status`
+- Bash: `git -C ~/Workspace/meta-organvm status`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-engine diff --stat`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-engine log --oneline -5`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm log --onelin`
+- Bash: `git -C ~/Workspace/4444J99/portfolio log --oneline -5`
+- Bash: `git -C ~/Workspace/4444J99/portfolio diff src/data/omega.json | head -2`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add -A &&`
+- Bash: `cd ~/Workspace/4444J99/portfolio && git add scripts/generate-system-dat`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-engine push origin main 2>&1`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm push origin `
+- Bash: `git -C ~/Workspace/4444J99/portfolio push origin main 2>&1`
 - Bash: `git add organvm-engine organvm-corpvs-testamentvm && git commit -m "$(cat <<'EOF`
 
 ---
@@ -74,29 +74,29 @@ stage all, commit all, origin push;
 i also want to track word count, as an author and writer, this is important spec for me
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/effervescent-swimming-meadow.md`
+- Read `~/.claude/plans/effervescent-swimming-meadow.md`
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/`
 - Grep `total_words|word_count|word.*count`
 - Grep `total_words|word_count|word.*count`
-- Bash: `ls /Users/4jp/Workspace/organvm-v-logos/public-process/_posts/ 2>/dev/null | hea`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/essays/ 2>/`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.json`
-- Bash: `wc -w /Users/4jp/Workspace/organvm-v-logos/public-process/_posts/*.md 2>/dev/nul`
-- Bash: `wc -w /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/essays/*`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
+- Bash: `ls ~/Workspace/organvm-v-logos/public-process/_posts/ 2>/dev/null | hea`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/essays/ 2>/`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.json`
+- Bash: `wc -w ~/Workspace/organvm-v-logos/public-process/_posts/*.md 2>/dev/nul`
+- Bash: `wc -w ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/essays/*`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
 - Grep `404|total.words|word.count|documentation.deployed`
 - Grep `404.*000|total_words|word.*count|README.*word`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/manifestatio-code-audit.py`
-- Bash: `ls /Users/4jp/Workspace/organvm-v-logos/public-process/_posts/ | wc -l; echo "es`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/manifestatio-code-audit.py`
+- Bash: `ls ~/Workspace/organvm-v-logos/public-process/_posts/ | wc -l; echo "es`
 - Bash: `# Count total README.md words across the workspace (quick estimate)
 find /Users/`
 - Bash: `# Quick word count across all READMEs
-cat /Users/4jp/Workspace/organvm-*/*/READM`
+cat ~/Workspace/organvm-*/*/READM`
 - Bash: `# Quick total: READMEs + essays + corpus docs
-echo "READMEs:"; cat /Users/4jp/Wo`
+echo "READMEs:"; cat ~/Wo`
 - *...and 5 more*
 
 ---

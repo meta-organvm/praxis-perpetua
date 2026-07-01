@@ -103,7 +103,7 @@ The pipeline has 797 entries but is operationally congested: 59 actionable entri
 - Add tools: `pipeline_funnel()`, `pipeline_snapshot()`, `pipeline_triage()`, `pipeline_crm_dashboard()`, `pipeline_campaign()`
 - Each imports from the corresponding script's data-generation function
 
-### 3f. Weekly briefing automation — `launchd/com.4jp.pipeline.weekly-briefing.plist` NEW (~30 lines)
+### 3f. Weekly briefing automation — `launchd/com.[user].pipeline.weekly-briefing.plist` NEW (~30 lines)
 - Sunday 7PM schedule, invokes `weekly_brief.py --save`
 
 ### 3g. Tests
@@ -177,7 +177,7 @@ The pipeline has 797 entries but is operationally congested: 59 actionable entri
 - `--target <id>`, `--auto` (all interview-status entries)
 - Output: `submissions/<entry-id>-interview-prep.md`
 
-### 5e. Calendar launchd agent — `launchd/com.4jp.pipeline.calendar-refresh.plist` NEW (~30 lines)
+### 5e. Calendar launchd agent — `launchd/com.[user].pipeline.calendar-refresh.plist` NEW (~30 lines)
 - Daily 6:45 AM, refreshes `~/Calendar/pipeline-deadlines.ics`
 
 ### 5f. Tests

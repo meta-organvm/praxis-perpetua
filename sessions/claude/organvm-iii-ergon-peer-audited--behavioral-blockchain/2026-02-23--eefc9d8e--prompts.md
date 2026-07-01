@@ -23,26 +23,26 @@ Phases Alpha through Epsilon are **complete**: 176 passing tests, real JWT auth,
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/services/api-client.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/behavioral-logic.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/integrity.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/admin/admin.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.module.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/app.module.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/NotificationPanel.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.scheduler.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/main.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/scripts/validation/03-the-full-loop.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.module.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/contexts/AuthContext.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/services/api-client.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/behavioral-logic.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/integrity.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/admin/admin.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.module.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/app.module.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/NotificationPanel.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.scheduler.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/main.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/scripts/validation/03-the-full-loop.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.module.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/contexts/AuthContext.tsx`
 - *...and 89 more*
 
 ---
@@ -61,9 +61,9 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.spec.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.spec.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.spec.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.spec.ts`
 - Bash: `npx jest --no-coverage 2>&1`
 
 ---
@@ -73,7 +73,7 @@ Let me chronologically analyze the conversation:
 continuo
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
 - Bash: `git diff --stat`
 - TaskUpdate
 - Bash: `git log --oneline -5`
@@ -104,7 +104,7 @@ address the dependabot vulnerabilities
 - Bash: `npm ls tar 2>&1 | head -20`
 - Bash: `npm ls minimatch 2>&1 | head -20`
 - Bash: `npm ls ajv 2>&1 | head -20`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
 - Bash: `node -e "const lock = require('./package-lock.json'); const tar = lock.packages[`
 - Bash: `npm ls bcrypt 2>&1`
 - Bash: `node -e "
@@ -113,10 +113,10 @@ for (const [pkg, info] of`
 - Bash: `npm view bcrypt versions --json 2>&1 | node -e "const d=require('fs').readFileSy`
 - Bash: `npm view bcrypt@6.0.0 dependencies 2>&1`
 - Grep `from ['"]bcrypt['"]|require\(['"]bcrypt['"]\)`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/auth/auth.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/auth/auth.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/package.json`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
 - Bash: `npm view bcrypt@6.0.0 types 2>&1; npm view @types/bcrypt versions --json 2>&1 | `
 - Bash: `npm view bcrypt@6.0.0 --json 2>&1 | node -e "const d=JSON.parse(require('fs').re`
 - Bash: `npm view bcrypt@6.0.0 types typings 2>&1`
@@ -202,18 +202,18 @@ how far are we from omega? from wrapping with a beautiful red bow? from a comple
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
 - Glob `src/mobile/**/*`
 - Glob `src/desktop/**/*`
 - Glob `src/web/app/**/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/components/CameraModule.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/HealthKitService.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/LedgerInspector.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/App.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/components/CameraModule.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/HealthKitService.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/LedgerInspector.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/App.tsx`
 - Grep `Tasks for AI Engineer|TODO|FIXME|STUB|EMPTY STUB`
 - Grep `Tasks for AI Engineer|TODO|FIXME|STUB|EMPTY STUB`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/GeminiClient.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/GeminiClient.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
 - Glob `src/api/services/escrow/escrow.ts`
 - Glob `src/api/services/fury-router/ConsensusEngine.ts`
 - Glob `src/api/services/escrow/BankDataProvider.ts`

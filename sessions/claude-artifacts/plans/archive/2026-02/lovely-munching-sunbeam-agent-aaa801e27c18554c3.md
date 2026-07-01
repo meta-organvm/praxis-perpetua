@@ -4,7 +4,7 @@
 Conduct comprehensive code quality and consistency analysis of organvm-vi-koinonia (6-repo superproject) across 5 focus areas, with specific filenames and line numbers.
 
 ## Project Structure
-- **Superproject**: `/Users/4jp/Workspace/organvm-vi-koinonia/`
+- **Superproject**: `~/Workspace/organvm-vi-koinonia/`
 - **Submodules**: koinonia-db, salon-archive, reading-group-curriculum, adaptive-personal-syllabus, community-hub, .github
 - **Stack**: Python 3.11+, SQLAlchemy 2.0+, PostgreSQL, FastAPI, Click, pytest, ruff
 

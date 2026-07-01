@@ -48,10 +48,10 @@ run the tests to make sure everything still passes
 - Bash: `python3.13 -m pytest --version 2>/dev/null`
 - Bash: `python3.13 -m pip install -e ".[dev]" 2>&1 | tail -20`
 - Bash: `PIP_REQUIRE_VIRTUALENV=false python3.13 -m pip install -e ".[dev]" 2>&1 | tail -`
-- Bash: `python3.13 -m venv /Users/4jp/Workspace/ivviiviivvi/.github/.venv && source /Use`
-- Bash: `source /Users/4jp/Workspace/ivviiviivvi/.github/.venv/bin/activate && python -m `
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-ivviiviivvi--github/f7ace3ed-7464-4e4f-adef-fcc0b2d05d49/tool-results/toolu_01Tz1xtoSaaCNSx7zwXxQHwS.txt`
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-ivviiviivvi--github/f7ace3ed-7464-4e4f-adef-fcc0b2d05d49/tool-results/toolu_01Tz1xtoSaaCNSx7zwXxQHwS.txt`
+- Bash: `python3.13 -m venv ~/Workspace/ivviiviivvi/.github/.venv && source /Use`
+- Bash: `source ~/Workspace/ivviiviivvi/.github/.venv/bin/activate && python -m `
+- Read `~/.claude/projects/-Users-[user]-Workspace-ivviiviivvi--github/f7ace3ed-7464-4e4f-adef-fcc0b2d05d49/tool-results/toolu_01Tz1xtoSaaCNSx7zwXxQHwS.txt`
+- Read `~/.claude/projects/-Users-[user]-Workspace-ivviiviivvi--github/f7ace3ed-7464-4e4f-adef-fcc0b2d05d49/tool-results/toolu_01Tz1xtoSaaCNSx7zwXxQHwS.txt`
 
 ---
 
@@ -60,7 +60,7 @@ run the tests to make sure everything still passes
 commit this and push to origin
 
 **Actions taken:**
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github status`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github status`
 
 ---
 
@@ -69,7 +69,7 @@ commit this and push to origin
 clean up the .venv directory
 
 **Actions taken:**
-- Bash: `rm -rf /Users/4jp/Workspace/ivviiviivvi/.github/.venv`
+- Bash: `rm -rf ~/Workspace/ivviiviivvi/.github/.venv`
 
 ---
 
@@ -87,7 +87,7 @@ run the CI workflows to check everything passes
 - Bash: `sleep 5 && gh run list --repo ivviiviivvi/.github --limit 5 --workflow "Security`
 - Bash: `gh run watch 21766713738 --repo ivviiviivvi/.github --exit-status 2>&1`
 - Bash: `gh run watch 21766714854 --repo ivviiviivvi/.github --exit-status 2>&1`
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-ivviiviivvi--github/f7ace3ed-7464-4e4f-adef-fcc0b2d05d49/tool-results/toolu_01JzDFDn6drLPtGgspMvoxBQ.txt`
+- Read `~/.claude/projects/-Users-[user]-Workspace-ivviiviivvi--github/f7ace3ed-7464-4e4f-adef-fcc0b2d05d49/tool-results/toolu_01JzDFDn6drLPtGgspMvoxBQ.txt`
 
 ---
 
@@ -102,19 +102,19 @@ look at all the other workflows and see which ones are failing
 - Bash: `gh run view 21766237078 --repo ivviiviivvi/.github --log-failed 2>&1 | tail -50`
 - Bash: `gh run view 21766237089 --repo ivviiviivvi/.github --log-failed 2>&1 | tail -50`
 - Task
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/chatmode-frontmatter.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/demo-deployment.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
-- Bash: `ls /Users/4jp/Workspace/ivviiviivvi/.github/src/automation/scripts/generate_*_in`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/chatmode-frontmatter.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/demo-deployment.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
+- Bash: `ls ~/Workspace/ivviiviivvi/.github/src/automation/scripts/generate_*_in`
 - Bash: `python3.13 src/automation/scripts/generate_chatmode_inventory.py && python3.13 s`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github diff --stat`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github diff src/ai_framework/agents/INV`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/demo-deployment.yml`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github diff --stat`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github diff .github/workflows/`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github diff --stat`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github diff src/ai_framework/agents/INV`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/demo-deployment.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github diff --stat`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github diff .github/workflows/`
 
 ---
 
@@ -123,7 +123,7 @@ look at all the other workflows and see which ones are failing
 yes, commit and push
 
 **Actions taken:**
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github add .github/workflows/link-check`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github add .github/workflows/link-check`
 - Bash: `git commit -m "$(cat <<'EOF'
 fix(ci): fix 4 failing workflows
 
@@ -150,12 +150,12 @@ run those 4 workflows to verify the fixes
 - Bash: `sleep 8 && gh run list --repo ivviiviivvi/.github --limit 1 --workflow "Collect `
 - Bash: `gh run view 21767305346 --repo ivviiviivvi/.github --log-failed 2>&1 | tail -30`
 - Bash: `gh run view 21767307818 --repo ivviiviivvi/.github --log-failed 2>&1 | tail -30`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github add .github/workflows/link-check`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/collect-deployment-metadata.yml`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github add .github/workflows/link-check`
 - Bash: `gh workflow run 205310264 --repo ivviiviivvi/.github --ref main 2>&1`
 - *...and 24 more*
 
@@ -177,10 +177,10 @@ look at the remaining workflow failures across all workflows
 - Bash: `pip3.13 install 'mdformat==0.7.17' 'mdformat-gfm>=0.3.5,<1.0.0' 2>&1 | tail -5`
 - Bash: `PIP_REQUIRE_VIRTUALENV=false pip3.13 install --user 'mdformat==0.7.17' 'mdformat`
 - Bash: `PIP_REQUIRE_VIRTUALENV=false pip3.13 install --user --break-system-packages 'mdf`
-- Bash: `/Users/4jp/Library/Python/3.13/bin/mdformat src/ai_framework/agents/INVENTORY.md`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github diff --stat`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github diff src/ai_framework/agents/INV`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github add src/ai_framework/agents/INVE`
+- Bash: `~/Library/Python/3.13/bin/mdformat src/ai_framework/agents/INVENTORY.md`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github diff --stat`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github diff src/ai_framework/agents/INV`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github add src/ai_framework/agents/INVE`
 - Bash: `gh workflow run CI --repo ivviiviivvi/.github --ref main`
 - Bash: `sleep 10 && gh run list --repo ivviiviivvi/.github --limit 1 --workflow CI --jso`
 - Bash: `gh run watch 21767582087 --repo ivviiviivvi/.github --exit-status 2>&1 | tail -3`
@@ -195,10 +195,10 @@ look at the remaining workflow failures across all workflows
 squash these fix commits into one and force push
 
 **Actions taken:**
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github log --oneline ed1fdfa..HEAD`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github reset --soft ed1fdfa && git -C /`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github log --oneline -3`
-- Bash: `git -C /Users/4jp/Workspace/ivviiviivvi/.github push --force origin main`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github log --oneline ed1fdfa..HEAD`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github reset --soft ed1fdfa && git -C /`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github log --oneline -3`
+- Bash: `git -C ~/Workspace/ivviiviivvi/.github push --force origin main`
 
 ---
 
@@ -219,9 +219,9 @@ run all 5 workflows again to verify the squashed commit
 have we reached perfection? are we wrapped with a beautifuly red bow?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/partitioned-yawning-hennessy.md`
+- Read `~/.claude/plans/partitioned-yawning-hennessy.md`
 - Task
-- Write `/Users/4jp/.claude/plans/partitioned-yawning-hennessy.md`
+- Write `~/.claude/plans/partitioned-yawning-hennessy.md`
 - ExitPlanMode
 
 ---

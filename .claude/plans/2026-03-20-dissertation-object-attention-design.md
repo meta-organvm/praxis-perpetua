@@ -4,7 +4,7 @@
 **Title:** *Object-Attention in Art: A Dialectical Investigation Across Cinema, Representational Media, and Cultural Process*
 **Faculty:** Creative Practice (ORGAN-II) + Discourse (ORGAN-V) — joint appointment
 **Tier:** Dissertation (ICC > 0.75, Provost review required, 6-panel defense)
-**Author:** Anthony James Padavano
+**Author:** [name redacted]
 **Date:** 2026-03-20
 **Status:** DESIGN COMPLETE — pending implementation
 

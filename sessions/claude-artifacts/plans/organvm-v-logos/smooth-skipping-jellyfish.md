@@ -9,7 +9,7 @@
 
 ### 1.1 Add `dissertations` Jekyll collection
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/_config.yml`
+**File:** `~/Workspace/organvm-v-logos/public-process/_config.yml`
 
 - Add `dissertations` collection with `output: true` and permalink `/dissertations/:title/`
 - Add defaults block assigning `layout: dissertation` to the collection
@@ -17,7 +17,7 @@
 
 ### 1.2 Create `dissertation` layout
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/_layouts/dissertation.html`
+**File:** `~/Workspace/organvm-v-logos/public-process/_layouts/dissertation.html`
 
 - Based on the existing `essay.html` layout but adapted for long-form academic content
 - Add chapter navigation (prev/next chapter links within the dissertation)
@@ -27,7 +27,7 @@
 
 ### 1.3 Create dissertation content directory + chapter files
 
-**Directory:** `/Users/4jp/Workspace/organvm-v-logos/public-process/dissertations/`
+**Directory:** `~/Workspace/organvm-v-logos/public-process/dissertations/`
 
 Publish the unified thesis as **chapter-per-page** (matches the existing separate chapter files). Each chapter becomes a collection item:
 
@@ -62,7 +62,7 @@ related_repos:
 
 ### 1.4 Create dissertation landing page
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/dissertations.md`
+**File:** `~/Workspace/organvm-v-logos/public-process/dissertations.md`
 
 - Title, abstract, full table of contents linking to each chapter
 - Metadata: total word count, date, author
@@ -70,26 +70,26 @@ related_repos:
 
 ### 1.5 Add `_posts/` entry for the dissertation
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/_posts/2026-03-04-precision-over-volume-doctoral-thesis.md`
+**File:** `~/Workspace/organvm-v-logos/public-process/_posts/2026-03-04-precision-over-volume-doctoral-thesis.md`
 
 - Short announcement post linking to the dissertations landing page
 - Follows existing blog post pattern so it appears in the RSS feed and main index
 
 ### 1.6 Update navigation
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/_includes/header.html`
+**File:** `~/Workspace/organvm-v-logos/public-process/_includes/header.html`
 
 - Add "Dissertations" link between existing nav items
 
 ### 1.7 Update data index
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/data/essays-index.json`
+**File:** `~/Workspace/organvm-v-logos/public-process/data/essays-index.json`
 
 - Update stats to include dissertation count (or create separate `dissertations-index.json`)
 
 ### 1.8 Update index.md
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/index.md`
+**File:** `~/Workspace/organvm-v-logos/public-process/index.md`
 
 - Add a "Dissertations" section below the essays section linking to the dissertations landing page
 
@@ -97,7 +97,7 @@ related_repos:
 
 ## Part 2: Create Dissertation SOP
 
-**File:** `/Users/4jp/Workspace/organvm-v-logos/public-process/docs/sop-doctoral-dissertation.md`
+**File:** `~/Workspace/organvm-v-logos/public-process/docs/sop-doctoral-dissertation.md`
 
 This SOP codifies the process used to create the precision-pipeline thesis, abstracted for reuse across all ORGANVM projects.
 
@@ -157,13 +157,13 @@ The SOP will include a table of ORGANVM projects ready for dissertation treatmen
 - `docs/sop-doctoral-dissertation.md` — new SOP document
 
 ### Source files (read-only, content copied from)
-- `/Users/4jp/Workspace/4444J99/application-pipeline/docs/thesis/*.md` — 8 chapter files
+- `~/Workspace/4444J99/application-pipeline/docs/thesis/*.md` — 8 chapter files
 
 ---
 
 ## Verification
 
-1. `cd /Users/4jp/Workspace/organvm-v-logos/public-process && bundle exec jekyll build` — site builds without errors
+1. `cd ~/Workspace/organvm-v-logos/public-process && bundle exec jekyll build` — site builds without errors
 2. Verify `/dissertations/` index page renders with table of contents
 3. Verify each chapter page renders with proper navigation
 4. Verify header nav includes "Dissertations" link

@@ -28,7 +28,7 @@ This plan outlines the integration of 14 identified local repositories (currentl
 
 ## Part 1: The 14 Local Repos Inventory
 
-**Source Document:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/planning/02-repo-inventory-audit.md` (lines 117-136)
+**Source Document:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/planning/02-repo-inventory-audit.md` (lines 117-136)
 
 ### ORGAN-I (Theory) — organvm-i-theoria org — 3 repos
 

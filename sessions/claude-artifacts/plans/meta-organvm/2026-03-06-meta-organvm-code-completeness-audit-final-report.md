@@ -103,7 +103,7 @@ All patterns searched recursively across `./**/*.py` files. Each pattern was des
 
 Each pattern was executed as a recursive grep search:
 ```bash
-grep -r "<pattern>" /Users/4jp/Workspace/meta-organvm --include="*.py"
+grep -r "<pattern>" ~/Workspace/meta-organvm --include="*.py"
 ```
 
 Searches were conducted in parallel batches for efficiency:

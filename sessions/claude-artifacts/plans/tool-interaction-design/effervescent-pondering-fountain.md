@@ -135,9 +135,9 @@ The new clusters use `CONFIGURE` and `ORGANIZE` which aren't in the taxonomy cap
 {
   "mcpServers": {
     "conductor": {
-      "command": "/Users/4jp/Workspace/tool-interaction-design/.venv/bin/python",
-      "args": ["/Users/4jp/Workspace/tool-interaction-design/mcp_server.py"],
-      "cwd": "/Users/4jp/Workspace/tool-interaction-design"
+      "command": "~/Workspace/tool-interaction-design/.venv/bin/python",
+      "args": ["~/Workspace/tool-interaction-design/mcp_server.py"],
+      "cwd": "~/Workspace/tool-interaction-design"
     }
   }
 }

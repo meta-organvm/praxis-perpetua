@@ -11,7 +11,7 @@ Identify all internal references to root-level markdown files (DESIGN.md, STRATE
 ## Search Methodology
 
 - **Pattern**: `(DESIGN\.md|STRATEGY\.md|RESEARCH\.md|PRD\.md|MANIFEST\.md)`
-- **Scope**: All markdown files in `/Users/4jp/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/`
+- **Scope**: All markdown files in `~/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/`
 - **Exclusions**: `node_modules/`
 - **Output Mode**: Content with line numbers and file paths
 
@@ -138,7 +138,7 @@ Identify all internal references to root-level markdown files (DESIGN.md, STRATE
 
 ## Search Execution Summary
 
-- **Command**: `grep -r --include="*.md" "(DESIGN\.md|STRATEGY\.md|RESEARCH\.md|PRD\.md|MANIFEST\.md)" /Users/4jp/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/ --exclude-dir=node_modules`
+- **Command**: `grep -r --include="*.md" "(DESIGN\.md|STRATEGY\.md|RESEARCH\.md|PRD\.md|MANIFEST\.md)" ~/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/ --exclude-dir=node_modules`
 - **Execution**: Successful; no errors
 - **Results**: Comprehensive match reporting with file paths and line numbers
 - **Total Matches Found**: 110+ instances across 10+ files

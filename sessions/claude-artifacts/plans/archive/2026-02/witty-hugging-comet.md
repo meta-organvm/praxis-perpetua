@@ -2,7 +2,7 @@
 
 ## Context
 
-The repo `/Users/4jp/Workspace/the-actual-news/` contains one file: `News-as-Public-Service.md` (4,433 lines). It's a comprehensive AI-chat transcript that progressively designs a verifiable news ledger platform — from philosophy through OpenAPI contracts, database schemas, a working gateway service, a 10-phase roadmap, an RFC-style protocol spec, and a conformance test suite with 8 fixtures.
+The repo `~/Workspace/the-actual-news/` contains one file: `News-as-Public-Service.md` (4,433 lines). It's a comprehensive AI-chat transcript that progressively designs a verifiable news ledger platform — from philosophy through OpenAPI contracts, database schemas, a working gateway service, a 10-phase roadmap, an RFC-style protocol spec, and a conformance test suite with 8 fixtures.
 
 **Goal:** Extract this design into a fully-functioning, professionally-structured monorepo using three skills in order:
 1. **Speckit** — Formalize the design into SDD artifacts (spec, plan, tasks)

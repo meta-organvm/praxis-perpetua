@@ -2,7 +2,7 @@
 
 **Session ID:** `ebc2c7eb-8006-48e9-850e-f5115e44a068`
 **Duration:** ~1718 min
-**Working directory:** `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine`
+**Working directory:** `~/Workspace/organvm-i-theoria/conversation-corpus-engine`
 **Prompts:** 385 human messages
 
 ---
@@ -51,35 +51,35 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
 - Glob `src/conversation_corpus_engine/**/*.py`
 - Glob `tests/**/*.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/paths.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/conftest.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/pyproject.toml`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/paths.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/conftest.py`
 - Glob `schemas/*.json`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_catalog.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/schema_validation.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_catalog.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/schema_validation.py`
 - Glob `src/conversation_corpus_engine/schemas/*.json`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_refresh.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/corpus_diff.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/governance_policy.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_refresh.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/corpus_diff.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/governance_policy.py`
 - Glob `.pre-commit-config.yaml`
 - Glob `.gitleaks.toml`
 - Glob `post-flood/**/*`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/source_lifecycle.py`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/*.py | wc -l`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/evaluation.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/__init__.py`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/state/ 2>/dev/null && ls /Users/4jp/Workspace/organ...`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/docs/ 2>/dev/null`
-- Bash: `ls -1 /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/state/`
-- Bash: `ls -1 /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/reports/ 2>/dev/null; echo "---"; ls -1 /Users/4...`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/source_lifecycle.py`
+- Bash: `ls -la ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/*.py | wc -l`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/evaluation.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/__init__.py`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-engine/`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-engine/state/ 2>/dev/null && ls ~/Workspace/organ...`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-engine/docs/ 2>/dev/null`
+- Bash: `ls -1 ~/Workspace/organvm-i-theoria/conversation-corpus-engine/state/`
+- Bash: `ls -1 ~/Workspace/organvm-i-theoria/conversation-corpus-engine/reports/ 2>/dev/null; echo "---"; ls -1 /Users/4...`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
 
 ---
 
@@ -94,9 +94,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   ruff check passed, and ruff format --check passed. Operationally, ChatGPT is now
   healthy-federation, and the live review queue dropped from 4284 to 3854.
 
-  In /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json, /
-  Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/
-  concordance.md, and /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-
+  In ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json, /
+  Users/[user]/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/
+  concordance.md, and ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-
   INDEX-RERUM-FACIENDARUM.md, I committed and pushed 76dadde on main. conversation-corpus-
   engine is now formally registered, FORM-RES-001 is now resolvable in concordance, and
   IRF now closes IRF-CCE-005, 009, 010, and 011. I also created GH#1 through GH#8 on
@@ -104,9 +104,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
   Current state:
 
-  - /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine is clean and pushed.
-  - /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm has our propagation
-    commit pushed, but still has one unrelated modified file left untouched: /Users/4jp/
+  - ~/Workspace/organvm-i-theoria/conversation-corpus-engine is clean and pushed.
+  - ~/Workspace/meta-organvm/organvm-corpvs-testamentvm has our propagation
+    commit pushed, but still has one unrelated modified file left untouched: ~/
     Workspace/meta-organvm/organvm-corpvs-testamentvm/data/fossil/fossil-record.jsonl.
 
   Best next move is now GH#5 / IRF-CCE-007: finish claude-history-memory manual gold and
@@ -134,77 +134,77 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - TaskCreate
 - ToolSearch
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/corpus/canonical-entities.json`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/corpus/threads-index.json`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/corpus/canonical-entities.json`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/corpus/threads-index.json`
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 ent...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 thr...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 thr...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 thr...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 act...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 act...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 # F...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/eval/gold/detectors.json`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/eval/gold/detectors.json`
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 thr...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/detectors.json`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/detectors.json`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/detectors.json`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/detectors.json`
 - TaskUpdate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
 - TaskUpdate
 - TaskUpdate
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 act...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
 - TaskUpdate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/families.json`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/families.json`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/families.json`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/families.json`
 - TaskUpdate
 - TaskUpdate
 - Bash: `pip install -e ".[dev]" 2>&1 | tail -3`
 - Bash: `python3 -m pip install -e ".[dev]" 2>&1 | tail -5`
-- Bash: `pipx run --spec /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine cce evaluation run --root /Users/4jp/W...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-gates-latest.json`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-latest.json`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-latest.json`
-- Grep `def search_documents_v4` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Grep `def rank_documents|def rerank_family_hits|def matched_family_ids_for_query|def expand_query_tokens` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Grep `STOP_WORDS|def tokenize` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Grep `TOKEN_RE` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `pipx run --spec ~/Workspace/organvm-i-theoria/conversation-corpus-engine cce evaluation run --root ~/W...`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-gates-latest.json`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-latest.json`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-latest.json`
+- Grep `def search_documents_v4` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Grep `def rank_documents|def rerank_family_hits|def matched_family_ids_for_query|def expand_query_tokens` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Grep `STOP_WORDS|def tokenize` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Grep `TOKEN_RE` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 bri...`
 - Bash: `python3 -c "
 from conversation_corpus_engine.answering import search_documents_v4, build_documents
 from pathlib import P...`
-- Grep `def build_documents` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Bash: `wc -l /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/corpus/family-dossiers.json ...`
+- Grep `def build_documents` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Bash: `wc -l ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/corpus/family-dossiers.json ...`
 - Bash: `python3 -c "
 from conversation_corpus_engine.answering import search_documents_v4, build_documents
 from pathlib import P...`
@@ -226,16 +226,16 @@ from conversation_corpus_engine.answering import search_documents_v4
 from pathlib import Path
 
 root = Path(...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory && python3 -c "
 import json
 fam...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
-- Bash: `cce evaluation run --root /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory --seed -...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-gates-latest.json`
-- Grep `def build_answer|abstain` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/fixtures/manual/retrieval.json`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
+- Bash: `cce evaluation run --root ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory --seed -...`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/reports/evaluation-gates-latest.json`
+- Grep `def build_answer|abstain` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
 - Bash: `python3 -c "
 from conversation_corpus_engine.answering import search_documents_v4, build_answer
 from pathlib import Path...`
@@ -245,9 +245,9 @@ from conversation_corpus_engine.answering import search_documents_v4, build_answ
 - Bash: `python3 -c "
 from conversation_corpus_engine.answering import search_documents_v4, determine_answer_state
 from pathlib i...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
-- Bash: `cce evaluation run --root /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory --seed -...`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory/eval/gold/manual/answers.json`
+- Bash: `cce evaluation run --root ~/Workspace/organvm-i-theoria/conversation-corpus-site/claude-history-memory --seed -...`
 - TaskUpdate
 
 ---
@@ -257,11 +257,11 @@ from pathlib i...`
 <task-notification>
 <task-id>bgkimfndb</task-id>
 <tool-use-id>toolu_01STojMVdfhLM8JjzGnTj9tf</tool-use-id>
-<output-file>/private/tmp/claude-501/-Users-4jp-Workspace-organvm-i-theoria-conversation-corpus-engine/ebc2c7eb-8006-48e9-850e-f5115e44a068/tasks/bgkimfndb.output</output-file>
+<output-file>/private/tmp/claude-501/-Users-[user]-Workspace-organvm-i-theoria-conversation-corpus-engine/ebc2c7eb-8006-48e9-850e-f5115e44a068/tasks/bgkimfndb.output</output-file>
 <status>completed</status>
 <summary>Background command "Debug search with correct root path" completed (exit code 0)</summary>
 </task-notification>
-Read the output file to retrieve the result: /private/tmp/claude-501/-Users-4jp-Workspace-organvm-i-theoria-conversation-corpus-engine/ebc2c7eb-8006-48e9-850e-f5115e44a068/tasks/bgkimfndb.output
+Read the output file to retrieve the result: /private/tmp/claude-501/-Users-[user]-Workspace-organvm-i-theoria-conversation-corpus-engine/ebc2c7eb-8006-48e9-850e-f5115e44a068/tasks/bgkimfndb.output
 
 ### P9 — 2026-03-23 20:45:56 (+10m)
 
@@ -277,8 +277,8 @@ All 8 regression gates now pass for `claude-history-memory`:
 | G...`
 - Bash: `gh issue create --title "search: rerank_family_hits bonus only applies to pre-filtered top N" --body "$(cat <<'EOF'
 ## P...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
 - Bash: `python -m pytest tests/ -v --tb=short 2>&1 | tail -30`
 - Bash: `python3 -c "
 from conversation_corpus_engine.answering import search_documents_v4
@@ -289,15 +289,15 @@ root = Path(...`
 from conversation_corpus_engine.answering import search_documents_v4, build_documents, matched_family_ids_f...`
 - Bash: `python3 -c "
 from conversation_corpus_engine.answering import search_documents_v4, rank_documents, rerank_family_hits, b...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/answering.py`
 - Bash: `python -m pytest tests/ -v --tb=short 2>&1 | tail -5`
 - Bash: `python3 -c "
 from conversation_corpus_engine.answering import search_documents_v4
 from pathlib import Path
 
 root = Path(...`
-- Bash: `cce evaluation run --root /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history --seed --json ...`
+- Bash: `cce evaluation run --root ~/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history --seed --json ...`
 - Bash: `pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `pipx run ruff format src/conversation_corpus_engine/answering.py && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `python -m pytest tests/ -q 2>&1`
@@ -320,35 +320,35 @@ yes all of the above, logic dictates order
 **Actions taken:**
 - Bash: `gh issue view 1 --json title,body 2>&1`
 - Agent: I need to understand the gap between the genesis ChatGPT export script and the canonical adapter. Ex
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && grep -n "def render_node_co...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && sed -n '885,960p' export_ch...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && sed -n '960,1060p' export_c...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && sed -n '1130,1210p' export_...`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Grep `\"audit_flags\": \[\]` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && grep -n "def render_node_co...`
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && sed -n '885,960p' export_ch...`
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && sed -n '960,1060p' export_c...`
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site/archive/legacy-scripts && sed -n '1130,1210p' export_...`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Grep `\"audit_flags\": \[\]` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
 - Bash: `python -m pytest tests/ -v --tb=short 2>&1 | tail -15`
 - Bash: `pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ 2>&1`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/import_chatgpt_export_corpus.py`
 - Bash: `pipx run ruff check src/ tests/ && pipx run ruff format src/ tests/ && python -m pytest tests/ -q 2>&1`
-- Bash: `cce evaluation run --root /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history --seed --json ...`
+- Bash: `cce evaluation run --root ~/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history --seed --json ...`
 - Bash: `git add src/conversation_corpus_engine/import_chatgpt_export_corpus.py && git commit -m "$(cat <<'EOF'
 feat: cherry-pick...`
 - Bash: `gh issue close 1 --comment "Merged in 2287e91. Cherry-picked: enhanced message normalization (code/execution/multimodal/...`
@@ -357,58 +357,58 @@ feat: cherry-pick...`
 - Bash: `gh repo view organvm-i-theoria/conversation-corpus-engine --json visibility,url 2>&1`
 - Bash: `pipx install git+https://github.com/organvm-i-theoria/conversation-corpus-engine.git --force 2>&1`
 - Bash: `cce --help 2>&1 | head -5 && echo "---" && cce corpus list --json 2>&1 | head -3`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/pyproject.toml`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/pyproject.toml`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/__init__.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/pyproject.toml`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/pyproject.toml`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/__init__.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `git add pyproject.toml src/conversation_corpus_engine/__init__.py CLAUDE.md && git commit -m "$(cat <<'EOF'
 chore: enabl...`
 - Bash: `gh issue close 4 --comment "Closed in c73611f. \`pipx install git+https://github.com/organvm-i-theoria/conversation-corp...`
 - Bash: `gh issue comment 4 --body "Resolved in c73611f. \`pipx install git+https://github.com/organvm-i-theoria/conversation-cor...`
 - Bash: `gh issue view 2 --json title,body 2>&1`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_catalog.py`
-- Grep `choices=\[` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py
-- Bash: `ls -d /Users/4jp/Library/Containers/com.openai.* 2>/dev/null || ls -d "/Users/4jp/Library/Application Support/ChatGPT"* ...`
-- Bash: `ls -d /Users/4jp/Library/Containers/com.openai.chat* 2>/dev/null && ls /Users/4jp/Library/Containers/com.openai.chat*/Da...`
-- Bash: `ls /Users/4jp/Library/Containers/com.openai.chat.Widgets/Data/Library/Application\ Support/ 2>/dev/null | head -10`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_catalog.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_catalog.py`
+- Grep `choices=\[` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py
+- Bash: `ls -d ~/Library/Containers/com.openai.* 2>/dev/null || ls -d "~/Library/Application Support/ChatGPT"* ...`
+- Bash: `ls -d ~/Library/Containers/com.openai.chat* 2>/dev/null && ls ~/Library/Containers/com.openai.chat*/Da...`
+- Bash: `ls ~/Library/Containers/com.openai.chat.Widgets/Data/Library/Application\ Support/ 2>/dev/null | head -10`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/provider_catalog.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ 2>&1`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_surface_exports.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_surface_exports.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_surface_exports.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_surface_exports.py`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `pipx run ruff format src/conversation_corpus_engine/cli.py && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `git add src/conversation_corpus_engine/provider_catalog.py src/conversation_corpus_engine/cli.py tests/test_surface_expo...`
 - Bash: `gh issue close 2 --comment "DeepSeek and Mistral added in 8f04e34 (document-export adapters, CLI wired, 8 total provider...`
 - Bash: `gh issue comment 2 --body "DeepSeek and Mistral added in 8f04e34 (document-export adapters, CLI wired, 8 total providers...`
 - Bash: `gh issue view 8 --json title,body 2>&1`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/ 2>/dev/null | head -10 && echo "---" && ls /Users/...`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/index/ 2>/dev/null`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/ 2>/dev/null | head -10 && echo "---" && ls /Users/...`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/index/ 2>/dev/null`
 - Bash: `gh issue close 8 --comment "$(cat <<'EOF'
 ## Status: Queued — indices don't exist yet
 
 The companion indices (Index Loco...`
 - Bash: `gh issue view 3 --json title,body 2>&1`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/dashboard.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/dashboard.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check src/ tests/ && pipx run ruff format src/ tests/ 2>&1`
 - Bash: `pipx run ruff check --fix src/ tests/ && pipx run ruff format src/ tests/ && python -m pytest tests/ -q 2>&1`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
-- Bash: `python3 -c "import json; d=json.loads(open('/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/federation/c...`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/dashboard.py`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -c "
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Bash: `python3 -c "import json; d=json.loads(open('~/Workspace/organvm-i-theoria/conversation-corpus-site/federation/c...`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/dashboard.py`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -c "
 from conversation_corpus_e...`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/dashboard.py`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/dashboard.py`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `pipx run ruff format src/conversation_corpus_engine/dashboard.py && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `git add src/conversation_corpus_engine/dashboard.py src/conversation_corpus_engine/cli.py && git commit -m "$(cat <<'EOF...`
@@ -436,40 +436,40 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
 yes all of the above, logic dictates order
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
 import json
 from collections import C...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
 import json
 queue = json.loads(open('...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
 import json
 queue = json.loads(open('...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py`
-- Grep `def resolve_federated_review_item` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py`
+- Grep `def resolve_federated_review_item` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/federated_canon.py`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/cli.py`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check --fix src/ tests/ && pipx run ruff format src/ tests/ 2>&1`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
 - Bash: `git add src/conversation_corpus_engine/triage.py src/conversation_corpus_engine/cli.py && git commit -m "$(cat <<'EOF'
 f...`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Grep `IRF-CCE` in /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add INST-INDEX-RERUM-FACIENDARUM.md && git commit...`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Grep `IRF-CCE` in ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add INST-INDEX-RERUM-FACIENDARUM.md && git commit...`
 
 ---
 
@@ -478,49 +478,49 @@ f...`
 ❯ all processions proceed w glorious gloriosity & perpetual perfectitude--ad nauseous exhaustive+infinitum exponentials propelling onward&upwards;
 
 **Actions taken:**
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/source-drop/chatgpt/inbox/ 2>/dev/null && echo "---" ...`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -c "
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-site/source-drop/chatgpt/inbox/ 2>/dev/null && echo "---" ...`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -c "
 from conversation_corpus_e...`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/source-drop/ 2>/dev/null && echo "---" && ls /Users/4...`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-site/source-drop/ 2>/dev/null && echo "---" && ls /Users/4...`
 - Bash: `python3 -c "
 import json
 # Check the source paths from each corpus contract
 import pathlib
 site = pathlib.Path('/Users/4...`
 - Bash: `# ChatGPT source is "?" — find the actual conversations.json
-find /Users/4jp/Workspace/organvm-i-theoria/conversation-co...`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/source/ 2>/dev/null | head -10`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/ | head -10 && echo "---" && python3 ...`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/archive/ 2>/dev/null | head -5 && ech...`
-- Bash: `find /Users/4jp/Workspace/intake -name "conversations.json" 2>/dev/null | head -5 && echo "---" && find /Users/4jp/Works...`
+find ~/Workspace/organvm-i-theoria/conversation-co...`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/source/ 2>/dev/null | head -10`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/ | head -10 && echo "---" && python3 ...`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-site/chatgpt-history/archive/ 2>/dev/null | head -5 && ech...`
+- Bash: `find ~/Workspace/intake -name "conversations.json" 2>/dev/null | head -5 && echo "---" && find ~/Works...`
 - Bash: `# Check Claude local session freshness
-ls -la "/Users/4jp/Library/Application Support/Claude/" 2>/dev/null | head -10 &&...`
+ls -la "~/Library/Application Support/Claude/" 2>/dev/null | head -10 &&...`
 - Bash: `# Check what the claude local session adapter actually reads
 python3 -c "
 from conversation_corpus_engine.claude_local_s...`
 - Bash: `# The Claude Desktop app data is from March 6 — no JSONL session files. 
 # Check if there's conversation data in a diffe...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
 import json
 from collections import C...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
 import json
 from collections import C...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check --fix src/ tests/ && pipx run ruff format src/ tests/ 2>&1`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
-- Bash: `CCE_PROJECT_ROOT=/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site python3 -c "
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -m conversation_corpus_engine.c...`
+- Bash: `CCE_PROJECT_ROOT=~/Workspace/organvm-i-theoria/conversation-corpus-site python3 -c "
 from conversation_corpus_e...`
 - Bash: `git add src/conversation_corpus_engine/triage.py && git commit -m "$(cat <<'EOF'
 feat: add slug-match and prefix-entity-...`
 - Bash: `ls src/conversation_corpus_engine/*.py | wc -l`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/CLAUDE.md`
 - Bash: `python -m pytest tests/ -q && pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ 2>&1`
 - Bash: `git add CLAUDE.md && git commit -m "$(cat <<'EOF'
 docs: update CLAUDE.md with dashboard, triage, 8 providers, 32 modules...`
@@ -532,10 +532,10 @@ docs: update CLAUDE.md with dashboard, triage, 8 providers, 32 modules...`
 ❯ all processions proceed w glorious gloriosity & perpetual perfectitude--ad nauseous exhaustive+infinitum exponentials propelling onward&upwards;
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
 import json
 from collections import Coun...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && grep -n "| P0 |" INST-INDEX-RERUM-FACIENDARUM.md | gr...`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && grep -n "| P0 |" INST-INDEX-RERUM-FACIENDARUM.md | gr...`
 
 ---
 
@@ -550,22 +550,22 @@ from pathlib import Path
 
 src = Path('src/conversation_corpus_engine')
 tests = Path('tests'...`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_dashboard.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_answering.py`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_dashboard.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_import_chatgpt_export_corpus.py`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_answering.py`
 - Bash: `python -m pytest tests/ -v --tb=short 2>&1 | tail -40`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/src/conversation_corpus_engine/triage.py`
 - Bash: `python -m pytest tests/ -v --tb=short 2>&1 | tail -10`
 - Bash: `pipx run ruff check src/ tests/ && pipx run ruff format src/ tests/ 2>&1`
 - Bash: `pipx run ruff check --fix src/ tests/ && pipx run ruff format src/ tests/ 2>&1`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
-- Grep `import tempfile` in /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
+- Grep `import tempfile` in ~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/tests/test_triage.py`
 - Bash: `pipx run ruff check src/ tests/ && pipx run ruff format --check src/ tests/ && python -m pytest tests/ -q 2>&1`
 - Bash: `pipx run ruff format tests/ && python -m pytest tests/ -q 2>&1`
 - Bash: `git add tests/test_triage.py tests/test_dashboard.py tests/test_answering.py tests/test_import_chatgpt_export_corpus.py ...`
@@ -583,10 +583,10 @@ import json
 from pathlib import Path
 
 src = Path('src/conversation_corpus_engine')...`
-- Bash: `cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
+- Bash: `cd ~/Workspace/organvm-i-theoria/conversation-corpus-site && python3 -c "
 import json
 queue = json.loads(open('...`
-- Write `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/.claude/plans/2026-03-24-cce-exhaustive-roadmap.md`
+- Write `~/Workspace/organvm-i-theoria/conversation-corpus-engine/.claude/plans/2026-03-24-cce-exhaustive-roadmap.md`
 - Bash: `git add .claude/plans/2026-03-24-cce-exhaustive-roadmap.md && git commit -m "$(cat <<'EOF'
 docs: exhaustive micro→macro ...`
 
@@ -607,16 +607,16 @@ for i in 1 2 3 4 5 6 7 8 9; do
 - Bash: `# GH#9 has no resolution comment — check if auto-closed by commit
 gh issue view 9 --json closedAt,stateReason 2>&1 && ec...`
 - Bash: `# Check deployment site for uncommitted state changes
-echo "=== DEPLOYMENT SITE ===" && ls /Users/4jp/Workspace/organvm-...`
+echo "=== DEPLOYMENT SITE ===" && ls ~/Workspace/organvm-...`
 - Bash: `# Verify CLAUDE.md claims are accurate
 echo "=== MODULE COUNT ===" && ls src/conversation_corpus_engine/*.py | wc -l && ...`
 - Bash: `# Check IRF completions are accurate — count DONE items attributed to S33
-cd /Users/4jp/Workspace/meta-organvm/organvm-c...`
+cd ~/Workspace/meta-organvm/organvm-c...`
 - Bash: `# Verify commit SHAs referenced in IRF exist in CCE repo
 for sha in 2287e91 8f04e34 1d7d7d7 c73611f cefdf8c 23ce0f3 0366...`
 - Bash: `# Check memory files are current
-cat /Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-i-theoria-conversation-cor...`
-- Write `/Users/4jp/.claude/plans/peppy-knitting-sky.md`
+cat ~/.claude/projects/-Users-[user]-Workspace-organvm-i-theoria-conversation-cor...`
+- Write `~/.claude/plans/peppy-knitting-sky.md`
 - ToolSearch
 - ExitPlanMode
 - Bash: `gh issue comment 9 --body "$(cat <<'EOF'
@@ -625,8 +625,8 @@ cat /Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-i-theoria-conversat
 Two-part fix:
 
 1. **Injection** — matched fam...`
-- Write `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-i-theoria-conversation-corpus-engine/memory/session_s33_insights.md`
-- Edit `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-i-theoria-conversation-corpus-engine/memory/MEMORY.md`
+- Write `~/.claude/projects/-Users-[user]-Workspace-organvm-i-theoria-conversation-corpus-engine/memory/session_s33_insights.md`
+- Edit `~/.claude/projects/-Users-[user]-Workspace-organvm-i-theoria-conversation-corpus-engine/memory/MEMORY.md`
 - Bash: `echo "GH#9 comments:" && gh issue view 9 --json comments --jq '.comments | length' && echo "" && echo "Memory files:" &&...`
 
 ---
@@ -642,52 +642,52 @@ The Index Rerum Faciendarum at meta-organvm/organvm-corpvs-testamentvm/INST-INDE
 ❯ commit[all] push[origin]; source returned improved onnwards+upwards;
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && grep -n "N/A\|n/a\|N\/A" INST-INDEX-RERUM-FACIENDARUM...`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && grep -n "N/A\|n/a\|N\/A" INST-INDEX-RERUM-FACIENDARUM...`
 - Bash: `echo "=== INDEX 1: IRF ===" && echo "DONE-169 through DONE-178 logged. ✓" && echo "" && echo "=== INDEX 2: GitHub Issues...`
 - Bash: `# Index 7: Registry — check with different field name
 python3 -c "
 import json
-reg = json.loads(open('/Users/4jp/Workspa...`
+reg = json.loads(open('~/Workspa...`
 - Bash: `# Check registry structure
 python3 -c "
 import json
-reg = json.loads(open('/Users/4jp/Workspace/meta-organvm/organvm-cor...`
+reg = json.loads(open('~/Workspace/meta-organvm/organvm-cor...`
 - Bash: `# CCE is in the registry notes but may not have a full entry. Check organs section
 python3 -c "
 import json
 reg = json.l...`
-- Read `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
-- Edit `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
+- Read `~/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
+- Edit `~/Workspace/organvm-i-theoria/conversation-corpus-engine/seed.yaml`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
 import json
 reg = json.loads(open('regis...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
 import json
 reg = json.loads(open('regis...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
 import json
 reg = json.loads(open('regis...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
 import json
 reg = json.loads(open('regis...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
 import json
 reg = json.loads(open('regis...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python3 -c "
 import json
 reg = json.loads(open('regis...`
-- Grep `IRF-CCE-01[3-9]\|IRF-CCE-02"` in /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md
-- Grep `IRF-CCE-01[4-9]` in /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Grep `IRF-CCE-01[3-9]\|IRF-CCE-02"` in ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md
+- Grep `IRF-CCE-01[4-9]` in ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md`
 - Bash: `# CCE repo: seed.yaml update
 git add seed.yaml && git commit -m "$(cat <<'EOF'
 chore: update seed.yaml with v0.3.0 and S...`
 - Bash: `# Meta-organvm: registry + IRF updates
-cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add regist...`
+cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add regist...`
 - Bash: `echo "=== CCE ===" && git status --short && git log origin/main..HEAD --oneline && echo "" && echo "=== META ===" && cd ...`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/.claude/plans/ 2>/dev/null && echo "" && echo "=== ...`
+- Bash: `ls ~/Workspace/organvm-i-theoria/conversation-corpus-engine/.claude/plans/ 2>/dev/null && echo "" && echo "=== ...`
 
 ---
 
@@ -700,29 +700,29 @@ all the no and nots from above--❯ all the N/As suggest something imperative; 
 # Really? Let me check what IDs were introduced
 echo "=== NEW IDENTI...`
 - Bash: `# VACUUM 2: Omega — what OTHER criteria does S33 advance?
-cat /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testament...`
+cat ~/Workspace/meta-organvm/organvm-corpvs-testament...`
 - Bash: `# VACUUM 3: Inquiry log — is the search pre-filter discovery research?
 echo "=== INQUIRY LOG STRUCTURE ===" && head -40 ...`
 - Bash: `# VACUUM 4: Testament — what WOULD the events look like?
-echo "=== TESTAMENT MILESTONES ===" && ls /Users/4jp/Workspace/...`
-- Bash: `cat /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/testament/milestones/MILESTONE-2026-002.yaml 2>/de...`
+echo "=== TESTAMENT MILESTONES ===" && ls ~/Workspace/...`
+- Bash: `cat ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/testament/milestones/MILESTONE-2026-002.yaml 2>/de...`
 - Bash: `# VACUUM 5: fossil-record.jsonl — what IS this?
-wc -l /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/...`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/testament/milestones/MILESTONE-2026-003.yaml`
-- Grep `## Named Code Entities|## Triage|## CLI Commands|## Artifact Types` in /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && grep -n "evidence:" commissions/inquiry-log.yaml | tail -10 2>&1`
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
-- Edit `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
+wc -l ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/...`
+- Write `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/testament/milestones/MILESTONE-2026-003.yaml`
+- Grep `## Named Code Entities|## Triage|## CLI Commands|## Artifact Types` in ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/concordance.md`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && grep -n "evidence:" commissions/inquiry-log.yaml | tail -10 2>&1`
+- Read `~/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
+- Read `~/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
+- Read `~/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
+- Edit `~/Workspace/meta-organvm/praxis-perpetua/commissions/inquiry-log.yaml`
 - Bash: `# Meta-organvm: concordance + testament milestone
-cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git pull --rebase && git push 2>&1`
+cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git...`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git pull --rebase && git push 2>&1`
 - Bash: `# Praxis-perpetua: inquiry log evidence
-cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git add commissions/inqu...`
+cd ~/Workspace/meta-organvm/praxis-perpetua && git add commissions/inqu...`
 - Bash: `echo "=== ALL REPOS ===" && echo "CCE:" && git status --short && echo "(clean)" && echo "" && echo "Meta-organvm:" && cd...`
 
 ---

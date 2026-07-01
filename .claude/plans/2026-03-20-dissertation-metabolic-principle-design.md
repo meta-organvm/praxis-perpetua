@@ -4,7 +4,7 @@
 **Title:** *Everything Change && Change Everything: The Metabolic Principle as Prime Directive for Creative-Institutional Systems*
 **Faculty:** Meta-Cognition (ORGAN-I) + Creative Practice (ORGAN-II) — joint appointment
 **Tier:** Dissertation (ICC > 0.75, Provost review required, 6-panel defense)
-**Author:** Anthony James Padavano
+**Author:** [name redacted]
 **Date:** 2026-03-20
 **Status:** DESIGN COMPLETE — pending implementation
 

@@ -11,7 +11,7 @@
 
 ### P1 — 2026-01-13 17:44:20
 
-Read the plan.md file that exists in /Users/4jp/.claude/plans/kind-exploring-map.md (Task 5).
+Read the plan.md file that exists in ~/.claude/plans/kind-exploring-map.md (Task 5).
 
   Your task is to:
 Prompt  1. Set up test databases and environment variables

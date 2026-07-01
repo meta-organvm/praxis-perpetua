@@ -153,4 +153,4 @@ auto-assign-issues:
 - Verify file extension is `.yml` or `.yaml`
 
 ## Related Files
-- `/Users/4jp/.claude/plans/project-automation-workflow.md` - Detailed feature breakdown
+- `~/.claude/plans/project-automation-workflow.md` - Detailed feature breakdown

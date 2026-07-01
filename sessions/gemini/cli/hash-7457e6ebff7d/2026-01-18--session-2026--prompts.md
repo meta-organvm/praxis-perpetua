@@ -54,7 +54,7 @@ yes proceed
 
 ### P7 — 2026-01-18 23:56:47
 
-it feels as if we are expanding more cleanup; review screenshot: /Users/4jp/Library/Containers/com.wiheads.paste/Data/tmp/images/Dropbox\ 2026-01-18\ 18.55.57.png
+it feels as if we are expanding more cleanup; review screenshot: ~/Library/Containers/com.wiheads.paste/Data/tmp/images/Dropbox\ 2026-01-18\ 18.55.57.png
 
 ---
 

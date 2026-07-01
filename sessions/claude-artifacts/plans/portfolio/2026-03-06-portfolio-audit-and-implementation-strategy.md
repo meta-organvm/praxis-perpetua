@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Completed comprehensive audit of the Anthony James Padavano portfolio project at `/Users/4jp/Workspace/4444J99/portfolio/`. The project is an Astro 5 static site deployed to GitHub Pages with sophisticated subsystems including persona-driven resume generation, AI-powered strike intelligence, generative art via p5.js, D3 data visualizations, and a quality ratchet governance framework. 
+Completed comprehensive audit of the [name redacted] portfolio project at `~/Workspace/4444J99/portfolio/`. The project is an Astro 5 static site deployed to GitHub Pages with sophisticated subsystems including persona-driven resume generation, AI-powered strike intelligence, generative art via p5.js, D3 data visualizations, and a quality ratchet governance framework. 
 
 **Current Status:** PUBLIC_PROCESS promotion state, CANDIDATE tier, fully functional with 12 identified improvement opportunities across 3 priority levels.
 
@@ -434,7 +434,7 @@ Growth initiatives ← Sprint 3 completion
 
 ## References
 
-- **Project CLAUDE.md:** `/Users/4jp/Workspace/4444J99/portfolio/CLAUDE.md`
+- **Project CLAUDE.md:** `~/Workspace/4444J99/portfolio/CLAUDE.md`
 - **Evaluation Report:** `.gemini/plans/2026-02-28-evaluation-to-growth.md`
 - **Test Plan:** `.gemini/plans/2026-03-05-evaluation-to-growth-plan.md`
 - **UI Refinement Plan:** `.gemini/plans/2026-03-04-portfolio-refinement.md`

@@ -812,6 +812,6 @@ network/      9 py   (Network/mirror protocol)
 
 ---
 
-*Census conducted 2026-04-05 by Claude Opus 4.6 at the request of Anthony James Padavano.*
+*Census conducted 2026-04-05 by Claude Opus 4.6 at the request of [name redacted].*
 *Constitutional references: SPEC-SVSE-001, AMMOI (both March 12, 2026).*
 *Prior work: Directory Dissection Post-Mortem (April 4, 2026).*

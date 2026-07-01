@@ -121,14 +121,14 @@ def categorize_prompt(text):
 
 def project_slug(project_dir_name):
     """Convert Claude project dir name to readable slug."""
-    # -Users-4jp-Workspace-4444J99-portfolio -> workspace/4444j99/portfolio
+    # -Users-[user]-Workspace-4444J99-portfolio -> workspace/4444j99/portfolio
     parts = project_dir_name.split("-")
-    # Remove leading empty and Users/4jp
+    # Remove leading empty and Users/[user]
     cleaned = []
     skip_next = 0
     raw = project_dir_name
     # Simpler: just strip the prefix
-    raw = re.sub(r"^-Users-4jp-?", "", raw)
+    raw = re.sub(r"^-Users-[user]-?", "", raw)
     raw = re.sub(r"^Workspace-?", "", raw)
     if not raw:
         raw = "home"

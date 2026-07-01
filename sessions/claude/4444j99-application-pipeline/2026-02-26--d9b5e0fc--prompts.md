@@ -21,23 +21,23 @@ The 88 project blocks in `blocks/projects/` were just auto-generated with tags, 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/generate_project_blocks.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/build_block_index.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/alchemize.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/generate_project_blocks.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/build_block_index.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/alchemize.py`
 - Grep `def phase_map|select_evidence|block_index|load_block_index|def select_blocks|blocks_used|Key Stats`
 - Grep `def extract_repos|ci_workflow|portfolio_relevance|promotion_status|platinum|public`
-- Bash: `head -50 /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v`
+- Bash: `head -50 ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v`
 - Grep `def phase_map|select_evidence|block_index|load_block_index|def select_blocks|blocks_used|Key Stats`
 - Grep `def phase_map|select_evidence|block_index|load_block_index`
 - Bash: `which rg`
 - Grep `def phase_map|select_evidence|block_index|load_block_index`
-- Bash: `rg -n "def phase_map|select_evidence|block_index|load_block_index" /Users/4jp/Wo`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/alchemize.py`
+- Bash: `rg -n "def phase_map|select_evidence|block_index|load_block_index" ~/Wo`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/alchemize.py`
 - Bash: `python3 -c "
 import json
-with open('/Users/4jp/Workspace/meta-organvm/organvm-co`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/ | head -20`
-- Bash: `head -25 /Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/orche`
+with open('~/Workspace/meta-organvm/organvm-co`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/blocks/projects/ | head -20`
+- Bash: `head -25 ~/Workspace/4444J99/application-pipeline/blocks/projects/orche`
 - Bash: `# Find READMEs with badge lines containing lang-, tests-, coverage-
 rg -l 'lang-`
 - Bash: `# Show badge lines from a README with stats
@@ -47,7 +47,7 @@ head -30 ~/Workspace/organvm-i-th`
 - Bash: `# Show full registry entry for a repo to see all fields
 python3 -c "
 import json`
-- Bash: `rg -n "def load_block_index" /Users/4jp/Workspace/4444J99/application-pipeline/s`
+- Bash: `rg -n "def load_block_index" ~/Workspace/4444J99/application-pipeline/s`
 - *...and 35 more*
 
 ---
@@ -62,13 +62,13 @@ description: Systematic content evaluation framework progressing through Critiqu
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/zany-percolating-riddle.md`
+- Read `~/.claude/plans/zany-percolating-riddle.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/generate_project_blocks.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/generate_project_blocks.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/metasystem-master.md`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/generate_project_blocks.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/generate_project_blocks.py`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/projects/metasystem-master.md`
 - Bash: `rg -c "lang-\w+-" ~/Workspace/organvm-ii-poiesis/metasystem-master/README.md 2>/`
 - Bash: `# Check what ci_workflow values produce "markdown", "shell", "jekyll" as languag`
 - Bash: `# Check if hand-authored blocks were overwritten
@@ -76,9 +76,9 @@ description: Systematic content evaluation framework progressing through Critiqu
 - Bash: `for block in organvm-system generative-music omni-dromenon-engine starts-prize-a`
 - Bash: `# Check if the originally hand-authored blocks still exist or were lost
 ls -la /`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/organvm-system.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/generative-music.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/starts-prize-art-outputs.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/projects/organvm-system.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/projects/generative-music.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/projects/starts-prize-art-outputs.md`
 - Bash: `# Check: organvm-system maps to None in EXISTING_BLOCK_REPOS
 # The --stats-only `
 - Bash: `# What language does ci-minimal.yml produce? Check a block that uses it

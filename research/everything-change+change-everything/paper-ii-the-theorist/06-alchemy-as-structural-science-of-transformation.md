@@ -125,9 +125,9 @@ Linden, Stanton J., ed. 2003. *The Alchemy Reader: From Hermes Trismegistus to I
 
 Newman, William R. 2004. *Promethean Ambitions: Alchemy and the Quest to Perfect Nature*. Chicago: University of Chicago Press.
 
-Padavano, Anthony James. 2026c. "Alchemy as Structure: The Alchemical System Lifecycle." ORGANVM SGO Research Corpus. Unpublished manuscript.
+[name redacted] James. 2026c. "Alchemy as Structure: The Alchemical System Lifecycle." ORGANVM SGO Research Corpus. Unpublished manuscript.
 
-Padavano, Anthony James. 2026d. "The System as Genre: One-Person Visions Expressed as Architectures." ORGANVM SGO Research Corpus. Unpublished manuscript.
+[name redacted] James. 2026d. "The System as Genre: One-Person Visions Expressed as Architectures." ORGANVM SGO Research Corpus. Unpublished manuscript.
 
 Pagel, Walter. 1982. *Paracelsus: An Introduction to Philosophical Medicine in the Era of the Renaissance*. 2nd ed. Basel: Karger.
 

@@ -30,20 +30,20 @@ Styx has ~12 well-implemented, individually-tested services (Ledger, TruthLog, S
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/schema.sql`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/ledger/ledger.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/ledger/truth-log.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/stripe.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/fury-router/fury-router.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/health/aegis.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/security/geofence.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/security/moderation.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/honeypot.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/dispute.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/guards/auth.guard.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/config/queue.config.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/billing.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/schema.sql`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/ledger/ledger.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/ledger/truth-log.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/stripe.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/fury-router/fury-router.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/health/aegis.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/security/geofence.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/security/moderation.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/honeypot.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/dispute.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/guards/auth.guard.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/config/queue.config.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/billing.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/geofencing.ts`
 - *...and 70 more*
 
 ---
@@ -66,7 +66,7 @@ feat: build NestJS application spine + contract lif`
 run the existing tests one more time to make sure everything's clean
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
 
 ---
 
@@ -75,23 +75,23 @@ run the existing tests one more time to make sure everything's clean
 write tests for the entire production suite
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/consensus.engine.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/wallet/wallet.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/admin/admin.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/fury-router/fury-router.service.spec.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/consensus.engine.spec.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.spec.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.spec.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.controller.spec.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/wallet/wallet.controller.spec.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/admin/admin.controller.spec.ts`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/health/health.controller.spec.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/consensus.engine.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/wallet/wallet.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/admin/admin.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/fury-router/fury-router.service.spec.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/consensus.engine.spec.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.spec.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.spec.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.controller.spec.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/wallet/wallet.controller.spec.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/admin/admin.controller.spec.ts`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/health/health.controller.spec.ts`
 - Bash: `npx jest 2>&1`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.spec.ts`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.spec.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.spec.ts`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.spec.ts`
 - Bash: `npx jest 2>&1`
 
 ---
@@ -103,7 +103,7 @@ stage all, commit all, origin push
 **Actions taken:**
 - Bash: `git status && git log --oneline -3`
 - Bash: `pwd`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
 - Bash: `git add src/api/src/modules/admin/admin.controller.spec.ts src/api/src/modules/c`
 - Bash: `git commit -m "$(cat <<'EOF'
 test: add 73 unit tests for all new NestJS modules
@@ -117,7 +117,7 @@ test: add 73 unit tests for all new NestJS modules
 run the existing tests one more time to make sure everything's clean
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
 
 ---
 
@@ -126,7 +126,7 @@ run the existing tests one more time to make sure everything's clean
 commit this and push
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
 
 ---
 
@@ -136,26 +136,26 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/rustling-wondering-pancake.md`
+- Read `~/.claude/plans/rustling-wondering-pancake.md`
 - Task
 - Task
 - Task
 - Task
 - Glob `src/web/**/*.{ts,tsx}`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/fury/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/wallet/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/fury/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/wallet/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/page.tsx`
 - Grep `Tasks for AI Engineer`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/GeminiClient.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/escrow.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/package.json`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/utils/linguistic-cloak.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/EscrowConnect.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/intelligence/GeminiClient.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/services/escrow/escrow.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/utils/linguistic-cloak.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/EscrowConnect.tsx`
 - Glob `docs/architecture/there+back-again.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/hr/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/Leaderboard.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/architecture/there+back-again.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/hr/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/Leaderboard.tsx`
 - *...and 14 more*
 
 ---
@@ -174,20 +174,20 @@ Let me chronologically analyze the entire conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/rustling-wondering-pancake.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/layout.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/package.json`
+- Read `~/.claude/plans/rustling-wondering-pancake.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/layout.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/package.json`
 - Glob `src/web/lib/**/*`
 - Grep `fetch|localhost|api|API_URL`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/fury/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/wallet/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/Dockerfile`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docker-compose.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/fury/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/wallet/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/Dockerfile`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docker-compose.yml`
 - Grep `getUserContracts`
-- Write `/Users/4jp/.claude/plans/rustling-wondering-pancake.md`
+- Write `~/.claude/plans/rustling-wondering-pancake.md`
 - ExitPlanMode
 
 ---

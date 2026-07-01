@@ -26,23 +26,23 @@ Implement the following plan:
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/tools/health.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/server.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/tests/test_tools.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_omega.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/timeseries.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/data/loader.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/__init__.py`
+- Read `~/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/tools/health.py`
+- Read `~/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/server.py`
+- Read `~/Workspace/meta-organvm/organvm-mcp-server/tests/test_tools.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/test_omega.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/timeseries.py`
+- Read `~/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/data/loader.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/__init__.py`
 - Glob `**/rolling-todo*`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/data/paths.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/tools/health.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/tests/test_tools.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
+- Read `~/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/data/paths.py`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
+- Edit `~/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/tools/health.py`
+- Edit `~/Workspace/meta-organvm/organvm-mcp-server/tests/test_tools.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
 - *...and 42 more*
 
 ---
@@ -55,18 +55,18 @@ stage all, commit all, origin push;
 - Bash: `git status`
 - Bash: `git diff --stat HEAD`
 - Bash: `git log --oneline -5`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git diff --stat HEAD`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git diff --stat HEAD`
 - Bash: `git add src/organvm_engine/cli.py src/organvm_engine/ci/ src/organvm_engine/dead`
 - Bash: `git status`
 - Bash: `git commit -m "$(cat <<'EOF'
 feat: add omega snapshots, CI triage, deadline surf`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git add src/organvm_m`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git push origin main`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git add src/organvm_m`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git push origin main`
 - Bash: `git push origin main`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git push origin main`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && git add organvm-engine organvm-mcp-serve`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git push origin main`
+- Bash: `cd ~/Workspace/meta-organvm && git add organvm-engine organvm-mcp-serve`
 - Bash: `git commit -m "$(cat <<'EOF'
 feat: sync submodule pointers after PROPULSIO — ome`
 - Bash: `git push origin main`
@@ -79,13 +79,13 @@ there is still a dirty local
 
 **Actions taken:**
 - Bash: `git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/system-dashboard && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status`
+- Bash: `cd ~/Workspace/meta-organvm/system-dashboard && git status`
 - Bash: `git diff --stat`
 - Bash: `git diff src/dashboard/routes/health.py | head -50`
 - Bash: `git add src/dashboard/routes/essays.py src/dashboard/routes/graph.py src/dashboa`
 - Bash: `git push origin main`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && git add organvm-corpvs-testamentvm syste`
+- Bash: `cd ~/Workspace/meta-organvm && git add organvm-corpvs-testamentvm syste`
 - Bash: `git commit -m "$(cat <<'EOF'
 chore: sync submodule pointers for corpus and dashb`
 - Bash: `git status`
@@ -98,26 +98,26 @@ the following links are live-animated pitch decks for three repos in my system, 
 [2] https://organvm-iii-ergon.github.io/parlor-games--ephemera-engine/; [3] https://organvm-i-theoria.github.io/nexus--babel-alexandria/pitch/;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dynamic-prancing-lollipop.md`
+- Read `~/.claude/plans/dynamic-prancing-lollipop.md`
 - Task
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/ 2`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/ 2>/dev/`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/nexus--babel-alexandria/ 2>/dev/null &`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/pu`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
-- Bash: `ls /Users/4jp/Workspace/organvm-i-theoria/nexus--babel-alexandria/docs/ 2>/dev/n`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchai`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/docs`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-i-theoria/nexus--babel-alexandria/docs/pitch`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/docs`
-- Bash: `wc -l /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain`
-- Bash: `wc -l /Users/4jp/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/docs/`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/index.html`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchai`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/ 2`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/ 2>/dev/`
+- Bash: `ls ~/Workspace/organvm-i-theoria/nexus--babel-alexandria/ 2>/dev/null &`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/pu`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
+- Bash: `ls ~/Workspace/organvm-i-theoria/nexus--babel-alexandria/docs/ 2>/dev/n`
+- Bash: `ls -la ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchai`
+- Bash: `ls -la ~/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/docs`
+- Bash: `ls -la ~/Workspace/organvm-i-theoria/nexus--babel-alexandria/docs/pitch`
+- Bash: `ls -la ~/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/docs`
+- Bash: `wc -l ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain`
+- Bash: `wc -l ~/Workspace/organvm-iii-ergon/parlor-games--ephemera-engine/docs/`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/index.html`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `ls -la ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchai`
 - *...and 26 more*
 
 ---

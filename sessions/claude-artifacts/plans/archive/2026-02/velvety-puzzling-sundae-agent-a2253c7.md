@@ -117,9 +117,9 @@ interface BankAccountValidation {
 
 ## Files to Create
 
-1. `/Users/4jp/Workspace/public-record-data-scrapper/server/integrations/ach/client.ts`
-2. `/Users/4jp/Workspace/public-record-data-scrapper/server/integrations/ach/index.ts`
+1. `~/Workspace/public-record-data-scrapper/server/integrations/ach/client.ts`
+2. `~/Workspace/public-record-data-scrapper/server/integrations/ach/index.ts`
 
 ## Files to Modify
 
-1. `/Users/4jp/Workspace/public-record-data-scrapper/server/integrations/index.ts` - Add ACH export
+1. `~/Workspace/public-record-data-scrapper/server/integrations/index.ts` - Add ACH export

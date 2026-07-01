@@ -26,26 +26,26 @@ What to add:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-v-logos/CLAUDE.md`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-v-logos/`
+- Read `~/Workspace/organvm-v-logos/CLAUDE.md`
+- Bash: `ls -la ~/Workspace/organvm-v-logos/`
 - Glob `**/seed.yaml`
 - Glob `**/README.md`
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-v-logos/.gitmodules`
-- Read `/Users/4jp/Workspace/organvm-v-logos/README-superproject.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/AGENTS.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/GEMINI.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/.gitignore`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-v-logos/public-process/`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-v-logos/essay-pipeline/`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-v-logos/analytics-engine/`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-v-logos/editorial-standards/`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-v-logos/reading-observatory/`
-- Bash: `ls -R /Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/ /Users/4jp/Worksp`
-- Bash: `ls -R /Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/ /Users/4`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_config.yml`
+- Read `~/Workspace/organvm-v-logos/.gitmodules`
+- Read `~/Workspace/organvm-v-logos/README-superproject.md`
+- Read `~/Workspace/organvm-v-logos/AGENTS.md`
+- Read `~/Workspace/organvm-v-logos/GEMINI.md`
+- Read `~/Workspace/organvm-v-logos/.gitignore`
+- Bash: `ls -la ~/Workspace/organvm-v-logos/public-process/`
+- Bash: `ls -la ~/Workspace/organvm-v-logos/essay-pipeline/`
+- Bash: `ls -la ~/Workspace/organvm-v-logos/analytics-engine/`
+- Bash: `ls -la ~/Workspace/organvm-v-logos/editorial-standards/`
+- Bash: `ls -la ~/Workspace/organvm-v-logos/reading-observatory/`
+- Bash: `ls -R ~/Workspace/organvm-v-logos/essay-pipeline/src/ ~/Worksp`
+- Bash: `ls -R ~/Workspace/organvm-v-logos/editorial-standards/schemas/ /Users/4`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/pyproject.toml`
+- Read `~/Workspace/organvm-v-logos/public-process/_config.yml`
 - *...and 16 more*
 
 ---
@@ -71,21 +71,21 @@ docs: rewrite CLAUDE.md to ref`
 commit and push the submodule changes too
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/.github && git status`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git status`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/.github && git diff HEAD -- AGENTS.md CL`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git diff CLAUDE.md`
+- Bash: `cd ~/Workspace/organvm-v-logos/.github && git status`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git status`
+- Bash: `cd ~/Workspace/organvm-v-logos/.github && git diff HEAD -- AGENTS.md CL`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git diff CLAUDE.md`
 - Bash: `wc -l AGENTS.md GEMINI.md`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/.github && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/.github && git add AGENTS.md CLAUDE.md G`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git add CLAUDE.md AGEN`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/.github && git push origin main`
+- Bash: `cd ~/Workspace/organvm-v-logos/.github && git log --oneline -3`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git log --oneline -3`
+- Bash: `cd ~/Workspace/organvm-v-logos/.github && git add AGENTS.md CLAUDE.md G`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git add CLAUDE.md AGEN`
+- Bash: `cd ~/Workspace/organvm-v-logos/.github && git push origin main`
 - Bash: `git push origin main`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git push origin main`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git pull --rebase orig`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git push origin main`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git pull --rebase orig`
 - Bash: `git push origin main`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos && git add .github public-process && git`
+- Bash: `cd ~/Workspace/organvm-v-logos && git add .github public-process && git`
 
 ---
 
@@ -121,7 +121,7 @@ check all submodules are up to date with their remotes
 fix the tracking on public-process
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git branch --set-upstr`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git branch --set-upstr`
 
 ---
 
@@ -138,23 +138,23 @@ description: Systematic content evaluation framework progressing through Critiqu
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_validator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_indexer.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/category-taxonomy.yaml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/tag-governance.yaml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/quality-rubric.yaml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/templates/meta-system.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_layouts/essay.html`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_layouts/default.html`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_includes/analytics.html`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_includes/header.html`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_includes/footer.html`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_validator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_indexer.py`
+- Read `~/Workspace/organvm-v-logos/editorial-standards/schemas/category-taxonomy.yaml`
+- Read `~/Workspace/organvm-v-logos/editorial-standards/schemas/tag-governance.yaml`
+- Read `~/Workspace/organvm-v-logos/editorial-standards/schemas/quality-rubric.yaml`
+- Read `~/Workspace/organvm-v-logos/editorial-standards/templates/meta-system.md`
+- Read `~/Workspace/organvm-v-logos/public-process/_layouts/essay.html`
+- Read `~/Workspace/organvm-v-logos/public-process/_layouts/default.html`
+- Read `~/Workspace/organvm-v-logos/public-process/_includes/analytics.html`
+- Read `~/Workspace/organvm-v-logos/public-process/_includes/header.html`
+- Read `~/Workspace/organvm-v-logos/public-process/_includes/footer.html`
 - Bash: `ls _posts/ | head -5 && echo "---" && ls _posts/ | tail -5`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_posts/2026-02-10-building-in-public.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_posts/2026-02-18-the-solo-auteur-method.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/analytics-engine/README.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/reading-observatory/README.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/analytics-engine/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-v-logos/public-process/_posts/2026-02-10-building-in-public.md`
+- Read `~/Workspace/organvm-v-logos/public-process/_posts/2026-02-18-the-solo-auteur-method.md`
+- Read `~/Workspace/organvm-v-logos/analytics-engine/README.md`
+- Read `~/Workspace/organvm-v-logos/reading-observatory/README.md`
+- Read `~/Workspace/organvm-v-logos/analytics-engine/.github/workflows/ci.yml`
 - *...and 20 more*
 
 ---

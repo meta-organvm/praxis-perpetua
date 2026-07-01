@@ -29,22 +29,22 @@ The `research/` directory in `organvm-iv-taxis` contains 16 markdown files (~480
 **Actions taken:**
 - ToolSearch
 - Glob `research/**/*.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/I-am-undisciplined-in-the-tried-true-procedures.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/Orchestrating-Superintelligence-Growth-Commodification.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/I am undisciplined in the tried &amp; true procedu.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/I am undisciplined in the tried &amp; true procedu (1).md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/AI conductor's guide to shipping real software.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/AI Conductor's Software Development Growth.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/process for an AI-conductor in the meta-organvm eight-organ system.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/Operating Safely and Effectively When Writing With AI Assistants.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/is it wise to record all of my writing elsewhere b.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/Recording and Protecting Your Writing Before Using AI Assistants.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/guide to documenting, prompting, and protecting your AI interactions.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/AI Interaction Best Practices And Protocols.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/Audit of Your Homebrew Inventory for AI-Agentic Capability.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/100% Free, Open-Source CLI AI Agents.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/Free CLI AI Agents Search.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/AI-Agentic-Package-Categorization.md`
+- Read `~/Workspace/organvm-iv-taxis/research/I-am-undisciplined-in-the-tried-true-procedures.md`
+- Read `~/Workspace/organvm-iv-taxis/research/Orchestrating-Superintelligence-Growth-Commodification.md`
+- Read `~/Workspace/organvm-iv-taxis/research/I am undisciplined in the tried &amp; true procedu.md`
+- Read `~/Workspace/organvm-iv-taxis/research/I am undisciplined in the tried &amp; true procedu (1).md`
+- Read `~/Workspace/organvm-iv-taxis/research/AI conductor's guide to shipping real software.md`
+- Read `~/Workspace/organvm-iv-taxis/research/AI Conductor's Software Development Growth.md`
+- Read `~/Workspace/organvm-iv-taxis/research/process for an AI-conductor in the meta-organvm eight-organ system.md`
+- Read `~/Workspace/organvm-iv-taxis/research/Operating Safely and Effectively When Writing With AI Assistants.md`
+- Read `~/Workspace/organvm-iv-taxis/research/is it wise to record all of my writing elsewhere b.md`
+- Read `~/Workspace/organvm-iv-taxis/research/Recording and Protecting Your Writing Before Using AI Assistants.md`
+- Read `~/Workspace/organvm-iv-taxis/research/guide to documenting, prompting, and protecting your AI interactions.md`
+- Read `~/Workspace/organvm-iv-taxis/research/AI Interaction Best Practices And Protocols.md`
+- Read `~/Workspace/organvm-iv-taxis/research/Audit of Your Homebrew Inventory for AI-Agentic Capability.md`
+- Read `~/Workspace/organvm-iv-taxis/research/100% Free, Open-Source CLI AI Agents.md`
+- Read `~/Workspace/organvm-iv-taxis/research/Free CLI AI Agents Search.md`
+- Read `~/Workspace/organvm-iv-taxis/research/AI-Agentic-Package-Categorization.md`
 - Bash: `ls research/`
 - Bash: `wc -l research/*.md | sort -n`
 - *...and 17 more*
@@ -63,7 +63,7 @@ Summary:
 
 **Actions taken:**
 - ToolSearch
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/FEATURE-BACKLOG.md`
+- Read `~/Workspace/organvm-iv-taxis/research/FEATURE-BACKLOG.md`
 - Bash: `gh issue create --repo organvm-iv-taxis/orchestration-start-here --title "Adopt `
 - Bash: `gh issue create --repo organvm-iv-taxis/orchestration-start-here --title "Implem`
 - Bash: `gh issue create --repo organvm-iv-taxis/orchestration-start-here --title "Enforc`
@@ -123,25 +123,25 @@ proceed with implementing all suggestions exhaustively
 
 **Actions taken:**
 - ToolSearch
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/audit-completeness-proof--2026-03-06.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/FEATURE-BACKLOG.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
+- Read `~/Workspace/organvm-iv-taxis/research/audit-completeness-proof--2026-03-06.md`
+- Read `~/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
+- Read `~/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
+- Read `~/Workspace/organvm-iv-taxis/research/FEATURE-BACKLOG.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/SYLLABUS.md`
 - Agent: "You need to add amendment comments to 5 existing GitHub issu"
 - Agent: "You need to create 14 new GitHub issues across 4 repos based"
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
-- Bash: `tail -50 /private/tmp/claude-501/-Users-4jp-Workspace-organvm-iv-taxis/tasks/a42`
-- Bash: `tail -50 /private/tmp/claude-501/-Users-4jp-Workspace-organvm-iv-taxis/tasks/a16`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/audit-summary--2026-03-06.md`
-- Edit `/Users/4jp/Workspace/organvm-iv-taxis/research/audit-summary--2026-03-06.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/synthesis--cross-cutting-themes.md`
+- Bash: `tail -50 /private/tmp/claude-501/-Users-[user]-Workspace-organvm-iv-taxis/tasks/a42`
+- Bash: `tail -50 /private/tmp/claude-501/-Users-[user]-Workspace-organvm-iv-taxis/tasks/a16`
+- Read `~/Workspace/organvm-iv-taxis/research/audit-summary--2026-03-06.md`
+- Edit `~/Workspace/organvm-iv-taxis/research/audit-summary--2026-03-06.md`
 - *...and 18 more*
 
 ---
@@ -151,17 +151,17 @@ proceed with implementing all suggestions exhaustively
 now, as a designer of S&P, your own worst critic, and expert on reproducibility: desing/revise/update the SOP for this process to be used in every location requiring research (evrywhere);
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/jiggly-purring-fern.md`
+- Read `~/.claude/plans/jiggly-purring-fern.md`
 - ToolSearch
 - Glob `**/sop--document-audit*.md`
 - Glob `**/docs/operations/sop*.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
 - Agent: "Thoroughness: quick. I need to understand:
 
 1. Are there any"
 - Agent: "You are designing a major revision (v2.0) of a Document Audi"
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/research/MANIFEST.md`
-- Write `/Users/4jp/.claude/plans/jiggly-purring-fern.md`
+- Read `~/Workspace/organvm-iv-taxis/research/MANIFEST.md`
+- Write `~/.claude/plans/jiggly-purring-fern.md`
 - ToolSearch
 - ExitPlanMode
 

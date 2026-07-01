@@ -24,20 +24,20 @@ The pipeline has 42 entries, a rubric system, a daily batch planner — and **ze
 
 **Actions taken:**
 - Task
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/validate.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/daily_batch.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/docs/workflow.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/validate.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/daily_batch.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
+- Read `~/Workspace/4444J99/application-pipeline/docs/workflow.md`
+- Read `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
 - Glob `pipeline/active/*.yaml`
 - Glob `signals/*`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/watermill-center.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/creative-capital-2027.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/watermill-center.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/creative-capital-2027.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
 - Glob `pipeline/closed/*`
 - Glob `scripts/*.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/scoring_rubric.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/scoring_rubric.py`
 - TaskCreate
 - TaskCreate
 - TaskCreate
@@ -70,26 +70,26 @@ description: Systematic content evaluation framework progressing through Critiqu
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/serene-bubbling-parrot.md`
+- Read `~/.claude/plans/serene-bubbling-parrot.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/compose.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/conversion_report.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/check_metrics.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/migrate.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/compose.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/conversion_report.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/check_metrics.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/migrate.py`
 - Glob `strategy/*`
 - Glob `blocks/**/*.md`
 - Glob `variants/**/*`
 - Glob `targets/**/*`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/scoring-rubric.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/storefront-playbook.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/identity/60s.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/identity/cathedral.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/metrics-snapshot.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/patterns.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/signal-map.md`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/scoring-rubric.md`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/storefront-playbook.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/identity/60s.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/identity/cathedral.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/evidence/metrics-snapshot.md`
+- Read `~/Workspace/4444J99/application-pipeline/signals/patterns.md`
+- Read `~/Workspace/4444J99/application-pipeline/signals/signal-map.md`
 - *...and 14 more*
 
 ---

@@ -22,7 +22,7 @@ production:
   cadence: biweekly
 
 ownership:
-  lead: "4jp"
+  lead: "[user]"
   collaborators:
     - handle: "chris"
       role: contributor

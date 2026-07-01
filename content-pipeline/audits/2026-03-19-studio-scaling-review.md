@@ -192,7 +192,7 @@ schema_version: "1.1"
 
 # NEW: Ownership and access
 ownership:
-  lead: "4jp"                              # Primary responsible human
+  lead: "[user]"                              # Primary responsible human
   collaborators:
     - handle: "chris"
       role: contributor                    # contributor | reviewer | lead

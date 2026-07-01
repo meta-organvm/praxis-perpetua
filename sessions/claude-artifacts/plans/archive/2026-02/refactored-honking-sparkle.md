@@ -4,7 +4,7 @@
 Serena MCP server opens a browser window to its web dashboard every time Claude Code starts, which is disruptive.
 
 ## Solution
-Change one setting in `/Users/4jp/.serena/serena_config.yml`:
+Change one setting in `~/.serena/serena_config.yml`:
 
 ```yaml
 # Line 35 - change from:
@@ -23,7 +23,7 @@ If you ever need the dashboard, you can still access it manually at:
 `http://localhost:24282/dashboard/`
 
 ## Files to Modify
-- `/Users/4jp/.serena/serena_config.yml` (line 35)
+- `~/.serena/serena_config.yml` (line 35)
 
 ## Verification
 1. Restart Claude Code

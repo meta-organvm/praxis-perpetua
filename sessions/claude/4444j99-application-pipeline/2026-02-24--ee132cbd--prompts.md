@@ -21,26 +21,26 @@ krypto-velamen (`organvm-ii-poiesis/krypto-velamen`) is a major ORGAN-II queer a
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/organvm-system.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/drafts/gay-lesbian-review.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/projects/organvm-system.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/drafts/gay-lesbian-review.md`
 - Glob `blocks/pitches/gay-lesbian-review.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/pitches/gay-lesbian-review.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/gay-lesbian-review.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/fire-island-residency.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/wff-housing.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/pitches/gay-lesbian-review.md`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/gay-lesbian-review.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/fire-island-residency.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/wff-housing.yaml`
 - Glob `pipeline/active/queer-art*.yaml`
 - Glob `pipeline/active/lambda-literary*.yaml`
 - Glob `pipeline/active/pen-america*.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/queer-art.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/lambda-literary.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/pen-america.yaml`
-- Write `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/projects/krypto-velamen.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/queer-art.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/lambda-literary.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/pen-america.yaml`
+- Write `~/Workspace/4444J99/application-pipeline/blocks/projects/krypto-velamen.md`
+- Edit `~/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
+- Edit `~/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
+- Edit `~/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/evidence/work-samples.md`
 - *...and 1 more*
 
 ---
@@ -71,25 +71,25 @@ feat: add krypto-velamen project block and wire int`
 yes
 
 **Actions taken:**
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
-- Write `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/pitches/gay-lesbian-review.md`
-- Write `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/drafts/gay-lesbian-review.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/gay-lesbian-review.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/fire-island-residency.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/queer-art.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/lambda-literary.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/pen-america.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/wff-housing.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/wff-housing.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/queer-art.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/lambda-literary.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/pen-america.yaml`
-- Bash: `git -C /Users/4jp/Workspace/4444J99/application-pipeline status`
-- Bash: `git -C /Users/4jp/Workspace/4444J99/application-pipeline diff --stat`
-- Bash: `git -C /Users/4jp/Workspace/4444J99/application-pipeline add blocks/framings/com`
-- Bash: `git -C /Users/4jp/Workspace/4444J99/application-pipeline push origin main`
+- Edit `~/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
+- Edit `~/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
+- Edit `~/Workspace/4444J99/application-pipeline/blocks/framings/community-practitioner.md`
+- Write `~/Workspace/4444J99/application-pipeline/blocks/pitches/gay-lesbian-review.md`
+- Write `~/Workspace/4444J99/application-pipeline/pipeline/drafts/gay-lesbian-review.md`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/gay-lesbian-review.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/fire-island-residency.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/queer-art.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/lambda-literary.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/pen-america.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/wff-housing.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/wff-housing.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/queer-art.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/lambda-literary.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/pen-america.yaml`
+- Bash: `git -C ~/Workspace/4444J99/application-pipeline status`
+- Bash: `git -C ~/Workspace/4444J99/application-pipeline diff --stat`
+- Bash: `git -C ~/Workspace/4444J99/application-pipeline add blocks/framings/com`
+- Bash: `git -C ~/Workspace/4444J99/application-pipeline push origin main`
 
 ---
 
@@ -98,7 +98,7 @@ yes
 okay so what do i apply to first?
 
 **Actions taken:**
-- Bash: `python /Users/4jp/Workspace/4444J99/application-pipeline/scripts/standup.py`
+- Bash: `python ~/Workspace/4444J99/application-pipeline/scripts/standup.py`
 
 ---
 
@@ -107,50 +107,50 @@ okay so what do i apply to first?
 okay let's do Prix first
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/prix-ars-electronica.yaml`
-- Bash: `python /Users/4jp/Workspace/4444J99/application-pipeline/scripts/preflight.py --`
-- Bash: `python /Users/4jp/Workspace/4444J99/application-pipeline/scripts/submit.py --tar`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/prix-ars-electronica.yaml`
+- Bash: `python ~/Workspace/4444J99/application-pipeline/scripts/preflight.py --`
+- Bash: `python ~/Workspace/4444J99/application-pipeline/scripts/submit.py --tar`
 - Task
 
 ---
 
 ### P7 — 2026-02-24 15:34:39
 
-let's first deduce the landscape, who tends to win, who is judging, and what projects i have that would best fit: /Users/4jp/Downloads/Digital\ Humanity\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：28：05\ AM\).html /Users/4jp/Downloads/Interactive\ Art\ ＋\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：28：58\ AM\).html /Users/4jp/Downloads/Winners\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：31：58\ AM\).html /Users/4jp/Downloads/Jury\ 2026\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：32：32\ AM\).html
+let's first deduce the landscape, who tends to win, who is judging, and what projects i have that would best fit: ~/Downloads/Digital\ Humanity\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：28：05\ AM\).html ~/Downloads/Interactive\ Art\ ＋\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：28：58\ AM\).html ~/Downloads/Winners\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：31：58\ AM\).html ~/Downloads/Jury\ 2026\ –\ Prix\ Ars\ Electronica\ \(2_24_2026\ 10：32：32\ AM\).html
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/eager-frolicking-lollipop.md`
-- Read `/Users/4jp/Downloads/Digital Humanity – Prix Ars Electronica (2_24_2026 10：28：05 AM).html`
-- Read `/Users/4jp/Downloads/Interactive Art ＋ – Prix Ars Electronica (2_24_2026 10：28：58 AM).html`
-- Read `/Users/4jp/Downloads/Winners – Prix Ars Electronica (2_24_2026 10：31：58 AM).html`
-- Read `/Users/4jp/Downloads/Jury 2026 – Prix Ars Electronica (2_24_2026 10：32：32 AM).html`
+- Read `~/.claude/plans/eager-frolicking-lollipop.md`
+- Read `~/Downloads/Digital Humanity – Prix Ars Electronica (2_24_2026 10：28：05 AM).html`
+- Read `~/Downloads/Interactive Art ＋ – Prix Ars Electronica (2_24_2026 10：28：58 AM).html`
+- Read `~/Downloads/Winners – Prix Ars Electronica (2_24_2026 10：31：58 AM).html`
+- Read `~/Downloads/Jury 2026 – Prix Ars Electronica (2_24_2026 10：32：32 AM).html`
 - Task
 - Task
 - Task
 - Grep `(Golden Nica|Award of Distinction|Honorary Mention|winner|Winner)`
 - Grep `(jury|Jury|juror|member|curator|professor|director|artist)`
 - Grep `(Digital Humanity|category|submit|criteria|project|artwork|social|community)`
-- Read `/Users/4jp/Downloads/Winners – Prix Ars Electronica (2_24_2026 10：31：58 AM).html`
-- Read `/Users/4jp/Downloads/Jury 2026 – Prix Ars Electronica (2_24_2026 10：32：32 AM).html`
-- Read `/Users/4jp/Downloads/Digital Humanity – Prix Ars Electronica (2_24_2026 10：28：05 AM).html`
+- Read `~/Downloads/Winners – Prix Ars Electronica (2_24_2026 10：31：58 AM).html`
+- Read `~/Downloads/Jury 2026 – Prix Ars Electronica (2_24_2026 10：32：32 AM).html`
+- Read `~/Downloads/Digital Humanity – Prix Ars Electronica (2_24_2026 10：28：05 AM).html`
 - Bash: `python3 -c "
 import html, re, sys
-with open('/Users/4jp/Downloads/Winners – Prix`
+with open('~/Downloads/Winners – Prix`
 - Bash: `python3 -c "
 import html, re
-with open('/Users/4jp/Downloads/Jury 2026 – Prix Ar`
+with open('~/Downloads/Jury 2026 – Prix Ar`
 - Bash: `python3 -c "
 import html, re
-with open('/Users/4jp/Downloads/Interactive Art ＋ –`
+with open('~/Downloads/Interactive Art ＋ –`
 - Bash: `python3 -c "
 import html, re
-with open('/Users/4jp/Downloads/Winners – Prix Ars `
+with open('~/Downloads/Winners – Prix Ars `
 - Bash: `python3 -c "
 import html, re
-with open('/Users/4jp/Downloads/Jury 2026 – Prix Ar`
+with open('~/Downloads/Jury 2026 – Prix Ar`
 - Bash: `python3 -c "
 import html, re
-with open('/Users/4jp/Downloads/Digital Humanity – `
+with open('~/Downloads/Digital Humanity – `
 - *...and 7 more*
 
 ---
@@ -166,27 +166,27 @@ with open('/Users/4jp/Downloads/Digital Humanity – `
 why are you replacing the previous plan? was it already implemented? the plans should ALWAYS GET SAVED; new plans get added;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/eager-frolicking-lollipop.md`
-- Edit `/Users/4jp/.claude/plans/eager-frolicking-lollipop.md`
+- Read `~/.claude/plans/eager-frolicking-lollipop.md`
+- Edit `~/.claude/plans/eager-frolicking-lollipop.md`
 - AskUserQuestion
 - Task
-- Bash: `ls /Users/4jp/Workspace/organvm-ii-poiesis/ 2>/dev/null | head -40`
-- Bash: `ls /Users/4jp/Workspace/4444J99/portfolio/src/data/ 2>/dev/null`
+- Bash: `ls ~/Workspace/organvm-ii-poiesis/ 2>/dev/null | head -40`
+- Bash: `ls ~/Workspace/4444J99/portfolio/src/data/ 2>/dev/null`
 - Bash: `python3 -c "
 import json
-with open('/Users/4jp/Workspace/4444J99/portfolio/src/d`
+with open('~/Workspace/4444J99/portfolio/src/d`
 - Bash: `for d in omni-dromenon metasystem-master krypto-velamen life-betterment-simulati`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/projects.json`
+- Read `~/Workspace/4444J99/portfolio/src/data/projects.json`
 - Bash: `for d in metasystem-master krypto-velamen life-betterment-simulation chthon-onei`
 - Bash: `for d in life-my--midst--in; do
-  readme="/Users/4jp/Workspace/organvm-iii-ergon`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/projects.json`
+  readme="~/Workspace/organvm-iii-ergon`
+- Read `~/Workspace/4444J99/portfolio/src/data/projects.json`
 - AskUserQuestion
-- Read `/Users/4jp/Workspace/organvm-i-theoria/nexus--babel-alexandria/README.md`
-- Edit `/Users/4jp/.claude/plans/eager-frolicking-lollipop.md`
-- Edit `/Users/4jp/.claude/plans/eager-frolicking-lollipop.md`
-- Edit `/Users/4jp/.claude/plans/eager-frolicking-lollipop.md`
-- Edit `/Users/4jp/.claude/plans/eager-frolicking-lollipop.md`
+- Read `~/Workspace/organvm-i-theoria/nexus--babel-alexandria/README.md`
+- Edit `~/.claude/plans/eager-frolicking-lollipop.md`
+- Edit `~/.claude/plans/eager-frolicking-lollipop.md`
+- Edit `~/.claude/plans/eager-frolicking-lollipop.md`
+- Edit `~/.claude/plans/eager-frolicking-lollipop.md`
 - ToolSearch
 - ExitPlanMode
 - *...and 24 more*

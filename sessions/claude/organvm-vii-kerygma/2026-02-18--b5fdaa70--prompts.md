@@ -41,7 +41,7 @@ ORGAN-VII (Kerygma) has ~289K words of documentation across 3 repos + .github bu
 
 ### P3 — 2026-02-18 00:10:45
 
-Base directory for this skill: /Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
+Base directory for this skill: ~/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
 
 # Executing Plans
 
@@ -62,26 +62,26 @@ Load plan, review critically, execute tasks in batches, report for review betwee
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/`
 - Task
-- Bash: `find /Users/4jp/Workspace/organvm-vii-kerygma -type f -not -path '*/.git/*' -not`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/src/__init__.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/src/mastodon.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/src/discord.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/src/posse.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/tests/test_mastodon.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/tests/test_discord.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/tests/test_posse.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/src/__init__.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/src/analytics.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/src/channels.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/src/scheduler.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/tests/test_analytics.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/tests/test_channels.py`
+- Bash: `find ~/Workspace/organvm-vii-kerygma -type f -not -path '*/.git/*' -not`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/src/__init__.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/src/mastodon.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/src/discord.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/src/posse.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/pyproject.toml`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/tests/test_mastodon.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/tests/test_discord.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/tests/test_posse.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/src/__init__.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/src/analytics.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/src/channels.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/src/scheduler.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/pyproject.toml`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/tests/test_analytics.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/tests/test_channels.py`
 - *...and 133 more*
 
 ---
@@ -103,17 +103,17 @@ Let me chronologically analyze the conversation:
 - TaskList
 - Glob `**/dispatch-receiver.yml`
 - Glob `tests/**`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
+- Read `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
 - Glob `kerygma_config*`
-- Write `/Users/4jp/Workspace/organvm-vii-kerygma/tests/__init__.py`
-- Write `/Users/4jp/Workspace/organvm-vii-kerygma/tests/test_pipeline_integration.py`
-- Write `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma_config.example.yaml`
-- Write `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
-- Write `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma && source .venv/bin/activate && cd a`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma && source .venv/bin/activate && cd s`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma && source .venv/bin/activate && cd d`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma && source .venv/bin/activate && pyth`
+- Write `~/Workspace/organvm-vii-kerygma/tests/__init__.py`
+- Write `~/Workspace/organvm-vii-kerygma/tests/test_pipeline_integration.py`
+- Write `~/Workspace/organvm-vii-kerygma/kerygma_config.example.yaml`
+- Write `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
+- Write `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma && source .venv/bin/activate && cd a`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma && source .venv/bin/activate && cd s`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma && source .venv/bin/activate && cd d`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma && source .venv/bin/activate && pyth`
 - Bash: `source .venv/bin/activate && pytest tests/ -v 2>&1`
 - Bash: `source .venv/bin/activate && python kerygma_pipeline.py templates 2>&1`
 - TaskUpdate
@@ -130,26 +130,26 @@ description: Systematic content evaluation framework progressing through Critiqu
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/transient-hugging-oasis.md`
+- Read `~/.claude/plans/transient-hugging-oasis.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates/kerygma_templates/engine.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates/kerygma_templates/quality_checker.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates/kerygma_templates/registry_loader.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/posse.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/circuit_breaker.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/retry.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/rate_limiter.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/bluesky.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/mastodon.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/delivery_log.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/rss_poller.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/config.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/persistence.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/calendar.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/report_generator.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/analytics.py`
+- Read `~/Workspace/organvm-vii-kerygma/announcement-templates/kerygma_templates/engine.py`
+- Read `~/Workspace/organvm-vii-kerygma/announcement-templates/kerygma_templates/quality_checker.py`
+- Read `~/Workspace/organvm-vii-kerygma/announcement-templates/kerygma_templates/registry_loader.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/posse.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/circuit_breaker.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/retry.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/rate_limiter.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/bluesky.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/mastodon.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/delivery_log.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/rss_poller.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/config.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/persistence.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/calendar.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/report_generator.py`
+- Read `~/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strategy/analytics.py`
 - *...and 9 more*
 
 ---

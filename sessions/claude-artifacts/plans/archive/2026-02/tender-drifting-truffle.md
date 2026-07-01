@@ -21,7 +21,7 @@ Verified working:
 
 ### Step 1: Add error handling to sketch-loader.ts
 
-**File**: `/Users/4jp/Workspace/portfolio/src/components/sketches/sketch-loader.ts`
+**File**: `~/Workspace/portfolio/src/components/sketches/sketch-loader.ts`
 
 Add `.catch(err => console.error(...))` to all three Promise.all chains:
 
@@ -50,8 +50,8 @@ Based on the error from Step 2, fix the underlying issue. Most likely candidates
 
 ## Files to Modify
 
-- `/Users/4jp/Workspace/portfolio/src/components/sketches/sketch-loader.ts` — add error handling
-- `/Users/4jp/Workspace/portfolio/src/components/sketches/background-sketch.ts` — if p5 v2 API fix needed
+- `~/Workspace/portfolio/src/components/sketches/sketch-loader.ts` — add error handling
+- `~/Workspace/portfolio/src/components/sketches/background-sketch.ts` — if p5 v2 API fix needed
 
 ## Verification
 

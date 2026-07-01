@@ -64,8 +64,8 @@ push it
 update the skills location in CLAUDE.md
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/CLAUDE.md`
-- Edit `/Users/4jp/.claude/CLAUDE.md`
+- Read `~/.claude/CLAUDE.md`
+- Edit `~/.claude/CLAUDE.md`
 
 ---
 
@@ -74,26 +74,26 @@ update the skills location in CLAUDE.md
 devise plan to elevate repo to perfection;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dazzling-splashing-cerf.md`
+- Read `~/.claude/plans/dazzling-splashing-cerf.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/a-i--skills/docs/CATEGORIES.md`
-- Bash: `ls /Users/4jp/Workspace/a-i--skills/skills/tools/`
-- Bash: `ls /Users/4jp/Workspace/a-i--skills/skills/knowledge/`
-- Bash: `ls /Users/4jp/Workspace/a-i--skills/skills/development/`
-- Bash: `ls /Users/4jp/Workspace/a-i--skills/staging/`
-- Bash: `ls /Users/4jp/Workspace/a-i--skills/skills/*/ -d | wc -l`
-- Bash: `for dir in /Users/4jp/Workspace/a-i--skills/skills/*/; do basename "$dir"; done `
-- Bash: `for cat in /Users/4jp/Workspace/a-i--skills/skills/*/; do count=$(ls -d "$cat"*/`
+- Read `~/Workspace/a-i--skills/docs/CATEGORIES.md`
+- Bash: `ls ~/Workspace/a-i--skills/skills/tools/`
+- Bash: `ls ~/Workspace/a-i--skills/skills/knowledge/`
+- Bash: `ls ~/Workspace/a-i--skills/skills/development/`
+- Bash: `ls ~/Workspace/a-i--skills/staging/`
+- Bash: `ls ~/Workspace/a-i--skills/skills/*/ -d | wc -l`
+- Bash: `for dir in ~/Workspace/a-i--skills/skills/*/; do basename "$dir"; done `
+- Bash: `for cat in ~/Workspace/a-i--skills/skills/*/; do count=$(ls -d "$cat"*/`
 - Bash: `echo "13+6+26+4+4+9+6+11+4+6+6+6" | bc`
-- Bash: `ls /Users/4jp/Workspace/a-i--skills/.github/workflows/`
-- Read `/Users/4jp/Workspace/a-i--skills/docs/CATEGORIES.md`
-- Read `/Users/4jp/Workspace/a-i--skills/scripts/validate_skills.py`
-- Read `/Users/4jp/Workspace/a-i--skills/scripts/generate_lockfile.py`
-- Read `/Users/4jp/Workspace/a-i--skills/scripts/release.py`
-- Read `/Users/4jp/Workspace/a-i--skills/.github/workflows/validate.yml`
-- Read `/Users/4jp/Workspace/a-i--skills/.github/workflows/validate-skills.yml`
+- Bash: `ls ~/Workspace/a-i--skills/.github/workflows/`
+- Read `~/Workspace/a-i--skills/docs/CATEGORIES.md`
+- Read `~/Workspace/a-i--skills/scripts/validate_skills.py`
+- Read `~/Workspace/a-i--skills/scripts/generate_lockfile.py`
+- Read `~/Workspace/a-i--skills/scripts/release.py`
+- Read `~/Workspace/a-i--skills/.github/workflows/validate.yml`
+- Read `~/Workspace/a-i--skills/.github/workflows/validate-skills.yml`
 - *...and 12 more*
 
 ---

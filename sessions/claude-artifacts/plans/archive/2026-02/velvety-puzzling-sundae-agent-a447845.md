@@ -114,7 +114,7 @@ describe('Contacts API', () => {
   describe('GET /api/contacts', () => {
     it('should return paginated list of contacts', async () => {
       const mockContacts = [
-        { id: testContactId, first_name: 'John', last_name: 'Doe', email: 'john@example.com' }
+        { id: testContactId, first_name: 'John', last_name: 'Doe', email: '[email redacted]' }
       ]
       mockList.mockResolvedValueOnce({
         contacts: mockContacts,
@@ -172,7 +172,7 @@ describe('Contacts API', () => {
         org_id: testOrgId,
         first_name: 'John',
         last_name: 'Doe',
-        email: 'john@example.com'
+        email: '[email redacted]'
       }
       mockCreate.mockResolvedValueOnce({ id: testContactId, ...contactData })
 

@@ -29,10 +29,10 @@ The `.github/SECURITY.md` version table has already been updated (diff applied, 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SECURITY.md`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SUPPORT.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SECURITY.md`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SUPPORT.md`
 - Bash: `git diff .github/SECURITY.md`
 
 ---

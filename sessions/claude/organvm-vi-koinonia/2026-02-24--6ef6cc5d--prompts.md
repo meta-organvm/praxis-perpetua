@@ -24,25 +24,25 @@ But ORGAN-VI is still **not on the internet** and has **hollow spots**:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/seed/load_seed.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/README.md`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/profile/README.md`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/CLAUDE.md`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/seed/load_seed.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/README.md`
+- Read `~/Workspace/organvm-vi-koinonia/.github/profile/README.md`
+- Read `~/Workspace/organvm-vi-koinonia/.github/CLAUDE.md`
 - Glob `koinonia-db/seed/*.json`
 - Task
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/community.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/seed.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/community.py`
+- Read `~/Workspace/organvm-vi-koinonia/.github/seed.yaml`
 - Glob `community-hub/src/community_hub/routes/*.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/app.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/Dockerfile`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/render.yaml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/api.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/community.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/search.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/syllabus.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/feeds.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/live.py`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/community-hub && find tests -name "t`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/app.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/Dockerfile`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/render.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/api.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/community.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/search.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/syllabus.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/feeds.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/live.py`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/community-hub && find tests -name "t`
 - Glob `community-hub/scripts/entrypoint.sh`
 - *...and 38 more*
 
@@ -53,18 +53,18 @@ But ORGAN-VI is still **not on the internet** and has **hollow spots**:
 stage all, commit all, origin push;
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db && git add seed/communit`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/community-hub && git add README.md &`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/.github && git add CLAUDE.md profile`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/README.md`
-- Edit `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/README.md`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/community-hub && git add README.md &`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/.github && git add CLAUDE.md profile`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db && git push origin main`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/community-hub && git push origin mai`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/koinonia-db && git add seed/communit`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/community-hub && git add README.md &`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/.github && git add CLAUDE.md profile`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/README.md`
+- Edit `~/Workspace/organvm-vi-koinonia/community-hub/README.md`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/community-hub && git add README.md &`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/.github && git add CLAUDE.md profile`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/koinonia-db && git push origin main`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/community-hub && git push origin mai`
 - Bash: `git push origin main`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/.github && git push origin main`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia && git status -s`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/.github && git push origin main`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia && git status -s`
 - Bash: `git add koinonia-db community-hub .github && git commit -m "$(cat <<'EOF'
 chore:`
 
@@ -76,15 +76,15 @@ there is still a dirty local
 
 **Actions taken:**
 - Bash: `git status -s`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus && git lo`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus && git lo`
 - Bash: `git diff reading-group-curriculum && git diff salon-archive`
 - Bash: `git diff adaptive-personal-syllabus reading-group-curriculum salon-archive`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus && git lo`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum && git log `
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/salon-archive && git log --oneline e`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus && git lo`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/reading-group-curriculum && git log `
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/salon-archive && git log --oneline e`
 - Bash: `git add adaptive-personal-syllabus reading-group-curriculum salon-archive && git`
 - Bash: `pwd`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia && git add adaptive-personal-syllabu`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia && git add adaptive-personal-syllabu`
 - Bash: `git status -s`
 
 ---
@@ -95,19 +95,19 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/playful-exploring-pearl.md`
+- Read `~/.claude/plans/playful-exploring-pearl.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/seed.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/seed.yaml`
 - Glob `*/.github/workflows/*.yml`
 - Grep `TODO|FIXME|HACK|PLACEHOLDER`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/.github/workflows/community-to-kerygma.yml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/.github/workflows/essay-to-community.yml`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-vi-koinonia/.github/.github/workflows/community-to-kerygma.yml`
+- Read `~/Workspace/organvm-vi-koinonia/.github/.github/workflows/essay-to-community.yml`
 - Grep `"organ":\s*"?VI"?|koinonia|community-hub|salon-archive|reading-group|adaptive-personal`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/README.md`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/.github/workflows/dispatch-receiver.yml`
+- Read `~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/README.md`
+- Read `~/Workspace/organvm-vi-koinonia/.github/.github/workflows/dispatch-receiver.yml`
 - Glob `**/registry*.json`
 - Grep `promotion|CANDIDATE|PUBLIC_PROCESS|GRADUATED|omega`
 - Grep `promotion_status|promotion_criteria|validate-deps`

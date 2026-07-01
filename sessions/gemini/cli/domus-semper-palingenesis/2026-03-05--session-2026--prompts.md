@@ -55,7 +55,7 @@ System: Please continue.
 
 ### P7 — 2026-03-05 23:28:17
 
-ensure that both documents were digested 100% no stone unturned, first & foremost; two revelations/questions: should the whole systems orchestrator organ (/Users/4jp/Workspace/organvm-iv-taxis) and the orchestrator itself (/Users/4jp/Workspace/organvm-iv-taxis/agentic-titan) be directly tethered to what we have just refurbished?
+ensure that both documents were digested 100% no stone unturned, first & foremost; two revelations/questions: should the whole systems orchestrator organ (~/Workspace/organvm-iv-taxis) and the orchestrator itself (~/Workspace/organvm-iv-taxis/agentic-titan) be directly tethered to what we have just refurbished?
 
 ---
 
@@ -102,7 +102,7 @@ have we completed work on this repo? and i dont mean just this task or scope? i
 
 ### P13 — 2026-03-06 00:09:24
 
-nothing was deleted correct? i am looking for the repo /Users/4jp/Workspace/tool-interaction-design
+nothing was deleted correct? i am looking for the repo ~/Workspace/tool-interaction-design
 
 ---
 
@@ -120,7 +120,7 @@ double check all the moves in this upheaval to ensure proper landings
 
 ### P16 — 2026-03-06 00:18:25
 
-these are still in the wild, yet not necessarily part of the enterprise organs, unless they fit somewhere: /Users/4jp/System /Users/4jp/tools /Users/4jp/cloudbase-mcp /Users/4jp/Calendar /Users/4jp/blender-mcp /Users/4jp/bin /Users/4jp/Android
+these are still in the wild, yet not necessarily part of the enterprise organs, unless they fit somewhere: ~/System ~/tools ~/cloudbase-mcp ~/Calendar ~/blender-mcp ~/bin ~/Android
 
 ---
 
@@ -175,7 +175,7 @@ okay we need to run and attune chezmoi apply
 
 ### P23 — 2026-03-06 02:22:03
 
-cropped-up-issues: [1] 118-skills awareness to only 10-skills (/Users/4jp/Workspace/organvm-iv-taxis/a-i--skills); [2] the sudden birth of two new ~/ directories (a) /Users/4jp/domus-semper-palingenesis & (b)/Users/4jp/domus-semper-palingenesis;
+cropped-up-issues: [1] 118-skills awareness to only 10-skills (~/Workspace/organvm-iv-taxis/a-i--skills); [2] the sudden birth of two new ~/ directories (a) ~/domus-semper-palingenesis & (b)~/domus-semper-palingenesis;
 
 ---
 

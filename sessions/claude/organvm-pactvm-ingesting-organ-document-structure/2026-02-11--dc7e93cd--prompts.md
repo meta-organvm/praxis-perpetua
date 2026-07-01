@@ -44,7 +44,7 @@ This plan covers all three. Execution
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 - Task
 - Task
 - Task

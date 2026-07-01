@@ -711,7 +711,7 @@ Yes. `12-habitat-governance-lifecycle.md` should be updated to reference:
 
 ### Step 1: Create the repo directory and founding artifact
 
-**Location**: `/Users/4jp/Workspace/meta-organvm/materia-collider/`
+**Location**: `~/Workspace/meta-organvm/materia-collider/`
 
 **Directory structure**:
 ```
@@ -788,7 +788,7 @@ Brief context for AI agents working in the collider:
 
 ### Step 6: Update doc 12
 
-Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/standards/12-habitat-governance-lifecycle.md` to add:
+Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/standards/12-habitat-governance-lifecycle.md` to add:
 - A "Pre-LOCAL: The Materia Collider" section before the LOCAL stage
 - Reference to Titan as the processing engine between collider and organs
 - The director's role at each stage

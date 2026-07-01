@@ -35,26 +35,26 @@ Branch protection on `main` requires 3 status checks that don't all exist:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
 - Glob `.github/workflows/scan-for-secrets*`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/scan-for-secrets.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/scan-for-secrets.yml`
 - Grep `gitleaks`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/safeguard-5-secret-scanning.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/safeguard-5-secret-scanning.yml`
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
-- Edit `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
+- Edit `~/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
 - TaskUpdate
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/security-scan.yml`
 - *...and 3 more*
 
 ---
@@ -76,7 +76,7 @@ commit this and push to origin
 what's next?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/groovy-wobbling-quail.md`
+- Read `~/.claude/plans/groovy-wobbling-quail.md`
 - Task
 - AskUserQuestion
 - Task
@@ -97,7 +97,7 @@ gh r`
 gh run list --branch main --workflow "Docker Bu`
 - Bash: `# Check badge management on main
 gh run list --branch main --workflow "Badge Man`
-- Write `/Users/4jp/.claude/plans/groovy-wobbling-quail.md`
+- Write `~/.claude/plans/groovy-wobbling-quail.md`
 - ExitPlanMode
 
 ---

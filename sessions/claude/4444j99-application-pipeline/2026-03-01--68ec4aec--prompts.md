@@ -39,18 +39,18 @@ launch multiple research agents to full understand the landscape of securing a j
 launch multiple research agents to full understand the landscape of securing a job in March 2026
 
 **Actions taken:**
-- Agent: "Explore the application pipeline at /Users/4jp/Workspace/444"
+- Agent: "Explore the application pipeline at ~/Workspace/444"
 - Agent: "Research the current job market landscape as of March 2026 a"
-- Agent: "Quick codebase exploration of /Users/4jp/Workspace/4444J99/a"
+- Agent: "Quick codebase exploration of ~/Workspace/4444J99/a"
 - Glob `pipeline/active/*.yaml`
 - Glob `pipeline/submitted/*.yaml`
 - Glob `pipeline/research_pool/*.yaml`
 - Grep `^status:|^  name:|^  deadline:|^identity_position:|^effort:`
 - Grep `^status:`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/patterns.md`
+- Read `~/Workspace/4444J99/application-pipeline/signals/patterns.md`
 - Grep `deadline:|  name:|identity_position:|effort:|application_url:`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
-- Write `/Users/4jp/.claude/plans/binary-discovering-canyon.md`
+- Read `~/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
+- Write `~/.claude/plans/binary-discovering-canyon.md`
 - ExitPlanMode
 
 ---

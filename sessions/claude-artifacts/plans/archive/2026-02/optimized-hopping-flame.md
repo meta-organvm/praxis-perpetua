@@ -25,7 +25,7 @@ gh run cancel 22319461489 --repo 4444J99/portfolio  # dependabot PR (5h+ stuck)
 
 ### Step 2: Add concurrency + timeout to quality.yml
 
-**File:** `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/quality.yml`
+**File:** `~/Workspace/4444J99/portfolio/.github/workflows/quality.yml`
 
 Add after `permissions:` block (before `jobs:`):
 ```yaml
@@ -38,7 +38,7 @@ Add `timeout-minutes: 30` to the `build-and-test` job. 30 minutes is generous fo
 
 ### Step 3: Add concurrency to deploy.yml
 
-**File:** `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/deploy.yml`
+**File:** `~/Workspace/4444J99/portfolio/.github/workflows/deploy.yml`
 
 Already has concurrency for `pages` group — no change needed.
 

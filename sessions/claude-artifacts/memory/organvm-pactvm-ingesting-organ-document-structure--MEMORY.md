@@ -12,8 +12,8 @@
 
 ## Git Push Pattern
 - `git clone` and `git push` hang on this machine (SSH key passphrase prompt)
-- **Root cause**: Global git config has `url.git@github.com:.insteadof=https://github.com/` — rewrites ALL HTTPS to SSH. Stored URLs in .git/config are HTTPS, but `git remote -v` shows resolved SSH.
-- **Preferred: HTTPS push** — `git -c "url.https://x-access-token:$(gh auth token)@github.com/.insteadOf=git@github.com:" push origin main`
+- **Root cause**: Global git config has `[email redacted]:.insteadof=https://github.com/` — rewrites ALL HTTPS to SSH. Stored URLs in .git/config are HTTPS, but `git remote -v` shows resolved SSH.
+- **Preferred: HTTPS push** — `git -c "url.https://x-access-token:$(gh auth token)@github.com/.insteadOf=[email redacted]:" push origin main`
   - Works for full commits (not just single files); requires `fetch` + `rebase` first if remote diverged
 - Fallback for single files: `gh api repos/ORG/REPO/contents/PATH --method PUT` (creates individual commits per file)
 - For non-main branches: check `gh api repos/ORG/REPO --jq '.default_branch'` first

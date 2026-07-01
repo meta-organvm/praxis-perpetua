@@ -37,10 +37,10 @@ Write a Python script (`~/.claude/plans/archive-plans.py`) that:
 4. Produces a summary of what was archived
 
 Files to modify:
-- `/Users/4jp/.claude/CLAUDE.md` — add plan discipline section
-- `/Users/4jp/.gemini/GEMINI.md` — add plan discipline section
-- `/Users/4jp/AGENTS.md` — create new (Codex global instructions)
-- `/Users/4jp/.claude/plans/archive-plans.py` — create new (cleanup script)
+- `~/.claude/CLAUDE.md` — add plan discipline section
+- `~/.gemini/GEMINI.md` — add plan discipline section
+- `~/AGENTS.md` — create new (Codex global instructions)
+- `~/.claude/plans/archive-plans.py` — create new (cleanup script)
 
 ---
 
@@ -65,7 +65,7 @@ This will:
 
 ### 2C. Add kubernetes tooling to shell config
 
-Edit `/Users/4jp/.config/zsh/20-tools.zsh` to add kubectl/kind completions and shell integration:
+Edit `~/.config/zsh/20-tools.zsh` to add kubectl/kind completions and shell integration:
 
 ```zsh
 # Kubernetes - kubectl completion
@@ -84,7 +84,7 @@ This follows the existing caching pattern used by starship, zoxide, fzf, atuin, 
 
 ### 2D. Add kubernetes aliases
 
-Edit `/Users/4jp/.config/zsh/30-aliases.zsh` to add a Kubernetes section:
+Edit `~/.config/zsh/30-aliases.zsh` to add a Kubernetes section:
 
 ```zsh
 # Kubernetes
@@ -103,9 +103,9 @@ The old `~/.kube/config` (default location) is stale — same cluster cert as th
 - Remove or rename `~/.kube/config` to prevent confusion (or symlink it)
 
 Files to modify:
-- `/Users/4jp/.config/zsh/20-tools.zsh` — add kubectl completion block
-- `/Users/4jp/.config/zsh/30-aliases.zsh` — add kubernetes aliases section
-- `/Users/4jp/.config/kube/config` — updated automatically by `kind create cluster`
+- `~/.config/zsh/20-tools.zsh` — add kubectl completion block
+- `~/.config/zsh/30-aliases.zsh` — add kubernetes aliases section
+- `~/.config/kube/config` — updated automatically by `kind create cluster`
 
 ---
 

@@ -18,7 +18,7 @@ Create a comprehensive README.md with hero section, update the roadmap with insi
 
 ### 1. Create README.md with Hero Section
 
-**File**: `/Users/4jp/Workspace/your--fit-tailored/README.md`
+**File**: `~/Workspace/your--fit-tailored/README.md`
 
 **Structure**:
 ```markdown
@@ -54,7 +54,7 @@ Create a comprehensive README.md with hero section, update the roadmap with insi
 
 ### 2. Update Roadmap with Evaluation Insights
 
-**File**: `/Users/4jp/Workspace/your--fit-tailored/roadmap/THERE-AND-BACK-AGAIN.md`
+**File**: `~/Workspace/your--fit-tailored/roadmap/THERE-AND-BACK-AGAIN.md`
 
 **Additions from Evaluation Report**:
 
@@ -93,7 +93,7 @@ Add README, update roadmap with evaluation findings
 - Add risk analysis and pre-pilot actions to roadmap
 - Include evaluation-to-growth report from project review
 
-Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+Co-Authored-By: Claude Opus 4.5 <[email redacted]>
 ```
 
 ### 4. Push to Remote

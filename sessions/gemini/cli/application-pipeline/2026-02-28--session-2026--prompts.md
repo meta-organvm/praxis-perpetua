@@ -61,7 +61,7 @@ queue up the next three roles
 
 ### P9 — 2026-02-28 15:08:31
 
-we need to revise the Stripe role to accomodate for this project i built: /Users/4jp/Workspace/organvm-iii-ergon/your-fit-tailored
+we need to revise the Stripe role to accomodate for this project i built: ~/Workspace/organvm-iii-ergon/your-fit-tailored
 
 ---
 

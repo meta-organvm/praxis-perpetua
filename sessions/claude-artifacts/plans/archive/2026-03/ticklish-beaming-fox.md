@@ -49,7 +49,7 @@ Follows the exact same CLI pattern as `greenhouse_submit.py`:
 smtp:
   server: smtp.gmail.com
   port: 465
-  email: padavano.anthony@gmail.com
+  email: [email redacted]
   app_password: "..."  # Gmail App Password (not account password)
 ```
 

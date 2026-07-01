@@ -154,7 +154,7 @@ for repo in $(gh api org`
 now update registry-v2.json to reflect Silver Sprint completion
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 - Bash: `cat << 'PYEOF' > /tmp/update-registry.py
 #!/usr/bin/env python3
 import json
@@ -162,12 +162,12 @@ import json
 wit`
 - Bash: `python3 -c "
 import json
-with open('/Users/4jp/Workspace/organvm-pactvm/ingestin`
+with open('~/Workspace/organvm-pactvm/ingestin`
 - Bash: `python3 << 'EOF'
 import json
-with open('/Users/4jp/Workspace/organvm-pactvm/inge`
-- Read `/Users/4jp/.claude/projects/-Users-4jp/memory/MEMORY.md`
-- Edit `/Users/4jp/.claude/projects/-Users-4jp/memory/MEMORY.md`
+with open('~/Workspace/organvm-pactvm/inge`
+- Read `~/.claude/projects/-Users-[user]/memory/MEMORY.md`
+- Edit `~/.claude/projects/-Users-[user]/memory/MEMORY.md`
 
 ---
 
@@ -202,8 +202,8 @@ for org in organvm-i-theoria organvm-ii-p`
 update the memory file with the org profile deployment
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/projects/-Users-4jp/memory/MEMORY.md`
-- Edit `/Users/4jp/.claude/projects/-Users-4jp/memory/MEMORY.md`
+- Read `~/.claude/projects/-Users-[user]/memory/MEMORY.md`
+- Edit `~/.claude/projects/-Users-[user]/memory/MEMORY.md`
 
 ---
 
@@ -212,14 +212,14 @@ update the memory file with the org profile deployment
 now update the registry with the org profile word counts
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
-- Edit `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Edit `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 - Bash: `python3 << 'EOF'
 import json
 
-with open('/Users/4jp/Workspace/organvm-pactvm/ing`
+with open('~/Workspace/organvm-pactvm/ing`
 
 ---
 
@@ -246,7 +246,7 @@ i will pin repos in the endgame; gold sprint commence;
 - Task
 - Task
 - Task
-- Write `/Users/4jp/.claude/plans/temporal-petting-kurzweil.md`
+- Write `~/.claude/plans/temporal-petting-kurzweil.md`
 - ExitPlanMode
 
 ---

@@ -44,9 +44,9 @@ review: "claude --dangerously-skip-permissions --chrome
 
 ### P3 — 2026-03-06 21:30:26
 
-the Locations you sourced are highly truncated. I'm giving a few locations as examples, but there might be more. locations with Definitive archive of sessions, plans, to-do lists, etc.: /Users/4jp/.local/share/gemini/antigravity
-/Users/4jp/.codex
-/Users/4jp/.claude
+the Locations you sourced are highly truncated. I'm giving a few locations as examples, but there might be more. locations with Definitive archive of sessions, plans, to-do lists, etc.: ~/.local/share/gemini/antigravity
+~/.codex
+~/.claude
 
 ---
 

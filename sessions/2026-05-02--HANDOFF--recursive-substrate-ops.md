@@ -111,7 +111,7 @@ User decision pending on whether to declare explicitly or preserve openness.
 
 - Plan: `~/.claude/plans/fluttering-exploring-token.md`
 - Tetradic counterparts: `~/.claude/plans/fluttering-exploring-token--logos/{telos,pragma,praxis,receptio,alchemical-io}.md`
-- Memory files: `~/.claude/projects/-Users-4jp/memory/{feedback_protocols_dictate_actions,feedback_substrate_vocabulary_priority,feedback_recursive_systems_safeguards,feedback_rule_corpus_re_examination,feedback_tetradic_counterpart_for_plans,project_artifact_prisma_zetesis_polynoia_fabrica_2026_05_02}.md`
+- Memory files: `~/.claude/projects/-Users-[user]/memory/{feedback_protocols_dictate_actions,feedback_substrate_vocabulary_priority,feedback_recursive_systems_safeguards,feedback_rule_corpus_re_examination,feedback_tetradic_counterpart_for_plans,project_artifact_prisma_zetesis_polynoia_fabrica_2026_05_02}.md`
 - IRF entries: `organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md` § S-2026-05-02 (IRF-VIS-001, IRF-DOC-002, IRF-PHL-001, IRF-DIV-001)
 - Session log: `praxis-perpetua/sessions/2026-05-02--recursive-substrate-ops-plan-fluttering-token.md`
 - Derived principles: `praxis-perpetua/lessons/derived-principles.md` § Meta-Architectural Principles M1-M5

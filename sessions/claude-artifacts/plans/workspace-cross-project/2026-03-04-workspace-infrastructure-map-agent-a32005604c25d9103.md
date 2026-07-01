@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-The `/Users/4jp/Workspace/` contains a fully operational **eight-organ creative-institutional system** with ~80 documented repositories across 8 GitHub organizations. Three distinct control mechanisms already exist that a unified "command center" would integrate:
+The `~/Workspace/` contains a fully operational **eight-organ creative-institutional system** with ~80 documented repositories across 8 GitHub organizations. Three distinct control mechanisms already exist that a unified "command center" would integrate:
 
 1. **system-dashboard** (meta-organvm) — Live web UI for system monitoring
 2. **orchestration-start-here** (organvm-iv-taxis) — Governance hub with registry & workflows  
@@ -40,7 +40,7 @@ The `/Users/4jp/Workspace/` contains a fully operational **eight-organ creative-
 ## Existing Control Mechanisms (Primary Entry Points)
 
 ### 1. **system-dashboard** (FastAPI Web UI)
-**Location**: `/Users/4jp/Workspace/meta-organvm/system-dashboard/`  
+**Location**: `~/Workspace/meta-organvm/system-dashboard/`  
 **Type**: Live web application  
 **Stack**: FastAPI, Jinja2 templating, HTMX for interactivity  
 **Aesthetic**: Brutalist CMYK design  
@@ -60,7 +60,7 @@ The `/Users/4jp/Workspace/` contains a fully operational **eight-organ creative-
 
 **How to Run:**
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/system-dashboard
+cd ~/Workspace/meta-organvm/system-dashboard
 pip install -e ".[dev]"
 organvm-dashboard  # Starts on http://localhost:8000
 ```
@@ -70,7 +70,7 @@ organvm-dashboard  # Starts on http://localhost:8000
 ---
 
 ### 2. **orchestration-start-here** (Governance Hub)
-**Location**: `/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/`  
+**Location**: `~/Workspace/organvm-iv-taxis/orchestration-start-here/`  
 **Type**: Repository + workflows + validation scripts  
 **Role**: Central enforcement point for all cross-organ governance  
 
@@ -90,7 +90,7 @@ organvm-dashboard  # Starts on http://localhost:8000
 
 **Three Validation Scripts:**
 ```bash
-cd /Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here
+cd ~/Workspace/organvm-iv-taxis/orchestration-start-here
 
 python3 scripts/validate-deps.py         # Check dependency graph
 python3 scripts/organ-audit.py           # System-wide audit
@@ -102,7 +102,7 @@ python3 scripts/calculate-metrics.py     # Registry metrics
 ---
 
 ### 3. **organvm-engine** (Programmatic Orchestration)
-**Location**: `/Users/4jp/Workspace/meta-organvm/organvm-engine/`  
+**Location**: `~/Workspace/meta-organvm/organvm-engine/`  
 **Type**: Python package with unified CLI  
 **Role**: Consolidates ~30 standalone scripts into proper installable package  
 
@@ -128,7 +128,7 @@ organvm context <sync>                              # CLAUDE.md sync
 
 **How to Use:**
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-engine
+cd ~/Workspace/meta-organvm/organvm-engine
 pip install -e ".[dev]"
 organvm registry list --organ IV --status GRADUATED
 organvm governance check-deps
@@ -140,7 +140,7 @@ organvm context sync --organ IV
 ---
 
 ### 4. **organvm-mcp-server** (MCP Interface)
-**Location**: `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/`  
+**Location**: `~/Workspace/meta-organvm/organvm-mcp-server/`  
 **Type**: MCP (Model Context Protocol) server  
 **Role**: Exposes entire system graph to Claude sessions  
 
@@ -190,7 +190,7 @@ organvm context sync --organ IV
 ## Supporting Infrastructure
 
 ### 5. **Local MCP Servers**
-**Location**: `/Users/4jp/Workspace/mcp-servers/`  
+**Location**: `~/Workspace/mcp-servers/`  
 **Status**: Node.js-based infrastructure  
 
 **Available Servers:**
@@ -200,7 +200,7 @@ organvm context sync --organ IV
 
 **Start All:**
 ```bash
-cd /Users/4jp/Workspace/mcp-servers
+cd ~/Workspace/mcp-servers
 npm run serve:all     # or ./start-all.sh
 ```
 
@@ -209,7 +209,7 @@ npm run serve:all     # or ./start-all.sh
 ---
 
 ### 6. **Skills System**
-**Location**: `/Users/4jp/Workspace/organvm-iv-taxis/a-i--skills/skills/`  
+**Location**: `~/Workspace/organvm-iv-taxis/a-i--skills/skills/`  
 **Status**: 101+ skills across 13 categories  
 **Structure**: Each skill has SKILL.md with YAML frontmatter + scripts + references + assets  
 

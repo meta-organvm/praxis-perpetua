@@ -14,16 +14,16 @@ this repo was locally called dotfiles and it was moved and now chezmoi is broken
 
 **Actions taken:**
 - Task
-- Read `/Users/4jp/.config/chezmoi/chezmoi.toml`
+- Read `~/.config/chezmoi/chezmoi.toml`
 - Bash: `chezmoi doctor 2>&1 | head -30`
 - Bash: `ls -la ~/.local/share/chezmoi 2>&1`
-- Grep `/Users/4jp/dotfiles|~/dotfiles`
+- Grep `~/dotfiles|~/dotfiles`
 - Grep `dotfiles`
 - Grep `dotfiles`
 - AskUserQuestion
 - Bash: `git remote -v`
 - Grep `~/dotfiles|dotfiles`
-- Write `/Users/4jp/.claude/plans/fizzy-swinging-pearl.md`
+- Write `~/.claude/plans/fizzy-swinging-pearl.md`
 - ExitPlanMode
 
 ---

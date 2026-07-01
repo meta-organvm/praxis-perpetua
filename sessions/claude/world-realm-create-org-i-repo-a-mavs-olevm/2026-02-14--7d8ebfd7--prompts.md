@@ -32,25 +32,25 @@ Post-Phase 2, the ETCETER4 SPA is fully navigable with all 10 generative chamber
 
 **Actions taken:**
 - Task
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/.config/vitest.config.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/main.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/sw.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/modules/Carousel.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/images.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/generative.css`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/diary.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/.config/vitest.config.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/main.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/sw.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/modules/Carousel.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/images.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/css/generative.css`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/diary.js`
 - Glob `js/legacy.js`
 - Glob `css/styles_old.css`
 - Glob `css/audio*.css`
 - Glob `tests/**/*.{test,spec}.{js,mjs}`
 - Glob `akademia/**/*`
 - Glob `offline.html`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/config.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/akademia/config.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/config.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/akademia/config.js`
 - *...and 80 more*
 
 ---
@@ -69,26 +69,26 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
 - Grep `ogod.*\.js|OGODAnimation|OGODAudio|pageData\.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/pageData.js`
 - Bash: `npm run lint 2>&1`
 - Bash: `wc -l js/pageData.js`
 - Bash: `npx vitest run --config .config/vitest.config.js 2>&1 | tail -40`
 - TaskUpdate
 - TaskUpdate
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/images.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/diary.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/modules/Carousel.js`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/modules/Carousel.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/images.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/diary.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/modules/Carousel.js`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/js/modules/Carousel.js`
 - *...and 76 more*
 
 ---
@@ -106,26 +106,26 @@ The user requested implementation of a comprehensive "Evaluation-to-Growth" plan
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
 - TaskList
 - Grep `color:\s*#(800080|722f37|8b4513|4169e1|dc143c)`
 - Grep `style="[^"]*color:\s*#(800080|722f37|8b4513|4169e1|dc143c)`
 - Grep `style="[^"]*border[^"]*#(800080|722f37|8b4513|4169e1|dc143c)`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Edit `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/css/generative.css`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/generative/BibliothekePoetry.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/generative/SymposionDialogues.js`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/css/chamber-colors.css`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Edit `~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/css/generative.css`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/generative/BibliothekePoetry.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/generative/SymposionDialogues.js`
 - *...and 53 more*
 
 ---
@@ -136,24 +136,24 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/starry-prancing-crab.md`
+- Read `~/.claude/plans/starry-prancing-crab.md`
 - Task
 - Task
 - Task
-- Bash: `wc -l /Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
-- Bash: `grep -c '<script' /Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/index.ht`
-- Bash: `ls /Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/generative/`
-- Bash: `ls /Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/discovery/`
-- Bash: `ls /Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/ergasterion/`
-- Bash: `ls /Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/living-pantheon/`
-- Bash: `grep -n 'id="_pID\|id="[a-z]' /Users/4jp/world/realm/create/org/i/repo/a-mavs-ol`
+- Bash: `wc -l ~/world/realm/create/org/i/repo/a-mavs-olevm/index.html`
+- Bash: `grep -c '<script' ~/world/realm/create/org/i/repo/a-mavs-olevm/index.ht`
+- Bash: `ls ~/world/realm/create/org/i/repo/a-mavs-olevm/js/generative/`
+- Bash: `ls ~/world/realm/create/org/i/repo/a-mavs-olevm/js/discovery/`
+- Bash: `ls ~/world/realm/create/org/i/repo/a-mavs-olevm/js/ergasterion/`
+- Bash: `ls ~/world/realm/create/org/i/repo/a-mavs-olevm/js/living-pantheon/`
+- Bash: `grep -n 'id="_pID\|id="[a-z]' ~/world/realm/create/org/i/repo/a-mavs-ol`
 - Grep `_pID\.`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/page.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/page.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/ergasterion/ExhibitPortal.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/discovery/DiscoveryController.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/page.js`
-- Read `/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm/js/living-pantheon/LivingPantheonCore.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/page.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/page.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/ergasterion/ExhibitPortal.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/discovery/DiscoveryController.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/page.js`
+- Read `~/world/realm/create/org/i/repo/a-mavs-olevm/js/living-pantheon/LivingPantheonCore.js`
 - Grep `section id=`
 - Grep `section id=`
 - *...and 13 more*

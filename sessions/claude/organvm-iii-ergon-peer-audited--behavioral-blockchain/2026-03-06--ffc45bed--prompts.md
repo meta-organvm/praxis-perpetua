@@ -34,23 +34,23 @@ The user requests an exhaustive project-wide audit of the Styx monorepo: find al
 
 **Actions taken:**
 - ToolSearch
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/gdpr.scheduler.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.scheduler.spec.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/components/TavernFeed.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/FuryScreen.spec.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/hr/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/admin/page.test.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/pitch/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/ask/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/page.test.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/src/App.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/ChatInterface.test.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/PitchDeck/PitchDeck.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/api/chat/route.test.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/vitest.config.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/jest.config.cjs`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/chat/ChatInterface.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/gdpr.scheduler.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.scheduler.spec.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/components/TavernFeed.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/screens/FuryScreen.spec.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/hr/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/admin/page.test.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/pitch/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/ask/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/page.test.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/src/App.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/ChatInterface.test.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/PitchDeck/PitchDeck.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/api/chat/route.test.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/vitest.config.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/jest.config.cjs`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/components/chat/ChatInterface.tsx`
 - Glob `src/ask-styx/{vitest,vite}.config.*`
 - Glob `src/ask-styx/package.json`
 - *...and 39 more*
@@ -62,10 +62,10 @@ The user requests an exhaustive project-wide audit of the Styx monorepo: find al
 * proceed in logical glorious exhaustive completionist certainty
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/package.json`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tsconfig.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tsconfig.json`
 - Glob `src/ask-styx/tsconfig*.json`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
 - Bash: `npx tsc -b 2>&1`
 - Bash: `npx tsc --showConfig 2>&1 | grep -A5 '"include"'`
 - Bash: `npx tsc --noEmit 2>&1`
@@ -73,15 +73,15 @@ The user requests an exhaustive project-wide audit of the Styx monorepo: find al
 - Bash: `npx tsc --listFiles 2>/dev/null | grep worker`
 - ToolSearch
 - Bash: `npm install --save-dev @cloudflare/workers-types 2>&1 | tail -5`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/worker/index.ts`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/ask-styx/tests/worker.test.ts`
 - *...and 14 more*
 
 ---
@@ -127,28 +127,28 @@ create GH issues for anything missing, broken, incomplete, or requiring human in
 okay so this utopic idyllic dreamworld perfectly goldilocks approved as just-right business infrastructure...where does it live in [1] this directoy and where does it live in [2] the universal enterprise-wide org/repo levels;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/wondrous-petting-treehouse.md`
+- Read `~/.claude/plans/wondrous-petting-treehouse.md`
 - Agent: "Thoroughness: medium
 
 I need to map where audit/governance/q"
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sc`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/{C`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/se`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/ | head -40`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/commerce--meta/ 2>&1 | head -15`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/ 2>&1 | head -15`
-- Bash: `ls /Users/4jp/Workspace/organvm-iv-taxis/ 2>&1 | head -15`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/ 2>&1 | head -20`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-engine/ 2>&1 | head -15`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/commerce--meta/governance/ 2>&1`
-- Bash: `ls /Users/4jp/Workspace/organvm-iv-taxis/domus-semper-palingenesis/ 2>&1 | head `
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/governance-confi`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/ 2>&1`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/commerce--meta/governance/policies/ 2>`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sc`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/{C`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/se`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/ | head -40`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/commerce--meta/ 2>&1 | head -15`
+- Bash: `ls ~/Workspace/meta-organvm/ 2>&1 | head -15`
+- Bash: `ls ~/Workspace/organvm-iv-taxis/ 2>&1 | head -15`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/ 2>&1 | head -20`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-engine/ 2>&1 | head -15`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/commerce--meta/governance/ 2>&1`
+- Bash: `ls ~/Workspace/organvm-iv-taxis/domus-semper-palingenesis/ 2>&1 | head `
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/governance-confi`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/ 2>&1`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/commerce--meta/governance/policies/ 2>`
 - *...and 5 more*
 
 ---

@@ -24,7 +24,7 @@ From `prospects.test.ts` and `competitors.test.ts`:
 ## Files to Create
 
 ### Service Tests (14 files)
-Location: `/Users/4jp/Workspace/public-record-data-scrapper/server/__tests__/services/`
+Location: `~/Workspace/public-record-data-scrapper/server/__tests__/services/`
 
 | File | Service | Key Methods to Test |
 |------|---------|---------------------|
@@ -44,7 +44,7 @@ Location: `/Users/4jp/Workspace/public-record-data-scrapper/server/__tests__/ser
 | `ComplianceReportService.test.ts` | ComplianceReportService | generateOutreachReport, generateDNCReport, generateDisclosureReport, detectViolations, generateFullReport, exportToCsv, getComplianceScore |
 
 ### Route Tests (2 files)
-Location: `/Users/4jp/Workspace/public-record-data-scrapper/server/__tests__/routes/`
+Location: `~/Workspace/public-record-data-scrapper/server/__tests__/routes/`
 
 | File | Route | Endpoints to Test |
 |------|-------|-------------------|

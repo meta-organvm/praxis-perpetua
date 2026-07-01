@@ -29,11 +29,11 @@ The `Build Resume PDF` GitHub Actions workflow (`build-resume.yml`) is **failing
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Read `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Edit `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Edit `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Edit `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Read `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
 
 ---
 
@@ -62,16 +62,16 @@ yes
 - Bash: `gh run view 22067520887 --log-failed`
 - Bash: `gh run view 22067520887 --log | grep -A 30 "Render Developer resume"`
 - Bash: `gh run view 22067520887 --log | grep -A 30 "Render Creative Technologist"`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Edit `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Edit `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
+- Edit `~/Workspace/4444J99/portfolio/.github/workflows/build-resume.yml`
 - Bash: `git add .github/workflows/build-resume.yml && git commit -m "$(cat <<'EOF'
 fix: `
 - Bash: `gh workflow run "Build Resume PDF"`
 - Bash: `sleep 5 && gh run list --workflow=build-resume.yml --limit 1`
 - Bash: `gh run watch 22067621225`
 - Bash: `git pull origin main`
-- Write `/Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/memory/MEMORY.md`
+- Write `~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio/memory/MEMORY.md`
 
 ---
 
@@ -80,15 +80,15 @@ fix: `
 whats next?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/lucky-gathering-turing.md`
+- Read `~/.claude/plans/lucky-gathering-turing.md`
 - Task
 - AskUserQuestion
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/4444J99/portfolio/astro.config.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/README.md`
-- Edit `/Users/4jp/.claude/plans/lucky-gathering-turing.md`
+- Read `~/Workspace/4444J99/portfolio/astro.config.mjs`
+- Read `~/Workspace/4444J99/portfolio/README.md`
+- Edit `~/.claude/plans/lucky-gathering-turing.md`
 - ExitPlanMode
 
 ---

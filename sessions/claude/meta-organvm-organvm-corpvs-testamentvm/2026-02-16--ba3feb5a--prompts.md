@@ -31,22 +31,22 @@ The sprint catalog (`sprint-catalog.md`) has **4 numbering collisions** between 
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/implementation-package-v2.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/public-process-map-v2.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/implementation-sprint-specs.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/orchestration-system-v2.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/specs/sprints/23-publicatio.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/implementation-package-v2.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/public-process-map-v2.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/implementation-sprint-specs.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/orchestration-system-v2.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/specs/sprints/23-publicatio.md`
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Edit `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
 - *...and 20 more*
 
 ---
@@ -69,21 +69,21 @@ stage all, commit all, origin push;
 next sprint
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/radiant-popping-hoare.md`
+- Read `~/.claude/plans/radiant-popping-hoare.md`
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
 - Glob `docs/applications/*`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/04-application-tracker.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/04-application-tracker.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
 - Grep `ALREADY MET|already deployed|already published`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
 - AskUserQuestion
 - Bash: `ls ~/Workspace/organvm-iii-ergon/`
 - Bash: `for repo in public-record-data-scrapper universal-mail--automation life-my--mids`

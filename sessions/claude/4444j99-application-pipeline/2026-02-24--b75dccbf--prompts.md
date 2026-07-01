@@ -17,18 +17,18 @@ Ars and Starts is currently being applied to; what is next?
 - Glob `pipeline/*ars*`
 - Glob `pipeline/*start*`
 - Grep `(?i)ars.*start`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/targets/profiles/prix-ars.json`
+- Read `~/Workspace/4444J99/application-pipeline/targets/profiles/prix-ars.json`
 - Grep `(?i)prix.ars|ars.electronica`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/prix-ars-electronica.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/drafts/prix-ars-electronica-checklist.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/prix-ars-electronica.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/drafts/prix-ars-electronica-checklist.md`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
 - ToolSearch
 - AskUserQuestion
 - Glob `pipeline/active/*.yaml`
 - Grep `(?i)starts`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/starts-prize.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/starts-prize.yaml`
 - Grep `^(id|status|deadline:|  date:)`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/google-creative-fellowship.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/google-creative-fellowship.yaml`
 - AskUserQuestion
 - Grep `^(id|name|status|track|  score:|  effort_level:|  date:)`
 - Grep `^(id|name|status|track|  score:|  effort_level:|  date:)`

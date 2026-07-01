@@ -34,20 +34,20 @@ Commit `b33aeb22` added a global JWT `onRequest` hook in `buildServer()`. Tests 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/app-builder.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/middleware/auth.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/cv.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/cv_entities.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/backups.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/versioning.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/artifacts.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/masks.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/performance.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/redaction.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/profiles.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/hunter-protocol.integration.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/webhook-fulfillment.integration.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/app-builder.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/middleware/auth.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/cv.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/cv_entities.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/backups.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/versioning.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/artifacts.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/masks.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/performance.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/redaction.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/profiles.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/hunter-protocol.integration.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/webhook-fulfillment.integration.test.ts`
 - TaskCreate
 - TaskCreate
 - TaskCreate

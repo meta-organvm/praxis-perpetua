@@ -263,12 +263,12 @@ Also add a **lightweight step** to `public-process/.github/workflows/ci.yml` tha
 
 ```bash
 # 1. Jekyll build (test markdownify rendering)
-cd /Users/4jp/Workspace/organvm-v-logos/public-process
+cd ~/Workspace/organvm-v-logos/public-process
 bundle exec jekyll build --strict_front_matter
 # Spot-check _site/ HTML for <a> tags in reference sections
 
 # 2. Validator still passes
-cd /Users/4jp/Workspace/organvm-v-logos/essay-pipeline
+cd ~/Workspace/organvm-v-logos/essay-pipeline
 source .venv/bin/activate
 python -m src.validator --posts-dir ../public-process/_posts/ --schema ../editorial-standards/schemas/frontmatter-schema.yaml
 python -m src.validator --posts-dir ../public-process/_logs/ --schema ../editorial-standards/schemas/log-schema.yaml --content-type log

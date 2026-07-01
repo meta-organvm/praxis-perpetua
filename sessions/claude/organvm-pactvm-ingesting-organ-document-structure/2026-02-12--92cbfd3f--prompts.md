@@ -62,23 +62,23 @@ description: Systematic content evaluation framework progressing through Critiqu
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/evaluation-to-growth-analysis.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/e2g-meta-review.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/corpus-coherence-review.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/evaluation-to-growth-analysis.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/e2g-meta-review.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/corpus-coherence-review.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/canonical-action-plan.md`
 - Glob `docs/evaluation/**/*`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/06-evaluation-to-growth-analysis.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/10-e2g-meta-review.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/09-corpus-coherence-review.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/phase-4-state-machine-log.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-sprint-specs.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/memory/constitution.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/exploration-report.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v3-report.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/06-evaluation-to-growth-analysis.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/10-e2g-meta-review.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/09-corpus-coherence-review.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/phase-4-state-machine-log.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-sprint-specs.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/memory/constitution.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/exploration-report.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v3-report.json`
 - Task
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v1-v2-report.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v1-v2-report.json`
 - *...and 8 more*
 
 ---

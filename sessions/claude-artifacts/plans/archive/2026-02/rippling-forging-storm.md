@@ -2,7 +2,7 @@
 
 ## Context
 
-The speckit skill at `/Users/4jp/Workspace/organvm-iv-taxis/a-i--skills/skills/tools/speckit/` implements Specification-Driven Development (SDD) with three commands (`/speckit.specify`, `/speckit.plan`, `/speckit.tasks`). It currently lacks a human-readable README and mixes templates with reference docs in a flat `references/` directory.
+The speckit skill at `~/Workspace/organvm-iv-taxis/a-i--skills/skills/tools/speckit/` implements Specification-Driven Development (SDD) with three commands (`/speckit.specify`, `/speckit.plan`, `/speckit.tasks`). It currently lacks a human-readable README and mixes templates with reference docs in a flat `references/` directory.
 
 Applying principles from the **GitHub Repository Standards** skill (Minimal Root, Progressive Disclosure, World-Class README) and **GitHub Repo Curator** skill (README as conversion funnel, clear file structure):
 

@@ -24,17 +24,17 @@ check the following work, ensure it has all been implemented:   Phase 1: Evaluat
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Agent: "Check if the application-pipeline project at /Users/4jp/Work"
+- Agent: "Check if the application-pipeline project at ~/Work"
 - Agent: "Check if LLM "smoothing" has been implemented in the applica"
-- Agent: "Check if ATS guardrails have been implemented in /Users/4jp/"
+- Agent: "Check if ATS guardrails have been implemented in ~/"
 - Agent: "Check if MCP (Model Context Protocol) integration has been i"
 - Agent: "Check the status of the remaining tasks listed in the evalua"
 - Glob `**/EVALUATION_REPORT*`
 - Grep `ats.*adapter|adapter.*ats|AtsAdapter|ats_adapter`
 - Grep `synthetic.*test|test.*ats.*posting|mock.*greenhouse|mock.*lever`
 - Grep `check_ats_posting|ats.*liveness|posting.*verification`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_ats_synthetic.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/EVALUATION_REPORT.md`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_ats_synthetic.py`
+- Read `~/Workspace/4444J99/application-pipeline/EVALUATION_REPORT.md`
 - Glob `scripts/cli.py`
 - Glob `scripts/pipeline_api.py`
 - Glob `scripts/mcp_server.py`
@@ -43,7 +43,7 @@ check the following work, ensure it has all been implemented:   Phase 1: Evaluat
 - Grep `agent|freshness|mcp_server`
 - Grep `agent\.py|freshness_monitor|mcp_server`
 - Grep `cron|launchagent|plist|schedule`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Read `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
 - *...and 1 more*
 
 ---
@@ -70,9 +70,9 @@ complete all of the not done
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/run.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/agent.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/run.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/agent.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
 - *...and 83 more*
 
 ---
@@ -91,16 +91,16 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Read `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
 - TaskList
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Edit `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Edit `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Edit `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Edit `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Edit `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Edit `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
+- Edit `~/Workspace/4444J99/application-pipeline/IMPLEMENTATION_CHECKLIST.md`
 - TaskUpdate
 - TaskUpdate
 - Bash: `python -m pytest tests/ -v --tb=short 2>&1 | tail -80`
@@ -108,9 +108,9 @@ Let me chronologically analyze the conversation:
 - Bash: `source .venv/bin/activate && python -m pytest tests/ -v --tb=short 2>&1 | tail -`
 - Bash: `source .venv/bin/activate && ruff check scripts/ tests/ 2>&1 | tail -40`
 - Bash: `source .venv/bin/activate && ruff check scripts/log_signal_action.py scripts/upg`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_cli_integration.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_cli_integration.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_cli_integration.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_cli_integration.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_cli_integration.py`
+- Edit `~/Workspace/4444J99/application-pipeline/tests/test_cli_integration.py`
 - *...and 13 more*
 
 ---

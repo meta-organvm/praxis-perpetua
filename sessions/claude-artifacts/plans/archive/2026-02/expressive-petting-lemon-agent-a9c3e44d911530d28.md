@@ -4,7 +4,7 @@
 Thoroughly analyze the organvm-v-logos superproject to assess project health and structural integrity across 6 key dimensions.
 
 ## Scope
-- **Directory**: `/Users/4jp/Workspace/organvm-v-logos/`
+- **Directory**: `~/Workspace/organvm-v-logos/`
 - **Type**: Git superproject with 6 submodules
 - **Submodules**: .github, analytics-engine, editorial-standards, essay-pipeline, public-process, reading-observatory
 - **Analysis Date**: 2026-02-23

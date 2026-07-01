@@ -23,26 +23,26 @@ This plan applies the Evaluation-to-Growth framework to
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/source_jobs.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/conversion_report.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/funnel_report.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/source_jobs.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/conversion_report.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/funnel_report.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
 - Grep `def update_last_touched|def update_yaml_field`
 - Grep `def run_auto_qualify`
 - Grep `def update_last_touched|def update_yaml_field`
-- Bash: `grep -n "def update_last_touched\|def update_yaml_field" /Users/4jp/Workspace/44`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
+- Bash: `grep -n "def update_last_touched\|def update_yaml_field" ~/Workspace/44`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/pipeline_status.py`
 - *...and 30 more*
 
 ---
@@ -54,26 +54,26 @@ This plan applies the Evaluation-to-Growth framework to
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/zany-percolating-riddle.md`
+- Read `~/.claude/plans/zany-percolating-riddle.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/validate.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/followup.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/check_metrics.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/standup.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/outreach-log.yaml`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/signals/`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/strategy/`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/variants/`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/patterns.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/storefront-playbook.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/`
-- Bash: `cat /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/blocks/`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/blocks/evidence/metrics-snapshot.md`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/validate.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/followup.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/check_metrics.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/standup.py`
+- Read `~/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/signals/outreach-log.yaml`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/signals/`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/strategy/`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/variants/`
+- Read `~/Workspace/4444J99/application-pipeline/signals/patterns.md`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/storefront-playbook.md`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/blocks/evidence/`
+- Bash: `cat ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/blocks/`
+- Read `~/Workspace/4444J99/application-pipeline/blocks/evidence/metrics-snapshot.md`
 - *...and 21 more*
 
 ---

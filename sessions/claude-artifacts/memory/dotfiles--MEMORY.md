@@ -13,13 +13,13 @@
 - `com.chezmoi.self-heal` — 4hr drift check
 - `com.domus.daemon` — hourly orchestrator
 - `com.domus.sort` — file watcher (KeepAlive)
-- `com.4jp.desktop-router` — WatchPaths on ~/Desktop
-- `com.4jp.home-root-guard` — 15min, --apply --only-when-locked
-- `com.4jp.downloads-tidy` — daily 3:15am, --apply --since-days 30
-- `com.4jp.naming-maintenance` — 4hr, --apply --only-when-locked --min-interval-hours 24
-- `com.4jp.agents-policy-sync` — 5min AGENTS.md policy sync
-- `com.4jp.env.mcp` — sets MCP_TOOLS_FILE env var
-- `com.4jp.mcp.servers` — stdio server hub (KeepAlive)
+- `com.[user].desktop-router` — WatchPaths on ~/Desktop
+- `com.[user].home-root-guard` — 15min, --apply --only-when-locked
+- `com.[user].downloads-tidy` — daily 3:15am, --apply --since-days 30
+- `com.[user].naming-maintenance` — 4hr, --apply --only-when-locked --min-interval-hours 24
+- `com.[user].agents-policy-sync` — 5min AGENTS.md policy sync
+- `com.[user].env.mcp` — sets MCP_TOOLS_FILE env var
+- `com.[user].mcp.servers` — stdio server hub (KeepAlive)
 - `com.user.gmail_labeler` — daily 9am
 - `com.user.mail_automation` — daily 9am (disabled)
 

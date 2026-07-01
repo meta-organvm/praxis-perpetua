@@ -49,7 +49,7 @@ When uncertain between two tiers, prefer the more restrictive tier (E > C > O > 
 
 | Tier | Destination | Rationale |
 |------|-------------|-----------|
-| `E` | Single private repo: `4jp/essence-vault` | Centralization protects against per-client repo sprawl; one access boundary to defend; cross-client methodology lives where it is naturally referenced from any engagement |
+| `E` | Single private repo: `[user]/essence-vault` | Centralization protects against per-client repo sprawl; one access boundary to defend; cross-client methodology lives where it is naturally referenced from any engagement |
 | `C` | Per-client private repo: `<client-engagement>--client-private` (e.g., `sovereign-systems--client-private`, future `hokage-chess--client-private`) | Per-client scope prevents accidental cross-client exposure; aligns with potential future client access (a client may be granted read access to *their* private repo without seeing other clients) |
 | `O` (safe) | Same repo as the public artifact it relates to, IF it contains no PII / IP / secrets | Co-location preserves discoverability; planning artifacts naturally live with the code they plan |
 | `O` (sensitive) | Gitignored locally + chezmoi-mirrored to `~/.local/share/<scope>/operational/` | When public-tracking is unsafe but the artifact must persist, chezmoi handles parity via the private dotfiles repo |
@@ -137,11 +137,11 @@ When reclassifying, document the reason in the moving commit. Never silently rec
 
 | Repo | Visibility | Tier scope |
 |------|------------|------------|
-| `4jp/essence-vault` | Private | `E` only |
-| `4jp/sovereign-systems--client-private` | Private | `C` for Maddie/sovereign-systems engagement |
+| `[user]/essence-vault` | Private | `E` only |
+| `[user]/sovereign-systems--client-private` | Private | `C` for Maddie/sovereign-systems engagement |
 | `<future>/hokage-chess--client-private` | Private | `C` for Rob/hokage-chess engagement (when needed) |
-| `4jp/sovereign-systems--elevate-align` | Public | `O`-safe + `P` |
-| `4jp/hokage-chess` | Public | `O`-safe + `P` |
+| `[user]/sovereign-systems--elevate-align` | Public | `O`-safe + `P` |
+| `[user]/hokage-chess` | Public | `O`-safe + `P` |
 | `4444J99/portfolio` | Public | `P` |
 | `4444J99/domus-semper-palingenesis` | Public | `O`-safe + `P` (chezmoi dotfiles) |
 
@@ -173,5 +173,5 @@ For artifacts already committed to the wrong tier:
 
 - **First instance application:** Close-out session 2026-04-29 (`goal-dapper-wall` plan) applies this SOP to 3 sensitive untracked docs in `sovereign-systems--elevate-align` as the inaugural usage.
 - **Related SOPs:** `SOP--cross-agent-handoff.md` (Cluster 3: Governance & Lifecycle) — applies during external-agent ingestion which often produces unclassified artifacts.
-- **Plan persistence:** `/Users/4jp/.claude/plans/goal-dapper-wall.md` (Construct A documents the original design rationale).
+- **Plan persistence:** `~/.claude/plans/goal-dapper-wall.md` (Construct A documents the original design rationale).
 - **Future enhancements tracked separately:** `classify-untracked.sh` automation, pre-commit hook enforcement.

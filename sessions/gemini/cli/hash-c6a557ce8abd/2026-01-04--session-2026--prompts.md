@@ -19,10 +19,10 @@ this project truly requires wrapping up; i am spent on this project; bandwidth e
 
 ### P2 — 2026-01-06 17:35:40
 
-i need to respond to this email asap: "Gmail	Anthony Padavano <padavano.anthony@gmail.com>
+i need to respond to this email asap: "Gmail	[name redacted] <[email redacted]>
 PRIORITY | Requested Documents and Chart for Review | Padavano v. MDC
-Micah Longo <mlongo@longofirm.com>	Tue, Jan 6, 2026 at 11:26 AM
-To: Anthony James Padavano <padavano.anthony@gmail.com>
+Micah Longo <[email redacted]>	Tue, Jan 6, 2026 at 11:26 AM
+To: [name redacted] <[email redacted]>
 Hi Anthony,
 
  
@@ -65,10 +65,10 @@ summarize this thread; update gloabl context; save;
 
 ### P7 — 2026-01-07 12:23:26
 
-Gmail	Anthony Padavano <padavano.anthony@gmail.com>
+Gmail	[name redacted] <[email redacted]>
 Discovery Documents
-Micah Longo <micahlongo@gmail.com>	Tue, Jan 6, 2026 at 4:55 PM
-To: Anthony James Padavano <padavano.anthony@gmail.com>
+Micah Longo <[email redacted]>	Tue, Jan 6, 2026 at 4:55 PM
+To: [name redacted] <[email redacted]>
 Anthony,
 
  
@@ -94,13 +94,13 @@ why did he say instead of for the tax returns? that seems nonsensical, i filled 
 
 ### P9 — 2026-01-07 14:00:12
 
-@/Users/4jp/Documents/PDFs/2026/rxreport.pdf that link lists janet robinson, moskowitz, and trinkofski are the only doctors i can recall, but i requested a full prescription release from wallgreens and that will give us more data on doctors;
+@~/Documents/PDFs/2026/rxreport.pdf that link lists janet robinson, moskowitz, and trinkofski are the only doctors i can recall, but i requested a full prescription release from wallgreens and that will give us more data on doctors;
 
 ---
 
 ### P10 — 2026-01-07 15:03:31
 
-revise the email, this is the dropbox location /Users/4jp/Library/CloudStorage/Dropbox/padavano-mdc and this is the dropbox link https://www.dropbox.com/scl/fo/9f7uojgwoxmkaz0n20543/AJPEeu4F5gjc3cuP3-VK8oY?rlkey=d6cqnq7uhjwtibjjsv9uodx5i&dl=0
+revise the email, this is the dropbox location ~/Library/CloudStorage/Dropbox/padavano-mdc and this is the dropbox link https://www.dropbox.com/scl/fo/9f7uojgwoxmkaz0n20543/AJPEeu4F5gjc3cuP3-VK8oY?rlkey=d6cqnq7uhjwtibjjsv9uodx5i&dl=0
 
 ---
 

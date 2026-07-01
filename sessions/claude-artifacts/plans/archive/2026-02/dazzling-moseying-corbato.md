@@ -13,9 +13,9 @@ The user wants to: (1) create a standalone standards document synthesizing these
 ## Skill Source Paths
 
 ```
-/Users/4jp/world/realm/operate/org/liminal/repo/a-i-skills/skills/documentation/github-profile-architect/
-/Users/4jp/world/realm/operate/org/liminal/repo/a-i-skills/skills/documentation/github-repo-curator/
-/Users/4jp/world/realm/operate/org/liminal/repo/a-i-skills/skills/documentation/github-repository-standards/
+~/world/realm/operate/org/liminal/repo/a-i-skills/skills/documentation/github-profile-architect/
+~/world/realm/operate/org/liminal/repo/a-i-skills/skills/documentation/github-repo-curator/
+~/world/realm/operate/org/liminal/repo/a-i-skills/skills/documentation/github-repository-standards/
 ```
 
 ## Existing Documents to Preserve / Complement

@@ -4,7 +4,7 @@
 - **Date**: 2026-02-24
 - **Mode**: READ-ONLY exploration, Plan mode active
 - **Deliverable**: Risk-focused assessment of architectural fragilities, failure points, and untested realities
-- **Scope**: Full ORGAN-VI (Koinonia/Community) system at `/Users/4jp/Workspace/organvm-vi-koinonia/`
+- **Scope**: Full ORGAN-VI (Koinonia/Community) system at `~/Workspace/organvm-vi-koinonia/`
 
 ## Review Framework (7 Focus Areas)
 

@@ -21,26 +21,26 @@ The ORGANVM system is at **1/17 omega criteria MET**, with 3 IN_PROGRESS (time-g
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-meta-organvm/memory/MEMORY.md`
+- Read `~/.claude/projects/-Users-[user]-Workspace-meta-organvm/memory/MEMORY.md`
 - Task
 - Task
 - Task
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/ 2>/dev/nu`
-- Bash: `wc -l /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.j`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/pitchdeck`
-- Bash: `ls /Users/4jp/Workspace/4444J99/portfolio/ 2>/dev/null || echo "DIR NOT FOUND"`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/ 2>/dev/null || echo "DIR N`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/package.json`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/vercel.json`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/seed.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/governance/state_machine.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/pitchdeck/sync.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/Dockerfile`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/docker-compose.yml`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/public-record-data-scrapper/ 2>/dev/nu`
+- Bash: `wc -l ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.j`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/pitchdeck`
+- Bash: `ls ~/Workspace/4444J99/portfolio/ 2>/dev/null || echo "DIR NOT FOUND"`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/ 2>/dev/null || echo "DIR N`
+- Read `~/Workspace/organvm-iii-ergon/public-record-data-scrapper/package.json`
+- Read `~/Workspace/organvm-iii-ergon/public-record-data-scrapper/vercel.json`
+- Read `~/Workspace/organvm-iii-ergon/public-record-data-scrapper/seed.yaml`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/governance/state_machine.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/pitchdeck/sync.py`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Read `~/Workspace/organvm-iii-ergon/public-record-data-scrapper/Dockerfile`
+- Read `~/Workspace/organvm-iii-ergon/public-record-data-scrapper/docker-compose.yml`
 - *...and 84 more*
 
 ---
@@ -53,14 +53,14 @@ stage all, commit all, origin push;
 - Bash: `git status`
 - Bash: `git diff --stat`
 - Bash: `git log --oneline -5`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/system-dashboard && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/schema-definitions && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/alchemia-ingestvm && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/.github && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git diff --st`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git status`
+- Bash: `cd ~/Workspace/meta-organvm/system-dashboard && git status`
+- Bash: `cd ~/Workspace/meta-organvm/schema-definitions && git status`
+- Bash: `cd ~/Workspace/meta-organvm/alchemia-ingestvm && git status`
+- Bash: `cd ~/Workspace/meta-organvm/.github && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git diff --st`
 - Bash: `git diff --stat HEAD && echo "--- untracked ---" && git ls-files --others --excl`
 - Bash: `git diff --stat HEAD && echo "--- untracked ---" && git ls-files --others --excl`
 - Bash: `git diff --stat HEAD && echo "--- untracked ---" && git ls-files --others --excl`
@@ -68,8 +68,8 @@ stage all, commit all, origin push;
 - Bash: `git diff --stat && echo "=== untracked ===" && git ls-files --others --exclude-s`
 - Bash: `git status --short`
 - Bash: `pwd && git status --short`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm status`
-- Bash: `git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm log --onelin`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm status`
+- Bash: `git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm log --onelin`
 - *...and 57 more*
 
 ---

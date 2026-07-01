@@ -229,7 +229,7 @@ Wave 0 (sequential, ~15 min)
 
 ## CI Template Reference
 
-4 workflow templates designed with graceful degradation (see `/Users/4jp/.claude/plans/temporal-petting-kurzweil-agent-aa2155b.md` for full YAML):
+4 workflow templates designed with graceful degradation (see `~/.claude/plans/temporal-petting-kurzweil-agent-aa2155b.md` for full YAML):
 
 - **ci-python.yml**: pytest + coverage + ruff + mypy. Auto-detects pyproject.toml/requirements.txt/setup.py. Passes if no tests exist.
 - **ci-typescript.yml**: npm/pnpm/yarn detection, test + eslint + tsc + build. Multi-node-version matrix (18/20/22).

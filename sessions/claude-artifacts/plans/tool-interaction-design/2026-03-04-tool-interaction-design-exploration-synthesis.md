@@ -1089,7 +1089,7 @@ Strategic, long-term initiatives.
 
 ### Core YAML Files
 ```
-/Users/4jp/Workspace/tool-interaction-design/
+~/Workspace/tool-interaction-design/
 ├── ontology.yaml              (578 tools, 64 clusters, 12 domains)
 ├── routing-matrix.yaml        (32+ routes, alternatives, capability routing)
 ├── workflow-dsl.yaml          (7 primitives, 7 example workflows, execution semantics)
@@ -1123,7 +1123,7 @@ python3 router.py validate <workflow.yaml>
 python3 router.py graph | jq .
 
 # System briefing
-cd /Users/4jp/Workspace/tool-interaction-design && python3 -m conductor patch --json
+cd ~/Workspace/tool-interaction-design && python3 -m conductor patch --json
 ```
 
 ---

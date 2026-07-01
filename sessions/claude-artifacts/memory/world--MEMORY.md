@@ -1,7 +1,7 @@
 # World Registry Memory
 
 ## Key Architecture
-- `$WORLD_ROOT` = `/Users/4jp/world`
+- `$WORLD_ROOT` = `~/world`
 - `$AUDIT_ROOT` = `$WORLD_ROOT/.audit`
 - Registry lives at `$WORLD_ROOT/_registry/`
 - Tools at `$WORLD_ROOT/_registry/tools/`

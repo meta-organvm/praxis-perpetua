@@ -29,23 +29,23 @@ All live at `docs/` on main branch via GitHub Pages. The user wants pitch decks 
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/sync.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/__init__.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/templates.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/registry/query.py`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/src/alchemia/aesthetic.py`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/taste.yaml`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/sync.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/__init__.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/templates.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/registry/query.py`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/src/alchemia/aesthetic.py`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/taste.yaml`
 - Glob `alchemia-ingestvm/data/organ-aesthetics/*.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-i-theoria.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-ii-poiesis.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-iii-ergon.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-iv-taxis.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-v-logos.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-vi-koinonia.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-vii-kerygma.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-meta.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-i-theoria.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-ii-poiesis.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-iii-ergon.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-iv-taxis.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-v-logos.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-vi-koinonia.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-vii-kerygma.yaml`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/data/organ-aesthetics/organ-meta.yaml`
 - *...and 59 more*
 
 ---
@@ -56,18 +56,18 @@ stage all, commit all, origin push;
 
 **Actions taken:**
 - Bash: `git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git status`
 - Bash: `git diff --stat`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git status`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git log --oneline -3`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git log --oneline -3`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
 - Bash: `git commit -m "$(cat <<'EOF'
 feat: add pitchdeck module — template-driven pitch `
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git add src/organvm_m`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git push origin main`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git push origin main`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && git add organvm-engine organvm-mcp-serve`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git add src/organvm_m`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git push origin main`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-mcp-server && git push origin main`
+- Bash: `cd ~/Workspace/meta-organvm && git add organvm-engine organvm-mcp-serve`
 - Bash: `git commit -m "$(cat <<'EOF'
 feat: sync submodule pointers — pitchdeck generator`
 - Bash: `git push origin main`
@@ -80,8 +80,8 @@ local is still dirty
 
 **Actions taken:**
 - Bash: `git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/alchemia-ingestvm && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git log --one`
+- Bash: `cd ~/Workspace/meta-organvm/alchemia-ingestvm && git log --oneline -3`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git log --one`
 - Bash: `git add alchemia-ingestvm organvm-corpvs-testamentvm && git commit -m "$(cat <<'`
 - Bash: `git diff --submodule=short`
 - Bash: `git diff`
@@ -97,10 +97,10 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dynamic-prancing-lollipop.md`
+- Read `~/.claude/plans/dynamic-prancing-lollipop.md`
 - Task
 - Task
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && source .venv/bin/activate && python -m o`
+- Bash: `cd ~/Workspace/meta-organvm && source .venv/bin/activate && python -m o`
 - Bash: `source .venv/bin/activate && python -m organvm_engine.cli status 2>&1`
 - Bash: `source .venv/bin/activate && python -m organvm_engine.cli registry list --status`
 - Bash: `source .venv/bin/activate && python -m organvm_engine.cli governance audit 2>&1`
@@ -111,12 +111,12 @@ from organvm_engine.registry.loader imp`
 from organvm_engine.registry.loader imp`
 - Bash: `source .venv/bin/activate && python -c "
 from organvm_engine.registry.loader imp`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
 - Bash: `source .venv/bin/activate && python -c "
 from organvm_engine.registry.loader imp`
-- Bash: `ls /Users/4jp/Workspace/organvm-vi-koinonia/ 2>&1`
-- Bash: `ls /Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/ 2>&1 || echo "no `
-- Bash: `ls /Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/ 2>&`
+- Bash: `ls ~/Workspace/organvm-vi-koinonia/ 2>&1`
+- Bash: `ls ~/Workspace/organvm-vi-koinonia/community-hub/src/ 2>&1 || echo "no `
+- Bash: `ls ~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/ 2>&`
 
 ---
 
@@ -132,25 +132,25 @@ Let me chronologically analyze the entire conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dynamic-prancing-lollipop.md`
+- Read `~/.claude/plans/dynamic-prancing-lollipop.md`
 - Task
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/governance/state_machine.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/omega/scorecard.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/governance/state_machine.py`
 - Grep `promotion_status`
 - Grep `revenue_status`
 - Glob `**/Dockerfile`
 - Glob `**/render.yaml`
 - Glob `**/Dockerfile`
 - Grep `"name":`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
 - Glob `**/fly.toml`
 - Glob `**/vercel.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/ 2>/dev/nu`
-- Bash: `ls /Users/4jp/Workspace/organvm-vi-koinonia/community-hub/ 2>/dev/null | head -3`
-- Write `/Users/4jp/.claude/plans/dynamic-prancing-lollipop.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/public-record-data-scrapper/ 2>/dev/nu`
+- Bash: `ls ~/Workspace/organvm-vi-koinonia/community-hub/ 2>/dev/null | head -3`
+- Write `~/.claude/plans/dynamic-prancing-lollipop.md`
 - ToolSearch
 - *...and 1 more*
 

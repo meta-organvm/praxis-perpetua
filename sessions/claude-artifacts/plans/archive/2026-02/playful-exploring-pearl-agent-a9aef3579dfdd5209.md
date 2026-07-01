@@ -1,7 +1,7 @@
 # Community-Hub Deployment Readiness Exploration Plan
 
 ## Objective
-Explore the community-hub submodule at `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub` to understand deployment readiness and identify remaining feature gaps.
+Explore the community-hub submodule at `~/Workspace/organvm-vi-koinonia/community-hub` to understand deployment readiness and identify remaining feature gaps.
 
 ## Checklist Items (User's 10-Point Request)
 1. ✓ The Dockerfile and scripts/entrypoint.sh — is it actually buildable?

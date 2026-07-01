@@ -31,25 +31,25 @@ A Gemini Code Assist session produced ~21 files but had critical structural issu
 
 **Actions taken:**
 - ToolSearch
-- Read `/Users/4jp/Workspace/meta-organvm/.gitignore`
-- Read `/Users/4jp/Workspace/meta-organvm/.gitmodules`
+- Read `~/Workspace/meta-organvm/.gitignore`
+- Read `~/Workspace/meta-organvm/.gitmodules`
 - Glob `**/SOP--*.md`
 - Glob `**/METADOC--*.md`
-- Read `/Users/4jp/Workspace/meta-organvm/SOP--cross-agent-handoff.md`
-- Read `/Users/4jp/Workspace/meta-organvm/SOP--structural-integrity-audit.md`
-- Read `/Users/4jp/Workspace/meta-organvm/METADOC--research-standards.md`
-- Read `/Users/4jp/Workspace/meta-organvm/SOP--market-gap-analysis.md`
-- Read `/Users/4jp/Workspace/meta-organvm/SOP--research-to-implementation-pipeline.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Read `~/Workspace/meta-organvm/SOP--cross-agent-handoff.md`
+- Read `~/Workspace/meta-organvm/SOP--structural-integrity-audit.md`
+- Read `~/Workspace/meta-organvm/METADOC--research-standards.md`
+- Read `~/Workspace/meta-organvm/SOP--market-gap-analysis.md`
+- Read `~/Workspace/meta-organvm/SOP--research-to-implementation-pipeline.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
 - Grep `META-ORGANVM`
 - Grep `meta-organvm/METADOC--research-standards`
 - Grep `repository_count`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
 - Grep `meta-organvm/METADOC`
 - Grep `METADOC--research-standards`
-- Read `/Users/4jp/Workspace/meta-organvm/CLAUDE.md`
+- Read `~/Workspace/meta-organvm/CLAUDE.md`
 - Bash: `git init praxis-perpetua`
-- Bash: `mkdir -p /Users/4jp/Workspace/meta-organvm/praxis-perpetua/{standards,templates,`
+- Bash: `mkdir -p ~/Workspace/meta-organvm/praxis-perpetua/{standards,templates,`
 - *...and 53 more*
 
 ---
@@ -61,9 +61,9 @@ is there a cli command we can use to export sessions to a specific intake spot?
 **Actions taken:**
 - Grep `session|capture|export`
 - Grep `session|transcript`
-- Bash: `ls /Users/4jp/.claude/projects/-Users-4jp-Workspace-meta-organvm/*.jsonl 2>/dev/`
+- Bash: `ls ~/.claude/projects/-Users-[user]-Workspace-meta-organvm/*.jsonl 2>/dev/`
 - Grep `capture|ai_chat`
-- Read `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/src/alchemia/channels/ai_chats.py`
+- Read `~/Workspace/meta-organvm/alchemia-ingestvm/src/alchemia/channels/ai_chats.py`
 
 ---
 
@@ -72,28 +72,28 @@ is there a cli command we can use to export sessions to a specific intake spot?
 yes and create the directory so i can begin importing bc my current workspace is a mess
 
 **Actions taken:**
-- Bash: `ls /Users/4jp/.claude/projects/ | head -20`
-- Bash: `find /Users/4jp/.claude/projects/ -name "*.jsonl" | wc -l`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Bash: `head -3 /Users/4jp/.claude/projects/-Users-4jp-Workspace-meta-organvm/c1cc4942-d`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
+- Bash: `ls ~/.claude/projects/ | head -20`
+- Bash: `find ~/.claude/projects/ -name "*.jsonl" | wc -l`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Bash: `head -3 ~/.claude/projects/-Users-[user]-Workspace-meta-organvm/c1cc4942-d`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
 - Bash: `python3 -c "
 import json
 from pathlib import Path
 
 # Read a session to understan`
-- Bash: `ls /Users/4jp/.claude/projects/ | wc -l && echo "---" && ls /Users/4jp/.claude/p`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/__init__.py`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Bash: `ls ~/.claude/projects/ | wc -l && echo "---" && ls ~/.claude/p`
+- Write `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/__init__.py`
+- Write `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Write `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
 - Bash: `source .venv/bin/activate && pip install -e organvm-engine/ -q 2>&1 | tail -3`
 - Bash: `source .venv/bin/activate && organvm session projects 2>&1 | head -30`
-- Bash: `ls /Users/4jp/.claude/projects/ | head -5`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Bash: `ls ~/.claude/projects/ | head -5`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
 - Bash: `source .venv/bin/activate && pip install -e organvm-engine/ -q 2>&1 | tail -1 &&`
 - Bash: `# Let's check the actual filesystem paths vs encoded names
 echo "=== Encoded ===`
@@ -104,30 +104,30 @@ echo "=== Encoded ===`
 ### P5 — 2026-03-06 19:47:42
 
 check if my first export worked: ⏺ Dry-run looks correct — 189 messages, 148 min, portfolio
-   project. Output goes to /Users/4jp/Workspace/meta-organ
+   project. Output goes to ~/Workspace/meta-organ
   vm/praxis-perpetua/sessions/. Now the real export.
                                           
 ⏺ Bash(source                      
-      /Users/4jp/Workspace/meta-organvm/.venv/bin/activate
+      ~/Workspace/meta-organvm/.venv/bin/activate
        && organvm session export 1924e3fc --slug
-      praxis-establishment --output /Users/4jp/Workspace/m
+      praxis-establishment --output ~/Workspace/m
       eta-organvm/praxis-perpetua/sessions 2>&1)  
 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment.md`
+- Read `~/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment.md`
 
 ---
 
 ### P6 — 2026-03-06 19:51:14
 
-What you're saying is illogical. Praxis Perpetua is the place that sessions go to die. It's not where they start. the session touched the following places: "  1. /Users/4jp/Workspace/4444J99/portfolio/ — 5 files    
+What you're saying is illogical. Praxis Perpetua is the place that sessions go to die. It's not where they start. the session touched the following places: "  1. ~/Workspace/4444J99/portfolio/ — 5 files    
   modified/created (sync-a11y-routes.mjs,                 
   runtime-a11y-routes.json, package.json, CLAUDE.md,      
   .gitignore) + 1 file created                            
   (.quality/GOVERNANCE-COUPLING.md)            
-  2. /Users/4jp/Workspace/meta-organvm/organvm-corpvs-test
+  2. ~/Workspace/meta-organvm/organvm-corpvs-test
 
 
 *[truncated — full text in JSONL]*
@@ -143,25 +143,25 @@ well i want a full session transcript printed out for archiving and cross-ref ch
 import json
 from pathlib import Path
 
-f = Path('/Users/4jp/.claude/`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+f = Path('~/.claude/`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
 - Grep `sess_export = sess_sub`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
 - Bash: `source .venv/bin/activate && pip install -e organvm-engine/ -q 2>&1 | tail -1 &&`
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--transcript.md`
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--transcript.md`
+- Read `~/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--transcript.md`
+- Read `~/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--transcript.md`
 - Bash: `source .venv/bin/activate && python -m pytest organvm-engine/tests/test_session.`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git add sessions/2026-03`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && git add sessions/2026-03`
 
 ---
 
@@ -180,24 +180,24 @@ every session must strip the prompts For a few purposes:
 There must be things to do better, there must be things happening out of order. Right, once again it's just like error correction as well.
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Write `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
 - Bash: `source .venv/bin/activate && pip install -e organvm-engine/ -q 2>&1 | tail -1 &&`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && pip install -e /U`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session p`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session p`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && python -m pytest `
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && python -m pytest `
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && pip install -e /U`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session p`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session p`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && python -m pytest `
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && python -m pytest `
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git add src/organvm_engin`
 
 ---
 
@@ -215,15 +215,15 @@ Summary:
 
 **Actions taken:**
 - ToolSearch
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && git status`
-- Bash: `ls -la /Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git add sessions/2026-03`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && git add organvm-engine praxis-perpetua &`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && git status`
+- Bash: `cd ~/Workspace/meta-organvm && git status`
+- Bash: `ls -la ~/Workspace/meta-organvm/praxis-perpetua/sessions/`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && git add sessions/2026-03`
+- Bash: `cd ~/Workspace/meta-organvm && git add organvm-engine praxis-perpetua &`
 - ToolSearch
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-meta-organvm/memory/MEMORY.md`
+- Read `~/.claude/projects/-Users-[user]-Workspace-meta-organvm/memory/MEMORY.md`
 - Bash: `source .venv/bin/activate && pytest organvm-engine/tests/ --co -q 2>/dev/null | `
-- Edit `/Users/4jp/.claude/projects/-Users-4jp-Workspace-meta-organvm/memory/MEMORY.md`
+- Edit `~/.claude/projects/-Users-[user]-Workspace-meta-organvm/memory/MEMORY.md`
 
 ---
 
@@ -242,7 +242,7 @@ did you implement this as a function for ongoing imports: every session must str
 There must be things to do better, there must be things happening out of order. Right, once again it's just like error correction as well.
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
 
 ---
 
@@ -264,26 +264,26 @@ we need to arrive at the best method; review full transcript pasted below: "
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git log --oneline -5 && `
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--style-guide.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && git log --oneline -5 && `
+- Read `~/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--style-guide.md`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
 - ToolSearch
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && source .venv/bin/activate && pytest orga`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Write `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
+- Bash: `cd ~/Workspace/meta-organvm && source .venv/bin/activate && pytest orga`
+- Edit `~/Workspace/meta-organvm/organvm-engine/tests/test_session.py`
 - Bash: `source .venv/bin/activate && pytest organvm-engine/tests/test_session.py -q 2>&1`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && cp sessions/2026-03-06--`
-- Read `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/templates/transcript-style-guide.md`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && cp sessions/2026-03-06--`
+- Read `~/Workspace/meta-organvm/praxis-perpetua/templates/transcript-style-guide.md`
 - *...and 12 more*
 
 ---
@@ -295,7 +295,7 @@ we need to arrive at the best method; review full transcript pasted below: "
   All AI Sessions for Portfolio               
                                           
   Claude Code — 64 sessions
-  Storage: ~/.claude/projects/-Users-4jp-Workspace-4444J99
+  Storage: ~/.claude/projects/-Users-[user]-Workspace-4444J99
   -portfolio/*.jsonl
   Date range: Feb 16 – Mar 6, 2026                        
   Format: UUID-named JSONL (full transcripts with tool  
@@ -344,11 +344,11 @@ pytho`
 - Bash: `# Fix: content might be None for encrypted reasoning
 python3 << 'PYEOF'
 import j`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/agents.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Edit `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Write `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/agents.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Edit `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/session/parser.py`
 - *...and 26 more*
 
 ---
@@ -360,7 +360,7 @@ some ideas: a terminal session has an entrance and exit hook i imagine, this cou
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/pure-whistling-hare.md`
+- Read `~/.claude/plans/pure-whistling-hare.md`
 - ToolSearch
 - Agent: "I need to understand three things about this workspace. Be t"
 - Agent: "I need to understand the current state of the session system"
@@ -384,21 +384,21 @@ Summary:
 - ToolSearch
 - Bash: `find ~/Workspace -path '*/.claude/plans/*.md' -type f 2>/dev/null | head -80`
 - Bash: `cat ~/.claude/settings.json 2>/dev/null || echo "No settings.json found"; echo "`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/templates.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/templates.py`
 - Bash: `find ~/Workspace -path '*/.claude/plans/*.md' -type f 2>/dev/null | wc -l`
 - Bash: `cat ~/.claude/settings.local.json 2>/dev/null || echo "not found"`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/templates.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/templates.py`
 - Bash: `find ~/Workspace -path '*/.claude/plans/*.md' -type f 2>/dev/null | sed 's|/User`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/sync.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/contextmd/sync.py`
 - Bash: `claude --help 2>/dev/null | grep -i hook || echo "No hook help in CLI"; echo "--`
 - Bash: `find ~/Workspace -name '.claude' -type d -maxdepth 3 2>/dev/null | while read d;`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/__init__.py`
 - Bash: `cat ~/.claude/scripts/template-interceptor.sh 2>/dev/null`
 - Bash: `claude mcp 2>/dev/null | head -5; echo "---"; claude hooks 2>/dev/null | head -2`
 - Bash: `grep -r "hooks" ~/.claude/settings*.json 2>/dev/null; echo "---"; ls ~/.claude/t`
 - Bash: `claude --help 2>&1 | head -40`
 - Bash: `claude --help 2>&1 | grep -i -E "hook|event|lifecycle|session" | head -20`
-- Bash: `ls ~/.claude/projects/-Users-4jp-Workspace-meta-organvm/ 2>/dev/null`
+- Bash: `ls ~/.claude/projects/-Users-[user]-Workspace-meta-organvm/ 2>/dev/null`
 - Bash: `claude config list 2>/dev/null | grep -i hook || echo "No hook config"; echo "==`
 - ToolSearch
 - *...and 7 more*

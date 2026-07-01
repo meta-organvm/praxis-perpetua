@@ -377,7 +377,7 @@ When actual files must appear in multiple repos (e.g., brand assets):
 
 ```bash
 # In consuming repo, add shared assets as subtree
-git remote add shared-assets git@github.com:org/shared--brand-assets.git
+git remote add shared-assets [email redacted]:org/shared--brand-assets.git
 git subtree add --prefix=assets/brand shared-assets main --squash
 
 # Update when upstream changes

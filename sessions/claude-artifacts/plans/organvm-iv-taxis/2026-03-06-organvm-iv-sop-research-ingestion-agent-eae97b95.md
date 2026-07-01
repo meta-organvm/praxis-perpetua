@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-Comprehensive search of `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm` completed to identify Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion. **Primary finding: `sop--document-audit-feature-extraction.md` is the authoritative SOP for research synthesis workflows** in the ORGANVM governance system.
+Comprehensive search of `~/Workspace/meta-organvm/organvm-corpvs-testamentvm` completed to identify Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion. **Primary finding: `sop--document-audit-feature-extraction.md` is the authoritative SOP for research synthesis workflows** in the ORGANVM governance system.
 
 ---
 
@@ -28,7 +28,7 @@ Comprehensive search of `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testam
 ## Key Findings
 
 ### Primary SOP: Document Audit & Feature Extraction
-**File:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
+**File:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
 
 **Size:** ~18KB  
 **Status:** ACTIVE (Living document, continuously updated)  
@@ -56,7 +56,7 @@ Comprehensive workflow for conducting document audits, extracting features, and 
 ---
 
 ### Secondary SOP: Pitch Deck Rollout
-**File:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
+**File:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
 
 **Size:** ~32.5KB  
 **Status:** ACTIVE (Living document)  
@@ -76,7 +76,7 @@ Comprehensive workflow for conducting document audits, extracting features, and 
 ---
 
 ### Project-Level Documentation: CLAUDE.md
-**File:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
+**File:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
 
 **Size:** ~1500+ lines  
 **Status:** ACTIVE project-level instructions
@@ -109,7 +109,7 @@ The TE budget model is key for understanding how AI-generated research synthesis
 ---
 
 ### Repository Overview: README.md
-**File:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
+**File:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
 
 **Size:** ~32.2KB  
 **Status badges:** LAUNCHED, 8 organs, 97+ repos, ~404K+ words documentation

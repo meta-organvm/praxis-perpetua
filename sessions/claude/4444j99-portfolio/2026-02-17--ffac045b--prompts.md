@@ -33,18 +33,18 @@ The portfolio site has strong accessibility foundations (semantic HTML, ARIA att
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/styles/global.css`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/pages/about.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/scripts/ScrollReveal.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/home/ProjectGrid.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
+- Read `~/Workspace/4444J99/portfolio/src/styles/global.css`
+- Read `~/Workspace/4444J99/portfolio/src/pages/about.astro`
+- Read `~/Workspace/4444J99/portfolio/src/components/scripts/ScrollReveal.astro`
+- Read `~/Workspace/4444J99/portfolio/src/components/home/ProjectGrid.astro`
+- Read `~/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
 - Skill
 
 ---
 
 ### P3 — 2026-02-17 12:14:05
 
-Base directory for this skill: /Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
+Base directory for this skill: ~/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
 
 # Executing Plans
 
@@ -71,27 +71,27 @@ Load plan, review critically, execute tasks in batches, report for review betwee
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/styles/global.css`
+- Edit `~/Workspace/4444J99/portfolio/src/styles/global.css`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/pages/about.astro`
+- Edit `~/Workspace/4444J99/portfolio/src/pages/about.astro`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/components/scripts/ScrollReveal.astro`
+- Edit `~/Workspace/4444J99/portfolio/src/components/scripts/ScrollReveal.astro`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/components/home/ProjectGrid.astro`
+- Edit `~/Workspace/4444J99/portfolio/src/components/home/ProjectGrid.astro`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
+- Edit `~/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
+- Edit `~/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
 - *...and 5 more*
 
 ---
 
 ### P4 — 2026-02-17 12:16:06
 
-Base directory for this skill: /Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/finishing-a-development-branch
+Base directory for this skill: ~/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/finishing-a-development-branch
 
 # Finishing a Development Branch
 
@@ -193,13 +193,13 @@ echo "Dev server started"`
 - mcp__claude-in-chrome__tabs_context_mcp
 - Bash: `curl -s http://localhost:4321/portfolio/ | grep -A1 'id="filter-status"'`
 - TaskOutput
-- Bash: `grep -A1 'id="filter-status"' /Users/4jp/Workspace/4444J99/portfolio/dist/index.`
+- Bash: `grep -A1 'id="filter-status"' ~/Workspace/4444J99/portfolio/dist/index.`
 - Grep `filter-status`
 - Grep `filter-status`
-- Bash: `grep -oP '<p id="filter-status"[^>]*>[^<]*</p>' /Users/4jp/Workspace/4444J99/por`
+- Bash: `grep -oP '<p id="filter-status"[^>]*>[^<]*</p>' ~/Workspace/4444J99/por`
 - Bash: `python3 -c "
 import re
-with open('/Users/4jp/Workspace/4444J99/portfolio/dist/in`
+with open('~/Workspace/4444J99/portfolio/dist/in`
 - Bash: `python3 -c "
 import re, os, glob
 
@@ -207,15 +207,15 @@ import re, os, glob
 - Bash: `python3 -c "
 import re
 
-with open('/Users/4jp/Workspace/4444J99/portfolio/dist/i`
+with open('~/Workspace/4444J99/portfolio/dist/i`
 - Bash: `python3 -c "
 import re
 
-with open('/Users/4jp/Workspace/4444J99/portfolio/dist/i`
+with open('~/Workspace/4444J99/portfolio/dist/i`
 - Bash: `python3 -c "
 import re
 
-with open('/Users/4jp/Workspace/4444J99/portfolio/dist/i`
+with open('~/Workspace/4444J99/portfolio/dist/i`
 - TaskStop
 
 ---
@@ -227,19 +227,19 @@ the footer is over crowded; there's weird background screen/filter thing happeni
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/calm-moseying-allen.md`
+- Read `~/.claude/plans/calm-moseying-allen.md`
 - Task
 - Task
 - AskUserQuestion
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/Footer.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/sketches/background-sketch.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/sketches/palette.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/pages/index.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/pages/resume.astro`
+- Read `~/Workspace/4444J99/portfolio/src/components/Footer.astro`
+- Read `~/Workspace/4444J99/portfolio/src/components/sketches/background-sketch.ts`
+- Read `~/Workspace/4444J99/portfolio/src/components/sketches/palette.ts`
+- Read `~/Workspace/4444J99/portfolio/src/pages/index.astro`
+- Read `~/Workspace/4444J99/portfolio/src/pages/resume.astro`
 - Grep `class="section`
 - Grep `background:\s*var\(--bg-secondary\)`
 - Grep `spectrum-current`
-- Write `/Users/4jp/.claude/plans/calm-moseying-allen.md`
+- Write `~/.claude/plans/calm-moseying-allen.md`
 - ExitPlanMode
 
 ---

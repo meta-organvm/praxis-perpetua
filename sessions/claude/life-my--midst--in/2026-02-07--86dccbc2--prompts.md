@@ -24,14 +24,14 @@ okay next phase
 - Glob `.github/workflows/*.yml`
 - Glob `**/Dockerfile*`
 - Glob `docker-compose*.yml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/helm/values.yaml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/helm/Chart.yaml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docker-compose.prod.yml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/.github/workflows/deploy.yml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/seed.yaml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/seed.yaml`
+- Read `~/Workspace/life-my--midst--in/infra/helm/values.yaml`
+- Read `~/Workspace/life-my--midst--in/infra/helm/Chart.yaml`
+- Read `~/Workspace/life-my--midst--in/docker-compose.prod.yml`
+- Read `~/Workspace/life-my--midst--in/.github/workflows/deploy.yml`
+- Read `~/Workspace/life-my--midst--in/seed.yaml`
+- Read `~/Workspace/life-my--midst--in/seed.yaml`
 - Glob `apps/web/src/app/**/page.tsx`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/prometheus/alerts.yml`
+- Read `~/Workspace/life-my--midst--in/infra/prometheus/alerts.yml`
 - Task
 - *...and 15 more*
 

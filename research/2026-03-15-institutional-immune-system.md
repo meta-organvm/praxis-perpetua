@@ -5,7 +5,7 @@ status: reference-activated
 
 **Document B** — Organizational self-portrait for ORGANVM internal architecture
 **Date:** 2026-03-15
-**Author:** Anthony James Padavano
+**Author:** [name redacted]
 **Cross-references:** Document A (*AI-as-Psychometrician*), Document C (*The Conductor Methodology*)
 
 ---
@@ -181,7 +181,7 @@ Scan → Match → Build → [auto_advance] → Apply → Outreach → [followup
 
 **Preflight check**: Before any cycle runs, `preflight_check()` verifies system readiness — config files present, blocks directory populated, rubric loadable, at least one pipeline entry exists. The system will not run blindly.
 
-The orchestrator is designed for cron execution via macOS LaunchAgent (`launchd/com.4jp.pipeline.daily-scan.plist`). It runs in dry-run mode by default; the `--yes` flag enables write operations. This is deliberate: the system defaults to showing what it *would* do, requiring explicit confirmation to act. The human remains in the loop at the level of *policy* (whether to run) even as *execution* is fully autonomous.
+The orchestrator is designed for cron execution via macOS LaunchAgent (`launchd/com.[user].pipeline.daily-scan.plist`). It runs in dry-run mode by default; the `--yes` flag enables write operations. This is deliberate: the system defaults to showing what it *would* do, requiring explicit confirmation to act. The human remains in the loop at the level of *policy* (whether to run) even as *execution* is fully autonomous.
 
 ### 3.3 The Cascade Pattern
 

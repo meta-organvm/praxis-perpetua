@@ -1,7 +1,7 @@
 # Gemini Session: 2026-02-20
 
 **Session ID:** `session-2026-02-20T12-34-f814674c`
-**Project:** `4jp`
+**Project:** `[user]`
 **Source:** gemini-cli
 **Duration:** ~107h 12m
 **Prompts:** 10
@@ -23,7 +23,7 @@ what about downloading from icloud?
 
 ### P3 — 2026-02-20 12:39:00
 
-what is the state of this directory: /Users/4jp/LocalArchive/Archive
+what is the state of this directory: ~/LocalArchive/Archive
 
 ---
 
@@ -47,7 +47,7 @@ have it so it copies here: /Volumes/4444-iivii
 
 ### P7 — 2026-02-20 12:56:38
 
-❯ rsync -avh --progress /Users/4jp/LocalArchive/Archive /Volumes/4444-iivii/                 07:55
+❯ rsync -avh --progress ~/LocalArchive/Archive /Volumes/4444-iivii/                 07:55
 Transfer starting: 22259 files
 Archive/
 Archive/.DS_Store
@@ -83,9 +83,9 @@ Snapshots for disk /:
 
 ~ ☸ kind-prd 
 ❯ ls -la ~/Library/Caches/com.apple.bird/                                                                                                                      08:21
-.rw-r--r--@ 6.1k 4jp 25 Nov  2025  .DS_Store
-.rw-r--r--@  49k 4jp 16 Nov  2025  Cache.db
-.rw-r--r--   33k 4jp 16 Nov 
+.rw-r--r--@ 6.1k [user] 25 Nov  2025  .DS_Store
+.rw-r--r--@  49k [user] 16 Nov  2025  Cache.db
+.rw-r--r--   33k [user] 16 Nov 
 
 *[truncated]*
 

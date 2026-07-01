@@ -21,7 +21,7 @@ Last session wrote `README.md` (136 lines) and `10-REPOSITORY-STANDARDS.md` (346
 
 Write the standard CC BY-SA 4.0 legal text. This is the Creative Commons license recommended in `10-REPOSITORY-STANDARDS.md` (§2.3) for documentation repos.
 
-- **File:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/LICENSE`
+- **File:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/LICENSE`
 - **Content:** Standard CC BY-SA 4.0 legalcode text
 - **Note:** If full legalcode triggers content filter, use the short-form deed text with a link to the full license
 
@@ -35,16 +35,16 @@ Per `10-REPOSITORY-STANDARDS.md` §4, create these files:
 - `.github/PULL_REQUEST_TEMPLATE.md` — PR checklist for documentation changes
 
 **Files to create:**
-- `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/CONTRIBUTING.md`
-- `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/SECURITY.md`
-- `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/CODE_OF_CONDUCT.md`
-- `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/PULL_REQUEST_TEMPLATE.md`
+- `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/CONTRIBUTING.md`
+- `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/SECURITY.md`
+- `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/CODE_OF_CONDUCT.md`
+- `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/.github/PULL_REQUEST_TEMPLATE.md`
 
 ### 3. Update `CLAUDE.md`
 
 Add a brief section referencing `10-REPOSITORY-STANDARDS.md` to the Document Layers or Working With This Corpus section.
 
-- **File:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/CLAUDE.md`
+- **File:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/CLAUDE.md`
 - **Change:** Add `10-REPOSITORY-STANDARDS.md` to the Document Layers list under a new category, and mention it in the reading order
 - **Approach:** Use Edit tool to insert into existing sections (lines ~51-57 for Document Layers, line ~47 for reading order)
 
@@ -52,7 +52,7 @@ Add a brief section referencing `10-REPOSITORY-STANDARDS.md` to the Document Lay
 
 Add entries for all new files to both the detailed manifest (Section II) and the Quick Reference Table (Section VI).
 
-- **File:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/ANNOTATED-MANIFEST.md`
+- **File:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/ANNOTATED-MANIFEST.md`
 - **New entries needed:**
   - `README.md` — corpus entry point (Layer 5: Standards)
   - `LICENSE` — CC BY-SA 4.0 license (Layer 5: Standards)

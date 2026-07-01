@@ -28,7 +28,7 @@ You are an AI agent that brings the power of Gemini directly into the terminal. 
 ### P2 — 2025-12-24 00:04:40
 
 Audit the mapped inventory and staging logs located at:
-/Users/4jp/Documents/Legal/padavano-v-mdc--employment-lawsuit/production/rolling_submissions
+~/Documents/Legal/padavano-v-mdc--employment-lawsuit/production/rolling_submissions
 
 Tasks:
 1. Identify likely mis-bucketed files with reasons.

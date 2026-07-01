@@ -122,7 +122,7 @@
 - [ ] **Step 1: Initialize Astro project**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab
+cd ~/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab
 mkdir -p object-lessons && cd object-lessons
 npm create astro@latest -- --template minimal --no-install --no-git .
 ```
@@ -144,7 +144,7 @@ export const siteConfig = {
   domain: 'objectlessons.film',
   url: 'https://objectlessons.film',
   description: 'Tracing recurring objects across a hundred years of film — milk, mirrors, cigarettes, clocks, doors, guns.',
-  author: 'Anthony James Padavano',
+  author: '[name redacted]',
   socials: {
     youtube: 'https://youtube.com/@AmpLabMedia',
     patreon: '',
@@ -760,7 +760,7 @@ Citation, Footnote, FilmStill components."
 Each object file has frontmatter matching the Objects schema (name, status, film_count, priority_score, symbolic_categories with kebab keys, episodes, essays, co_occurrences, landmark_scenes) plus an MDX body — a 2-4 paragraph "biography" of the object's career in cinema.
 
 Source data:
-- V2 objects (milk, mirrors, cigarettes, clocks, doors, guns): Extract from the existing research briefs in `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/research--*.md`. Each brief has structured filmography data, symbolic categories, and narrative overviews.
+- V2 objects (milk, mirrors, cigarettes, clocks, doors, guns): Extract from the existing research briefs in `~/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/research--*.md`. Each brief has structured filmography data, symbolic categories, and narrative overviews.
 - V1 objects (cereal, telephones, balloons, eggs): Minimal frontmatter with `status: published`, `version: v1`, estimated film counts. Body is a brief placeholder — V1 objects don't have research briefs.
 
 Read each research brief to extract: symbolic categories, film count, landmark scenes (Tier 1 entries), co-occurrence data from the density report.
@@ -795,7 +795,7 @@ full symbolic categories and landmark scenes from research briefs.
 
 Each V2 episode MDX file has frontmatter (title, object, date, youtube_id placeholder, status: scripted, version: v2, duration: TBD, films list, symbolic_categories, companion_essay reference, seo). MDX body: a condensed version of the narration outline (key sections, not the full 30-40K outline).
 
-Source: `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/episode-outlines/00N-*-narration-outline.md`
+Source: `~/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/episode-outlines/00N-*-narration-outline.md`
 
 - [ ] **Step 2: Create 4 V1 episode files**
 
@@ -805,7 +805,7 @@ V1 episodes with frontmatter: title (using the SEO-optimized titles from the rel
 
 Each essay MDX file has frontmatter (title, object, date, type: companion, related_episodes, excerpt, citations array). MDX body: a public-facing adaptation of the research brief — the narrative sections, symbolic category analysis, and key close readings. Not the full 40-70K research doc — a 3,000-5,000 word essay distilled from the research. Citations extracted from the academic references in each brief.
 
-Source: `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/research--*.md`
+Source: `~/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/research--*.md`
 
 - [ ] **Step 4: Verify all collections load**
 

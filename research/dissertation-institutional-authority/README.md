@@ -3,7 +3,7 @@
 **Studium Generale ORGANVM — Dissertation (Tier III)**
 **Faculty:** Governance + Meta-Cognition (joint)
 **Status:** LOCAL (draft complete, pending defense)
-**Author:** Anthony James Padavano
+**Author:** [name redacted]
 
 ## Abstract
 

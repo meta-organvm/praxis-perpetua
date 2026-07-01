@@ -40,19 +40,19 @@ Implement the following plan:
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/Workspace/life-my--midst--in/.gitignore`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docker-compose.yml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/tsconfig.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/crypto.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/vc.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/design-system/package.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/package.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/tsconfig.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/tsconfig.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/tsconfig.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/content-model/tsconfig.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/design-system/tsconfig.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/tsconfig.json`
+- Read `~/Workspace/life-my--midst--in/.gitignore`
+- Read `~/Workspace/life-my--midst--in/docker-compose.yml`
+- Read `~/Workspace/life-my--midst--in/packages/core/tsconfig.json`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/crypto.ts`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/vc.ts`
+- Read `~/Workspace/life-my--midst--in/packages/design-system/package.json`
+- Read `~/Workspace/life-my--midst--in/apps/web/package.json`
+- Read `~/Workspace/life-my--midst--in/tsconfig.json`
+- Read `~/Workspace/life-my--midst--in/apps/api/tsconfig.json`
+- Read `~/Workspace/life-my--midst--in/apps/web/tsconfig.json`
+- Read `~/Workspace/life-my--midst--in/packages/content-model/tsconfig.json`
+- Read `~/Workspace/life-my--midst--in/packages/design-system/tsconfig.json`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/tsconfig.json`
 - TaskUpdate
 - *...and 39 more*
 
@@ -74,8 +74,8 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/components/__tests__/CVEntryManager.test.tsx`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/components/HunterDashboard.tsx`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/components/__tests__/CVEntryManager.test.tsx`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/components/HunterDashboard.tsx`
 - Bash: `npx tsc --noEmit -p apps/web/tsconfig.json 2>&1 | head -30`
 - Bash: `npx tsc --noEmit -p apps/web/tsconfig.json 2>&1 | head -30`
 - Bash: `npx tsc --noEmit -p apps/web/tsconfig.json 2>&1 | head -40`
@@ -123,16 +123,16 @@ Let me chronologically analyze the conversation:
 - Task
 - Task
 - TaskUpdate
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/did/registry.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/vc.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/index.ts`
-- Bash: `ls -la /Users/4jp/Workspace/life-my--midst--in/apps/api/migrations/`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/embeddings/service.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/repositories/jobs.ts`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/did/registry.ts`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/vc.ts`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/index.ts`
+- Bash: `ls -la ~/Workspace/life-my--midst--in/apps/api/migrations/`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/embeddings/service.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/repositories/jobs.ts`
 - Glob `**/PHASE-ROADMAP.md`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/repositories/rate-limits.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/migrations/009_hunter_protocol.sql`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/repositories/rate-limits.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/repositories/rate-limits.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/migrations/009_hunter_protocol.sql`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/repositories/rate-limits.ts`
 - *...and 83 more*
 
 ---
@@ -160,18 +160,18 @@ Let me chronologically analyze the conversation:
 - TaskCreate
 - Task
 - Task
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/__tests__/e2e/critical-workflows.e2e.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/__tests__/e2e/smoke.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/vitest.config.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/vitest.config.mts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/package.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/package.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/turbo.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/.github/workflows/test.yml`
+- Read `~/Workspace/life-my--midst--in/apps/web/__tests__/e2e/critical-workflows.e2e.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/web/__tests__/e2e/smoke.test.ts`
+- Read `~/Workspace/life-my--midst--in/vitest.config.ts`
+- Read `~/Workspace/life-my--midst--in/apps/web/vitest.config.mts`
+- Read `~/Workspace/life-my--midst--in/package.json`
+- Read `~/Workspace/life-my--midst--in/apps/web/package.json`
+- Read `~/Workspace/life-my--midst--in/turbo.json`
+- Read `~/Workspace/life-my--midst--in/.github/workflows/test.yml`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/life-my--midst--in/vitest.config.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/package.json`
+- Edit `~/Workspace/life-my--midst--in/vitest.config.ts`
+- Edit `~/Workspace/life-my--midst--in/package.json`
 - *...and 86 more*
 
 ---
@@ -191,26 +191,26 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
 - Glob `apps/api/src/routes/export*.ts`
 - Glob `apps/api/src/routes/export*.ts`
-- Bash: `ls /Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/export*`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Bash: `ls ~/Workspace/life-my--midst--in/apps/api/src/routes/export*`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
 - Grep `registerExportRoutes|exports`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/app-builder.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/test/app-builder.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/app-builder.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/test/app-builder.ts`
 - Grep `registerExportRoutes|exports`
-- Bash: `grep -n 'registerExportRoutes\|exports\|export' /Users/4jp/Workspace/life-my--mi`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Bash: `grep -n 'registerApiRoutes\|prefix.*v1' /Users/4jp/Workspace/life-my--midst--in/`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
+- Bash: `grep -n 'registerExportRoutes\|exports\|export' ~/Workspace/life-my--mi`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Bash: `grep -n 'registerApiRoutes\|prefix.*v1' ~/Workspace/life-my--midst--in/`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/__tests__/exports.integration.test.ts`
 - *...and 155 more*
 
 ---
@@ -230,26 +230,26 @@ Let me trace through the conversation chronologically:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/web-deployment.yaml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/orchestrator-deployment.yaml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docker-compose.yml`
+- Read `~/Workspace/life-my--midst--in/infra/helm/templates/web-deployment.yaml`
+- Read `~/Workspace/life-my--midst--in/infra/helm/templates/orchestrator-deployment.yaml`
+- Read `~/Workspace/life-my--midst--in/docker-compose.yml`
 - TaskList
 - TaskUpdate
 - Glob `infra/helm/templates/*.yaml`
-- Bash: `ls /Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/`
-- Write `/Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/web-deployment.yaml`
-- Write `/Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/orchestrator-deployment.yaml`
-- Bash: `ls /Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/ | grep -i ingre`
-- Write `/Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/ingress.yaml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/_helpers.tpl`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/infra/helm/templates/_helpers.tpl`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/docker-compose.yml`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/docker-compose.yml`
+- Bash: `ls ~/Workspace/life-my--midst--in/infra/helm/templates/`
+- Write `~/Workspace/life-my--midst--in/infra/helm/templates/web-deployment.yaml`
+- Write `~/Workspace/life-my--midst--in/infra/helm/templates/orchestrator-deployment.yaml`
+- Bash: `ls ~/Workspace/life-my--midst--in/infra/helm/templates/ | grep -i ingre`
+- Write `~/Workspace/life-my--midst--in/infra/helm/templates/ingress.yaml`
+- Read `~/Workspace/life-my--midst--in/infra/helm/templates/_helpers.tpl`
+- Edit `~/Workspace/life-my--midst--in/infra/helm/templates/_helpers.tpl`
+- Edit `~/Workspace/life-my--midst--in/docker-compose.yml`
+- Edit `~/Workspace/life-my--midst--in/docker-compose.yml`
 - TaskUpdate
 - TaskUpdate
-- Bash: `ls -R /Users/4jp/Workspace/life-my--midst--in/infra/grafana/`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/grafana/provisioning/datasources/prometheus.yml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/grafana/provisioning/dashboards/default.yml`
+- Bash: `ls -R ~/Workspace/life-my--midst--in/infra/grafana/`
+- Read `~/Workspace/life-my--midst--in/infra/grafana/provisioning/datasources/prometheus.yml`
+- Read `~/Workspace/life-my--midst--in/infra/grafana/provisioning/dashboards/default.yml`
 - *...and 116 more*
 
 ---
@@ -270,26 +270,26 @@ Let me trace through this conversation chronologically:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/pdf-export.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/queue.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/server.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/worker.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/services/pdf-export.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/queue.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/server.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/worker.ts`
 - Grep `TaskQueueKind`
 - Grep `addBreadcrumbContext`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/config.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/jsonld-export.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/config.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/services/jsonld-export.ts`
 - Glob `apps/api/src/services/jsonld-export.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/jsonld-export.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/jsonld-export.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/services/jsonld-export.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/services/jsonld-export.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/routes/exports.ts`
 - *...and 67 more*
 
 ---
@@ -299,9 +299,9 @@ Let me trace through this conversation chronologically:
 commit all and push to origin
 
 **Actions taken:**
-- Bash: `git -C /Users/4jp/Workspace/life-my--midst--in status --short`
-- Bash: `git -C /Users/4jp/Workspace/life-my--midst--in log --oneline origin/master..HEAD`
-- Bash: `git -C /Users/4jp/Workspace/life-my--midst--in push origin master`
+- Bash: `git -C ~/Workspace/life-my--midst--in status --short`
+- Bash: `git -C ~/Workspace/life-my--midst--in log --oneline origin/master..HEAD`
+- Bash: `git -C ~/Workspace/life-my--midst--in push origin master`
 
 ---
 
@@ -352,20 +352,20 @@ Let me trace through this conversation chronologically:
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/life-my--midst--in/package.json`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docker-compose.yml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/infra/helm/in-midst-my-life/values.yaml`
+- Read `~/Workspace/life-my--midst--in/package.json`
+- Read `~/Workspace/life-my--midst--in/docker-compose.yml`
+- Read `~/Workspace/life-my--midst--in/infra/helm/in-midst-my-life/values.yaml`
 - Glob `infra/helm/**/values.yaml`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/billing/billing-service.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/billing/billing-service.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/core/src/licensing/licensing-service.ts`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/billing/billing-service.ts`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/billing/billing-service.ts`
+- Read `~/Workspace/life-my--midst--in/packages/core/src/licensing/licensing-service.ts`
 - Bash: `git log --oneline -20`
 - Bash: `find . -name '*.ts' -o -name '*.tsx' | grep -v node_modules | grep -v .next | gr`
 - Bash: `find . -name '*.test.ts' -o -name '*.test.tsx' -o -name '*.spec.ts' -o -name '*.`
 - Bash: `du -sh . --exclude=node_modules --exclude=.next --exclude=.git 2>/dev/null || fi`
 - Bash: `find . -not -path '*/node_modules/*' -not -path '*/.next/*' -not -path '*/.git/*`
-- Read `/Users/4jp/.claude/plans/floofy-shimmying-gizmo.md`
-- Write `/Users/4jp/.claude/plans/floofy-shimmying-gizmo.md`
+- Read `~/.claude/plans/floofy-shimmying-gizmo.md`
+- Write `~/.claude/plans/floofy-shimmying-gizmo.md`
 - ExitPlanMode
 
 ---

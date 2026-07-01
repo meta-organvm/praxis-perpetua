@@ -43,10 +43,10 @@ Post-CONSOLIDATION-II (2026-02-12), the system sits at 33 PRODUCTION + 30 PROTOT
 - TaskUpdate
 - TaskUpdate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 - Grep `system-governance-framework|cognitive-archaelogy-tribunal`
 - Grep `salon-archive|reading-group-curriculum|social-automation|distribution-strategy`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 - *...and 74 more*
 
 ---

@@ -2,7 +2,7 @@
 
 **Session ID:** `1924e3fc-06f7-49bc-883e-d80103ef6ccb`
 **Duration:** ~161 min
-**Working directory:** `/Users/4jp/Workspace/4444J99/portfolio`
+**Working directory:** `~/Workspace/4444J99/portfolio`
 **Prompts:** 25 human prompts (36 raw user messages incl. tool-loaded, task notifications)
 
 ---
@@ -230,7 +230,7 @@ Add `npm run preflight` to the Commands section and add a note: "Run before push
 5. **SOP review:** Read `sop--cicd-resilience.md` in corpus context — verify it's project-agnostic and follows existing SOP format conventions
 
 
-If you need specific details from before exiting plan mode (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/b91a04c5-c915-4acb-b822-c0011e28f9f7.jsonl
+If you need specific details from before exiting plan mode (like exact code snippets, error messages, or content you generated), read the full transcript at: ~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio/b91a04c5-c915-4acb-b822-c0011e28f9f7.jsonl
 
 **Actions taken:**
 - ToolSearch
@@ -242,23 +242,23 @@ If you need specific details from before exiting plan mode (like exact code snip
 Tool loaded.
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/package.json`
+- Read `~/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
+- Read `~/Workspace/4444J99/portfolio/package.json`
 - Glob `sop--*.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
 - Glob `src/pages/**/*.astro`
 - Glob `src/pages/**/*.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/check-runtime-route-manifest.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/CLAUDE.md`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/CLAUDE.md`
-- Write `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--cicd-resilience.md`
-- Write `/Users/4jp/Workspace/4444J99/portfolio/.quality/GOVERNANCE-COUPLING.md`
-- Write `/Users/4jp/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/package.json`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/CLAUDE.md`
+- Read `~/Workspace/4444J99/portfolio/scripts/check-runtime-route-manifest.mjs`
+- Read `~/Workspace/4444J99/portfolio/CLAUDE.md`
+- Read `~/Workspace/4444J99/portfolio/CLAUDE.md`
+- Write `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--cicd-resilience.md`
+- Write `~/Workspace/4444J99/portfolio/.quality/GOVERNANCE-COUPLING.md`
+- Write `~/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
+- Edit `~/Workspace/4444J99/portfolio/package.json`
+- Edit `~/Workspace/4444J99/portfolio/CLAUDE.md`
 - Bash: `node scripts/sync-a11y-routes.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/runtime-a11y-routes.json`
-- Grep `gallery|resume/polymath|logos/|/press|/impact` in /Users/4jp/Workspace/4444J99/portfolio/scripts/runtime-a11y-routes.json
+- Read `~/Workspace/4444J99/portfolio/scripts/runtime-a11y-routes.json`
+- Grep `gallery|resume/polymath|logos/|/press|/impact` in ~/Workspace/4444J99/portfolio/scripts/runtime-a11y-routes.json
 - Bash: `node -e "const m = JSON.parse(require('fs').readFileSync('scripts/runtime-a11y-routes.json','utf8')); const statics = m....`
 - Bash: `node -e 'const m = JSON.parse(require("fs").readFileSync("scripts/runtime-a11y-routes.json","utf8")); const statics = m....`
 - Bash: `node --input-type=module -e 'import fs from "fs"; const m=JSON.parse(fs.readFileSync("scripts/runtime-a11y-routes.json",...`
@@ -277,12 +277,12 @@ print('Total routes:', len(m['routes'])...`
 is it so clean we are we able to eat of the floor? no patchwork, no bandaids, no quick under rug sweeps--fundamental, gravitational, biological, chemical, and physics based fixes with logic, unity, and upwardly striving for utopic internal peaceful harmony of self-satisfying self-realization?
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/runtime-a11y-routes.json`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/.quality/GOVERNANCE-COUPLING.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--cicd-resilience.md`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
+- Read `~/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
+- Read `~/Workspace/4444J99/portfolio/scripts/runtime-a11y-routes.json`
+- Read `~/Workspace/4444J99/portfolio/.quality/GOVERNANCE-COUPLING.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--cicd-resilience.md`
+- Edit `~/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
+- Edit `~/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
 - Bash: `node scripts/sync-a11y-routes.mjs && python3 -c "
 import json
 m = json.load(open('scripts/runtime-a11y-routes.json'))
@@ -296,7 +296,7 @@ import json
 personas = json.load(open('src/data/personas.json'))['personas']
 ids = [p['id'] for p in person...`
 - Bash: `npx vitest run -c .config/vitest.config.ts 2>&1 | tail -10`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
+- Read `~/Workspace/4444J99/portfolio/scripts/sync-a11y-routes.mjs`
 - Bash: `npx biome check scripts/sync-a11y-routes.mjs 2>&1`
 
 ---
@@ -312,10 +312,10 @@ ids = [p['id'] for p in person...`
 - Bash: `git log --oneline -5`
 - Bash: `git status -u`
 - Bash: `git check-ignore -v .quality/GOVERNANCE-COUPLING.md 2>&1`
-- Grep `\.quality` in /Users/4jp/Workspace/4444J99/portfolio/.gitignore
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.gitignore`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/.gitignore`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.gitignore`
+- Grep `\.quality` in ~/Workspace/4444J99/portfolio/.gitignore
+- Edit `~/Workspace/4444J99/portfolio/.gitignore`
+- Read `~/Workspace/4444J99/portfolio/.gitignore`
+- Edit `~/Workspace/4444J99/portfolio/.gitignore`
 - Bash: `git status -u`
 - Bash: `git add .gitignore CLAUDE.md package.json scripts/runtime-a11y-routes.json scripts/sync-a11y-routes.mjs .quality/GOVERNA...`
 - Bash: `git commit -m "$(cat <<'EOF'
@@ -323,8 +323,8 @@ feat: CI resilience hardening — filesystem-derived routes, preflight, coupling
 
 Re...`
 - Bash: `git push origin main`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status -u`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add docs/operations/sop--cicd-resilience.md && gi...`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status -u`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add docs/operations/sop--cicd-resilience.md && gi...`
 
 ---
 
@@ -371,19 +371,19 @@ export this entire session for review: "  # Export to praxis-perpetua (scaffolds
 
 **Actions taken:**
 - Bash: `which organvm 2>/dev/null || echo "not found"`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && pip show organvm-engine 2>/dev/null | head -5; ls src/organvm_eng...`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate 2>/de...`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
-- Grep `def main|entry_points|console_scripts|session` in /Users/4jp/Workspace/meta-organvm/organvm-engine
-- Grep `entry_points|console_scripts|organvm` in /Users/4jp/Workspace/meta-organvm/organvm-engine
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session export c1cc4942 --slug praxis-establishme...`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session list --project portfolio --limit 5 2>&1`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session projects 2>&1`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session list --project "/Users/4jp/Workspace/4444...`
-- Bash: `ls -lt /Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/*.jsonl 2>/dev/null | head -5`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session export 1924e3fc --slug praxis-establishme...`
-- Bash: `source /Users/4jp/Workspace/meta-organvm/.venv/bin/activate && organvm session export 1924e3fc --slug praxis-establishme...`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && pip show organvm-engine 2>/dev/null | head -5; ls src/organvm_eng...`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && source ~/Workspace/meta-organvm/.venv/bin/activate 2>/de...`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli/session.py`
+- Grep `def main|entry_points|console_scripts|session` in ~/Workspace/meta-organvm/organvm-engine
+- Grep `entry_points|console_scripts|organvm` in ~/Workspace/meta-organvm/organvm-engine
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session export c1cc4942 --slug praxis-establishme...`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session list --project portfolio --limit 5 2>&1`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session projects 2>&1`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session list --project "~/Workspace/4444...`
+- Bash: `ls -lt ~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio/*.jsonl 2>/dev/null | head -5`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session export 1924e3fc --slug praxis-establishme...`
+- Bash: `source ~/Workspace/meta-organvm/.venv/bin/activate && organvm session export 1924e3fc --slug praxis-establishme...`
 
 ---
 
@@ -398,15 +398,15 @@ can you export a full transcript of this session
 **Actions taken:**
 - Bash: `python3 -c "
 import json
-with open('/Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/1924e3fc-06f7-49b...`
+with open('~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio/1924e3fc-06f7-49b...`
 - Bash: `python3 -c "
 import json
-with open('/Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/1924e3fc-06f7-49b...`
+with open('~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio/1924e3fc-06f7-49b...`
 - Bash: `python3 << 'PYEOF'
 import json
 from datetime import datetime
 
-JSONL = '/Users/4jp/.claude/projects/-Users-4jp-Workspace-...`
+JSONL = '~/.claude/projects/-Users-[user]-Workspace-...`
 
 ---
 
@@ -422,7 +422,7 @@ does it include your thinking and any text generated
 - Bash: `python3 << 'PYEOF'
 import json
 
-JSONL = '/Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/1924e3fc-06f...`
+JSONL = '~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio/1924e3fc-06f...`
 
 ---
 
@@ -437,8 +437,8 @@ does the transcript leave breadcrumbs for the eyes of an auditor to find all inf
 yes, and the sibling doc as a style-guide to follow your lead
 
 **Actions taken:**
-- Write `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--transcript-unabridged.md` (185KB full transcript with thinking blocks, tool I/O, generated code)
-- Write `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--style-guide.md`
+- Write `~/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--transcript-unabridged.md` (185KB full transcript with thinking blocks, tool I/O, generated code)
+- Write `~/Workspace/meta-organvm/praxis-perpetua/sessions/2026-03-06--praxis-establishment--style-guide.md`
 
 ---
 
@@ -447,8 +447,8 @@ yes, and the sibling doc as a style-guide to follow your lead
 so there are a bunch of sessions living in this cli interface, where is the locals stored?
 
 **Actions taken:**
-- Bash: `ls -lt /Users/4jp/.claude/projects/ | head -20`
-- Bash: `ls /Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio/*.jsonl | wc -l`
+- Bash: `ls -lt ~/.claude/projects/ | head -20`
+- Bash: `ls ~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio/*.jsonl | wc -l`
 
 ---
 
@@ -469,8 +469,8 @@ I guess I'm just wondering if instead of duplicating we should create contextual
 > stage all, commit all, origin merge
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git status`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua && git add ... && git commit && git push`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && git status`
+- Bash: `cd ~/Workspace/meta-organvm/praxis-perpetua && git add ... && git commit && git push`
 
 ---
 
@@ -479,7 +479,7 @@ I guess I'm just wondering if instead of duplicating we should create contextual
 another thread is working on it still; Instead, can we try an experiment in this directory, the current one we're in, the portfolio directory? Find all the Claude, Gemini, and Codex sessions. Just discover all AI session storage across all three tools.
 
 **Actions taken:**
-- Bash: `ls /Users/4jp/.claude/projects/ | head -30`
+- Bash: `ls ~/.claude/projects/ | head -30`
 - Bash: `find ~/.gemini -name '*.json' 2>/dev/null | head -20`
 - Bash: `find ~/.codex -name '*.jsonl' 2>/dev/null | head -20`
 - Discovered: Claude (64 sessions across 12 project dirs), Gemini (`~/.gemini/tmp/<slug>/chats/`), Codex (`~/.codex/sessions/YYYY/MM/DD/`)
@@ -549,9 +549,9 @@ well dude we obviously need to complete the same goddamn process the other sessi
 
 ### Workspace Directories Touched
 
-1. `/Users/4jp/Workspace/4444J99/portfolio/` — primary (route hardening, preflight, coupling manifest)
-2. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/` — SOP creation
-3. `/Users/4jp/Workspace/meta-organvm/praxis-perpetua/` — session export, transcript, style guide
+1. `~/Workspace/4444J99/portfolio/` — primary (route hardening, preflight, coupling manifest)
+2. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/` — SOP creation
+3. `~/Workspace/meta-organvm/praxis-perpetua/` — session export, transcript, style guide
 
 ### Key Deliverables
 

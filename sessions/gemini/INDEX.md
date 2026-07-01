@@ -14,81 +14,81 @@
 |------|---------|---------|----------|
 | 2026-02-18 | [`session-2026`](cli/4444j99/2026-02-18--session-2026--prompts.md) | 1 | ~43s |
 
-## `4jp` (71 sessions)
+## `[user]` (71 sessions)
 
 | Date | Session | Prompts | Duration |
 |------|---------|---------|----------|
-| 2025-12-12 | [`session-2025`](cli/4jp/2025-12-12--session-2025--prompts.md) | 2 | ~11 min |
-| 2025-12-12 | [`session-2025`](cli/4jp/2025-12-12--session-2025--prompts.md) | 8 | ~3h 32m |
-| 2025-12-12 | [`session-2025`](cli/4jp/2025-12-12--session-2025--prompts.md) | 18 | ~32 min |
-| 2025-12-12 | [`session-2025`](cli/4jp/2025-12-12--session-2025--prompts.md) | 1 | ~1 min |
-| 2025-12-19 | [`session-2025`](cli/4jp/2025-12-19--session-2025--prompts.md) | 7 | ~10h 39m |
-| 2025-12-24 | [`session-2025`](cli/4jp/2025-12-24--session-2025--prompts.md) | 1 | ~3s |
-| 2025-12-24 | [`session-2025`](cli/4jp/2025-12-24--session-2025--prompts.md) | 1 | ~2s |
-| 2025-12-29 | [`session-2025`](cli/4jp/2025-12-29--session-2025--prompts.md) | 2 | ~101h 50m |
-| 2026-01-04 | [`session-2026`](cli/4jp/2026-01-04--session-2026--prompts.md) | 1 | ~10s |
-| 2026-01-09 | [`session-2026`](cli/4jp/2026-01-09--session-2026--prompts.md) | 7 | ~219h 6m |
-| 2026-01-18 | [`session-2026`](cli/4jp/2026-01-18--session-2026--prompts.md) | 21 | ~17h 50m |
-| 2026-02-08 | [`session-2026`](cli/4jp/2026-02-08--session-2026--prompts.md) | 1 | ~12 min |
-| 2026-02-08 | [`session-2026`](cli/4jp/2026-02-08--session-2026--prompts.md) | 1 | ~3 min |
-| 2026-02-08 | [`session-2026`](cli/4jp/2026-02-08--session-2026--prompts.md) | 2 | ~17 min |
-| 2026-02-08 | [`session-2026`](cli/4jp/2026-02-08--session-2026--prompts.md) | 2 | ~5 min |
-| 2026-02-08 | [`session-2026`](cli/4jp/2026-02-08--session-2026--prompts.md) | 2 | ~7h 18m |
-| 2026-02-08 | [`session-2026`](cli/4jp/2026-02-08--session-2026--prompts.md) | 5 | ~14h 20m |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 2 | ~47s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 2 | ~2 min |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 4 | ~41 min |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 6 | ~36 min |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 2 | ~6 min |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~2 min |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~13s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~10s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~6s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~33s |
-| 2026-02-09 | [`session-2026`](cli/4jp/2026-02-09--session-2026--prompts.md) | 1 | ~36s |
-| 2026-02-13 | [`session-2026`](cli/4jp/2026-02-13--session-2026--prompts.md) | 5 | ~37h 18m |
-| 2026-02-15 | [`session-2026`](cli/4jp/2026-02-15--session-2026--prompts.md) | 7 | ~11h 19m |
-| 2026-02-17 | [`session-2026`](cli/4jp/2026-02-17--session-2026--prompts.md) | 2 | ~25h 17m |
-| 2026-02-18 | [`session-2026`](cli/4jp/2026-02-18--session-2026--prompts.md) | 2 | ~51 min |
-| 2026-02-18 | [`session-2026`](cli/4jp/2026-02-18--session-2026--prompts.md) | 7 | ~20h 52m |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 3 | ~16 min |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 39 | ~5h 22m |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 5 | ~26 min |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 13 | ~3h 16m |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 3 | ~16 min |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 5 | ~35 min |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 5 | ~1h 30m |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 5 | ~50 min |
-| 2026-02-19 | [`session-2026`](cli/4jp/2026-02-19--session-2026--prompts.md) | 2 | ~25 min |
-| 2026-02-20 | [`session-2026`](cli/4jp/2026-02-20--session-2026--prompts.md) | 1 | ~48s |
-| 2026-02-20 | [`session-2026`](cli/4jp/2026-02-20--session-2026--prompts.md) | 35 | ~12h 10m |
-| 2026-02-20 | [`session-2026`](cli/4jp/2026-02-20--session-2026--prompts.md) | 10 | ~107h 12m |
-| 2026-02-24 | [`session-2026`](cli/4jp/2026-02-24--session-2026--prompts.md) | 2 | ~54 min |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 1 | ~33s |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 4 | ~12 min |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 2 | ~5 min |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 1 | ~11 min |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 1 | ~26s |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 3 | ~1 min |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 3 | ~1 min |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 1 | ~22s |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 1 | ~7s |
-| 2026-02-25 | [`session-2026`](cli/4jp/2026-02-25--session-2026--prompts.md) | 2 | ~156h 28m |
-| 2026-03-03 | [`session-2026`](cli/4jp/2026-03-03--session-2026--prompts.md) | 1 | ~2 min |
+| 2025-12-12 | [`session-2025`](cli/[user]/2025-12-12--session-2025--prompts.md) | 2 | ~11 min |
+| 2025-12-12 | [`session-2025`](cli/[user]/2025-12-12--session-2025--prompts.md) | 8 | ~3h 32m |
+| 2025-12-12 | [`session-2025`](cli/[user]/2025-12-12--session-2025--prompts.md) | 18 | ~32 min |
+| 2025-12-12 | [`session-2025`](cli/[user]/2025-12-12--session-2025--prompts.md) | 1 | ~1 min |
+| 2025-12-19 | [`session-2025`](cli/[user]/2025-12-19--session-2025--prompts.md) | 7 | ~10h 39m |
+| 2025-12-24 | [`session-2025`](cli/[user]/2025-12-24--session-2025--prompts.md) | 1 | ~3s |
+| 2025-12-24 | [`session-2025`](cli/[user]/2025-12-24--session-2025--prompts.md) | 1 | ~2s |
+| 2025-12-29 | [`session-2025`](cli/[user]/2025-12-29--session-2025--prompts.md) | 2 | ~101h 50m |
+| 2026-01-04 | [`session-2026`](cli/[user]/2026-01-04--session-2026--prompts.md) | 1 | ~10s |
+| 2026-01-09 | [`session-2026`](cli/[user]/2026-01-09--session-2026--prompts.md) | 7 | ~219h 6m |
+| 2026-01-18 | [`session-2026`](cli/[user]/2026-01-18--session-2026--prompts.md) | 21 | ~17h 50m |
+| 2026-02-08 | [`session-2026`](cli/[user]/2026-02-08--session-2026--prompts.md) | 1 | ~12 min |
+| 2026-02-08 | [`session-2026`](cli/[user]/2026-02-08--session-2026--prompts.md) | 1 | ~3 min |
+| 2026-02-08 | [`session-2026`](cli/[user]/2026-02-08--session-2026--prompts.md) | 2 | ~17 min |
+| 2026-02-08 | [`session-2026`](cli/[user]/2026-02-08--session-2026--prompts.md) | 2 | ~5 min |
+| 2026-02-08 | [`session-2026`](cli/[user]/2026-02-08--session-2026--prompts.md) | 2 | ~7h 18m |
+| 2026-02-08 | [`session-2026`](cli/[user]/2026-02-08--session-2026--prompts.md) | 5 | ~14h 20m |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 2 | ~47s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 2 | ~2 min |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 4 | ~41 min |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 6 | ~36 min |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 2 | ~6 min |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~2 min |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~0s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~13s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~10s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~6s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~33s |
+| 2026-02-09 | [`session-2026`](cli/[user]/2026-02-09--session-2026--prompts.md) | 1 | ~36s |
+| 2026-02-13 | [`session-2026`](cli/[user]/2026-02-13--session-2026--prompts.md) | 5 | ~37h 18m |
+| 2026-02-15 | [`session-2026`](cli/[user]/2026-02-15--session-2026--prompts.md) | 7 | ~11h 19m |
+| 2026-02-17 | [`session-2026`](cli/[user]/2026-02-17--session-2026--prompts.md) | 2 | ~25h 17m |
+| 2026-02-18 | [`session-2026`](cli/[user]/2026-02-18--session-2026--prompts.md) | 2 | ~51 min |
+| 2026-02-18 | [`session-2026`](cli/[user]/2026-02-18--session-2026--prompts.md) | 7 | ~20h 52m |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 3 | ~16 min |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 39 | ~5h 22m |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 5 | ~26 min |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 13 | ~3h 16m |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 3 | ~16 min |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 5 | ~35 min |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 5 | ~1h 30m |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 5 | ~50 min |
+| 2026-02-19 | [`session-2026`](cli/[user]/2026-02-19--session-2026--prompts.md) | 2 | ~25 min |
+| 2026-02-20 | [`session-2026`](cli/[user]/2026-02-20--session-2026--prompts.md) | 1 | ~48s |
+| 2026-02-20 | [`session-2026`](cli/[user]/2026-02-20--session-2026--prompts.md) | 35 | ~12h 10m |
+| 2026-02-20 | [`session-2026`](cli/[user]/2026-02-20--session-2026--prompts.md) | 10 | ~107h 12m |
+| 2026-02-24 | [`session-2026`](cli/[user]/2026-02-24--session-2026--prompts.md) | 2 | ~54 min |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 1 | ~33s |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 4 | ~12 min |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 2 | ~5 min |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 1 | ~11 min |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 1 | ~26s |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 3 | ~1 min |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 3 | ~1 min |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 1 | ~22s |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 1 | ~7s |
+| 2026-02-25 | [`session-2026`](cli/[user]/2026-02-25--session-2026--prompts.md) | 2 | ~156h 28m |
+| 2026-03-03 | [`session-2026`](cli/[user]/2026-03-03--session-2026--prompts.md) | 1 | ~2 min |
 
 ## `a-i-council-coliseum` (2 sessions)
 

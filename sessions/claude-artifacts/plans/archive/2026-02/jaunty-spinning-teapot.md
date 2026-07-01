@@ -21,7 +21,7 @@ The monorepo flatten (removing the nested `omni-dromenon-machina/omni-dromenon-m
 
 The outer `README.md` (48 lines) was a **workspace-level metasystem overview** — different from the monorepo's project README. It contained:
 
-- Title "4jp Metasystem - Autonomous Development Ecosystem"
+- Title "[user] Metasystem - Autonomous Development Ecosystem"
 - References to external projects: `life-my--midst--in`, `gamified-coach-interface`, `trade-perpetual-future`, `my--father-mother`, `mail_automation`, `mcp-servers`
 - A mermaid diagram showing orchestration relationships
 - Operations instructions (`npm run orchestrate`)
@@ -40,8 +40,8 @@ The outer README was a workspace-level overview. Its concepts are covered by the
 **Option B: Archive it**
 Copy the backup's outer README into `docs/reference/` or `_archive/` as a historical reference:
 ```bash
-cp /Users/4jp/Workspace/omni-dromenon-machina.BACKUP-20260207/README.md \
-   /Users/4jp/Workspace/omni-dromenon-machina/docs/reference/outer-workspace-readme.md
+cp ~/Workspace/omni-dromenon-machina.BACKUP-20260207/README.md \
+   ~/Workspace/omni-dromenon-machina/docs/reference/outer-workspace-readme.md
 ```
 
 ## Summary

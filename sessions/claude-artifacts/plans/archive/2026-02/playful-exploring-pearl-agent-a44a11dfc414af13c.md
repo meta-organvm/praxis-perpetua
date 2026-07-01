@@ -1,7 +1,7 @@
 # Community-Hub Repository Exploration Plan
 
 ## Objective
-Conduct thorough exploration of `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/` with 8 specific investigation areas, documenting findings with file paths, line numbers, and counts.
+Conduct thorough exploration of `~/Workspace/organvm-vi-koinonia/community-hub/` with 8 specific investigation areas, documenting findings with file paths, line numbers, and counts.
 
 ## Investigation Areas & Approach
 

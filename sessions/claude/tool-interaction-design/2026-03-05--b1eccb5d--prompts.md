@@ -29,26 +29,26 @@ The tool-interaction-design system has a layered architecture (ontology → rout
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/executor.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/compiler.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/governance.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/constants.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/__init__.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/patchbay.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/session.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/product.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/mcp_server.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/conductor/observability.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/tests/test_executor.py`
-- Read `/Users/4jp/Workspace/tool-interaction-design/.gitignore`
+- Read `~/Workspace/tool-interaction-design/conductor/executor.py`
+- Read `~/Workspace/tool-interaction-design/conductor/compiler.py`
+- Read `~/Workspace/tool-interaction-design/conductor/governance.py`
+- Read `~/Workspace/tool-interaction-design/conductor/constants.py`
+- Read `~/Workspace/tool-interaction-design/conductor/__init__.py`
+- Read `~/Workspace/tool-interaction-design/conductor/patchbay.py`
+- Read `~/Workspace/tool-interaction-design/conductor/session.py`
+- Read `~/Workspace/tool-interaction-design/conductor/product.py`
+- Read `~/Workspace/tool-interaction-design/mcp_server.py`
+- Read `~/Workspace/tool-interaction-design/conductor/observability.py`
+- Read `~/Workspace/tool-interaction-design/tests/test_executor.py`
+- Read `~/Workspace/tool-interaction-design/.gitignore`
 - TaskCreate
 - TaskCreate
 - TaskCreate
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Edit `/Users/4jp/Workspace/tool-interaction-design/conductor/executor.py`
-- Edit `/Users/4jp/Workspace/tool-interaction-design/conductor/executor.py`
+- Edit `~/Workspace/tool-interaction-design/conductor/executor.py`
+- Edit `~/Workspace/tool-interaction-design/conductor/executor.py`
 - *...and 54 more*
 
 ---

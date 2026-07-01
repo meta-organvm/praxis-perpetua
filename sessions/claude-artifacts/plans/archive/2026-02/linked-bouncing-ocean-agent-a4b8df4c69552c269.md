@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-Comprehensive search across `/Users/4jp/Workspace/` revealed **no existing dedicated application tracking system**. This document outlines findings and potential implementation approaches for building an application/job submission management system within the ORGANVM ecosystem.
+Comprehensive search across `~/Workspace/` revealed **no existing dedicated application tracking system**. This document outlines findings and potential implementation approaches for building an application/job submission management system within the ORGANVM ecosystem.
 
 ## Phase 1: Discovery Results
 
@@ -15,14 +15,14 @@ Comprehensive search across `/Users/4jp/Workspace/` revealed **no existing dedic
 - **Patterns Searched**: "applications", "submissions", "tracking", "pipeline", "funnel"
 - **File Types**: YAML, JSON, CSV, Markdown, Python
 - **Key Directories Reviewed**:
-  - `/Users/4jp/Workspace/organvm-i-theoria/`
-  - `/Users/4jp/Workspace/organvm-ii-poiesis/`
-  - `/Users/4jp/Workspace/organvm-iii-ergon/`
-  - `/Users/4jp/Workspace/organvm-iv-taxis/`
-  - `/Users/4jp/Workspace/organvm-v-logos/`
-  - `/Users/4jp/Workspace/organvm-vii-kerygma/`
-  - `/Users/4jp/Workspace/4444J99/`
-  - `/Users/4jp/Workspace/intake/`
+  - `~/Workspace/organvm-i-theoria/`
+  - `~/Workspace/organvm-ii-poiesis/`
+  - `~/Workspace/organvm-iii-ergon/`
+  - `~/Workspace/organvm-iv-taxis/`
+  - `~/Workspace/organvm-v-logos/`
+  - `~/Workspace/organvm-vii-kerygma/`
+  - `~/Workspace/4444J99/`
+  - `~/Workspace/intake/`
 
 ### Key Findings
 

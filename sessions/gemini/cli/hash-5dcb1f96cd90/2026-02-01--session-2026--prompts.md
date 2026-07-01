@@ -11,7 +11,7 @@
 
 ### P1 — 2026-02-01 09:58:21
 
-what happened to the projects/repos in /Users/4jp/Workspace/knowledge-base/intake/absorb-alchemize?
+what happened to the projects/repos in ~/Workspace/knowledge-base/intake/absorb-alchemize?
 
 they are missing?
 

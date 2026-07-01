@@ -38,15 +38,15 @@ The organvm project underwent a dramatic transformation between 2026-02-09 and 2
 - TaskUpdate
 - TaskUpdate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v5-v6-constitution-organ-checks.py`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v5-v6-report.json`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v1-v2-report.json`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v3-report.json`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v4-report.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v5-v6-constitution-organ-checks.py`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v5-v6-report.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v1-v2-report.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v3-report.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/scripts/v4-report.json`
 - Task
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/memory/constitution.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/phase-4-state-machine-log.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/memory/constitution.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/phase-4-state-machine-log.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
 - *...and 80 more*
 
 ---
@@ -75,7 +75,7 @@ import json
 reg = json.load(open('registry-v2.json'))
 count = 0
 for`
-- Bash: `test -f /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/d`
+- Bash: `test -f ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/d`
 
 ---
 
@@ -105,7 +105,7 @@ import json
 reg = json.load(open('registry-v2.json'))
 
 # PROTOTYPE `
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/11-post-launch-e2g-review.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/11-post-launch-e2g-review.md`
 - Bash: `python3 -c "
 import json
 reg = json.load(open('registry-v2.json'))
@@ -117,8 +117,8 @@ reg = json.load(open('registry-v2.json'))
 
 # What does `
 - Grep `What NOT to do|NOT to do|explicitly deferred|Do Not`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-sprint-specs.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-sprint-specs.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-sprint-specs.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-sprint-specs.md`
 
 ---
 

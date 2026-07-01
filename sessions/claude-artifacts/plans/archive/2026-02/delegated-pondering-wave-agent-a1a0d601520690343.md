@@ -1,7 +1,7 @@
 # Organvm-Engine Architectural Assessment Plan
 
 ## Objective
-Conduct a thorough architectural quality assessment of `/Users/4jp/Workspace/meta-organvm/organvm-engine/` with detailed identification of code quality issues, architectural concerns, missing tests, incomplete features, and inconsistencies.
+Conduct a thorough architectural quality assessment of `~/Workspace/meta-organvm/organvm-engine/` with detailed identification of code quality issues, architectural concerns, missing tests, incomplete features, and inconsistencies.
 
 ## Deliverable
 Comprehensive written assessment covering:

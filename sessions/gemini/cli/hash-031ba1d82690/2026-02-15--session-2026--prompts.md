@@ -58,7 +58,7 @@ plan out for all three and proceed exhaustively and extensively
 
 ### P8 — 2026-02-15 15:18:59
 
-okay, let's carry on and continue our work; here is another location that holds another script: '/Users/4jp/Library/Mobile Documents/com~apple~CloudDocs/Archive/Writing/El'
+okay, let's carry on and continue our work; here is another location that holds another script: '~/Library/Mobile Documents/com~apple~CloudDocs/Archive/Writing/El'
 
 ---
 

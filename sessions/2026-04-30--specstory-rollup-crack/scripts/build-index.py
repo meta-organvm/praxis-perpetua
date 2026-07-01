@@ -2,11 +2,11 @@
 """Build the navigable index for the SpecStory rollup.
 
 Reads:
-  - /Users/4jp/Workspace/.specstory/rollup-manifest.tsv
-  - /Users/4jp/Workspace/.specstory/history/*.md (for substrate UUID -> filename map)
+  - ~/Workspace/.specstory/rollup-manifest.tsv
+  - ~/Workspace/.specstory/history/*.md (for substrate UUID -> filename map)
 
 Writes:
-  - /Users/4jp/Workspace/.specstory/SpecStory-v2.INDEX.md
+  - ~/Workspace/.specstory/SpecStory-v2.INDEX.md
 
 The index is a chronologically-sorted table of all 109 rollup sessions with
 direct line-jump coordinates and substrate cross-references. After this exists,
@@ -18,10 +18,10 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-MANIFEST = Path("/Users/4jp/Workspace/.specstory/rollup-manifest.tsv")
-HISTORY = Path("/Users/4jp/Workspace/.specstory/history")
-ROLLUP = Path("/Users/4jp/Workspace/SpecStory, Markdown v2.md")
-OUT = Path("/Users/4jp/Workspace/.specstory/SpecStory-v2.INDEX.md")
+MANIFEST = Path("~/Workspace/.specstory/rollup-manifest.tsv")
+HISTORY = Path("~/Workspace/.specstory/history")
+ROLLUP = Path("~/Workspace/SpecStory, Markdown v2.md")
+OUT = Path("~/Workspace/.specstory/SpecStory-v2.INDEX.md")
 
 SESSION_RE = re.compile(
     r"^<!-- (?P<agent>[A-Za-z][A-Za-z ]*?) Session (?P<uuid>[0-9a-f-]+) \(.+\) -->$"
@@ -81,9 +81,9 @@ def main() -> None:
 
         fh.write("## How to use this index\n\n")
         fh.write("To read any session in the rollup directly:\n\n")
-        fh.write("```\nRead tool: \n  file_path = \"/Users/4jp/Workspace/SpecStory, Markdown v2.md\"\n  offset = <line_start>\n  limit = <span>  # i.e. line_end - line_start + 1\n```\n\n")
+        fh.write("```\nRead tool: \n  file_path = \"~/Workspace/SpecStory, Markdown v2.md\"\n  offset = <line_start>\n  limit = <span>  # i.e. line_end - line_start + 1\n```\n\n")
         fh.write("To read the same session in the substrate (preferred — pre-split, no offset math):\n\n")
-        fh.write("```\nRead tool: \n  file_path = \"/Users/4jp/Workspace/.specstory/history/<filename>\"\n```\n\n")
+        fh.write("```\nRead tool: \n  file_path = \"~/Workspace/.specstory/history/<filename>\"\n```\n\n")
 
         fh.write("## Counts\n\n")
         fh.write(f"- **Total rollup sessions:** {len(rollup_rows)}\n")

@@ -33,10 +33,10 @@ Implement the following plan:
 - Glob `pipeline/active/*.yaml`
 - Glob `scripts/.greenhouse-answers/*.yaml`
 - Glob `scripts/.ashby-answers/*.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/greenhouse_submit.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/ashby_submit.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/greenhouse_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/ashby_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/submit.py`
 - Bash: `python -c "
 from pipeline_lib import load_entries, PIPELINE_DIR_ACTIVE
 entries =`
@@ -78,16 +78,16 @@ proceed with whatever we can autonomously apply for first
 
 **Actions taken:**
 - Bash: `source .venv/bin/activate && python scripts/browser_submit.py --batch --portal a`
-- Bash: `sleep 30 && cat /private/tmp/claude-501/-Users-4jp-Workspace-4444J99-application`
-- Bash: `cat /private/tmp/claude-501/-Users-4jp-Workspace-4444J99-application-pipeline/ta`
-- Bash: `sleep 20 && cat /private/tmp/claude-501/-Users-4jp-Workspace-4444J99-application`
-- Bash: `ls -la /private/tmp/claude-501/-Users-4jp-Workspace-4444J99-application-pipeline`
+- Bash: `sleep 30 && cat /private/tmp/claude-501/-Users-[user]-Workspace-4444J99-application`
+- Bash: `cat /private/tmp/claude-501/-Users-[user]-Workspace-4444J99-application-pipeline/ta`
+- Bash: `sleep 20 && cat /private/tmp/claude-501/-Users-[user]-Workspace-4444J99-application`
+- Bash: `ls -la /private/tmp/claude-501/-Users-[user]-Workspace-4444J99-application-pipeline`
 - Bash: `source .venv/bin/activate && python scripts/browser_submit.py --batch --portal a`
-- Bash: `cat /private/tmp/claude-501/-Users-4jp-Workspace-4444J99-application-pipeline/ta`
+- Bash: `cat /private/tmp/claude-501/-Users-[user]-Workspace-4444J99-application-pipeline/ta`
 - Bash: `source .venv/bin/activate && PYTHONPATH=scripts python -c "
 from pipeline_lib im`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/pipeline/submitted/ 2>&1`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/submitted/cohere-applied-ai.yaml`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/pipeline/submitted/ 2>&1`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/submitted/cohere-applied-ai.yaml`
 - Bash: `source .venv/bin/activate && PYTHONPATH=scripts python3 << 'PYEOF'
 import yaml
 f`
@@ -99,11 +99,11 @@ f`
 """Probe Greenhouse form (togeth`
 - Bash: `source .venv/bin/activate && python3 << 'PYEOF'
 """Deeper probe of Greenhouse fo`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/together-ai.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/together-ai.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
 - *...and 52 more*
 
 ---
@@ -121,7 +121,7 @@ stage all, commit all, origin push;
 feat: submit 14 job applications via `
 - Bash: `git rm -r --cached scripts/.browser-profile/ 2>&1 | tail -3`
 - Grep `browser-profile`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/.gitignore`
+- Read `~/Workspace/4444J99/application-pipeline/.gitignore`
 
 ---
 
@@ -139,9 +139,9 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/.gitignore`
+- Read `~/Workspace/4444J99/application-pipeline/.gitignore`
 - Bash: `git status -s`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/.gitignore`
+- Edit `~/Workspace/4444J99/application-pipeline/.gitignore`
 - Bash: `git add .gitignore && git status -s | head -5`
 - Bash: `git log --oneline -3`
 - Bash: `git commit -m "$(cat <<'EOF'

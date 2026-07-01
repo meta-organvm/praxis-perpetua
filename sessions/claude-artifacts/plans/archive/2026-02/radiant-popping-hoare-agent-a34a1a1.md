@@ -9,7 +9,7 @@
 
 ## FINDINGS BY FILE (Active Documents Only)
 
-### 1. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
+### 1. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -20,7 +20,7 @@
 | 22 | `\| III \| ... \| 24 \|` | `\| III \| ... \| 27 \|` | ORGAN-III count |
 | 27 | `\| VIII \| ... \| 2 \|` | `\| VIII \| ... \| 3 \|` | Meta count |
 
-### 2. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
+### 2. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -36,7 +36,7 @@
 | 248 | "see all 91 repos" | "see all 97 repos" | Stale repo count (91) |
 | 276 | "across 91 repos" | "across 97 repos" | Stale repo count (91) |
 
-### 3. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/there+back-again.md`
+### 3. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/there+back-again.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -48,7 +48,7 @@
 | 450 | "91 repos, 8 organizations" | "97 repos, 8 organizations" | Stale repo count (91) |
 | 590 | "~386K+ words across 91 repositories" | "~386K+ words across 97 repositories" | Stale repo count (91) |
 
-### 4. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+### 4. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -57,7 +57,7 @@
 | 108 | "operational-cadence.md references '5 ORGAN-II SKELETON repos' -- registry shows 0 SKELETON" | Still valid as a note, but should confirm it has been fixed | Meta-stale reference |
 | 109 | "Omega roadmap says 'Design-only repos: 2' -- now 0" | Still valid as a note to confirm fixe | Meta-stale reference |
 
-### 5. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+### 5. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -67,19 +67,19 @@
 | 525-536 | Section "### 5. The ORGAN-II SKELETON Repos Are a Trap" (entire section) | Rewrite or remove -- no SKELETON repos remain | Stale SKELETON section |
 | 601 | "91 repositories is enough" | "97 repositories is enough" | Stale repo count (91) |
 
-### 6. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/minimum-viable-operations.md`
+### 6. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/minimum-viable-operations.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
 | 11 | "spanning 91 repositories" | "spanning 97 repositories" | Stale repo count (91) |
 
-### 7. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/emergency-procedures.md`
+### 7. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/emergency-procedures.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
 | 134 | "19 repos" (in ORGAN-I billing calculation) | "20 repos" | ORGAN-I count stale |
 
-### 8. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-full-system-review.md`
+### 8. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-full-system-review.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -93,14 +93,14 @@
 | 199 | "89 PRODUCTION repositories" / "89 repositories (82 actively maintained, 7 archived)" | Update to 97 repos (90 ACTIVE, 7 ARCHIVED) | Stale counts + PRODUCTION terminology |
 | 321 | "89 repos, 82 PRODUCTION, 7 ARCHIVED" | "97 repos, 90 ACTIVE, 7 ARCHIVED" | Stale counts + PRODUCTION terminology |
 
-### 9. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-action-items.md`
+### 9. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-action-items.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
 | 24 | "all 24 ORGAN-III repos" | "all 27 ORGAN-III repos" | ORGAN-III count stale |
 | 65 | "all 24 ORGAN-III repos" | "all 27 ORGAN-III repos" | ORGAN-III count stale |
 
-### 10. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/governance/quarterly-sustainability-checklist.md`
+### 10. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/governance/quarterly-sustainability-checklist.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -109,7 +109,7 @@
 | 94 | "PRODUCTION repos degraded" | "ACTIVE repos degraded" | PRODUCTION terminology |
 | 95 | "5 highest-portfolio-relevance SKELETON repos" | Remove or update -- 0 SKELETON | Stale SKELETON reference |
 
-### 11. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/metrics-snapshot.md`
+### 11. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/metrics-snapshot.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -119,7 +119,7 @@
 | 21 | "ORGAN-II: 26 repos" | "ORGAN-II: 30 repos" | ORGAN-II count |
 | 22 | "ORGAN-III: 24 repos" | "ORGAN-III: 27 repos" | ORGAN-III count |
 
-### 12. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/system-overview.md`
+### 12. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/system-overview.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -129,7 +129,7 @@
 | 14 | "10 sprints completed" | Update sprint count (now 16+) | Stale sprint count |
 | 18 | "validate 89 repositories" | "validate 97 repositories" | Stale repo count (89) |
 
-### 13. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/00-portfolio-brief.md`
+### 13. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/00-portfolio-brief.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
@@ -143,19 +143,19 @@
 | 41 | `\| VI \| Koinonia \| ... \| 3 \|` | `\| VI \| Koinonia \| ... \| 4 \|` | ORGAN-VI count |
 | 43 | `\| VIII \| Meta \| ... \| 2 \|` | `\| VIII \| Meta \| ... \| 3 \|` | Meta count |
 
-### 14. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/key-workflows.md`
+### 14. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/key-workflows.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
 | 53 | `implementation_status: ACTIVE \| PROTOTYPE \| SKELETON \| DESIGN_ONLY \| ARCHIVED` | Still valid as schema definition (these are valid enum values) | OK -- schema reference, not a count |
 
-### 15. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/orchestration-system-v2.md`
+### 15. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/orchestration-system-v2.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|
 | 220 | `\| SKELETON \| Repo exists with minimal structure \|` | Still valid as tier definition | OK -- tier definition, not a count |
 
-### 16. `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/02-track-grants.md`
+### 16. `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/02-track-grants.md`
 
 | Line | Current Text | Should Be | Category |
 |------|-------------|-----------|----------|

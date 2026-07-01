@@ -128,7 +128,7 @@ Gabler, Neal. 2006. *Walt Disney: The Triumph of the American Imagination*. New 
 
 Hammond, Paul. 1974. *Marvellous Melies*. London: Gordon Fraser.
 
-Padavano, Anthony James. 2026c. "Solo Auteur to Studio: The Organizational, Technical, and Psychological Trajectory from Individual Vision to Creative Institution." ORGANVM SGO Research Corpus. Unpublished manuscript.
+[name redacted] James. 2026c. "Solo Auteur to Studio: The Organizational, Technical, and Psychological Trajectory from Individual Vision to Creative Institution." ORGANVM SGO Research Corpus. Unpublished manuscript.
 
 Solomon, Matthew, ed. 2011. *Fantastic Voyages of the Cinematic Imagination: Georges Melies's Trip to the Moon*. Albany: SUNY Press.
 

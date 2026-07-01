@@ -22,11 +22,11 @@
 **Actions taken:**
 - ToolSearch
 - Glob `docs/research/**/*.md`
-- Glob `/Users/4jp/Workspace/meta-organvm/SOP--market-gap-analysis.md`
-- Glob `/Users/4jp/Workspace/meta-organvm/**/SOP*`
-- Read `/Users/4jp/Workspace/meta-organvm/SOP--market-gap-analysis.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/research/research--sop-product-teardown.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/research/research--competitor-teardown.md`
+- Glob `~/Workspace/meta-organvm/SOP--market-gap-analysis.md`
+- Glob `~/Workspace/meta-organvm/**/SOP*`
+- Read `~/Workspace/meta-organvm/SOP--market-gap-analysis.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/research/research--sop-product-teardown.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/research/research--competitor-teardown.md`
 - ToolSearch
 - mcp__github__list_issues
 - ToolSearch
@@ -36,8 +36,8 @@
 - Bash: `gh issue list --repo organvm-iii-ergon/peer-audited--behavioral-blockchain --lab`
 - Bash: `gh issue list --repo organvm-iii-ergon/peer-audited--behavioral-blockchain --sta`
 - Bash: `gh issue view 149 --repo organvm-iii-ergon/peer-audited--behavioral-blockchain -`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/research/research--competitor-teardown.md`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm && git log --oneline -3`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/docs/research/research--competitor-teardown.md`
+- Bash: `cd ~/Workspace/meta-organvm && git log --oneline -3`
 - Glob `docs/research/research--competitor-teardown-v2.md`
 - ToolSearch
 - *...and 4 more*

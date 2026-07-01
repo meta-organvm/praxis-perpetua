@@ -1,7 +1,7 @@
 # Portfolio Quality Audit Round 4 — Detailed Technical Summary
 
 **Date**: 2026-02-23
-**Project**: `/Users/4jp/Workspace/4444J99/portfolio`
+**Project**: `~/Workspace/4444J99/portfolio`
 **Scope**: Comprehensive accessibility (a11y) and quality audit across 8 areas
 **Status**: Approximately 33% complete (2 of 8 areas preliminary findings; 6 areas pending)
 **Mode**: Read-only exploration (no edits permitted)

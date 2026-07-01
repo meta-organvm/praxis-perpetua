@@ -10,7 +10,7 @@ Conduct a comprehensive search of the ORGAN-VI (Koinonia/Community) codebase to 
 6. Opportunities for advancement
 
 ## Codebase Structure
-- Root: `/Users/4jp/Workspace/organvm-vi-koinonia/`
+- Root: `~/Workspace/organvm-vi-koinonia/`
 - Submodules: `koinonia-db`, `salon-archive`, `reading-group-curriculum`, `adaptive-personal-syllabus`, `community-hub`, `.github`
 
 ## Search Strategy

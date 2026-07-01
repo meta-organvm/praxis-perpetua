@@ -21,19 +21,19 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
 - Task
 - Task
 - Task
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-meta-organvm/memory/MEMORY.md`
+- Read `~/.claude/projects/-Users-[user]-Workspace-meta-organvm/memory/MEMORY.md`
 - Grep `omega`
 - Grep `omega`
 - Grep `omega`
 - Grep `omega`
 - Glob `**/MEMORY.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/omega-evidence-map.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-ii-action-items.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-post-construction-review.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/omega-evidence-map.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-ii-action-items.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/evaluation/e2g-post-construction-review.md`
 - Glob `organvm-engine/src/organvm_engine/**/*.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/there+back-again.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/there+back-again.md`
 - *...and 18 more*
 
 ---

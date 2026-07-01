@@ -76,4 +76,4 @@ Comprehensive exploration of the stakeholder portal's data infrastructure:
   - "recursive-engine--generative-entity": Analyze available data
 
 ## Working Directory
-`/Users/4jp/Workspace/meta-organvm/stakeholder-portal`
+`~/Workspace/meta-organvm/stakeholder-portal`

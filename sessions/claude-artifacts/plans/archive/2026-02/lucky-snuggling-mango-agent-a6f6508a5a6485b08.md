@@ -12,7 +12,7 @@ Perform a thorough read-only investigation of ORGAN-VII's cross-organ dependenci
 ## Investigation Areas (6 Primary)
 
 ### 1. ORGAN-IV Registry Integration
-**Location**: `/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
+**Location**: `~/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
 
 **Objectives**:
 - Verify registry file exists and is accessible
@@ -28,7 +28,7 @@ Perform a thorough read-only investigation of ORGAN-VII's cross-organ dependenci
 - Registry entry format and versioning
 
 ### 2. ORGAN-V (public-process) RSS/Atom Feed
-**Location**: `/Users/4jp/Workspace/organvm-v-logos/`
+**Location**: `~/Workspace/organvm-v-logos/`
 
 **Objectives**:
 - Verify public-process repo exists and contains Jekyll site
@@ -45,7 +45,7 @@ Perform a thorough read-only investigation of ORGAN-VII's cross-organ dependenci
 - Any custom metadata or extensions
 
 ### 3. GitHub Actions Workflows Maturity
-**Location**: `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
+**Location**: `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
 
 **Workflows to Analyze**:
 - `ci-pipeline.yml` - Package installation, test runs
@@ -74,7 +74,7 @@ Perform a thorough read-only investigation of ORGAN-VII's cross-organ dependenci
 - Integration with kerygma_pipeline.py orchestrator
 
 ### 4. Meta-ORGANVM Registry
-**Location**: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+**Location**: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
 
 **Objectives**:
 - Verify registry-v2.json exists and is current

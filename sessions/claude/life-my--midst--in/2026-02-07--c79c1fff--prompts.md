@@ -36,19 +36,19 @@ The uncovered files include VERY HIGH risk documents like `PHASE-9-COMPLETION.md
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
+- Read `~/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
 - Task
 - Task
 - Task
 - Task
 - TaskUpdate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/life-my--midst--in/AGENTS.md`
-- Read `/Users/4jp/Workspace/life-my--midst--in/QUICKSTART.md`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/README.md`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/README.md`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/README.md`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/README.md`
+- Read `~/Workspace/life-my--midst--in/AGENTS.md`
+- Read `~/Workspace/life-my--midst--in/QUICKSTART.md`
+- Read `~/Workspace/life-my--midst--in/apps/README.md`
+- Read `~/Workspace/life-my--midst--in/apps/web/README.md`
+- Read `~/Workspace/life-my--midst--in/apps/api/README.md`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/README.md`
 - *...and 55 more*
 
 ---
@@ -67,13 +67,13 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
+- Read `~/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
 - TaskList
-- Read `/Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
-- Bash: `wc -l /Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
-- Bash: `grep -c '✅\|⚠️\|❌\|🔄' /Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMEN`
+- Read `~/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
+- Read `~/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
+- Edit `~/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
+- Bash: `wc -l ~/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
+- Bash: `grep -c '✅\|⚠️\|❌\|🔄' ~/Workspace/life-my--midst--in/docs/SEED-ALIGNMEN`
 - TaskUpdate
 - TaskUpdate
 - Bash: `gh issue create \
@@ -112,10 +112,10 @@ Let me chronologically analyze the conversation:
 okay, reveal the new-era-docs that require focus for perfection, and archive docs in subdirectories logically as to not have to get lost them in again (i do not mean delete or hide, i mean nest in a subdirectory for completed phases/tasks/todos);
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/parsed-juggling-bunny.md`
+- Read `~/.claude/plans/parsed-juggling-bunny.md`
 - Task
 - Task
-- Write `/Users/4jp/.claude/plans/parsed-juggling-bunny.md`
+- Write `~/.claude/plans/parsed-juggling-bunny.md`
 - ExitPlanMode
 
 ---

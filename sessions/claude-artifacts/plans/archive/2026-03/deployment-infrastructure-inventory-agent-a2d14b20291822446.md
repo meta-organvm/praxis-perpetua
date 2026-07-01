@@ -45,7 +45,7 @@ Create a comprehensive inventory of deployment infrastructure files across all 8
 - First call: `**/render.yaml` timed out after 20 seconds
 - Cascade failure: Remaining 10 calls failed as sibling errors
 
-**Root cause**: Workspace is too large (~100+ repos) for wildcard search across entire `/Users/4jp/Workspace/` hierarchy with 11 parallel Glob patterns
+**Root cause**: Workspace is too large (~100+ repos) for wildcard search across entire `~/Workspace/` hierarchy with 11 parallel Glob patterns
 
 ## Revised Strategy (Sequential, Organ-by-Organ)
 

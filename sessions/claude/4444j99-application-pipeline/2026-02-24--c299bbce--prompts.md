@@ -33,16 +33,16 @@ yes let's plan for all of the above
 - Glob `pipeline/s*arts*.yaml`
 - Glob `pipeline/*.yaml`
 - Glob `pipeline/**/*.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/prix-ars-electronica.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/starts-prize.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/google-creative-fellowship.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/fire-island-residency.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/headlands-center.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/awesome-foundation.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/gay-lesbian-review.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/logic-magazine.yaml`
-- Bash: `ls -la /Users/4jp/Workspace/4444J99/application-pipeline/blocks/ 2>&1`
-- Bash: `ls -laR /Users/4jp/Workspace/4444J99/application-pipeline/materials/ 2>&1`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/prix-ars-electronica.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/starts-prize.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/google-creative-fellowship.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/fire-island-residency.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/headlands-center.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/awesome-foundation.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/gay-lesbian-review.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/logic-magazine.yaml`
+- Bash: `ls -la ~/Workspace/4444J99/application-pipeline/blocks/ 2>&1`
+- Bash: `ls -laR ~/Workspace/4444J99/application-pipeline/materials/ 2>&1`
 - *...and 23 more*
 
 ---
