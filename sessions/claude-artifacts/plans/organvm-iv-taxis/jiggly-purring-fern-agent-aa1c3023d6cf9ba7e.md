@@ -9,7 +9,7 @@
 ## 1. Primary Request and Intent
 
 **Explicit 5-part user request** (previous session):
-1. Search `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm` for Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion
+1. Search `~/Workspace/meta-organvm/organvm-corpvs-testamentvm` for Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion
 2. Perform glob searches using keywords: "sop", "ingest", "synth", "digest", "research", "process"
 3. Identify and check docs/, sop/, procedures/, or processes/ directories
 4. Read all matching files in complete entirety
@@ -41,13 +41,13 @@ Create a detailed 9-section conversation summary capturing technical details, co
 - **AI-conductor workflow model:** Human directs, AI generates volume, human reviews and refines; effort measured in LLM tokens (Token-Expended/TE budget)
 
 ### Git Architecture
-- Root workspace `/Users/4jp/Workspace/` is NOT a git repo; contains 9+ organ directories
+- Root workspace `~/Workspace/` is NOT a git repo; contains 9+ organ directories
 - Each organ directory contains 4-26 independent git repositories as subdirectories
 - ORGAN-IV (`organvm-iv-taxis/`) is a git superproject using submodules (not subtrees)
 - Submodule pointers synced via automated commits (`chore: sync organvm-iv-taxis submodule pointers`)
 
 ### Meta-ORGANVM Corpus Structure
-`/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/` contains:
+`~/Workspace/meta-organvm/organvm-corpvs-testamentvm/` contains:
 - Central governance documentation and SOPs
 - registry-v2.json (single source of truth)
 - governance-rules.json (6 articles codifying governance model)
@@ -60,7 +60,7 @@ Create a detailed 9-section conversation summary capturing technical details, co
 ## 3. Files Identified and Analyzed
 
 ### Primary SOP File
-**File:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
+**File:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
 - **Size:** ~18KB
 - **Status:** ACTIVE (living document)
 - **Relevance:** HIGH—Directly addresses research synthesis problem
@@ -80,14 +80,14 @@ Create a detailed 9-section conversation summary capturing technical details, co
 - Governance document cross-references: constitution.md, governance-rules.json, operational-cadence.md
 
 ### Secondary SOP File
-**File:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
+**File:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
 - **Size:** ~32.5KB
 - **Status:** ACTIVE (living document)
 - **Relevance:** CONDITIONAL—Applies if research synthesis outputs require external organizational communication
 - **Content:** 16-section workflow covering pitch deck generation, README standardization, pitch.yaml authoring, auto-generation, deployment, CI/CD integration, quality gates, tier-based rollout sequencing
 
 ### Supporting Documentation
-**CLAUDE.md** (`/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`)
+**CLAUDE.md** (`~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`)
 - Size: ~1,500+ lines
 - Status: ACTIVE (project-level guidance document)
 - Critical Sections:
@@ -100,7 +100,7 @@ Create a detailed 9-section conversation summary capturing technical details, co
   - Artifact Routing decision tree (directing governance artifacts to stakeholders)
   - Invocation System (6 namespaces: RULE-*, STATE-*, EVENT-*, EDGE-*, ISSUE-*, ARTIFACT-*)
 
-**README.md** (`/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`)
+**README.md** (`~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`)
 - Size: ~32.2KB
 - Status: LAUNCHED
 - Contents: Status badges (8 organs, 97+ repos, ~404K+ words), repository structure, navigation guide, quick-start examples
@@ -117,7 +117,7 @@ Create a detailed 9-section conversation summary capturing technical details, co
 ## 4. Search Methodology and Execution
 
 ### Glob Pattern Searches
-Executed 15 glob pattern searches across `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/`:
+Executed 15 glob pattern searches across `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/`:
 - `**/sop*` — Identified SOP files
 - `**/*ingest*` — No additional matches beyond SOP directory
 - `**/*synth*` — No matches
@@ -302,8 +302,8 @@ Determines how governance artifacts (reports, metrics, issues) flow to stakehold
 
 ## Session Metadata
 - **Current Date:** 2026-03-06
-- **Project Working Directory:** `/Users/4jp/Workspace/organvm-iv-taxis/`
-- **Target Search Directory:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/`
+- **Project Working Directory:** `~/Workspace/organvm-iv-taxis/`
+- **Target Search Directory:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/`
 - **Primary SOP Location:** `docs/operations/sop--document-audit-feature-extraction.md`
 - **Secondary Resources:** CLAUDE.md, README.md, registry-v2.json, governance-rules.json
 - **Status:** Investigation complete; 9-section summary generated for context continuity; awaiting user direction on implementation approach
@@ -313,7 +313,7 @@ Determines how governance artifacts (reports, metrics, issues) flow to stakehold
 ## 9-Section Conversation Summary (Context Continuity Record)
 
 ### Section 1: Explicit User Request and Search Parameters
-The user requested a comprehensive search of `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm` for Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion. The 5-part request explicitly specified:
+The user requested a comprehensive search of `~/Workspace/meta-organvm/organvm-corpvs-testamentvm` for Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion. The 5-part request explicitly specified:
 1. Glob pattern searches using keywords: "sop", "ingest", "synth", "digest", "research", "process"
 2. Examination of docs/, sop/, procedures/, or processes/ directories
 3. Complete reading of all matching files in their entirety
@@ -331,10 +331,10 @@ The current session request is to generate this detailed 9-section conversation 
 
 **Data Model:** Single source of truth is registry-v2.json (~2,200+ lines, ~97+ repos). Each repo declares membership via seed.yaml contract model (organ membership, tier, produces/consumes edges, event subscriptions, CI agent definitions). registry-v2.json, governance-rules.json, and system-metrics.json are protected files—must use targeted edits, never wholesale replacement. AI-conductor workflow model: Human directs, AI generates volume, human reviews and refines; effort measured in LLM tokens (Token-Expended/TE budget).
 
-**Git Architecture:** Root workspace `/Users/4jp/Workspace/` is NOT a git repo. Each organ directory contains 4-26 independent git repositories as subdirectories. ORGAN-IV (`organvm-iv-taxis/`) is a git superproject using submodules (not subtrees); submodule pointers synced via automated commits (`chore: sync organvm-iv-taxis submodule pointers`).
+**Git Architecture:** Root workspace `~/Workspace/` is NOT a git repo. Each organ directory contains 4-26 independent git repositories as subdirectories. ORGAN-IV (`organvm-iv-taxis/`) is a git superproject using submodules (not subtrees); submodule pointers synced via automated commits (`chore: sync organvm-iv-taxis submodule pointers`).
 
 ### Section 3: Primary SOP Identification and Five-Phase Workflow
-**Primary SOP:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md` (18KB, ACTIVE living document, HIGH relevance to research synthesis request).
+**Primary SOP:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md` (18KB, ACTIVE living document, HIGH relevance to research synthesis request).
 
 **Five-Phase Workflow:**
 1. **Inventory & Triage:** Map all governance documents, classify by type, identify interdependencies, establish triage criteria
@@ -349,7 +349,7 @@ The current session request is to generate this detailed 9-section conversation 
 - Quality gates: Completeness verification, conflict resolution, traceability confirmation
 - Automation hints: SOP includes explicit suggestions for agentic-titan/agent--claude-smith integration (event-driven triggers per phase, agent archetypes for parallel processing, checkpoint/gate mechanisms for HITL review)
 
-**Secondary SOP:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md` (32.5KB, ACTIVE, CONDITIONAL relevance if research synthesis outputs require external organizational communication). Covers pitch deck generation, README standardization, pitch.yaml authoring, auto-generation, CI/CD integration, tier-based rollout sequencing.
+**Secondary SOP:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md` (32.5KB, ACTIVE, CONDITIONAL relevance if research synthesis outputs require external organizational communication). Covers pitch deck generation, README standardization, pitch.yaml authoring, auto-generation, CI/CD integration, tier-based rollout sequencing.
 
 ### Section 4: Governance Corpus Documentation Architecture
 **Document Reading Order (from CLAUDE.md):**
@@ -411,7 +411,7 @@ The current session request is to generate this detailed 9-section conversation 
 - Phase 5: Metrics computation via AGGREGATOR archetype, dashboard update
 
 ### Section 6: Search Methodology, Tool Limitations, and Workarounds
-**Glob Pattern Execution:** Performed 15 broad glob pattern searches across `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/` to identify files matching "sop", "ingest", "synth", "digest", "research", "process" keywords. Broad pattern matching strategy proved effective for discovering SOP files despite inconsistent naming conventions in governance corpus.
+**Glob Pattern Execution:** Performed 15 broad glob pattern searches across `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/` to identify files matching "sop", "ingest", "synth", "digest", "research", "process" keywords. Broad pattern matching strategy proved effective for discovering SOP files despite inconsistent naming conventions in governance corpus.
 
 **Read Tool Limitation (Resolved):**
 - **Problem:** Four parallel Read tool calls for SOP and documentation files returned only file metadata (fileName, filePath, fileType) without actual markdown content

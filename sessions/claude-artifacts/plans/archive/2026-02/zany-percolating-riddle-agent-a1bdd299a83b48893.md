@@ -1,7 +1,7 @@
 # Application Pipeline Script Inventory Task
 
 ## Objective
-Create a complete inventory of all executable Python scripts in `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/`, including:
+Create a complete inventory of all executable Python scripts in `~/Workspace/4444J99/application-pipeline/scripts/`, including:
 - Script names and CLI flags/arguments
 - One-line descriptions
 - Workflow categorization

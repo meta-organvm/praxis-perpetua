@@ -98,7 +98,7 @@ Mock registry fixture: `{"by_name": {"my-repo": {"name": "my-repo", "organ": "OR
 - `test_subdir_for_ext_md` — `.md` → `"theory"`
 - `test_subdir_for_ext_py` — `.py` → `"prototypes"`
 - `test_subdir_for_ext_unknown` — `.xyz` → `"theory"` (default)
-- `test_get_toplevel_dir` — path `/Users/x/Workspace/my-repo/sub/file.py` → `"my-repo"`
+- `test_get_toplevel_dir` — path `~/Workspace/my-repo/sub/file.py` → `"my-repo"`
 
 **15 tests**
 

@@ -4,8 +4,8 @@
 A Firefox Nightly app is registered with macOS Launch Services (appears in "Open With" menus for PDFs, etc.). It was not manually installed — it was automatically downloaded by **Playwright** (ms-playwright) as a test browser and lives in the Playwright cache.
 
 ## Location
-- **App**: `/Users/4jp/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app`
-- **Parent cache**: `/Users/4jp/Library/Caches/ms-playwright/`
+- **App**: `~/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app`
+- **Parent cache**: `~/Library/Caches/ms-playwright/`
 
 ## Plan
 

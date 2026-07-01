@@ -6,7 +6,7 @@ Understand the current state of the application pipeline repo, focusing on daily
 ## User's 8 Exploration Tasks (in priority order)
 
 ### 1. Signals Directory Analysis
-- **Target**: `/Users/4jp/Workspace/4444J99/application-pipeline/signals/`
+- **Target**: `~/Workspace/4444J99/application-pipeline/signals/`
 - **Goal**: Understand conversion analytics infrastructure
 - **Files to read**: conversion-log.yaml, patterns file(s), signal-map file(s)
 - **Questions to answer**: 

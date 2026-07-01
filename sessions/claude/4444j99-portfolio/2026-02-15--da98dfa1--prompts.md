@@ -21,23 +21,23 @@ description: Systematic content evaluation framework progressing through Critiqu
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/portfolio/src/styles/global.css`
-- Read `/Users/4jp/Workspace/portfolio/src/layouts/Layout.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/components/Header.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/components/Footer.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/index.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/about.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/components/ProjectCard.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/components/ProjectDetail.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/resume.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/dashboard.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/consult.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/products.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/projects/agentic-titan.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/essays.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/architecture.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/pages/community.astro`
-- Read `/Users/4jp/Workspace/portfolio/src/components/sketches/SketchContainer.astro`
+- Read `~/Workspace/portfolio/src/styles/global.css`
+- Read `~/Workspace/portfolio/src/layouts/Layout.astro`
+- Read `~/Workspace/portfolio/src/components/Header.astro`
+- Read `~/Workspace/portfolio/src/components/Footer.astro`
+- Read `~/Workspace/portfolio/src/pages/index.astro`
+- Read `~/Workspace/portfolio/src/pages/about.astro`
+- Read `~/Workspace/portfolio/src/components/ProjectCard.astro`
+- Read `~/Workspace/portfolio/src/components/ProjectDetail.astro`
+- Read `~/Workspace/portfolio/src/pages/resume.astro`
+- Read `~/Workspace/portfolio/src/pages/dashboard.astro`
+- Read `~/Workspace/portfolio/src/pages/consult.astro`
+- Read `~/Workspace/portfolio/src/pages/products.astro`
+- Read `~/Workspace/portfolio/src/pages/projects/agentic-titan.astro`
+- Read `~/Workspace/portfolio/src/pages/essays.astro`
+- Read `~/Workspace/portfolio/src/pages/architecture.astro`
+- Read `~/Workspace/portfolio/src/pages/community.astro`
+- Read `~/Workspace/portfolio/src/components/sketches/SketchContainer.astro`
 - *...and 6 more*
 
 ---

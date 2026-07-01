@@ -30,7 +30,7 @@ yes create all 12 suggested skills
 
 ### P4 — 2026-01-30 09:32:03
 
-linked folder contains research requiring absorbing/alchemizing into skill format: /Users/4jp/.local/share/ai-skills/absorb-alchemize
+linked folder contains research requiring absorbing/alchemizing into skill format: ~/.local/share/ai-skills/absorb-alchemize
 
 ---
 

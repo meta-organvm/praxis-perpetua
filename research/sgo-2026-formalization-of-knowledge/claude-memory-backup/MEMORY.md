@@ -14,8 +14,8 @@
 
 ## Shell env gotcha
 - `$HOME` expansion fails in Bash tool when vars set via `export VAR=...` in same command
-- Use literal paths (`/Users/4jp/world`) instead of `$WORLD_ROOT` in Bash tool calls
-- Or pass env vars inline: `WORLD_ROOT=/Users/4jp/world command`
+- Use literal paths (`~/world`) instead of `$WORLD_ROOT` in Bash tool calls
+- Or pass env vars inline: `WORLD_ROOT=~/world command`
 
 ## Archived repos (can't push — need unarchive via GitHub settings)
 - organvm-i-theoria: 4-ivi374-F0Rivi4, cog-init-1-0-, collective-persona-operations

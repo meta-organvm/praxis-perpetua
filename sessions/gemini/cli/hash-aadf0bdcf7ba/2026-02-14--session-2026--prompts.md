@@ -135,7 +135,7 @@ i switched us out of plan mode
 
 ### P18 — 2026-02-14 17:28:15
 
-read and ingest the entire documents and tsx file located here: /Users/4jp/Workspace/alchemical-synthesizer/docs/absorb-alchemize
+read and ingest the entire documents and tsx file located here: ~/Workspace/alchemical-synthesizer/docs/absorb-alchemize
 
 ---
 

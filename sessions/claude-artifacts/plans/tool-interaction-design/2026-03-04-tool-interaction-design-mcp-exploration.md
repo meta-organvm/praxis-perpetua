@@ -1,7 +1,7 @@
 # Tool-Interaction-Design MCP Server & Test Infrastructure Exploration
 
 **Date**: 2026-03-04  
-**Project**: `/Users/4jp/Workspace/tool-interaction-design/`  
+**Project**: `~/Workspace/tool-interaction-design/`  
 **Status**: Read-only exploration complete  
 **Next Phase**: Plan mode (awaiting user direction)
 
@@ -216,19 +216,19 @@ Completed comprehensive exploration of the Conductor MCP server infrastructure a
 ## Files Analyzed
 
 ### Primary Reads (Complete)
-- `/Users/4jp/Workspace/tool-interaction-design/mcp_server.py` (276 lines)
-- `/Users/4jp/Workspace/tool-interaction-design/conductor/cli.py` (233 lines)
-- `/Users/4jp/Workspace/tool-interaction-design/pyproject.toml` (24 lines)
-- `/Users/4jp/Workspace/tool-interaction-design/.conductor.yaml.example` (27 lines)
-- `/Users/4jp/Workspace/tool-interaction-design/conductor/__init__.py` (77 lines)
-- `/Users/4jp/Workspace/tool-interaction-design/conductor/constants.py` (100+ lines)
+- `~/Workspace/tool-interaction-design/mcp_server.py` (276 lines)
+- `~/Workspace/tool-interaction-design/conductor/cli.py` (233 lines)
+- `~/Workspace/tool-interaction-design/pyproject.toml` (24 lines)
+- `~/Workspace/tool-interaction-design/.conductor.yaml.example` (27 lines)
+- `~/Workspace/tool-interaction-design/conductor/__init__.py` (77 lines)
+- `~/Workspace/tool-interaction-design/conductor/constants.py` (100+ lines)
 
 ### Test Reads (Sectional)
-- `/Users/4jp/Workspace/tool-interaction-design/tests/test_conductor.py` (917 lines)
-- `/Users/4jp/Workspace/tool-interaction-design/tests/test_patchbay.py` (899 lines)
+- `~/Workspace/tool-interaction-design/tests/test_conductor.py` (917 lines)
+- `~/Workspace/tool-interaction-design/tests/test_patchbay.py` (899 lines)
 
 ### Directory Scans
-- `/Users/4jp/Workspace/tool-interaction-design/templates/` (3 files)
+- `~/Workspace/tool-interaction-design/templates/` (3 files)
 - `~/.claude/` for mcp.json (not found; confirmed expected behavior)
 
 ---

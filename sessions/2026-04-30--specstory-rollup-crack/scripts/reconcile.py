@@ -19,9 +19,9 @@ from collections import defaultdict
 from pathlib import Path
 from datetime import datetime, timedelta
 
-MANIFEST = Path("/Users/4jp/Workspace/.specstory/rollup-manifest.tsv")
-HISTORY = Path("/Users/4jp/Workspace/.specstory/history")
-OUT = Path("/Users/4jp/Workspace/.specstory/rollup-vs-substrate.md")
+MANIFEST = Path("~/Workspace/.specstory/rollup-manifest.tsv")
+HISTORY = Path("~/Workspace/.specstory/history")
+OUT = Path("~/Workspace/.specstory/rollup-vs-substrate.md")
 
 SUBSTRATE_RE = re.compile(
     r"^(?P<date>\d{4}-\d{2}-\d{2})_(?P<h>\d{2})-(?P<m>\d{2})-(?P<s>\d{2})(?P<tz>[+-]\d{4}|Z)"

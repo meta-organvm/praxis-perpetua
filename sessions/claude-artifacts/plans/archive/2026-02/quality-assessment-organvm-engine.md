@@ -1,7 +1,7 @@
 # Quality Assessment Plan: organvm-engine
 
 ## Objective
-Conduct comprehensive quality assessment of /Users/4jp/Workspace/meta-organvm/organvm-engine/ at "very thorough" level.
+Conduct comprehensive quality assessment of ~/Workspace/meta-organvm/organvm-engine/ at "very thorough" level.
 
 ## Assessment Areas
 1. **Code Structure** - All modules in src/organvm_engine/; architecture, boundaries, imports

@@ -35,13 +35,13 @@ Screenshot 2026-01-30 at 3.20.54 PM.png review screehnshot for more issues
 
 ### P5 — 2026-01-30 20:22:57
 
-@/Users/4jp/Library/Containers/com.wiheads.paste/Data/tmp/images/Dropbox 2026-01-30 15.22.41.png review
+@~/Library/Containers/com.wiheads.paste/Data/tmp/images/Dropbox 2026-01-30 15.22.41.png review
 
 ---
 
 ### P6 — 2026-01-30 20:45:37
 
-let's incorporate the following github apps [@/Users/4jp/Library/Mobile\ Documents/com\~apple\~Preview/Documents/screencapture-github-settings-installations-2026-01-30-15_30_46.png.pdf] into org and workflows
+let's incorporate the following github apps [@~/Library/Mobile\ Documents/com\~apple\~Preview/Documents/screencapture-github-settings-installations-2026-01-30-15_30_46.png.pdf] into org and workflows
 
 ---
 

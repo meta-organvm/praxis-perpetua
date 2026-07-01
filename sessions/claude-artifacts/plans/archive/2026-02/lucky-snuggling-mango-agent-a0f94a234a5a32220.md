@@ -24,7 +24,7 @@ Thorough exploration of 7 components determining ORGAN-VII's ability to send its
 
 ### 1. Config Completeness ✅
 
-**File Analyzed**: `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_config.example.yaml`
+**File Analyzed**: `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_config.example.yaml`
 
 **Key Findings**:
 - Complete reference configuration exists with all 4 platforms (Mastodon, Discord, Bluesky, Ghost)
@@ -43,7 +43,7 @@ Thorough exploration of 7 components determining ORGAN-VII's ability to send its
 
 ### 2. Ghost Deployment State ⏳ PARTIALLY COMPLETED
 
-**File Analyzed**: `/Users/4jp/Workspace/organvm-vii-kerygma/.github/scripts/deploy-ghost-theme.py`
+**File Analyzed**: `~/Workspace/organvm-vii-kerygma/.github/scripts/deploy-ghost-theme.py`
 
 **Key Findings**:
 - Deployment script exists (104 lines) and implements Ghost Admin API JWT authentication
@@ -104,7 +104,7 @@ Thorough exploration of 7 components determining ORGAN-VII's ability to send its
 - Check if rss-auto-dispatch workflow would actually find new content
 
 **Locations to check**:
-- Navigate to `/Users/4jp/Workspace/organvm-v-logos/public-process/` (ORGAN-V)
+- Navigate to `~/Workspace/organvm-v-logos/public-process/` (ORGAN-V)
 - Look for `_config.yml`, `feed.xml`, or Jekyll feed configuration
 - Verify feed generator is active and recently updated
 
@@ -206,9 +206,9 @@ Thorough exploration of 7 components determining ORGAN-VII's ability to send its
 ---
 
 ## Files Analyzed So Far
-- ✅ `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_config.example.yaml`
-- ✅ `/Users/4jp/Workspace/organvm-vii-kerygma/.github/scripts/deploy-ghost-theme.py`
-- ✅ `/Users/4jp/Workspace/organvm-vii-kerygma/.github/CLAUDE.md`
+- ✅ `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_config.example.yaml`
+- ✅ `~/Workspace/organvm-vii-kerygma/.github/scripts/deploy-ghost-theme.py`
+- ✅ `~/Workspace/organvm-vii-kerygma/.github/CLAUDE.md`
 
 ## Files Queued for Analysis
 - ⏳ `.github/docs/platform-stack.md`

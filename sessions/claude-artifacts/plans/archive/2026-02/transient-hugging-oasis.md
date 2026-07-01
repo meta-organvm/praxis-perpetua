@@ -108,7 +108,7 @@ Ghost blocks should be longer-form HTML-friendly content (unlike 300-char Bluesk
 ### 4A: Document Ghost ActivityPub setup
 Ghost's ActivityPub integration makes the newsletter a followable Fediverse profile. This is a Ghost admin setting, not code:
 - Enable ActivityPub in Ghost Admin → Settings → Labs
-- The Ghost instance becomes `@index@yourdomain.com` on Mastodon/Threads/Flipboard
+- The Ghost instance becomes `@[email redacted]` on Mastodon/Threads/Flipboard
 
 ### 4B: Add ActivityPub awareness to seed.yaml
 - **File:** `.github/seed.yaml`

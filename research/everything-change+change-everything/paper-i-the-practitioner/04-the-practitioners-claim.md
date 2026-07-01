@@ -74,4 +74,4 @@ Polanyi, Michael. 1966. *The Tacit Dimension*. Garden City, NY: Doubleday.
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
 
-Padavano, Anthony James. 2026b. "Trash and Church Exist in the Same Space: An Aesthetic Philosophy of the Sublime-Mundane Coexistence." ORGANVM SGO Research Corpus. Unpublished manuscript.
+[name redacted] James. 2026b. "Trash and Church Exist in the Same Space: An Aesthetic Philosophy of the Sublime-Mundane Coexistence." ORGANVM SGO Research Corpus. Unpublished manuscript.

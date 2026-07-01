@@ -81,7 +81,7 @@ i am applying to this job: https://job-boards.greenhouse.io/anthropic/jobs/50985
 
 ### P12 — 2026-02-26 20:21:08
 
-this is an education role, we need to include this project: /Users/4jp/Workspace/organvm-iii-ergon/classroom-rpg-aetheria
+this is an education role, we need to include this project: ~/Workspace/organvm-iii-ergon/classroom-rpg-aetheria
 
 ---
 

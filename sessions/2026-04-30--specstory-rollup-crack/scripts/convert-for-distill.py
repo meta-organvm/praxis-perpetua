@@ -15,8 +15,8 @@ Field mapping:
 import json
 from pathlib import Path
 
-IN = Path("/Users/4jp/Workspace/organvm/praxis-perpetua/prompt-corpus/supplementary-prompts-specstory-workspace.jsonl")
-OUT = Path("/Users/4jp/Workspace/.specstory/specstory-prompts-distill-input.json")
+IN = Path("~/Workspace/organvm/praxis-perpetua/prompt-corpus/supplementary-prompts-specstory-workspace.jsonl")
+OUT = Path("~/Workspace/.specstory/specstory-prompts-distill-input.json")
 
 
 def main() -> None:

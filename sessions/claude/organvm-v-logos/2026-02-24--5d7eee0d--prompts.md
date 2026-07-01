@@ -26,26 +26,26 @@ After implementing analytics-engine and reading-observatory, ORGAN-V's produce-e
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/validator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/schema_loader.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_indexer.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/tag-governance.yaml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/category-taxonomy.yaml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/data/essays-index.json`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/data/cross-references.json`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/data/publication-calendar.json`
-- Read `/Users/4jp/Workspace/organvm-v-logos/analytics-engine/data/engagement-metrics.json`
-- Read `/Users/4jp/Workspace/organvm-v-logos/analytics-engine/data/system-engagement-report.json`
-- Read `/Users/4jp/Workspace/organvm-v-logos/reading-observatory/feeds/surfaced.json`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/validator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/pyproject.toml`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/schema_loader.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_indexer.py`
+- Read `~/Workspace/organvm-v-logos/editorial-standards/schemas/tag-governance.yaml`
+- Read `~/Workspace/organvm-v-logos/editorial-standards/schemas/category-taxonomy.yaml`
+- Read `~/Workspace/organvm-v-logos/public-process/data/essays-index.json`
+- Read `~/Workspace/organvm-v-logos/public-process/data/cross-references.json`
+- Read `~/Workspace/organvm-v-logos/public-process/data/publication-calendar.json`
+- Read `~/Workspace/organvm-v-logos/analytics-engine/data/engagement-metrics.json`
+- Read `~/Workspace/organvm-v-logos/analytics-engine/data/system-engagement-report.json`
+- Read `~/Workspace/organvm-v-logos/reading-observatory/feeds/surfaced.json`
 - Glob `essay-pipeline/.github/workflows/*.yml`
 - Glob `essay-pipeline/src/__init__.py`
 - Glob `essay-pipeline/CHANGELOG.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/.github/workflows/ci.yml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/__init__.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/CHANGELOG.md`
-- Write `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/fixtures/mini-essays-index.json`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/.github/workflows/ci.yml`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/__init__.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/CHANGELOG.md`
+- Write `~/Workspace/organvm-v-logos/essay-pipeline/tests/fixtures/mini-essays-index.json`
 - *...and 30 more*
 
 ---
@@ -56,31 +56,31 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/nifty-dreaming-cook.md`
+- Read `~/.claude/plans/nifty-dreaming-cook.md`
 - Task
 - Task
 - Task
-- Bash: `ls -d /Users/4jp/Workspace/organvm-iv-taxis/*/`
-- Bash: `ls -d /Users/4jp/Workspace/organvm-vi-koinonia/*/`
-- Bash: `ls -d /Users/4jp/Workspace/organvm-vii-kerygma/*/`
-- Bash: `for dir in /Users/4jp/Workspace/organvm-iv-taxis/*/; do echo "=== $(basename "$d`
-- Bash: `for dir in /Users/4jp/Workspace/organvm-vi-koinonia/*/; do echo "=== $(basename `
-- Bash: `for dir in /Users/4jp/Workspace/organvm-vii-kerygma/*/; do echo "=== $(basename `
+- Bash: `ls -d ~/Workspace/organvm-iv-taxis/*/`
+- Bash: `ls -d ~/Workspace/organvm-vi-koinonia/*/`
+- Bash: `ls -d ~/Workspace/organvm-vii-kerygma/*/`
+- Bash: `for dir in ~/Workspace/organvm-iv-taxis/*/; do echo "=== $(basename "$d`
+- Bash: `for dir in ~/Workspace/organvm-vi-koinonia/*/; do echo "=== $(basename `
+- Bash: `for dir in ~/Workspace/organvm-vii-kerygma/*/; do echo "=== $(basename `
 - Bash: `# Check which repos have tests
 for organ in organvm-iv-taxis organvm-vi-koinonia`
-- Bash: `ls -d /Users/4jp/Workspace/meta-organvm/*/`
+- Bash: `ls -d ~/Workspace/meta-organvm/*/`
 - Bash: `for organ in organvm-iv-taxis organvm-vi-koinonia organvm-vii-kerygma meta-organ`
 - Bash: `# Count produce edges per organ from seed.yaml
 for organ in organvm-iv-taxis org`
-- Read `/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/seed.yaml`
+- Read `~/Workspace/organvm-iv-taxis/orchestration-start-here/seed.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/seed.yaml`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/seed.yaml`
 - Bash: `# Get all produce edges from all organs in one shot
 for organ in organvm-iv-taxi`
 - Bash: `# Check for actual data/output artifacts in each organ
 for organ in organvm-iv-t`
 - Bash: `# Check what tests actually pass for key repos
-for repo in /Users/4jp/Workspace/`
+for repo in ~/Workspace/`
 - *...and 50 more*
 
 ---

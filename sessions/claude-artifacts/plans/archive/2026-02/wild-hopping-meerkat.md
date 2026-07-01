@@ -134,9 +134,9 @@ The `solo-auteur-method` essay (deployed 2026-02-18) already covers much of this
 
 ## Key Files
 
-- `/Users/4jp/Workspace/organvm-v-logos/public-process/_posts/2026-02-18-the-solo-auteur-method.md` — revise
-- `/Users/4jp/Workspace/organvm-v-logos/public-process/about.md` — rewrite
-- `/Users/4jp/Workspace/organvm-v-logos/public-process/_posts/2026-02-17-what-ive-done-is-what-i-am.md` — new
-- `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/validator.py` — run (no changes)
-- `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py` — run (no changes)
-- `/Users/4jp/Workspace/organvm-v-logos/editorial-standards/schemas/frontmatter-schema.yaml` — reference (no changes)
+- `~/Workspace/organvm-v-logos/public-process/_posts/2026-02-18-the-solo-auteur-method.md` — revise
+- `~/Workspace/organvm-v-logos/public-process/about.md` — rewrite
+- `~/Workspace/organvm-v-logos/public-process/_posts/2026-02-17-what-ive-done-is-what-i-am.md` — new
+- `~/Workspace/organvm-v-logos/essay-pipeline/src/validator.py` — run (no changes)
+- `~/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py` — run (no changes)
+- `~/Workspace/organvm-v-logos/editorial-standards/schemas/frontmatter-schema.yaml` — reference (no changes)

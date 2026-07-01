@@ -1,6 +1,6 @@
 # Exhaustive Annotated Manifest: `ingesting-organ-document-structure/`
 
-**Directory:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure`
+**Directory:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure`
 **Total files:** 20 documents + 4 archived versions = 24 content files
 **Total size:** ~1.04 MB of documentation (no source code)
 **File types:** 18 Markdown (.md), 2 JSON (.json), 4 archived versions

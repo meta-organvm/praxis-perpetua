@@ -17,7 +17,7 @@
 
 ### P2 — 2026-02-28 12:21:19
 
-Base directory for this skill: /Users/4jp/.claude/skills/github-repo-curator
+Base directory for this skill: ~/.claude/skills/github-repo-curator
 
 # GitHub Repo Curator
 
@@ -46,25 +46,25 @@ Create `[username]/[username]/README.md` for profile landing:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Agent: "Do a thorough audit of the repository at /Users/4jp/Workspac"
+- Agent: "Do a thorough audit of the repository at ~/Workspac"
 - Bash: `gh repo view --json name,description,url,homepageUrl,isArchived,isFork,isPrivate`
 - Bash: `ls -la`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/README.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/LICENSE`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchai`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SECURITY.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SUPPORT.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/PULL_REQUEST_TEMPLATE.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CODEOWNERS`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/README.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/LICENSE`
+- Bash: `ls -la ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchai`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/seed.yaml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SECURITY.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SUPPORT.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/PULL_REQUEST_TEMPLATE.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CODEOWNERS`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/do`
 - Glob `CODE_OF_CONDUCT*`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/ISSUE_TEMPLATE/bug_report.yml`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/ISSUE_TEMPLATE/feature_request.yml`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.gitignore`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/ISSUE_TEMPLATE/bug_report.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/ISSUE_TEMPLATE/feature_request.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.gitignore`
 - AskUserQuestion
 - *...and 8 more*
 

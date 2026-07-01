@@ -30,13 +30,13 @@ After completing the faraday SSRF fix and verifying mobile tests pass, two pre-e
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/package.json`
-- Edit `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/package.json`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/fastlane/Appfile`
-- Write `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/fastlane/Fastfile`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/package.json`
+- Edit `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/package.json`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/fastlane/Appfile`
+- Write `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/fastlane/Fastfile`
 - Bash: `npx turbo run build --filter=@styx/mobile 2>&1`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
-- Bash: `cd /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `cd ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain &&`
 
 ---
 
@@ -46,16 +46,16 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/validated-bubbling-kitten.md`
+- Read `~/.claude/plans/validated-bubbling-kitten.md`
 - Task
 - Task
 - Task
-- Edit `/Users/4jp/.claude/plans/validated-bubbling-kitten.md`
+- Edit `~/.claude/plans/validated-bubbling-kitten.md`
 - AskUserQuestion
 - Task
 - Task
-- Read `/Users/4jp/.claude/plans/validated-bubbling-kitten.md`
-- Edit `/Users/4jp/.claude/plans/validated-bubbling-kitten.md`
+- Read `~/.claude/plans/validated-bubbling-kitten.md`
+- Edit `~/.claude/plans/validated-bubbling-kitten.md`
 - ExitPlanMode
 
 ---

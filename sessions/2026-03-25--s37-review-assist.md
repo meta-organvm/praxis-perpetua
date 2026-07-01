@@ -5,7 +5,7 @@
 **Session ID:** `52f2aed5-4201-498f-bcf5-98477d94eeb6`
 **Slug:** `kind-riding-valley`
 **Duration:** ~7155 min
-**Working directory:** `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine`
+**Working directory:** `~/Workspace/organvm-i-theoria/conversation-corpus-engine`
 **Branch:** `main`
 **Messages:** 916 (408 human, 508 assistant)
 
@@ -22,7 +22,7 @@ organvm session transcript 52f2aed5 --unabridged
 organvm session prompts 52f2aed5
 ```
 
-**Source JSONL:** `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-i-theoria-conversation-corpus-engine/52f2aed5-4201-498f-bcf5-98477d94eeb6.jsonl`
+**Source JSONL:** `~/.claude/projects/-Users-[user]-Workspace-organvm-i-theoria-conversation-corpus-engine/52f2aed5-4201-498f-bcf5-98477d94eeb6.jsonl`
 
 ---
 

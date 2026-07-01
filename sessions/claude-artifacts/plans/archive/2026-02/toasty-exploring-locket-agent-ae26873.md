@@ -5,7 +5,7 @@
    2 │ 
    3 │ ## Overview
    4 │ Create the central orchestrator singleton for Living Pantheon generative features at:
-   5 │ `/Users/4jp/Workspace/a-mavs-olevm/js/living-pantheon/LivingPantheonCore.js`
+   5 │ `~/Workspace/a-mavs-olevm/js/living-pantheon/LivingPantheonCore.js`
    6 │ 
    7 │ ## Requirements Analysis
    8 │ 

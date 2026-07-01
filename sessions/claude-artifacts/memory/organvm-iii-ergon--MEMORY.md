@@ -22,7 +22,7 @@ Deployed 12 products to Netlify/Render across multiple waves. All returning 200.
 - community-hub (ORGAN-VI) → https://community-hub-8p8t.onrender.com (was already live, not broken)
 - public-record-data-scrapper API → https://ucc-mca-api.onrender.com (srv-d6hh48fkijhs73fgk00g)
 
-**Netlify account:** padavano.anthony@gmail.com (team: 4-b100m's team)
+**Netlify account:** [email redacted] (team: 4-b100m's team)
 **Vercel CLI:** installed but not authenticated (Node v25.6.1 compatibility issues with npm install). Used Netlify instead.
 
 Promotions: fetch-familiar-friends, trade-perpetual-future, search-local--happy-hour all CANDIDATE → PUBLIC_PROCESS.
@@ -32,7 +32,7 @@ All superproject pointers synced (ORGAN-II, ORGAN-III, ORGAN-V, META, 4444J99).
 ### Wave 5/6 Deployment Diversification (2026-02-28)
 Deployed 7 more products across Cloudflare Pages and GitHub Pages. Total deployed: ~19.
 
-**Cloudflare Pages** (CF account: ivviiviivvi, email: padavano.anthony@gmail.com):
+**Cloudflare Pages** (CF account: ivviiviivvi, email: [email redacted]):
 - gamified-coach-interface → https://gamified-coach-interface.pages.dev (multi-page Vite, base changed from /gamified-coach-interface/ to /)
 - my-block-warfare/mcp-maps-3d → https://turfsynth-mcp-maps.pages.dev (LitElement + MCP + Google Maps)
 - my-block-warfare/spatial-understanding → https://turfsynth-spatial.pages.dev (React + Jotai, build target set to esnext for TLA)
@@ -70,7 +70,7 @@ Key build solutions:
 System-wide integrity fixes + deployment readiness + automation:
 - **Phase 1: Registry ↔ Seed.yaml Reconciliation** — Updated ~65 seed.yaml files across all 8 organs to match registry-v2.json promotion statuses (CANDIDATE/PUBLIC_PROCESS/GRADUATED). Some repos had older schema without `metadata` block — added it.
 - **Phase 2A: Soak Snapshots** — Generated Feb 27 (interpolated) and Feb 28 (real script run). Streak: 13 consecutive days (Feb 16-28), 0 critical incidents, 17 days to 30-day target.
-- **Phase 2B: Soak Automation** — Created `daily-soak.sh` script + `com.4jp.organvm.soak-snapshot.plist` LaunchAgent. Runs daily at 06:00, collects/commits/pushes snapshot.
+- **Phase 2B: Soak Automation** — Created `daily-soak.sh` script + `com.[user].organvm.soak-snapshot.plist` LaunchAgent. Runs daily at 06:00, collects/commits/pushes snapshot.
 - **Phase 3: CI Gap Closure** — Added CI workflows to 9 repos (2 Python in VII, 3 Node/TS in II, 4 docs-only). CI coverage: 102/112 repos (6 archived repos can't push).
 - **Phase 4: life-my--midst--in Verification** — Build passes (7/7), 90/91 tests pass (1 flaky orchestrator DLQ test). Created pre-deploy checklist issue #99.
 - **Phase 5: Scorecard Sync** — Updated concordance.md (#5 now MET), workspace CLAUDE.md (2/17 omega, 102/112 CI).
@@ -87,7 +87,7 @@ Wired all 23 active ORGAN-III products into ORGAN-VI (Community) and ORGAN-VII (
 - All pushed to origin across all three superprojects and submodules
 
 ## Key Automation
-- Soak test LaunchAgent: `~/Library/LaunchAgents/com.4jp.organvm.soak-snapshot.plist` (daily 06:00)
+- Soak test LaunchAgent: `~/Library/LaunchAgents/com.[user].organvm.soak-snapshot.plist` (daily 06:00)
 - Soak test script: `meta-organvm/organvm-corpvs-testamentvm/scripts/daily-soak.sh`
 - Also runs via GitHub Actions: `.github/workflows/soak-test-daily.yml` (08:00 UTC)
 

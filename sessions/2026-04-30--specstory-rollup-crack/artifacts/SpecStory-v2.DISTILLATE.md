@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-30
 **Plan:** `~/.claude/plans/massive-weight-contextually-humming-walrus.md`
-**Source:** `/Users/4jp/Workspace/SpecStory, Markdown v2.md` (39 MB / 718,588 lines)
+**Source:** `~/Workspace/SpecStory, Markdown v2.md` (39 MB / 718,588 lines)
 **Mode:** FULL DISTILLATION (user-confirmed)
 
 ---
@@ -124,7 +124,7 @@ The 47k figure does not correspond to either current store. MEMORY.md needs a re
 - **Script path drift:** `ingest-supplementary.py` hardcodes `~/.specstory/history` as the SpecStory source — but SpecStory CLI now writes to project-anchored `.specstory/` (your substrate is at `~/Workspace/.specstory/history/`). The home path is empty. We worked around this with a wrapper at `/tmp/run-specstory-ingest.py`. **Real fix:** update the script to discover SpecStory directories via filesystem scan, or accept a `--substrate` arg.
 - **Filename regex partial coverage:** the script's SpecStory filename regex matches only UTC (`Z`) names; local-TZ filenames silently skip the `base_ts` extraction. Per-prompt timestamps from the inline `_**User (...)**_` markers compensate, so this is cosmetic — but the regex should be widened.
 - **The rollup is NOT chronologically ordered.** Sessions appear grouped by agent (Claude/Gemini/Codex) then by timestamp within each group. Position-based reading of the rollup is misleading; UUID is the only stable cross-position identifier.
-- **372 plan files** were detected by `organvm session review --latest` for this Claude Code project (`-Users-4jp`). My plan for this work was recognized in that listing. Plans-as-sculpture rule is being honored at the system level.
+- **372 plan files** were detected by `organvm session review --latest` for this Claude Code project (`-Users-[user]`). My plan for this work was recognized in that listing. Plans-as-sculpture rule is being honored at the system level.
 
 ## Phase-5 partials (declared honestly, per advisor reconciliation)
 

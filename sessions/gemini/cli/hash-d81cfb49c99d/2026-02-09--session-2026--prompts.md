@@ -12,7 +12,7 @@
 ### P1 — 2026-02-09 18:57:27
 
 ─────┬──────────────────────────────────────────────────────────────────────────
-     │ File: /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-struct
+     │ File: ~/Workspace/organvm-pactvm/ingesting-organ-document-struct
      │ ure/codex-cli/runs/20260209-135130/gemini_prompt_runtime.txt
 ─────┼──────────────────────────────────────────────────────────────────────────
    1 │ All referenced documents are local files in the current repository root.

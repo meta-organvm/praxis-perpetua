@@ -2,7 +2,7 @@
 
 ## Context
 
-Full-project review of the Astro 5 portfolio at `/Users/4jp/Workspace/4444J99/portfolio/` using the Evaluation-to-Growth framework. The site is a deployed job-search portfolio for Anthony James Padavano with 20 case studies, persona-driven resumes, a Strike Intelligence Engine for autonomous recruitment, and an Omega maturity scorecard. It's live at `https://4444j99.github.io/portfolio/`.
+Full-project review of the Astro 5 portfolio at `~/Workspace/4444J99/portfolio/` using the Evaluation-to-Growth framework. The site is a deployed job-search portfolio for [name redacted] with 20 case studies, persona-driven resumes, a Strike Intelligence Engine for autonomous recruitment, and an Omega maturity scorecard. It's live at `https://4444j99.github.io/portfolio/`.
 
 The codebase has strong engineering foundations (284 tests, zero vulnerabilities, quality ratchet system, deploy gating) but the review surfaced several issues where the live site undermines its own credibility thesis — broken PDF downloads, zero-value metrics displayed on the homepage, and draft placeholder content on public pages aimed at hiring managers.
 
@@ -33,7 +33,7 @@ The codebase has strong engineering foundations (284 tests, zero vulnerabilities
 | W5 | Hardcoded "32" generative sketches on homepage — actual count is 30 | P1 |
 | W6 | CI uses `QUALITY_PHASE: W6` but `ratchet-policy.json` defaultPhase is `W10` — local/CI mismatch | P1 |
 | W7 | Human impact metrics hardcoded in `sync-trust-metrics.mjs` with no provenance | P1 |
-| W8 | `SECURITY.md` has placeholder email `[security@ajp.com]` | P2 |
+| W8 | `SECURITY.md` has placeholder email `[[email redacted]]` | P2 |
 | W9 | Filter chip state not persisted across page reloads | P2 |
 | W10 | No URL parameter for view selection (can't deep-link to creative view) | P2 |
 | W11 | docs/ directory (4 files) not linked from site navigation | P3 |
@@ -120,7 +120,7 @@ For "Systems Architect / Backend Lead" → `..._Systems_Architect_/_Backend_Lead
 ### R8. Fix SECURITY.md Placeholder [P2]
 
 **File:** `.github/SECURITY.md`
-**Change:** Replace `[security@ajp.com]` with `padavano.anthony@gmail.com`, update supported versions.
+**Change:** Replace `[[email redacted]]` with `[email redacted]`, update supported versions.
 
 **Complexity:** Trivial
 

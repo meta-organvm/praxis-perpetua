@@ -5,7 +5,7 @@
 **Session ID:** `534d27e0-931e-4c85-bc95-662d0858f396`
 **Slug:** `using-npm-as-the-rustling-teacup`
 **Duration:** ~40 min
-**Working directory:** `/Users/4jp/Workspace`
+**Working directory:** `~/Workspace`
 **Branch:** `HEAD`
 **Messages:** 91 (30 human, 61 assistant)
 
@@ -22,13 +22,13 @@ organvm session transcript 534d27e0 --unabridged
 organvm session prompts 534d27e0
 ```
 
-**Source JSONL:** `/Users/4jp/.claude/projects/-Users-4jp-Workspace/534d27e0-931e-4c85-bc95-662d0858f396.jsonl`
+**Source JSONL:** `~/.claude/projects/-Users-[user]-Workspace/534d27e0-931e-4c85-bc95-662d0858f396.jsonl`
 
 ---
 
 ## Opening Prompt
 
-> Using npm as the preferred package manager. Found multiple lockfiles for /Users/4jp/Workspace/organvm/public-record-data-scrapper. To resolve this issue, delete the lockfiles that don't match your pre...
+> Using npm as the preferred package manager. Found multiple lockfiles for ~/Workspace/organvm/public-record-data-scrapper. To resolve this issue, delete the lockfiles that don't match your pre...
 
 ---
 

@@ -32,8 +32,8 @@ The backend has `security.enableLogin: true` but **no initial admin credentials 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Library/Application Support/Stirling-PDF/configs/settings.yml`
-- Edit `/Users/4jp/Library/Application Support/Stirling-PDF/configs/settings.yml`
+- Read `~/Library/Application Support/Stirling-PDF/configs/settings.yml`
+- Edit `~/Library/Application Support/Stirling-PDF/configs/settings.yml`
 - Bash: `docker restart stirling-pdf`
 - Bash: `sleep 5 && docker ps --filter name=stirling-pdf --format "table {{.Names}}\t{{.S`
 - Bash: `curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/`
@@ -47,9 +47,9 @@ Login mode must be enabled to modify admin settings. Please set SECURITY_ENABLEL
 The settings below show example values for reference. Enable login mode to view and edit actual configuration
 
 **Actions taken:**
-- Edit `/Users/4jp/Library/Application Support/Stirling-PDF/configs/settings.yml`
-- Read `/Users/4jp/Library/Application Support/Stirling-PDF/configs/settings.yml`
-- Edit `/Users/4jp/Library/Application Support/Stirling-PDF/configs/settings.yml`
+- Edit `~/Library/Application Support/Stirling-PDF/configs/settings.yml`
+- Read `~/Library/Application Support/Stirling-PDF/configs/settings.yml`
+- Edit `~/Library/Application Support/Stirling-PDF/configs/settings.yml`
 - Bash: `docker restart stirling-pdf`
 - Bash: `sleep 5 && curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/`
 - Bash: `sleep 10 && curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/`
@@ -75,7 +75,7 @@ i'm sorry, but what is unclear? the app is asking for LOGIN-MODE to BE ENABLED; 
 
 ### P5 — 2026-02-05 15:34:41
 
-[Image: source: /Users/4jp/Library/Containers/com.wiheads.paste/Data/tmp/images/Terminal 2026-02-05 10.34.03.png]
+[Image: source: ~/Library/Containers/com.wiheads.paste/Data/tmp/images/Terminal 2026-02-05 10.34.03.png]
 
 ---
 
@@ -90,9 +90,9 @@ i'm sorry, but what is unclear? the app is asking for LOGIN-MODE to BE ENABLED; 
 i'm sorry, but what is unclear? the app is asking for LOGIN-MODE to BE ENABLED; DO THAT!
 
 **Actions taken:**
-- Write `/Users/4jp/.claude/plans/wiggly-bubbling-teacup.md`
-- Read `/Users/4jp/.claude/plans/wiggly-bubbling-teacup.md`
-- Write `/Users/4jp/.claude/plans/wiggly-bubbling-teacup.md`
+- Write `~/.claude/plans/wiggly-bubbling-teacup.md`
+- Read `~/.claude/plans/wiggly-bubbling-teacup.md`
+- Write `~/.claude/plans/wiggly-bubbling-teacup.md`
 - ExitPlanMode
 
 ---

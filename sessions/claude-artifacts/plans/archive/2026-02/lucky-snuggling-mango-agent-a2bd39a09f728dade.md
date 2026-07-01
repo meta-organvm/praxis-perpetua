@@ -22,13 +22,13 @@ The user has requested a comprehensive exploration of the eight-organ ORGANVM sy
 **Objective**: Locate key registry, configuration, and seed files
 
 **Completed**:
-- Located `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
-- Located `/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
+- Located `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Located `~/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
 - Found 100+ seed.yaml files across all organs
 - Identified seed.yaml files in ORGAN-VII:
-  - `/Users/4jp/Workspace/organvm-vii-kerygma/.github/seed.yaml`
-  - `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/seed.yaml`
-  - `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/seed.yaml`
+  - `~/Workspace/organvm-vii-kerygma/.github/seed.yaml`
+  - `~/Workspace/organvm-vii-kerygma/social-automation/seed.yaml`
+  - `~/Workspace/organvm-vii-kerygma/distribution-strategy/seed.yaml`
 
 **Issues**:
 - No Omega*.md files found; need alternative search pattern
@@ -39,7 +39,7 @@ The user has requested a comprehensive exploration of the eight-organ ORGANVM sy
 **Objective**: Understand the complete system topology and inter-organ dependencies
 
 #### Task 2.1: Analyze registry-v2.json
-- **File**: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- **File**: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
 - **Purpose**: Single source of truth for ~97 repos; understand which repos exist, their organ memberships, and their edges
 - **Key Questions**:
   - Which repos feed into ORGAN-VII (Kerygma)?
@@ -50,7 +50,7 @@ The user has requested a comprehensive exploration of the eight-organ ORGANVM sy
 - **Expected Output**: Complete repo inventory with status and edge mapping
 
 #### Task 2.2: Analyze ORGAN-IV registry.json
-- **File**: `/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
+- **File**: `~/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
 - **Purpose**: Understand ORGAN-IV orchestration system and how it provides template variables to ORGAN-VII
 - **Key Questions**:
   - What variables are available for template interpolation?
@@ -78,10 +78,10 @@ The user has requested a comprehensive exploration of the eight-organ ORGANVM sy
 
 #### Task 3.1: Audit ORGAN-VII seed.yaml Files
 **Files to Examine**:
-- `/Users/4jp/Workspace/organvm-vii-kerygma/.github/seed.yaml`
-- `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/seed.yaml`
-- `/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/seed.yaml`
-- `/Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates/seed.yaml`
+- `~/Workspace/organvm-vii-kerygma/.github/seed.yaml`
+- `~/Workspace/organvm-vii-kerygma/social-automation/seed.yaml`
+- `~/Workspace/organvm-vii-kerygma/distribution-strategy/seed.yaml`
+- `~/Workspace/organvm-vii-kerygma/announcement-templates/seed.yaml`
 
 **Key Questions**:
 - What event subscriptions are declared?
@@ -93,7 +93,7 @@ The user has requested a comprehensive exploration of the eight-organ ORGANVM sy
 **Expected Output**: Comprehensive audit of ORGAN-VII event wiring vs declared subscriptions
 
 #### Task 3.2: Analyze ORGAN-VII Workflows
-**File Location**: `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
+**File Location**: `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
 
 **Key Workflows**:
 - `dispatch-receiver.yml` - How does ORGAN-IV trigger the pipeline?
@@ -115,7 +115,7 @@ The user has requested a comprehensive exploration of the eight-organ ORGANVM sy
 **Objective**: Understand the public-process essay site and how it feeds ORGAN-VII
 
 #### Task 4.1: Examine ORGAN-V Structure
-- **Location**: `/Users/4jp/Workspace/organvm-v-logos/`
+- **Location**: `~/Workspace/organvm-v-logos/`
 - **Key Questions**:
   - What repo is the public-process essay site?
   - What is the Atom feed URL configured in ORGAN-VII?
@@ -152,7 +152,7 @@ The user has requested a comprehensive exploration of the eight-organ ORGANVM sy
 **Expected Output**: Complete dependency graph showing event sources and sinks
 
 #### Task 5.2: notify-kerygma.yml Deep Dive
-- **File**: `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/notify-kerygma.yml`
+- **File**: `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/notify-kerygma.yml`
 - **Purpose**: Understand cross-organ notification mechanism
 - **Key Questions**:
   - What events trigger this workflow?
@@ -237,13 +237,13 @@ Event (RSS poll / GitHub dispatch)
 - ✅ Search content (Grep tool)
 - ❌ Edit, create, or delete files (except this plan document)
 - ❌ Execute pipeline commands or trigger workflows
-- ✅ Create/update plan document at `/Users/4jp/.claude/plans/lucky-snuggling-mango-agent-a2bd39a09f728dade.md`
+- ✅ Create/update plan document at `~/.claude/plans/lucky-snuggling-mango-agent-a2bd39a09f728dade.md`
 
 **File Locations for Analysis**:
-- Registry files: `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
-- Orchestration: `/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
+- Registry files: `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Orchestration: `~/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
 - Seed files: Located via previous glob search (100+ files across all organs)
-- ORGAN-VII workflows: `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
+- ORGAN-VII workflows: `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
 - ORGAN-VII packages: social-automation, announcement-templates, distribution-strategy submodules
 
 ---

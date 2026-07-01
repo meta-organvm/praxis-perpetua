@@ -1,7 +1,7 @@
 # Application Pipeline Audit Plan
 
 ## Objective
-Conduct a comprehensive audit of `/Users/4jp/Workspace/4444J99/application-pipeline` to identify all places that reference pipeline statuses, deadline types, or status ordering that might break or behave incorrectly now that "deferred" status and "fixed" deadline type have been added.
+Conduct a comprehensive audit of `~/Workspace/4444J99/application-pipeline` to identify all places that reference pipeline statuses, deadline types, or status ordering that might break or behave incorrectly now that "deferred" status and "fixed" deadline type have been added.
 
 ## Context
 - **Pipeline status progression**: research → qualified → drafting → staged → submitted → acknowledged → interview → outcome

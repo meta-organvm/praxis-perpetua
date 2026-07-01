@@ -35,18 +35,18 @@ The E2G infrastructure review is complete: 85 tests pass, all fixes implemented 
 - TaskCreate
 - TaskUpdate
 - TaskUpdate
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git status --short`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/system-dashboard && git status --short`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/schema-definitions && git status --short`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/alchemia-ingestvm && git status --short`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status --`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/system-dashboard && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/schema-definitions && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/alchemia-ingestvm && git log --oneline -3`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git log --one`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git diff --stat`
-- Bash: `cd /Users/4jp/Workspace/meta-organvm/system-dashboard && git diff --stat`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git status --short`
+- Bash: `cd ~/Workspace/meta-organvm/system-dashboard && git status --short`
+- Bash: `cd ~/Workspace/meta-organvm/schema-definitions && git status --short`
+- Bash: `cd ~/Workspace/meta-organvm/alchemia-ingestvm && git status --short`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git status --`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git log --oneline -3`
+- Bash: `cd ~/Workspace/meta-organvm/system-dashboard && git log --oneline -3`
+- Bash: `cd ~/Workspace/meta-organvm/schema-definitions && git log --oneline -3`
+- Bash: `cd ~/Workspace/meta-organvm/alchemia-ingestvm && git log --oneline -3`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git log --one`
+- Bash: `cd ~/Workspace/meta-organvm/organvm-engine && git diff --stat`
+- Bash: `cd ~/Workspace/meta-organvm/system-dashboard && git diff --stat`
 - *...and 44 more*
 
 ---
@@ -63,24 +63,24 @@ we are redefining persona positioning; is 'how i think of myself' a valuable ass
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/robust-sprouting-donut.md`
+- Read `~/.claude/plans/robust-sprouting-donut.md`
 - Task
 - Glob `docs/applications/**/*`
-- Bash: `ls -la /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applica`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/00-portfolio-brief.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/05-google-creative-lab-five-responses.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/09-qualification-assessment.md`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/application`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/anthropic-fde-custom-agents.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/site-data/about.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/together-ai-lead-dx-documentation.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/essays/41-the-solo-auteur-method.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/01-track-ai-engineering.md`
-- Write `/Users/4jp/.claude/plans/robust-sprouting-donut.md`
+- Bash: `ls -la ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applica`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/00-portfolio-brief.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/05-google-creative-lab-five-responses.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/09-qualification-assessment.md`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/application`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/anthropic-fde-custom-agents.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/site-data/about.json`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/together-ai-lead-dx-documentation.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/essays/41-the-solo-auteur-method.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/01-track-ai-engineering.md`
+- Write `~/.claude/plans/robust-sprouting-donut.md`
 - AskUserQuestion
-- Edit `/Users/4jp/.claude/plans/robust-sprouting-donut.md`
-- Edit `/Users/4jp/.claude/plans/robust-sprouting-donut.md`
-- Edit `/Users/4jp/.claude/plans/robust-sprouting-donut.md`
+- Edit `~/.claude/plans/robust-sprouting-donut.md`
+- Edit `~/.claude/plans/robust-sprouting-donut.md`
+- Edit `~/.claude/plans/robust-sprouting-donut.md`
 - ExitPlanMode
 
 ---

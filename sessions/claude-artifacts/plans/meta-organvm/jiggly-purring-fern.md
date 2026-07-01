@@ -17,7 +17,7 @@ The user requests a universal revision usable "everywhere" — any organ, any do
 
 ## Target File
 
-`/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
+`~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
 
 The v1 file is **replaced in-place** (not a new file). The v2 SOP supersedes v1 entirely.
 
@@ -274,7 +274,7 @@ Total: ~4 collapsed phases instead of 8. Same deliverables, lighter ceremony.
 
 ### Step 4: Commit
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm
+cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm
 git add docs/operations/sop--document-audit-feature-extraction.md
 git add docs/operations/archive/
 git commit -m "docs: SOP v2.0 — Document Audit & Feature Extraction (universal)
@@ -292,7 +292,7 @@ completeness proof methodology, SYLLABUS variants, retrospective template."
 
 ### Step 5: Update ORGAN-IV audit summary
 ```bash
-cd /Users/4jp/Workspace/organvm-iv-taxis
+cd ~/Workspace/organvm-iv-taxis
 # Add note to audit-summary that SOP was updated based on its recommendations
 git commit -m "docs: note SOP v2.0 update in audit summary"
 ```

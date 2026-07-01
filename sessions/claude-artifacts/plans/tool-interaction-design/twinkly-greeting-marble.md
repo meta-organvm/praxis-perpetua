@@ -189,7 +189,7 @@ The patchbay should auto-brief on session start, and work across AI assistants (
 
 ### Layer A: Workspace instruction file
 
-Add to `/Users/4jp/Workspace/CLAUDE.md` (and any future `.cursorrules`, `AGENTS.md`, etc.):
+Add to `~/Workspace/CLAUDE.md` (and any future `.cursorrules`, `AGENTS.md`, etc.):
 
 ```markdown
 ## Session Start Protocol
@@ -204,7 +204,7 @@ This is assistant-agnostic — any AI that reads the workspace instruction file 
 
 ### Layer B: Claude Code hook
 
-Configure a Claude Code `user_prompt_submit` hook in project settings that runs the patchbay on first prompt of a conversation. File: `/Users/4jp/.claude/projects/-Users-4jp-Workspace-tool-interaction-design/hooks.json`:
+Configure a Claude Code `user_prompt_submit` hook in project settings that runs the patchbay on first prompt of a conversation. File: `~/.claude/projects/-Users-[user]-Workspace-tool-interaction-design/hooks.json`:
 
 ```json
 {

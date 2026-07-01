@@ -2,7 +2,7 @@
 
 ## Problem Summary
 
-Skills exist at `/Users/4jp/.local/share/ai-skills` (95 example skills + 4 document skills) but none of the AI coding assistants are discovering or loading them.
+Skills exist at `~/.local/share/ai-skills` (95 example skills + 4 document skills) but none of the AI coding assistants are discovering or loading them.
 
 **Current State:**
 - Skills repository is properly structured with SKILL.md files
@@ -27,8 +27,8 @@ Skills exist at `/Users/4jp/.local/share/ai-skills` (95 example skills + 4 docum
 3. Alternative: Create slash command aliases in settings that read SKILL.md files
 
 **Files to modify:**
-- `/Users/4jp/.claude/CLAUDE.md` - Add skill invocation patterns
-- `/Users/4jp/.claude/settings.json` - Add hooks for skill loading (optional)
+- `~/.claude/CLAUDE.md` - Add skill invocation patterns
+- `~/.claude/settings.json` - Add hooks for skill loading (optional)
 
 ---
 
@@ -40,7 +40,7 @@ Skills exist at `/Users/4jp/.local/share/ai-skills` (95 example skills + 4 docum
 
 **Commands:**
 ```bash
-cd /Users/4jp/.local/share/ai-skills
+cd ~/.local/share/ai-skills
 gemini extensions install ./.build/extensions/gemini/example-skills
 gemini extensions install ./.build/extensions/gemini/document-skills
 ```
@@ -73,7 +73,7 @@ gemini extensions list
 
 ### Step 1: Gemini CLI Extensions (Quick Win)
 ```bash
-cd /Users/4jp/.local/share/ai-skills
+cd ~/.local/share/ai-skills
 gemini extensions install ./.build/extensions/gemini/example-skills
 gemini extensions install ./.build/extensions/gemini/document-skills
 ```
@@ -118,8 +118,8 @@ To use a skill, read its SKILL.md file:
 
 | Action | File |
 |--------|------|
-| Edit | `/Users/4jp/.claude/CLAUDE.md` |
-| Create | `/Users/4jp/.codex/instructions.md` |
+| Edit | `~/.claude/CLAUDE.md` |
+| Create | `~/.codex/instructions.md` |
 | Run | Gemini extension install commands |
 
 ---

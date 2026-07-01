@@ -1,7 +1,7 @@
 # WaveformVisualizer.js Implementation Plan
 
 ## Objective
-Create a Canvas-based waveform visualization component at `/Users/4jp/Workspace/a-mavs-olevm/js/media/audio/WaveformVisualizer.js`
+Create a Canvas-based waveform visualization component at `~/Workspace/a-mavs-olevm/js/media/audio/WaveformVisualizer.js`
 
 ## Context & Configuration
 
@@ -9,7 +9,7 @@ Create a Canvas-based waveform visualization component at `/Users/4jp/Workspace/
 - ETCETER4: Custom SPA without build step, JavaScript runs directly in browser
 - Uses global scope for cross-file communication
 - Code style: ES6+, strict mode, JSDoc comments, no var
-- Configuration centralized in `/Users/4jp/Workspace/a-mavs-olevm/js/config.js`
+- Configuration centralized in `~/Workspace/a-mavs-olevm/js/config.js`
 
 ### Waveform Config (from ETCETER4_CONFIG.media.audio.waveform)
 Located at lines 486-494 of config.js:
@@ -120,7 +120,7 @@ WaveformVisualizer(options) where:
 - Descriptive method names (verbNoun pattern)
 
 ## File Location
-`/Users/4jp/Workspace/a-mavs-olevm/js/media/audio/WaveformVisualizer.js`
+`~/Workspace/a-mavs-olevm/js/media/audio/WaveformVisualizer.js`
 
 ## Dependencies
 - None (vanilla JavaScript, uses HTML5 Canvas API)

@@ -10,7 +10,7 @@
 
 ### P1 — 2026-02-28 11:35:31
 
-⏺ Write(/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md)
+⏺ Write(~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md)
   ⎿  Added 79 lines, removed 50 lines
        1  # Contributing to Styx
        2  
@@ -21,17 +21,17 @@
 
 **Actions taken:**
 - TaskList
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md`
 - Bash: `git status`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.g`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
 - Bash: `git diff README.md`
 - TaskCreate
 - TaskCreate
 - TaskCreate
 - TaskUpdate
 - TaskUpdate
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/LI`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/LI`
 
 ---
 

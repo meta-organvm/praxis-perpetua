@@ -151,7 +151,7 @@ For each shortlisted template:
 - [ ] Decision: Pick finalist template by EOD
 
 **Day 2 (8 hours):**
-- [ ] Clone finalist to `/Users/4jp/Workspace/portfolio-site/`
+- [ ] Clone finalist to `~/Workspace/portfolio-site/`
 - [ ] Customize config files:
   - `astro.config.mjs` - set site URL, title, description
   - `src/config.ts` - update site metadata
@@ -435,7 +435,7 @@ These are **not** in-scope for 11-day sprint but easy to add after launch:
 ## VI. File Structure Reference
 
 ```
-/Users/4jp/Workspace/portfolio-site/
+~/Workspace/portfolio-site/
 ├── astro.config.mjs              # Astro configuration (site URL, etc.)
 ├── tailwind.config.cjs            # Tailwind CSS configuration (usually pre-configured)
 ├── package.json                   # Dependencies and build scripts

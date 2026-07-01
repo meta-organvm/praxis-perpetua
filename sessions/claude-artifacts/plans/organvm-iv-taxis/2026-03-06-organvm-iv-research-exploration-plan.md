@@ -8,7 +8,7 @@
 
 ## User's Explicit Request
 
-Thorough exploration of `/Users/4jp/Workspace/organvm-iv-taxis/research/` with four specific deliverables:
+Thorough exploration of `~/Workspace/organvm-iv-taxis/research/` with four specific deliverables:
 
 1. **Complete file listing** — sizes, file types for all files and subdirectories
 2. **Document summaries** — topic and content summary for each document
@@ -21,7 +21,7 @@ Thorough exploration of `/Users/4jp/Workspace/organvm-iv-taxis/research/` with f
 
 ## Research Directory Structure
 
-**Location:** `/Users/4jp/Workspace/organvm-iv-taxis/research/`  
+**Location:** `~/Workspace/organvm-iv-taxis/research/`  
 **Total files:** 17 markdown documents  
 **Total size:** ~480K combined
 
@@ -56,7 +56,7 @@ Thorough exploration of `/Users/4jp/Workspace/organvm-iv-taxis/research/` with f
 When using the Read tool on research directory markdown files, the tool returned only file metadata (fileName, filePath, fileType) without actual content. This prevented direct file-by-file reading.
 
 ### Solution: Bash Concatenation
-Used bash `cat /Users/4jp/Workspace/organvm-iv-taxis/research/*.md` to concatenate all 17 markdown files into a single output stream (452,870 characters total). This successfully bypassed the Read tool limitation.
+Used bash `cat ~/Workspace/organvm-iv-taxis/research/*.md` to concatenate all 17 markdown files into a single output stream (452,870 characters total). This successfully bypassed the Read tool limitation.
 
 ### Challenge: Token Limit on Large Content
 When attempting to retrieve first 150,000 characters from the concatenated output using `head -c 150000`, output exceeded maximum allowed token limit for a single response.
@@ -140,9 +140,9 @@ tail -c +120001 /path/to/tool-results/mcp-MCP_DOCKER-start_process-1772808605597
 
 ## Key File Paths
 
-- **Research directory:** `/Users/4jp/Workspace/organvm-iv-taxis/research/`
-- **Tool results file:** `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-iv-taxis/eae97b95-ba3a-4083-a46f-fcc833788286/tool-results/mcp-MCP_DOCKER-start_process-1772808605597.txt` (452,870 chars)
-- **Full session transcript:** `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-iv-taxis/eae97b95-ba3a-4083-a46f-fcc833788286.jsonl`
+- **Research directory:** `~/Workspace/organvm-iv-taxis/research/`
+- **Tool results file:** `~/.claude/projects/-Users-[user]-Workspace-organvm-iv-taxis/eae97b95-ba3a-4083-a46f-fcc833788286/tool-results/mcp-MCP_DOCKER-start_process-1772808605597.txt` (452,870 chars)
+- **Full session transcript:** `~/.claude/projects/-Users-[user]-Workspace-organvm-iv-taxis/eae97b95-ba3a-4083-a46f-fcc833788286.jsonl`
 
 ---
 

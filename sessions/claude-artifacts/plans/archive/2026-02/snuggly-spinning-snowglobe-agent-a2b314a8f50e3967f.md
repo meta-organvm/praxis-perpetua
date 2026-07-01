@@ -5,7 +5,7 @@ Understand the structure of GitHub issues (epics) in organvm-iii-ergon/parlor-ga
 
 ## Current State
 - Successfully retrieved JSON data for ~30 GitHub issues via gh CLI
-- Data saved to: `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-iii-ergon-parlor-games--ephemera-engine/65efd28e-edc7-425f-a6c6-cb388bad8528/tool-results/b80be33.txt` (35.9KB)
+- Data saved to: `~/.claude/projects/-Users-[user]-Workspace-organvm-iii-ergon-parlor-games--ephemera-engine/65efd28e-edc7-425f-a6c6-cb388bad8528/tool-results/b80be33.txt` (35.9KB)
 - Preview shows Issue #30 (Initiative 004: Murder Mystery) and #29 (Initiative 003: Confession Album)
 - Project is in DESIGN_ONLY status with artifact rendering pipeline built
 

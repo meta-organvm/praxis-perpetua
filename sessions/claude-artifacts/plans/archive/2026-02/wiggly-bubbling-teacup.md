@@ -18,8 +18,8 @@ docker stop stirling-pdf
 
 ### 2. Delete database AND backup
 ```bash
-rm "/Users/4jp/Library/Application Support/Stirling-PDF/configs/stirling-pdf-DB-2.3.232.mv.db" 2>/dev/null
-rm -rf "/Users/4jp/Library/Application Support/Stirling-PDF/configs/backup/db/"
+rm "~/Library/Application Support/Stirling-PDF/configs/stirling-pdf-DB-2.3.232.mv.db" 2>/dev/null
+rm -rf "~/Library/Application Support/Stirling-PDF/configs/backup/db/"
 ```
 
 ### 3. Start the container

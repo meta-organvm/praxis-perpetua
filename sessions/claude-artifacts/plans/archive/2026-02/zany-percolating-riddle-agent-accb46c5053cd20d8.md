@@ -11,7 +11,7 @@ These are currently gut-feel numbers (1-10); the goal is to identify data source
 ## Exploration Sequence
 
 ### Phase 1: Pipeline YAML Structure (6 diverse entries)
-Read actual YAML files from `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/`:
+Read actual YAML files from `~/Workspace/4444J99/application-pipeline/pipeline/`:
 1. ✓ creative-capital-2027.yaml (grant)
 2. ✓ pen-america.yaml (fellowship)
 3. ✓ pioneer-works.yaml (residency)
@@ -30,7 +30,7 @@ Read actual YAML files from `/Users/4jp/Workspace/4444J99/application-pipeline/p
 **Seek:** What data could inform each score? What's missing?
 
 ### Phase 2: Target Profiles (3-4 samples)
-Read from `/Users/4jp/Workspace/4444J99/application-pipeline/targets/profiles/`:
+Read from `~/Workspace/4444J99/application-pipeline/targets/profiles/`:
 1. ✓ Sample profile JSON files (pick 2-3 diverse types)
 
 **For each profile, catalog:**

@@ -80,7 +80,7 @@ However, there are real functional concerns with this workflow if it were actual
 ### Root cause: `setup-python` with `cache: 'pip'` but no `requirements.txt` or `pyproject.toml`
 The exact error from the logs:
 ```
-No file in /home/runner/work/orchestration-start-here/orchestration-start-here
+No file in ~/work/orchestration-start-here/orchestration-start-here
 matched to [**/requirements.txt or **/pyproject.toml],
 make sure you have checked out the target repository
 ```

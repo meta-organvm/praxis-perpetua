@@ -1,7 +1,7 @@
 # Application Pipeline Repository Exploration Plan
 
 ## Objective
-Thoroughly explore `/Users/4jp/Workspace/4444J99/application-pipeline/` to assess project maturity, accuracy of documentation, and structural integrity.
+Thoroughly explore `~/Workspace/4444J99/application-pipeline/` to assess project maturity, accuracy of documentation, and structural integrity.
 
 ## Phase 1: Root-Level Analysis
 - [ ] Read README.md — verify current state representation

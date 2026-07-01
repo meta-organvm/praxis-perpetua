@@ -159,7 +159,7 @@ Nelson, Ted. 1981. *Literary Machines*. Self-published. Multiple subsequent edit
 
 Nyce, James M., and Paul Kahn, eds. 1991. *From Memex to Hypertext: Vannevar Bush and the Mind's Machine*. San Diego: Academic Press.
 
-Padavano, Anthony James. 2026d. "The System as Genre: One-Person Visions Expressed as Architectures." ORGANVM SGO Research Corpus. Unpublished manuscript.
+[name redacted] James. 2026d. "The System as Genre: One-Person Visions Expressed as Architectures." ORGANVM SGO Research Corpus. Unpublished manuscript.
 
 Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press.
 

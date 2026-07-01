@@ -1,7 +1,7 @@
 # ORGANVM-VII-Kerygma Exploration Plan
 
 ## Objective
-Thoroughly explore `/Users/4jp/Workspace/organvm-vii-kerygma/` to understand the structure and purpose of ORGAN-VII (distribution/announcement organ) and its relationship to ORGAN-III.
+Thoroughly explore `~/Workspace/organvm-vii-kerygma/` to understand the structure and purpose of ORGAN-VII (distribution/announcement organ) and its relationship to ORGAN-III.
 
 ## Exploration Tasks
 1. [PENDING] Read CLAUDE.md at the superproject root

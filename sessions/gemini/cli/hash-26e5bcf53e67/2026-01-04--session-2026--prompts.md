@@ -12,7 +12,7 @@
 ### P1 — 2026-01-04 23:59:10
 
 Last login: Fri Dec 26 21:26:32 on ttys001
-4jp @Anthonys-MacBook-Pro omni-dromenon-machina % gemini
+[user] @Anthonys-MacBook-Pro omni-dromenon-machina % gemini
 
 
 

@@ -1,7 +1,7 @@
 # ORGANVM-IV Research Ingestion SOP Discovery — Conversation Summary
 
 **Date:** 2026-03-06  
-**Project:** `/Users/4jp/Workspace/organvm-iv-taxis`  
+**Project:** `~/Workspace/organvm-iv-taxis`  
 **Status:** Research ingestion SOP identified; comprehensive documentation retrieved  
 **Continuation from:** Previous context-exhausted conversation  
 
@@ -10,7 +10,7 @@
 ## 1. Primary Request and Intent
 
 ### Original Five-Part Explicit Request (Previous Session)
-The user requested a comprehensive search of `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm` for Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion:
+The user requested a comprehensive search of `~/Workspace/meta-organvm/organvm-corpvs-testamentvm` for Standard Operating Procedures (SOPs) related to research ingestion, synthesis, or digestion:
 
 1. **Glob searches** for files containing keywords: "sop", "ingest", "synth", "digest", "research", "process"
 2. **Directory identification** for `docs/`, `sop/`, `procedures/`, or `processes/` directories
@@ -59,7 +59,7 @@ Research ingestion refers to the systematic processing of governance documentati
 This workflow is codified in the Document Audit & Feature Extraction SOP.
 
 ### Git Superproject Structure
-- Root `/Users/4jp/Workspace/organvm-iv-taxis/` is a git superproject tracking 7 submodules
+- Root `~/Workspace/organvm-iv-taxis/` is a git superproject tracking 7 submodules
 - Each submodule is an independent git repository with its own history
 - **Critical:** Git operations for submodule code must happen inside individual submodule directories
 - Submodule pointers synced via automated commits: `chore: sync organvm-iv-taxis submodule pointers`
@@ -69,7 +69,7 @@ Documentation generation tracked by LLM token consumption:
 - Every SOP and governance document includes TE metadata
 - Budgets allocated per project phase
 - Used to measure and optimize AI-conductor workflow efficiency
-- Documented in `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
+- Documented in `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
 
 ### Artifact Routing and Document Architecture
 The governance corpus uses a four-quadrilateral model:
@@ -85,7 +85,7 @@ Cross-document references use an invocation system with 6 namespaces of short ID
 ## 3. Files and Code Sections
 
 ### Primary SOP File: Document Audit & Feature Extraction
-**Path:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
+**Path:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md`
 
 **Size:** ~18KB | **Status:** ACTIVE (Living document)
 
@@ -112,7 +112,7 @@ Cross-document references use an invocation system with 6 namespaces of short ID
 **Direct Relevance:** This SOP directly addresses the user's research ingestion/synthesis/digestion request — it is the systematic workflow for processing unstructured governance documentation into structured, actionable intelligence.
 
 ### Secondary SOP File: Pitch Deck Rollout
-**Path:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
+**Path:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md`
 
 **Size:** ~32.5KB | **Status:** ACTIVE (Living document)
 
@@ -142,7 +142,7 @@ Cross-document references use an invocation system with 6 namespaces of short ID
 **Indirectly Relevant:** May apply if research synthesis outputs need to be packaged into organizational communications (pitch decks, executive summaries).
 
 ### Project-Level Guidance: CLAUDE.md
-**Path:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
+**Path:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md`
 
 **Size:** ~1500+ lines | **Status:** ACTIVE (Project-level guidance)
 
@@ -208,7 +208,7 @@ Cross-document references use an invocation system with 6 namespaces of short ID
    - Critical for ensuring governance artifacts reach appropriate stakeholders
 
 ### Repository Overview: README.md
-**Path:** `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
+**Path:** `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
 
 **Size:** ~32.2KB | **Status:** LAUNCHED
 
@@ -247,10 +247,10 @@ Cross-document references use an invocation system with 6 namespaces of short ID
 
 **Fix Applied:** Used bash `cat` command as fallback approach
 ```bash
-cat /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md
-cat /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md
-cat /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md
-cat /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md
+cat ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md
+cat ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--pitch-deck-rollout.md
+cat ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md
+cat ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md
 ```
 
 **Result:** Successfully retrieved complete file contents for all four files in previous session, enabling current session continuation.
@@ -267,7 +267,7 @@ All bash `cat` commands executed successfully with complete file retrieval.
 **Challenge:** User needed to find specific SOP(s) related to research workflows; SOP file location/naming unknown.
 
 **Solution Applied:**
-- Executed 15 glob pattern searches across `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/`:
+- Executed 15 glob pattern searches across `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/`:
   - Pattern: `**/sop*` → Found 2 SOP files
   - Pattern: `**/*ingest*`, `**/*synth*`, `**/*digest*` → No additional matches
   - Pattern: `**/research*`, `**/process*` → No SOP-specific matches
@@ -309,7 +309,7 @@ All bash `cat` commands executed successfully with complete file retrieval.
 
 ### Message 1 (Previous Session — Context Summary)
 **Content:** Five-part explicit search request:
-> "Search /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm for an SOP (Standard Operating Procedure) related to research ingestion, synthesis, or digestion. It may be called SOP, ingestion-sop, synthesis-sop, research-process, or similar. Search broadly: 1. First glob for any files with "sop", "ingest", "synth", "digest", "research", "process" in their names 2. Check any docs/, sop/, procedures/, or processes/ directories 3. Read any matching files fully 4. Report the exact path and complete contents of the SOP. Also check if there are any references to this SOP in CLAUDE.md or README files in that repo."
+> "Search ~/Workspace/meta-organvm/organvm-corpvs-testamentvm for an SOP (Standard Operating Procedure) related to research ingestion, synthesis, or digestion. It may be called SOP, ingestion-sop, synthesis-sop, research-process, or similar. Search broadly: 1. First glob for any files with "sop", "ingest", "synth", "digest", "research", "process" in their names 2. Check any docs/, sop/, procedures/, or processes/ directories 3. Read any matching files fully 4. Report the exact path and complete contents of the SOP. Also check if there are any references to this SOP in CLAUDE.md or README files in that repo."
 
 **Intent:** Locate existing SOP documentation for research workflows within governance corpus; understand how research ingestion/synthesis/digestion is systematized.
 
@@ -391,24 +391,24 @@ If the conversation context is exhausted again, resuming work can proceed from t
 
 1. **Primary research ingestion SOP is located at:**
    ```
-   /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md
+   ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--document-audit-feature-extraction.md
    ```
    Five-phase workflow: Inventory → Exhaustive Read & Extraction → Deduplication → Issue Creation → Post-Audit Artifacts
 
 2. **Governance context is documented in:**
    ```
-   /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md
+   ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md
    ```
    Critical sections: Document Architecture, TE Budget Model, AI-Conductor Workflow, Artifact Routing
 
 3. **System entry point is:**
    ```
-   /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md
+   ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md
    ```
 
 4. **Session start protocol:**
    ```bash
-   cd /Users/4jp/Workspace
+   cd ~/Workspace
    python3 -m conductor patch --json
    ```
    Always run this before beginning work to understand system state.

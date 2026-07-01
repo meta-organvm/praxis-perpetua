@@ -10,7 +10,7 @@ status: reference-activated
 Submitted in Partial Fulfillment of the Requirements for the Degree of
 Doctor of Philosophy in Systems Science
 
-**Anthony James Padavano**
+**[name redacted]**
 
 March 2026
 

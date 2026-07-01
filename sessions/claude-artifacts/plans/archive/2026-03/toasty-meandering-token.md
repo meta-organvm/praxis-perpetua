@@ -21,7 +21,7 @@ The org copy is the canonical one (correct organ directory, more up-to-date, has
 
 The previous task added a `## GitHub MCP Usage Policy` section to `~/Workspace/a-i--skills/CLAUDE.md`. The org copy at `~/Workspace/organvm-iv-taxis/a-i--skills/CLAUDE.md` doesn't have it yet. Add it there.
 
-**File:** `/Users/4jp/Workspace/organvm-iv-taxis/a-i--skills/CLAUDE.md`
+**File:** `~/Workspace/organvm-iv-taxis/a-i--skills/CLAUDE.md`
 
 ### Step 2: Rebuild Claude skills from the canonical copy
 
@@ -65,7 +65,7 @@ If `gemini extensions install` isn't available, manually create the symlinks/cop
 
 ### Step 4: Update global CLAUDE.md skills path
 
-**File:** `/Users/4jp/.claude/CLAUDE.md`
+**File:** `~/.claude/CLAUDE.md`
 
 Change the skills location line from:
 ```
@@ -78,7 +78,7 @@ Location: ~/Workspace/organvm-iv-taxis/a-i--skills/skills/{category}/{skill-name
 
 ### Step 5: Update workspace CLAUDE.md reference (if any)
 
-Check `/Users/4jp/Workspace/CLAUDE.md` for references to `~/Workspace/a-i--skills` and update to `~/Workspace/organvm-iv-taxis/a-i--skills`.
+Check `~/Workspace/CLAUDE.md` for references to `~/Workspace/a-i--skills` and update to `~/Workspace/organvm-iv-taxis/a-i--skills`.
 
 ### Step 6: Remove the stale workspace-root clone
 
@@ -93,19 +93,19 @@ This is safe because:
 
 ### Step 7: Update auto-memory
 
-**File:** `/Users/4jp/.claude/projects/-Users-4jp/memory/MEMORY.md`
+**File:** `~/.claude/projects/-Users-[user]/memory/MEMORY.md`
 
 Add a note about the consolidation so future sessions know the canonical path.
 
 ## Files to Modify
 
-1. `/Users/4jp/Workspace/organvm-iv-taxis/a-i--skills/CLAUDE.md` — add GitHub MCP policy section
+1. `~/Workspace/organvm-iv-taxis/a-i--skills/CLAUDE.md` — add GitHub MCP policy section
 2. `~/.claude/skills` — update symlink target
 3. `~/.local/share/gemini/extensions/example-skills/.gemini-extension-install.json` — fix source path
 4. `~/.local/share/gemini/extensions/document-skills/.gemini-extension-install.json` — fix source path
-5. `/Users/4jp/.claude/CLAUDE.md` — update skills Location path
-6. `/Users/4jp/Workspace/CLAUDE.md` — update any a-i--skills references
-7. `/Users/4jp/.claude/projects/-Users-4jp/memory/MEMORY.md` — add consolidation note
+5. `~/.claude/CLAUDE.md` — update skills Location path
+6. `~/Workspace/CLAUDE.md` — update any a-i--skills references
+7. `~/.claude/projects/-Users-[user]/memory/MEMORY.md` — add consolidation note
 8. `~/Workspace/a-i--skills/` — delete after migration
 
 ## Verification

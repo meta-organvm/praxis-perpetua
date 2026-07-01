@@ -5,7 +5,7 @@
 **Session ID:** `ebc2c7eb-8006-48e9-850e-f5115e44a068`
 **Slug:** `peppy-knitting-sky`
 **Duration:** ~1718 min
-**Working directory:** `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine`
+**Working directory:** `~/Workspace/organvm-i-theoria/conversation-corpus-engine`
 **Branch:** `main`
 **Messages:** 956 (385 human, 571 assistant)
 
@@ -22,7 +22,7 @@ organvm session transcript ebc2c7eb --unabridged
 organvm session prompts ebc2c7eb
 ```
 
-**Source JSONL:** `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-i-theoria-conversation-corpus-engine/ebc2c7eb-8006-48e9-850e-f5115e44a068.jsonl`
+**Source JSONL:** `~/.claude/projects/-Users-[user]-Workspace-organvm-i-theoria-conversation-corpus-engine/ebc2c7eb-8006-48e9-850e-f5115e44a068.jsonl`
 
 ---
 

@@ -114,4 +114,4 @@ Eliade, Mircea. 1957. *Le Sacré et le profane*. Paris: Gallimard. Trans. Willar
 
 Kristeva, Julia. 1980. *Pouvoirs de l'horreur: Essai sur l'abjection*. Paris: Éditions du Seuil. Trans. Leon S. Roudiez as *Powers of Horror: An Essay on Abjection* (1982). New York: Columbia University Press.
 
-Padavano, Anthony James. 2026b. "Trash and Church Exist in the Same Space: An Aesthetic Philosophy of the Sublime-Mundane Coexistence." ORGANVM SGO Research Corpus. Unpublished manuscript.
+[name redacted] James. 2026b. "Trash and Church Exist in the Same Space: An Aesthetic Philosophy of the Sublime-Mundane Coexistence." ORGANVM SGO Research Corpus. Unpublished manuscript.

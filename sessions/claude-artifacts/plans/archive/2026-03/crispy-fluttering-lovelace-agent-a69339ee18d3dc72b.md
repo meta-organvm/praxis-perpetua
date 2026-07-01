@@ -33,9 +33,9 @@ editorial-standards/schemas/ + public-process/_posts/
 ```
 
 ## Tasks Completed
-✓ Read /Users/4jp/Workspace/organvm-v-logos/.gitmodules
-✓ Read /Users/4jp/Workspace/organvm-v-logos/CLAUDE.md (project-level)
-✓ Read /Users/4jp/Workspace/CLAUDE.md (workspace-level)
+✓ Read ~/Workspace/organvm-v-logos/.gitmodules
+✓ Read ~/Workspace/organvm-v-logos/CLAUDE.md (project-level)
+✓ Read ~/Workspace/CLAUDE.md (workspace-level)
 ✓ Identified error: Bash tool does not accept `timeout_ms` parameter
 
 ## Tasks Remaining
@@ -72,7 +72,7 @@ editorial-standards/schemas/ + public-process/_posts/
 - **Active Submodules**: 3 (essay-pipeline, editorial-standards, public-process)
 - **Scaffold Submodules**: 2 (analytics-engine, reading-observatory)
 - **Infrastructure**: 1 (.github)
-- **Git URL Pattern**: `git@github.com:organvm-v-logos/{submodule-name}.git`
+- **Git URL Pattern**: `[email redacted]:organvm-v-logos/{submodule-name}.git`
 
 ## Next Immediate Action
 Run parallel Glob searches for:

@@ -113,7 +113,7 @@ The system exists to prove: one person, with the right architecture, can build a
 
 ```bash
 # Clone the superproject
-git clone --recurse-submodules git@github.com:meta-organvm/meta-organvm--superproject.git
+git clone --recurse-submodules [email redacted]:meta-organvm/meta-organvm--superproject.git
 cd meta-organvm
 
 # Set up

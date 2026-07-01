@@ -22,16 +22,16 @@ A 17-word seed prompt that triggered 9 stages of substrate-vocabulary discovery.
 - `~/.claude/plans/fluttering-exploring-token--logos/praxis.md`
 - `~/.claude/plans/fluttering-exploring-token--logos/receptio.md`
 - `~/.claude/plans/fluttering-exploring-token--logos/alchemical-io.md`
-- `~/.claude/projects/-Users-4jp/memory/feedback_protocols_dictate_actions.md`
-- `~/.claude/projects/-Users-4jp/memory/feedback_substrate_vocabulary_priority.md`
-- `~/.claude/projects/-Users-4jp/memory/project_artifact_prisma_zetesis_polynoia_fabrica_2026_05_02.md`
-- `~/.claude/projects/-Users-4jp/memory/feedback_recursive_systems_safeguards.md`
-- `~/.claude/projects/-Users-4jp/memory/feedback_rule_corpus_re_examination.md`
-- `~/.claude/projects/-Users-4jp/memory/feedback_tetradic_counterpart_for_plans.md`
+- `~/.claude/projects/-Users-[user]/memory/feedback_protocols_dictate_actions.md`
+- `~/.claude/projects/-Users-[user]/memory/feedback_substrate_vocabulary_priority.md`
+- `~/.claude/projects/-Users-[user]/memory/project_artifact_prisma_zetesis_polynoia_fabrica_2026_05_02.md`
+- `~/.claude/projects/-Users-[user]/memory/feedback_recursive_systems_safeguards.md`
+- `~/.claude/projects/-Users-[user]/memory/feedback_rule_corpus_re_examination.md`
+- `~/.claude/projects/-Users-[user]/memory/feedback_tetradic_counterpart_for_plans.md`
 - `~/Workspace/organvm/praxis-perpetua/sessions/2026-05-02--recursive-substrate-ops-plan-fluttering-token.md` (this file)
 
 **Files modified:**
-- `~/.claude/projects/-Users-4jp/memory/MEMORY.md` (added 1 active artifact + 5 feedback entries)
+- `~/.claude/projects/-Users-[user]/memory/MEMORY.md` (added 1 active artifact + 5 feedback entries)
 - `~/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md` (added 4 IRF entries: IRF-VIS-001, IRF-DOC-002, IRF-PHL-001, IRF-DIV-001)
 - `~/Workspace/organvm/praxis-perpetua/lessons/derived-principles.md` (new principles section appended — see below)
 

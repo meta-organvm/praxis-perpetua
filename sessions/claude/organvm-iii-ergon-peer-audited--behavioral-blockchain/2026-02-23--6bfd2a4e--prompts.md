@@ -30,20 +30,20 @@ Phase Iota brought Styx to "Omega complete" by code metrics: 256 tests, 5/5 gate
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/guards/auth.guard.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/main.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/guards/auth.guard.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/main.ts`
 - Task
 - Glob `**/contracts.service.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.service.ts`
 - Glob `**/contracts.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/utils/linguistic-cloak.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/ApiClient.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/schema.sql`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/contracts/contracts.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/utils/linguistic-cloak.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/mobile/services/ApiClient.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/database/schema.sql`
 - Glob `**/geofence.guard.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/common/guards/geofence.guard.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/behavioral-logic.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/integrity.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/common/guards/geofence.guard.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/behavioral-logic.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/shared/libs/integrity.ts`
 - *...and 89 more*
 
 ---
@@ -69,26 +69,26 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/rustling-wondering-pancake.md`
+- Read `~/.claude/plans/rustling-wondering-pancake.md`
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
 - Glob `src/web/app/**/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/tavern/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/fury/page.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/tavern/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/fury/page.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/web/app/dashboard/page.tsx`
 - Glob `src/api/src/modules/**/**.module.ts`
 - Grep `@Controller|@Get|@Post`
 - Glob `src/api/src/modules/fury/fury.worker.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/ExilePanel.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/MacroReview.tsx`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/B2BOrchestration.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/fury/fury.worker.ts`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/sr`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/ExilePanel.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/MacroReview.tsx`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/desktop/src/components/B2BOrchestration.tsx`
 - Grep `AUDITOR_STAKE|bounty|reward|payout`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.controller.ts`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/notifications/notifications.controller.ts`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/api/src/modules/users/users.controller.ts`
 - *...and 3 more*
 
 ---

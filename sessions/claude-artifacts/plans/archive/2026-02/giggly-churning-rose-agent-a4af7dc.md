@@ -307,7 +307,7 @@ The workflow already has a `lychee-action` job (lines 28-65) which:
 The link check report (`link-check-report-2026-01-14-filtered.md`) references file paths that don't match current repository structure:
 
 - Report shows: `/workspace/docs/AGENT_REGISTRY.md`
-- Actual location: `/Users/4jp/Workspace/ivviiviivvi/.github/docs/reference/AGENT_REGISTRY.md`
+- Actual location: `~/Workspace/ivviiviivvi/.github/docs/reference/AGENT_REGISTRY.md`
 
 **This indicates**:
 1. The report was generated in a different environment (likely CI with `/workspace` mount)
@@ -422,18 +422,18 @@ args: |
 
 ### Primary Changes (Phase 1 - Quick Win)
 
-1. **File**: `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
+1. **File**: `~/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
    - Line 139: Add `if: false` to disable markdown-link-check job
    - Line 52: Change `fail: false` to `fail: true` 
    - Lines 40-50: Add `--exclude-path` args for report directories
 
-2. **File**: `/Users/4jp/Workspace/ivviiviivvi/.github/.lycheeignore`
+2. **File**: `~/Workspace/ivviiviivvi/.github/.lycheeignore`
    - Add ~20 new patterns for unfixable URLs
    - Add patterns for template/placeholder URLs
 
 ### Optional Changes (Phase 2 - If needed after testing)
 
-3. **File**: `/Users/4jp/Workspace/ivviiviivvi/.github/.github/markdown-link-check-config.json`
+3. **File**: `~/Workspace/ivviiviivvi/.github/.github/markdown-link-check-config.json`
    - Keep as-is in case markdown-link-check is re-enabled later
    - Or add similar patterns for consistency
 
@@ -450,17 +450,17 @@ args: |
 
 ### Critical Files
 
-1. `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
+1. `~/Workspace/ivviiviivvi/.github/.github/workflows/link-checker.yml`
    - Disable markdown-link-check job
    - Enable lychee failure on broken links
    - Add exclude-path arguments
 
-2. `/Users/4jp/Workspace/ivviiviivvi/.github/.lycheeignore`
+2. `~/Workspace/ivviiviivvi/.github/.lycheeignore`
    - Add comprehensive ignore patterns
 
 ### Supporting Files (for reference)
 
-3. `/Users/4jp/Workspace/ivviiviivvi/.github/.github/markdown-link-check-config.json`
+3. `~/Workspace/ivviiviivvi/.github/.github/markdown-link-check-config.json`
    - Keep current state, optionally update later
 
 ## Success Metrics - REVISED

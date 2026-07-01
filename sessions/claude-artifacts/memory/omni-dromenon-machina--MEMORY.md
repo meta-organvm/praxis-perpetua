@@ -22,8 +22,8 @@ tools/              scripts, dreamcatcher
 ```
 
 ## Important Paths
-- Monorepo root: `/Users/4jp/Workspace/omni-dromenon-machina/`
-- Backup: `/Users/4jp/Workspace/omni-dromenon-machina.BACKUP-20260207/`
+- Monorepo root: `~/Workspace/omni-dromenon-machina/`
+- Backup: `~/Workspace/omni-dromenon-machina.BACKUP-20260207/`
 
 ## Key Facts
 - Root has 15 visible items (just over golden 14 target - all necessary)

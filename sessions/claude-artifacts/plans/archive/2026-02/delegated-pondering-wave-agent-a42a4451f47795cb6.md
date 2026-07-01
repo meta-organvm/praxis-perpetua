@@ -1,6 +1,6 @@
 # Meta-ORGANVM Thorough Exploration & Assessment Plan
 
-**Task**: Thoroughly explore MCP server and system-level documentation in `/Users/4jp/Workspace/meta-organvm/`
+**Task**: Thoroughly explore MCP server and system-level documentation in `~/Workspace/meta-organvm/`
 
 **Date**: 2026-02-23  
 **Status**: PLAN MODE (read-only, no execution until approved)
@@ -72,11 +72,11 @@
 **Scope**: Consistency assessment across all context and config files
 
 **Files to Read**:
-- `/Users/4jp/Workspace/meta-organvm/CLAUDE.md` - Workspace guidance
-- `/Users/4jp/Workspace/meta-organvm/AGENTS.md` - AI agent instructions
-- `/Users/4jp/Workspace/meta-organvm/GEMINI.md` - Gemini-specific instructions
-- `/Users/4jp/Workspace/meta-organvm/.github/organ-aesthetic.yaml` - Visual identity
-- `/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm/taste.yaml` - Aesthetic cascade
+- `~/Workspace/meta-organvm/CLAUDE.md` - Workspace guidance
+- `~/Workspace/meta-organvm/AGENTS.md` - AI agent instructions
+- `~/Workspace/meta-organvm/GEMINI.md` - Gemini-specific instructions
+- `~/Workspace/meta-organvm/.github/organ-aesthetic.yaml` - Visual identity
+- `~/Workspace/meta-organvm/alchemia-ingestvm/taste.yaml` - Aesthetic cascade
 - `seed.yaml` from 3+ subprojects:
   - `organvm-engine/seed.yaml`
   - `schema-definitions/seed.yaml`
@@ -143,5 +143,5 @@ Upon completion, provide:
 - **Read-Only Mode**: No file edits or modifications during exploration
 - **Large File Handling**: registry-v2.json and corpus files will be read partially only
 - **Parallel Efficiency**: Multiple file reads will be executed in parallel where possible
-- **Path Convention**: All file paths are absolute, starting from `/Users/4jp/Workspace/meta-organvm/`
+- **Path Convention**: All file paths are absolute, starting from `~/Workspace/meta-organvm/`
 

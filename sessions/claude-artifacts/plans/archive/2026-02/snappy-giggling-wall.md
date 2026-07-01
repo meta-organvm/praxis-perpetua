@@ -25,9 +25,9 @@ Built-in `ReadFile` works fine - only MCP server extension tools are blocked.
 - `tools.autoAccept: true` in settings.json appears to apply only to built-in tools
 
 ### Bonus: Conflicting Filesystem paths across 3 config files
-- `gemini-extension.json`: `/Users/4jp` (correct)
+- `gemini-extension.json`: `/Users/[user]` (correct)
 - `.mcp-config.json`: `/workspaces` (wrong - container path)
-- `.mcp.json`: `/Users/chrisdukes/Desktop` (wrong - upstream author's path)
+- `.mcp.json`: `~/Desktop` (wrong - upstream author's path)
 
 ---
 
@@ -37,10 +37,10 @@ Built-in `ReadFile` works fine - only MCP server extension tools are blocked.
 
 **File**: `~/.gemini/extensions/extension-enablement.json`
 
-Change blender-mcp override from `/Users/4jp/*` to `!/Users/4jp/*`:
+Change blender-mcp override from `~/*` to `!~/*`:
 ```json
 "blender-mcp": {
-  "overrides": ["!/Users/4jp/*"]
+  "overrides": ["!~/*"]
 }
 ```
 
@@ -117,10 +117,10 @@ priority = 100
 ### 3. Fix Filesystem Paths in Secondary Configs
 
 **File**: `~/.gemini/extensions/gemini-flow/.mcp-config.json`
-- Change Filesystem args from `"/workspaces"` to `"/Users/4jp"`
+- Change Filesystem args from `"/workspaces"` to `"/Users/[user]"`
 
 **File**: `~/.gemini/extensions/gemini-flow/.mcp.json`
-- Change Filesystem args from `"/Users/chrisdukes/Desktop"` to `"/Users/4jp"`
+- Change Filesystem args from `"~/Desktop"` to `"/Users/[user]"`
 
 ### 4. Remove Redis and Supabase MCP Servers
 

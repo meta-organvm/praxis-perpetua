@@ -8,7 +8,7 @@ Both repos were initialized, pushed to GitHub, and added to the registry in a pr
 
 ## CHTHON-ONEIROS README Corrections
 
-**File:** `/Users/4jp/Workspace/chthon-oneiros/README.md`
+**File:** `~/Workspace/chthon-oneiros/README.md`
 
 ### M1. `GRINDER-New-chat.md` — Mischaracterized
 
@@ -54,7 +54,7 @@ The README mentions GRINDER as a "hookup-app murder premise" but never mentions 
 
 ## KRYPTO-VELAMEN README Corrections
 
-**File:** `/Users/4jp/Workspace/krypto-velamen/README.md`
+**File:** `~/Workspace/krypto-velamen/README.md`
 
 ### M8. `QUEER-AI-prompts-for-QV33R.md` — Description incomplete
 

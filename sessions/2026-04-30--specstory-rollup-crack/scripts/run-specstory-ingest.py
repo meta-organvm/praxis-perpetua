@@ -12,19 +12,19 @@ import sys
 from pathlib import Path
 
 # Add prompt-corpus to sys.path so we can import the upstream module
-sys.path.insert(0, "/Users/4jp/Workspace/organvm/praxis-perpetua/prompt-corpus")
+sys.path.insert(0, "~/Workspace/organvm/praxis-perpetua/prompt-corpus")
 
 # Import the function we want
 import importlib.util
 spec = importlib.util.spec_from_file_location(
     "ingest_supplementary",
-    "/Users/4jp/Workspace/organvm/praxis-perpetua/prompt-corpus/ingest-supplementary.py"
+    "~/Workspace/organvm/praxis-perpetua/prompt-corpus/ingest-supplementary.py"
 )
 mod = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mod)
 
-SUBSTRATE = Path("/Users/4jp/Workspace/.specstory/history")
-OUT = Path("/Users/4jp/Workspace/organvm/praxis-perpetua/prompt-corpus/supplementary-prompts-specstory-workspace.jsonl")
+SUBSTRATE = Path("~/Workspace/.specstory/history")
+OUT = Path("~/Workspace/organvm/praxis-perpetua/prompt-corpus/supplementary-prompts-specstory-workspace.jsonl")
 
 
 def main() -> None:

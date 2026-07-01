@@ -21,26 +21,26 @@ The IDENTITAS PERPETUA sprint added per-project social identity to ORGAN-VII (Ke
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/src/kerygma_profiles/cli.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/src/kerygma_profiles/registry.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/src/kerygma_profiles/__init__.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-profiles/src/kerygma_profiles/cli.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-profiles/src/kerygma_profiles/registry.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-profiles/src/kerygma_profiles/__init__.py`
 - Glob `**/kerygma_profiles/cli.py`
 - Glob `**/kerygma_profiles/registry.py`
 - Glob `**/kerygma_profiles/__init__.py`
 - Glob `**/test_profile_dispatch.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/cli.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/registry.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/__init__.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/tests/test_profile_dispatch.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/cli.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/registry.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/__init__.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/tests/test_profile_dispatch.py`
 - Glob `**/kerygma_social/factory.py`
 - Glob `**/kerygma_profiles/secrets.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/factory.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/secrets.py`
-- Edit `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/cli.py`
-- Edit `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/registry.py`
-- Edit `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/factory.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/secrets.py`
+- Edit `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/cli.py`
+- Edit `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/cli.py`
+- Edit `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/registry.py`
+- Edit `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
 - *...and 16 more*
 
 ---
@@ -50,13 +50,13 @@ The IDENTITAS PERPETUA sprint added per-project social identity to ORGAN-VII (Ke
 fix the pre-existing lint warnings
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
-- Edit `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
-- Edit `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
-- Edit `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/registry.py`
-- Bash: `source /Users/4jp/Workspace/organvm-vii-kerygma/.venv/bin/activate && ruff check`
-- Bash: `source /Users/4jp/Workspace/organvm-vii-kerygma/.venv/bin/activate && pytest /Us`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma && source .venv/bin/activate && pyte`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
+- Edit `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
+- Edit `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
+- Edit `~/Workspace/organvm-vii-kerygma/kerygma-profiles/kerygma_profiles/registry.py`
+- Bash: `source ~/Workspace/organvm-vii-kerygma/.venv/bin/activate && ruff check`
+- Bash: `source ~/Workspace/organvm-vii-kerygma/.venv/bin/activate && pytest /Us`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma && source .venv/bin/activate && pyte`
 
 ---
 
@@ -80,22 +80,22 @@ stage all, commit all, origin push;
 - Bash: `git status`
 - Bash: `git diff`
 - Bash: `git log --oneline -5`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles && git status`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline && git status`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma && git diff --submodule && git ls-fi`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma/kerygma-profiles && git status`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma/kerygma-pipeline && git status`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma && git diff --submodule && git ls-fi`
 - Bash: `git diff HEAD -- kerygma-pipeline/`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline && git log --onelin`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma/kerygma-pipeline && git log --onelin`
 - Bash: `git show --stat e93cc5e`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles && git diff`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma/kerygma-profiles && git diff`
 - Bash: `git add kerygma_profiles/__init__.py kerygma_profiles/cli.py kerygma_profiles/re`
-- Bash: `cd /Users/4jp/Workspace/organvm-vii-kerygma && git status`
+- Bash: `cd ~/Workspace/organvm-vii-kerygma && git status`
 - Bash: `git diff --submodule`
 - Bash: `git submodule status`
 - Bash: `cat .gitmodules`
 - Bash: `git submodule status kerygma-profiles`
 - Bash: `git submodule init kerygma-profiles && git submodule update kerygma-profiles`
 - Bash: `git ls-tree HEAD | grep kerygma-profiles`
-- Bash: `git submodule add git@github.com:organvm-vii-kerygma/kerygma-profiles.git kerygm`
+- Bash: `git submodule add [email redacted]:organvm-vii-kerygma/kerygma-profiles.git kerygm`
 - Bash: `cat .gitignore`
 - *...and 15 more*
 

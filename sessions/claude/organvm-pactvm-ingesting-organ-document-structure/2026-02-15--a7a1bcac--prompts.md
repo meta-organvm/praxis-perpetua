@@ -56,24 +56,24 @@ The portfolio at `4444j99.github.io/portfolio/` already has CMYK color _variable
 we need to change the white and black and grey font to colors that can be read on white and black backgrounds; the consult page doesnt work either;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
+- Read `~/.claude/plans/splendid-prancing-naur.md`
 - Task
 - Task
 - Task
 - Task
 - WebFetch: `https://js.puter.com/v2/`
-- Write `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
+- Write `~/.claude/plans/splendid-prancing-naur.md`
 - AskUserQuestion
 - WebSearch: "free LLM API 2026 no authentication client-side JavaScript p"
 - WebSearch: "HuggingFace Inference API free tier serverless chat completi"
 - WebFetch: `https://developer.puter.com/tutorials/free-llm-api/`
 - WebFetch: `https://github.com/cheahjs/free-llm-api-resources`
-- Read `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
-- Edit `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
-- Edit `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
-- Edit `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
-- Edit `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
-- Read `/Users/4jp/.claude/plans/splendid-prancing-naur.md`
+- Read `~/.claude/plans/splendid-prancing-naur.md`
+- Edit `~/.claude/plans/splendid-prancing-naur.md`
+- Edit `~/.claude/plans/splendid-prancing-naur.md`
+- Edit `~/.claude/plans/splendid-prancing-naur.md`
+- Edit `~/.claude/plans/splendid-prancing-naur.md`
+- Read `~/.claude/plans/splendid-prancing-naur.md`
 - ExitPlanMode
 
 ---

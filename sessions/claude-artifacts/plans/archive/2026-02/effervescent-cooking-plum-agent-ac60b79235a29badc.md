@@ -1,5 +1,5 @@
 # AI Agent Configuration Audit Plan
-**Repository**: `/Users/4jp/domus-semper-palingenesis`
+**Repository**: `~/domus-semper-palingenesis`
 **Date**: 2026-02-23
 **Status**: Planning Phase
 

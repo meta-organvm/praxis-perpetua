@@ -5,7 +5,7 @@
 **Session ID:** `1924e3fc-06f7-49bc-883e-d80103ef6ccb`
 **Slug:** `curious-napping-gosling`
 **Duration:** ~148 min
-**Working directory:** `/Users/4jp/Workspace/4444J99/portfolio`
+**Working directory:** `~/Workspace/4444J99/portfolio`
 **Branch:** `main`
 **Messages:** 192 (78 human, 114 assistant)
 

@@ -32,10 +32,10 @@ The old location still exists but:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Bash: `rm -rf /Users/4jp/.local/share/ai-skills/`
-- Bash: `ls /Users/4jp/.local/share/ai-skills/ 2>&1`
-- Bash: `git -C /Users/4jp/Workspace/a-i--skills log --oneline -1`
-- Bash: `git -C /Users/4jp/Workspace/a-i--skills log --oneline -1`
+- Bash: `rm -rf ~/.local/share/ai-skills/`
+- Bash: `ls ~/.local/share/ai-skills/ 2>&1`
+- Bash: `git -C ~/Workspace/a-i--skills log --oneline -1`
+- Bash: `git -C ~/Workspace/a-i--skills log --oneline -1`
 
 ---
 
@@ -44,8 +44,8 @@ The old location still exists but:
 update CLAUDE.md to remove the ~/.local/share/ai-skills reference
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/CLAUDE.md`
-- Edit `/Users/4jp/.claude/CLAUDE.md`
+- Read `~/.claude/CLAUDE.md`
+- Edit `~/.claude/CLAUDE.md`
 
 ---
 
@@ -62,7 +62,7 @@ yes, update the project CLAUDE.md instead
 **Actions taken:**
 - Grep `local/share/ai-skills`
 - Grep `local/share/ai-skills`
-- Read `/Users/4jp/Workspace/a-i--skills/CLAUDE.md`
+- Read `~/Workspace/a-i--skills/CLAUDE.md`
 
 ---
 
@@ -71,8 +71,8 @@ yes, update the project CLAUDE.md instead
 idk, do what is logical
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dazzling-splashing-cerf.md`
-- Edit `/Users/4jp/.claude/plans/dazzling-splashing-cerf.md`
+- Read `~/.claude/plans/dazzling-splashing-cerf.md`
+- Edit `~/.claude/plans/dazzling-splashing-cerf.md`
 - ExitPlanMode
 
 ---

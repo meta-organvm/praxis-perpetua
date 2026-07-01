@@ -23,26 +23,26 @@ Implement the following plan:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/registry/query.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/registry/loader.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/test_registry.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/conftest.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
-- Read `/Users/4jp/Workspace/meta-organvm/system-dashboard/src/dashboard/app.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/registry/query.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/cli.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/registry/loader.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/test_registry.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/conftest.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/paths.py`
+- Read `~/Workspace/meta-organvm/system-dashboard/src/dashboard/app.py`
 - Glob `organvm-engine/src/organvm_engine/**/__init__.py`
 - Glob `organvm-corpvs-testamentvm/data/soak-test/daily-*.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/soak-test/daily-2026-02-23.json`
-- Read `/Users/4jp/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/omega.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/tests/fixtures/registry-minimal.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/git/superproject.py`
-- Read `/Users/4jp/Workspace/meta-organvm/system-dashboard/tests/test_app.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/git/superproject.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/calculator.py`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/data/soak-test/daily-2026-02-23.json`
+- Read `~/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/omega.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/tests/fixtures/registry-minimal.json`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/git/superproject.py`
+- Read `~/Workspace/meta-organvm/system-dashboard/tests/test_app.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/git/superproject.py`
+- Read `~/Workspace/meta-organvm/organvm-engine/src/organvm_engine/metrics/calculator.py`
 - Glob `system-dashboard/src/dashboard/routes/*.py`
-- Read `/Users/4jp/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/health.py`
-- Read `/Users/4jp/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/registry.py`
-- Read `/Users/4jp/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/soak.py`
+- Read `~/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/health.py`
+- Read `~/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/registry.py`
+- Read `~/Workspace/meta-organvm/system-dashboard/src/dashboard/routes/soak.py`
 - *...and 57 more*
 
 ---
@@ -53,26 +53,26 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/dynamic-prancing-lollipop.md`
+- Read `~/.claude/plans/dynamic-prancing-lollipop.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/rolling-todo.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/strategy/sprint-catalog.md`
 - Grep `## PART V|## PART VI|AP-1|AP-2|AP-3|anti-pattern`
 - Glob `**/life-my--midst--in/DEPLOY.md`
 - Glob `**/life-my--midst--in/render.yaml`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/life-my--midst--in/DEPLOY.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/operations/operational-cadence.md`
+- Read `~/Workspace/organvm-iii-ergon/life-my--midst--in/DEPLOY.md`
 - Grep `omega|omega_status`
 - Glob `organvm-mcp-server/src/organvm_mcp/**/*.py`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-iii-ergon/life-my--midst--in/ 2>&1 | head -2`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/tools/health.py`
+- Bash: `ls -la ~/Workspace/organvm-iii-ergon/life-my--midst--in/ 2>&1 | head -2`
+- Read `~/Workspace/meta-organvm/organvm-mcp-server/src/organvm_mcp/tools/health.py`
 - *...and 7 more*
 
 ---

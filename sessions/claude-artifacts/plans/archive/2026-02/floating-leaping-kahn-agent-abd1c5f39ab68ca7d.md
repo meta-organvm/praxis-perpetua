@@ -6,7 +6,7 @@
 
 ## User's Explicit Request
 
-Conduct thorough READ-ONLY exploration of `/Users/4jp/Workspace/4444J99/portfolio` to identify high-impact improvements for Round 3. Focus on six specific areas:
+Conduct thorough READ-ONLY exploration of `~/Workspace/4444J99/portfolio` to identify high-impact improvements for Round 3. Focus on six specific areas:
 
 1. **Content & page completeness** — Are all pages fully implemented with substantive content?
 2. **Component architecture gaps** — Are components reusable, consistent, properly documented?

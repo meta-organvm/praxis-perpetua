@@ -27,16 +27,16 @@ The krypto-velamen repository completed Phase 1 (full ingestion) across knowledg
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-Queer-Aesthetic-of-Hiding.md`
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/seed.yaml`
-- Bash: `ls /Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-Queer-Aesthetic-of-Hiding.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/seed.yaml`
+- Bash: `ls ~/Workspace/organvm-ii-poiesis/krypto-velamen/`
 - Skill
 
 ---
 
 ### P3 — 2026-02-17 12:56:35
 
-Base directory for this skill: /Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
+Base directory for this skill: ~/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
 
 # Executing Plans
 
@@ -70,10 +70,10 @@ Load plan, review critically, execute tasks in batches, report for review betwee
 - TaskUpdate
 - TaskUpdate
 - TaskUpdate
-- Write `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/CLAUDE.md`
-- Write `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/drafts/README.md`
-- Edit `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/seed.yaml`
-- Bash: `mkdir -p /Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/research`
+- Write `~/Workspace/organvm-ii-poiesis/krypto-velamen/CLAUDE.md`
+- Write `~/Workspace/organvm-ii-poiesis/krypto-velamen/drafts/README.md`
+- Edit `~/Workspace/organvm-ii-poiesis/krypto-velamen/seed.yaml`
+- Bash: `mkdir -p ~/Workspace/organvm-ii-poiesis/krypto-velamen/research`
 - TaskUpdate
 - TaskUpdate
 - TaskUpdate
@@ -86,18 +86,18 @@ Load plan, review critically, execute tasks in batches, report for review betwee
 what's next?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/velvety-cuddling-boot.md`
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/CLAUDE.md`
+- Read `~/.claude/plans/velvety-cuddling-boot.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/CLAUDE.md`
 - Task
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-AI-prompts-for-QV33R.md`
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-Qv33r-Project-Purpose.md`
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-QV33R-Research-Brief-Setup.md`
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-Temporal-Work-and-Struggle.md`
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/research/comparative-report.md`
-- Read `/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen/CATALOG.md`
-- Edit `/Users/4jp/.claude/plans/velvety-cuddling-boot.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-AI-prompts-for-QV33R.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-Qv33r-Project-Purpose.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-QV33R-Research-Brief-Setup.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/QUEER-Temporal-Work-and-Struggle.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/research/comparative-report.md`
+- Read `~/Workspace/organvm-ii-poiesis/krypto-velamen/CATALOG.md`
+- Edit `~/.claude/plans/velvety-cuddling-boot.md`
 - AskUserQuestion
-- Edit `/Users/4jp/.claude/plans/velvety-cuddling-boot.md`
+- Edit `~/.claude/plans/velvety-cuddling-boot.md`
 - ExitPlanMode
 
 ---

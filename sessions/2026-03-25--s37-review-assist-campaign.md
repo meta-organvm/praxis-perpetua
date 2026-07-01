@@ -5,7 +5,7 @@
 **Session ID:** `019d24f2-09ed-7cf2-a838-c98306713e95`
 **Slug:** ``
 **Duration:** ~487 min
-**Working directory:** `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine`
+**Working directory:** `~/Workspace/organvm-i-theoria/conversation-corpus-engine`
 **Branch:** ``
 **Messages:** 286 (25 human, 261 assistant)
 
@@ -22,16 +22,16 @@ organvm session transcript 019d24f2 --unabridged
 organvm session prompts 019d24f2
 ```
 
-**Source JSONL:** `/Users/4jp/.codex/sessions/2026/03/25/rollout-2026-03-25T08-22-15-019d24f2-09ed-7cf2-a838-c98306713e95.jsonl`
+**Source JSONL:** `~/.codex/sessions/2026/03/25/rollout-2026-03-25T08-22-15-019d24f2-09ed-7cf2-a838-c98306713e95.jsonl`
 
 ---
 
 ## Opening Prompt
 
-> # AGENTS.md instructions for /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine
+> # AGENTS.md instructions for ~/Workspace/organvm-i-theoria/conversation-corpus-engine
 
 <INSTRUCTIONS>
-Global policy: /Users/4jp/AGENTS.md applies and cannot be overridden.
+Global policy: ~/AGENTS.md applies and cannot be overridden.
 
 --- project-doc --...
 

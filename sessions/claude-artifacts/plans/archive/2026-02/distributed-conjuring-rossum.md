@@ -15,7 +15,7 @@ Additionally, housekeeping: bump `package.json` to 3.0.0, update `CHANGELOG.md`,
 
 ## Deliverable 1: `there+back-again.md`
 
-**File**: `/Users/4jp/world/realm/create/org/i/repo/trade-perpetual-future/there+back-again.md`
+**File**: `~/world/realm/create/org/i/repo/trade-perpetual-future/there+back-again.md`
 
 Structure:
 - **MACRO I — Alpha Assessment**: Honest accounting of what works, what's scaffold, what's missing
@@ -46,7 +46,7 @@ Content outline:
 
 ## Deliverable 2: README.md Rewrite
 
-**File**: `/Users/4jp/world/realm/create/org/i/repo/trade-perpetual-future/README.md`
+**File**: `~/world/realm/create/org/i/repo/trade-perpetual-future/README.md`
 
 Complete rewrite. Key fixes:
 
@@ -70,17 +70,17 @@ Preserve: Product Overview, Why This Exists, Security Model, Revenue Model, Cros
 ## Deliverable 3: Housekeeping
 
 ### 3a. `package.json` version bump
-**File**: `/Users/4jp/world/realm/create/org/i/repo/trade-perpetual-future/package.json`
+**File**: `~/world/realm/create/org/i/repo/trade-perpetual-future/package.json`
 - Change `"version": "2.0.0"` → `"version": "3.0.0"`
 
 ### 3b. `CHANGELOG.md` update
-**File**: `/Users/4jp/world/realm/create/org/i/repo/trade-perpetual-future/CHANGELOG.md`
+**File**: `~/world/realm/create/org/i/repo/trade-perpetual-future/CHANGELOG.md`
 - Add v3.0.0 entry (test infrastructure, code splitting, Worker API, Claude sentiment, affiliate backend, on-chain gaming architecture, mobile responsiveness, Drift SDK integration hook)
 - Add v2.0.0 entry (Spark prototype merge, 6-tab UI, gaming/social/personalization, sentiment/achievements/affiliate client-side, 7 themes, glassmorphism)
 - Move [Unreleased] platinum note under v3.0.0
 
 ### 3c. Wire `useDriftMarkets` in App.tsx
-**File**: `/Users/4jp/world/realm/create/org/i/repo/trade-perpetual-future/src/App.tsx`
+**File**: `~/world/realm/create/org/i/repo/trade-perpetual-future/src/App.tsx`
 - Import `useDriftMarkets` from `@/hooks/use-drift-markets`
 - Replace `const simMarkets = useLivePrices(DEFAULT_SIM_MARKETS)` with `const { markets: simMarkets } = useDriftMarkets(driftClient)`
 - Remove `useLivePrices` import and `DEFAULT_SIM_MARKETS` constant

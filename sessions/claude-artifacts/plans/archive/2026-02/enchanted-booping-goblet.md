@@ -52,7 +52,7 @@ Add `ssh_signing_key` under `[data]` — user fills in their 1Password SSH publi
 
 **b) Add URL rewriting** (SSH for all GitHub URLs):
 ```
-[url "git@github.com:"]
+[url "[email redacted]:"]
 	insteadOf = https://github.com/
 ```
 
@@ -139,7 +139,7 @@ echo "✅ gh extensions ready"
 
 ## Verification
 1. `chezmoi apply` — apply all changes
-2. `ssh -T git@github.com` — confirm SSH still works
+2. `ssh -T [email redacted]` — confirm SSH still works
 3. `git log --show-signature -1` — verify signing works (after filling in key + making a signed commit)
 4. `gh auth status` — confirm gh CLI is authenticated
 5. `gh extension list` — confirm extensions installed

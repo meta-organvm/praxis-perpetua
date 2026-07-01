@@ -29,15 +29,15 @@ The system has 33 sprints of construction behind it with ~404K words deployed, b
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Bash: `ls -la /Users/4jp/Workspace/organvm-vi-koinonia/`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/ 2>/dev/null && ec`
+- Bash: `ls -la ~/Workspace/organvm-vi-koinonia/`
+- Bash: `ls -la ~/Workspace/organvm-vi-koinonia/salon-archive/ 2>/dev/null && ec`
 - Skill
 
 ---
 
 ### P3 — 2026-02-17 21:33:15
 
-Base directory for this skill: /Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
+Base directory for this skill: ~/.claude/plugins/cache/claude-plugins-official/superpowers/4.3.0/skills/executing-plans
 
 # Executing Plans
 
@@ -63,21 +63,21 @@ Load plan, review critically, execute tasks in batches, report for review betwee
 - Glob `**/*.py`
 - Glob `**/*.py`
 - Glob `**/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/src/transcription.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/src/sessions.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/src/taxonomy.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/src/__main__.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/curriculum.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/guides.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/reading_list.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/src/adaptive_personal_syllabus/core.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/tests/test_sessions.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/tests/test_transcription.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/tests/test_taxonomy.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/seed.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/src/transcription.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/src/sessions.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/src/taxonomy.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/src/__main__.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/pyproject.toml`
+- Read `~/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/curriculum.py`
+- Read `~/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/guides.py`
+- Read `~/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/reading_list.py`
+- Read `~/Workspace/organvm-vi-koinonia/reading-group-curriculum/pyproject.toml`
+- Read `~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/src/adaptive_personal_syllabus/core.py`
+- Read `~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/pyproject.toml`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/tests/test_sessions.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/tests/test_transcription.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/tests/test_taxonomy.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/seed.yaml`
 - *...and 85 more*
 
 ---
@@ -136,24 +136,24 @@ Let me chronologically analyze the conversation:
 **Actions taken:**
 - TaskList
 - TaskUpdate
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/src/__main__.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/__main__.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/src/repository.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/repository.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/seed/taxonomy.json`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/seed/sample_sessions.json`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/seed/curricula.json`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/seed/reading_lists.json`
-- Edit `/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/repository.py`
-- Write `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/scripts/seed_all.py`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db && source .venv/bin/acti`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/src/__main__.py`
+- Read `~/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/__main__.py`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/src/repository.py`
+- Read `~/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/repository.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/seed/taxonomy.json`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/seed/sample_sessions.json`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/seed/curricula.json`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/seed/reading_lists.json`
+- Edit `~/Workspace/organvm-vi-koinonia/reading-group-curriculum/src/repository.py`
+- Write `~/Workspace/organvm-vi-koinonia/koinonia-db/scripts/seed_all.py`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/koinonia-db && source .venv/bin/acti`
 - Bash: `source .venv/bin/activate && DATABASE_URL="postgresql://neondb_owner:npg_TFnOl9L`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/salon-archive && source /Users/4jp/W`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/salon-archive && source /Users/4jp/W`
-- Bash: `source /Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/.venv/bin/activate &`
-- Bash: `source /Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/.venv/bin/activate &`
-- Bash: `cd /Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum && source /`
-- Bash: `source /Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/.venv/bin/activate &`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/salon-archive && source ~/W`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/salon-archive && source ~/W`
+- Bash: `source ~/Workspace/organvm-vi-koinonia/koinonia-db/.venv/bin/activate &`
+- Bash: `source ~/Workspace/organvm-vi-koinonia/koinonia-db/.venv/bin/activate &`
+- Bash: `cd ~/Workspace/organvm-vi-koinonia/reading-group-curriculum && source /`
+- Bash: `source ~/Workspace/organvm-vi-koinonia/koinonia-db/.venv/bin/activate &`
 - *...and 41 more*
 
 ---
@@ -168,7 +168,7 @@ description: Systematic content evaluation framework progressing through Critiqu
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/vast-wandering-sundae.md`
+- Read `~/.claude/plans/vast-wandering-sundae.md`
 - Task
 - Task
 - Task
@@ -177,17 +177,17 @@ description: Systematic content evaluation framework progressing through Critiqu
 - Glob `**/*.py`
 - Glob `**/*.py`
 - Glob `**/*.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/engine.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/base.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/salon.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/reading.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/community.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/app.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/api.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/salons.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/curricula.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/config.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/community.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/engine.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/base.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/salon.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/reading.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/community.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/app.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/api.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/salons.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/curricula.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/config.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/community.py`
 - *...and 23 more*
 
 ---

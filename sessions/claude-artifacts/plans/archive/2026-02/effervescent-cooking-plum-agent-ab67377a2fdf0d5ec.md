@@ -1,7 +1,7 @@
 # Comprehensive Dotfile and Configuration Exploration Plan
 
 ## Objective
-Deeply explore all configuration and dotfile content in `/Users/4jp/domus-semper-palingenesis` with systematic analysis across eight focus areas.
+Deeply explore all configuration and dotfile content in `~/domus-semper-palingenesis` with systematic analysis across eight focus areas.
 
 ## User Requirements Summary
 For each configuration file discovered, analyze:

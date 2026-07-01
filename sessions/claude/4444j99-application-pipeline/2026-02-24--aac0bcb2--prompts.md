@@ -27,24 +27,24 @@ After adding the independent-engineer identity position and re-scoring, the 7 jo
 **Actions taken:**
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/strategy/`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-se-claude-code.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/huggingface-dev-advocate.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/cohere-applied-ai.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/together-ai.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/runway-mts.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-fde.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/openai-se-evals.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/scoring-rubric.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/qualification-assessment.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/identity-positions.md`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/strategy/`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-se-claude-code.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/huggingface-dev-advocate.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/cohere-applied-ai.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/together-ai.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/runway-mts.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-fde.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/openai-se-evals.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/_schema.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/scoring-rubric.md`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/qualification-assessment.md`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/identity-positions.md`
 - Grep `priority|tier`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-se-claude-code.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/huggingface-dev-advocate.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/cohere-applied-ai.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/together-ai.yaml`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/runway-mts.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-se-claude-code.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/huggingface-dev-advocate.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/cohere-applied-ai.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/together-ai.yaml`
+- Edit `~/Workspace/4444J99/application-pipeline/pipeline/active/runway-mts.yaml`
 - *...and 6 more*
 
 ---
@@ -76,13 +76,13 @@ okay let's begin applying to the jobs
 - Glob `targets/profiles/*anthropic*`
 - Glob `scripts/.greenhouse-answers/*anthropic*`
 - Glob `scripts/.submit-config.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/variants/cover-letters/anthropic-se-claude-code.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/.submit-config.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/anthropic-fde.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/variants/cover-letters/anthropic-se-claude-code.md`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/.submit-config.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/anthropic-fde.yaml`
 - Bash: `python scripts/greenhouse_submit.py --target anthropic-se-claude-code 2>&1`
 - Bash: `python scripts/greenhouse_submit.py --init-answers --target anthropic-se-claude-`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/anthropic-se-claude-code.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/anthropic-se-claude-code.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/anthropic-se-claude-code.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/.greenhouse-answers/anthropic-se-claude-code.yaml`
 
 ---
 
@@ -91,7 +91,7 @@ okay let's begin applying to the jobs
 can we make the argument that i created ai-equivalent developers? i mean, to be fair, i generated all of this corpus in a few months? for instance review, this repo: https://github.com/organvm-i-theoria/.github
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/bright-mixing-dusk.md`
+- Read `~/.claude/plans/bright-mixing-dusk.md`
 - ToolSearch
 - Task
 - Task

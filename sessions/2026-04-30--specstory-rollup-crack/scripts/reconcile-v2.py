@@ -17,10 +17,10 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 
-ROLLUP = Path("/Users/4jp/Workspace/SpecStory, Markdown v2.md")
-HISTORY = Path("/Users/4jp/Workspace/.specstory/history")
-MANIFEST = Path("/Users/4jp/Workspace/.specstory/rollup-manifest.tsv")
-REPORT = Path("/Users/4jp/Workspace/.specstory/rollup-vs-substrate.md")
+ROLLUP = Path("~/Workspace/SpecStory, Markdown v2.md")
+HISTORY = Path("~/Workspace/.specstory/history")
+MANIFEST = Path("~/Workspace/.specstory/rollup-manifest.tsv")
+REPORT = Path("~/Workspace/.specstory/rollup-vs-substrate.md")
 
 HEADER_RE = re.compile(r"^# (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}(?:[+-]\d{4}|Z))$")
 # Matches Claude Code / Codex CLI / Gemini CLI / Cursor / Droid session markers.

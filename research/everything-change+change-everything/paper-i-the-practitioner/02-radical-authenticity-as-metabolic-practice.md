@@ -116,7 +116,7 @@ Lowell, Robert. 1946. *Lord Weary's Castle*. New York: Harcourt, Brace.
 
 Lowell, Robert. 1959. *Life Studies*. New York: Farrar, Straus and Cudahy.
 
-Padavano, Anthony James. 2026a. "Radical Authenticity as Creative Practice: The Refusal to Perform, the Insistence on Being Seen." ORGANVM SGO Research Corpus. Unpublished manuscript.
+[name redacted] James. 2026a. "Radical Authenticity as Creative Practice: The Refusal to Perform, the Insistence on Being Seen." ORGANVM SGO Research Corpus. Unpublished manuscript.
 
 Phelan, Peggy. 1993. *Unmarked: The Politics of Performance*. London: Routledge.
 

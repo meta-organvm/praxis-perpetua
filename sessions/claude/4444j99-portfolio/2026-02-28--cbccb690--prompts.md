@@ -22,7 +22,7 @@ Implement the following plan:
 
 ## Context
 
-Full-project review of the Astro 5 portfolio at `/Users/4jp/Workspace/4444J99/portfolio/` using the Evaluation-to-Growth framework. The site is a deployed job-search portfolio for Anthony James Padavano with 20 case studies, persona-driven resumes, a Strike Intelligence Engine for autonomous recruitment, and an Omega maturity scorecard. It's live at `https://4444j99.github.io/portfolio/`.
+Full-project review of the Astro 5 portfolio at `~/Workspace/4444J99/portfolio/` using the Evaluation-to-Growth framework. The site is a deployed job-search portfolio for [name redacted] with 20 case studies, persona-driven resumes, a Strike Intelligence Engine for autonomous recruitment, and an Omega maturity scorecard. It's live at `https://4444j99.github.io/portfolio/`.
 
 The codebase h
 
@@ -40,15 +40,15 @@ The codebase h
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/orchestrate-resume-pdfs.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/personas.json`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/targets.json`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/vitals.json`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/pages/index.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/.github/SECURITY.md`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/sync-trust-metrics.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/packages/sketches/src/index.ts`
+- Read `~/Workspace/4444J99/portfolio/scripts/orchestrate-resume-pdfs.mjs`
+- Read `~/Workspace/4444J99/portfolio/src/data/personas.json`
+- Read `~/Workspace/4444J99/portfolio/src/data/targets.json`
+- Read `~/Workspace/4444J99/portfolio/src/data/vitals.json`
+- Read `~/Workspace/4444J99/portfolio/src/pages/index.astro`
+- Read `~/Workspace/4444J99/portfolio/.github/SECURITY.md`
+- Read `~/Workspace/4444J99/portfolio/scripts/sync-trust-metrics.mjs`
+- Read `~/Workspace/4444J99/portfolio/src/components/home/IndexFilters.astro`
+- Read `~/Workspace/4444J99/portfolio/packages/sketches/src/index.ts`
 - *...and 79 more*
 
 ---
@@ -87,10 +87,10 @@ run the tests to make sure nothing broke
 generate the resume PDFs so that test passes
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/generate-resume-pdfs.mjs`
+- Read `~/Workspace/4444J99/portfolio/scripts/generate-resume-pdfs.mjs`
 - Grep `pdfName`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/personas.json`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/data/personas.json`
+- Read `~/Workspace/4444J99/portfolio/src/data/personas.json`
+- Edit `~/Workspace/4444J99/portfolio/src/data/personas.json`
 - Bash: `npm run build 2>&1 | tail -20`
 - Bash: `node scripts/orchestrate-resume-pdfs.mjs 2>&1`
 - Bash: `npx vitest run -c .config/vitest.config.ts 2>&1 | tail -15`
@@ -120,22 +120,22 @@ run the quality pipeline to make sure everything's good
 
 **Actions taken:**
 - Bash: `npm run quality:local:no-lh 2>&1`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/scripts/check-typecheck-hints.mjs`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/pages/for/[target].astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/data/targets.json`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/pages/for/[target].astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/dashboard/QualityScoreboard.astro`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/types/data.ts`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/dashboard/QualityScoreboard.astro`
+- Read `~/Workspace/4444J99/portfolio/scripts/check-typecheck-hints.mjs`
+- Read `~/Workspace/4444J99/portfolio/src/pages/for/[target].astro`
+- Read `~/Workspace/4444J99/portfolio/src/data/targets.json`
+- Edit `~/Workspace/4444J99/portfolio/src/pages/for/[target].astro`
+- Read `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Read `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Read `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Read `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Read `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Edit `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Read `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Edit `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Read `~/Workspace/4444J99/portfolio/src/components/dashboard/QualityScoreboard.astro`
+- Read `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Edit `~/Workspace/4444J99/portfolio/src/types/data.ts`
+- Read `~/Workspace/4444J99/portfolio/src/components/dashboard/QualityScoreboard.astro`
 - Bash: `npm run typecheck 2>&1 | tail -15`
 - Bash: `node -e "const d = require('./src/data/quality-metrics.json'); console.log(JSON.`
 - Bash: `node -e "const d = require('./src/data/quality-metrics.json'); console.log(JSON.`
@@ -148,12 +148,12 @@ run the quality pipeline to make sure everything's good
 continue
 
 **Actions taken:**
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/.quality/runtime-error-allowlist.json`
+- Edit `~/Workspace/4444J99/portfolio/.quality/runtime-error-allowlist.json`
 - Bash: `npm run quality:local:no-lh 2>&1 | tail -40`
 - Grep `<h3`
 - Grep `<h3`
-- Read `/Users/4jp/Workspace/4444J99/portfolio/src/components/galaxy/OmegaGalaxy.astro`
-- Edit `/Users/4jp/Workspace/4444J99/portfolio/src/components/galaxy/OmegaGalaxy.astro`
+- Read `~/Workspace/4444J99/portfolio/src/components/galaxy/OmegaGalaxy.astro`
+- Edit `~/Workspace/4444J99/portfolio/src/components/galaxy/OmegaGalaxy.astro`
 - Bash: `npm run build 2>&1 | tail -5 && npm run validate 2>&1 | tail -15`
 - Bash: `npm run validate 2>&1 | head -15`
 - Bash: `npm run quality:local:no-lh 2>&1 | grep -E "(PASS|FAIL|passed|failed|gate|OK for`

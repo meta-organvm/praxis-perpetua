@@ -18,12 +18,12 @@ description: Systematic content evaluation framework progressing through Critiqu
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Agent: "Explore the application-pipeline project at /Users/4jp/Works"
-- Agent: "Analyze the scripts/ directory in /Users/4jp/Workspace/4444J"
-- Agent: "Analyze the testing and signals infrastructure in /Users/4jp"
-- Agent: "Analyze the content layer of /Users/4jp/Workspace/4444J99/ap"
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/.claude/plans/ 2>/dev/null `
-- Write `/Users/4jp/Workspace/4444J99/application-pipeline/.claude/plans/2026-03-04-evaluation-to-growth-project-review.md`
+- Agent: "Explore the application-pipeline project at ~/Works"
+- Agent: "Analyze the scripts/ directory in ~/Workspace/4444J"
+- Agent: "Analyze the testing and signals infrastructure in /Users/[user]"
+- Agent: "Analyze the content layer of ~/Workspace/4444J99/ap"
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/.claude/plans/ 2>/dev/null `
+- Write `~/Workspace/4444J99/application-pipeline/.claude/plans/2026-03-04-evaluation-to-growth-project-review.md`
 
 ---
 
@@ -49,9 +49,9 @@ proceed with all suggestions exhaustively
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/pipeline/submitted/ | head `
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/pipeline/closed/ | head -40`
+- Read `~/Workspace/4444J99/application-pipeline/signals/conversion-log.yaml`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/pipeline/submitted/ | head `
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/pipeline/closed/ | head -40`
 - *...and 61 more*
 
 ---
@@ -73,18 +73,18 @@ Let me chronologically analyze the conversation:
 - Bash: `python scripts/verify_all.py 2>&1`
 - Bash: `python -m ruff check scripts/ tests/ 2>&1 | tail -20`
 - Bash: `python -m pytest tests/ -v --tb=short 2>&1 | tail -60`
-- Bash: `source /Users/4jp/Workspace/4444J99/application-pipeline/.venv/bin/activate && r`
-- Bash: `source /Users/4jp/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
-- Bash: `source /Users/4jp/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
+- Bash: `source ~/Workspace/4444J99/application-pipeline/.venv/bin/activate && r`
+- Bash: `source ~/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
+- Bash: `source ~/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
 - TaskList
 - TaskUpdate
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Read `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Read `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Read `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
 
 ---
 
@@ -96,23 +96,23 @@ Let me chronologically analyze the conversation:
 **Actions taken:**
 - Agent: "Very thorough exploration: Find ALL skeleton code, stubs, in"
 - Agent: "Very thorough exploration: Find ALL skeleton tests, stub tes"
-- Agent: "Very thorough exploration of /Users/4jp/Workspace/4444J99/ap"
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_rejection_learner.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_crm.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_quarterly_report.py`
+- Agent: "Very thorough exploration of ~/Workspace/4444J99/ap"
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_rejection_learner.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_crm.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_quarterly_report.py`
 - Agent: "Very thorough: I need to find the REAL untested functions by"
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/rejection_learner.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/crm.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/advance.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/validate_hypotheses.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/standup_work_sections.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_market.py`
-- Agent: "Add missing tests to /Users/4jp/Workspace/4444J99/applicatio"
-- Agent: "Add missing tests to /Users/4jp/Workspace/4444J99/applicatio"
-- Agent: "Add missing tests to two files in /Users/4jp/Workspace/4444J"
-- Agent: "Add missing tests to /Users/4jp/Workspace/4444J99/applicatio"
-- Bash: `source /Users/4jp/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
-- Bash: `source /Users/4jp/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/rejection_learner.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/crm.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/advance.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/validate_hypotheses.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/standup_work_sections.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_market.py`
+- Agent: "Add missing tests to ~/Workspace/4444J99/applicatio"
+- Agent: "Add missing tests to ~/Workspace/4444J99/applicatio"
+- Agent: "Add missing tests to two files in ~/Workspace/4444J"
+- Agent: "Add missing tests to ~/Workspace/4444J99/applicatio"
+- Bash: `source ~/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
+- Bash: `source ~/Workspace/4444J99/application-pipeline/.venv/bin/activate && p`
 
 ---
 
@@ -134,7 +134,7 @@ What to add:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Read `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
 
 ---
 
@@ -143,7 +143,7 @@ What to add:
 yes
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Read `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
 
 ---
 
@@ -159,12 +159,12 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Read `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
+- Edit `~/Workspace/4444J99/application-pipeline/CLAUDE.md`
 
 ---
 
@@ -205,7 +205,7 @@ proceed with all suggestions exhaustively
 - Agent: "Very thorough exploration of the application-pipeline codeba"
 - Agent: "Very thorough exploration of the application-pipeline codeba"
 - Agent: "Design a comprehensive implementation plan for a 5-phase enh"
-- Write `/Users/4jp/.claude/plans/memoized-beaming-wigderson.md`
+- Write `~/.claude/plans/memoized-beaming-wigderson.md`
 - ExitPlanMode
 
 ---

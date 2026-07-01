@@ -25,7 +25,7 @@
 
 ### 1. Create README.md with Hero Section
 
-**File**: `/Users/4jp/Workspace/my-block-warfare/README.md`
+**File**: `~/Workspace/my-block-warfare/README.md`
 
 **Structure**:
 ```markdown
@@ -67,7 +67,7 @@ git commit -m "Add test suite, CI pipeline, Unity scaffold, and project README
 - ESLint flat config for TypeScript
 - Project README with hero section and setup instructions
 
-Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+Co-Authored-By: Claude Opus 4.5 <[email redacted]>"
 
 # Push to remote
 git push origin main

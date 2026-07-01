@@ -23,22 +23,22 @@ fix all three, but also be cautious you continually keep triggering a 400 error:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Agent: "In the repo at /Users/4jp/Workspace/organvm-iii-ergon/peer-a"
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/SECURITY.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CONTRIBUTING.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
+- Agent: "In the repo at ~/Workspace/organvm-iii-ergon/peer-a"
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/SECURITY.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CONTRIBUTING.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
 - Glob `*.md`
 - Glob `.github/**/*`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SECURITY.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/ISSUE_TEMPLATE/bug_report.yml`
-- Read `/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SUPPORT.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SECURITY.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/CONTRIBUTING.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/CHANGELOG.md`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/package.json`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/ISSUE_TEMPLATE/bug_report.yml`
+- Read `~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/.github/SUPPORT.md`
 - Bash: `git remote -v 2>/dev/null | head -2`
-- Write `/Users/4jp/.claude/plans/bubbly-spinning-snail.md`
+- Write `~/.claude/plans/bubbly-spinning-snail.md`
 - AskUserQuestion
-- Edit `/Users/4jp/.claude/plans/bubbly-spinning-snail.md`
+- Edit `~/.claude/plans/bubbly-spinning-snail.md`
 - ExitPlanMode
 
 ---

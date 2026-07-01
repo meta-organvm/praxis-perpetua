@@ -25,24 +25,24 @@ IGNIS PERPETUUS is code-complete but uncommitted. 242 tests pass. 16 templates, 
 **Actions taken:**
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/tests/test_pipeline_integration.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/posse.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/mastodon.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/discord.py`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/.github/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/.github/scripts/update-status-badge.py`
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/.github/docs/cross-organ-workflows/ `
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/.github/scripts/ 2>/dev/null || echo`
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/.github/docs/ 2>/dev/null || echo "D`
-- Bash: `ls /Users/4jp/Workspace/organvm-v-logos/public-process/.github/workflows/ 2>/dev`
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/tests/ 2>/dev/null `
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/.github/scripts/validate-live-config`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/.github/docs/cross-organ-workflows/notify-essay-published.yml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/.github/docs/cross-organ-workflows/notify-feature-released.yml`
-- Read `/Users/4jp/Workspace/organvm-vii-kerygma/.github/scripts/validate-live-config.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/.github/workflows/notify-essay-published.yml`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/kerygma_pipeline.py`
+- Read `~/Workspace/organvm-vii-kerygma/kerygma-pipeline/tests/test_pipeline_integration.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/posse.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/mastodon.py`
+- Read `~/Workspace/organvm-vii-kerygma/social-automation/kerygma_social/discord.py`
+- Read `~/Workspace/organvm-vii-kerygma/.github/.github/workflows/dispatch-receiver.yml`
+- Read `~/Workspace/organvm-vii-kerygma/.github/seed.yaml`
+- Read `~/Workspace/organvm-vii-kerygma/.github/scripts/update-status-badge.py`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/.github/docs/cross-organ-workflows/ `
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/.github/scripts/ 2>/dev/null || echo`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/.github/docs/ 2>/dev/null || echo "D`
+- Bash: `ls ~/Workspace/organvm-v-logos/public-process/.github/workflows/ 2>/dev`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/kerygma-pipeline/tests/ 2>/dev/null `
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/.github/scripts/validate-live-config`
+- Read `~/Workspace/organvm-vii-kerygma/.github/docs/cross-organ-workflows/notify-essay-published.yml`
+- Read `~/Workspace/organvm-vii-kerygma/.github/docs/cross-organ-workflows/notify-feature-released.yml`
+- Read `~/Workspace/organvm-vii-kerygma/.github/scripts/validate-live-config.py`
+- Read `~/Workspace/organvm-v-logos/public-process/.github/workflows/notify-essay-published.yml`
 - *...and 45 more*
 
 ---
@@ -67,25 +67,25 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/lucky-snuggling-mango.md`
+- Read `~/.claude/plans/lucky-snuggling-mango.md`
 - Task
 - Task
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates/templates/`
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strate`
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/.github/organvm-theme/`
-- Bash: `ls /Users/4jp/Workspace/organvm-v-logos/public-process/_posts/ 2>/dev/null | wc `
-- Bash: `ls /Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json `
-- Bash: `ls /Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates/templates/com`
-- Bash: `cat /Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
-- Bash: `cat /Users/4jp/Workspace/organvm-v-logos/public-process/_config.yml 2>/dev/null `
-- Bash: `ls /Users/4jp/Workspace/organvm-v-logos/public-process/feed.xml 2>/dev/null || l`
-- Bash: `cat /Users/4jp/Workspace/organvm-v-logos/public-process/_config.yml 2>/dev/null `
-- Bash: `ls /Users/4jp/Workspace/organvm-v-logos/public-process/.github/workflows/`
-- Bash: `ls /Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper/.github/wo`
-- Bash: `ls /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/announcement-templates/templates/`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/.github/.github/workflows/`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/distribution-strategy/kerygma_strate`
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/.github/organvm-theme/`
+- Bash: `ls ~/Workspace/organvm-v-logos/public-process/_posts/ 2>/dev/null | wc `
+- Bash: `ls ~/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json `
+- Bash: `ls ~/Workspace/organvm-vii-kerygma/announcement-templates/templates/com`
+- Bash: `cat ~/Workspace/organvm-iv-taxis/orchestration-start-here/registry.json`
+- Bash: `cat ~/Workspace/organvm-v-logos/public-process/_config.yml 2>/dev/null `
+- Bash: `ls ~/Workspace/organvm-v-logos/public-process/feed.xml 2>/dev/null || l`
+- Bash: `cat ~/Workspace/organvm-v-logos/public-process/_config.yml 2>/dev/null `
+- Bash: `ls ~/Workspace/organvm-v-logos/public-process/.github/workflows/`
+- Bash: `ls ~/Workspace/organvm-iii-ergon/public-record-data-scrapper/.github/wo`
+- Bash: `ls ~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
 - Grep `TODO|FIXME|HACK|XXX|PLACEHOLDER`
 - *...and 32 more*
 

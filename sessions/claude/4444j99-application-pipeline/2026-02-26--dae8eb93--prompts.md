@@ -21,14 +21,14 @@ The job sourcing pipeline is useless for finding high-opportunity roles. `source
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/source_jobs.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/source_jobs.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
 - Bash: `python -m pytest tests/ -v 2>&1 | tail -40`
 - Bash: `source .venv/bin/activate && python -m pytest tests/ -v 2>&1 | tail -60`
 - Bash: `source .venv/bin/activate && python scripts/score.py --all --dry-run 2>&1 | head`
@@ -37,10 +37,10 @@ The job sourcing pipeline is useless for finding high-opportunity roles. `source
 import yaml
 from pathlib import Path
 fo`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
 - Bash: `source .venv/bin/activate && python scripts/score.py --target anthropic-software`
 - Bash: `source .venv/bin/activate && python scripts/score.py --target anthropic-software`
-- Edit `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Edit `~/Workspace/4444J99/application-pipeline/scripts/score.py`
 - Bash: `source .venv/bin/activate && echo "=== TIER-1 (Agent SDK) ===" && python scripts`
 - Bash: `source .venv/bin/activate && python scripts/score.py --all --dry-run 2>&1`
 - Bash: `source .venv/bin/activate && python -m pytest tests/ -v 2>&1 | tail -10`
@@ -59,10 +59,10 @@ i dont understand how a 6.9 is STRONG though; explain that to me
 WE NEED TWO SEPARATE RUBRICS! ONCE AGAIN, ISNT THAT FUCKING OBVIOUS!? or am i being pedantic? you tell me, bc i NEED to move the needle, and I need to move it very very badly;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/zany-percolating-riddle.md`
+- Read `~/.claude/plans/zany-percolating-riddle.md`
 - Task
 - Task
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/scoring-rubric.md`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/scoring-rubric.md`
 - Grep `fit\.score|fit\.dimensions|QUALIFICATION_THRESHOLD|qualify|WEIGHTS|composite|dimension`
 - Grep `mission_alignment|evidence_match|track_record_fit|financial_alignment|effort_to_value|strategic_value|deadline_feasibility|portal_friction`
 - Bash: `source .venv/bin/activate && python -c "
@@ -75,17 +75,17 @@ import yaml
 from pathlib import Path
 
 #`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-se-claude-code.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-fde.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-se-claude-code.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/active/anthropic-fde.yaml`
 - Glob `pipeline/**/anthropic-se-claude-code.yaml`
 - Glob `pipeline/**/anthropic-fde.yaml`
 - Bash: `find pipeline -name 'anthropic-se-claude-code*' -o -name 'anthropic-fde*' 2>/dev`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/pipeline/submitted/anthropic-se-claude-code.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/campaign.py`
+- Read `~/Workspace/4444J99/application-pipeline/pipeline/submitted/anthropic-se-claude-code.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/campaign.py`
 - Grep `QUALIFICATION_THRESHOLD|fit.*score|\.score`
 - Bash: `grep -n 'QUALIFICATION_THRESHOLD\|fit.*score\|\.score\|qualify' scripts/campaign`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/campaign.py`
-- Write `/Users/4jp/.claude/plans/zany-percolating-riddle.md`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/campaign.py`
+- Write `~/.claude/plans/zany-percolating-riddle.md`
 - ToolSearch
 - *...and 1 more*
 

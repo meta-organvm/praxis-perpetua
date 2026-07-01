@@ -28,7 +28,7 @@ No configuration needed for MCP Toolbox for Databases.
 
 ### P2 — 2025-11-25 23:08:37
 
-source /Users/4jp/.zshrc
+source ~/.zshrc
 
 ---
 

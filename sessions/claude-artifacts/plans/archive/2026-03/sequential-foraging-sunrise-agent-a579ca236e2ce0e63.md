@@ -1,7 +1,7 @@
 # Chezmoi Dotfiles Repository Exploration Plan
 
 ## Objective
-Systematically explore the chezmoi dotfiles repository at `/Users/4jp/domus-semper-palingenesis/` to understand its sync state, template structure, and identify any management gaps.
+Systematically explore the chezmoi dotfiles repository at `~/domus-semper-palingenesis/` to understand its sync state, template structure, and identify any management gaps.
 
 ## User's Original Checklist (5 Points)
 1. Read the CLAUDE.md.tmpl template file
@@ -13,12 +13,12 @@ Systematically explore the chezmoi dotfiles repository at `/Users/4jp/domus-semp
 ## Execution Plan
 
 ### Phase 1: Directory Structure Exploration
-- Use Bash `ls -la` on root directory: `/Users/4jp/domus-semper-palingenesis/`
+- Use Bash `ls -la` on root directory: `~/domus-semper-palingenesis/`
 - Identify key subdirectories (especially `private_dot_*` directories where chezmoi templates live)
 - Look for `.chezmoiignore`, `chezmoi.toml`, and scripts directory
 
 ### Phase 2: Template File Analysis
-- Read: `/Users/4jp/domus-semper-palingenesis/private_dot_claude/CLAUDE.md.tmpl`
+- Read: `~/domus-semper-palingenesis/private_dot_claude/CLAUDE.md.tmpl`
 - List all `.tmpl` files in the `private_dot_claude/` directory using Glob
 - Examine template patterns and variable substitution logic
 

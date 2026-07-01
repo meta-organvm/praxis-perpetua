@@ -1,7 +1,7 @@
 # Domus-Semper-Palingenesis Exploration Plan
 
 ## Objective
-Comprehensively explore and document all scripts, automation, and executable code in `/Users/4jp/domus-semper-palingenesis`.
+Comprehensively explore and document all scripts, automation, and executable code in `~/domus-semper-palingenesis`.
 
 ## Scope & Focus Areas
 

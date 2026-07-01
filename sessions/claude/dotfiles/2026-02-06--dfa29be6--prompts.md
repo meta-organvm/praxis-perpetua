@@ -43,18 +43,18 @@ Deployed as `~/.zshenv` — the ONLY zsh file in `$
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/dotfiles/dot_zshrc`
-- Read `/Users/4jp/dotfiles/dot_zprofile`
-- Read `/Users/4jp/dotfiles/dot_config/zsh/15-env.zsh`
-- Read `/Users/4jp/dotfiles/dot_config/zsh/10-path.zsh`
-- Read `/Users/4jp/dotfiles/dot_config/zsh/30-aliases.zsh`
-- Read `/Users/4jp/dotfiles/dot_config/zsh/50-completions.zsh`
-- Read `/Users/4jp/dotfiles/dot_config/fish/config.fish.tmpl`
-- Read `/Users/4jp/dotfiles/dot_curlrc`
-- Read `/Users/4jp/dotfiles/dot_inputrc`
-- Read `/Users/4jp/dotfiles/dot_lesskey`
-- Read `/Users/4jp/dotfiles/dot_npmrc`
-- Read `/Users/4jp/dotfiles/.chezmoiscripts/run_once_after_setup-directories.sh.tmpl`
+- Read `~/dotfiles/dot_zshrc`
+- Read `~/dotfiles/dot_zprofile`
+- Read `~/dotfiles/dot_config/zsh/15-env.zsh`
+- Read `~/dotfiles/dot_config/zsh/10-path.zsh`
+- Read `~/dotfiles/dot_config/zsh/30-aliases.zsh`
+- Read `~/dotfiles/dot_config/zsh/50-completions.zsh`
+- Read `~/dotfiles/dot_config/fish/config.fish.tmpl`
+- Read `~/dotfiles/dot_curlrc`
+- Read `~/dotfiles/dot_inputrc`
+- Read `~/dotfiles/dot_lesskey`
+- Read `~/dotfiles/dot_npmrc`
+- Read `~/dotfiles/.chezmoiscripts/run_once_after_setup-directories.sh.tmpl`
 - Glob `.chezmoiscripts/*`
 - Glob `.chezmoiremove`
 - *...and 34 more*
@@ -144,7 +144,7 @@ Dotfiles on  master ☸ kind-prd
 
 ~ via  v25.6.0 ☸ kind-prd 
 ❯ echo "ZDOTDIR=$ZDOTDIR HISTFILE=$HISTFILE GOPATH=$GOPATH"                00:22
-ZDOTDIR=/Users/4jp/.config/zsh HISTFILE=/Users/4jp/.config/zsh/.zsh_sessions/CA77000F-9758-4C6C-9F4A-C
+ZDOTDIR=~/.config/zsh HISTFILE=~/.config/zsh/.zsh_sessions/CA77000F-9758-4C6C-9F4A-C
 
 *[truncated — full text in JSONL]*
 
@@ -152,19 +152,19 @@ ZDOTDIR=/Users/4jp/.config/zsh HISTFILE=/Users/4jp/.config/zsh/.zsh_sessions/CA7
 - Task
 - Task
 - Task
-- Read `/Users/4jp/dotfiles/dot_zshenv`
-- Read `/Users/4jp/dotfiles/.chezmoiscripts/run_onchange_after_sync-skills.sh.tmpl`
-- Read `/Users/4jp/dotfiles/private_Library/private_Application Support/private_Claude/claude_desktop_config.json.tmpl`
+- Read `~/dotfiles/dot_zshenv`
+- Read `~/dotfiles/.chezmoiscripts/run_onchange_after_sync-skills.sh.tmpl`
+- Read `~/dotfiles/private_Library/private_Application Support/private_Claude/claude_desktop_config.json.tmpl`
 - Glob `.chezmoiscripts/*link-skills*`
-- Read `/Users/4jp/Library/Application Support/Claude/claude_desktop_config.json`
-- Bash: `ls -la /Users/4jp/.config/zsh/.zsh_sessions/ 2>/dev/null || echo "No .zsh_sessio`
-- Read `/Users/4jp/dotfiles/.chezmoiscripts/run_after_link-skills.sh.tmpl`
+- Read `~/Library/Application Support/Claude/claude_desktop_config.json`
+- Bash: `ls -la ~/.config/zsh/.zsh_sessions/ 2>/dev/null || echo "No .zsh_sessio`
+- Read `~/dotfiles/.chezmoiscripts/run_after_link-skills.sh.tmpl`
 - Glob `dot_config/ai-skills/**`
-- Bash: `ls -la /Users/4jp/Workspace/a-i--skills/ 2>/dev/null | head -5`
-- Read `/Users/4jp/.claude/plans/snazzy-brewing-lake.md`
-- Write `/Users/4jp/.claude/plans/snazzy-brewing-lake.md`
+- Bash: `ls -la ~/Workspace/a-i--skills/ 2>/dev/null | head -5`
+- Read `~/.claude/plans/snazzy-brewing-lake.md`
+- Write `~/.claude/plans/snazzy-brewing-lake.md`
 - AskUserQuestion
-- Edit `/Users/4jp/.claude/plans/snazzy-brewing-lake.md`
+- Edit `~/.claude/plans/snazzy-brewing-lake.md`
 - ExitPlanMode
 
 ---

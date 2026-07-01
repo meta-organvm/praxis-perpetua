@@ -1,7 +1,7 @@
 # Rollup ↔ Substrate Reconciliation Report (v2 — UUID-based)
 
-- **Manifest:** `/Users/4jp/Workspace/.specstory/rollup-manifest.tsv`
-- **Substrate root:** `/Users/4jp/Workspace/.specstory/history`
+- **Manifest:** `~/Workspace/.specstory/rollup-manifest.tsv`
+- **Substrate root:** `~/Workspace/.specstory/history`
 
 ## Counts
 
@@ -75,7 +75,7 @@ These rollup sessions have no recognizable session marker. Cannot be UUID-matche
 | idx | timestamp | agent | line range | substrate file(s) |
 |---|---|---|---|---|
 | 80 | 2026-02-18 11:43:16-0500 | Codex CLI | 597565-598900 | `2026-02-18_11-43-16-0500-generate-a-file-named.md`, `2026-02-18_16-43-16Z-generate-a-file-named.md` |
-| 81 | 2026-03-31 04:05:46-0400 | Codex CLI | 598901-607273 | `2026-03-31_04-05-46-0400-users-4jp-workspace-organvm.md`, `2026-03-31_08-05-46Z-users-4jp-workspace-organvm.md` |
+| 81 | 2026-03-31 04:05:46-0400 | Codex CLI | 598901-607273 | `2026-03-31_04-05-46-0400-users-[user]-workspace-organvm.md`, `2026-03-31_08-05-46Z-users-[user]-workspace-organvm.md` |
 | 82 | 2026-04-01 19:18:22-0400 | Codex CLI | 607274-615900 | `2026-04-01_19-18-22-0400-investigation-complete-i-have.md`, `2026-04-01_23-18-22Z-investigation-complete-i-have.md` |
 | 83 | 2026-04-02 11:08:21-0400 | Codex CLI | 615901-624454 | `2026-04-02_11-08-21-0400-other-session-hash-handoff.md`, `2026-04-02_15-08-21Z-other-session-hash-handoff.md` |
 | 84 | 2026-04-02 12:56:38-0400 | Codex CLI | 624455-626557 | `2026-04-02_12-56-38-0400-data-referenced-scheduled-review.md`, `2026-04-02_16-56-38Z-data-referenced-scheduled-review.md` |

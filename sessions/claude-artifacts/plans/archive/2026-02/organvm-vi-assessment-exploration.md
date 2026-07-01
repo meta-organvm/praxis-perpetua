@@ -9,9 +9,9 @@ Comprehensively assess ORGAN-VI (organvm-vi-koinonia) state and identify the mos
 **Objective**: Understand the state machine progression from CANDIDATE → PUBLIC_PROCESS → GRADUATED
 
 **Files to examine**:
-- `/Users/4jp/Workspace/meta-organvm/governance-rules.json` - promotion criteria rules
-- `/Users/4jp/Workspace/meta-organvm/validate-deps.py` - validation/dependency checking logic
-- `/Users/4jp/Workspace/meta-organvm/` - omega criteria definitions
+- `~/Workspace/meta-organvm/governance-rules.json` - promotion criteria rules
+- `~/Workspace/meta-organvm/validate-deps.py` - validation/dependency checking logic
+- `~/Workspace/meta-organvm/` - omega criteria definitions
 - `registry-v2.json` - promotion status tracking
 
 **Key questions**:
@@ -23,8 +23,8 @@ Comprehensively assess ORGAN-VI (organvm-vi-koinonia) state and identify the mos
 **Objective**: Determine why this repo is LOCAL status when others are CANDIDATE
 
 **Files to examine**:
-- `/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/seed.yaml` - status declaration
-- `/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/` - repo structure and implementation completeness
+- `~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/seed.yaml` - status declaration
+- `~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/` - repo structure and implementation completeness
 - Comparison with other 4 repos that achieved CANDIDATE
 
 **Key questions**:

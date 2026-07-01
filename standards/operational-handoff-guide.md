@@ -17,7 +17,7 @@
 
 ```bash
 # 1. Clone the superproject
-git clone --recurse-submodules git@github.com:meta-organvm/meta-organvm--superproject.git ~/Workspace/meta-organvm
+git clone --recurse-submodules [email redacted]:meta-organvm/meta-organvm--superproject.git ~/Workspace/meta-organvm
 cd ~/Workspace/meta-organvm
 
 # 2. Create and activate venv

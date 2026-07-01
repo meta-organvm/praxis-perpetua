@@ -40,14 +40,14 @@ last session errored-out:
 - Bash: `git log --oneline -10`
 - Bash: `git status --short | head -80`
 - Bash: `git log --oneline -10 2>&1; echo "---"; git status --short 2>&1 | grep -v '^\?\?`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/`
-- Bash: `git -C /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/ s`
-- Bash: `git -C /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/ r`
-- Bash: `git -C /Users/4jp diff --cached --stat -- Workspace/organvm-pactvm/ingesting-org`
-- Bash: `git -C /Users/4jp diff --stat -- Workspace/organvm-pactvm/ingesting-organ-docume`
-- Bash: `git -C /Users/4jp log --oneline -5 2>&1`
-- Bash: `find /Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/ -ty`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/DIRECTORY.md`
+- Bash: `ls -la ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/`
+- Bash: `git -C ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/ s`
+- Bash: `git -C ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/ r`
+- Bash: `git -C /Users/[user] diff --cached --stat -- Workspace/organvm-pactvm/ingesting-org`
+- Bash: `git -C /Users/[user] diff --stat -- Workspace/organvm-pactvm/ingesting-organ-docume`
+- Bash: `git -C /Users/[user] log --oneline -5 2>&1`
+- Bash: `find ~/Workspace/organvm-pactvm/ingesting-organ-document-structure/ -ty`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/DIRECTORY.md`
 - Task
 - TaskList
 - TaskCreate
@@ -82,22 +82,22 @@ description: Systematic content evaluation framework progressing through Critiqu
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/09-corpus-coherence-review.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/specs/bronze-sprint/spec.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/06-evaluation-to-growth-analysis.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/07-cross-ai-logic-check-results.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/memory/constitution.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/roadmap-there-and-back-again.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-package-v2.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/orchestration-system-v2.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/parallel-launch-strategy.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/06-evaluation-to-growth-analysis.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/09-corpus-coherence-review.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/specs/bronze-sprint/spec.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/06-evaluation-to-growth-analysis.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/07-cross-ai-logic-check-results.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/memory/constitution.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/roadmap-there-and-back-again.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/implementation-package-v2.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/implementation/orchestration-system-v2.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/parallel-launch-strategy.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/06-evaluation-to-growth-analysis.md`
 - Grep `dependencies|promotion_status|last_validated|"tier"`
 - Grep `"total_repos"`
 - Grep `"completion".*"100%"|"launch_status".*"OPERATIONAL"`
-- Write `/Users/4jp/.claude/plans/concurrent-dreaming-clover.md`
+- Write `~/.claude/plans/concurrent-dreaming-clover.md`
 - *...and 1 more*
 
 ---

@@ -5,7 +5,7 @@ Create a literary library chamber for ETCETER4 website featuring poetry, prose, 
 
 ## Files to Create
 
-### 1. /Users/4jp/Workspace/a-mavs-olevm/bibliotheke/index.html
+### 1. ~/Workspace/a-mavs-olevm/bibliotheke/index.html
 - Responsive HTML5 page with navigation to subsections
 - Color scheme: Brown (#8B4513) primary, cream (#F5F5DC) secondary
 - Include back link to main site
@@ -16,7 +16,7 @@ Create a literary library chamber for ETCETER4 website featuring poetry, prose, 
   - Content cards for each section
   - Footer with return to main site
 
-### 2. /Users/4jp/Workspace/a-mavs-olevm/bibliotheke/config.js
+### 2. ~/Workspace/a-mavs-olevm/bibliotheke/config.js
 - JavaScript configuration file with content metadata
 - Four sections: poetry, prose, lyrics, reviews
 - Each section has:
@@ -26,7 +26,7 @@ Create a literary library chamber for ETCETER4 website featuring poetry, prose, 
   - items array (individual pieces with title, author/artist, date, content preview)
 - Structured as object exported for use in HTML
 
-### 3. /Users/4jp/Workspace/a-mavs-olevm/bibliotheke/css/bibliotheke.css
+### 3. ~/Workspace/a-mavs-olevm/bibliotheke/css/bibliotheke.css
 - Brown (#8B4513) and cream (#F5F5DC) color scheme
 - Typography: Futura for headings (matches site), Bodoni for body text
 - Responsive grid layout for section cards

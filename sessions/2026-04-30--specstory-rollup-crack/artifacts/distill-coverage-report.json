@@ -1,4 +1,4 @@
-Loaded 957 prompts from /Users/4jp/Workspace/.specstory/specstory-prompts-distill-input.json
+Loaded 957 prompts from ~/Workspace/.specstory/specstory-prompts-distill-input.json
 
 Pattern matches (14 patterns hit):
   GitHub Issue / Blocker Triage                 122 prompts
@@ -46,7 +46,7 @@ Uncovered patterns:
       "sample_prompts": [
         "check all quality, completeness, correctness::::::::::::  Finalizing Maddie Trailing Catalog.md Untitled-1.md Compiling Disparate Person-Tied Trails.md # Plan to compile disparate hangings/ re.ini Pot...",
         "check all quality, completeness, correctness::::::::::::  Finalizing Maddie Trailing Catalog.md Untitled-1.md Compiling Disparate Person-Tied Trails.md # Plan to compile disparate hangings/ re.ini Pot...",
-        "Base directory for this skill: /Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.6/skills/brainstorming  # Brainstorming Ideas Into Designs  Help turn ideas into fully formed de..."
+        "Base directory for this skill: ~/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.6/skills/brainstorming  # Brainstorming Ideas Into Designs  Help turn ideas into fully formed de..."
       ],
       "sop_name_hint": "project-scaffolding"
     },
@@ -127,7 +127,7 @@ Uncovered patterns:
       "sample_prompts": [
         "below is your workload assignment:::::::::::::                                                                               \u23fa \u2605 Insight \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500...",
         "below is your workload assignment:::::::::::::                                                                               \u23fa \u2605 Insight \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500...",
-        "<task-notification> <task-id>a4340ab4d1996bc11</task-id> <tool-use-id>toolu_01EU1FmStaXNVa8NzYza8Aww</tool-use-id> <output-file>/private/tmp/claude-501/-Users-4jp-Workspace/35f5e88f-9ca4-41d3-9ee4-022..."
+        "<task-notification> <task-id>a4340ab4d1996bc11</task-id> <tool-use-id>toolu_01EU1FmStaXNVa8NzYza8Aww</tool-use-id> <output-file>/private/tmp/claude-501/-Users-[user]-Workspace/35f5e88f-9ca4-41d3-9ee4-022..."
       ],
       "sop_name_hint": "project-manifest-and-bibliography"
     },
@@ -201,7 +201,7 @@ Uncovered patterns:
       "sample_prompts": [
         "<command-name>/export</command-name>             <command-message>export</command-message>             <command-args></command-args>  _**User (2026-04-29 19:40:36-0400)**_  <local-command-stdout>Conve...",
         "your on this: 4. organvm-i-theoria/.github#406 \u2014 PR review (37 bot     comments)                                                                                               Context: PR \"docs: add lo...",
-        "<task-notification> <task-id>a73307429dc441818</task-id> <tool-use-id>toolu_013xgSYR4JuH3RDQ3hkcusaX</tool-use-id> <output-file>/private/tmp/claude-501/-Users-4jp-Workspace/35f5e88f-9ca4-41d3-9ee4-022..."
+        "<task-notification> <task-id>a73307429dc441818</task-id> <tool-use-id>toolu_013xgSYR4JuH3RDQ3hkcusaX</tool-use-id> <output-file>/private/tmp/claude-501/-Users-[user]-Workspace/35f5e88f-9ca4-41d3-9ee4-022..."
       ],
       "sop_name_hint": "readme-and-documentation"
     },
@@ -213,7 +213,7 @@ Uncovered patterns:
       "matching_sops": [],
       "prompt_count": 3,
       "sample_prompts": [
-        "Base directory for this skill: /Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.6/skills/writing-plans  # Writing Plans  ## Overview  Write comprehensive implementation plans a...",
+        "Base directory for this skill: ~/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.6/skills/writing-plans  # Writing Plans  ## Overview  Write comprehensive implementation plans a...",
         "<command-name>/effort</command-name>             <command-message>effort</command-message>             <command-args></command-args>  _**User (2026-04-20 10:42:23-0400)**_  <local-command-stdout>Curre...",
         "<command-name>/effort</command-name>             <command-message>effort</command-message>             <command-args></command-args>  _**User (2026-04-20 14:42:23Z)**_  <local-command-stdout>Current e..."
       ],

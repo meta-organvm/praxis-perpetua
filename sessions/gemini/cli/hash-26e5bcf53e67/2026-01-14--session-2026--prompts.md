@@ -13,7 +13,7 @@
 
 ## 📋 GEMINI-5 Prompt (Security & Documentation)
 
-  **Plan File Path**: `/Users/4jp/.claude/plans/kind-exploring-map.md`
+  **Plan File Path**: `~/.claude/plans/kind-exploring-map.md`
   **Search for**: `# GEMINI INSTANCE 5: Security & Documentation`
 
   GEMINI INSTANCE 5: Security & Documentation
@@ -32,7 +32,7 @@
 
 ## 📋 GEMINI-5 Prompt (Security & Documentation)
 
-  **Plan File Path**: `/Users/4jp/.claude/plans/kind-exploring-map.md`
+  **Plan File Path**: `~/.claude/plans/kind-exploring-map.md`
   **Search for**: `# GEMINI INSTANCE 5: Security & Documentation`
 
   GEMINI INSTANCE 5: Security & Documentation

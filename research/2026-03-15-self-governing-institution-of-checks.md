@@ -5,7 +5,7 @@ status: reference-activated
 
 **Document D** — The grading facility as its own institutional subject
 **Date:** 2026-03-15
-**Author:** Anthony James Padavano
+**Author:** [name redacted]
 **Cross-references:** Document A (statistical method), Document B (organism context), Document C (thesis integration)
 
 ---

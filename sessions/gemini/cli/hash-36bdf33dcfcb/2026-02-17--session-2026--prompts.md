@@ -156,7 +156,7 @@ it isnt working
 
 ### P24 — 2026-02-18 00:15:16
 
-@/Users/4jp/Desktop/Screenshots/Screenshot 2026-02-17 at 7.14.37 PM.png
+@~/Desktop/Screenshots/Screenshot 2026-02-17 at 7.14.37 PM.png
 
 ---
 
@@ -219,8 +219,8 @@ proceed with vector w, x, and y;
 
 ### P32 — 2026-02-18 02:48:52
 
-we need to incorporate the following repos: [1] /Users/4jp/Workspace/organvm-i-theoria/narratological-algorithmic-lenses; [2]
-/Users/4jp/Workspace/organvm-i-theoria/linguistic-atomization-framework;
+we need to incorporate the following repos: [1] ~/Workspace/organvm-i-theoria/narratological-algorithmic-lenses; [2]
+~/Workspace/organvm-i-theoria/linguistic-atomization-framework;
 
 ---
 

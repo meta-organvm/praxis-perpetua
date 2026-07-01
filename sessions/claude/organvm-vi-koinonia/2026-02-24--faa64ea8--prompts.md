@@ -24,23 +24,23 @@ ORGAN-VI has **substantial implementation depth** across 5 repos — 4 PostgreSQ
 - Task
 - Task
 - Task
-- Bash: `ls /Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/alembic/versions/`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/seed.yaml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/alembic/versions/002_fulltext_search.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/alembic/versions/002_add_search_vectors.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/app.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/base.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/seed/load_seed.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/api.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/feeds.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/search.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/Dockerfile`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/render.yaml`
+- Bash: `ls ~/Workspace/organvm-vi-koinonia/koinonia-db/alembic/versions/`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/pyproject.toml`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/seed.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/pyproject.toml`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/seed.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/alembic/versions/002_fulltext_search.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/alembic/versions/002_add_search_vectors.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/app.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/models/base.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/seed/load_seed.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/api.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/feeds.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/search.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/Dockerfile`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/render.yaml`
 - Glob `koinonia-db/src/koinonia_db/models/*.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive/seed.yaml`
+- Read `~/Workspace/organvm-vi-koinonia/salon-archive/seed.yaml`
 - *...and 72 more*
 
 ---
@@ -51,26 +51,26 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/playful-exploring-pearl.md`
-- Read `/Users/4jp/.claude/projects/-Users-4jp-Workspace-organvm-vi-koinonia/memory/MEMORY.md`
+- Read `~/.claude/plans/playful-exploring-pearl.md`
+- Read `~/.claude/projects/-Users-[user]-Workspace-organvm-vi-koinonia/memory/MEMORY.md`
 - Task
 - Task
 - Task
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/community.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/live.py`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/syllabus_service.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/community.py`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/routes/live.py`
+- Read `~/Workspace/organvm-vi-koinonia/koinonia-db/src/koinonia_db/syllabus_service.py`
 - Glob `.github/**/*`
 - Glob `**/.github/workflows/*.yml`
-- Bash: `ls -la /Users/4jp/Workspace/organvm-vi-koinonia/.github/ 2>/dev/null && echo "--`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/.github/workflows/community-to-kerygma.yml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/.github/workflows/essay-to-community.yml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/.github/workflows/dispatch-receiver.yml`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/.github/profile/README.md`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/.github/workflows/ci.yml`
+- Bash: `ls -la ~/Workspace/organvm-vi-koinonia/.github/ 2>/dev/null && echo "--`
+- Read `~/Workspace/organvm-vi-koinonia/.github/.github/workflows/community-to-kerygma.yml`
+- Read `~/Workspace/organvm-vi-koinonia/.github/.github/workflows/essay-to-community.yml`
+- Read `~/Workspace/organvm-vi-koinonia/.github/.github/workflows/dispatch-receiver.yml`
+- Read `~/Workspace/organvm-vi-koinonia/.github/profile/README.md`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/.github/workflows/ci.yml`
 - Grep `TODO|FIXME|HACK|XXX|DEPRECATED|stub|placeholder`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/community-hub/README.md`
-- Read `/Users/4jp/Workspace/organvm-vi-koinonia/README-superproject.md`
-- Bash: `ls -R /Users/4jp/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/t`
+- Read `~/Workspace/organvm-vi-koinonia/community-hub/README.md`
+- Read `~/Workspace/organvm-vi-koinonia/README-superproject.md`
+- Bash: `ls -R ~/Workspace/organvm-vi-koinonia/community-hub/src/community_hub/t`
 - *...and 10 more*
 
 ---

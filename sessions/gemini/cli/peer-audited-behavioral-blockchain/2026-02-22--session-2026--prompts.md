@@ -171,7 +171,7 @@ how about creativity?
 
 ### P23 — 2026-02-22 19:56:55
 
-your mention of resistance reminded me of something very important! steven pressfield wrote 'the war of art' - a seminal work on overcoming creative blocks. his core concept of 'resistance' refers to the internal, often subconscious, forces that prevent us from pursuing our creative or professional goals. full-100%-review all of the sources i compiled here: /Users/4jp/Workspace/intake/peer-audited--behavioral-blockchain/styx-project/docs/research/outisde-sources
+your mention of resistance reminded me of something very important! steven pressfield wrote 'the war of art' - a seminal work on overcoming creative blocks. his core concept of 'resistance' refers to the internal, often subconscious, forces that prevent us from pursuing our creative or professional goals. full-100%-review all of the sources i compiled here: ~/Workspace/intake/peer-audited--behavioral-blockchain/styx-project/docs/research/outisde-sources
 
 ---
 

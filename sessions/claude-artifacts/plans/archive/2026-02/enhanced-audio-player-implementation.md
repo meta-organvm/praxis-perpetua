@@ -1,7 +1,7 @@
 # Enhanced Audio Player Implementation Plan
 
 ## Objective
-Create `/Users/4jp/Workspace/a-mavs-olevm/js/media/audio/EnhancedAudioPlayer.js` - a complete audio player class using Howler.js to replace Bandcamp embeds.
+Create `~/Workspace/a-mavs-olevm/js/media/audio/EnhancedAudioPlayer.js` - a complete audio player class using Howler.js to replace Bandcamp embeds.
 
 ## Requirements Analysis
 
@@ -78,9 +78,9 @@ Create `/Users/4jp/Workspace/a-mavs-olevm/js/media/audio/EnhancedAudioPlayer.js`
 11. Export class
 
 ## Files to Check
-- `/Users/4jp/Workspace/a-mavs-olevm/js/config.js` - Configuration structure
-- `/Users/4jp/Workspace/a-mavs-olevm/js/audioPlayer.js` - Existing audio player for reference
-- `/Users/4jp/Workspace/a-mavs-olevm/js/audioAnalyzerBridge.js` - Howler.js usage patterns
+- `~/Workspace/a-mavs-olevm/js/config.js` - Configuration structure
+- `~/Workspace/a-mavs-olevm/js/audioPlayer.js` - Existing audio player for reference
+- `~/Workspace/a-mavs-olevm/js/audioAnalyzerBridge.js` - Howler.js usage patterns
 
 ## Configuration Available
 From ETCETER4_CONFIG.media.audio:

@@ -6,7 +6,7 @@
 **Total Content Analyzed:** 452,870+ characters across 17 documents
 
 ## Objective
-Complete four explicit deliverables for thorough exploration of `/Users/4jp/Workspace/organvm-iv-taxis/research/`:
+Complete four explicit deliverables for thorough exploration of `~/Workspace/organvm-iv-taxis/research/`:
 1. Complete file listing with sizes and file types
 2. Document summaries (topic and content overview)
 3. AI chat transcripts identification with system names and key conclusions

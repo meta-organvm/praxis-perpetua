@@ -270,7 +270,7 @@ ls ~/Library/Application\ Support/Claude/Claude\ Extensions\ Settings/
 ### Current State
 
 **Local Claude Desktop skills** (45 skills):
-`/Users/4jp/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/.../skills/`
+`~/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/.../skills/`
 
 **GitHub repo** (`ivviiviivvi/skills`): ~12 skills (Anthropic examples)
 
@@ -347,7 +347,7 @@ git clone https://github.com/ivviiviivvi/skills.git skills-repo
 cd skills-repo
 
 # Copy all local skills (excluding any that already exist)
-LOCAL_SKILLS="/Users/4jp/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/1ffa4db5-d1bd-4b19-92ef-8cdf8282b01d/251a1e88-094d-4d08-81ba-b4b711de7350/skills"
+LOCAL_SKILLS="~/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/1ffa4db5-d1bd-4b19-92ef-8cdf8282b01d/251a1e88-094d-4d08-81ba-b4b711de7350/skills"
 
 for skill in "$LOCAL_SKILLS"/*/; do
     name=$(basename "$skill")

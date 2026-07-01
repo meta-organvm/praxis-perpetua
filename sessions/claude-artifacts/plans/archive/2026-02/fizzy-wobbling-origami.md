@@ -48,7 +48,7 @@ git lfs prune
 ### Phase 3: Update superproject pointers
 
 ```
-cd /Users/4jp/Workspace/organvm-i-theoria
+cd ~/Workspace/organvm-i-theoria
 # Fetch rewritten histories and checkout new HEADs
 cd .github && git fetch origin && git checkout origin/main && cd ..
 cd a-recursive-root && git fetch origin && git checkout origin/main && cd ..

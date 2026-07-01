@@ -270,7 +270,7 @@ export function GET(context: APIContext) {
   }));
 
   return rss({
-    title: 'Anthony James Padavano — Portfolio',
+    title: '[name redacted] — Portfolio',
     description: 'Creative technologist building autonomous creative systems and treating governance as artistic medium.',
     site: context.site?.toString() || siteBase,
     items: [...projectItems, ...essayItems].sort(

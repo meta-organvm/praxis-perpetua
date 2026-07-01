@@ -78,7 +78,7 @@ class TestBuildChecks:
             assert len(ghost_checks) == 1
 ```
 
-**Step 2:** Run: `cd /Users/4jp/Workspace/organvm-vii-kerygma/.github && python -m pytest tests/test_validate_live_config.py -v`
+**Step 2:** Run: `cd ~/Workspace/organvm-vii-kerygma/.github && python -m pytest tests/test_validate_live_config.py -v`
 Expected: FAIL (script doesn't exist yet)
 
 **Step 3: Write the script**
@@ -179,12 +179,12 @@ if __name__ == "__main__":
     sys.exit(main())
 ```
 
-**Step 4:** Run: `cd /Users/4jp/Workspace/organvm-vii-kerygma/.github && python -m pytest tests/test_validate_live_config.py -v`
+**Step 4:** Run: `cd ~/Workspace/organvm-vii-kerygma/.github && python -m pytest tests/test_validate_live_config.py -v`
 Expected: 4 PASS
 
 **Step 5: Commit**
 ```bash
-cd /Users/4jp/Workspace/organvm-vii-kerygma/.github
+cd ~/Workspace/organvm-vii-kerygma/.github
 git add scripts/validate-live-config.py tests/test_validate_live_config.py
 git commit -m "feat: add live config validation script with tests"
 ```
@@ -206,7 +206,7 @@ git commit -m "feat: add live config validation script with tests"
 
 > **LIVE STEP — requires secrets configured:**
 > ```bash
-> cd /Users/4jp/Workspace/organvm-vii-kerygma
+> cd ~/Workspace/organvm-vii-kerygma
 > KERYGMA_LIVE_MODE=true python kerygma_pipeline.py dispatch \
 >   --template essay-announce --repo public-process \
 >   --channels mastodon,discord,bluesky,ghost
@@ -402,7 +402,7 @@ git commit -m "feat: add dispatch log — auto-records all cross-organ events"
 > **MANUAL:** Add `CROSS_ORG_DISPATCH_TOKEN` (PAT with `repo` scope) as an org-level secret across all orgs that need to trigger ORGAN-VII.
 
 ```bash
-cd /Users/4jp/Workspace/organvm-vii-kerygma/.github
+cd ~/Workspace/organvm-vii-kerygma/.github
 git push origin main
 ```
 
@@ -577,7 +577,7 @@ class MastodonMetricsClient:
 
 **Step 5: Commit**
 ```bash
-cd /Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy
+cd ~/Workspace/organvm-vii-kerygma/distribution-strategy
 git add kerygma_strategy/mastodon_metrics.py tests/test_mastodon_metrics.py
 git commit -m "feat: add Mastodon metrics pull-back adapter"
 ```
@@ -683,8 +683,8 @@ The script writes a [shields.io endpoint badge JSON](https://shields.io/endpoint
 ### Task 14: Push Phase III
 
 ```bash
-cd /Users/4jp/Workspace/organvm-vii-kerygma/.github && git push origin main
-cd /Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy && git push origin main
+cd ~/Workspace/organvm-vii-kerygma/.github && git push origin main
+cd ~/Workspace/organvm-vii-kerygma/distribution-strategy && git push origin main
 ```
 
 ---
@@ -756,15 +756,15 @@ Updates GitHub org descriptions to reference the Ghost hub URL. Uses `gh api` to
 ### Task 19: Push Phase IV + Final Validation
 
 ```bash
-cd /Users/4jp/Workspace/organvm-vii-kerygma/.github && git push origin main
+cd ~/Workspace/organvm-vii-kerygma/.github && git push origin main
 ```
 
 Run full test suite across all packages:
 ```bash
-cd /Users/4jp/Workspace/organvm-vii-kerygma/social-automation && pytest tests/ -q
-cd /Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates && pytest tests/ -q
-cd /Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy && pytest tests/ -q
-cd /Users/4jp/Workspace/organvm-vii-kerygma && pytest tests/ -q
+cd ~/Workspace/organvm-vii-kerygma/social-automation && pytest tests/ -q
+cd ~/Workspace/organvm-vii-kerygma/announcement-templates && pytest tests/ -q
+cd ~/Workspace/organvm-vii-kerygma/distribution-strategy && pytest tests/ -q
+cd ~/Workspace/organvm-vii-kerygma && pytest tests/ -q
 ```
 
 ### Task 20: Registry Update

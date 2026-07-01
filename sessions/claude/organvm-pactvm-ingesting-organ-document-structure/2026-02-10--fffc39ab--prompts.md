@@ -36,7 +36,7 @@ Phase -1 is complete — all 8 organ orgs are live with profile READMEs and Abou
 - TaskUpdate
 - Bash: `gh repo list 4444J99 --limit 100 --json name,description,isPrivate,isFork,langua`
 - Bash: `gh repo list 4444J99 --limit 100 --json name,description,isPrivate,isFork,primar`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 - Bash: `gh api repos/4444J99/life-my--midst--in/readme --jq '.content' 2>&1 | base64 -d `
 - Bash: `gh api repos/4444J99/my-knowledge-base/readme --jq '.content' 2>&1 | base64 -d 2`
 - Bash: `gh api repos/4444J99/agentic-titan/readme --jq '.content' 2>&1 | base64 -d 2>/de`
@@ -56,17 +56,17 @@ Phase -1 is complete — all 8 organ orgs are live with profile READMEs and Abou
 i'll decide what to pin when we complete all of the remaining work; what's next?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/magical-spinning-flamingo.md`
+- Read `~/.claude/plans/magical-spinning-flamingo.md`
 - Task
 - Glob `**/08*canonical*`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/specs/bronze-sprint/spec.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/roadmap-there-and-back-again.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
-- Read `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/roadmap-there-and-back-again.md`
-- Write `/Users/4jp/.claude/plans/magical-spinning-flamingo.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/specs/bronze-sprint/spec.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/roadmap-there-and-back-again.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/evaluation/08-canonical-action-plan.md`
+- Read `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/docs/strategy/roadmap-there-and-back-again.md`
+- Write `~/.claude/plans/magical-spinning-flamingo.md`
 - ExitPlanMode
 
 ---

@@ -6,8 +6,8 @@ Two clones of the same `4444J99/portfolio` GitHub repo exist locally:
 
 | | Dir 1 (MASTER) | Dir 2 (Current working) |
 |---|---|---|
-| **Path** | `/Users/4jp/Workspace/4444J99/portfolio` | `/Users/4jp/Workspace/portfolio` |
-| **Remote** | `https://github.com/4444J99/portfolio.git` | `git@github.com:4444J99/portfolio.git` |
+| **Path** | `~/Workspace/4444J99/portfolio` | `~/Workspace/portfolio` |
+| **Remote** | `https://github.com/4444J99/portfolio.git` | `[email redacted]:4444J99/portfolio.git` |
 | **Local HEAD** | `c89c085` (24 commits) | `41c3a5f` (137 commits) |
 | **origin/main** | `41c3a5f` (after fetch) | `41c3a5f` |
 | **Uncommitted** | Clean | Clean |
@@ -22,7 +22,7 @@ The gitignored `intake/` content in Dir 2 is the only non-repo state that matter
 ## Step 1: Fast-forward Dir 1 to match origin
 
 ```bash
-cd /Users/4jp/Workspace/4444J99/portfolio
+cd ~/Workspace/4444J99/portfolio
 git pull --ff-only origin main
 ```
 
@@ -32,33 +32,33 @@ This brings MASTER from `c89c085` → `41c3a5f` (113 commits fast-forward). No m
 
 ```bash
 # Copy intake files that aren't tracked by git
-cp -R /Users/4jp/Workspace/portfolio/intake/emergency-help \
-      /Users/4jp/Workspace/4444J99/portfolio/intake/
+cp -R ~/Workspace/portfolio/intake/emergency-help \
+      ~/Workspace/4444J99/portfolio/intake/
 
-cp /Users/4jp/Workspace/portfolio/intake/multimedia-specialist.pdf \
-   /Users/4jp/Workspace/4444J99/portfolio/intake/
+cp ~/Workspace/portfolio/intake/multimedia-specialist.pdf \
+   ~/Workspace/4444J99/portfolio/intake/
 
 # Copy any other intake materials
-cp /Users/4jp/Workspace/portfolio/intake/auto_resume_research_report.md \
-   /Users/4jp/Workspace/portfolio/intake/github_professionalization_report.md \
-   /Users/4jp/Workspace/4444J99/portfolio/intake/
+cp ~/Workspace/portfolio/intake/auto_resume_research_report.md \
+   ~/Workspace/portfolio/intake/github_professionalization_report.md \
+   ~/Workspace/4444J99/portfolio/intake/
 
 # Copy MET4 if it exists
-cp -R /Users/4jp/Workspace/portfolio/intake/MET4 \
-      /Users/4jp/Workspace/4444J99/portfolio/intake/ 2>/dev/null || true
+cp -R ~/Workspace/portfolio/intake/MET4 \
+      ~/Workspace/4444J99/portfolio/intake/ 2>/dev/null || true
 ```
 
 ## Step 3: Copy .venv from Dir 2 → Dir 1
 
 ```bash
-cp -R /Users/4jp/Workspace/portfolio/.venv \
-      /Users/4jp/Workspace/4444J99/portfolio/
+cp -R ~/Workspace/portfolio/.venv \
+      ~/Workspace/4444J99/portfolio/
 ```
 
 ## Step 4: Install node_modules in Dir 1
 
 ```bash
-cd /Users/4jp/Workspace/4444J99/portfolio
+cd ~/Workspace/4444J99/portfolio
 npm install
 ```
 
@@ -67,7 +67,7 @@ npm install
 ## Step 5: Verify Dir 1 is fully operational
 
 ```bash
-cd /Users/4jp/Workspace/4444J99/portfolio
+cd ~/Workspace/4444J99/portfolio
 git log --oneline -3                    # Should show 41c3a5f at HEAD
 ls intake/emergency-help/README.md      # Should exist
 .venv/bin/python --version              # Should show 3.14.x
@@ -79,8 +79,8 @@ npm run build                           # Should build successfully (optional)
 Rename the existing Claude project config directory so future sessions at the MASTER path inherit the conversation history and memory:
 
 ```bash
-mv /Users/4jp/.claude/projects/-Users-4jp-Workspace-portfolio \
-   /Users/4jp/.claude/projects/-Users-4jp-Workspace-4444J99-portfolio
+mv ~/.claude/projects/-Users-[user]-Workspace-portfolio \
+   ~/.claude/projects/-Users-[user]-Workspace-4444J99-portfolio
 ```
 
 ## Step 7: Remove Dir 2
@@ -88,13 +88,13 @@ mv /Users/4jp/.claude/projects/-Users-4jp-Workspace-portfolio \
 After confirming Dir 1 is complete:
 
 ```bash
-rm -rf /Users/4jp/Workspace/portfolio
+rm -rf ~/Workspace/portfolio
 ```
 
 ## Step 8: Symlink
 
 ```bash
-ln -s /Users/4jp/Workspace/4444J99/portfolio /Users/4jp/Workspace/portfolio
+ln -s ~/Workspace/4444J99/portfolio ~/Workspace/portfolio
 ```
 
 This preserves the old path for any hardcoded references (e.g., in `scripts/extract_emergency_help.py` output paths).
@@ -116,7 +116,7 @@ This preserves the old path for any hardcoded references (e.g., in `scripts/extr
 
 ## Verification
 
-1. `git -C /Users/4jp/Workspace/4444J99/portfolio log --oneline -1` → `41c3a5f`
-2. `ls /Users/4jp/Workspace/4444J99/portfolio/intake/emergency-help/VERIFICATION_REPORT.md` → exists
-3. `git -C /Users/4jp/Workspace/4444J99/portfolio status` → clean
-4. `test ! -d /Users/4jp/Workspace/portfolio/.git` → Dir 2 git repo gone (or is symlink)
+1. `git -C ~/Workspace/4444J99/portfolio log --oneline -1` → `41c3a5f`
+2. `ls ~/Workspace/4444J99/portfolio/intake/emergency-help/VERIFICATION_REPORT.md` → exists
+3. `git -C ~/Workspace/4444J99/portfolio status` → clean
+4. `test ! -d ~/Workspace/portfolio/.git` → Dir 2 git repo gone (or is symlink)

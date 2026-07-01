@@ -45,14 +45,14 @@ Implement the following plan:
 - Task
 - Grep `INTERNAL`
 - Glob `**/INTERNAL*`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/bin/executable_domus-sort.tmpl`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_config/private_op/secrets.zsh`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/bin/executable_domus-downloads-tidy.tmpl`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/bin/domus_lib.py`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/bin/domus-lib.sh`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/bin/executable_chezmoi-health.tmpl`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_local/bin/executable_chezmoi-recover.tmpl`
-- Read `/Users/4jp/domus-semper-palingenesis/dot_zshenv`
+- Read `~/domus-semper-palingenesis/dot_local/bin/executable_domus-sort.tmpl`
+- Read `~/domus-semper-palingenesis/dot_config/private_op/secrets.zsh`
+- Read `~/domus-semper-palingenesis/dot_local/bin/executable_domus-downloads-tidy.tmpl`
+- Read `~/domus-semper-palingenesis/dot_local/bin/domus_lib.py`
+- Read `~/domus-semper-palingenesis/dot_local/bin/domus-lib.sh`
+- Read `~/domus-semper-palingenesis/dot_local/bin/executable_chezmoi-health.tmpl`
+- Read `~/domus-semper-palingenesis/dot_local/bin/executable_chezmoi-recover.tmpl`
+- Read `~/domus-semper-palingenesis/dot_zshenv`
 - *...and 78 more*
 
 ---
@@ -76,8 +76,8 @@ update the CHANGELOG
 
 **Actions taken:**
 - Glob `CHANGELOG*`
-- Read `/Users/4jp/domus-semper-palingenesis/CHANGELOG.md`
-- Edit `/Users/4jp/domus-semper-palingenesis/CHANGELOG.md`
+- Read `~/domus-semper-palingenesis/CHANGELOG.md`
+- Edit `~/domus-semper-palingenesis/CHANGELOG.md`
 
 ---
 
@@ -96,24 +96,24 @@ docs: add v1.3.1 to CHANGEL`
 do we have the appropriate tests for this entire directory?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/effervescent-cooking-plum.md`
+- Read `~/.claude/plans/effervescent-cooking-plum.md`
 - Task
-- Bash: `ls -1 /Users/4jp/domus-semper-palingenesis/dot_local/bin/`
-- Bash: `ls -1 /Users/4jp/domus-semper-palingenesis/tests/`
-- Read `/Users/4jp/domus-semper-palingenesis/tests/test-domus-sort.bats`
-- Read `/Users/4jp/domus-semper-palingenesis/tests/test-helpers.bash`
+- Bash: `ls -1 ~/domus-semper-palingenesis/dot_local/bin/`
+- Bash: `ls -1 ~/domus-semper-palingenesis/tests/`
+- Read `~/domus-semper-palingenesis/tests/test-domus-sort.bats`
+- Read `~/domus-semper-palingenesis/tests/test-helpers.bash`
 - Task
 - Grep `@test`
 - Grep `class Test|def test_`
 - Grep `domus_lib`
 - Grep `domus-lib`
 - Grep `domus-lib|domus_log_rotate|domus_log|check_manifest|check_deps|now_ms|confirm`
-- Bash: `wc -l /Users/4jp/domus-semper-palingenesis/dot_local/bin/executable_domus`
+- Bash: `wc -l ~/domus-semper-palingenesis/dot_local/bin/executable_domus`
 - Grep `^(cmd_|run_)"`
 - Grep `^cmd_|^run_`
 - Grep `domus run`
 - Grep `domus.keep`
-- Write `/Users/4jp/.claude/plans/effervescent-cooking-plum.md`
+- Write `~/.claude/plans/effervescent-cooking-plum.md`
 - ExitPlanMode
 
 ---

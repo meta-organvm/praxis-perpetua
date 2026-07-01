@@ -33,7 +33,7 @@ using the github skills, get this repo up to github best standards and practices
 
 ### P4 — 2026-02-17 22:33:52
 
-review sibling directory [/Users/4jp/Workspace/organvm-ii-poiesis/chthon-oneiros], i'd consider each to be opposite sides of the same coin; is that repo doing anything that we haven't quite got to or anything we missed entirely?
+review sibling directory [~/Workspace/organvm-ii-poiesis/chthon-oneiros], i'd consider each to be opposite sides of the same coin; is that repo doing anything that we haven't quite got to or anything we missed entirely?
 
 ---
 
@@ -106,7 +106,7 @@ proceed with all of the above
 
 ### P15 — 2026-02-17 23:44:09
 
-should we incoprorate this agentic-titan that i developed elsewhere? /Users/4jp/Workspace/organvm-iv-taxis/agentic-titan
+should we incoprorate this agentic-titan that i developed elsewhere? ~/Workspace/organvm-iv-taxis/agentic-titan
 
 ---
 
@@ -164,7 +164,7 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
 
 ### P22 — 2026-02-18 01:29:29
 
-here is another important repo that i think ties into this repo: /Users/4jp/Workspace/organvm-i-theoria/linguistic-atomization-framework
+here is another important repo that i think ties into this repo: ~/Workspace/organvm-i-theoria/linguistic-atomization-framework
 
 ---
 
@@ -176,13 +176,13 @@ what happened?
 
 ### P24 — 2026-02-18 02:31:45
 
-here is another important repo that i think ties into this repo: /Users/4jp/Workspace/organvm-i-theoria/linguistic-atomization-framework
+here is another important repo that i think ties into this repo: ~/Workspace/organvm-i-theoria/linguistic-atomization-framework
 
 ---
 
 ### P25 — 2026-02-18 02:37:58
 
-here is another important repo that i think ties into this repo: /Users/4jp/Workspace/organvm-i-theoria/narratological-algorithmic-lenses
+here is another important repo that i think ties into this repo: ~/Workspace/organvm-i-theoria/narratological-algorithmic-lenses
 
 ---
 

@@ -21,7 +21,7 @@ Additionally: 3 PRODUCTION repos have CI failures, 4 registry `ci_workflow` fiel
 | Remove 2 ORGAN-IV phantoms | `system-governance-framework` and `cognitive-archaelogy-tribunal` (DESIGN_ONLY, "NOT_CREATED") — canonical repos exist in ORGAN-I |
 | Update counts | `total_repos`: 81→79, ORGAN-IV `repository_count`: 9→7, `DESIGN_ONLY`: 15→13 |
 
-**Critical file:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+**Critical file:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 
 ---
 

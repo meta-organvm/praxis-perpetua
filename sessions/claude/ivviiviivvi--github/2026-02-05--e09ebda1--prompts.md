@@ -101,7 +101,7 @@ check if any have merged now
   you're comfortable with that given the failures are pre-existing
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/groovy-wobbling-quail.md`
+- Read `~/.claude/plans/groovy-wobbling-quail.md`
 - Task
 - Task
 - Task
@@ -109,16 +109,16 @@ check if any have merged now
 - Glob `.github/workflows/python-ci.yml`
 - Glob `.github/workflows/*node*`
 - Glob `.github/workflows/*python*`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/ci.yml`
 - Glob `tests/**/test_batch_onboard_coverage*`
 - Glob `tests/**/test_models*`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.config/pre-commit.yaml`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/tests/unit/test_batch_onboard_coverage.py`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/tests/unit/test_models.py`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/pyproject.toml`
+- Read `~/Workspace/ivviiviivvi/.github/.config/pre-commit.yaml`
+- Read `~/Workspace/ivviiviivvi/.github/tests/unit/test_batch_onboard_coverage.py`
+- Read `~/Workspace/ivviiviivvi/.github/tests/unit/test_models.py`
+- Read `~/Workspace/ivviiviivvi/.github/pyproject.toml`
 - Grep `Node.js CI|Python CI`
 - Glob `.github/workflows/*multi*`
-- Read `/Users/4jp/Workspace/ivviiviivvi/.github/.github/workflows/ci-advanced.yml`
+- Read `~/Workspace/ivviiviivvi/.github/.github/workflows/ci-advanced.yml`
 - Bash: `gh api repos/ivviiviivvi/.github/branches/main/protection/required_status_checks`
 - Bash: `gh pr checks 291 2>&1 | grep -E "Secret Detection|Security Scan|CI Status|Lint C`
 - *...and 8 more*

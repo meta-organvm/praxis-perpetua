@@ -36,17 +36,17 @@ The application pipeline (1,039 entries, 983 tests) is fully operational but **o
 - TaskCreate
 - TaskCreate
 - Agent: "Read the following files completely and report back their fu"
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/score.py`
 - Grep `def get_weights`
 - Grep `def compute_composite`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/feedback_capture.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/check_outcomes.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/run.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/feedback_capture.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/check_outcomes.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/run.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
 - Grep `^def section_`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/standup.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/standup.py`
 - *...and 115 more*
 
 ---
@@ -88,19 +88,19 @@ all of the above
 - TaskCreate
 - TaskCreate
 - TaskCreate
-- Agent: "Read the full contents of /Users/4jp/Workspace/4444J99/appli"
-- Agent: "Read the full contents of /Users/4jp/Workspace/4444J99/appli"
+- Agent: "Read the full contents of ~/Workspace/4444J99/appli"
+- Agent: "Read the full contents of ~/Workspace/4444J99/appli"
 - Agent: "Read the full contents of these two files and return key arc"
-- Agent: "Read /Users/4jp/Workspace/4444J99/application-pipeline/scrip"
+- Agent: "Read ~/Workspace/4444J99/application-pipeline/scrip"
 - Agent: "Read these two files and extract key details:
-1. /Users/4jp/"
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/morning.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/run.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
+1. ~/"
+- Read `~/Workspace/4444J99/application-pipeline/scripts/morning.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/run.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/pipeline_lib.py`
 - Grep `DIMENSION_ORDER`
 - Grep `def load_entries|def load_entry_by_id|def get_score|def get_effort|def atomic_write|ACTIONABLE_STATUSES|TERMINAL_STATUSES`
-- Bash: `ls /Users/4jp/Workspace/4444J99/portfolio/src/data/ 2>/dev/null | head -20; echo`
-- Bash: `python3 -c "import json; data = json.load(open('/Users/4jp/Workspace/4444J99/por`
+- Bash: `ls ~/Workspace/4444J99/portfolio/src/data/ 2>/dev/null | head -20; echo`
+- Bash: `python3 -c "import json; data = json.load(open('~/Workspace/4444J99/por`
 - *...and 55 more*
 
 ---
@@ -111,17 +111,17 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
 
 **Actions taken:**
 - Bash: `source .venv/bin/activate && python scripts/blind_spot_tracker.py 2>&1`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/strategy/startup-profile.yaml`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/funding_scorer.py`
+- Read `~/Workspace/4444J99/application-pipeline/strategy/startup-profile.yaml`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/funding_scorer.py`
 - AskUserQuestion
 - AskUserQuestion
 - EnterPlanMode
 - Agent: "I need to understand existing block and strategy content for"
 - Agent: "I need to understand what infrastructure exists for three bl"
 - Grep `incorporated|llc|sole.proprietor|entity.type`
-- Write `/Users/4jp/.claude/plans/pure-conjuring-abelson.md`
-- Read `/Users/4jp/.claude/plans/pure-conjuring-abelson.md`
-- Write `/Users/4jp/.claude/plans/pure-conjuring-abelson.md`
+- Write `~/.claude/plans/pure-conjuring-abelson.md`
+- Read `~/.claude/plans/pure-conjuring-abelson.md`
+- Write `~/.claude/plans/pure-conjuring-abelson.md`
 - ExitPlanMode
 
 ---

@@ -38,4 +38,4 @@ Update `~/dotfiles/private_Documents/Notes/System/AGENTS.md` to reference `~/dot
 
 - `grep -rl "/System/" ~/Library/LaunchAgents/` returns empty
 - `git status` is clean after commit
-- All 12 agents still loaded: `launchctl list | grep -E 'chezmoi|domus|4jp|gmail|mail_auto'`
+- All 12 agents still loaded: `launchctl list | grep -E 'chezmoi|domus|[user]|gmail|mail_auto'`

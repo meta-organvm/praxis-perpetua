@@ -10,18 +10,18 @@
 
 ### P1 — 2026-02-08 05:23:09
 
-this document [/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md] outlines an extensive protocol I want to implement; first fully ingest, digest, suggest;
+this document [~/Workspace/Organizing-Local-Remote-Structure.md] outlines an extensive protocol I want to implement; first fully ingest, digest, suggest;
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
-- Read `/Users/4jp/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
+- Read `~/Workspace/Organizing-Local-Remote-Structure.md`
 - Task
 - Task
 - Task

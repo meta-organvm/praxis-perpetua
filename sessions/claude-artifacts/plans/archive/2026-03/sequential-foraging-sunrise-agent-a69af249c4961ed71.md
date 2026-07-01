@@ -13,10 +13,10 @@ The user has a chezmoi-managed dotfiles system where AI tool configurations (Cla
 
 ## Discovery Phase Results (Completed)
 Initial broad search identified 4 AI tool configuration files:
-- `/Users/4jp/domus-semper-palingenesis/modify_dot_claude.json.tmpl`
-- `/Users/4jp/domus-semper-palingenesis/private_Library/private_Application Support/private_Claude/claude_desktop_config.json.tmpl`
-- `/Users/4jp/domus-semper-palingenesis/dot_config/ai-instructions/copilot-instructions.md.tmpl`
-- `/Users/4jp/domus-semper-palingenesis/.chezmoiscripts/run_after_check-claude-extensions.sh.tmpl`
+- `~/domus-semper-palingenesis/modify_dot_claude.json.tmpl`
+- `~/domus-semper-palingenesis/private_Library/private_Application Support/private_Claude/claude_desktop_config.json.tmpl`
+- `~/domus-semper-palingenesis/dot_config/ai-instructions/copilot-instructions.md.tmpl`
+- `~/domus-semper-palingenesis/.chezmoiscripts/run_after_check-claude-extensions.sh.tmpl`
 
 ## Exploration Strategy (Sequential Foraging)
 
@@ -24,13 +24,13 @@ Initial broad search identified 4 AI tool configuration files:
 **Objective**: Understand the layout of AI configuration directories
 
 **Tasks** (READ-ONLY):
-1. List contents of `/Users/4jp/domus-semper-palingenesis/dot_config/ai-instructions/`
+1. List contents of `~/domus-semper-palingenesis/dot_config/ai-instructions/`
    - Identify all Copilot and Cursor configuration files
    - Check for Windsurf, Cody, or other AI tool configs
-2. List contents of `/Users/4jp/domus-semper-palingenesis/private_dot_claude/`
+2. List contents of `~/domus-semper-palingenesis/private_dot_claude/`
    - Find all Claude-specific configurations beyond CLAUDE.md.tmpl
    - Check for settings.json or other config files
-3. List contents of `/Users/4jp/domus-semper-palingenesis/dot_config/ai-context/`
+3. List contents of `~/domus-semper-palingenesis/dot_config/ai-context/`
    - Verify master.md.tmpl exists
    - Check for other shared fragment files
 
@@ -103,12 +103,12 @@ Initial broad search identified 4 AI tool configuration files:
 ## File Locations to Examine
 
 **Priority 1** (Critical for SSOT understanding):
-- [ ] `/Users/4jp/domus-semper-palingenesis/dot_config/ai-context/master.md.tmpl`
-- [ ] `/Users/4jp/domus-semper-palingenesis/dot_config/ai-instructions/copilot-instructions.md.tmpl`
+- [ ] `~/domus-semper-palingenesis/dot_config/ai-context/master.md.tmpl`
+- [ ] `~/domus-semper-palingenesis/dot_config/ai-instructions/copilot-instructions.md.tmpl`
 
 **Priority 2** (Consumer verification):
-- [ ] `/Users/4jp/domus-semper-palingenesis/private_dot_claude/` (directory)
-- [ ] `/Users/4jp/domus-semper-palingenesis/dot_config/ai-instructions/` (directory)
+- [ ] `~/domus-semper-palingenesis/private_dot_claude/` (directory)
+- [ ] `~/domus-semper-palingenesis/dot_config/ai-instructions/` (directory)
 
 **Priority 3** (Tool-specific configs):
 - [ ] All `.cursorrules` files
@@ -116,7 +116,7 @@ Initial broad search identified 4 AI tool configuration files:
 - [ ] All `.claude/settings.json` files
 
 **Priority 4** (Automation and post-deployment):
-- [ ] `/Users/4jp/domus-semper-palingenesis/.chezmoiscripts/run_after_check-claude-extensions.sh.tmpl`
+- [ ] `~/domus-semper-palingenesis/.chezmoiscripts/run_after_check-claude-extensions.sh.tmpl`
 
 ## Output Format
 Final report will include:

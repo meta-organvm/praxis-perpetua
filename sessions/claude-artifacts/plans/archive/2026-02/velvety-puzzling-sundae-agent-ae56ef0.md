@@ -288,7 +288,7 @@ const mockContact: Contact = {
   orgId: 'org-1',
   firstName: 'John',
   lastName: 'Doe',
-  email: 'john@example.com',
+  email: '[email redacted]',
   phone: '555-1234',
   preferredContactMethod: 'email',
   timezone: 'America/New_York',

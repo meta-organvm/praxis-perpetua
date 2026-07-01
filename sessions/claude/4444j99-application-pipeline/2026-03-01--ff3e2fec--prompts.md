@@ -39,24 +39,24 @@ User requested two things:
 **Actions taken:**
 - TaskCreate
 - TaskUpdate
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/feedback_capture.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/build_block_index.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/sync_metrics.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/ingest_top_roles.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/market_intel.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/build_resumes.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/migrate_batch_folders.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/check_email.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/check_outcomes.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_check_outcomes.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/feedback_capture.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/build_block_index.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/sync_metrics.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/ingest_top_roles.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/market_intel.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/build_resumes.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/migrate_batch_folders.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/check_email.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/check_outcomes.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/tests/test_check_outcomes.py`
 - Grep `def resolve_portal|def find_staged`
-- Read `/Users/4jp/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
+- Read `~/Workspace/4444J99/application-pipeline/scripts/browser_submit.py`
 - TaskUpdate
-- Write `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_feedback_capture.py`
-- Write `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_build_block_index.py`
-- Write `/Users/4jp/Workspace/4444J99/application-pipeline/tests/test_sync_metrics.py`
+- Write `~/Workspace/4444J99/application-pipeline/tests/test_feedback_capture.py`
+- Write `~/Workspace/4444J99/application-pipeline/tests/test_build_block_index.py`
+- Write `~/Workspace/4444J99/application-pipeline/tests/test_sync_metrics.py`
 - *...and 20 more*
 
 ---
@@ -67,27 +67,27 @@ what's logically next extensibly & exhaustively moving the needle forward w glor
   propulsion?
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/binary-discovering-canyon.md`
-- Agent: "Explore the application pipeline at /Users/4jp/Workspace/444"
-- Agent: "Explore /Users/4jp/Workspace/4444J99/application-pipeline. I"
-- Agent: "In /Users/4jp/Workspace/4444J99/application-pipeline, do the"
-- Agent: "In /Users/4jp/Workspace/4444J99/application-pipeline, invest"
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/ | wc -l &&`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/pipeline/submitted/ | wc -l`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/scripts/*.py | xargs -n1 ba`
-- Bash: `grep -h "^status:\|^deadline:\|^  score:\|portal:" /Users/4jp/Workspace/4444J99/`
+- Read `~/.claude/plans/binary-discovering-canyon.md`
+- Agent: "Explore the application pipeline at ~/Workspace/444"
+- Agent: "Explore ~/Workspace/4444J99/application-pipeline. I"
+- Agent: "In ~/Workspace/4444J99/application-pipeline, do the"
+- Agent: "In ~/Workspace/4444J99/application-pipeline, invest"
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/pipeline/active/ | wc -l &&`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/pipeline/submitted/ | wc -l`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/scripts/*.py | xargs -n1 ba`
+- Bash: `grep -h "^status:\|^deadline:\|^  score:\|portal:" ~/Workspace/4444J99/`
 - Bash: `# Get staged entries with their deadlines and portals
-for f in /Users/4jp/Worksp`
-- Bash: `head -60 /Users/4jp/Workspace/4444J99/application-pipeline/signals/conversion-lo`
-- Bash: `for f in /Users/4jp/Workspace/4444J99/application-pipeline/pipeline/active/*.yam`
-- Bash: `head -80 /Users/4jp/Workspace/4444J99/application-pipeline/strategy/scoring-rubr`
-- Bash: `cat /Users/4jp/Workspace/4444J99/application-pipeline/signals/patterns.md 2>/dev`
+for f in ~/Worksp`
+- Bash: `head -60 ~/Workspace/4444J99/application-pipeline/signals/conversion-lo`
+- Bash: `for f in ~/Workspace/4444J99/application-pipeline/pipeline/active/*.yam`
+- Bash: `head -80 ~/Workspace/4444J99/application-pipeline/strategy/scoring-rubr`
+- Bash: `cat ~/Workspace/4444J99/application-pipeline/signals/patterns.md 2>/dev`
 - Bash: `python3 -c "
 import yaml
 from pathlib import Path
-d = Path('/Users/4jp/Workspace`
-- Bash: `head -100 /Users/4jp/Workspace/4444J99/application-pipeline/strategy/identity-po`
-- Bash: `ls /Users/4jp/Workspace/4444J99/application-pipeline/blocks/ && echo "---" && ls`
+d = Path('~/Workspace`
+- Bash: `head -100 ~/Workspace/4444J99/application-pipeline/strategy/identity-po`
+- Bash: `ls ~/Workspace/4444J99/application-pipeline/blocks/ && echo "---" && ls`
 - Bash: `python3 -c "
 import yaml
 from pathlib import Path
@@ -118,8 +118,8 @@ Let me analyze the conversation chronologically:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/binary-discovering-canyon.md`
-- Write `/Users/4jp/.claude/plans/binary-discovering-canyon.md`
+- Read `~/.claude/plans/binary-discovering-canyon.md`
+- Write `~/.claude/plans/binary-discovering-canyon.md`
 - ExitPlanMode
 
 ---

@@ -780,7 +780,7 @@ Essay topics from CI deployment:
 ### 4. `/path/to/ci-minimal.yml`
 **Why:** Safety net for skeleton repos, documentation repos, and edge cases (Swift, Jekyll). Ensures all repos can have green CI without requiring tests.
 
-### 5. `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
+### 5. `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/registry-v2.json`
 **Why:** Needs `ci_workflow`, `ci_status`, `last_ci_run`, `coverage_pct` fields added to schema to track CI deployment across all 79 repos. Single source of truth per Constitution Article I.
 
 ---

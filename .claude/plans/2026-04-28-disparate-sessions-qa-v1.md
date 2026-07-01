@@ -1,7 +1,7 @@
 # QA & Completeness Pass — Disparate Lens-Protocol / Thread-Manifest Sessions
 
 **Date:** 2026-04-28
-**Working dir:** `/Users/4jp/resistance--certain-none/` (empty by design — naming the negative space)
+**Working dir:** `~/resistance--certain-none/` (empty by design — naming the negative space)
 **Plan file canonical home:** also copy to `~/Workspace/organvm/praxis-perpetua/prompt-corpus/snapshots/2026-04-28/2026-04-28-disparate-sessions-qa-v1.md` per plan-discipline rule (project plan history).
 
 ---
@@ -95,7 +95,7 @@ Plans, manifest seed, QA report → `git add && git commit && git push` in their
 - `cat THREAD-ARTIFACT-MANIFEST-SEED-2026-04-28.yaml | yq '.files | length'` → should equal artifact count (≥6 verified-existing + N new).
 - Every `THR-*` referenced in `files[].thread_id` exists under `threads[].id` (graph closure).
 - Every atom in Section D of the QA report has a corresponding entry in the new prompt-atoms.json append.
-- `grep -c '4jp\|padavano\|Anthony' THREAD-ARTIFACT-MANIFEST-SEED-*` → must return **0** (the seed is authorless by design).
+- `grep -c '[user]\|padavano\|Anthony' THREAD-ARTIFACT-MANIFEST-SEED-*` → must return **0** (the seed is authorless by design).
 - Pre-existing skill `claude-project-manifest` SKILL.md unchanged (we are using it, not modifying it).
 
 ---

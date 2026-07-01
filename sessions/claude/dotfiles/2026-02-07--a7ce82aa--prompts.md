@@ -31,9 +31,9 @@ SSH push to GitHub was fixed (removed `IdentitiesOnly yes`), but several GitHub 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/.config/chezmoi/chezmoi.toml`
-- Read `/Users/4jp/dotfiles/dot_config/git/config.tmpl`
-- Read `/Users/4jp/dotfiles/dot_config/gh/private_config.yml`
+- Read `~/.config/chezmoi/chezmoi.toml`
+- Read `~/dotfiles/dot_config/git/config.tmpl`
+- Read `~/dotfiles/dot_config/gh/private_config.yml`
 - Glob `dot_config/git/*`
 - Glob `.chezmoiscripts/*`
 - TaskCreate
@@ -42,14 +42,14 @@ SSH push to GitHub was fixed (removed `IdentitiesOnly yes`), but several GitHub 
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Edit `/Users/4jp/.config/chezmoi/chezmoi.toml`
+- Edit `~/.config/chezmoi/chezmoi.toml`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/dotfiles/dot_config/git/config.tmpl`
-- Edit `/Users/4jp/dotfiles/dot_config/git/config.tmpl`
+- Edit `~/dotfiles/dot_config/git/config.tmpl`
+- Edit `~/dotfiles/dot_config/git/config.tmpl`
 - TaskUpdate
 - TaskUpdate
-- Edit `/Users/4jp/dotfiles/dot_config/gh/private_config.yml`
+- Edit `~/dotfiles/dot_config/gh/private_config.yml`
 - TaskUpdate
 - *...and 13 more*
 
@@ -65,18 +65,18 @@ provide me specific instructions
 - Bash: `gh ssh-key list 2>&1`
 - Bash: `gh auth status 2>&1`
 - Bash: `gh ssh-key list 2>&1`
-- Read `/Users/4jp/dotfiles/private_dot_ssh/private_config.tmpl`
-- Bash: `ssh -T git@github.com 2>&1 || true`
+- Read `~/dotfiles/private_dot_ssh/private_config.tmpl`
+- Bash: `ssh -T [email redacted] 2>&1 || true`
 - Bash: `echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKJePYn2nGemEhnNQPKg8SXTOyFsrCaNTL5vSH`
 - Bash: `echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPCxKpD1wA+L1rlxbDKu8E+oFpX+xCszTkR9Bc`
-- Bash: `ssh -vT git@github.com 2>&1 | grep -E "(Offering|Accepted|Server host key|identi`
-- Bash: `ssh -vT git@github.com 2>&1 | grep -iE "(offer|accept|pubkey|identity|auth)" || `
-- Bash: `ssh -vvT git@github.com 2>&1 | grep -iE "(offer|accept|sign|key|auth)" | head -3`
-- Bash: `ssh -vvT git@github.com 2>&1 | grep -iE "offer|Server accepts|Will attempt|Tryin`
-- Bash: `ssh -vvT git@github.com 2>&1 | head -60`
-- Bash: `ssh -o ControlMaster=no -o ControlPath=none -vvT git@github.com 2>&1 | grep -iE `
-- Bash: `ssh -o ControlMaster=no -o ControlPath=none -vvT git@github.com 2>&1 | grep -iE `
-- Bash: `ssh -o ControlMaster=no -o ControlPath=none -vvT git@github.com 2>&1 | grep -iE `
+- Bash: `ssh -vT [email redacted] 2>&1 | grep -E "(Offering|Accepted|Server host key|identi`
+- Bash: `ssh -vT [email redacted] 2>&1 | grep -iE "(offer|accept|pubkey|identity|auth)" || `
+- Bash: `ssh -vvT [email redacted] 2>&1 | grep -iE "(offer|accept|sign|key|auth)" | head -3`
+- Bash: `ssh -vvT [email redacted] 2>&1 | grep -iE "offer|Server accepts|Will attempt|Tryin`
+- Bash: `ssh -vvT [email redacted] 2>&1 | head -60`
+- Bash: `ssh -o ControlMaster=no -o ControlPath=none -vvT [email redacted] 2>&1 | grep -iE `
+- Bash: `ssh -o ControlMaster=no -o ControlPath=none -vvT [email redacted] 2>&1 | grep -iE `
+- Bash: `ssh -o ControlMaster=no -o ControlPath=none -vvT [email redacted] 2>&1 | grep -iE `
 - Bash: `gh api user/ssh_signing_keys 2>&1 | python3 -c "import sys,json; keys=json.load(`
 
 ---
@@ -98,8 +98,8 @@ i think i messed up the config gh api user/ssh_signing_keys \                   
 but i think i messed up step 1 as well
 
 **Actions taken:**
-- Read `/Users/4jp/.config/chezmoi/chezmoi.toml`
-- Edit `/Users/4jp/.config/chezmoi/chezmoi.toml`
+- Read `~/.config/chezmoi/chezmoi.toml`
+- Edit `~/.config/chezmoi/chezmoi.toml`
 
 ---
 
@@ -110,12 +110,12 @@ run it for me
 **Actions taken:**
 - Bash: `gh api user/ssh_signing_keys -f title="github-ssh-key-111625 (signing)" -f key="`
 - Bash: `chezmoi apply 2>&1`
-- Bash: `ssh -T git@github.com 2>&1 || true`
+- Bash: `ssh -T [email redacted] 2>&1 || true`
 - Bash: `git config --global gpg.format 2>&1`
 - Bash: `git config --global user.signingkey 2>&1`
 - Bash: `gh extension list 2>&1`
 - Bash: `gh auth status 2>&1`
-- Edit `/Users/4jp/dotfiles/.chezmoiscripts/run_once_after_install-gh-extensions.sh.tmpl`
+- Edit `~/dotfiles/.chezmoiscripts/run_once_after_install-gh-extensions.sh.tmpl`
 
 ---
 

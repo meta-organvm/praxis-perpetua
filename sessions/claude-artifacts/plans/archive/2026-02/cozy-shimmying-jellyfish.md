@@ -2,7 +2,7 @@
 
 ## Context
 
-The `/plugin marketplace add file:///Users/4jp/Workspace/a-i--skills` command cloned the entire skills repo (70MB) into Claude Code's internal plugin storage at `~/.claude/plugins/marketplaces/anthropic-agent-skills/`. This is redundant because the skill-index in CLAUDE.md already points directly to the workspace source at `~/Workspace/a-i--skills/skills/`. The marketplace copy contains only a git clone + generated build artifacts — nothing unique.
+The `/plugin marketplace add file://~/Workspace/a-i--skills` command cloned the entire skills repo (70MB) into Claude Code's internal plugin storage at `~/.claude/plugins/marketplaces/anthropic-agent-skills/`. This is redundant because the skill-index in CLAUDE.md already points directly to the workspace source at `~/Workspace/a-i--skills/skills/`. The marketplace copy contains only a git clone + generated build artifacts — nothing unique.
 
 ## What exists
 

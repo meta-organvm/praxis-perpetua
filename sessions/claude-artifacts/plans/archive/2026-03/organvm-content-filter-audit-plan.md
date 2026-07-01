@@ -6,7 +6,7 @@
 ## Phase 1: Registry Extraction & Analysis Setup
 
 ### Task 1.1: Extract Registry JSON
-- **Action**: Parse the cached registry-v2.json file from `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- **Action**: Parse the cached registry-v2.json file from `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
 - **Expected Output**: Complete registry structure with all 101 repository entries
 - **Key Fields to Extract**:
   - `name`: Repository name (e.g., "recursive-engine", "public-record-data-scrapper")

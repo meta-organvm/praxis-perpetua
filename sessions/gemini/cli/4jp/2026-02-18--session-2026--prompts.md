@@ -1,7 +1,7 @@
 # Gemini Session: 2026-02-18
 
 **Session ID:** `session-2026-02-18T13-57-a8d55463`
-**Project:** `4jp`
+**Project:** `[user]`
 **Source:** gemini-cli
 **Duration:** ~20h 52m
 **Prompts:** 7
@@ -50,12 +50,12 @@ let's simply disable domus and daemon auto sorting, desktop router, downloads-ti
 Last login: Wed Feb 18 12:42:30 on ttys002
 
 ~ ☸ kind-prd 
-❯ launchctl unload ~/Library/LaunchAgents/com.4jp.desktop-router.plist
+❯ launchctl unload ~/Library/LaunchAgents/com.[user].desktop-router.plist
 Unload failed: 5: Input/output error
 Try running `launchctl bootout` as root for richer errors.
 
 ~ ☸ kind-prd 
-❯ launchctl unload ~/Library/LaunchAgents/com.4jp.downloads-tidy.plist
+❯ launchctl unload ~/Library/LaunchAgents/com.[user].downloads-tidy.plist
 Unload failed: 5: Input/output error
 Try running `launchctl bootout` as root for richer errors.
 

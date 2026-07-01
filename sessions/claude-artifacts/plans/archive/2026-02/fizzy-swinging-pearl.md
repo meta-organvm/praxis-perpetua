@@ -2,7 +2,7 @@
 
 ## Context
 
-The dotfiles repo was renamed from `~/dotfiles` to `~/domus-semper-palingenesis` and the GitHub remote was updated to `git@github.com:4444J99/domus-semper-palingenesis.git`. Chezmoi is broken because its config still points to the old path. Additionally, 34 files in the repo contain references to `~/dotfiles` that need selective updating.
+The dotfiles repo was renamed from `~/dotfiles` to `~/domus-semper-palingenesis` and the GitHub remote was updated to `[email redacted]:4444J99/domus-semper-palingenesis.git`. Chezmoi is broken because its config still points to the old path. Additionally, 34 files in the repo contain references to `~/dotfiles` that need selective updating.
 
 ## Step 1: Fix chezmoi config (critical fix)
 
@@ -10,7 +10,7 @@ The dotfiles repo was renamed from `~/dotfiles` to `~/domus-semper-palingenesis`
 
 Change line 1:
 ```
-sourceDir = "/Users/4jp/dotfiles"  →  sourceDir = "/Users/4jp/domus-semper-palingenesis"
+sourceDir = "~/dotfiles"  →  sourceDir = "~/domus-semper-palingenesis"
 ```
 
 ## Step 2: Update path references in repo files

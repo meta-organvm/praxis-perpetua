@@ -8,8 +8,8 @@ import re
 import sys
 from pathlib import Path
 
-ROLLUP = Path("/Users/4jp/Workspace/SpecStory, Markdown v2.md")
-OUT = Path("/Users/4jp/Workspace/.specstory/rollup-manifest.tsv")
+ROLLUP = Path("~/Workspace/SpecStory, Markdown v2.md")
+OUT = Path("~/Workspace/.specstory/rollup-manifest.tsv")
 
 HEADER_RE = re.compile(r"^# (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}(?:[+-]\d{4}|Z))$")
 UUID_RE = re.compile(r"^<!-- Claude Code Session ([0-9a-f-]+) \(.+\) -->$")

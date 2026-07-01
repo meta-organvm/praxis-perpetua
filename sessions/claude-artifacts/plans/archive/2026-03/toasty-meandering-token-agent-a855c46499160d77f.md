@@ -18,7 +18,7 @@ Locate and analyze all MCP (Model Context Protocol) server configuration files o
 3. `~/.claude/**/*mcp*.json` - All MCP-related config files in Claude config directory
 4. `~/.claude/**/claude.json` - Any claude.json files in subdirectories
 5. `~/` (home directory root) - Any *.mcp.json or mcp.json files
-6. `~/.claude/projects/-Users-4jp/` - Project-specific settings
+6. `~/.claude/projects/-Users-[user]/` - Project-specific settings
 
 ## Implementation Plan
 
@@ -26,19 +26,19 @@ Locate and analyze all MCP (Model Context Protocol) server configuration files o
 **Tools:** Read (file_path parameter), Glob
 
 #### Step 1.1: Check primary settings files
-- Read `/Users/4jp/.claude/settings.json` → Extract MCP server configuration blocks
-- Read `/Users/4jp/.claude/settings.local.json` → Extract local overrides
+- Read `~/.claude/settings.json` → Extract MCP server configuration blocks
+- Read `~/.claude/settings.local.json` → Extract local overrides
 
 #### Step 1.2: Search for MCP config files using Glob patterns
-- Pattern 1: `/Users/4jp/.claude/**/*mcp*.json` → Find all MCP-related configs
-- Pattern 2: `/Users/4jp/.claude/**/claude.json` → Find claude.json files
-- Pattern 3: `/Users/4jp/*mcp*.json` → Find MCP files in home directory
-- Pattern 4: `/Users/4jp/claude.json` → Check home directory root
+- Pattern 1: `~/.claude/**/*mcp*.json` → Find all MCP-related configs
+- Pattern 2: `~/.claude/**/claude.json` → Find claude.json files
+- Pattern 3: `~/*mcp*.json` → Find MCP files in home directory
+- Pattern 4: `~/claude.json` → Check home directory root
 
 #### Step 1.3: Check project-specific settings
-- Read `/Users/4jp/.claude/projects/-Users-4jp/settings.json` → Project-level MCP config
-- Read `/Users/4jp/.claude/projects/-Users-4jp/settings.local.json` → Project local overrides
-- Glob `/Users/4jp/.claude/projects/-Users-4jp/**/*mcp*.json` → Project-level MCP files
+- Read `~/.claude/projects/-Users-[user]/settings.json` → Project-level MCP config
+- Read `~/.claude/projects/-Users-[user]/settings.local.json` → Project local overrides
+- Glob `~/.claude/projects/-Users-[user]/**/*mcp*.json` → Project-level MCP files
 
 ### Phase 2: Configuration Analysis (READ-ONLY)
 Once all files are located:
@@ -82,7 +82,7 @@ Likely structure in settings.json:
 - Use correct Read parameter name: `file_path` (NOT `path`)
 - Use Glob tool for pattern matching (returns file paths to check)
 - Chain Read calls after Glob results to examine contents
-- All file paths must be absolute paths starting with `/Users/4jp`
+- All file paths must be absolute paths starting with `/Users/[user]`
 
 ## Search Execution Order
 1. Primary settings files first (broadest scope)

@@ -1,0 +1,9 @@
+# Large JSONL data files — regenerable from scripts
+# Keep local, back up separately. The scripts + reports are the durable artifacts.
+*.jsonl
+
+# Dialogue markdown files — 295 files, 48MB, regenerable
+dialogues/
+
+# Snapshots — point-in-time copies, regenerable
+snapshots/

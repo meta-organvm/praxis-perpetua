@@ -41,14 +41,14 @@ With TRIPARTITUM (Sprint 20) complete, the entire "Infrastructure Repair" catego
 - Glob `docs/applications/**/*`
 - Glob `applications/**/*`
 - Glob `docs/essays/**/*`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/07-submission-bundles.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/04-application-tracker.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/metrics-snapshot.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/system-overview.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/05-google-creative-lab-five-responses.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/google-creative.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/anthropic-fde-custom-agents.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/anthropic-se-claude-code.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/07-submission-bundles.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/04-application-tracker.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/metrics-snapshot.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/system-overview.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/05-google-creative-lab-five-responses.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/google-creative.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/anthropic-fde-custom-agents.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/applications/cover-letters/anthropic-se-claude-code.md`
 - *...and 148 more*
 
 ---
@@ -58,7 +58,7 @@ With TRIPARTITUM (Sprint 20) complete, the entire "Infrastructure Repair" catego
 this is why i said multiple times throughout our sessions we need to use variables that will contain up-to-date information constantly, this way when new implementations, new repos, new essays, new whatever, get implemented the updates witll cascade; as for my applications separately; am i actually aligned with these things? i am having imposter syndrome
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/radiant-popping-hoare.md`
+- Read `~/.claude/plans/radiant-popping-hoare.md`
 
 ---
 
@@ -77,16 +77,16 @@ Let me chronologically analyze the conversation:
 
 **Actions taken:**
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/calculate-metrics.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.json`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/praxis-application-generator.py`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/metrics-snapshot.md`
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/calculate-metrics.py`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/system-metrics.json`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/praxis-application-generator.py`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/applications/shared/metrics-snapshot.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/README.md`
 - Glob `scripts/*.py`
 - Task
-- Read `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/praxis-metrics-dashboard.py`
-- Read `/Users/4jp/.claude/plans/radiant-popping-hoare.md`
-- Write `/Users/4jp/.claude/plans/radiant-popping-hoare.md`
+- Read `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/scripts/praxis-metrics-dashboard.py`
+- Read `~/.claude/plans/radiant-popping-hoare.md`
+- Write `~/.claude/plans/radiant-popping-hoare.md`
 - ExitPlanMode
 
 ---

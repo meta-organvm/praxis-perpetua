@@ -87,8 +87,8 @@
 ## Files to Access
 
 ### High Priority
-- `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
-- `/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/governance-rules.json`
+- `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json`
+- `~/Workspace/meta-organvm/organvm-corpvs-testamentvm/governance-rules.json`
 - Omega scorecard document (location TBD)
 
 ### Medium Priority

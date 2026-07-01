@@ -29,8 +29,8 @@ Understand classification patterns established for repos NOT classified as "limi
 - Establish decision tree or rubric for moving liminal repos into appropriate organs
 
 ## Files Reference
-- Source: /Users/4jp/world/_registry/topology_manifest.json (75.5KB, requires Grep filtering)
-- Reference: /Users/4jp/world/_registry/organ_charter_v0.md (fully read, available in context)
+- Source: ~/world/_registry/topology_manifest.json (75.5KB, requires Grep filtering)
+- Reference: ~/world/_registry/organ_charter_v0.md (fully read, available in context)
 
 ## Key Organ Purposes (from charter)
 - **organ_i**: Conceptual structures - rules, grammars, ontologies, meaning-structures

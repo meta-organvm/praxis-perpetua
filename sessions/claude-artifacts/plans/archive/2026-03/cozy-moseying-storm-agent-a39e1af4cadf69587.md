@@ -1,7 +1,7 @@
 # Testing State Audit Plan for organvm-iii-ergon
 
 **Date**: 2026-02-27  
-**Scope**: Comprehensive testing state analysis across 27 submodules in `/Users/4jp/Workspace/organvm-iii-ergon/`  
+**Scope**: Comprehensive testing state analysis across 27 submodules in `~/Workspace/organvm-iii-ergon/`  
 **Status**: PLANNING
 
 ## Objective

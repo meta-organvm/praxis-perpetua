@@ -1,7 +1,7 @@
 # Application Pipeline Repository Exploration Plan
 
 **Date:** 2026-02-23  
-**Objective:** Thoroughly explore `/Users/4jp/Workspace/4444J99/application-pipeline/` across six key directories with comprehensive assessment criteria.
+**Objective:** Thoroughly explore `~/Workspace/4444J99/application-pipeline/` across six key directories with comprehensive assessment criteria.
 
 ## Exploration Strategy
 

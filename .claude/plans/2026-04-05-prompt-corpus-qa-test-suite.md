@@ -165,7 +165,7 @@ spec.loader.exec_module(mod)
 ## Verification
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/praxis-perpetua/prompt-corpus
+cd ~/Workspace/meta-organvm/praxis-perpetua/prompt-corpus
 python3 -m pytest tests/ -v --tb=short
 ```
 

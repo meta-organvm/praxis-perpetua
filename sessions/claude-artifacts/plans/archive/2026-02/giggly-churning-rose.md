@@ -240,7 +240,7 @@ fi
 | Line | Current | Fix |
 |---|---|---|
 | 9 | `author: '{{ORG_AUTHOR}}'` | `author: 'ivviiviivvi'` |
-| 10 | `email: support@{{ORG_DOMAIN}}` | `email: support@ivviiviivvi.com` |
+| 10 | `email: support@{{ORG_DOMAIN}}` | `email: [email redacted]` |
 | 189 | `og_image: /assets/images/og-image.png` | `og_image: /assets/images/social-preview.png` |
 | 188 | `twitter_creator: '{{ORG_TWITTER}}'` | Remove or set to actual handle |
 

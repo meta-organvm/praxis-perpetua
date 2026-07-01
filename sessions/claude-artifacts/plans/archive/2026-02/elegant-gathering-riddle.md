@@ -17,7 +17,7 @@ Additionally: 5 submodules have tracked `.DS_Store` files, a few repos have subs
 Global gitignore at `~/.config/git/ignore` already covers `.DS_Store`. These need `git rm --cached` to stop tracking.
 
 ```bash
-cd /Users/4jp/Workspace/organvm-ii-poiesis
+cd ~/Workspace/organvm-ii-poiesis
 cd .github && git rm --cached .DS_Store && cd ..
 cd academic-publication && git rm --cached .DS_Store && git rm --cached papers/.DS_Store && cd ..
 cd artist-toolkit-and-templates && git rm --cached .DS_Store && cd ..
@@ -128,7 +128,7 @@ cd ..
 ### 4a. Stage all submodule pointer updates (except MET4)
 
 ```bash
-cd /Users/4jp/Workspace/organvm-ii-poiesis
+cd ~/Workspace/organvm-ii-poiesis
 git add .github a-i-council--coliseum a-mavs-olevm academic-publication alchemical-synthesizer archive-past-works art-from--auto-revision-epistemic-engine art-from--narratological-algorithmic-lenses artist-toolkit-and-templates audio-synthesis-bridge case-studies-methodology chthon-oneiros client-sdk core-engine docs example-ai-collaboration example-choreographic-interface example-generative-music example-generative-visual example-interactive-installation example-theatre-dialogue ivi374ivi027-05 krypto-velamen learning-resources life-betterment-simulation metasystem-master performance-sdk shared-remembrance-gateway showcase-portfolio universal-waveform-explorer
 git commit -m "chore: sync submodule pointers after context file sync and cleanup"
 ```

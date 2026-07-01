@@ -12,7 +12,7 @@
 ### P1 — 2026-01-27 17:43:50
 
 Project: knowledge-base
- Location: /Users/4jp/Workspace/knowledge-base
+ Location: ~/Workspace/knowledge-base
  Your workstreams: #3 (Documentation), #5 (Feature Design), #6B
  (Assessment)
 

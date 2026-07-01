@@ -51,7 +51,7 @@ The first 8 sprints resolved 20 of 25 gaps (G1-G9, G12, G17, G19-G25) across 8 c
 - TaskOutput
 - TaskOutput
 - TaskUpdate
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/components/MaskSelector.tsx`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/components/MaskSelector.tsx`
 - *...and 57 more*
 
 ---
@@ -72,25 +72,25 @@ Let me chronologically analyze the conversation:
 
 **Actions taken:**
 - TaskList
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/interviews.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/pubsub.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/graphql-resolvers.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/interviews.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/interviews.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/services/pubsub.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/services/graphql-resolvers.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/interviews.ts`
 - Glob `apps/api/src/db/migrations/*.sql`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/content-model/src/compatibility.ts`
+- Read `~/Workspace/life-my--midst--in/packages/content-model/src/compatibility.ts`
 - Glob `**/migrations/*.sql`
 - Glob `**/migrations/**`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/interviews.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/interviews.ts`
 - Grep `interviewRoutes`
 - Grep `pubsub`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/packages/content-model/src/index.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/pubsub.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Read `~/Workspace/life-my--midst--in/packages/content-model/src/index.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/services/pubsub.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/services/graphql-schema.ts`
 - *...and 50 more*
 
 ---
@@ -109,26 +109,26 @@ Let me chronologically analyze the conversation:
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/agents.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/llm.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/config.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/agents.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/llm.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/config.ts`
 - Task
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/tools.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/tools.ts`
 - Glob `apps/orchestrator/test/**/*.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/agents/reviewer.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/agents/tester.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/test/agents.test.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/test/tools.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/agents/reviewer.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/src/agents/tester.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/test/agents.test.ts`
+- Read `~/Workspace/life-my--midst--in/apps/orchestrator/test/tools.test.ts`
 - Glob `docs/adr/ADR-01*.md`
 - Glob `docs/**/ADR*.md`
 - Glob `docs/**/*adr*`
-- Bash: `find /Users/4jp/Workspace/life-my--midst--in/docs -name "*ADR*" -o -name "*adr*"`
-- Bash: `ls /Users/4jp/Workspace/life-my--midst--in/docs/adr/`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docs/adr/012-did-resolver-architecture.md`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/agents.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/src/agents.ts`
-- Write `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/test/tool-definitions.test.ts`
-- Write `/Users/4jp/Workspace/life-my--midst--in/apps/orchestrator/test/react-loop.test.ts`
+- Bash: `find ~/Workspace/life-my--midst--in/docs -name "*ADR*" -o -name "*adr*"`
+- Bash: `ls ~/Workspace/life-my--midst--in/docs/adr/`
+- Read `~/Workspace/life-my--midst--in/docs/adr/012-did-resolver-architecture.md`
+- Edit `~/Workspace/life-my--midst--in/apps/orchestrator/src/agents.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/orchestrator/src/agents.ts`
+- Write `~/Workspace/life-my--midst--in/apps/orchestrator/test/tool-definitions.test.ts`
+- Write `~/Workspace/life-my--midst--in/apps/orchestrator/test/react-loop.test.ts`
 - *...and 81 more*
 
 ---
@@ -140,31 +140,31 @@ This session is being continued from a previous conversation that ran out of con
 Analysis:
 Let me chronologically analyze the conversation to capture all important details.
 
-1. **Session Context**: This is a continuation of a previous session that ran out of context. The previous session had completed Sprints 1 (G13), 2 (G18), 3 (G11), and partially started Sprint 4 (G15). The plan file is at `/Users/4jp/.claude/plans/parsed
+1. **Session Context**: This is a continuation of a previous session that ran out of context. The previous session had completed Sprints 1 (G13), 2 (G18), 3 (G11), and partially started Sprint 4 (G15). The plan file is at `~/.claude/plans/parsed
 
 *[truncated — full text in JSONL]*
 
 **Actions taken:**
 - TaskList
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/sbt.ts`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/components/MaskEditor.tsx`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Read `~/Workspace/life-my--midst--in/apps/api/src/routes/sbt.ts`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/components/MaskEditor.tsx`
 - Grep `optionalAuthPrefixes`
 - Glob `docs/phases/PHASE-9*`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
+- Read `~/Workspace/life-my--midst--in/docs/SEED-ALIGNMENT-AUDIT.md`
 - Grep `G16`
-- Read `/Users/4jp/Workspace/life-my--midst--in/docs/phases/PHASE-9-PLAN.md`
-- Write `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/routes/marketplace.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Edit `/Users/4jp/Workspace/life-my--midst--in/apps/api/src/index.ts`
-- Bash: `ls /Users/4jp/Workspace/life-my--midst--in/apps/web/src/app/`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/app/dashboard/page.tsx`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/app/layout.tsx`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/app/artifacts/page.tsx`
+- Read `~/Workspace/life-my--midst--in/docs/phases/PHASE-9-PLAN.md`
+- Write `~/Workspace/life-my--midst--in/apps/api/src/routes/marketplace.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Edit `~/Workspace/life-my--midst--in/apps/api/src/index.ts`
+- Bash: `ls ~/Workspace/life-my--midst--in/apps/web/src/app/`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/app/dashboard/page.tsx`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/app/layout.tsx`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/app/artifacts/page.tsx`
 - Glob `apps/web/src/app/artifacts/**/page.tsx`
 - Glob `apps/web/src/app/billing/**/page.tsx`
-- Read `/Users/4jp/Workspace/life-my--midst--in/apps/web/src/app/artifacts/pending/page.tsx`
+- Read `~/Workspace/life-my--midst--in/apps/web/src/app/artifacts/pending/page.tsx`
 - *...and 40 more*
 
 ---

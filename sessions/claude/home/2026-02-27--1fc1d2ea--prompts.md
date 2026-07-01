@@ -33,20 +33,20 @@ The captain's log (`public-process/_logs/`) currently requires manually writing 
 - Bash: `ls -la ~/Workspace/organvm-v-logos/essay-pipeline/src/`
 - Bash: `ls -la ~/Workspace/organvm-v-logos/public-process/_logs/ 2>/dev/null || echo "No`
 - Bash: `ls -la ~/Workspace/organvm-v-logos/public-process/_layouts/ 2>/dev/null || echo `
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/pyproject.toml`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/validator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_layouts/log.html`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_logs/2026-02-27-captains-log.md`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/pyproject.toml`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/indexer.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/validator.py`
+- Read `~/Workspace/organvm-v-logos/public-process/_layouts/log.html`
+- Read `~/Workspace/organvm-v-logos/public-process/_logs/2026-02-27-captains-log.md`
 - Bash: `ls ~/Workspace/organvm-v-logos/essay-pipeline/tests/`
 - Bash: `ls ~/Workspace/organvm-v-logos/public-process/data/`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_indexer.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_indexer.py`
 - TaskCreate
 - TaskCreate
 - TaskCreate
 - TaskCreate
 - TaskUpdate
-- Write `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Write `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
 - *...and 19 more*
 
 ---
@@ -71,7 +71,7 @@ feat: add workspace activity scanner and captain's `
 yes, commit to public-process too
 
 **Actions taken:**
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git status`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git status`
 - Bash: `git diff`
 - Bash: `git log --oneline -5`
 - Bash: `git add _layouts/log.html && git commit -m "$(cat <<'EOF'
@@ -89,7 +89,7 @@ stage all, commit all, origin push;
 chore: add _site to gitignore`
 - Bash: `git status`
 - Bash: `git push origin main`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/essay-pipeline && git push origin main`
+- Bash: `cd ~/Workspace/organvm-v-logos/essay-pipeline && git push origin main`
 
 ---
 
@@ -98,25 +98,25 @@ chore: add _site to gitignore`
 dry-run the log generator for today
 
 **Actions taken:**
-- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace /Users/4jp/`
-- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace /Users/4jp/`
+- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace ~/`
+- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace ~/`
 - Bash: `git log --since=2026-02-27 --until=2026-02-28 --format='%H|%ai|%s' --no-merges 2`
 - Bash: `git log --oneline -3 --format='%ai %s'`
 - Bash: `git log --since="2026-02-27" --until="2026-02-28" --format='%ai %s' --no-merges `
 - Bash: `TZ=UTC git log --since="2026-02-27T00:00:00" --until="2026-02-28T23:59:59" --for`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Edit `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Edit `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Edit `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Edit `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
 - Bash: `source .venv/bin/activate && pytest tests/test_log_generator.py -v 2>&1`
-- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace /Users/4jp/`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Edit `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Edit `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace ~/`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Edit `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Edit `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
 - Bash: `source .venv/bin/activate && pytest tests/test_log_generator.py -v 2>&1 && ruff `
 - *...and 1 more*
 
@@ -139,17 +139,17 @@ fix: anchor bare da`
 re-generate today's log
 
 **Actions taken:**
-- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace /Users/4jp/`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git diff _logs/2026-02`
+- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace ~/`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git diff _logs/2026-02`
 - Bash: `git checkout -- _logs/2026-02-27-captains-log.md`
 - Bash: `ls -la data/activity/ && echo "---" && head -20 data/activity/2026-02-27.json`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Edit `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/essay-pipeline && source .venv/bin/activ`
-- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace /Users/4jp/`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Edit `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Bash: `cd ~/Workspace/organvm-v-logos/essay-pipeline && source .venv/bin/activ`
+- Bash: `source .venv/bin/activate && python -m src.log_generator --workspace ~/`
 - Bash: `git add src/log_generator.py && git commit -m "$(cat <<'EOF'
 fix: prevent log ge`
-- Bash: `cd /Users/4jp/Workspace/organvm-v-logos/public-process && git status`
+- Bash: `cd ~/Workspace/organvm-v-logos/public-process && git status`
 - Bash: `git add data/activity/2026-02-27.json && git commit -m "$(cat <<'EOF'
 chore: add`
 
@@ -160,15 +160,15 @@ chore: add`
 i want the log to assume the tone of the anima, the animus, the id, the ego, and the superego, covering all sides of human psychology; it shouldn't read like a technical log, but a dialogue between those aformentioned voices;
 
 **Actions taken:**
-- Read `/Users/4jp/.claude/plans/iterative-nibbling-lamport.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/public-process/_logs/2026-02-27-captains-log.md`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
-- Read `/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
+- Read `~/.claude/plans/iterative-nibbling-lamport.md`
+- Read `~/Workspace/organvm-v-logos/public-process/_logs/2026-02-27-captains-log.md`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/src/log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
+- Read `~/Workspace/organvm-v-logos/essay-pipeline/tests/test_log_generator.py`
 - AskUserQuestion
-- Write `/Users/4jp/.claude/plans/iterative-nibbling-lamport.md`
+- Write `~/.claude/plans/iterative-nibbling-lamport.md`
 - ExitPlanMode
 
 ---
