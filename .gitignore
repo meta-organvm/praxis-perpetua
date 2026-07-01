@@ -53,3 +53,7 @@ htmlcov/
 .env
 .env.local
 .env.*.local
+
+# removed inadvertently-committed local session artifacts (PII containment)
+prompt-corpus
+2026-04-28-005227-im-going-to-provide-you-disparate-sessions-of-wo.txt
