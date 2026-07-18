@@ -1,0 +1,26 @@
+{
+  "execution_timeout_seconds": 3600,
+  "external_transmission": "public_only",
+  "ingest_destination": "private-owner://limen/perplexity-exports/standards-provider-changes.md",
+  "launch_url": "https://www.perplexity.ai/",
+  "operator_actions": [
+    "Open the attended Limen Research Project or Space",
+    "Confirm attended preflight: pro_subscription_active",
+    "Confirm attended preflight: authenticated_session_available",
+    "Confirm attended preflight: research_mode_reachable",
+    "Select Research mode and submit the rendered prompt",
+    "Export the completed Session answer as Markdown",
+    "Place the export at the declared ingest destination"
+  ],
+  "outcome_type": "ManualHandoff",
+  "preservation_tier": "public_facing",
+  "project_name": "Limen Research",
+  "prompt_ref": "SGO-REQ-2026-PPLX-PILOT-03.prompt.md",
+  "request_id": "SGO-REQ-2026-PPLX-PILOT-03",
+  "required_export_format": "markdown",
+  "resume_predicate": "The Markdown export exists at the declared ingest destination",
+  "schema_version": "1.0",
+  "selected_profile": "pro_research",
+  "standing_instructions_ref": ".claude/skills/sgo-commission-research/templates/perplexity-project-standing-instructions.md",
+  "status": "ready"
+}

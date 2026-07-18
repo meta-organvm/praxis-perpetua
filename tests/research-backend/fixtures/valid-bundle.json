@@ -1,0 +1,161 @@
+{
+  "pilot_run": true,
+  "request": {
+    "schema_version": "1.0",
+    "request_id": "SGO-REQ-2026-FIXTURE-01",
+    "commission_id": "INQ-2026-014",
+    "requested_at": "2026-07-17T10:00:00Z",
+    "question": "Which first-party controls support the fixture research claim?",
+    "required_capabilities": [
+      "current_web_retrieval",
+      "cited_synthesis",
+      "claim_verification",
+      "markdown_export"
+    ],
+    "freshness": {
+      "published_after": "2024-01-01",
+      "published_before": "2026-07-17",
+      "as_of": "2026-07-17T10:00:00Z"
+    },
+    "domain_constraints": {
+      "allow_domains": [
+        "example.org"
+      ],
+      "source_types": [
+        "official_documentation"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "verification_strength": "primary_source",
+    "preservation_tier": "public_facing",
+    "external_transmission": "public_only",
+    "latency_ceiling_seconds": 3600,
+    "spend_ceiling": {
+      "currency": "USD",
+      "variable_cost": 0
+    },
+    "output_contract": {
+      "format": "markdown",
+      "owner_repo": "organvm/praxis-perpetua",
+      "report_path": "studies/research-backend-fixtures/report.md",
+      "receipt_path": "studies/research-backend-fixtures/report.receipt.json",
+      "raw_export_ref": "private-owner://praxis-perpetua/research-backend-fixtures/export.md",
+      "required_sections": [
+        "findings",
+        "source_manifest",
+        "novel_actionable_findings"
+      ]
+    }
+  },
+  "outcome": {
+    "schema_version": "1.0",
+    "outcome_type": "EvidencePacket",
+    "request_id": "SGO-REQ-2026-FIXTURE-01",
+    "retrieved_at": "2026-07-17T10:10:00Z",
+    "verification_status": "accepted",
+    "source_manifest_hash": "sha256:e6ae6ca8832e3317d3336ea6340809ee0c586ae2ee67b0721a8c6ec64b8f4f30",
+    "claims": [
+      {
+        "claim_id": "CLM-FIXTURE-01",
+        "text": "The first-party fixture source supports the material claim.",
+        "material": true,
+        "classification": "evidence",
+        "source_ids": [
+          "SRC-FIXTURE-01"
+        ],
+        "verification_status": "supported"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "SRC-FIXTURE-01",
+        "title": "Fixture source",
+        "url": "https://example.org/source",
+        "author_or_publisher": "Example Standards Body",
+        "published_at": "2026-07-16",
+        "retrieved_at": "2026-07-17T10:08:00Z",
+        "source_type": "official_documentation",
+        "primary_source": true,
+        "quality_tier": "A",
+        "locator": "Section 1"
+      }
+    ],
+    "contradictions": [],
+    "unknowns": [],
+    "negative_searches": [
+      {
+        "query": "site:example.org contrary fixture evidence",
+        "surface": "official documentation",
+        "searched_at": "2026-07-17T10:07:00Z",
+        "result_count": 0,
+        "disposition": "No contrary first-party result found."
+      }
+    ],
+    "novel_actionable_findings": [
+      "Use the verified control in the next bounded test."
+    ],
+    "durable_output_ref": {
+      "owner_repo": "organvm/praxis-perpetua",
+      "report_path": "studies/research-backend-fixtures/report.md",
+      "receipt_path": "studies/research-backend-fixtures/report.receipt.json",
+      "raw_export_ref": "private-owner://praxis-perpetua/research-backend-fixtures/export.md"
+    }
+  },
+  "receipt": {
+    "schema_version": "1.0",
+    "receipt_id": "SGO-RCT-2026-FIXTURE-01",
+    "request_id": "SGO-REQ-2026-FIXTURE-01",
+    "request_hash": "sha256:b9c5637bc3e5fffeb5d486f4a0c7f32dfc6a36e3557b0018809879f905100a8e",
+    "catalog_hash": "sha256:551efe3c9044a2095f9499b4bb4c2c22322b6d56c8fce6803b21851a54df0c24",
+    "selected_profile": "pro_research",
+    "observed_provider": "Fixture Research Surface",
+    "observed_model": null,
+    "retrieval_started_at": "2026-07-17T10:01:00Z",
+    "retrieval_finished_at": "2026-07-17T10:10:00Z",
+    "source_manifest_hash": "sha256:e6ae6ca8832e3317d3336ea6340809ee0c586ae2ee67b0721a8c6ec64b8f4f30",
+    "outcome_type": "EvidencePacket",
+    "usage": {
+      "currency": "USD",
+      "variable_cost": 0,
+      "requests": 1,
+      "input_tokens": null,
+      "output_tokens": null,
+      "computer_credits": 0,
+      "operator_handling_seconds": 540,
+      "usage_source": "locally_observed"
+    },
+    "verification": {
+      "status": "accepted",
+      "verified_at": "2026-07-17T10:12:00Z",
+      "verifier": "Studium Source Verifier attestation sha256:bed543747c555adacab90904b0f75da7a92effe96dd4acccdcc6011323489c26",
+      "material_claims": 1,
+      "supported_material_claims": 1,
+      "resolvable_citations": 1,
+      "total_citations": 1,
+      "primary_source_citations": 1,
+      "primary_source_ratio": 1,
+      "rejection_reasons": []
+    },
+    "durable_output": {
+      "owner_repo": "organvm/praxis-perpetua",
+      "report_path": "studies/research-backend-fixtures/report.md",
+      "receipt_path": "studies/research-backend-fixtures/report.receipt.json",
+      "raw_export_ref": "private-owner://praxis-perpetua/research-backend-fixtures/export.md"
+    },
+    "privacy": {
+      "preservation_tier": "public_facing",
+      "external_transmission": "public_only",
+      "tracked_output_safe": true,
+      "raw_export_disposition": "private_owner",
+      "private_connected_sources_used": false,
+      "redactions_applied": []
+    },
+    "sanitization": {
+      "contains_credentials": false,
+      "contains_private_prompt_body": false,
+      "contains_sensitive_raw_material": false
+    }
+  }
+}

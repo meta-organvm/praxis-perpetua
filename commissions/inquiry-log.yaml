@@ -504,3 +504,56 @@ commissions:
       - "Plan file persists the exploratory attack-sequence development; this commission is the fixed-form externally-routable distillation."
       - "implementation_commission is a new tier — distinct from Paper/Thesis/Dissertation (which are academic tiers gated by ICC thresholds); represents an architectural-governance commission whose deliverables are infrastructure changes, not certified knowledge claims."
       - "Single-operator validation gap acknowledged in source corpus (SYN-03 §5.4): RES-008 IRA panel and RES-014 context norms cannot be validated from inside ORGANVM alone."
+
+  - id: INQ-2026-014
+    title: >-
+      Perplexity as a Multi-Profile Research Backend — Zero-Variable-Spend
+      Pro Pilot
+    short_name: The Research Backend Pilot
+    work_id: SGO-2026-COM-002
+    tier: implementation_commission
+    faculty: meta-cognition
+    advisory_faculty: [applied-systems, governance]
+    commissioned: 2026-07-17
+    status: commissioned
+    location: praxis-perpetua/commissions/2026-07-17-perplexity-research-pilot/
+    runtime_owner: organvm/limen
+    aggregate_evaluation_owner: organvm/praxis-perpetua
+    runs:
+      - id: SGO-REQ-2026-PPLX-PILOT-01
+        category: jetsam_tuning
+        owner_repo: organvm/domus-genoma
+      - id: SGO-REQ-2026-PPLX-PILOT-02
+        category: academic_discovery
+        owner_repo: organvm/praxis-perpetua
+      - id: SGO-REQ-2026-PPLX-PILOT-03
+        category: standards_provider_changes
+        owner_repo: organvm/limen
+      - id: SGO-REQ-2026-PPLX-PILOT-04
+        category: public_claim_due_diligence
+        owner_repo: organvm/praxis-perpetua
+    pass_criteria:
+      accepted_packets_minimum: 3
+      material_claim_citation_resolution: 1.0
+      primary_source_citation_ratio_minimum: 0.8
+      durable_owner_report_and_receipt_per_run: true
+      novel_actionable_finding_per_accepted_packet: true
+      operator_handling_minutes_maximum_per_run: 20
+      variable_perplexity_spend_usd: 0
+    failure_effect: >-
+      Disable pro_research and forbid API spending until a new value case is
+      accepted.
+    success_effect: >-
+      Keep pro_research enabled; a separate credential, credit, catalog, and
+      spend decision is still required before any API profile activates.
+    notes:
+      - "Perplexity is a research backend, not an agent-registry member."
+      - >-
+        Pro runs are attended ManualHandoff outcomes and require Markdown
+        export.
+      - >-
+        Praxis owns aggregate evaluation; each requesting repo owns its report
+        and receipt.
+      - >-
+        Computer, scheduling, connectors, purchases, messages, and external
+        writes remain prohibited.

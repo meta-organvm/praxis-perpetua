@@ -1,0 +1,278 @@
+---
+schema_version: "1.0"
+registry_id: sgo-research-backends
+updated: "2026-07-17"
+owner: Studium Generale ORGANVM
+
+startup:
+  open_provider_surfaces: false
+  background_execution: false
+  scheduled_execution: false
+  automatic_refill_allowed: false
+  activation: qualifying_request_only
+
+selection:
+  basis:
+    - required_capabilities
+    - preservation_tier
+    - external_transmission
+    - verification_strength
+    - health
+    - spend_ceiling
+    - latency_ceiling
+  provider_catalog: discover_live
+  insufficient_metadata_behavior: provider_auto
+  model_ids_allowed_in_registry: false
+  silent_fallback: forbidden
+  unavailable_outcomes:
+    - ManualHandoff
+    - BlockedReceipt
+
+profiles:
+  pro_research:
+    state: enabled
+    activation: on_demand_attended
+    execution_kind: manual_handoff
+    outcome_type: ManualHandoff
+    verification_strength: systematic
+    preservation_tiers:
+      - public_facing
+      - operational_internal
+    external_transmission:
+      - public_only
+      - sanitized_only
+    variable_cost_usd: 0
+    execution_timeout_seconds: 3600
+    provider_surface: perplexity_pro_research
+    subscription_policy: existing_subscription_only
+    capabilities:
+      - current_web_retrieval
+      - multi_source_research
+      - cited_synthesis
+      - literature_discovery
+      - claim_verification
+      - markdown_export
+    guardrails:
+      attended_session_required: true
+      project_name: Limen Research
+      required_export_format: markdown
+      standing_instructions_ref: >-
+        .claude/skills/sgo-commission-research/templates/perplexity-project-standing-instructions.md
+      launch_url: https://www.perplexity.ai/
+      no_scheduling: true
+      no_connectors: true
+      no_purchases: true
+      no_messages: true
+      no_external_writes: true
+      private_connected_sources_allowed: false
+      no_model_choice: true
+      variable_spend_ceiling: 0
+    health:
+      machine:
+        required_profile_state: enabled
+        request_compatibility_required: true
+        owner_output_paths_required: true
+        required_export_format: markdown
+        maximum_variable_cost_usd: 0
+        enforce_execution_timeout: true
+      attended:
+        disposition: defer_to_manual_handoff
+        live_authentication_asserted: false
+        checks_deferred:
+          - pro_subscription_active
+          - authenticated_session_available
+          - research_mode_reachable
+      failure_outcome: ManualHandoff
+
+  pro_computer:
+    state: disabled
+    activation: explicit_future_enablement
+    execution_kind: manual_handoff
+    outcome_type: ManualHandoff
+    verification_strength: basic
+    preservation_tiers:
+      - public_facing
+      - operational_internal
+    external_transmission:
+      - public_only
+      - sanitized_only
+    variable_cost_usd: null
+    provider_surface: perplexity_computer
+    capabilities:
+      - multi_step_browser_research
+    guardrails:
+      attended_session_required: true
+      no_scheduling: true
+      no_connectors: true
+      no_purchases: true
+      no_messages: true
+      no_external_writes: true
+      private_connected_sources_allowed: false
+      automatic_refill_must_be_off: true
+    health:
+      machine:
+        required_profile_state: enabled
+        live_computer_credit_balance_required: true
+        automatic_refill_state_required: "off"
+        separate_value_case_required: true
+        request_spend_ceiling_required: true
+      attended:
+        disposition: defer_to_manual_handoff
+        live_authentication_asserted: false
+        checks_deferred:
+          - authenticated_session_available
+          - computer_surface_reachable
+      failure_outcome: BlockedReceipt
+
+  api_search:
+    state: dormant
+    activation: credential_and_spend_gated
+    execution_kind: automated_adapter
+    outcome_type: EvidencePacket
+    verification_strength: basic
+    preservation_tiers:
+      - public_facing
+      - operational_internal
+    external_transmission:
+      - public_only
+      - sanitized_only
+    variable_cost_usd: null
+    provider_surface: perplexity_search_api
+    capabilities:
+      - current_web_retrieval
+      - ranked_structured_results
+      - domain_filtering
+      - source_discovery
+    guardrails:
+      generated_synthesis_expected: false
+      explicit_spend_ceiling_required: true
+      automatic_refill_allowed: false
+      private_connected_sources_allowed: false
+      no_model_selection: true
+    health:
+      machine:
+        required_profile_state: enabled
+        credential_presence_required: true
+        credential_value_inspection_allowed: false
+        api_credit_state_required: funded
+        automatic_top_up_state_required: "off"
+        live_pricing_required: true
+        request_spend_ceiling_required: true
+        projected_cost_required: true
+        projected_cost_within_request_ceiling_required: true
+      attended:
+        disposition: not_applicable
+        live_authentication_asserted: false
+        checks_deferred: []
+      failure_outcome: BlockedReceipt
+
+  api_synthesis:
+    state: dormant
+    activation: credential_catalog_and_spend_gated
+    execution_kind: automated_adapter
+    outcome_type: EvidencePacket
+    verification_strength: corroborated
+    preservation_tiers:
+      - public_facing
+      - operational_internal
+    external_transmission:
+      - public_only
+      - sanitized_only
+    variable_cost_usd: null
+    provider_surface: live_api_catalog
+    capabilities:
+      - current_web_retrieval
+      - cited_synthesis
+      - structured_output
+    guardrails:
+      live_capability_discovery_required: true
+      provider_auto_when_metadata_insufficient: true
+      fixed_model_ids_forbidden: true
+      explicit_spend_ceiling_required: true
+      automatic_refill_allowed: false
+      private_connected_sources_allowed: false
+    health:
+      machine:
+        required_profile_state: enabled
+        credential_presence_required: true
+        credential_value_inspection_allowed: false
+        api_credit_state_required: funded
+        automatic_top_up_state_required: "off"
+        live_catalog_required: true
+        live_pricing_required: true
+        request_spend_ceiling_required: true
+        projected_cost_required: true
+        projected_cost_within_request_ceiling_required: true
+      attended:
+        disposition: not_applicable
+        live_authentication_asserted: false
+        checks_deferred: []
+      failure_outcome: BlockedReceipt
+
+  provider_auto:
+    state: available
+    activation: on_demand
+    execution_kind: capability_discovery
+    outcome_type: selected_adapter
+    verification_strength: systematic
+    preservation_tiers:
+      - public_facing
+      - operational_internal
+    external_transmission:
+      - public_only
+      - sanitized_only
+    variable_cost_usd: null
+    provider_surface: provider_neutral
+    capabilities:
+      - live_provider_discovery
+      - capability_ranking
+      - privacy_ranking
+      - cost_ranking
+      - latency_ranking
+    guardrails:
+      fixed_provider_order_forbidden: true
+      fixed_model_ids_forbidden: true
+      no_capability_guessing_from_names: true
+      request_constraints_authoritative: true
+      private_connected_sources_allowed: false
+    health:
+      machine:
+        required_profile_state: available
+        reachable_adapter_required: true
+        selected_adapter_health_required: true
+        selected_adapter_cost_required: true
+        selected_adapter_within_request_ceiling_required: true
+        request_compatibility_required: true
+      attended:
+        disposition: selected_adapter
+        live_authentication_asserted: false
+        checks_deferred: []
+      failure_outcome: BlockedReceipt
+
+observed_current:
+  checked_at: "2026-07-17"
+  refresh_before_activation: true
+  notes:
+    - >-
+      Research mode automatically selects its models; the user cannot choose a
+      specific model in that mode. Pro subscribers receive extended access.
+    - >-
+      Perplexity Session answers can currently be exported as PDF, Markdown, or
+      DOCX. This workflow requires Markdown.
+    - >-
+      The Search API returns raw structured results. Generated cited prose is a
+      separate Agent API surface.
+    - >-
+      Current published Search API pricing is pay-as-you-go at USD 5 per 1,000
+      requests. This is an observation, not a future price promise.
+    - >-
+      Ask and standard searches do not consume Computer credits; Computer does.
+      Credit auto-refill is off by default, but the live setting must still be
+      verified before Computer activation.
+  sources:
+    - https://www.perplexity.ai/help-center/en/articles/10738684-what-is-research-mode
+    - https://www.perplexity.ai/help-center/en/articles/10354769-what-is-a-thread
+    - https://www.perplexity.ai/help-center/en/articles/13838041-how-credits-work-on-perplexity
+    - https://docs.perplexity.ai/docs/search/quickstart
+    - https://docs.perplexity.ai/docs/agent-api/quickstart
+    - https://docs.perplexity.ai/docs/getting-started/pricing

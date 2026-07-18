@@ -1,0 +1,51 @@
+---
+schema_version: "1.0"
+request_id: SGO-REQ-2026-PPLX-PILOT-04
+commission_id: INQ-2026-014
+requested_at: "2026-07-17T00:00:00Z"
+question: >-
+  Which public-facing claims in the proposed SGO Perplexity research workflow
+  about Pro access, Research model selection, export formats, API separation,
+  pricing, Computer credits, and automatic refill are supported,
+  contradicted, or not established by current first-party sources?
+required_capabilities:
+  - current_web_retrieval
+  - multi_source_research
+  - cited_synthesis
+  - claim_verification
+  - markdown_export
+freshness:
+  as_of: "2026-07-17T00:00:00Z"
+domain_constraints:
+  allow_domains:
+    - perplexity.ai
+    - docs.perplexity.ai
+  source_types:
+    - official_documentation
+    - official_help_center
+    - official_pricing
+  languages:
+    - en
+verification_strength: primary_source
+preservation_tier: public_facing
+external_transmission: public_only
+latency_ceiling_seconds: 3600
+spend_ceiling:
+  currency: USD
+  variable_cost: 0
+output_contract:
+  format: markdown
+  owner_repo: organvm/praxis-perpetua
+  report_path: "studies/perplexity-research-pilot/\
+    04-public-claim-due-diligence.md"
+  receipt_path: "studies/perplexity-research-pilot/\
+    04-public-claim-due-diligence.receipt.json"
+  raw_export_ref: "private-owner://praxis-perpetua/perplexity-exports/\
+    public-claim-due-diligence.md"
+  required_sections:
+    - claims_under_review
+    - supported_claims
+    - contradicted_claims
+    - unknown_or_time_sensitive_claims
+    - source_manifest
+    - novel_actionable_findings

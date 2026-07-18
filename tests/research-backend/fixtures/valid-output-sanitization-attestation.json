@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "request_id": "SGO-REQ-2026-FIXTURE-01",
+  "attested_at": "2026-07-17T10:12:00Z",
+  "attestor": "Studium Output Sanitizer",
+  "export_hash": "sha256:ae2bc4a05d79f58a6959bc0288e7ba517312fc42bef0c7d0cb3457e89a5c06ee",
+  "preservation_tier": "public_facing",
+  "external_transmission": "public_only",
+  "tracked_output_safe": true,
+  "contains_credentials": false,
+  "contains_private_prompt_body": false,
+  "contains_sensitive_raw_material": false,
+  "redactions_applied": []
+}
