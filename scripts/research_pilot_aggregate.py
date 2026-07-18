@@ -46,6 +46,13 @@ def canonical_hash(value: object) -> str:
     return f"sha256:{digest}"
 
 
+def parse_timestamp(value: str) -> datetime:
+    """Parse schema-valid ISO-8601 timestamps across supported Python versions."""
+
+    normalized = value[:-1] + "+00:00" if value.endswith("Z") else value
+    return datetime.fromisoformat(normalized)
+
+
 def raw_text_hash(value: str) -> str:
     digest = hashlib.sha256(value.encode("utf-8")).hexdigest()
     return f"sha256:{digest}"
@@ -525,7 +532,7 @@ def evaluate_pilot(
         "commission_id": PILOT_COMMISSION_ID,
         "state": "settled",
         "verdict": "pass" if passed else "fail",
-        "evaluated_at": max(verified_times, key=datetime.fromisoformat),
+        "evaluated_at": max(verified_times, key=parse_timestamp),
         "catalog_hash": catalog_hash,
         "requests_hash": requests_hash,
         "runs": runs,
