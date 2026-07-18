@@ -16,6 +16,26 @@
    scripts/validate-research-backend.py`.
 8. Inspect existing owner receipts before launching anything.
 
+## Explicit owner resolution
+
+From the Praxis repository root, query the live aggregate state without
+writing an artifact:
+
+```bash
+praxis_root="$(git rev-parse --show-toplevel)" &&
+limen_root="${LIMEN_ROOT:-/Users/4jp/Workspace/limen}" &&
+domus_root="${DOMUS_ROOT:-/Users/4jp/Workspace/domus-genoma}" &&
+uv run --with-requirements requirements-validation.txt \
+  python3 scripts/evaluate-research-pilot.py \
+  --owner-root "organvm/praxis-perpetua=$praxis_root" \
+  --owner-root "organvm/limen=$limen_root" \
+  --owner-root "organvm/domus-genoma=$domus_root"
+```
+
+The evaluator rejects missing, relative, duplicate, or unavailable owner-root
+mappings. It resolves every declared report and receipt path beneath its
+explicit owner and emits no local absolute path.
+
 ## Request selection
 
 Process requests in numeric order unless an earlier request already has an
@@ -42,7 +62,7 @@ For each pending request:
 - `switch`: another bounded session is required; emit a successor capsule
   using this README.
 - `settled`: every request has an accepted or rejected terminal receipt and
-  the aggregate predicate in `closeout.md` has been evaluated.
+  the executable aggregate predicate in `closeout.md` has been evaluated.
 - `invalid`: schema, preservation, transmission, custody, or spend constraints
   are violated; stop the affected request and write `BlockedReceipt`.
 

@@ -31,6 +31,28 @@ The pilot passes only when:
 - every run stays within the 20-minute operator-handling ceiling;
 - total variable Perplexity spend is USD 0.
 
+Resolve all three owner repositories explicitly and write the deterministic
+terminal evaluation only when all inputs exist:
+
+```bash
+praxis_root="$(git rev-parse --show-toplevel)" &&
+limen_root="${LIMEN_ROOT:-/Users/4jp/Workspace/limen}" &&
+domus_root="${DOMUS_ROOT:-/Users/4jp/Workspace/domus-genoma}" &&
+uv run --with-requirements requirements-validation.txt \
+  python3 scripts/evaluate-research-pilot.py \
+  --owner-root "organvm/praxis-perpetua=$praxis_root" \
+  --owner-root "organvm/limen=$limen_root" \
+  --owner-root "organvm/domus-genoma=$domus_root" \
+  --output \
+  commissions/2026-07-17-perplexity-research-pilot/aggregate-evaluation.json \
+  --require-settled
+```
+
+Exit `3` means the truthful state remains `wait_relay`; exit `2` means an
+owner input is invalid. A settled pass or fail exits `0` because both are
+terminal classifications. `--require-pass` is available only when a caller
+specifically requires the pass effect.
+
 ## Terminal effects
 
 - **Pass:** keep `pro_research` enabled. API activation remains a separate
@@ -39,6 +61,9 @@ The pilot passes only when:
 - **Fail:** disable `pro_research` and forbid API spending until a new value
   case is accepted.
 
-Record the aggregate evaluation in this directory and link every owner receipt.
-Do not recite residual work after terminal classification; owner-route it
-before closing.
+After the command exits `0`, update `status.md` to `settled`, set
+`aggregate_evaluation_ref` to the tracked aggregate path, and copy its verdict
+and observed variable spend into the status fields and visible summary. The
+owner validator rejects any divergence. Run it twice; the second run must make
+no changes. Link every owner receipt and owner-route any residual before
+terminal classification.

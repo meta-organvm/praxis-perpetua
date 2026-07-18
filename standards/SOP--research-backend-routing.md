@@ -209,6 +209,9 @@ scripts/validate-research-backend.py` validates:
   receipts, including request/catalog hashes, zero-spend state,
   `manual_pending`, prompt-file linkage, portable paths, and credential
   sanitization;
+- phase-aware pilot status, deterministic explicit owner-path resolution, and
+  fixture-backed aggregate evaluation for `wait_relay`, terminal pass,
+  terminal fail, missing receipt, and invalid receipt states;
 - profile state, structured machine/attended health, manual-handoff metadata,
   timeout, preservation, transmission, and private-source denial;
 - safe relative owner paths, every declared freshness/domain/source/language/
@@ -227,6 +230,14 @@ scripts/validate-research-backend.py` validates:
 
 CI installs `requirements-validation.txt` and runs this predicate. A prose
 closeout cannot substitute for it.
+
+The separate live aggregate predicate is
+`scripts/evaluate-research-pilot.py`. Every owner repository is supplied as an
+explicit absolute mapping; the evaluator never discovers or guesses owner
+paths. It returns a deterministic `wait_relay` record until all four terminal
+report/receipt pairs exist, then evaluates the exact pilot thresholds and
+returns a settled pass or fail record. Each terminal run binds the canonical
+receipt hash, raw report hash, source-manifest hash, and durable owner paths.
 
 ## Pilot gate
 
