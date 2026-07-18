@@ -17,6 +17,12 @@ from urllib.parse import urlparse
 import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 
+from research_pilot_aggregate import (
+    PILOT_STATES,
+    PilotAggregateError,
+    validate_aggregate_record,
+)
+
 
 PRESERVATION_TIERS = {
     "public_facing",
@@ -1419,20 +1425,172 @@ def validate_generated_handoffs(
         )
         validate_portable_sanitized_material(f"{request_id} prompt", prompt)
 
+    return len(PILOT_REQUEST_IDS)
+
+
+def validate_pilot_status(root: Path) -> str:
+    pilot_root = root / "commissions" / "2026-07-17-perplexity-research-pilot"
     status_path = pilot_root / "status.md"
     if not status_path.is_file():
-        fail("handoff.status_file", "pilot status.md is missing")
+        fail("pilot.status_file", "pilot status.md is missing")
     status = status_path.read_text(encoding="utf-8")
-    for required in (
-        "- **State:** `wait_relay`",
-        "- **Profile:** `pro_research`",
-        "- **Variable spend:** USD 0",
-        "All four requests",
+    if not status.startswith("---\n") or "\n---\n" not in status[4:]:
+        fail("pilot.status_frontmatter", "pilot status lacks YAML frontmatter")
+    frontmatter_text, body = status[4:].split("\n---\n", maxsplit=1)
+    try:
+        frontmatter = yaml.safe_load(frontmatter_text)
+    except yaml.YAMLError as error:
+        fail("pilot.status_frontmatter", f"pilot status YAML is invalid: {error}")
+    expected_fields = {
+        "schema_version",
+        "commission_id",
+        "state",
+        "observed_at",
+        "aggregate_evaluation_ref",
+        "verdict",
+        "variable_spend_usd",
+    }
+    if not isinstance(frontmatter, dict) or set(frontmatter) != expected_fields:
+        fail(
+            "pilot.status_frontmatter",
+            "pilot status fields do not match the phase contract",
+        )
+    if (
+        frontmatter["schema_version"] != "1.0"
+        or frontmatter["commission_id"] != "INQ-2026-014"
     ):
-        if required not in status:
-            fail("handoff.status_file", f"pilot status lacks {required!r}")
+        fail("pilot.status_identity", "pilot status identity is invalid")
+    state = frontmatter["state"]
+    if state not in PILOT_STATES:
+        fail("pilot.status_state", f"unsupported pilot state {state!r}")
+    observed_at = frontmatter["observed_at"]
+    if not isinstance(observed_at, str):
+        fail("pilot.status_timestamp", "pilot observed_at must be a string")
+    parse_datetime(observed_at, "pilot.status.observed_at")
+    for required in (
+        f"- **State:** `{state}`",
+        "- **Profile:** `pro_research`",
+    ):
+        if required not in body:
+            fail("pilot.status_body", f"pilot status lacks {required!r}")
+
+    aggregate_ref = frontmatter["aggregate_evaluation_ref"]
+    verdict = frontmatter["verdict"]
+    variable_spend = frontmatter["variable_spend_usd"]
+    if (
+        not isinstance(variable_spend, (int, float))
+        or isinstance(variable_spend, bool)
+        or variable_spend < 0
+    ):
+        fail("pilot.status_spend", "pilot variable spend is invalid")
+    if state == "settled":
+        if not isinstance(aggregate_ref, str) or not aggregate_ref:
+            fail(
+                "pilot.status_aggregate",
+                "settled pilot status lacks an aggregate evaluation reference",
+            )
+        assert_relative_path(aggregate_ref, "pilot.status.aggregate_evaluation_ref")
+        aggregate_path = root / aggregate_ref
+        if not aggregate_path.is_file():
+            fail(
+                "pilot.status_aggregate",
+                "settled pilot aggregate evaluation is missing",
+            )
+        aggregate = load_data(aggregate_path)
+        try:
+            validate_aggregate_record(aggregate)
+        except PilotAggregateError as error:
+            fail(
+                "pilot.status_aggregate",
+                f"aggregate evaluation is invalid: {error}",
+            )
+        if aggregate["state"] != "settled":
+            fail(
+                "pilot.status_aggregate",
+                "settled pilot status points to a non-terminal aggregate",
+            )
+        if verdict != aggregate["verdict"]:
+            fail(
+                "pilot.status_verdict",
+                "pilot status verdict diverges from its aggregate",
+            )
+        aggregate_spend = aggregate["criteria"]["variable_perplexity_spend_usd"][
+            "observed"
+        ]
+        if not math.isclose(
+            float(variable_spend),
+            float(aggregate_spend),
+            rel_tol=0,
+            abs_tol=1e-9,
+        ):
+            fail(
+                "pilot.status_spend",
+                "pilot status spend diverges from its aggregate",
+            )
+        registry = load_data(root / "governance" / "research-backend-profiles.yaml")
+        request_dir = pilot_root / "requests"
+        requests = sorted(
+            (load_data(path) for path in request_dir.glob("*.yaml")),
+            key=lambda request: request["request_id"],
+        )
+        if aggregate["catalog_hash"] != canonical_hash(registry):
+            fail(
+                "pilot.status_aggregate",
+                "aggregate catalog hash diverges from the canonical registry",
+            )
+        if aggregate["requests_hash"] != canonical_hash(requests):
+            fail(
+                "pilot.status_aggregate",
+                "aggregate request-set hash diverges",
+            )
+        request_map = {request["request_id"]: request for request in requests}
+        for run in aggregate["runs"]:
+            expected = request_map[run["request_id"]]["output_contract"]
+            for field in ("owner_repo", "report_path", "receipt_path"):
+                if run[field] != expected[field]:
+                    fail(
+                        "pilot.status_aggregate",
+                        f"{run['request_id']} aggregate {field} diverges",
+                    )
+        if parse_datetime(
+            aggregate["evaluated_at"],
+            "pilot.aggregate.evaluated_at",
+        ) > parse_datetime(observed_at, "pilot.status.observed_at"):
+            fail(
+                "pilot.status_timestamp",
+                "pilot status predates its aggregate evaluation",
+            )
+    else:
+        if aggregate_ref is not None:
+            fail(
+                "pilot.status_aggregate",
+                f"{state} pilot status cannot claim a terminal aggregate",
+            )
+        if verdict is not None:
+            fail(
+                "pilot.status_verdict",
+                f"{state} pilot status cannot claim a terminal verdict",
+            )
+        if not math.isclose(
+            float(variable_spend),
+            0.0,
+            rel_tol=0,
+            abs_tol=1e-9,
+        ):
+            fail(
+                "pilot.status_spend",
+                f"{state} pilot status must retain the zero-spend pre-run fact",
+            )
+    rendered_verdict = verdict if verdict is not None else "pending"
+    rendered_spend = f"{float(variable_spend):g}"
+    for required in (
+        f"- **Verdict:** `{rendered_verdict}`",
+        f"- **Variable spend:** USD {rendered_spend}",
+    ):
+        if required not in body:
+            fail("pilot.status_body", f"pilot status lacks {required!r}")
     validate_portable_sanitized_material("pilot status", status)
-    return len(PILOT_REQUEST_IDS)
+    return str(state)
 
 
 def run(root: Path) -> None:
@@ -1466,6 +1624,7 @@ def run(root: Path) -> None:
     validate_negative_registry_cases(registry, negative["registry_cases"])
     request_count = validate_pilot_requests(root, validators, registry)
     handoff_count = validate_generated_handoffs(root, validators, registry)
+    pilot_state = validate_pilot_status(root)
 
     print("OK research schemas: 5")
     print("OK SourceVerifierAttestation contract: 1")
@@ -1473,6 +1632,7 @@ def run(root: Path) -> None:
     print(f"OK profile registry: {len(registry['profiles'])} profiles")
     print(f"OK pilot requests: {request_count}")
     print(f"OK generated ManualHandoffs: {handoff_count}")
+    print(f"OK phase-aware pilot status: {pilot_state}")
     print(f"OK standalone outcomes: {len(standalone['outcomes'])}")
     negative_count = (
         len(negative["cases"])

@@ -1,7 +1,18 @@
+---
+schema_version: "1.0"
+commission_id: INQ-2026-014
+state: wait_relay
+observed_at: "2026-07-18T00:06:04Z"
+aggregate_evaluation_ref: null
+verdict: null
+variable_spend_usd: 0
+---
+
 # Pilot status
 
 - **Observed:** 2026-07-18T00:06:04Z
 - **State:** `wait_relay`
+- **Verdict:** `pending`
 - **Profile:** `pro_research`
 - **Variable spend:** USD 0
 

@@ -12,6 +12,7 @@ Read in order:
    outcomes, ready prompts, zero-spend `manual_pending` receipts, and the
    current resume boundary.
 5. [closeout.md](closeout.md) — aggregate pass/fail predicate and custody.
+6. [RELAY.md](RELAY.md) — concise current relay and durable owner receipt.
 
 Canonical contracts remain in:
 
@@ -22,6 +23,7 @@ Canonical contracts remain in:
 - `schemas/research-receipt.schema.json`
 - `standards/SOP--research-backend-routing.md`
 - `scripts/validate-research-backend.py`
+- `scripts/evaluate-research-pilot.py`
 
 From the root of any Praxis clone containing this merged capsule, start or
 resume the Limen execution lane:
@@ -35,8 +37,13 @@ limen_root="${LIMEN_ROOT:-/Users/4jp/Workspace/limen}" &&
   --prompt-file \
   "$praxis_root/commissions/2026-07-17-perplexity-research-pilot/README.md" \
   limen \
-  perplexity-research-backend-20260717
+  perplexity-research-pilot-relay-20260718
 ```
+
+The evaluator never guesses owner locations. Resolve Praxis from the current
+clone and provide absolute Limen and Domus roots as shown in
+[runtime.md](runtime.md). Its default result is `wait_relay` until all four
+declared owner reports and receipts exist.
 
 This capsule does not claim a pilot result. Live request, profile, receipt,
 cost, and owner-repo predicates determine what happens next.

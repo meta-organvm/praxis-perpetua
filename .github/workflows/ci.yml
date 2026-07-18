@@ -46,6 +46,8 @@ jobs:
             "schemas/source-verifier-attestation.schema.json"
             "schemas/output-sanitization-attestation.schema.json"
             "scripts/validate-research-backend.py"
+            "scripts/evaluate-research-pilot.py"
+            "scripts/research_pilot_aggregate.py"
             "requirements-validation.txt"
           )
           for f in "${required_files[@]}"; do
@@ -72,6 +74,9 @@ jobs:
           python3 -m pip install --disable-pip-version-check \
             --requirement requirements-validation.txt
           python3 scripts/validate-research-backend.py
+          python3 -m unittest discover \
+            --start-directory tests/research-backend \
+            --pattern 'test_*.py'
 
       - name: Check for broken internal links (informational)
         run: |

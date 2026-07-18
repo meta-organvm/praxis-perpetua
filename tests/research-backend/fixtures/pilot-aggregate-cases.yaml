@@ -1,0 +1,86 @@
+---
+schema_version: "1.0"
+cases:
+  - name: current_wait_relay
+    dispositions:
+      SGO-REQ-2026-PPLX-PILOT-01: accepted
+      SGO-REQ-2026-PPLX-PILOT-02: accepted
+      SGO-REQ-2026-PPLX-PILOT-03: accepted
+      SGO-REQ-2026-PPLX-PILOT-04: rejected
+    omit_reports:
+      - SGO-REQ-2026-PPLX-PILOT-01
+      - SGO-REQ-2026-PPLX-PILOT-02
+      - SGO-REQ-2026-PPLX-PILOT-03
+      - SGO-REQ-2026-PPLX-PILOT-04
+    omit_receipts:
+      - SGO-REQ-2026-PPLX-PILOT-01
+      - SGO-REQ-2026-PPLX-PILOT-02
+      - SGO-REQ-2026-PPLX-PILOT-03
+      - SGO-REQ-2026-PPLX-PILOT-04
+    expected_state: wait_relay
+    expected_verdict: null
+    expected_missing_inputs: 8
+
+  - name: terminal_pass
+    dispositions:
+      SGO-REQ-2026-PPLX-PILOT-01: accepted
+      SGO-REQ-2026-PPLX-PILOT-02: accepted
+      SGO-REQ-2026-PPLX-PILOT-03: accepted
+      SGO-REQ-2026-PPLX-PILOT-04: rejected
+    expected_state: settled
+    expected_verdict: pass
+    expected_missing_inputs: 0
+    expected_failed_criteria: []
+
+  - name: terminal_fail
+    dispositions:
+      SGO-REQ-2026-PPLX-PILOT-01: accepted
+      SGO-REQ-2026-PPLX-PILOT-02: accepted
+      SGO-REQ-2026-PPLX-PILOT-03: rejected
+      SGO-REQ-2026-PPLX-PILOT-04: rejected
+    expected_state: settled
+    expected_verdict: fail
+    expected_missing_inputs: 0
+    expected_failed_criteria:
+      - accepted_packets
+
+  - name: terminal_fail_nonzero_spend
+    dispositions:
+      SGO-REQ-2026-PPLX-PILOT-01: accepted
+      SGO-REQ-2026-PPLX-PILOT-02: accepted
+      SGO-REQ-2026-PPLX-PILOT-03: accepted
+      SGO-REQ-2026-PPLX-PILOT-04: rejected
+    usage_overrides:
+      SGO-REQ-2026-PPLX-PILOT-01:
+        variable_cost: 2.5
+    expected_state: settled
+    expected_verdict: fail
+    expected_missing_inputs: 0
+    expected_failed_criteria:
+      - variable_perplexity_spend_usd
+
+  - name: missing_receipt
+    dispositions:
+      SGO-REQ-2026-PPLX-PILOT-01: accepted
+      SGO-REQ-2026-PPLX-PILOT-02: accepted
+      SGO-REQ-2026-PPLX-PILOT-03: accepted
+      SGO-REQ-2026-PPLX-PILOT-04: rejected
+    omit_receipts:
+      - SGO-REQ-2026-PPLX-PILOT-04
+    expected_state: wait_relay
+    expected_verdict: null
+    expected_missing_inputs: 1
+    expected_missing_kinds:
+      - receipt
+
+  - name: invalid_receipt
+    dispositions:
+      SGO-REQ-2026-PPLX-PILOT-01: accepted
+      SGO-REQ-2026-PPLX-PILOT-02: accepted
+      SGO-REQ-2026-PPLX-PILOT-03: accepted
+      SGO-REQ-2026-PPLX-PILOT-04: rejected
+    receipt_mutation:
+      request_id: SGO-REQ-2026-PPLX-PILOT-04
+      field: durable_output.owner_repo
+      value: organvm/not-the-owner
+    expected_error: receipt.custody
