@@ -53,6 +53,11 @@ owner input is invalid. A settled pass or fail exits `0` because both are
 terminal classifications. `--require-pass` is available only when a caller
 specifically requires the pass effect.
 
+Preliminary and terminal run receipts bind the execution-time catalog through
+`execution-catalog-receipt.json`. The aggregate's `catalog_hash` separately
+binds the current registry after terminal effects are applied. Never rewrite a
+historical handoff receipt to impersonate the later disabled registry.
+
 ## Terminal effects
 
 - **Pass:** keep `pro_research` enabled. API activation remains a separate

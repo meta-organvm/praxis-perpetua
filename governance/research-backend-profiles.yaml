@@ -30,7 +30,7 @@ selection:
 
 profiles:
   pro_research:
-    state: enabled
+    state: disabled
     activation: on_demand_attended
     execution_kind: manual_handoff
     outcome_type: ManualHandoff
@@ -69,7 +69,7 @@ profiles:
       variable_spend_ceiling: 0
     health:
       machine:
-        required_profile_state: enabled
+        required_profile_state: disabled
         request_compatibility_required: true
         owner_output_paths_required: true
         required_export_format: markdown

@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-07-18T00:05:42Z",
+  "catalog_hash": "sha256:551efe3c9044a2095f9499b4bb4c2c22322b6d56c8fce6803b21851a54df0c24",
+  "catalog_path": "governance/research-backend-profiles.yaml",
+  "git_commit": "3de04b819f1ab79c36074d99fe69d417c3fda6bd",
+  "owner_repo": "organvm/praxis-perpetua",
+  "profile_state_at_execution": "enabled",
+  "schema_version": "1.0"
+}

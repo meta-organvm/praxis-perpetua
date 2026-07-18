@@ -8,9 +8,10 @@ Read in order:
 2. [runtime.md](runtime.md) — live routing probes and request selection.
 3. `requests/01-jetsam-tuning.yaml` through
    `requests/04-public-claim-due-diligence.yaml` — canonical requests.
-4. [status.md](status.md) and `handoffs/` — four generated ManualHandoff
-   outcomes, ready prompts, zero-spend `manual_pending` receipts, and the
-   current resume boundary.
+4. [status.md](status.md), `handoffs/`, and
+   [execution-catalog-receipt.json](execution-catalog-receipt.json) — the
+   terminal fail state plus the exact enabled catalog provenance for the
+   preliminary handoffs.
 5. [closeout.md](closeout.md) — aggregate pass/fail predicate and custody.
 6. [RELAY.md](RELAY.md) — concise current relay and durable owner receipt.
 
@@ -25,25 +26,20 @@ Canonical contracts remain in:
 - `scripts/validate-research-backend.py`
 - `scripts/evaluate-research-pilot.py`
 
-From the root of any Praxis clone containing this merged capsule, start or
-resume the Limen execution lane:
+From any working directory, start or resume the Limen execution lane after
+setting `LIMEN_ROOT` to the intended Limen checkout:
 
 ```bash
-praxis_root="$(git rev-parse --show-toplevel)" &&
-limen_root="${LIMEN_ROOT:-/Users/4jp/Workspace/limen}" &&
-"$limen_root/scripts/start-worktree-session.sh" \
-  --autonomous \
-  --codex \
-  --prompt-file \
-  "$praxis_root/commissions/2026-07-17-perplexity-research-pilot/README.md" \
-  limen \
-  perplexity-research-pilot-relay-20260718
+commissions/2026-07-17-perplexity-research-pilot/launch-relay.sh
 ```
 
-The evaluator never guesses owner locations. Resolve Praxis from the current
-clone and provide absolute Limen and Domus roots as shown in
-[runtime.md](runtime.md). Its default result is `wait_relay` until all four
-declared owner reports and receipts exist.
+The commission-local launcher resolves this `README.md` from its own location,
+uses refreshed `origin/main`, and never derives the Praxis prompt from the
+caller's working directory. The current commission is terminal; use the
+launcher only for a new authorized run. The evaluator never guesses owner
+locations. Resolve Praxis from the current clone and provide absolute Limen and
+Domus roots as shown in [runtime.md](runtime.md).
 
-This capsule does not claim a pilot result. Live request, profile, receipt,
-cost, and owner-repo predicates determine what happens next.
+The live predicates settle this pilot `fail`: no attended browser session was
+controllable, all four runs were rejected before submission, and variable
+spend remained USD 0.

@@ -1,0 +1,125 @@
+{
+  "catalog_hash": "sha256:793b5180ea8727cfe20cfb17a8e4a68714568b8a32a1080a4cb7bef2c56d0a19",
+  "commission_id": "INQ-2026-014",
+  "criteria": {
+    "accepted_packets": {
+      "observed": 0,
+      "passed": false,
+      "required": 3
+    },
+    "durable_owner_outputs": {
+      "observed": 4,
+      "passed": true,
+      "required": 4
+    },
+    "material_claim_citation_resolution": {
+      "observed": 0.0,
+      "passed": false,
+      "required": 1.0
+    },
+    "novel_actionable_findings": {
+      "observed": true,
+      "passed": true,
+      "required": true
+    },
+    "operator_handling_seconds_per_run": {
+      "observed": 0,
+      "passed": true,
+      "required": 1200
+    },
+    "primary_source_citation_ratio": {
+      "observed": 0.0,
+      "passed": false,
+      "required": 0.8
+    },
+    "variable_perplexity_spend_usd": {
+      "observed": 0.0,
+      "passed": true,
+      "required": 0
+    }
+  },
+  "evaluated_at": "2026-07-18T12:31:52Z",
+  "missing_inputs": [],
+  "requests_hash": "sha256:52b4e4a74c8fc946ffde2981e22056c479ff0db415d7d4fba210a24f70daf7ca",
+  "runs": [
+    {
+      "disposition": "rejected",
+      "material_claims": 0,
+      "novel_actionable_finding": false,
+      "operator_handling_seconds": 0,
+      "owner_repo": "organvm/domus-genoma",
+      "primary_source_citations": 0,
+      "receipt_hash": "sha256:2199d3048ab77f31a58e530ab3d39645ab1a00b4499b865a9ba93fafd035e98a",
+      "receipt_path": "docs/audit/sysdiagnose-2026-05-21/findings/RESEARCH-005-jetsam-tuning.receipt.json",
+      "report_hash": "sha256:88b3cde44d53faa999dd248168712ced651ff99db0e7599b699ae98f05a31495",
+      "report_path": "docs/audit/sysdiagnose-2026-05-21/findings/RESEARCH-005-jetsam-tuning.md",
+      "request_id": "SGO-REQ-2026-PPLX-PILOT-01",
+      "resolvable_citations": 0,
+      "source_manifest_hash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "supported_material_claims": 0,
+      "total_citations": 0,
+      "variable_cost_usd": 0.0,
+      "verified_at": "2026-07-18T12:31:49Z"
+    },
+    {
+      "disposition": "rejected",
+      "material_claims": 0,
+      "novel_actionable_finding": false,
+      "operator_handling_seconds": 0,
+      "owner_repo": "organvm/praxis-perpetua",
+      "primary_source_citations": 0,
+      "receipt_hash": "sha256:0790e0e6ecb80f6455e953e640e38360545c2f86b074fd61e662aa76a8295ac6",
+      "receipt_path": "studies/perplexity-research-pilot/02-academic-discovery.receipt.json",
+      "report_hash": "sha256:0e433d9828223a01fc4ac9fdcceb4115020ee3591b459ebd2092ecbf8ecd84bc",
+      "report_path": "studies/perplexity-research-pilot/02-academic-discovery.md",
+      "request_id": "SGO-REQ-2026-PPLX-PILOT-02",
+      "resolvable_citations": 0,
+      "source_manifest_hash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "supported_material_claims": 0,
+      "total_citations": 0,
+      "variable_cost_usd": 0.0,
+      "verified_at": "2026-07-18T12:31:50Z"
+    },
+    {
+      "disposition": "rejected",
+      "material_claims": 0,
+      "novel_actionable_finding": false,
+      "operator_handling_seconds": 0,
+      "owner_repo": "organvm/limen",
+      "primary_source_citations": 0,
+      "receipt_hash": "sha256:b0ceba06c71a3152e01062e42c7faa44f44bcd30b2ca9ceaccfd77d1129e6763",
+      "receipt_path": "docs/research/perplexity-research-pilot/03-standards-provider-changes.receipt.json",
+      "report_hash": "sha256:4c32be8321978caf20c2525bca77c3356e7a00114d909c080c7ad568e303b37e",
+      "report_path": "docs/research/perplexity-research-pilot/03-standards-provider-changes.md",
+      "request_id": "SGO-REQ-2026-PPLX-PILOT-03",
+      "resolvable_citations": 0,
+      "source_manifest_hash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "supported_material_claims": 0,
+      "total_citations": 0,
+      "variable_cost_usd": 0.0,
+      "verified_at": "2026-07-18T12:31:51Z"
+    },
+    {
+      "disposition": "rejected",
+      "material_claims": 0,
+      "novel_actionable_finding": false,
+      "operator_handling_seconds": 0,
+      "owner_repo": "organvm/praxis-perpetua",
+      "primary_source_citations": 0,
+      "receipt_hash": "sha256:b38f3db4e07aee926e8af45ff8e7bdc0cfd3ddc834e25f8b78e7c232a5c8d4e1",
+      "receipt_path": "studies/perplexity-research-pilot/04-public-claim-due-diligence.receipt.json",
+      "report_hash": "sha256:74642f9311e05b127ae92b9df23cae5cf43275cb427de87171c219cfb40fbceb",
+      "report_path": "studies/perplexity-research-pilot/04-public-claim-due-diligence.md",
+      "request_id": "SGO-REQ-2026-PPLX-PILOT-04",
+      "resolvable_citations": 0,
+      "source_manifest_hash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "supported_material_claims": 0,
+      "total_citations": 0,
+      "variable_cost_usd": 0.0,
+      "verified_at": "2026-07-18T12:31:52Z"
+    }
+  ],
+  "schema_version": "1.0",
+  "state": "settled",
+  "verdict": "fail"
+}

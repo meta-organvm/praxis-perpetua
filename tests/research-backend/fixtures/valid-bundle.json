@@ -108,7 +108,7 @@
     "receipt_id": "SGO-RCT-2026-FIXTURE-01",
     "request_id": "SGO-REQ-2026-FIXTURE-01",
     "request_hash": "sha256:b9c5637bc3e5fffeb5d486f4a0c7f32dfc6a36e3557b0018809879f905100a8e",
-    "catalog_hash": "sha256:551efe3c9044a2095f9499b4bb4c2c22322b6d56c8fce6803b21851a54df0c24",
+    "catalog_hash": "sha256:793b5180ea8727cfe20cfb17a8e4a68714568b8a32a1080a4cb7bef2c56d0a19",
     "selected_profile": "pro_research",
     "observed_provider": "Fixture Research Surface",
     "observed_model": null,
