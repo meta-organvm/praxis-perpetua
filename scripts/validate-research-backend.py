@@ -1256,6 +1256,7 @@ def validate_generated_handoffs(
     root: Path,
     validators: dict[str, Draft202012Validator],
     registry: dict[str, Any],
+    execution_catalog_hash: str,
 ) -> int:
     pilot_root = root / "commissions" / "2026-07-17-perplexity-research-pilot"
     request_dir = pilot_root / "requests"
@@ -1285,7 +1286,6 @@ def validate_generated_handoffs(
                 f"{kind} artifacts do not cover the exact pilot request IDs",
             )
 
-    catalog_hash = canonical_hash(registry)
     empty_manifest_hash = canonical_hash([])
     for request_id in sorted(PILOT_REQUEST_IDS):
         request = requests[request_id]
@@ -1320,7 +1320,7 @@ def validate_generated_handoffs(
 
         if receipt["request_hash"] != canonical_hash(request):
             fail("handoff.request_hash", f"{request_id} request hash diverges")
-        if receipt["catalog_hash"] != catalog_hash:
+        if receipt["catalog_hash"] != execution_catalog_hash:
             fail("handoff.catalog_hash", f"{request_id} catalog hash diverges")
         if receipt["source_manifest_hash"] != empty_manifest_hash:
             fail(
@@ -1426,6 +1426,68 @@ def validate_generated_handoffs(
         validate_portable_sanitized_material(f"{request_id} prompt", prompt)
 
     return len(PILOT_REQUEST_IDS)
+
+
+def validate_execution_catalog_receipt(root: Path) -> str:
+    path = (
+        root
+        / "commissions"
+        / "2026-07-17-perplexity-research-pilot"
+        / "execution-catalog-receipt.json"
+    )
+    receipt = load_data(path)
+    expected_fields = {
+        "schema_version",
+        "owner_repo",
+        "git_commit",
+        "catalog_path",
+        "catalog_hash",
+        "profile_state_at_execution",
+        "captured_at",
+    }
+    if not isinstance(receipt, dict) or set(receipt) != expected_fields:
+        fail(
+            "execution_catalog.fields",
+            "execution catalog receipt fields diverge",
+        )
+    if (
+        receipt["schema_version"] != "1.0"
+        or receipt["owner_repo"] != "organvm/praxis-perpetua"
+        or receipt["catalog_path"] != "governance/research-backend-profiles.yaml"
+        or receipt["profile_state_at_execution"] != "enabled"
+    ):
+        fail(
+            "execution_catalog.identity",
+            "execution catalog receipt identity diverges",
+        )
+    if not isinstance(receipt["git_commit"], str) or not re.fullmatch(
+        r"[0-9a-f]{40}",
+        receipt["git_commit"],
+    ):
+        fail(
+            "execution_catalog.commit",
+            "execution catalog receipt lacks an exact Git commit",
+        )
+    catalog_hash = receipt["catalog_hash"]
+    if not isinstance(catalog_hash, str) or not re.fullmatch(
+        r"sha256:[0-9a-f]{64}",
+        catalog_hash,
+    ):
+        fail(
+            "execution_catalog.hash",
+            "execution catalog receipt lacks a valid catalog hash",
+        )
+    if not isinstance(receipt["captured_at"], str):
+        fail(
+            "execution_catalog.timestamp",
+            "execution catalog receipt timestamp is invalid",
+        )
+    parse_datetime(receipt["captured_at"], "execution_catalog.captured_at")
+    validate_portable_sanitized_material(
+        "execution catalog receipt",
+        json.dumps(receipt, sort_keys=True),
+    )
+    return catalog_hash
 
 
 def validate_pilot_status(root: Path) -> str:
@@ -1623,7 +1685,13 @@ def run(root: Path) -> None:
     )
     validate_negative_registry_cases(registry, negative["registry_cases"])
     request_count = validate_pilot_requests(root, validators, registry)
-    handoff_count = validate_generated_handoffs(root, validators, registry)
+    execution_catalog_hash = validate_execution_catalog_receipt(root)
+    handoff_count = validate_generated_handoffs(
+        root,
+        validators,
+        registry,
+        execution_catalog_hash,
+    )
     pilot_state = validate_pilot_status(root)
 
     print("OK research schemas: 5")

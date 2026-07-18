@@ -149,6 +149,63 @@ def _receipt_validator(praxis_root: Path) -> Draft202012Validator:
     return Draft202012Validator(schema, format_checker=FormatChecker())
 
 
+def _execution_catalog_hash(praxis_root: Path) -> str:
+    path = (
+        praxis_root
+        / "commissions"
+        / "2026-07-17-perplexity-research-pilot"
+        / "execution-catalog-receipt.json"
+    )
+    receipt = load_json(path)
+    required = {
+        "schema_version",
+        "owner_repo",
+        "git_commit",
+        "catalog_path",
+        "catalog_hash",
+        "profile_state_at_execution",
+        "captured_at",
+    }
+    if set(receipt) != required:
+        raise PilotAggregateError(
+            "execution_catalog.fields",
+            "execution catalog receipt fields diverge",
+        )
+    if (
+        receipt["schema_version"] != "1.0"
+        or receipt["owner_repo"] != "organvm/praxis-perpetua"
+        or receipt["catalog_path"] != "governance/research-backend-profiles.yaml"
+        or receipt["profile_state_at_execution"] != "enabled"
+    ):
+        raise PilotAggregateError(
+            "execution_catalog.identity",
+            "execution catalog receipt identity diverges",
+        )
+    if not isinstance(receipt["git_commit"], str) or not re.fullmatch(
+        r"[0-9a-f]{40}",
+        receipt["git_commit"],
+    ):
+        raise PilotAggregateError(
+            "execution_catalog.commit",
+            "execution catalog receipt lacks an exact Git commit",
+        )
+    if not isinstance(receipt["catalog_hash"], str) or not _HASH.fullmatch(
+        receipt["catalog_hash"],
+    ):
+        raise PilotAggregateError(
+            "execution_catalog.hash",
+            "execution catalog receipt lacks a valid catalog hash",
+        )
+    try:
+        parse_timestamp(str(receipt["captured_at"]))
+    except (TypeError, ValueError) as error:
+        raise PilotAggregateError(
+            "execution_catalog.timestamp",
+            "execution catalog receipt timestamp is invalid",
+        ) from error
+    return str(receipt["catalog_hash"])
+
+
 def _validate_receipt_schema(
     receipt: dict[str, Any],
     validator: Draft202012Validator,
@@ -223,7 +280,7 @@ def _validate_report(
 def _validate_receipt_semantics(
     request: dict[str, Any],
     receipt: dict[str, Any],
-    registry: dict[str, Any],
+    execution_catalog_hash: str,
 ) -> str:
     request_id = str(request["request_id"])
     expected_output = request["output_contract"]
@@ -237,10 +294,10 @@ def _validate_receipt_semantics(
             "receipt.request_hash",
             f"{request_id} receipt does not bind the canonical request",
         )
-    if receipt["catalog_hash"] != canonical_hash(registry):
+    if receipt["catalog_hash"] != execution_catalog_hash:
         raise PilotAggregateError(
             "receipt.catalog_hash",
-            f"{request_id} receipt does not bind the canonical catalog",
+            f"{request_id} receipt does not bind the execution catalog",
         )
     if receipt["selected_profile"] != "pro_research":
         raise PilotAggregateError(
@@ -349,6 +406,7 @@ def evaluate_pilot(
     praxis_root = praxis_root.resolve()
     requests = _pilot_requests(praxis_root)
     registry = load_yaml(praxis_root / "governance" / "research-backend-profiles.yaml")
+    execution_catalog_hash = _execution_catalog_hash(praxis_root)
     validator = _receipt_validator(praxis_root)
     required_owners = {
         str(request["output_contract"]["owner_repo"]) for request in requests
@@ -415,7 +473,11 @@ def evaluate_pilot(
 
         receipt = load_json(receipt_path)
         _validate_receipt_schema(receipt, validator, request_id=request_id)
-        disposition = _validate_receipt_semantics(request, receipt, registry)
+        disposition = _validate_receipt_semantics(
+            request,
+            receipt,
+            execution_catalog_hash,
+        )
         try:
             report = report_path.read_text(encoding="utf-8")
         except (OSError, UnicodeError) as error:

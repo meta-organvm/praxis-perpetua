@@ -1,38 +1,37 @@
 ---
 schema_version: "1.0"
 commission_id: INQ-2026-014
-state: wait_relay
-observed_at: "2026-07-18T00:06:04Z"
-aggregate_evaluation_ref: null
-verdict: null
+state: settled
+observed_at: "2026-07-18T12:37:01Z"
+aggregate_evaluation_ref: commissions/2026-07-17-perplexity-research-pilot/aggregate-evaluation.json
+verdict: fail
 variable_spend_usd: 0
 ---
 
 # Pilot status
 
-- **Observed:** 2026-07-18T00:06:04Z
-- **State:** `wait_relay`
-- **Verdict:** `pending`
+- **Observed:** 2026-07-18T12:37:01Z
+- **State:** `settled`
+- **Verdict:** `fail`
 - **Profile:** `pro_research`
 - **Variable spend:** USD 0
 
-All four requests now have schema-valid, zero-spend `ManualHandoff` outcomes,
-ready-to-submit prompts, and `manual_pending` receipts under `handoffs/`.
-Their receipts bind the exact request and catalog hashes and correctly record
-`tracked_output_safe: false` because no normalized report exists yet.
+All four runs have terminal owner reports, typed `BlockedReceipt` artifacts,
+and rejected research receipts. The attended browser bridge exposed no
+controllable session, so zero prompts were submitted and zero raw exports were
+produced. This does not assert that the Perplexity subscription,
+authentication, or Research surface is unavailable.
 
-No prompt was submitted and no provider result was exported in this session.
-The available browser bridge reported no browser session, and the installed
-desktop application's automation bridge could not start. These observations do
-not assert that the user's subscription, authentication, or Research mode is
-unavailable; those remain the attended checks already deferred by each
-`ManualHandoff`.
+The deterministic aggregate records 0 accepted packets, 4 durable owner
+outputs, 0 provider requests, and USD 0 variable spend. The pilot therefore
+settled `fail`, and `pro_research` is disabled. Search and synthesis APIs remain
+dormant; Computer, connectors, scheduling, sharing, purchasing, billing, and
+automatic refill remain prohibited.
 
-Resume by opening the handoff's declared **Limen Research** Project or Space,
-confirming its deferred attended checks, submitting the corresponding prompt,
-and exporting the completed Session answer as Markdown to the declared
-`private-owner://` destination. Do not enable Computer, APIs, connectors,
-scheduling, purchases, messages, or external writes.
+The preliminary handoffs remain bound to the exact enabled execution catalog
+recorded in `execution-catalog-receipt.json`. The aggregate separately binds
+the terminal disabled registry. This preserves execution provenance without
+rewriting the earlier handoff receipts.
 
-The pilot has not been classified pass or fail. Evaluate the aggregate only
-after all four owner reports and terminal receipts exist.
+This commission is terminal. A later attended attempt requires a new value
+case and a new run rather than reopening these receipts.

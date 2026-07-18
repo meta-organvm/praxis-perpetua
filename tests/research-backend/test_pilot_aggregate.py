@@ -59,12 +59,15 @@ class PilotAggregateFixtureTests(unittest.TestCase):
                 for path in sorted(request_dir.glob("*.yaml"))
             )
         }
-        registry = yaml.safe_load(
-            (ROOT / "governance" / "research-backend-profiles.yaml").read_text(
-                encoding="utf-8"
-            )
+        execution_catalog_receipt = json.loads(
+            (
+                ROOT
+                / "commissions"
+                / "2026-07-17-perplexity-research-pilot"
+                / "execution-catalog-receipt.json"
+            ).read_text(encoding="utf-8")
         )
-        cls.catalog_hash = canonical_hash(registry)
+        cls.catalog_hash = execution_catalog_receipt["catalog_hash"]
 
     def _owner_roots(self, base: Path) -> dict[str, Path]:
         owners = {
@@ -303,8 +306,8 @@ class PilotAggregateFixtureTests(unittest.TestCase):
                         case["expected_missing_kinds"],
                     )
 
-    def test_current_wait_relay_status(self) -> None:
-        self.assertEqual(VALIDATOR.validate_pilot_status(ROOT), "wait_relay")
+    def test_current_terminal_status(self) -> None:
+        self.assertEqual(VALIDATOR.validate_pilot_status(ROOT), "settled")
 
     def test_settled_status_accepts_terminal_aggregate(self) -> None:
         case = next(
