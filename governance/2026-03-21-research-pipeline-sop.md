@@ -66,8 +66,8 @@ GENESIS --> EXPANSION --> FORMALIZATION --> COMPOSITION --> REVIEW --> REVISION 
 **Process:**
 1. **Adventure execution.** For each domain cluster, conduct a research adventure: a structured exploration session that follows the question through sources, cross-references, and synthesis.
    - Tool: Wikipedia MCP tools (`search_wikipedia`, `get_article`, `get_sections`, `get_links`, `get_related_topics`) for systematic frontier discovery
-   - Tool: `perplexity_research` for targeted deep-dive questions
-   - Tool: `tavily_research` for current-state-of-the-art searches
+   - Historical 2026 examples: `perplexity_research` for targeted deep dives and `tavily_research` for state-of-the-art searches
+   - Current routing: create a `ResearchRequest` and follow `standards/SOP--research-backend-routing.md`; provider/profile selection is capability-based and discovered live
    - Method: Follow the "three clicks" heuristic -- from any starting article, explore three levels of cross-references to discover adjacent domains
 2. **Frontier identification.** For each adventure, identify the frontier: where does current knowledge end? What questions remain open? Where do different domains intersect in unexplored ways?
 3. **Cross-adventure synthesis.** After all adventures are complete, identify cross-cutting themes that span multiple adventures. These become synthesis paper candidates.
@@ -359,7 +359,7 @@ Track these metrics across programme executions to assess pipeline health:
 | Stage | Primary Tools | Secondary Tools |
 |-------|--------------|-----------------|
 | GENESIS | `alchemia intake`, `sqlite3`, `alchemia synthesize` | `organvm session transcript` |
-| EXPANSION | Wikipedia MCP (`search_wikipedia`, `get_article`, `get_sections`, `get_links`), `perplexity_research`, `tavily_research` | `get_related_topics`, `summarize_article_for_query` |
+| EXPANSION | Capability-routed `ResearchRequest` per `standards/SOP--research-backend-routing.md` | Wikipedia MCP; historical examples included `perplexity_research` and `tavily_research` |
 | FORMALIZATION | Text editor, `organvm registry show` | Dependency graph visualization |
 | COMPOSITION | Parallel Claude Code sessions, `Read`/`Write` tools | `organvm context sync` for cross-repo context |
 | REVIEW | TRP SOP, parallel Claude Code sessions (one per POV) | `faculty-registry.yaml` for panel constitution |
@@ -388,6 +388,7 @@ These failure modes were observed or anticipated during the SGO-2026 programme:
 
 - **SGO-2026-SOP-001:** Triadic Review Protocol (Stage 5 operating procedure)
 - **SOP: The Gold Path:** Research-to-implementation pipeline (Stage 8 alignment)
+- **SOP: Research Backend Routing:** Current capability-based provider/profile selection and evidence-packet contract
 - **2026-03-21-governance-trilemma-declaration.md:** First governance document produced by this pipeline
 - **2026-03-21-syntactic-semantic-boundary.md:** Second governance document produced by this pipeline
 - **2026-03-21-naming-convention-spec.md:** Third governance document produced by this pipeline

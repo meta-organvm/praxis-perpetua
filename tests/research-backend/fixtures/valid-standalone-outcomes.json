@@ -1,0 +1,84 @@
+{
+  "outcomes": [
+    {
+      "schema_version": "1.0",
+      "outcome_type": "ManualHandoff",
+      "request_id": "SGO-REQ-2026-FIXTURE-02",
+      "selected_profile": "pro_research",
+      "preservation_tier": "public_facing",
+      "external_transmission": "public_only",
+      "status": "ready",
+      "project_name": "Limen Research",
+      "launch_url": "https://www.perplexity.ai/",
+      "prompt_ref": "private-owner://praxis-perpetua/prompts/fixture.md",
+      "standing_instructions_ref": ".claude/skills/sgo-commission-research/templates/perplexity-project-standing-instructions.md",
+      "required_export_format": "markdown",
+      "execution_timeout_seconds": 3600,
+      "ingest_destination": "private-owner://praxis-perpetua/exports/fixture.md",
+      "operator_actions": [
+        "Verify the deferred attended checks and submit the prompt."
+      ],
+      "resume_predicate": "The Markdown export exists at the declared destination."
+    },
+    {
+      "schema_version": "1.0",
+      "outcome_type": "BlockedReceipt",
+      "request_id": "SGO-REQ-2026-FIXTURE-03",
+      "blocked_at": "2026-07-17T10:00:00Z",
+      "blocker_code": "privacy_mismatch",
+      "attempted_profiles": [
+        "provider_auto"
+      ],
+      "owner_surface": "governance/research-backend-profiles.yaml",
+      "failed_predicate": "No profile accepts client-private transmission.",
+      "next_action": "Use a non-provider research method inside the private owner.",
+      "reversible_work_completed": [
+        "Validated request preservation and transmission."
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "outcome_type": "EvidencePacket",
+      "request_id": "SGO-REQ-2026-FIXTURE-04",
+      "retrieved_at": "2026-07-17T10:00:00Z",
+      "verification_status": "accepted",
+      "source_manifest_hash": "sha256:dde22922c0b52461c528fde19fcaa247f8ddf351e833e4671bd4c6b739206d56",
+      "claims": [
+        {
+          "claim_id": "CLM-FIXTURE-04",
+          "text": "The source does not expose the optional metadata values.",
+          "material": false,
+          "classification": "unknown",
+          "source_ids": [],
+          "verification_status": "not_applicable"
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "SRC-FIXTURE-04",
+          "title": "Metadata-null fixture source",
+          "url": "https://example.org/metadata-null",
+          "author_or_publisher": null,
+          "published_at": null,
+          "retrieved_at": "2026-07-17T10:00:00Z",
+          "source_type": "unattributed_web_record",
+          "primary_source": false,
+          "quality_tier": "D",
+          "locator": null
+        }
+      ],
+      "contradictions": [],
+      "unknowns": [
+        "Author, publication date, and locator are not exposed."
+      ],
+      "negative_searches": [],
+      "novel_actionable_findings": [],
+      "durable_output_ref": {
+        "owner_repo": "organvm/praxis-perpetua",
+        "report_path": "studies/research-backend-fixtures/metadata-null.md",
+        "receipt_path": "studies/research-backend-fixtures/metadata-null.receipt.json",
+        "raw_export_ref": null
+      }
+    }
+  ]
+}

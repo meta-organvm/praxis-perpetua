@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://organvm.dev/schemas/sgo/source-verifier-attestation.schema.json",
+  "title": "SourceVerifierAttestation",
+  "description": "Machine-readable Studium Source Verifier decision consumed by research adapters before an EvidencePacket can be accepted.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "request_id",
+    "verified_at",
+    "verifier",
+    "verdict",
+    "private_connected_sources_used",
+    "claims",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "request_id": {
+      "type": "string",
+      "pattern": "^SGO-REQ-[0-9]{4}-[A-Z0-9-]+$"
+    },
+    "verified_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "verdict": {
+      "enum": [
+        "accepted",
+        "rejected"
+      ]
+    },
+    "private_connected_sources_used": {
+      "const": false
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/VerifiedClaim"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/VerifiedSource"
+      }
+    }
+  },
+  "$defs": {
+    "VerifiedClaim": {
+      "type": "object",
+      "required": [
+        "claim_id",
+        "verification_status",
+        "source_ids"
+      ],
+      "properties": {
+        "claim_id": {
+          "type": "string",
+          "pattern": "^CLM-[A-Z0-9-]+$"
+        },
+        "verification_status": {
+          "enum": [
+            "supported",
+            "partially_supported",
+            "contradicted",
+            "unsupported",
+            "not_applicable"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-[A-Z0-9-]+$"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "VerifiedSource": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "url",
+        "resolvable",
+        "source_type",
+        "primary_source",
+        "quality_tier",
+        "metadata_confirmed"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC-[A-Z0-9-]+$"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://[^\\s]+$"
+        },
+        "resolvable": {
+          "type": "boolean"
+        },
+        "source_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_source": {
+          "type": "boolean"
+        },
+        "quality_tier": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "metadata_confirmed": {
+          "const": true
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "jurisdictions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

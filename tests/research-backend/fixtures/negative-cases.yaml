@@ -1,0 +1,412 @@
+---
+cases:
+  - name: timestamps_out_of_order
+    expected_error: timestamps.order
+    set:
+      /receipt/retrieval_finished_at: "2026-07-17T10:00:30Z"
+
+  - name: supported_count_exceeds_material_count
+    expected_error: counts.material
+    set:
+      /receipt/verification/supported_material_claims: 2
+
+  - name: variable_cost_exceeds_request_ceiling
+    expected_error: cost.ceiling
+    set:
+      /receipt/usage/variable_cost: 0.01
+
+  - name: absolute_report_path
+    expected_error: path.relative
+    set:
+      /request/output_contract/report_path: /tmp/report.md
+
+  - name: profile_rejects_client_private
+    expected_error: profile.preservation
+    set:
+      /request/preservation_tier: client_private
+      /request/external_transmission: forbidden
+
+  - name: profile_rejects_forbidden_transmission
+    expected_error: profile.transmission
+    set:
+      /request/external_transmission: forbidden
+
+  - name: raw_export_custody_mismatch
+    expected_error: custody.raw_export
+    set:
+      /receipt/privacy/raw_export_disposition: tracked_owner_repo
+
+  - name: unsafe_receipt_sanitization
+    expected_error: schema.receipt
+    set:
+      /receipt/sanitization/contains_credentials: true
+
+  - name: private_connected_source_used
+    expected_error: schema.receipt
+    set:
+      /receipt/privacy/private_connected_sources_used: true
+
+  - name: source_metadata_lost
+    expected_error: schema.outcome
+    remove:
+      - /outcome/sources/0/locator
+
+  - name: unresolved_claim_source
+    expected_error: claims.source_ref
+    set:
+      /outcome/claims/0/source_ids/0: SRC-MISSING-01
+
+  - name: primary_source_ratio_mismatch
+    expected_error: counts.primary_ratio
+    set:
+      /receipt/verification/primary_source_ratio: 0.5
+
+  - name: freshness_interval_inverted
+    expected_error: freshness.order
+    set:
+      /request/freshness/published_after: "2026-07-18"
+
+  - name: retrieved_before_retrieved_after
+    expected_error: freshness.retrieved_before
+    set:
+      /request/freshness/retrieved_after: "2026-07-18"
+
+  - name: retrieved_before_as_of
+    expected_error: freshness.retrieved_before_as_of
+    set:
+      /request/freshness/as_of: "2026-07-17T10:09:00Z"
+
+  - name: source_exceeds_maximum_age
+    expected_error: freshness.source_too_old
+    set:
+      /request/freshness/max_source_age_days: 0
+
+  - name: source_domain_not_allowed
+    expected_error: domain.not_allowed
+    set:
+      /request/domain_constraints/allow_domains:
+        - allowed.example
+
+  - name: source_domain_explicitly_denied
+    expected_error: domain.denied
+    set:
+      /request/domain_constraints/deny_domains:
+        - example.org
+
+  - name: source_type_not_allowed
+    expected_error: domain.source_type
+    set:
+      /request/domain_constraints/source_types:
+        - peer_reviewed_primary_research
+
+  - name: source_language_not_verified
+    expected_error: domain.language
+    set:
+      /request/domain_constraints/languages:
+        - fr
+
+  - name: source_jurisdiction_not_verified
+    expected_error: domain.jurisdiction
+    set:
+      /request/domain_constraints/jurisdictions:
+        - EU
+
+  - name: source_verifier_attestation_missing
+    expected_error: attestation.required
+    remove:
+      - /attestation
+
+  - name: source_verifier_attestation_unknown_field
+    expected_error: schema.attestation
+    set:
+      /attestation/unexpected: forbidden
+
+  - name: source_verifier_private_connected_source
+    expected_error: schema.attestation
+    set:
+      /attestation/private_connected_sources_used: true
+
+  - name: source_verifier_request_mismatch
+    expected_error: attestation.request_id
+    set:
+      /attestation/request_id: SGO-REQ-2026-OTHER-01
+
+  - name: source_verifier_rejected
+    expected_error: attestation.verdict
+    set:
+      /attestation/verdict: rejected
+
+  - name: source_verifier_claim_status_mismatch
+    expected_error: attestation.claim_status
+    set:
+      /attestation/claims/0/verification_status: partially_supported
+
+  - name: source_verifier_source_grading_mismatch
+    expected_error: attestation.source_grading
+    set:
+      /attestation/sources/0/source_type: unreviewed_blog
+
+  - name: source_verifier_url_mismatch
+    expected_error: attestation.source_url
+    set:
+      /attestation/sources/0/url: https://example.org/other
+
+  - name: source_verifier_url_contains_credentials
+    expected_error: attestation.source_url_credentials
+    set:
+      /attestation/sources/0/url: https://user:password@example.org/source
+
+  - name: source_verifier_unresolvable
+    expected_error: attestation.source_resolution
+    set:
+      /attestation/sources/0/resolvable: false
+
+  - name: source_verifier_receipt_hash_mismatch
+    expected_error: attestation.receipt_verifier
+    set:
+      /receipt/verification/verifier: unbound-verifier
+
+  - name: output_sanitization_attestation_missing
+    expected_error: sanitization.required
+    remove:
+      - /sanitization_attestation
+
+  - name: output_sanitization_unknown_field
+    expected_error: schema.sanitization_attestation
+    set:
+      /sanitization_attestation/unexpected: forbidden
+
+  - name: output_sanitization_request_mismatch
+    expected_error: sanitization.request_id
+    set:
+      /sanitization_attestation/request_id: SGO-REQ-2026-OTHER-01
+
+  - name: output_sanitization_unsafe_attestor
+    expected_error: sanitization.attestor
+    set:
+      /sanitization_attestation/attestor: api_key=secret-value
+
+  - name: output_sanitization_export_hash_mismatch
+    expected_error: sanitization.export_hash
+    set:
+      /sanitization_attestation/export_hash:
+        "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\
+        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+
+  - name: output_sanitization_exact_export_changed
+    expected_error: sanitization.export_hash
+    set:
+      /raw_export: changed raw Markdown
+
+  - name: raw_prompt_echo_requires_private_custody
+    expected_error: sanitization.raw_export_custody
+    set:
+      /request/output_contract/raw_export_ref: tracked/raw-export.md
+
+  - name: tracked_report_missing
+    expected_error: sanitization.tracked_report_required
+    remove:
+      - /tracked_report
+
+  - name: tracked_packet_contains_secret
+    expected_error: sanitization.secret
+    set:
+      /outcome/claims/0/text: api_key=secret-value
+
+  - name: tracked_packet_contains_prompt
+    expected_error: sanitization.prompt_body
+    set:
+      /outcome/claims/0/text: >-
+        Which first-party controls support the fixture research claim?
+
+  - name: tracked_report_contains_secret
+    expected_error: sanitization.secret
+    set:
+      /tracked_report: api_key=secret-value
+
+  - name: tracked_report_contains_prompt
+    expected_error: sanitization.prompt_body
+    set:
+      /tracked_report: >-
+        Which first-party controls support the fixture research claim?
+
+  - name: output_sanitization_preservation_mismatch
+    expected_error: sanitization.preservation
+    set:
+      /sanitization_attestation/preservation_tier: operational_internal
+
+  - name: output_sanitization_transmission_mismatch
+    expected_error: sanitization.transmission
+    set:
+      /sanitization_attestation/external_transmission: sanitized_only
+
+  - name: output_sanitization_predates_retrieval
+    expected_error: sanitization.timestamp
+    set:
+      /sanitization_attestation/attested_at: "2026-07-17T10:09:00Z"
+
+  - name: output_sanitization_unsafe
+    expected_error: schema.sanitization_attestation
+    set:
+      /sanitization_attestation/tracked_output_safe: false
+
+  - name: output_sanitization_secret_detected
+    expected_error: schema.sanitization_attestation
+    set:
+      /sanitization_attestation/contains_credentials: true
+
+  - name: output_sanitization_receipt_redactions_diverge
+    expected_error: sanitization.receipt
+    set:
+      /sanitization_attestation/redactions_applied:
+        - Removed a private identifier.
+
+  - name: sanitized_only_requires_redaction
+    expected_error: sanitization.redactions
+    set:
+      /request/external_transmission: sanitized_only
+      /receipt/privacy/external_transmission: sanitized_only
+      /sanitization_attestation/external_transmission: sanitized_only
+
+  - name: pilot_novel_finding_missing
+    expected_error: pilot.novel_finding
+    set:
+      /outcome/novel_actionable_findings: []
+
+  - name: pilot_operator_handling_exceeded
+    expected_error: pilot.handling
+    set:
+      /receipt/usage/operator_handling_seconds: 1201
+
+  - name: owner_output_mismatch
+    expected_error: custody.output
+    set:
+      /receipt/durable_output/report_path: studies/other-report.md
+
+  - name: request_hash_mismatch
+    expected_error: hashes.request
+    set:
+      /receipt/request_hash:
+        "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\
+        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+
+  - name: source_manifest_hash_mismatch
+    expected_error: hashes.sources
+    set:
+      /outcome/source_manifest_hash:
+        "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\
+        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+
+  - name: catalog_hash_mismatch
+    expected_error: hashes.catalog
+    set:
+      /receipt/catalog_hash:
+        "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\
+        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+
+  - name: credential_shaped_receipt_value
+    expected_error: sanitization.secret
+    set:
+      /receipt/observed_model: sk-proj-secret-value
+
+  - name: private_prompt_body_in_receipt
+    expected_error: sanitization.prompt_body
+    set:
+      /receipt/observed_model: >-
+        Which first-party controls support the fixture research claim?
+
+outcome_cases:
+  - name: manual_handoff_launch_metadata_drift
+    outcome_index: 0
+    expected_error: handoff.metadata
+    set:
+      /launch_url: https://example.org/wrong-surface
+
+  - name: manual_handoff_transmission_mismatch
+    outcome_index: 0
+    expected_error: handoff.transmission
+    set:
+      /external_transmission: forbidden
+
+registry_cases:
+  - name: live_authentication_claimed
+    expected_error: registry.auth_claim
+    set:
+      /profiles/pro_research/health/attended/live_authentication_asserted: true
+
+  - name: private_preservation_profile_enabled
+    expected_error: registry.private_profile
+    set:
+      /profiles/api_search/preservation_tiers:
+        - public_facing
+        - client_private
+
+  - name: pro_research_timeout_drift
+    expected_error: registry.timeout
+    set:
+      /profiles/pro_research/execution_timeout_seconds: 7200
+
+  - name: dormant_api_activated_in_registry
+    expected_error: registry.api_state
+    set:
+      /profiles/api_search/state: enabled
+
+  - name: fixed_model_id_added
+    expected_error: registry.fixed_model
+    set:
+      /profiles/api_synthesis/model_id: arbitrary-renamed-model
+
+  - name: nested_preferred_model_added
+    expected_error: registry.fixed_model
+    set:
+      /profiles/api_synthesis/guardrails/routing:
+        preferred_model: model-zeta
+
+  - name: nested_catalog_snapshot_added
+    expected_error: registry.fixed_catalog
+    set:
+      /profiles/api_synthesis/health/machine/catalog_snapshot:
+        - adapter-zeta
+
+  - name: nested_fallback_table_added
+    expected_error: registry.silent_fallback
+    set:
+      /profiles/api_synthesis/guardrails/fallback_table:
+        - adapter-zeta
+
+  - name: fixed_provider_order_added
+    expected_error: registry.fixed_catalog
+    set:
+      /profiles/provider_auto/guardrails/provider_order:
+        - adapter-zeta
+
+  - name: nested_provider_ids_added
+    expected_error: registry.fixed_catalog
+    set:
+      /profiles/provider_auto/guardrails/provider_ids:
+        - adapter-zeta
+
+  - name: registry_model_ids_allowed
+    expected_error: registry.selection
+    set:
+      /selection/model_ids_allowed_in_registry: true
+
+  - name: registry_silent_fallback_allowed
+    expected_error: registry.selection
+    set:
+      /selection/silent_fallback: allowed
+
+  - name: registry_catalog_not_live
+    expected_error: registry.selection
+    set:
+      /selection/provider_catalog: pinned_snapshot
+
+  - name: fixed_model_prohibition_disabled
+    expected_error: registry.prohibition
+    set:
+      /profiles/api_synthesis/guardrails/fixed_model_ids_forbidden: false
+
+  - name: fixed_provider_order_prohibition_disabled
+    expected_error: registry.prohibition
+    set:
+      /profiles/provider_auto/guardrails/fixed_provider_order_forbidden: false

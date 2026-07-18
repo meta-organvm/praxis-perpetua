@@ -1,0 +1,48 @@
+---
+schema_version: "1.0"
+request_id: SGO-REQ-2026-PPLX-PILOT-02
+commission_id: INQ-2026-014
+requested_at: "2026-07-17T00:00:00Z"
+question: >-
+  What peer-reviewed research published from 2024 through 2026 measures
+  citation accuracy, source quality, or hallucination in AI-assisted
+  literature discovery, and which evaluated practices should SGO adopt?
+required_capabilities:
+  - current_web_retrieval
+  - literature_discovery
+  - multi_source_research
+  - cited_synthesis
+  - claim_verification
+  - markdown_export
+freshness:
+  published_after: "2024-01-01"
+  published_before: "2026-07-17"
+domain_constraints:
+  source_types:
+    - peer_reviewed_primary_research
+    - systematic_review
+    - official_research_repository
+  languages:
+    - en
+verification_strength: systematic
+preservation_tier: public_facing
+external_transmission: public_only
+latency_ceiling_seconds: 3600
+spend_ceiling:
+  currency: USD
+  variable_cost: 0
+output_contract:
+  format: markdown
+  owner_repo: organvm/praxis-perpetua
+  report_path: studies/perplexity-research-pilot/02-academic-discovery.md
+  receipt_path: "studies/perplexity-research-pilot/\
+    02-academic-discovery.receipt.json"
+  raw_export_ref: "private-owner://praxis-perpetua/perplexity-exports/\
+    academic-discovery.md"
+  required_sections:
+    - search_strategy
+    - evidence_synthesis
+    - methodological_limitations
+    - contradictions
+    - source_manifest
+    - novel_actionable_findings

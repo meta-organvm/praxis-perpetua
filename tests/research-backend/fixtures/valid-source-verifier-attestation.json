@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "request_id": "SGO-REQ-2026-FIXTURE-01",
+  "verified_at": "2026-07-17T10:12:00Z",
+  "verifier": "Studium Source Verifier",
+  "verdict": "accepted",
+  "private_connected_sources_used": false,
+  "claims": [
+    {
+      "claim_id": "CLM-FIXTURE-01",
+      "verification_status": "supported",
+      "source_ids": [
+        "SRC-FIXTURE-01"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-FIXTURE-01",
+      "url": "https://example.org/source",
+      "resolvable": true,
+      "source_type": "official_documentation",
+      "primary_source": true,
+      "quality_tier": "A",
+      "metadata_confirmed": true,
+      "language": "en",
+      "jurisdictions": [
+        "US"
+      ]
+    }
+  ]
+}

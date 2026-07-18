@@ -1,0 +1,58 @@
+---
+schema_version: "1.0"
+request_id: SGO-REQ-2026-PPLX-PILOT-01
+commission_id: INQ-2026-014
+requested_at: "2026-07-17T00:00:00Z"
+question: >-
+  Which user-tunable, publicly documented macOS 26 Tahoe memory-pressure,
+  compressor, jetsam, purge, and process resource-class controls can safely
+  reduce chronic memory pressure on a 16 GB host running multiple Electron
+  applications, and which commonly proposed controls are unsupported?
+context_refs:
+  - owner_repo: organvm/domus-genoma
+    path: >-
+      docs/audit/sysdiagnose-2026-05-21/dispatch-envelopes/DISPATCH-005-jetsam-tuning-research.md
+required_capabilities:
+  - current_web_retrieval
+  - multi_source_research
+  - cited_synthesis
+  - claim_verification
+  - markdown_export
+freshness:
+  as_of: "2026-07-17T00:00:00Z"
+domain_constraints:
+  allow_domains:
+    - developer.apple.com
+    - support.apple.com
+    - opensource.apple.com
+    - news.ycombinator.com
+    - stackoverflow.com
+  source_types:
+    - official_documentation
+    - source_code
+    - high_quality_technical_analysis
+  languages:
+    - en
+verification_strength: primary_source
+preservation_tier: operational_internal
+external_transmission: sanitized_only
+latency_ceiling_seconds: 3600
+spend_ceiling:
+  currency: USD
+  variable_cost: 0
+output_contract:
+  format: markdown
+  owner_repo: organvm/domus-genoma
+  report_path: "docs/audit/sysdiagnose-2026-05-21/findings/\
+    RESEARCH-005-jetsam-tuning.md"
+  receipt_path: "docs/audit/sysdiagnose-2026-05-21/findings/\
+    RESEARCH-005-jetsam-tuning.receipt.json"
+  raw_export_ref: "private-owner://domus-genoma/perplexity-exports/\
+    jetsam-tuning.md"
+  required_sections:
+    - answers_by_question
+    - unsupported_or_unknown
+    - concrete_commands
+    - contradictions
+    - source_manifest
+    - novel_actionable_findings

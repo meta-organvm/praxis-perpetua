@@ -1,0 +1,486 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://organvm.dev/schemas/sgo/research-outcome.schema.json",
+  "title": "ResearchOutcome",
+  "description": "One of EvidencePacket, ManualHandoff, or BlockedReceipt.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/EvidencePacket"
+    },
+    {
+      "$ref": "#/$defs/ManualHandoff"
+    },
+    {
+      "$ref": "#/$defs/BlockedReceipt"
+    }
+  ],
+  "$defs": {
+    "Hash": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+    "DurableOutputRef": {
+      "type": "object",
+      "required": [
+        "owner_repo",
+        "report_path",
+        "receipt_path"
+      ],
+      "properties": {
+        "owner_repo": {
+          "type": "string",
+          "minLength": 3
+        },
+        "report_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "receipt_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raw_export_ref": {
+          "type": ["string", "null"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Source": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "title",
+        "url",
+        "author_or_publisher",
+        "published_at",
+        "retrieved_at",
+        "source_type",
+        "primary_source",
+        "quality_tier",
+        "locator"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC-[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "author_or_publisher": {
+          "type": ["string", "null"]
+        },
+        "published_at": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_source": {
+          "type": "boolean"
+        },
+        "quality_tier": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "locator": {
+          "type": ["string", "null"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "Claim": {
+      "type": "object",
+      "required": [
+        "claim_id",
+        "text",
+        "material",
+        "classification",
+        "source_ids",
+        "verification_status"
+      ],
+      "properties": {
+        "claim_id": {
+          "type": "string",
+          "pattern": "^CLM-[A-Z0-9-]+$"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "material": {
+          "type": "boolean"
+        },
+        "classification": {
+          "enum": [
+            "evidence",
+            "inference",
+            "unknown"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-[A-Z0-9-]+$"
+          }
+        },
+        "verification_status": {
+          "enum": [
+            "supported",
+            "partially_supported",
+            "contradicted",
+            "unsupported",
+            "not_applicable"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "classification"
+            ],
+            "properties": {
+              "classification": {
+                "const": "evidence"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "source_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "material"
+            ],
+            "properties": {
+              "material": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "source_ids": {
+                "minItems": 1
+              },
+              "verification_status": {
+                "const": "supported"
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "EvidencePacket": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "outcome_type",
+        "request_id",
+        "retrieved_at",
+        "verification_status",
+        "source_manifest_hash",
+        "claims",
+        "sources",
+        "contradictions",
+        "unknowns",
+        "negative_searches",
+        "novel_actionable_findings",
+        "durable_output_ref"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "outcome_type": {
+          "const": "EvidencePacket"
+        },
+        "request_id": {
+          "type": "string",
+          "pattern": "^SGO-REQ-[0-9]{4}-[A-Z0-9-]+$"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "verification_status": {
+          "const": "accepted"
+        },
+        "source_manifest_hash": {
+          "$ref": "#/$defs/Hash"
+        },
+        "claims": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Claim"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Source"
+          }
+        },
+        "contradictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "negative_searches": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "query",
+              "surface",
+              "searched_at",
+              "result_count",
+              "disposition"
+            ],
+            "properties": {
+              "query": {
+                "type": "string",
+                "minLength": 1
+              },
+              "surface": {
+                "type": "string",
+                "minLength": 1
+              },
+              "searched_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "result_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "disposition": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "novel_actionable_findings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "durable_output_ref": {
+          "$ref": "#/$defs/DurableOutputRef"
+        }
+      },
+      "additionalProperties": false
+    },
+    "ManualHandoff": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "outcome_type",
+        "request_id",
+        "selected_profile",
+        "preservation_tier",
+        "external_transmission",
+        "status",
+        "project_name",
+        "launch_url",
+        "prompt_ref",
+        "standing_instructions_ref",
+        "required_export_format",
+        "execution_timeout_seconds",
+        "ingest_destination",
+        "operator_actions",
+        "resume_predicate"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "outcome_type": {
+          "const": "ManualHandoff"
+        },
+        "request_id": {
+          "type": "string",
+          "pattern": "^SGO-REQ-[0-9]{4}-[A-Z0-9-]+$"
+        },
+        "selected_profile": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "preservation_tier": {
+          "enum": [
+            "public_facing",
+            "operational_internal",
+            "client_private",
+            "essence_private"
+          ]
+        },
+        "external_transmission": {
+          "enum": [
+            "public_only",
+            "sanitized_only",
+            "forbidden"
+          ]
+        },
+        "status": {
+          "enum": [
+            "ready",
+            "awaiting_export",
+            "export_received",
+            "verification_failed"
+          ]
+        },
+        "project_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "launch_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "prompt_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "standing_instructions_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required_export_format": {
+          "const": "markdown"
+        },
+        "execution_timeout_seconds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "ingest_destination": {
+          "type": "string",
+          "minLength": 1
+        },
+        "operator_actions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "resume_predicate": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "BlockedReceipt": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "outcome_type",
+        "request_id",
+        "blocked_at",
+        "blocker_code",
+        "attempted_profiles",
+        "owner_surface",
+        "failed_predicate",
+        "next_action",
+        "reversible_work_completed"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "outcome_type": {
+          "const": "BlockedReceipt"
+        },
+        "request_id": {
+          "type": "string",
+          "pattern": "^SGO-REQ-[0-9]{4}-[A-Z0-9-]+$"
+        },
+        "blocked_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "blocker_code": {
+          "enum": [
+            "missing_capability",
+            "missing_credential",
+            "insufficient_credits",
+            "spend_ceiling",
+            "privacy_mismatch",
+            "provider_unreachable",
+            "invalid_export",
+            "verification_failed"
+          ]
+        },
+        "attempted_profiles": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          }
+        },
+        "owner_surface": {
+          "type": "string",
+          "minLength": 1
+        },
+        "failed_predicate": {
+          "type": "string",
+          "minLength": 1
+        },
+        "next_action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reversible_work_completed": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
